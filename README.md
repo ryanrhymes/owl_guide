@@ -11,6 +11,7 @@ This repository contains a comprehensive guide of [Owl](https://github.com/ryanr
   - Dense and sparse data structures
   - Float and complex numbers
   - Different precisions
+  - Conversion between different types
 
 - N-Dimensional Arrays
   - Generic module
@@ -25,7 +26,10 @@ This repository contains a comprehensive guide of [Owl](https://github.com/ryanr
 
 - Matrices
 
-- Operators
+- Operators & Ext Module
+  - Operator functors
+  - Interoperation of different number types
+  - Making right choice
 
 - Maths & Stats
 
