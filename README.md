@@ -27,7 +27,7 @@ This repository contains a comprehensive guide of [Owl](https://github.com/ryanr
 - Matrices
   - Module structures
   - Linear algebra
-  
+
 
 - Operators & Ext Module
   - Operator functors
@@ -48,3 +48,5 @@ This repository contains a comprehensive guide of [Owl](https://github.com/ryanr
   - Synchronisation and barrier control
 
 - Plotting
+
+- Modules & APIs
