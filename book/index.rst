@@ -10,12 +10,23 @@ Owl Numerical Library
    :maxdepth: 2
    :caption: Contents:
 
+   chapter/intro
+   chapter/install
+   chapter/basics
+   chapter/ndarray
+   chapter/operator
+   chapter/linalg
+   chapter/maths
+   chapter/lazy
+   chapter/algodiff
+   chapter/neural
+   chapter/plot
+
 
 
 Indices and tables
 ==================
 
-* :ref:`chapter/intro`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
