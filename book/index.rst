@@ -15,6 +15,7 @@ Owl Numerical Library
 Indices and tables
 ==================
 
+* :ref:`chapter/intro`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
