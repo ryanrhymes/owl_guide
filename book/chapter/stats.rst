@@ -1,2 +1,2 @@
-Lazy Evaluation and Dataflow
+Statistics Module
 =================================================

@@ -14,13 +14,20 @@ Owl Numerical Library
    chapter/install
    chapter/basics
    chapter/ndarray
+   chapter/broadcast
+   chapter/slicing
+   chapter/naming
    chapter/operator
-   chapter/linalg
    chapter/maths
+   chapter/stats
+   chapter/linalg
+   chapter/fft
    chapter/lazy
    chapter/algodiff
    chapter/neural
    chapter/plot
+   chapter/zoo
+   chapter/metric
 
 
 
