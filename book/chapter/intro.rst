@@ -11,7 +11,7 @@ Features
 Behind the scene, Owl builds up many advanced numerical functions atop of its solid implementation of n-dimensional arrays. Comparing to other numerical libraries, Owl is very unique, e.g. algorithmic differentiation and distributed computing have been included as integral components in the core system to maximise developers' productivity. Owl is young but grows very fast, the current features include:
 
 * N-dimensional array (both dense and sparse)
-* Various number types: `float32`, `float64`, `complex32`, `complex64`, `int8`, `int16`, `int32` ...
+* Various number types: ``float32``, ``float64``, ``complex32``, ``complex64``, ``int16``, ``int32`` ...
 * Linear algebra and full interface to CBLAS and LAPACKE
 * Algorithmic differentiation (or automatic differentiation)
 * Neural network module for deep learning applications
