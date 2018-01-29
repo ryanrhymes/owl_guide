@@ -12,6 +12,7 @@ Owl Numerical Library
 
    chapter/intro
    chapter/install
+   chapter/arch
    chapter/basics
    chapter/ndarray
    chapter/broadcast
