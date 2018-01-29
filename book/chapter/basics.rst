@@ -1,9 +1,11 @@
 Modules & Basics
 =================================================
 
-For both n-dimensional array and matrix, Owl supports: both dense and sparse data structures; both single and double precisions; both real and complex number. The dense data structures is built directly atop of OCaml's native Bigarray library.
+This chapter helps you to warm up with some basic concepts and module structures in Owl. We will delve deeper into some of the topics in future.
 
-In the following examples, I assume that you have already loaded `Owl` library with ``#require "owl"``, and opened Owl module with ``open Owl`` in ``utop``. If you don't have `Owl` installed locally, you can still try the examples by pulling in a ready-made docker image of the latest `Owl` with the following commands.
+For both n-dimensional array and matrix, Owl supports: both dense and sparse data structures; both single and double precisions; both real and complex numbers. The dense data structure is built directly atop of OCaml's native Bigarray library, so if another library also works on Bigarray, exchanging date between both will be trivial.
+
+In the following examples, I assume that you have already loaded Owl library with ``#require "owl"``, and opened Owl module with ``open Owl`` in ``utop``. If you don't have Owl installed locally yet, you can still try the examples by pulling in a ready-made docker image of the latest `Owl` with the following commands.
 
 .. code-block:: bash
 
@@ -11,14 +13,18 @@ In the following examples, I assume that you have already loaded `Owl` library w
   docker run -t -i ryanrhymes/owl
 
 
-OK, let's start.
+Alternatively, it is recommended to have a full installation for the best performance, please refer to the :doc:`Installation Guide <./install>`. OK, let's start.
 
 
 
 Module Structure
 -------------------------------------------------
 
-In Owl, ``Dense`` module contains the modules of dense data structures. For example, ``Dense.Matrix`` supports the operations of dense matrices. Similarly, `Sparse` module contains the modules of sparse data structures.
+
+Dense & Sparse
+-------------------------------------------------
+
+In Owl, ``Dense`` module contains the modules of dense data structures. For example, ``Dense.Matrix`` supports the operations of dense matrices. Similarly, ``Sparse`` module contains the modules of sparse data structures.
 
 .. code-block:: ocaml
 
@@ -40,15 +46,18 @@ All these four modules consists of five submodules to handle different types of 
 With ``Dense.Ndarray``, you can create a dense n-dimensional array of no more than 16 dimensions. This constraint originates from the underlying `Bigarray.Genarray` module. In practice, this constraint makes sense since the space requirement will explode as the dimension increases. If you need anything higher than 16 dimensions, you need to use ``Sparse.Ndarray`` to create a sparse data structure.
 
 
-
 Number & Precision
 -------------------------------------------------
 
-After deciding the suitable data structure (either dense or sparse), you can create a ndarray/matrix using creation function in the modules: e.g., ``empty``, ``create``, ``zeros``, ``ones`` ... The type of numbers (real or complex) and its precision (single or double) needs to be passed to the creations functions as the parameters.
+After deciding the suitable data structure (either dense or sparse), you can create a ndarray/matrix using creation function in the modules, using e.g., ``empty``, ``create``, ``zeros``, ``ones`` ... The type of numbers (real or complex) and its precision (single or double) needs to be passed to the creations functions as the parameters.
 
-Herein, we use creation fucntion `zeros` as an example. With `zeros` function, all the elements in the created data structure will be initialised to zeros.
+.. code-block:: ocaml
 
-The following examples are for dense ndarrays.
+  Dense.Ndarray.Generic.zeros Float64 [|5;5|];;
+
+With ``zeros`` function, all the elements in the created data structure will be initialised to zeros.
+
+Technically, ``S``, ``D``, ``C``, and ``Z`` are the wrappers of ``Generic`` module with explicit type information provided. Therefore you can save the type constructor which was passed into the ``Generic`` module if you use these submodules directly.
 
 .. code-block:: ocaml
 
@@ -88,14 +97,16 @@ The following examples are for sparse matrices.
   Sparse.Matrix.Z.zeros 5 5;;     (* double precision complex matrix *)
 
 
+In short, ``Generic`` module can do everything that submodules can, but for some functions (e.g. creation functions) you need to explicitly pass in the type information.
+
 
 
 Polymorphic Functions
 -------------------------------------------------
 
-Even though you can create four different types of data structure with one module (using different precision and number types), it does not mean you need different functions to process them in Owl. Polymorphism is achieved by pattern matching and GADT.
+Polymorphism is achieved by pattern matching and GADT in ``Generic`` module. This means many functions in ``Generic`` module can handle aforementioned four different number types.
 
-Herein I use the `sum` function in `Dense.Matrix.Generic` module as an example. `sum` function returns the summation of all the elements in a matrix.
+In the following, I use the `sum` function in `Dense.Matrix.Generic` module as an example. `sum` function returns the summation of all the elements in a matrix.
 
 .. code-block:: ocaml
 
@@ -112,9 +123,9 @@ Herein I use the `sum` function in `Dense.Matrix.Generic` module as an example. 
     Dense.Matrix.Generic.sum x;;
 
 
-As we can see, no matter what kind of numbers are held in an identity matrix, we always pass it to `Dense.Matrix.Generic.sum` function. Similarly, we can do the same thing for other modules (`Dense.Ndarray`, `Sparse.Matrix`, and etc.) and other functions (`add`, `mul`, `neg`, and etc.).
+As we can see, no matter what kind of numbers are held in an identity matrix, we always pass it to ``Dense.Matrix.Generic.sum`` function. Similarly, we can do the same thing for other modules (``Dense.Ndarray``, ``Sparse.Matrix``, and etc.) and other functions (``add``, ``mul``, ``neg``, and etc.).
 
-However, there is no need to do so (i.e. passing the variables to `Generic` module) in practical programming since each submodule already contains the same set of operations. E.g, as below,
+Meanwhile, each submodule also contains the same set of functions, e.g, as below,
 
 .. code-block:: ocaml
 
@@ -125,12 +136,12 @@ However, there is no need to do so (i.e. passing the variables to `Generic` modu
 Shortcuts to Double Precision Modules
 -------------------------------------------------
 
-However, always passing type information into creation function may turn out to be a pain for some people. In reality, we often work with double precision numbers on most platforms nowadays. Therefore, Owl provides some shortcuts to the data structures of double precision float numbers:
+In reality, we often work with double precision numbers, therefore Owl provides some shortcuts to the data structures of double precision float numbers:
 
 * ``Arr`` is equivalent to double precision real ``Dense.Ndarray.D``;
 * ``Mat`` is equivalent to double precision real ``Dense.Matrix.D``;
 
-With these shortcut modules, you are no longer required to pass in type information (e.g., in creation functions). Here are some examples as below.
+With these shortcut modules, you are no longer required to pass in type information. Here are some examples.
 
 .. code-block:: ocaml
 
@@ -149,7 +160,7 @@ More examples besides creation functions are as follows.
   ...
 
 
-In general, it is recommended to use these shortcut modules to operate matrices unless you really want to control the precision by yourself. If you actually often work on other number types like Complex, you can certainly make your own alias to corresponding ``S``, ``D``, ``C``, and ``Z`` module if you like.
+If you actually work more often with other number types like Complex, you can certainly make your own alias to corresponding ``S``, ``D``, ``C``, and ``Z`` module if you like.
 
 
 
@@ -167,7 +178,7 @@ As I mentioned before, there are four basic number types. You can therefore cast
 * ``Generic.cast_s2z``: cast from ``float32`` to ``complex64``;
 * ``Generic.cast_d2c``: cast from ``float64`` to ``complex32``;
 
-In fact, all these function call the following ``cast`` function.
+In fact, all these function rely on the following ``cast`` function.
 
 .. code-block:: ocaml
 
@@ -176,12 +187,17 @@ In fact, all these function call the following ``cast`` function.
 
 The first parameter specifies the cast type. If the source type and the cast type are the same, ``cast`` function simply makes a copy of the passed in value.
 
+.. code-block:: ocaml
+
+  let x = Arr.uniform [|8;8|];;                     (* created in float64 *)
+  let y = Dense.Ndarray.Generic.cast Complex32 x;;  (* cast to complex32 *)
+
 
 
 More in Documents
 -------------------------------------------------
 
-To know more about the functions provided in each module, please read the corresponding interface file of `Generic` module. The ``Generic`` module contains the documentation of all the operations that the other four submodules (i.e., ``S``, ``D``, ``C``, ``Z``) can do.
+To know more about the functions provided in each module, please read the corresponding interface file of `Generic` module. The ``Generic`` module contains the documentation.
 
 * `Dense.Ndarray.Generic <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_
 * `Dense.Matrix.Generic <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.mli>`_
