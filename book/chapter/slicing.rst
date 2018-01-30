@@ -114,7 +114,16 @@ OK, that's all. Please make sure you understand it well before you start, but it
 Extending Operators
 -------------------------------------------------
 
-The operators for indexing and slicing are built atop of the extending indexing operators introduced in OCaml 4.06. Three are used in Owl as follows.
+The operators for indexing and slicing are built atop of the extending indexing operators introduced in OCaml 4.06. Three are used in Owl as follows. All of them are defined in the functors in  `Owl_operator` module.
+
+* ``.%{ }``   : `get`
+* ``.%{ }<-`` : `set`
+* ``.${ }``   : `get_slice`
+* ``.${ }<-`` : `set_slice`
+* ``.!{ }``   : `get_fancy`
+* ``.!{ }<-`` : `set_fancy`
+
+Here are some examples to show how to use them.
 
 **.%{ }** for indexing, as follows.
 
@@ -237,6 +246,45 @@ Let' see some more complicated examples.
   (* take the second last row, from the first column to the last, with step size 3 *)
   let s = [ [-2]; [0;-1;3] ] in
     Mat.get_slice s x;;
+
+
+Advanced Usage
+-------------------------------------------------
+
+Here are some more advanced examples to show how to use slicing to achieve quite complicated stuffs.
+
+
+How to implement ``flip`` using slicing?
+
+.. code-block:: ocaml
+
+  let flip x = Mat.get_slice [ [-1; 0]; [ ] ] x;;
+
+
+How to implement ``reverse`` using slicing?
+
+.. code-block:: ocaml
+
+  let reverse x = Mat.get_slice [ [-1; 0]; [-1; 0] ] x;;
+
+
+How to rotate a matrix 90 degrees in clockwise direction?
+
+.. code-block:: ocaml
+
+  let rotate90 x = Mat.(transpose x |> get_slice [ []; [-1;0] ]);;
+
+
+How to perform right circular shift along columns of a matrix?
+
+.. code-block:: ocaml
+
+  let cshift x n =
+    let c = Mat.col_num x in
+    let h = Utils.(range (c - n) (c - 1)) |> Array.to_list in
+    let t = Utils.(range 0 (c - n -1)) |> Array.to_list in
+    Mat.get_fancy [ R []; L (h @ t) ] x
+
 
 
 Slicing and indexing is an important topic in Owl, make sure you understand it well before proceeding to other chapters.
