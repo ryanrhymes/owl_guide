@@ -176,6 +176,8 @@ Low-level factorisation and Helper functions
 Examples
 -------------------------------------------------
 
+The following examples demonstrate how to use high-level functions in Linalg module.
+
 
 Example 1 - Simple Linear Regression
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

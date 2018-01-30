@@ -36,6 +36,13 @@ After over one-year intensive development, Owl is already capable of doing many 
 
 
 
+Why OCaml?
+-------------------------------------------------
+
+Why not?
+
+
+
 Contact Me
 -------------------------------------------------
 
