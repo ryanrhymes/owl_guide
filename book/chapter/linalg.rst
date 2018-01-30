@@ -1,7 +1,7 @@
 Linear Algebra
 =================================================
 
-This chapter will briefly cover the linear algebra modules in Owl. There are two level abstractions in Owl's `Linalg` module:
+This chapter briefly covers the linear algebra modules in Owl. There are two levels abstraction in Owl's `Linalg` module:
 
 1) low-level raw interface to CBLAS and LAPACKE;
 2) high-level wrapper functions in ``Linalg`` module;
@@ -11,32 +11,32 @@ This chapter will briefly cover the linear algebra modules in Owl. There are two
 Low-level Interface to CBLAS & LAPACKE
 -------------------------------------------------
 
-Owl has implemented the full interface to CBLAS and LAPACKE. Comparing to Julia which chooses to interface to BLAS/LAPACK, you might notice the extra ``C`` in ``CBLAS`` and ``E`` in ``LAPACKE`` since they are the corresponding C-interface. It is often believed that C-interface can lead to degraded performance due to the extra overhead. However, it turns out you cannot really notice any difference at all in practice when dealing with medium or large problems.
+Owl has implemented the full interface to CBLAS and LAPACKE. Comparing to Julia which chooses to interface to BLAS/LAPACK, you might notice the extra ``C`` in ``CBLAS`` and ``E`` in ``LAPACKE`` because they are the corresponding C-interface of Fortran implementations. It is often believed that C-interface may introduce some extra overhead. However, it turns out that we cannot really notice any difference at all in practice when dealing with medium or large problems.
 
-- [Owl_cblas module](https://github.com/ryanrhymes/owl/blob/master/lib/owl_cblas.mli) provides the raw interface to CBLAS functions, from level-1 to level-3. The interfaced functions have the same names as those in CBLAS.
+- `Owl_cblas module <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.mli>`_ provides the raw interface to CBLAS functions, from level-1 to level-3. The interfaced functions have the same names as those in CBLAS.
 
-- [Owl_lapacke_generated module](https://github.com/ryanrhymes/owl/blob/master/lib/owl_lapacke_generated.mli) provides the raw interface to LAPACKE functions (over 1,000) which also have the same names defined in [lapacke.h](https://raw.githubusercontent.com/ryanrhymes/owl/master/lib/lapacke.h).
+- `Owl_lapacke_generated module <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.mli>`_ provides the raw interface to LAPACKE functions (over 1,000) which also have the same names defined in `lapacke.h <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/lapacke.h>`_.
 
-- [Owl_lapacke module](https://github.com/ryanrhymes/owl/blob/master/lib/owl_lapacke.ml) is a very thin layer of interface between [Owl_lapacke_generated module](https://github.com/ryanrhymes/owl/blob/master/lib/owl_lapacke_generated.mli) and [Linalg module](https://github.com/ryanrhymes/owl/blob/master/lib/owl_linalg_generic.mli). The purpose is to provide a unified function to make generic functions over different number types.
+- `Owl_lapacke module <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke.ml>`_ is a very thin layer of interface between `Owl_lapacke_generated module <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.mli>`_ and `Linalg module <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.mli>`_. The purpose is to provide a unified function to make generic functions over different number types.
 
 
 
 High-level Wrappers in Linalg Module
 -------------------------------------------------
 
-The functions in [Owl_cblas](https://github.com/ryanrhymes/owl/blob/master/lib/owl_cblas.mli) and [Owl_lapacke_generated](https://github.com/ryanrhymes/owl/blob/master/lib/owl_lapacke_generated.mli) are very low-level, e.g., you need to deal with calculating parameters, allocating workspace, processing results, and many other details. You do not really want to use them directly unless you have enough background in numerical analysis and chase after the performance. In practice, you should use [Linalg module](https://github.com/ryanrhymes/owl/blob/master/lib/owl_linalg_generic.mli) which gives you a high-level wrapper for frequently used functions.
+The functions in `Owl_cblas <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.mli>`_ and `Owl_lapacke_generated <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.mli>`_ are very low-level, e.g., you need to deal with calculating parameters, allocating workspace, post-processing results, and many other tedious details. You do not really want to use them directly unless you have enough background in numerical analysis and chase after the performance. In practice, you should use `Linalg <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.mli>`_ module which gives you a high-level wrapper for frequently used functions.
 
 The ``Linalg`` has the following module structure.
 
-- [Owl.Linalg.Generic](https://github.com/ryanrhymes/owl/blob/master/lib/owl_linalg_generic.mli): generic functions for four number types ``S/D/C/Z``.
+- `Owl.Linalg.Generic <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.mli>`_: generic functions for four number types ``S/D/C/Z``.
 
-- [Owl.Linalg.S](https://github.com/ryanrhymes/owl/blob/master/lib/owl_linalg_s.mli): only for ``float32`` type.
+- `Owl.Linalg.S <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_s.mli>`_: only for ``float32`` type.
 
-- [Owl.Linalg.D](https://github.com/ryanrhymes/owl/blob/master/lib/owl_linalg_d.mli): only for ``float64`` type.
+- `Owl.Linalg.D <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_d.mli>`_: only for ``float64`` type.
 
-- [Owl.Linalg.C](https://github.com/ryanrhymes/owl/blob/master/lib/owl_linalg_c.mli): only for ``complex32`` type.
+- `Owl.Linalg.C <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_c.mli>`_: only for ``complex32`` type.
 
-- [Owl.Linalg.Z](https://github.com/ryanrhymes/owl/blob/master/lib/owl_linalg_z.mli): only for ``complex64`` type.
+- `Owl.Linalg.Z <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_z.mli>`_: only for ``complex64`` type.
 
 ``Generic`` actually can do everything that ``S/D/C/Z`` can but needs some extra type information. The functions in ``Linalg`` module are divided into the following groups.
 
@@ -45,62 +45,131 @@ The ``Linalg`` has the following module structure.
 Basic functions
 -------------------------------------------------
 
-- ``val inv : ('a, 'b) t -> ('a, 'b) t`` : inverse of a square matrix.
-- ``val pinv : ?tol:float -> ('a, 'b) t -> ('a, 'b) t`` : Moore-Penrose pseudoinverse of a matrix.
-- ``val det : ('a, 'b) t -> 'a``: determinant of a square matrix.
-- ``val logdet : ('a, 'b) t -> 'a`` : log of the determinant of a square matrix.
-- ``val rank : ?tol:float -> ('a, 'b) t -> int`` : rank of a rectangular matrix.
-- ``val norm : ?p:float -> ('a, 'b) t -> float`` : p-norm of a matrix.
-- ``val cond : ?p:float -> ('a, 'b) t -> float`` : p-norm condition number of a matrix.
-- ``val rcond : ('a, 'b) t -> float`` : estimate for the reciprocal condition of a matrix in 1-norm.
-- ``val is_triu : ('a, 'b) t -> bool`` : check if a matrix is upper triangular.
-- ``val is_tril : ('a, 'b) t -> bool`` : check if a matrix is lower triangular.
-- ``val is_symmetric : ('a, 'b) t -> bool`` : check if a matrix is symmetric.
-- ``val is_hermitian : ('a, 'b) t -> bool`` : check if a matrix is hermitian.
-- ``val is_diag : ('a, 'b) t -> bool`` : check if a matrix is diagonal.
-- ``val is_posdef : ('a, 'b) t -> bool`` : check if a matrix is positive semi-definite.
+.. code-block:: ocaml
+
+  val inv : ('a, 'b) t -> ('a, 'b) t
+  (* inverse of a square matrix *)
+
+  val pinv : ?tol:float -> ('a, 'b) t -> ('a, 'b) t
+  (* Moore-Penrose pseudo-inverse of a matrix *)
+
+  val det : ('a, 'b) t -> 'a
+  (* determinant of a square matrix  *)
+
+  val logdet : ('a, 'b) t -> 'a
+  (* log of the determinant of a square matrix *)
+
+  val rank : ?tol:float -> ('a, 'b) t -> int
+  (* rank of a rectangular matrix *)
+
+  val norm : ?p:float -> ('a, 'b) t -> float
+  (* p-norm of a matrix *)
+
+  val cond : ?p:float -> ('a, 'b) t -> float
+  (* p-norm condition number of a matrix *)
+
+  val rcond : ('a, 'b) t -> float
+  (* estimate for the reciprocal condition of a matrix in 1-norm *)
+
+  val is_triu : ('a, 'b) t -> bool
+  (* check if a matrix is upper triangular *)
+
+  val is_tril : ('a, 'b) t -> bool
+  (* check if a matrix is lower triangular *)
+
+  val is_symmetric : ('a, 'b) t -> bool
+  (* check if a matrix is symmetric *)
+
+  val is_hermitian : ('a, 'b) t -> bool
+  (* check if a matrix is hermitian *)
+
+  val is_diag : ('a, 'b) t -> bool
+  (* check if a matrix is diagonal *)
+
+  val is_posdef : ('a, 'b) t -> bool
+  (* check if a matrix is positive semi-definite *)
+
 
 
 Factorisation
 -------------------------------------------------
 
-- ``val lu : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t`` : LU factorisation.
-- ``val lq : ?thin:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t`` : LQ factorisation.
-- ``val qr : ?thin:bool -> ?pivot:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t`` : QR factorisation.
-- ``val chol : ?upper:bool -> ('a, 'b) t -> ('a, 'b) t`` : Cholesky factorisation.
-- ``val svd : ?thin:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('a, 'b) t`` : singular value decomposition.
-- ``val svdvals : ('a, 'b) t -> ('a, 'b) t`` : only singular values of SVD.
-- ``val gsvd : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('a, 'b) t * ('a, 'b) t * ('a, 'b) t * ('a, 'b) t`` : generalised singular value decomposition.
-- ``val gsvdvals : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t`` : only singular values of generalised SVD
-- ``val schur : otyp:('c, 'd) kind -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('c, 'd) t`` : Schur factorisation.
-- ``val hess : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t`` : Hessenberg form of a given matrix.
+.. code-block:: ocaml
+
+  val lu : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t
+  (* LU factorisation *)
+
+  val lq : ?thin:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
+  (* LQ factorisation *)
+
+  val qr : ?thin:bool -> ?pivot:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t
+  (* QR factorisation  *)
+
+  val chol : ?upper:bool -> ('a, 'b) t -> ('a, 'b) t
+  (* Cholesky factorisation *)
+
+  val svd : ?thin:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('a, 'b) t
+  (* singular value decomposition *)
+
+  val svdvals : ('a, 'b) t -> ('a, 'b) t
+  (* only singular values of SVD *)
+
+  val gsvd : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('a, 'b) t * ('a, 'b) t * ('a, 'b) t * ('a, 'b) t
+  (* generalised singular value decomposition *)
+
+  val gsvdvals : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+  (* only singular values of generalised SVD *)
+
+  val schur : otyp:('c, 'd) kind -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('c, 'd) t
+  (* Schur factorisation *)
+
+  val hess : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
+  (* Hessenberg form of a given matrix *)
 
 
 
 Eigenvalues & eigenvectors
 -------------------------------------------------
 
-- ``val eig : ?permute:bool -> ?scale:bool -> otyp:('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t * ('a, 'b) t`` : right eigenvectors and eigenvalues of an arbitrary square matrix.
-- ``val eigvals : ?permute:bool -> ?scale:bool -> otyp:('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t`` : only computes the eigenvalues of an arbitrary square matrix.
+.. code-block:: ocaml
+
+  val eig : ?permute:bool -> ?scale:bool -> otyp:('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t * ('a, 'b) t
+  (* right eigenvectors and eigenvalues of an arbitrary square matrix *)
+
+  val eigvals : ?permute:bool -> ?scale:bool -> otyp:('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t
+  (* only computes the eigenvalues of an arbitrary square matrix *)
 
 
 
 Linear system of equations
 -------------------------------------------------
 
-- ``val null : ('a, 'b) t -> ('a, 'b) t`` : an orthonormal basis for the null space of a matrix.
-- ``val linsolve : ?trans:bool -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t`` : solves ``A * x = b`` linear equation system.
-- ``val linreg : ('a, 'b) t -> ('a, 'b) t -> 'a * 'a`` : simple linear regression using OLS.
+.. code-block:: ocaml
+
+  val null : ('a, 'b) t -> ('a, 'b) t
+  (* an orthonormal basis for the null space of a matrix *)
+
+  val linsolve : ?trans:bool -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+  (* solves ``A * x = b`` linear equation system. *)
+
+  val linreg : ('a, 'b) t -> ('a, 'b) t -> 'a * 'a
+  (* simple linear regression using OLS. *)
 
 
 
 Low-level factorisation and Helper functions
 -------------------------------------------------
 
-- ``val lufact : ('a, 'b) t -> ('a, 'b) t * (int32, int32_elt) t``
-- ``val qrfact : ?pivot:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t``
-- ``val bkfact : ?upper:bool -> ?symmetric:bool -> ?rook:bool -> ('a, 'b) t -> ('a, 'b) t * (int32, int32_elt) t``
-- ``val peakflops : ?n:int -> unit -> float`` : peak number of float point operations using [Owl_cblas.dgemm] function.
+.. code-block:: ocaml
+
+  val lufact : ('a, 'b) t -> ('a, 'b) t * (int32, int32_elt) t
+
+  val qrfact : ?pivot:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t
+
+  val bkfact : ?upper:bool -> ?symmetric:bool -> ?rook:bool -> ('a, 'b) t -> ('a, 'b) t * (int32, int32_elt) t
+
+  val peakflops : ?n:int -> unit -> float
+  (* peak number of float point operations using [Owl_cblas.dgemm] function. *)
 
 
 

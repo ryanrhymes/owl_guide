@@ -29,6 +29,7 @@ Owl Numerical Library
    chapter/plot
    chapter/zoo
    chapter/metric
+   chapter/sparse
 
 
 
