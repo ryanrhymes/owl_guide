@@ -42,23 +42,27 @@ For unary operators such as ``Arr.sin x``, the situation is rather straightforwa
 
 For ``Arr.add_ x y``, the first argument ``x`` will be modified in place. Because the binary operators in Owl support broadcasting operations by default, this indicates when using impure functions every dimension of the first argument ``x`` must not be smaller than that of the second argument `y`. In other words, impure function only allows broadcasting smaller ``y`` onto ``x``.
 
-Most binary math functions in Owl are associated with a shorthand operator, such as ``+``, ``-``, ``*``, and ``/``. The impure versions also have their own operators. For exmaple, corresponding to `Arr.(x + y)` which returns the result in a new ndarray, you can write `Arr.(x += y)` which adds up `x` and `y` and saves the result into `x`.
+Most binary math functions in Owl are associated with a shorthand operator, such as ``+``, ``-``, ``*``, and ``/``. The impure versions also have their own operators. For exmaple, corresponding to ``Arr.(x + y)`` which returns the result in a new ndarray, you can write ``Arr.(x += y)`` which adds up ``x`` and ``y`` and saves the result into ``x``.
 
-* ``+`` vs. ``+=``
-* ``-`` vs. ``-=``
-* ``*`` vs. ``*=``
-* ``/`` vs. ``/=``
-* ``+$`` vs. ``+$=``
-* ``-$`` vs. ``-$=``
-* ``*$`` vs. ``*$=``
-* ``/$`` vs. ``/$=``
+==============    ==============    ==============
+Function Name     Pure              Impure
+==============    ==============    ==============
+add               ``+``             ``+=``
+sub               ``-``             ``-=``
+mul               ``*``             ``*=``
+div               ``/``             ``/=``
+add_scalar        ``+$``            ``+$=``
+sub_scalar        ``-$``            ``-$=``
+mul_scalar        ``*$``            ``*$=``
+div_scalar        ``/$``            ``/$=``
+==============    ==============    ==============
 
 
 
 Ndarray vs. Scalar
 -------------------------------------------------
 
-There are many functions can be categorised into reduction operations, such as ``Arr.sum``, ``Arr.prod``, ``Arr.min``, ``Arr.mean``, ``Arr.std``, and etc. All the reduction functions in Owl has a name parameter called ``axis`. When you apply these reduction operations on a multi-dimensional array, there are two possible cases:
+There are many functions can be categorised into reduction operations, such as ``Arr.sum``, ``Arr.prod``, ``Arr.min``, ``Arr.mean``, ``Arr.std``, and etc. All the reduction functions in Owl has a name parameter called ``axis``. When you apply these reduction operations on a multi-dimensional array, there are two possible cases:
 
 * if axis is explicitly specified, then reduce along one specified axis;
 * if axis is not specified, then flatten the ndarray into a vector then reduce all the elements (i.e., reduce along axis 0).
