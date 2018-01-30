@@ -187,23 +187,23 @@ Now, we can finally start our experiment. One benefit of running code in `utop` 
 
   (* simply take all the elements *)
   let s = [ ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* take row 2 *)
   let s = [ [2]; [] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* same as above, take row 2, but only specify low dimension slice definition *)
   let s = [ [2] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* take from row 1 to 3 *)
   let s = [ [1;3] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* take from row 3 to 1, same as the example above but in reverse order *)
   let s = [ [3;1] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
 
 Let' see some more complicated examples.
@@ -212,31 +212,31 @@ Let' see some more complicated examples.
 
   (* take from row 1 to 3 and column 3 to 5, so a sub-matrix of x *)
   let s = [ [1;3]; [3;5] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* take from row 1 to the last row *)
   let s = [ [1;-1]; [] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* take the rows of even number indices, i.e., 0;2;4 *)
   let s = [ [0;-1;2] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* take the column of odd number indices, i.e.,1;3;5 ... *)
   let s = [ []; [1;-1;2] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* reverse all the rows of x *)
   let s = [ [-1;0] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* reverse all the elements of x, same as applying reverse function *)
   let s = [ [-1;0]; [-1;0] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
   (* take the second last row, from the first column to the last, with step size 3 *)
   let s = [ [-2]; [0;-1;3] ] in
-    Mat.get_slice_simple s x;;
+    Mat.get_slice s x;;
 
 
 Slicing and indexing is an important topic in Owl, make sure you understand it well before proceeding to other chapters.
