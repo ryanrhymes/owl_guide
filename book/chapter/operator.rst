@@ -1,7 +1,9 @@
 Operators
 =================================================
 
-This tutorial will go through the operators and ``Ext`` module. The operators in Owl are implemented using functors. However, you do not need to work with functors directly in order to use the operators.
+This chapter will go through the operators and ``Ext`` module. The operators in Owl are implemented in the functors defined in the ``Owl_operator`` module. These operators are categorised into `Basic`, `Extend`, `Matrix`, and `Ndarray` four module type signatures, because some operations are only meaningful for certain data structures. E.g., matrix multiplication ``*@`` is only defined in `Matrix` signature.
+
+As long as a module implements the functions defined in the module signature, you can use these functors to generate corresponding operators. However, you do not need to work with functors directly in Owl since I have done the generation part for you already.
 
 
 
@@ -61,15 +63,15 @@ Operator      Example       Operation                 Dense/Sparse  Ndarray/Matr
 ``%$``        ``x %$ a``    mod divide scalar         Dense         both
 ``**``        ``x ** y``    power function            Dense         both
 ``*@``        ``x *@ y``    matrix multiply           both          Matrix
-``min2``      ``min2 x y``  element-wise min          both          only ``S``, ``D``
-``max2``      ``max2 x y``  element-wise max          both          only ``S``, ``D``
+``min2``      ``min2 x y``  element-wise min          both          both
+``max2``      ``max2 x y``  element-wise max          both          both
 ============  ============  ========================  ============  =================
 
 There are a list of things worth your attention as below.
 
-- ``*`` is for element-wise multiplication; ``*@`` is for matrix multiplication. You can easily understand the reason if you read the source code of [``Algodiff``](https://github.com/ryanrhymes/owl/blob/master/lib/owl_algodiff_generic.ml) module. Using ``*`` for element-wise multiplication (for matrices) leads to the consistent implementation of algorithmic differentiation.
+- ``*`` is for element-wise multiplication; ``*@`` is for matrix multiplication. You can easily understand the reason if you read the source code of `Algodiff <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_algodiff_generic.ml>`_ module. Using ``*`` for element-wise multiplication (for matrices) leads to the consistent implementation of algorithmic differentiation.
 
-- ``+$`` has its corresponding operator ``$+`` if we flip the order of parameters. However, be very careful about the operator precedence since OCaml determines the precedence based on the first character of an infix. ``+$`` preserves the precedence whereas ``$+`` does not. Therefore, I do not recommend using ``$+``. If you do use it, please use parentheses to explicitly specify the precedence. The same argument also applies to ``-$``, ``*$``, and ``/$``.
+- ``+$`` has its corresponding operator ``$+`` if we flip the order of parameters. However, be very careful about the operator precedence since OCaml determines the precedence based on the first character of an infix. ``+$`` preserves the precedence whereas ``$+`` does not. Therefore, I do not recommend using ``$+``. If you do use it, please use parentheses to explicitly specify the precedence. The same argument also applies to ``$-``, ``$*``, and ``$/``.
 
 - For comparison operators, e.g. both ``=`` and ``=.`` compare all the elements in two variables ``x`` and ``y``. The difference is that ``=`` returns a boolean value whereas ``=.`` returns a matrix or ndarray of the same shape and same type as ``x`` and ``y``. In the returned result, the value in a given position is ``1`` if the values of the corresponding position in ``x`` and ``y`` satisfy the predicate, otherwise it is ``0``.
 
@@ -77,56 +79,61 @@ There are a list of things worth your attention as below.
 
 Operators are easy to use, here are some examples.
 
-``````ocaml
-let x = Mat.uniform 5 5;;
-let y = Mat.uniform 5 5;;
+.. code-block:: ocaml
 
-Mat.(x + y);;
-Mat.(x * y);;
-Mat.(x ** y);;
-Mat.(x *@ y);;
+  let x = Mat.uniform 5 5;;
+  let y = Mat.uniform 5 5;;
 
-...
+  Mat.(x + y);;
+  Mat.(x * y);;
+  Mat.(x ** y);;
+  Mat.(x *@ y);;
 
-(* please compare the returns of the following two examples *)
-Mat.(x > y);;
-Mat.(x >. y);;
-``````
+  ...
+
+  (* please compare the returns of the following two examples *)
+  Mat.(x > y);;
+  Mat.(x >. y);;
+
+
+Extending indexing and slicing operators are not included in the table above, but you can find the detailed explanation in :doc:`Slicing Chapter <slicing>`.
 
 
 
 Extension Module
 -------------------------------------------------
 
-As you can see, operators above does not allow interoperation on different number types. E.g., you cannot add a ``float32`` matrix to ``float64`` matrix unless you explicitly call the ``cast`` functions in ``Generic`` module [(read this)](https://github.com/ryanrhymes/owl/wiki/Tutorial:-Basic-Data-Types#casting-into-another-type). It may become a bit annoying when you just want to do some simple experiments in ``utop`` since you need to type more code.
+As you can see, the operators above do not allow interoperation on different number types (which may not be bad thing in many cases actually). E.g., you cannot add a ``float32`` matrix to ``float64`` matrix unless you explicitly call the ``cast`` functions in ``Generic`` module :doc:`[read this] <basics>`.
 
 ``Owl.Ext`` module is specifically designed for this purpose, to make prototyping faster and easier. Once you open the module, ``Ext`` immediately provides a set of operators to allow you to interoperate on different number types, as below. It automatically casts types for you if necessary.
 
-  Operator   Example        Operation
-|:--------:|:------------:|:-----------------------:|
-  ``+``        ``x + y``        add
-  ``-``        ``x - y``        sub
-  ``*``        ``x * y``        mul
-  ``/``        ``x / y``        div
-  ``=``        ``x = y``        comparison, return bool |
-  ``!=``       ``x != y``       comparison, return bool |
-  ``<>``       ``x <> y``       same as ``!=``
-  ``>``        ``x > y``        comparison, return bool |
-  ``<``        ``x < y``        comparison, return bool |
-  ``>=``       ``x >= y``       comparison, return bool |
-  ``<=``       ``x <= y``       comparison, return bool |
-  ``=.``       ``x =. y``       element_wise comparison |
-  ``!=.``      ``x !=. y``      element_wise comparison |
-  ``<>.``      ``x <>. y``      same as ``!=.``
-  ``>.``       ``x >. y``       element_wise comparison |
-  ``<.``       ``x <. y``       element_wise comparison |
-  ``>=.``      ``x >=. y``      element_wise comparison |
-  ``<=.``      ``x <=. y``      element_wise comparison |
-  ``%``        ``x % y``        element_wise mod divide |
-  ``**``       ``x ** y``       power function          |
-  ``*@``       ``x *@ y``       matrix multiply         |
-  ``min2``     ``min2 x y``     element-wise min        |
-  ``max2``     ``max2 x y``     element-wise max        |
+=============    =============     ==========================
+Operator         Example           Operation
+=============    =============     ==========================
+``+``            ``x + y``         add
+``-``            ``x - y``         sub
+``*``            ``x * y``         mul
+``/``            ``x / y``         div
+``=``            ``x = y``         comparison, return bool
+``!=``           ``x != y``        comparison, return bool
+``<>``           ``x <> y``        same as ``!=``
+``>``            ``x > y``         comparison, return bool
+``<``            ``x < y``         comparison, return bool
+``>=``           ``x >= y``        comparison, return bool
+``<=``           ``x <= y``        comparison, return bool
+``=.``           ``x =. y``        element_wise comparison
+``!=.``          ``x !=. y``       element_wise comparison
+``<>.``          ``x <>. y``       same as ``!=.``
+``>.``           ``x >. y``        element_wise comparison
+``<.``           ``x <. y``        element_wise comparison
+``>=.``          ``x >=. y``       element_wise comparison
+``<=.``          ``x <=. y``       element_wise comparison
+``%``            ``x % y``         element_wise mod divide
+``**``           ``x ** y``        power function
+``*@``           ``x *@ y``        matrix multiply
+``min2``         ``min2 x y``      element-wise min
+``max2``         ``max2 x y``      element-wise max
+=============    =============     ==========================
 
 
 You may have noticed, the operators ended with ``$`` (e.g., ``+$``, ``-$`` ...) disappeared from the table, which is simply because we can add/sub/mul/div a scalar with a matrix directly and we do not need these operators any more. Similar for comparison operators, because we can use the same ``>`` operator to compare a matrix to another matrix, or compare a matrix to a scalar, we do not need ``>$`` any longer. Allowing interoperation makes the operator table much shorter.
@@ -147,10 +154,11 @@ Note that ``Ext`` contains its own ``Ext.Dense`` module which further contains t
 - ``Ext.Dense.Matrix.C``
 - ``Ext.Dense.Matrix.Z``
 
-These modules are simply the wrappers of the original modules in ``Owl.Dense`` module so they provide most of the APIs already implemented. The extra thing these wrapper modules does it to pack and unpack the raw number types for you automatically. However, you can certainly use the raw data types then use the constructors defined in [Owl_ext_types](https://github.com/ryanrhymes/owl/blob/master/lib/ext/owl_ext_types.ml) to wrap them up by yourself. The constructors are defined as below.
+These modules are simply the wrappers of the original modules in ``Owl.Dense`` module so they provide most of the APIs already implemented. The extra thing these wrapper modules does is to pack and unpack the raw number types for you automatically. However, you can certainly use the raw data types then use the constructors defined in ``Owl_ext_types`` to wrap them up by yourself. The constructors are defined as below.
 
-``````ocaml
-type ext_typ =
+.. code-block:: ocaml
+
+  type ext_typ =
     F   of float
     C   of Complex.t
     DMS of dms
@@ -169,39 +177,42 @@ type ext_typ =
     SAD of sad
     SAC of sac
     SAZ of saz
-``````
-
-There are also corresponding ``packing`` and ``unpacking`` functions you can use, please read [owl_ext_types.ml](https://github.com/ryanrhymes/owl/blob/master/lib/ext/owl_ext_types.ml) for more details.
 
 
-Before we finish this tutorial, let's see some examples to understand how convenient it is to use ``Ext`` module.
+There are also corresponding ``packing`` and ``unpacking`` functions you can use, please read `owl_ext_types.ml <https://github.com/ryanrhymes/owl/blob/master/src/owl/ext/owl_ext_types.ml>`_ for more details.
 
-``````ocaml
-open Owl.Ext;;
 
-let x = Dense.Matrix.S.uniform 5 5;;
-let y = Dense.Matrix.C.uniform 5 5;;
-let z = Dense.Matrix.D.uniform 5 5;;
+Let's see some examples to understand how convenient it is to use ``Ext`` module.
 
-x + F 5.;;
-x * C Complex.({re = 2.; im = 3.});;
-x - y;;
-x / y;;
-x *@ y;;
+.. code-block:: ocaml
 
-...
+  open Owl.Ext;;
 
-x > z;;
-x >. z;;
-(x >. z) * x;;
-(x >. F 0.5) * x;;
-(F 10. * x) + y *@ z;;
+  let x = Dense.Matrix.S.uniform 5 5;;
+  let y = Dense.Matrix.C.uniform 5 5;;
+  let z = Dense.Matrix.D.uniform 5 5;;
 
-...
+  x + F 5.;;
+  x * C Complex.({re = 2.; im = 3.});;
+  x - y;;
+  x / y;;
+  x *@ y;;
 
-round (F 10. * (x *@ z));;
-sin (F 5.) * cos (x + z);;
-tanh (x * F 10. - z);;
+  ...
 
-...
-``````
+  x > z;;
+  x >. z;;
+  (x >. z) * x;;
+  (x >. F 0.5) * x;;
+  (F 10. * x) + y *@ z;;
+
+  ...
+
+  round (F 10. * (x *@ z));;
+  sin (F 5.) * cos (x + z);;
+  tanh (x * F 10. - z);;
+
+  ...
+
+
+Before we finish this chapter, I want to point out the caveat. ``Ext`` tries to mimic the dynamic languages like Python by with unified types. This prevents OCaml compiler from doing type checking in compilation phase and introduces extra overhead in calling functions. Therefore, besides fast experimenting in toplevel, I do not recommend to use ``Ext`` module in the production code.

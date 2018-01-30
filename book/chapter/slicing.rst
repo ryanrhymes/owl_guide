@@ -27,7 +27,7 @@ For basic slicing, each dimension in the slice definition must be defined in the
   val set_slice : int list list -> ('a, 'b) t -> ('a, 'b) t -> unit
 
 
-Both functions accept ``int list list`` as its slice definition. Every ``list`` element in the ``int list list`` is assumed to be a range. E.g., `[ []; [2]; [-1;3] ]` is equivalent to its full slice definition ``[ R []; R [2]; R [-1;3] ]``, as we will introduce below in fancy slicing.
+Both functions accept ``int list list`` as its slice definition. Every ``list`` element in the ``int list list`` is assumed to be a range. E.g., ``[ []; [2]; [-1;3] ]`` is equivalent to its full slice definition ``[ R []; R [2]; R [-1;3] ]``, as we will introduce below in fancy slicing.
 
 
 
