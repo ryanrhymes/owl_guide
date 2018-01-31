@@ -15,6 +15,7 @@ Owl Numerical Library
    chapter/arch
    chapter/basics
    chapter/ndarray
+   chapter/matrix
    chapter/broadcast
    chapter/slicing
    chapter/naming
@@ -25,6 +26,7 @@ Owl Numerical Library
    chapter/fft
    chapter/lazy
    chapter/algodiff
+   chapter/optimise
    chapter/neural
    chapter/plot
    chapter/zoo
