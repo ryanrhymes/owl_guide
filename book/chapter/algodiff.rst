@@ -171,7 +171,7 @@ The following code first defines a function ``f0``, then calculates from the fir
 Start your ``utop``, then load and open ``Owl`` library. Copy and past the code above, the generated figure will look like this.
 
 .. figure:: ../figure/plot_021.png
-   :width: 100 %
+   :width: 100%
    :align: center
    :alt: higher order derivatives
 

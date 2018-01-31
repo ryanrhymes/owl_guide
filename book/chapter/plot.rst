@@ -19,7 +19,11 @@ Simply put, there are two ways of plotting: 1) with a handle; 2) without a handl
   let f x = Maths.sin x /. x in
   Plot.plot_fun f 1. 15.;;
 
-[[image/plot_002.png]]
+
+.. figure:: ../figure/plot_002.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 However, in most cases, you do want to have a full control over the figure you are creating and do want to configure it a bit especially if you don't like the default red on black theme. Then, here is the standard way of creating a plot using ``Plot.create`` function. Here is its type definition in ``Owl_plot.mli``
 
@@ -51,7 +55,10 @@ As we can see, we first create a plot handle ``h`` and also specified the output
 
 There are two thing worth mentioning here. First, you need to pass ``h`` to the plot function, i.e., ``Plot.plot_fun`` in this example. Second, the most important step is calling ``Plot.output h`` will actually write your figure to a file.
 
-[[image/plot_003.png]]
+.. figure:: ../figure/plot_003.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 Simple, isn't it? Let's continue to more interesting plots.
 
@@ -117,7 +124,10 @@ The key concept of subplot is: you need to successively call ``Plot.subplot`` to
 
 The code will generate the following plot. You can control the configuration of each individual subplot once you have "focused" on it by calling ``Plot.subplot``. Besides teh figure handle ``h``, ``Plot.subplot`` uses the two-dimensional index you pass in to locate the subplot.
 
-[[image/plot_004.png]]
+.. figure:: ../figure/plot_004.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 ``Plot`` module automatically calculates the suitable page size for your subplot. If you are not happy with the calculated size, you can also specify the page size by calling ``Plot.set_page_size`` function.
 
@@ -139,7 +149,10 @@ You can certainly plot multiple lines (or other types of plots) on the same page
   Plot.output h;;
 
 
-[[image/plot_005.png]]
+.. figure:: ../figure/plot_005.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 Here is another example which has both histogram and line plot in one figure.
 
@@ -160,7 +173,10 @@ Here is another example which has both histogram and line plot in one figure.
   Plot.output h;;
 
 
-[[image/plot_006.png]]
+.. figure:: ../figure/plot_006.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 So as long as you "hold" the plot without calling ``Plot.output``, you can plot many data sets in one figure.
 
@@ -202,7 +218,10 @@ Despite of its messy looking, the following example shows how to use legend in O
   Plot.output h;;
 
 
-[[image/plot_007.png]]
+.. figure:: ../figure/plot_007.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -229,7 +248,10 @@ You can draw lines and rectangles in the plot. The first example actually shows 
   Plot.output h;;
 
 
-[[image/plot_008.png]]
+.. figure:: ../figure/plot_008.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 Similarly, the next example shows the filling patterns in ``Plot`` by drawing rectangles.
@@ -246,7 +268,10 @@ Similarly, the next example shows the filling patterns in ``Plot`` by drawing re
   Plot.output h;;
 
 
-[[image/plot_009.png]]
+.. figure:: ../figure/plot_009.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -274,7 +299,10 @@ Line plot is the most basic function. You can specify the colour, marker, and li
   Plot.output h;;
 
 
-[[image/plot_010.png]]
+.. figure:: ../figure/plot_010.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -310,7 +338,10 @@ For scatter plot, the most important thing is the markers. You can check all the
   Plot.output h;;
 
 
-[[image/plot_011.png]]
+.. figure:: ../figure/plot_011.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -334,7 +365,10 @@ Instead of drawing a straight line between two points, stairs plot first moves a
   Plot.output h;;
 
 
-[[image/plot_019.png]]
+.. figure:: ../figure/plot_019.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -357,7 +391,10 @@ Here is the example for making both bar chart and Whisker box. Just note the inp
   Plot.output h;;
 
 
-[[image/plot_012.png]]
+.. figure:: ../figure/plot_012.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -380,7 +417,11 @@ Stem plot is simple, as the following code shows.
   Plot.output h;;
 
 
-[[image/plot_013.png]]
+.. figure:: ../figure/plot_013.png
+   :width: 100%
+   :align: center
+   :alt: plot example
+
 
 Stem plot is often used to show the autocorrelation of a variable, therefore ``Plot`` module already includes ``autocorr`` for your convenience.
 
@@ -401,7 +442,11 @@ Stem plot is often used to show the autocorrelation of a variable, therefore ``P
 
 Obviously, sine function possesses stronger self-similarity than Gaussian noise.
 
-[[image/plot_014.png]]
+
+.. figure:: ../figure/plot_014.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -424,7 +469,10 @@ Area plot is similar to line plot but also fills the space between the line and 
   Plot.output h;;
 
 
-[[image/plot_015.png]]
+.. figure:: ../figure/plot_015.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -446,7 +494,10 @@ Given a series of measurements, you can easily plot the histogram and empirical 
   Plot.output h;;
 
 
-[[image/plot_020.png]]
+.. figure:: ../figure/plot_020.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -484,7 +535,10 @@ Plot with log-scale on either or both x and y axis.
   Plot.output h;;
 
 
-[[image/plot_027.png]]
+.. figure:: ../figure/plot_027.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -512,7 +566,11 @@ First, let's look at ``mesh`` and ``surf`` functions.
   Plot.output h;;
 
 
-[[image/plot_016.png]]
+.. figure:: ../figure/plot_016.png
+   :width: 100%
+   :align: center
+   :alt: plot example
+
 
 It is easy to control the viewpoint with ``altitude`` and ``azimuth`` parameters. Here is an example.
 
@@ -532,7 +590,11 @@ It is easy to control the viewpoint with ``altitude`` and ``azimuth`` parameters
 
 The generated figure is as below.
 
-[[image/plot_022.png]]
+
+.. figure:: ../figure/plot_022.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 Here is another similar example with different data set.
@@ -563,7 +625,11 @@ Here is another similar example with different data set.
   Plot.output h;;
 
 
-[[image/plot_017.png]]
+.. figure:: ../figure/plot_017.png
+   :width: 100%
+   :align: center
+   :alt: plot example
+
 
 Finally, let's look at how heatmap and contour look like.
 
@@ -589,7 +655,10 @@ Finally, let's look at how heatmap and contour look like.
   Plot.output h;;
 
 
-[[image/plot_018.png]]
+.. figure:: ../figure/plot_018.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -632,7 +701,12 @@ A ``qqplot`` displays a quantile-quantile plot of the quantiles of the sample da
 
   Plot.output h;;
 
-[[image/plot_025.png]]
+
+.. figure:: ../figure/plot_025.png
+   :width: 100%
+   :align: center
+   :alt: plot example
+
 
 ``probplot`` is similar to ``qqplot``. It contains two special cases: ``normplot`` for when the given theoretical distribution is Normal distribution, and ``wblplot`` for Weibull Distribution. Here is an example of them.
 
@@ -655,7 +729,11 @@ A ``qqplot`` displays a quantile-quantile plot of the quantiles of the sample da
 
   Plot.output h;;
 
-[[image/plot_026.png]]
+
+.. figure:: ../figure/plot_026.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
@@ -693,7 +771,11 @@ In the following, I will provide some examples to show how to use ``spec`` param
   Plot.output h;;
 
 
-[[image/plot_023.png]]
+.. figure:: ../figure/plot_023.png
+   :width: 100%
+   :align: center
+   :alt: plot example
+
 
 The second example shows how to tune ``surf`` plotting function.
 
@@ -724,7 +806,10 @@ The second example shows how to tune ``surf`` plotting function.
   Plot.output h;;
 
 
-[[image/plot_024.png]]
+.. figure:: ../figure/plot_024.png
+   :width: 100%
+   :align: center
+   :alt: plot example
 
 
 
