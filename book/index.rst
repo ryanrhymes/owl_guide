@@ -30,8 +30,9 @@ Owl Numerical Library
    chapter/neural
    chapter/plot
    chapter/zoo
-   chapter/metric
    chapter/sparse
+   chapter/metric
+   chapter/test
 
 
 
