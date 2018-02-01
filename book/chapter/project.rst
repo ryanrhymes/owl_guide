@@ -27,7 +27,7 @@ The outcome can open the possibility of implementing more advanced and complicat
 
 
 
-Project 3. Enhance the Ndarray module in the Base library
+Project 3. Ndarray in the Base library
 -------------------------------------------------------------------------------
 
 Ndarray is the core data structure in Owl. In the Owl Core library, there is already a very efficient implementation based on the CPU backend. However, the pure OCaml implementation in Base library has many limitation. This project focuses on the optimisation of Ndarray module, as well as introducing more tensor operations. E.g. Einstein Summation is one of the functions can be included.
