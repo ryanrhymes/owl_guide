@@ -391,7 +391,73 @@ Note that you need to pass in the original ndarray because the shape information
 Manipulation Functions
 -------------------------------------------------
 
+Ndarray module contains many useful functions to manipulate ndarrays. For exmaple, you can tile and repeat an ndarray along a specified axis.
+
+.. code-block:: ocaml
+
+  let x = Arr.sequential [|3;4|];;
+
+  let y = Arr.tile x [|2;2|];;
+  let z = Arr.repeat ~axis:0 x 2;;
+
+
+You can also expand the dimensionality of an ndarray, or squeeze out those dimensions having only one element, or even padding elements to an existing ndarray.
+
+.. code-block:: ocaml
+
+  val expand : ('a, 'b) t -> int -> ('a, 'b) t
+
+  val squeeze : ?axis:int array -> ('a, 'b) t -> ('a, 'b) t
+
+  val pad : ?v:'a -> int list list -> ('a, 'b) t -> ('a, 'b) t
+
+
+Another two useful functions are ``concatenate`` and ``split``. ``concatenate`` allows us to concatenate an array of ndarrays along the specified axis. The constraint on the shapes is that, except the dimension for concatenation, the rest dimension must be equal. For matrices, there are two operators associated with concatenation: ``@||`` for concatenating horizontally (i.e. along axis 1); ``@=`` for concatenating vertically (i.e. along axis 0).
+
+``split`` is simply the inverse operation of concatenation.
+
+.. code-block:: ocaml
+
+  val concatenate : ?axis:int -> ('a, 'b) t array -> ('a, 'b) t
+
+  val split : ?axis:int -> int array -> ('a, 'b) t -> ('a, 'b) t array
+
+
+You can also sort an ndarray but note that modification will happen in place.
+
+.. code-block:: ocaml
+
+  val sort : ('a, 'b) t -> unit
+
+
+Converting between ndarrays and OCaml native arrays can be efficiently done with these functions.
+
+.. code-block:: ocaml
+
+  val of_array : ('a, 'b) kind -> 'a array -> int array -> ('a, 'b) t
+
+  val to_array : ('a, 'b) t -> 'a array
+
+
+Again, for matrix this special case, there are ``to_arrays`` and ``of_arrays`` two functions.
+
 
 
 Serialisation
 -------------------------------------------------
+
+Serialisation and deserialisation are simply done with ``save`` and ``load`` two functions.
+
+.. code-block:: ocaml
+
+  val save : ('a, 'b) t -> string -> unit
+
+  val load : ('a, 'b) kind -> string -> ('a, 'b) t
+
+
+Note that you need to pass in type information in ``load`` function otherwise Owl cannot figure out what is contained in the chunk of binary file. Alternatively, you can use the corresponding ``load`` functions in ``S/D/C/Z`` module to save the type information.
+
+``save`` and ``load`` currently use the Marshall module which is brittle since it depends on specific OCaml versions. In the future, these two functions will be improved.
+
+
+There are way more functions contained in the Ndarray module than the ones I have introduced here. Please refer to the API documentation for the full list.
