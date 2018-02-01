@@ -228,17 +228,163 @@ Again, you can use ``scani`` to obtain the indices in the passed in cumulative f
 Vectorised Math
 -------------------------------------------------
 
+Many common operations on ndarrays can be decomposed as a series of ``map``, ``fold``, and ``scan`` operations. There is even a specific programming paradigm built atop of this called `Map-Reduce`, which was hyped several years ago in many data processing frameworks.
+
+The ndarray module has included a very comprehensive set of mathematical functions and all have been vectorised. This means you can apply them directly on an ndarray and the function will be automatically applied to every element in the ndarray.
+
+Conceptually, I can implement all these functions using the aforementioned ``map``, ``fold``, and ``scan``. In reality, these vectorised math is done in C code to guarantee the best performance. Accessing the elements in a bigarray is way faster in C than in OCaml.
+
+For binary math operators, there are ``add``, ``sub``, ``mul``, and etc. For unary operators, there are ``sin``, ``cos``, ``abs``, and etc. You can obtain the complete list of functions in `owl_dense_ndarray_generic.mli <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_.
+
 
 
 Comparison Functions
 -------------------------------------------------
+
+The comparison functions themselves can be divided into several groups. The first group compares two ndarrays then returns a boolean value.
+
+.. code-block:: ocaml
+
+  val equal : ('a, 'b) t -> ('a, 'b) t -> bool
+
+  val not_equal : ('a, 'b) t -> ('a, 'b) t -> bool
+
+  val less : ('a, 'b) t -> ('a, 'b) t -> bool
+
+  val greater : ('a, 'b) t -> ('a, 'b) t -> bool
+
+  ...
+
+
+The second group compares two ndarrays but returns an 0-1 ndarray of the same shape. The elements where the predicate is satisfied have value 1 otherwise 0.
+
+.. code-block:: ocaml
+
+  val elt_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+  val elt_not_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+  val elt_less : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+  val elt_greater : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+  ...
+
+
+The third group is similar to the first one but compares an ndarray with a scalar value, the return is a boolean value.
+
+.. code-block:: ocaml
+
+  val equal_scalar : ('a, 'b) t -> 'a -> bool
+
+  val not_equal_scalar : ('a, 'b) t -> 'a -> bool
+
+  val less_scalar : ('a, 'b) t -> 'a -> bool
+
+  val greater_scalar : ('a, 'b) t -> 'a -> bool
+
+  ...
+
+
+The fourth group is similar to the second one but compares an ndarray with a scalar value, the return is an 0-1 ndarray.
+
+.. code-block:: ocaml
+
+  val elt_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+  val elt_not_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+  val elt_less_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+  val elt_greater_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+  ...
+
+
+You probably noticed the pattern in naming these functions. In general, I recommend using operators rather than calling these function name directly, since it leads to more concise code. Please refer to the chapter on :doc:`Operators <operator>`.
+
+
+The comparison functions can do a lot of useful things for us. As an example, the following code shows how to keep the elements greater than ``0.5`` as they are but set the rest to zeros in an ndarray.
+
+.. code-block:: ocaml
+
+  let x = Arr.uniform [|10; 10|];;
+
+  (* first solution *)
+  let y = Arr.map (fun a -> if a > 0.5 then a else 0.) x;;
+
+
+  (* first solution *)
+  let z = Arr.((x >.$ 0.5) * x);;
+
+
+As you can see, comparison function combined with operators can lead to more concise code. Moreover, it sometimes outperforms the first solution at the price of higher memory consumption, because the loop is done in C rather than in OCaml.
+
+At this point, you might start understanding why I chose to let comparison functions return 0-1 ndarray as the result.
 
 
 
 Iteration Functions
 -------------------------------------------------
 
-index translation thing.
+Like native OCaml array, Owl also provides `iter` and ``iteri`` functions with which you can iterate over all the elements in an ndarray.
+
+.. code-block:: ocaml
+
+  val iteri :(int -> 'a -> unit) -> ('a, 'b) t -> unit
+
+  val iter : ('a -> unit) -> ('a, 'b) t -> unit
+
+
+One common use case is iterating all the elements and checks if one (or several) predicate is satisfied, there is a special set of iteration functions to help you finish this task.
+
+.. code-block:: ocaml
+
+  val is_zero : ('a, 'b) t -> bool
+
+  val is_positive : ('a, 'b) t -> bool
+
+  val is_negative : ('a, 'b) t -> bool
+
+  val is_nonpositive : ('a, 'b) t -> bool
+
+  val is_nonnegative : ('a, 'b) t -> bool
+
+  val is_normal : ('a, 'b) t -> bool
+
+
+The predicates can be very complicated sometimes. In that case you can use the following three functions to pass in arbitrarily complicated functions to check them.
+
+.. code-block:: ocaml
+
+  val exists : ('a -> bool) -> ('a, 'b) t -> bool
+
+  val not_exists : ('a -> bool) -> ('a, 'b) t -> bool
+
+  val for_all : ('a -> bool) -> ('a, 'b) t -> bool
+
+
+All aforementioned functions only tell us whether the predicates are met or not. They cannot tell which elements satisfy the predicate. The following ``filter`` function can return the 1-d indices of those elements satisfying the predicates.
+
+.. code-block:: ocaml
+
+  val filteri : (int -> 'a -> bool) -> ('a, 'b) t -> int array
+
+  val filter : ('a -> bool) -> ('a, 'b) t -> int array
+
+
+We have mentioned many times that 1-d indices will be passed in. The reason is passing in 1-d indices is way faster than passing in n-d indices. However, if you do need n-dimensional indices, you can use the following two functions to convert between 1-d and 2-d indices, both are defined in ``Owl.Utils`` module.
+
+.. code-block:: ocaml
+
+  val ind : ('a, 'b) t -> int -> int array
+  (* 1-d to n-d index conversion *)
+
+  val i1d : ('a, 'b) t -> int array -> int
+  (* n-d to 1-d index conversion *)
+
+
+Note that you need to pass in the original ndarray because the shape information is required for calculating index conversion.
 
 
 
