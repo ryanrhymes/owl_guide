@@ -32,7 +32,7 @@ Owl originated from a research project studying the design of large-scale distri
 
 Even though OCaml is a very well-designed language, the libraries for numerical computing in OCaml were very limited and its tooling was fragmented at that time. In order to test various analytical applications, I had to write many numerical functions myself, from very low level algebra and random number generators to high level stuff like algorithmic differentiation and deep neural networks. These analytical functions started accumulating and eventually grew much bigger than the distributed engine itself. So I took these functions out and wrapped them up as a standalone library -- Owl.
 
-After over one-year intensive development, Owl is already capable of doing many complicated numerical tasks, e.g. see our `[Google Inception V3 demo] <http://http://138.68.155.178/>`_ for image classification. I will keep improving Owl and I hope it helps you in solving real-world problems.
+After over one-year intensive development, Owl is already capable of doing many complicated numerical tasks, e.g. see our `[Google Inception V3 demo] <http://138.68.155.178/>`_ for image classification. I will keep improving Owl and I hope it helps you in solving real-world problems.
 
 
 
@@ -52,4 +52,6 @@ You can reach me in the following ways, looking forward to hearing from you!
 * `Slack Channel <https://join.slack.com/t/owl-dev-team/shared_invite/enQtMjQ3OTM1MDY4MDIwLTA3MmMyMmQ5Y2U0NjJiNjI0NzFhZDAwNGFhODBmMTk4N2ZmNDExYjZiMzI2N2M1MGNiMTUyYTQ5MTAzZjliZDI>`_
 * `Issue Tracker <https://github.com/ryanrhymes/owl/issues>`_
 
-**Student Project:** If you happen to be a student in the Computer Lab and want to do some challenging development and design, here are some `Part II Projects <http://www.cl.cam.ac.uk/research/srg/netos/stud-projs/studproj-17/#owl0>`_. If you are interested in more researchy topics, I also offer Part III Projects and please contact me directly via email.
+**Student Project:** If you happen to be a student in the Computer Lab and want to do some challenging development and design, here are some `Part II Projects <http://www.cl.cam.ac.uk/research/srg/netos/stud-projs/studproj-17/#owl0>`_.
+
+If you are interested in more researchy topics, I also offer Part III Projects and please have a look at :doc:`Owl's Sub-Projects <project>` page and contact me directly via email. 
