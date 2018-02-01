@@ -33,6 +33,9 @@ Owl Numerical Library
    chapter/sparse
    chapter/metric
    chapter/test
+   chapter/nlp
+   chapter/case_inception
+   chapter/case_nst
 
 
 
