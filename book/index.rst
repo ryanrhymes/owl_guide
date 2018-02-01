@@ -36,7 +36,7 @@ Owl Numerical Library
    chapter/nlp
    chapter/case_inception
    chapter/case_nst
-
+   chapter/project
 
 
 Indices and tables
