@@ -54,8 +54,6 @@ This project emphasises applying Owl to solve real world problems. Similar to ou
 
 This project can be tailored based on student’s background, i.e. what he/she is familiar with really.
 
-Ref:
-
 * `Google Inception Demo <http://138.68.155.178/index.html>`_
 * `Neural Style Transfer Demo <http://138.68.155.178/neuraltrans.html>`_
 
