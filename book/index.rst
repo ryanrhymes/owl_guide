@@ -43,7 +43,10 @@ Owl Numerical Library
 API Documentation
 =================================================
 
-* :doc:`apidoc/module_index`
+.. toctree::
+   :maxdepth: 2
+
+   apidoc/module_index
 
 
 

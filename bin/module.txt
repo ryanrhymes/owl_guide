@@ -1,2 +1,3 @@
-owl/dense/owl_dense_ndarray_generic.mli Owl.Dense.Ndarray.Generic
-owl/dense/owl_dense_matrix_generic.mli Owl.Dense.Matrix.Generic
+owl/dense/owl_dense_ndarray_generic.mli Dense.Ndarray.Generic
+owl/dense/owl_dense_matrix_generic.mli Dense.Matrix.Generic
+owl/linalg/owl_linalg_generic.mli Linalg.Generic

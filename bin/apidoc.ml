@@ -1,5 +1,6 @@
 #!/usr/bin/env utop
 
+#require "re.pcre"
 #require "owl_top"
 
 
@@ -24,20 +25,13 @@ let get_content fname =
 let parse_one_mli fname =
   let s = get_content fname in
   let apidoc = Owl.Utils.Stack.make () in
-  (* TODO: still need to improve this regexp *)
-  let regex = Str.regexp "^\\(val [_a-zA-Z0-9? ->:]+\\)[ \n]*(\*\*[ ]*\\([^*)]+\\)\*)" in
-  let ofs = ref 0 in
-  (
-    try while true do
-      let _ofs = Str.search_forward regex s !ofs in
-      let _s = Str.matched_group 0 s in
-      ofs := _ofs + (String.length _s);
-
-      let _fun_typ = Str.matched_group 1 s in
-      let _fun_doc = Str.matched_group 2 s in
-      (* Printf.printf ">>> %s ||| %s <<<\n" _fun_typ _fun_doc; flush_all (); *)
-      Owl.Utils.Stack.push apidoc (_fun_typ, _fun_doc)
-    done with exn -> ()
+  let restr = "^(val .+)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
+  let regex = Re_pcre.regexp ~flags:[`MULTILINE] restr in
+  Re.all regex s |> List.iter (fun mc ->
+    let _fun_typ = Re.Group.get mc 1 in
+    let _fun_doc = Re.Group.get mc 2 in
+    (* Printf.printf ">>> %s ||| %s <<<\n" _fun_typ _fun_doc; flush_all (); *)
+    Owl.Utils.Stack.push apidoc (_fun_typ, _fun_doc)
   );
   Owl.Utils.Stack.to_array apidoc
 
@@ -62,15 +56,17 @@ let write_to_rst apidoc fname module_name =
 let parse_modules src_root dst_root modules =
   let h = open_out (dst_root ^ "module_index.rst") in
   Printf.fprintf h "%s\n%s\n\n" "Owl's API Dcoumentation" (String.make 79 '=');
+  Printf.fprintf h ".. toctree::\n  :maxdepth: 2\n  :caption: Modules:\n\n";
 
   Array.iter (fun (file_name, module_name) ->
     Owl_log.info "parsing %s ..." file_name;
+    let bname = Filename.(basename file_name |> chop_extension) in
     let iname = src_root ^ file_name in
-    let oname = dst_root ^ Filename.(basename file_name |> chop_extension) ^ ".rst" in
+    let oname = dst_root ^ bname ^ ".rst" in
     let apidoc = parse_one_mli iname in
     write_to_rst apidoc oname module_name;
 
-    Printf.fprintf h "%s\n\n" module_name;
+    Printf.fprintf h "  %s\n\n" bname;
   ) modules;
 
   close_out h

@@ -1,7 +1,13 @@
 Owl's API Dcoumentation
 ===============================================================================
 
-Owl.Dense.Ndarray.Generic
+.. toctree::
+  :maxdepth: 2
+  :caption: Modules:
 
-Owl.Dense.Matrix.Generic
+  owl_dense_ndarray_generic
+
+  owl_dense_matrix_generic
+
+  owl_linalg_generic
 
