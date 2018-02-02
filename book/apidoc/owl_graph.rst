@@ -3,7 +3,7 @@ Graph
 
 This document is auto-generated for Owl's APIs.
 #3 functions have been extracted.
-timestamp:1517601449
+timestamp:1517614153
 
 .. code-block:: ocaml
 

@@ -21,6 +21,15 @@ let get_content fname =
   |> Array.fold_left (fun a b -> a ^ (String.trim b) ^ "\n") ""
 
 
+(* convert some ocaml doc string into sphinx *)
+let ocaml_to_sphinx doc =
+  let restr = "\[(.+?)\]" in
+  let regex = Re_pcre.regexp ~flags:[`MULTILINE] restr in
+  Re.replace ~all:false regex ~f:(fun x ->
+    Re.Group.get x 1 |> Printf.sprintf "``%s``"
+  ) doc
+
+
 (* given a mli, parse to retrieve api doc and save to a hashtbl *)
 let parse_one_mli fname =
   let s = get_content fname in
@@ -57,6 +66,7 @@ let parse_modules src_root dst_root modules =
   let h = open_out (dst_root ^ "module_index.rst") in
   Printf.fprintf h "%s\n%s\n\n" "Owl's API Dcoumentation" (String.make 79 '=');
   Printf.fprintf h ".. toctree::\n  :maxdepth: 2\n  :caption: Modules:\n\n";
+  let num_funs = ref 0 in
 
   Array.iter (fun (file_name, module_name) ->
     Owl_log.info "parsing %s ..." file_name;
@@ -67,8 +77,10 @@ let parse_modules src_root dst_root modules =
     write_to_rst apidoc oname module_name;
 
     Printf.fprintf h "  %s\n\n" bname;
+    num_funs := !num_funs + (Array.length apidoc);
   ) modules;
 
+  Printf.fprintf h "#%i functions have extracted.\n\n" !num_funs;
   close_out h
 
 
