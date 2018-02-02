@@ -39,9 +39,16 @@ Owl Numerical Library
    chapter/project
 
 
+
+API Documentation
+=================================================
+
+* :doc:`apidoc/module_index`
+
+
+
 Indices and tables
-==================
+=================================================
 
 * :ref:`genindex`
-* :doc:`apidoc/module_index`
 * :ref:`search`
