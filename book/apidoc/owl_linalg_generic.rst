@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #32 functions have been extracted.
-timestamp:1517599929
+timestamp:1517601114
 
 .. code-block:: ocaml
 
