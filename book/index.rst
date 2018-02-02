@@ -43,5 +43,5 @@ Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
+* :doc:`apidoc/module_index`
 * :ref:`search`

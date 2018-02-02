@@ -1,2 +1,2 @@
-owl_dense_ndarray_generic
-owl_dense_matrix_generic
+owl/dense/owl_dense_ndarray_generic.mli Owl.Dense.Ndarray.Generic
+owl/dense/owl_dense_matrix_generic.mli Owl.Dense.Matrix.Generic
