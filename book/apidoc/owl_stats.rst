@@ -3,7 +3,7 @@ Stats
 
 This document is auto-generated for Owl's APIs.
 #33 functions have been extracted.
-timestamp:1517601113
+timestamp:1517601449
 
 .. code-block:: ocaml
 
