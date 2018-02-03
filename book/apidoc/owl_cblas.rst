@@ -2,14 +2,44 @@ Low-level CBLAS API
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#48 functions have been extracted.
-timestamp:1517663973
+#53 functions have been extracted.
+timestamp:1517665950
+
+.. code-block:: ocaml
+
+  type ('a, 'b) t = ('a, 'b, Bigarray.c_layout) Bigarray.Array1.t
+
+The default type is Bigarray's ``Array1.t``.
+
+.. code-block:: ocaml
+
+  type cblas_layout = CblasRowMajor | CblasColMajor
+
+Layout type, Row-major or Column-major.
+
+.. code-block:: ocaml
+
+  type cblas_transpose = CblasNoTrans | CblasTrans | CblasConjTrans
+
+Transpose type, no transpose, transpose, or conjugate transpose.
+
+.. code-block:: ocaml
+
+  type cblas_uplo = CblasUpper | CblasLower
+
+Upper or lower triangular matrix.
+
+.. code-block:: ocaml
+
+  type cblas_diag = CblasNonUnit | CblasUnit
+
+Diag type
 
 .. code-block:: ocaml
 
   type cblas_side = CblasLeft | CblasRight
 
-{6 Level-1 BLAS: vector-vector operations}
+Side type
 
 .. code-block:: ocaml
 
@@ -173,7 +203,7 @@ Computes a matrix-vector product using a symmetric packed matrix.
   val ger : ?conj:bool -> cblas_layout -> int -> int -> 'a -> ('a, 'b) t -> int -> ('a, 'b) t -> int -> ('a, 'b) t -> int -> unit
 
 Performs a rank-1 update of a general matrix. [conj] is for complex numbers,
-  [true] indicates conjugated, [false] indicates unconjugated.
+[true] indicates conjugated, [false] indicates unconjugated.
 
 .. code-block:: ocaml
 

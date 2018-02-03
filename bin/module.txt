@@ -3,10 +3,11 @@ owl/maths/owl_maths.mli | Maths
 owl/stats/owl_stats.mli | Stats
 owl/dense/owl_dense_ndarray_generic.mli | Dense.Ndarray.Generic
 owl/dense/owl_dense_matrix_generic.mli | Dense.Matrix.Generic
+owl/sparse/owl_sparse_matrix_generic.mli | Sparse.Matrix.Generic
 owl/linalg/owl_linalg_generic.mli | Linalg.Generic
-base/optimise/owl_algodiff_generic.mli | Algodiff.Generic
-base/optimise/owl_numdiff_generic.mli | Numdiff.Generic
-base/misc/owl_lazy.mli | Lazy
+base/optimise/owl_algodiff_generic.mli | Algodiff.Generic Functor
+base/optimise/owl_numdiff_generic.mli | Numdiff.Generic Functor
+base/misc/owl_lazy.mli | Lazy Functor
 base/misc/owl_log.mli | Log
 base/misc/owl_pretty.mli | Pretty
 base/misc/owl_graph.mli | Graph
