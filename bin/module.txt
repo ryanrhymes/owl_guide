@@ -12,5 +12,6 @@ base/misc/owl_lazy.mli | Lazy Functor
 base/misc/owl_log.mli | Log
 base/misc/owl_pretty.mli | Pretty
 base/misc/owl_graph.mli | Graph
+owl/misc/owl_plot.mli | Plot
 owl/cblas/owl_cblas.mli | Low-level CBLAS API
 owl/lapacke/owl_lapacke_generated.mli | Low-level LAPACKE API
