@@ -10,9 +10,9 @@
 let get_module_files fname =
   Owl.Utils.read_file fname
   |> Array.map (fun s ->
-      let l = String.split_on_char ' ' s in
-      let file_name = List.nth l 0 in
-      let module_name = List.nth l 1 in
+      let l = String.split_on_char '|' s in
+      let file_name = List.nth l 0 |> String.trim in
+      let module_name = List.nth l 1 |> String.trim in
       file_name, module_name
     )
 
@@ -34,7 +34,6 @@ let ocaml_to_sphinx doc =
 let parse_one_mli regstr fname =
   let s = get_content fname in
   let apidoc = Owl.Utils.Stack.make () in
-  (* let restr = "[ \n]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in *)
   let regex = Re_pcre.regexp ~flags:[`MULTILINE] regstr in
   Re.all regex s |> List.iter (fun mc ->
     let _fun_typ = Re.Group.get mc 1 in
@@ -85,7 +84,7 @@ let parse_modules src_root dst_root modules =
     num_funs := !num_funs + (Array.length alldoc);
   ) modules;
 
-  Printf.fprintf h "#%i functions have been extracted.\n\n" !num_funs;
+  Printf.fprintf h "#%i entries (incl. constants, types, and functions) have been extracted.\n\n" !num_funs;
   close_out h
 
 

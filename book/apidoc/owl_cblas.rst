@@ -1,9 +1,9 @@
-Cblas
+Low-level CBLAS API
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
 #48 functions have been extracted.
-timestamp:1517659115
+timestamp:1517663973
 
 .. code-block:: ocaml
 

@@ -1,12 +1,14 @@
-owl/maths/owl_maths.mli Maths
-owl/stats/owl_stats.mli Stats
-owl/dense/owl_dense_ndarray_generic.mli Dense.Ndarray.Generic
-owl/dense/owl_dense_matrix_generic.mli Dense.Matrix.Generic
-owl/linalg/owl_linalg_generic.mli Linalg.Generic
-owl/cblas/owl_cblas.mli Cblas
-base/optimise/owl_algodiff_generic.mli Algodiff.Generic
-base/optimise/owl_numdiff_generic.mli Numdiff.Generic
-base/misc/owl_lazy.mli Lazy
-base/misc/owl_log.mli Log
-base/misc/owl_pretty.mli Pretty
-base/misc/owl_graph.mli Graph
+base/misc/owl_const.mli | Constants
+owl/maths/owl_maths.mli | Maths
+owl/stats/owl_stats.mli | Stats
+owl/dense/owl_dense_ndarray_generic.mli | Dense.Ndarray.Generic
+owl/dense/owl_dense_matrix_generic.mli | Dense.Matrix.Generic
+owl/linalg/owl_linalg_generic.mli | Linalg.Generic
+base/optimise/owl_algodiff_generic.mli | Algodiff.Generic
+base/optimise/owl_numdiff_generic.mli | Numdiff.Generic
+base/misc/owl_lazy.mli | Lazy
+base/misc/owl_log.mli | Log
+base/misc/owl_pretty.mli | Pretty
+base/misc/owl_graph.mli | Graph
+owl/cblas/owl_cblas.mli | Low-level CBLAS API
+owl/lapacke/owl_lapacke_generated.mli | Low-level LAPACKE API

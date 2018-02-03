@@ -5,6 +5,8 @@ Owl's API Dcoumentation
   :maxdepth: 2
   :caption: Modules:
 
+  owl_const
+
   owl_maths
 
   owl_stats
@@ -14,8 +16,6 @@ Owl's API Dcoumentation
   owl_dense_matrix_generic
 
   owl_linalg_generic
-
-  owl_cblas
 
   owl_algodiff_generic
 
@@ -29,5 +29,9 @@ Owl's API Dcoumentation
 
   owl_graph
 
-#1176 functions have been extracted.
+  owl_cblas
+
+  owl_lapacke_generated
+
+#2255 entries (incl. constants, types, and functions) have been extracted.
 

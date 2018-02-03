@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #354 functions have been extracted.
-timestamp:1517659114
+timestamp:1517663972
 
 .. code-block:: ocaml
 
