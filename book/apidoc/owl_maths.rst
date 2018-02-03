@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #124 functions have been extracted.
-timestamp:1517618869
+timestamp:1517620144
 
 .. code-block:: ocaml
 

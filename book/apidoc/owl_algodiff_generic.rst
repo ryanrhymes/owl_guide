@@ -3,18 +3,18 @@ Algodiff.Generic
 
 This document is auto-generated for Owl's APIs.
 #23 functions have been extracted.
-timestamp:1517618869
+timestamp:1517620144
 
 .. code-block:: ocaml
 
   val diff : (t -> t) -> t -> t
 
 ``diff f x`` returns the exat derivative of a function ``f : scalar -> scalar``
-    at point ``x``. Simply calling ``diff f`` will return its derivative function ``g``
-    of the same type, i.e. ``g : scalar -> scalar``.
+at point ``x``. Simply calling ``diff f`` will return its derivative function ``g``
+of the same type, i.e. ``g : scalar -> scalar``.
 
-    Keep calling this function will give you higher-order derivatives of ``f``, i.e.
-    ``f |> diff |> diff |> diff |> ...``
+Keep calling this function will give you higher-order derivatives of ``f``, i.e.
+``f |> diff |> diff |> diff |> ...``
 
 .. code-block:: ocaml
 
@@ -64,7 +64,7 @@ similar to ``jacobianv'``, but return ``(f x, jacobianv f x v)``
   val jacobianTv : (t -> t) -> t -> t -> t
 
 transposed jacobian vector product of ``f : (vector -> vector)`` at ``x``
-    along ``v``, backward ad. Namely, it calculates ``transpose ((jacobianv f x v))``.
+along ``v``, backward ad. Namely, it calculates ``transpose ((jacobianv f x v))``.
 
 .. code-block:: ocaml
 
@@ -138,15 +138,15 @@ return ``(f x, grad f x v, hessian f x v)``
   val to_trace : t list -> string
 
 ``to_trace [t0; t1; ...]`` outputs the trace of computation graph on the
-      terminal in a human-readable format.
+terminal in a human-readable format.
 
 .. code-block:: ocaml
 
   val to_dot : t list -> string
 
 ``to_dot [t0; t1; ...]`` outputs the trace of computation graph in the dot
-      file format which you can use other tools further visualisation, such as
-      Graphviz.
+file format which you can use other tools further visualisation, such as
+Graphviz.
 
 .. code-block:: ocaml
 

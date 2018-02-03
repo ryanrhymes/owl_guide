@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #352 functions have been extracted.
-timestamp:1517618869
+timestamp:1517620144
 
 .. code-block:: ocaml
 
@@ -197,7 +197,7 @@ timestamp:1517618869
   val slice_size : ('a, 'b) t -> int array
 
 ``slice_size`` calculates the slice size in each dimension, E.g., if ``x`` is of
-  shape ``[|3;4;5|]``, the returned slice size will be [|60; 20; 5|].
+  shape ``[|3;4;5|]``, the returned slice size will be ``[|60; 20; 5|]``.
 
 .. code-block:: ocaml
 

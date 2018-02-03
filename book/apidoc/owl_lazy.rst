@@ -3,7 +3,7 @@ Lazy
 
 This document is auto-generated for Owl's APIs.
 #20 functions have been extracted.
-timestamp:1517618870
+timestamp:1517620144
 
 .. code-block:: ocaml
 

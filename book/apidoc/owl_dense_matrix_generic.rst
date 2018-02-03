@@ -3,7 +3,7 @@ Dense.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #382 functions have been extracted.
-timestamp:1517618869
+timestamp:1517620144
 
 .. code-block:: ocaml
 
@@ -463,20 +463,20 @@ Similar to ``rows``, ``cols x a`` returns the columns (specified in array ``a``)
   val copy_to : ('a, 'b) t -> ('a, 'b) t -> unit
 
 ``copy_to x y`` copies the elements of ``x`` to ``y``. ``x`` and ``y`` must have
-  the same demensions.
+  the same dimensions.
 
 .. code-block:: ocaml
 
   val copy_row_to : ('a, 'b) t -> ('a, 'b) t -> int -> unit
 
-``copy_row_to v x i`` copies an ``1`` by ``n`` row vector ``v`` to the ``i``th row
+``copy_row_to v x i`` copies an ``1`` by ``n`` row vector ``v`` to the ``ith`` row
   in an ``m`` by ``n`` matrix ``x``.
 
 .. code-block:: ocaml
 
   val copy_col_to : ('a, 'b) t -> ('a, 'b) t -> int -> unit
 
-``copy_col_to v x j`` copies an ``1`` by ``n`` column vector ``v`` to the ``j``th
+``copy_col_to v x j`` copies an ``1`` by ``n`` column vector ``v`` to the ``jth``
   column in an ``m`` by ``n`` matrix ``x``.
 
 .. code-block:: ocaml
