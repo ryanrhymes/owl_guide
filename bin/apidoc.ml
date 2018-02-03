@@ -78,7 +78,7 @@ let parse_modules src_root dst_root modules =
     num_funs := !num_funs + (Array.length apidoc);
   ) modules;
 
-  Printf.fprintf h "#%i functions have extracted.\n\n" !num_funs;
+  Printf.fprintf h "#%i functions have been extracted.\n\n" !num_funs;
   close_out h
 
 
