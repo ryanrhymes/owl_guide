@@ -112,7 +112,7 @@ let parse_modules src_root dst_root modules =
   let num_funs = ref 0 in
 
   Array.iter (fun (file_name, module_name) ->
-    Owl_log.info "apidoc: parsing %s ..." file_name;
+    Owl_log.info "owl_doc: parsing %s ..." file_name;
     let bname = Filename.(basename file_name |> chop_extension) in
     let iname = src_root ^ file_name in
     let oname = dst_root ^ bname ^ ".rst" in
@@ -128,11 +128,11 @@ let parse_modules src_root dst_root modules =
 
 
 let _ =
-  Owl_log.info "apidoc: start ...";
+  Owl_log.info "owl_doc: start ...";
   let src_root = Sys.argv.(1) in
   let dst_root = Sys.argv.(2) in
   let module_file = Sys.argv.(3) in
 
   let module_list = get_module_files module_file in
   parse_modules src_root dst_root module_list;
-  Owl_log.info "apidoc: finished!"
+  Owl_log.info "owl_doc: finished!"

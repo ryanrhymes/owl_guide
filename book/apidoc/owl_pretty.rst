@@ -3,7 +3,7 @@ Pretty
 
 This document is auto-generated for Owl's APIs.
 #2 entries have been extracted.
-timestamp:1517690292
+timestamp:1517701628
 
 .. code-block:: ocaml
 

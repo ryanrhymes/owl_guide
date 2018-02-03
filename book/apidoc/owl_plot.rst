@@ -3,7 +3,7 @@ Plot
 
 This document is auto-generated for Owl's APIs.
 #64 entries have been extracted.
-timestamp:1517690292
+timestamp:1517701629
 
 Type definition
 -------------------------------------------------------------------------------
@@ -466,7 +466,7 @@ Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
 
 
-D plot functions
+Plot 3D figures
 -------------------------------------------------------------------------------
 
 

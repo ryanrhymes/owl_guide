@@ -39,5 +39,7 @@ Owl's API Dcoumentation
 
   owl_lapacke_generated
 
-#3191 entries (incl. constants, types, and functions) have been extracted.
+  owl_lapacke
+
+#3284 entries (incl. constants, types, and functions) have been extracted.
 

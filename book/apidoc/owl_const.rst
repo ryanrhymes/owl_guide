@@ -3,7 +3,7 @@ Constants
 
 This document is auto-generated for Owl's APIs.
 #440 entries have been extracted.
-timestamp:1517690291
+timestamp:1517701626
 
 Maths constants
 -------------------------------------------------------------------------------
@@ -14,7 +14,7 @@ Maths constants
 
   val e : float
 
-e
+e = 2.718281828459045235360287471352662498
 
 
 
@@ -22,7 +22,7 @@ e
 
   val euler : float
 
-Euler constant
+euler = 0.577215664901532860606512090082402431
 
 
 
@@ -30,7 +30,7 @@ Euler constant
 
   val log2e : float
 
-log2_e
+log2e = 1.442695040888963407359924681001892137
 
 
 
@@ -38,7 +38,7 @@ log2_e
 
   val log10e : float
 
-log_10 e
+log10e = 0.434294481903251827651128918916605082
 
 
 
@@ -46,7 +46,7 @@ log_10 e
 
   val loge2 : float
 
-log_e 2
+loge2 = 0.693147180559945309417232121458176568
 
 
 
@@ -54,7 +54,7 @@ log_e 2
 
   val loge10 : float
 
-log_e 10
+loge10 = 2.302585092994045684017991454684364208
 
 
 
@@ -62,7 +62,7 @@ log_e 10
 
   val logepi : float
 
-log_e pi
+logepi = 1.144729885849400174143427351353058711
 
 
 
@@ -70,7 +70,7 @@ log_e pi
 
   val sqrt1_2 : float
 
-1/sqrt(2)
+sqrt1_2 = 0.707106781186547524400844362104849039
 
 
 
@@ -78,7 +78,7 @@ log_e pi
 
   val sqrt2 : float
 
-sqrt(2)
+sqrt2 = 1.414213562373095048801688724209698079
 
 
 
@@ -86,7 +86,7 @@ sqrt(2)
 
   val sqrt3 : float
 
-sqrt(3)
+sqrt3 = 1.732050807568877293527446341505872366
 
 
 
@@ -94,7 +94,7 @@ sqrt(3)
 
   val sqrtpi : float
 
-sqrt(pi)
+sqrtpi = 1.772453850905516027298167483341145182
 
 
 
@@ -102,7 +102,7 @@ sqrt(pi)
 
   val pi : float
 
-pi
+pi = 3.141592653589793238462643383279502884
 
 
 
@@ -110,7 +110,7 @@ pi
 
   val pi2 : float
 
-2*pi
+pi2 = 6.283185307179586476925286766559005768
 
 
 
@@ -118,7 +118,7 @@ pi
 
   val pi4 : float
 
-4*pi
+pi4 = 12.56637061435917295385057353311801153
 
 
 
@@ -126,7 +126,7 @@ pi
 
   val pi_2 : float
 
-pi/2
+pi_2 = 1.570796326794896619231321691639751442
 
 
 
@@ -134,7 +134,7 @@ pi/2
 
   val pi_4 : float
 
-pi/4
+pi_4 = 0.785398163397448309615660845819875721
 
 
 
@@ -192,7 +192,7 @@ Unit prefixes
 
   val fine_structure : float
 
-fine_structure
+fine_structure = 7.297352533e-3
 
 
 
@@ -200,7 +200,7 @@ fine_structure
 
   val avogadro : float
 
-avogadro
+avogadro = 6.02214199e23
 
 
 
@@ -208,7 +208,7 @@ avogadro
 
   val yotta : float
 
-yotta
+yotta = 1e24
 
 
 
@@ -216,7 +216,7 @@ yotta
 
   val zetta : float
 
-zetta
+zetta = 1e21
 
 
 
@@ -224,7 +224,7 @@ zetta
 
   val exa : float
 
-exa
+exa = 1e18
 
 
 
@@ -232,7 +232,7 @@ exa
 
   val peta : float
 
-peta
+peta = 1e15
 
 
 
@@ -240,7 +240,7 @@ peta
 
   val tera : float
 
-tera
+tera = 1e12
 
 
 
@@ -248,7 +248,7 @@ tera
 
   val giga : float
 
-giga
+giga = 1e9
 
 
 
@@ -256,7 +256,7 @@ giga
 
   val mega : float
 
-mega
+mega = 1e6
 
 
 
@@ -264,7 +264,7 @@ mega
 
   val kilo : float
 
-kilo
+kilo = 1e3
 
 
 
@@ -272,7 +272,7 @@ kilo
 
   val hecto : float
 
-hecto
+hecto = 1e2
 
 
 
@@ -280,7 +280,7 @@ hecto
 
   val deca : float
 
-deca
+deca = 1e1
 
 
 
@@ -288,7 +288,7 @@ deca
 
   val deci : float
 
-deci
+deci = 1e-1
 
 
 
@@ -296,7 +296,7 @@ deci
 
   val centi : float
 
-centi
+centi = 1e-2
 
 
 
@@ -304,7 +304,7 @@ centi
 
   val milli : float
 
-milli
+milli = 1e-3
 
 
 
@@ -312,7 +312,7 @@ milli
 
   val micro : float
 
-micro
+micro = 1e-6
 
 
 
@@ -320,7 +320,7 @@ micro
 
   val nano : float
 
-nano
+nano = 1e-9
 
 
 
@@ -328,7 +328,7 @@ nano
 
   val pico : float
 
-pico
+pico = 1e-12
 
 
 
@@ -336,7 +336,7 @@ pico
 
   val femto : float
 
-femto
+femto = 1e-15
 
 
 
@@ -344,7 +344,7 @@ femto
 
   val atto : float
 
-atto
+atto = 1e-18
 
 
 
@@ -352,7 +352,7 @@ atto
 
   val zepto : float
 
-zepto
+zepto = 1e-21
 
 
 
@@ -360,7 +360,7 @@ zepto
 
   val yocto : float
 
-yocto
+yocto = 1e-24
 
 
 
@@ -373,7 +373,7 @@ SI: International System of Units
 
   val speed_of_light : float
 
-speed_of_light
+speed_of_light = 2.99792458e8
 
 
 
@@ -381,7 +381,7 @@ speed_of_light
 
   val gravitational_constant : float
 
-gravitational_constant
+gravitational_constant = 6.673e-11
 
 
 
@@ -389,7 +389,7 @@ gravitational_constant
 
   val plancks_constant_h : float
 
-plancks_constant_h
+plancks_constant_h = 6.62606896e-34
 
 
 
@@ -397,7 +397,7 @@ plancks_constant_h
 
   val plancks_constant_hbar : float
 
-plancks_constant_hbar
+plancks_constant_hbar = 1.05457162825e-34
 
 
 
@@ -405,7 +405,7 @@ plancks_constant_hbar
 
   val astronomical_unit : float
 
-astronomical_unit
+astronomical_unit = 1.49597870691e11
 
 
 
@@ -413,7 +413,7 @@ astronomical_unit
 
   val light_year : float
 
-light_year
+light_year = 9.46053620707e15
 
 
 
@@ -421,7 +421,7 @@ light_year
 
   val parsec : float
 
-parsec
+parsec = 3.08567758135e16
 
 
 
@@ -429,7 +429,7 @@ parsec
 
   val grav_accel : float
 
-grav_accel
+grav_accel = 9.80665e0
 
 
 
@@ -437,7 +437,7 @@ grav_accel
 
   val electron_volt : float
 
-electron_volt
+electron_volt = 1.602176487e-19
 
 
 
@@ -445,7 +445,7 @@ electron_volt
 
   val mass_electron : float
 
-mass_electron
+mass_electron = 9.10938188e-31
 
 
 
@@ -453,7 +453,7 @@ mass_electron
 
   val mass_muon : float
 
-mass_muon
+mass_muon = 1.88353109e-28
 
 
 
@@ -461,7 +461,7 @@ mass_muon
 
   val mass_proton : float
 
-mass_proton
+mass_proton = 1.67262158e-27
 
 
 
@@ -469,7 +469,7 @@ mass_proton
 
   val mass_neutron : float
 
-mass_neutron
+mass_neutron = 1.67492716e-27
 
 
 
@@ -477,7 +477,7 @@ mass_neutron
 
   val rydberg : float
 
-rydberg
+rydberg = 2.17987196968e-18
 
 
 
@@ -485,7 +485,7 @@ rydberg
 
   val boltzmann : float
 
-boltzmann
+boltzmann = 1.3806504e-23
 
 
 
@@ -493,7 +493,7 @@ boltzmann
 
   val molar_gas : float
 
-molar_gas
+molar_gas = 8.314472e0
 
 
 
@@ -501,7 +501,7 @@ molar_gas
 
   val standard_gas_volume : float
 
-standard_gas_volume
+standard_gas_volume = 2.2710981e-2
 
 
 
@@ -509,7 +509,7 @@ standard_gas_volume
 
   val minute : float
 
-minute
+minute = 6e1
 
 
 
@@ -517,7 +517,7 @@ minute
 
   val hour : float
 
-hour
+hour = 3.6e3
 
 
 
@@ -525,7 +525,7 @@ hour
 
   val day : float
 
-day
+day = 8.64e4
 
 
 
@@ -533,7 +533,7 @@ day
 
   val week : float
 
-week
+week = 6.048e5
 
 
 
@@ -541,7 +541,7 @@ week
 
   val inch : float
 
-inch
+inch = 2.54e-2
 
 
 
@@ -549,7 +549,7 @@ inch
 
   val foot : float
 
-foot
+foot = 3.048e-1
 
 
 
@@ -557,7 +557,7 @@ foot
 
   val yard : float
 
-yard
+yard = 9.144e-1
 
 
 
@@ -565,7 +565,7 @@ yard
 
   val mile : float
 
-mile
+mile = 1.609344e3
 
 
 
@@ -573,7 +573,7 @@ mile
 
   val nautical_mile : float
 
-nautical_mile
+nautical_mile = 1.852e3
 
 
 
@@ -581,7 +581,7 @@ nautical_mile
 
   val fathom : float
 
-fathom
+fathom = 1.8288e0
 
 
 
@@ -589,7 +589,7 @@ fathom
 
   val mil : float
 
-mil
+mil = 2.54e-5
 
 
 
@@ -597,7 +597,7 @@ mil
 
   val point : float
 
-point
+point = 3.52777777778e-4
 
 
 
@@ -605,7 +605,7 @@ point
 
   val texpoint : float
 
-texpoint
+texpoint = 3.51459803515e-4
 
 
 
@@ -613,7 +613,7 @@ texpoint
 
   val micron : float
 
-micron
+micron = 1e-6
 
 
 
@@ -621,7 +621,7 @@ micron
 
   val angstrom : float
 
-angstrom
+angstrom = 1e-10
 
 
 
@@ -629,7 +629,7 @@ angstrom
 
   val hectare : float
 
-hectare
+hectare = 1e4
 
 
 
@@ -637,7 +637,7 @@ hectare
 
   val acre : float
 
-acre
+acre = 4.04685642241e3
 
 
 
@@ -645,7 +645,7 @@ acre
 
   val barn : float
 
-barn
+barn = 1e-28
 
 
 
@@ -653,7 +653,7 @@ barn
 
   val liter : float
 
-liter
+liter = 1e-3
 
 
 
@@ -661,7 +661,7 @@ liter
 
   val us_gallon : float
 
-us_gallon
+us_gallon = 3.78541178402e-3
 
 
 
@@ -669,7 +669,7 @@ us_gallon
 
   val quart : float
 
-quart
+quart = 9.46352946004e-4
 
 
 
@@ -677,7 +677,7 @@ quart
 
   val pint : float
 
-pint
+pint = 4.73176473002e-4
 
 
 
@@ -685,7 +685,7 @@ pint
 
   val cup : float
 
-cup
+cup = 2.36588236501e-4
 
 
 
@@ -693,7 +693,7 @@ cup
 
   val fluid_ounce : float
 
-fluid_ounce
+fluid_ounce = 2.95735295626e-5
 
 
 
@@ -701,7 +701,7 @@ fluid_ounce
 
   val tablespoon : float
 
-tablespoon
+tablespoon = 1.47867647813e-5
 
 
 
@@ -709,7 +709,7 @@ tablespoon
 
   val teaspoon : float
 
-teaspoon
+teaspoon = 4.92892159375e-6
 
 
 
@@ -717,7 +717,7 @@ teaspoon
 
   val canadian_gallon : float
 
-canadian_gallon
+canadian_gallon = 4.54609e-3
 
 
 
@@ -725,7 +725,7 @@ canadian_gallon
 
   val uk_gallon : float
 
-uk_gallon
+uk_gallon = 4.546092e-3
 
 
 
@@ -733,7 +733,7 @@ uk_gallon
 
   val miles_per_hour : float
 
-miles_per_hour
+miles_per_hour = 4.4704e-1
 
 
 
@@ -741,7 +741,7 @@ miles_per_hour
 
   val kilometers_per_hour : float
 
-kilometers_per_hour
+kilometers_per_hour = 2.77777777778e-1
 
 
 
@@ -749,7 +749,7 @@ kilometers_per_hour
 
   val knot : float
 
-knot
+knot = 5.14444444444e-1
 
 
 
@@ -757,7 +757,7 @@ knot
 
   val pound_mass : float
 
-pound_mass
+pound_mass = 4.5359237e-1
 
 
 
@@ -765,7 +765,7 @@ pound_mass
 
   val ounce_mass : float
 
-ounce_mass
+ounce_mass = 2.8349523125e-2
 
 
 
@@ -773,7 +773,7 @@ ounce_mass
 
   val ton : float
 
-ton
+ton = 9.0718474e2
 
 
 
@@ -781,7 +781,7 @@ ton
 
   val metric_ton : float
 
-metric_ton
+metric_ton = 1e3
 
 
 
@@ -789,7 +789,7 @@ metric_ton
 
   val uk_ton : float
 
-uk_ton
+uk_ton = 1.0160469088e3
 
 
 
@@ -797,7 +797,7 @@ uk_ton
 
   val troy_ounce : float
 
-troy_ounce
+troy_ounce = 3.1103475e-2
 
 
 
@@ -805,7 +805,7 @@ troy_ounce
 
   val carat : float
 
-carat
+carat = 2e-4
 
 
 
@@ -813,7 +813,7 @@ carat
 
   val unified_atomic_mass : float
 
-unified_atomic_mass
+unified_atomic_mass = 1.660538782e-27
 
 
 
@@ -821,7 +821,7 @@ unified_atomic_mass
 
   val gram_force : float
 
-gram_force
+gram_force = 9.80665e-3
 
 
 
@@ -829,7 +829,7 @@ gram_force
 
   val pound_force : float
 
-pound_force
+pound_force = 4.44822161526e0
 
 
 
@@ -837,7 +837,7 @@ pound_force
 
   val kilopound_force : float
 
-kilopound_force
+kilopound_force = 4.44822161526e3
 
 
 
@@ -845,7 +845,7 @@ kilopound_force
 
   val poundal : float
 
-poundal
+poundal = 1.38255e-1
 
 
 
@@ -853,7 +853,7 @@ poundal
 
   val calorie : float
 
-calorie
+calorie = 4.1868e0
 
 
 
@@ -861,7 +861,7 @@ calorie
 
   val btu : float
 
-btu
+btu = 1.05505585262e3
 
 
 
@@ -869,7 +869,7 @@ btu
 
   val therm : float
 
-therm
+therm = 1.05506e8
 
 
 
@@ -877,7 +877,7 @@ therm
 
   val horsepower : float
 
-horsepower
+horsepower = 7.457e2
 
 
 
@@ -885,7 +885,7 @@ horsepower
 
   val bar : float
 
-bar
+bar = 1e5
 
 
 
@@ -893,7 +893,7 @@ bar
 
   val std_atmosphere : float
 
-std_atmosphere
+std_atmosphere = 1.01325e5
 
 
 
@@ -901,7 +901,7 @@ std_atmosphere
 
   val torr : float
 
-torr
+torr = 1.33322368421e2
 
 
 
@@ -909,7 +909,7 @@ torr
 
   val meter_of_mercury : float
 
-meter_of_mercury
+meter_of_mercury = 1.33322368421e5
 
 
 
@@ -917,7 +917,7 @@ meter_of_mercury
 
   val inch_of_mercury : float
 
-inch_of_mercury
+inch_of_mercury = 3.38638815789e3
 
 
 
@@ -925,7 +925,7 @@ inch_of_mercury
 
   val inch_of_water : float
 
-inch_of_water
+inch_of_water = 2.490889e2
 
 
 
@@ -933,7 +933,7 @@ inch_of_water
 
   val psi : float
 
-psi
+psi = 6.89475729317e3
 
 
 
@@ -941,7 +941,7 @@ psi
 
   val poise : float
 
-poise
+poise = 1e-1
 
 
 
@@ -949,7 +949,7 @@ poise
 
   val stokes : float
 
-stokes
+stokes = 1e-4
 
 
 
@@ -957,7 +957,7 @@ stokes
 
   val stilb : float
 
-stilb
+stilb = 1e4
 
 
 
@@ -965,7 +965,7 @@ stilb
 
   val lumen : float
 
-lumen
+lumen = 1e0
 
 
 
@@ -973,7 +973,7 @@ lumen
 
   val lux : float
 
-lux
+lux = 1e0
 
 
 
@@ -981,7 +981,7 @@ lux
 
   val phot : float
 
-phot
+phot = 1e4
 
 
 
@@ -989,7 +989,7 @@ phot
 
   val footcandle : float
 
-footcandle
+footcandle = 1.076e1
 
 
 
@@ -997,7 +997,7 @@ footcandle
 
   val lambert : float
 
-lambert
+lambert = 1e4
 
 
 
@@ -1005,7 +1005,7 @@ lambert
 
   val footlambert : float
 
-footlambert
+footlambert = 1.07639104e1
 
 
 
@@ -1013,7 +1013,7 @@ footlambert
 
   val curie : float
 
-curie
+curie = 3.7e10
 
 
 
@@ -1021,7 +1021,7 @@ curie
 
   val roentgen : float
 
-roentgen
+roentgen = 2.58e-4
 
 
 
@@ -1029,7 +1029,7 @@ roentgen
 
   val rad : float
 
-rad
+rad = 1e-2
 
 
 
@@ -1037,7 +1037,7 @@ rad
 
   val solar_mass : float
 
-solar_mass
+solar_mass = 1.98892e30
 
 
 
@@ -1045,7 +1045,7 @@ solar_mass
 
   val bohr_radius : float
 
-bohr_radius
+bohr_radius = 5.291772083e-11
 
 
 
@@ -1053,7 +1053,7 @@ bohr_radius
 
   val newton : float
 
-newton
+newton = 1e0
 
 
 
@@ -1061,7 +1061,7 @@ newton
 
   val dyne : float
 
-dyne
+dyne = 1e-5
 
 
 
@@ -1069,7 +1069,7 @@ dyne
 
   val joule : float
 
-joule
+joule = 1e0
 
 
 
@@ -1077,7 +1077,7 @@ joule
 
   val erg : float
 
-erg
+erg = 1e-7
 
 
 
@@ -1085,7 +1085,7 @@ erg
 
   val stefan_boltzmann_constant : float
 
-stefan_boltzmann_constant
+stefan_boltzmann_constant = 5.67040047374e-8
 
 
 
@@ -1093,7 +1093,7 @@ stefan_boltzmann_constant
 
   val thomson_cross_section : float
 
-thomson_cross_section
+thomson_cross_section = 6.65245893699e-29
 
 
 
@@ -1101,7 +1101,7 @@ thomson_cross_section
 
   val bohr_magneton : float
 
-bohr_magneton
+bohr_magneton = 9.27400899e-24
 
 
 
@@ -1109,7 +1109,7 @@ bohr_magneton
 
   val nuclear_magneton : float
 
-nuclear_magneton
+nuclear_magneton = 5.05078317e-27
 
 
 
@@ -1117,7 +1117,7 @@ nuclear_magneton
 
   val electron_magnetic_moment : float
 
-electron_magnetic_moment
+electron_magnetic_moment = 9.28476362e-24
 
 
 
@@ -1125,7 +1125,7 @@ electron_magnetic_moment
 
   val proton_magnetic_moment : float
 
-proton_magnetic_moment
+proton_magnetic_moment = 1.410606633e-26
 
 
 
@@ -1133,7 +1133,7 @@ proton_magnetic_moment
 
   val faraday : float
 
-faraday
+faraday = 9.64853429775e4
 
 
 
@@ -1141,7 +1141,7 @@ faraday
 
   val electron_charge : float
 
-electron_charge
+electron_charge = 1.602176487e-19
 
 
 
@@ -1149,7 +1149,7 @@ electron_charge
 
   val vacuum_permittivity : float
 
-vacuum_permittivity
+vacuum_permittivity = 8.854187817e-12
 
 
 
@@ -1157,7 +1157,7 @@ vacuum_permittivity
 
   val vacuum_permeability : float
 
-vacuum_permeability
+vacuum_permeability = 1.25663706144e-6
 
 
 
@@ -1165,7 +1165,7 @@ vacuum_permeability
 
   val debye : float
 
-debye
+debye = 3.33564095198e-30
 
 
 
@@ -1173,7 +1173,7 @@ debye
 
   val gauss : float
 
-gauss
+gauss = 1e-4
 
 
 
@@ -1186,7 +1186,7 @@ MKS: MKS system of units
 
   val speed_of_light : float
 
-speed_of_light
+speed_of_light = 2.99792458e8
 
 
 
@@ -1194,7 +1194,7 @@ speed_of_light
 
   val gravitational_constant : float
 
-gravitational_constant
+gravitational_constant = 6.673e-11
 
 
 
@@ -1202,7 +1202,7 @@ gravitational_constant
 
   val plancks_constant_h : float
 
-plancks_constant_h
+plancks_constant_h = 6.62606896e-34
 
 
 
@@ -1210,7 +1210,7 @@ plancks_constant_h
 
   val plancks_constant_hbar : float
 
-plancks_constant_hbar
+plancks_constant_hbar = 1.05457162825e-34
 
 
 
@@ -1218,7 +1218,7 @@ plancks_constant_hbar
 
   val astronomical_unit : float
 
-astronomical_unit
+astronomical_unit = 1.49597870691e11
 
 
 
@@ -1226,7 +1226,7 @@ astronomical_unit
 
   val light_year : float
 
-light_year
+light_year = 9.46053620707e15
 
 
 
@@ -1234,7 +1234,7 @@ light_year
 
   val parsec : float
 
-parsec
+parsec = 3.08567758135e16
 
 
 
@@ -1242,7 +1242,7 @@ parsec
 
   val grav_accel : float
 
-grav_accel
+grav_accel = 9.80665e0
 
 
 
@@ -1250,7 +1250,7 @@ grav_accel
 
   val electron_volt : float
 
-electron_volt
+electron_volt = 1.602176487e-19
 
 
 
@@ -1258,7 +1258,7 @@ electron_volt
 
   val mass_electron : float
 
-mass_electron
+mass_electron = 9.10938188e-31
 
 
 
@@ -1266,7 +1266,7 @@ mass_electron
 
   val mass_muon : float
 
-mass_muon
+mass_muon = 1.88353109e-28
 
 
 
@@ -1274,7 +1274,7 @@ mass_muon
 
   val mass_proton : float
 
-mass_proton
+mass_proton = 1.67262158e-27
 
 
 
@@ -1282,7 +1282,7 @@ mass_proton
 
   val mass_neutron : float
 
-mass_neutron
+mass_neutron = 1.67492716e-27
 
 
 
@@ -1290,7 +1290,7 @@ mass_neutron
 
   val rydberg : float
 
-rydberg
+rydberg = 2.17987196968e-18
 
 
 
@@ -1298,7 +1298,7 @@ rydberg
 
   val boltzmann : float
 
-boltzmann
+boltzmann = 1.3806504e-23
 
 
 
@@ -1306,7 +1306,7 @@ boltzmann
 
   val molar_gas : float
 
-molar_gas
+molar_gas = 8.314472e0
 
 
 
@@ -1314,7 +1314,7 @@ molar_gas
 
   val standard_gas_volume : float
 
-standard_gas_volume
+standard_gas_volume = 2.2710981e-2
 
 
 
@@ -1322,7 +1322,7 @@ standard_gas_volume
 
   val minute : float
 
-minute
+minute = 6e1
 
 
 
@@ -1330,7 +1330,7 @@ minute
 
   val hour : float
 
-hour
+hour = 3.6e3
 
 
 
@@ -1338,7 +1338,7 @@ hour
 
   val day : float
 
-day
+day = 8.64e4
 
 
 
@@ -1346,7 +1346,7 @@ day
 
   val week : float
 
-week
+week = 6.048e5
 
 
 
@@ -1354,7 +1354,7 @@ week
 
   val inch : float
 
-inch
+inch = 2.54e-2
 
 
 
@@ -1362,7 +1362,7 @@ inch
 
   val foot : float
 
-foot
+foot = 3.048e-1
 
 
 
@@ -1370,7 +1370,7 @@ foot
 
   val yard : float
 
-yard
+yard = 9.144e-1
 
 
 
@@ -1378,7 +1378,7 @@ yard
 
   val mile : float
 
-mile
+mile = 1.609344e3
 
 
 
@@ -1386,7 +1386,7 @@ mile
 
   val nautical_mile : float
 
-nautical_mile
+nautical_mile = 1.852e3
 
 
 
@@ -1394,7 +1394,7 @@ nautical_mile
 
   val fathom : float
 
-fathom
+fathom = 1.8288e0
 
 
 
@@ -1402,7 +1402,7 @@ fathom
 
   val mil : float
 
-mil
+mil = 2.54e-5
 
 
 
@@ -1410,7 +1410,7 @@ mil
 
   val point : float
 
-point
+point = 3.52777777778e-4
 
 
 
@@ -1418,7 +1418,7 @@ point
 
   val texpoint : float
 
-texpoint
+texpoint = 3.51459803515e-4
 
 
 
@@ -1426,7 +1426,7 @@ texpoint
 
   val micron : float
 
-micron
+micron = 1e-6
 
 
 
@@ -1434,7 +1434,7 @@ micron
 
   val angstrom : float
 
-angstrom
+angstrom = 1e-10
 
 
 
@@ -1442,7 +1442,7 @@ angstrom
 
   val hectare : float
 
-hectare
+hectare = 1e4
 
 
 
@@ -1450,7 +1450,7 @@ hectare
 
   val acre : float
 
-acre
+acre = 4.04685642241e3
 
 
 
@@ -1458,7 +1458,7 @@ acre
 
   val barn : float
 
-barn
+barn = 1e-28
 
 
 
@@ -1466,7 +1466,7 @@ barn
 
   val liter : float
 
-liter
+liter = 1e-3
 
 
 
@@ -1474,7 +1474,7 @@ liter
 
   val us_gallon : float
 
-us_gallon
+us_gallon = 3.78541178402e-3
 
 
 
@@ -1482,7 +1482,7 @@ us_gallon
 
   val quart : float
 
-quart
+quart = 9.46352946004e-4
 
 
 
@@ -1490,7 +1490,7 @@ quart
 
   val pint : float
 
-pint
+pint = 4.73176473002e-4
 
 
 
@@ -1498,7 +1498,7 @@ pint
 
   val cup : float
 
-cup
+cup = 2.36588236501e-4
 
 
 
@@ -1506,7 +1506,7 @@ cup
 
   val fluid_ounce : float
 
-fluid_ounce
+fluid_ounce = 2.95735295626e-5
 
 
 
@@ -1514,7 +1514,7 @@ fluid_ounce
 
   val tablespoon : float
 
-tablespoon
+tablespoon = 1.47867647813e-5
 
 
 
@@ -1522,7 +1522,7 @@ tablespoon
 
   val teaspoon : float
 
-teaspoon
+teaspoon = 4.92892159375e-6
 
 
 
@@ -1530,7 +1530,7 @@ teaspoon
 
   val canadian_gallon : float
 
-canadian_gallon
+canadian_gallon = 4.54609e-3
 
 
 
@@ -1538,7 +1538,7 @@ canadian_gallon
 
   val uk_gallon : float
 
-uk_gallon
+uk_gallon = 4.546092e-3
 
 
 
@@ -1546,7 +1546,7 @@ uk_gallon
 
   val miles_per_hour : float
 
-miles_per_hour
+miles_per_hour = 4.4704e-1
 
 
 
@@ -1554,7 +1554,7 @@ miles_per_hour
 
   val kilometers_per_hour : float
 
-kilometers_per_hour
+kilometers_per_hour = 2.77777777778e-1
 
 
 
@@ -1562,7 +1562,7 @@ kilometers_per_hour
 
   val knot : float
 
-knot
+knot = 5.14444444444e-1
 
 
 
@@ -1570,7 +1570,7 @@ knot
 
   val pound_mass : float
 
-pound_mass
+pound_mass = 4.5359237e-1
 
 
 
@@ -1578,7 +1578,7 @@ pound_mass
 
   val ounce_mass : float
 
-ounce_mass
+ounce_mass = 2.8349523125e-2
 
 
 
@@ -1586,7 +1586,7 @@ ounce_mass
 
   val ton : float
 
-ton
+ton = 9.0718474e2
 
 
 
@@ -1594,7 +1594,7 @@ ton
 
   val metric_ton : float
 
-metric_ton
+metric_ton = 1e3
 
 
 
@@ -1602,7 +1602,7 @@ metric_ton
 
   val uk_ton : float
 
-uk_ton
+uk_ton = 1.0160469088e3
 
 
 
@@ -1610,7 +1610,7 @@ uk_ton
 
   val troy_ounce : float
 
-troy_ounce
+troy_ounce = 3.1103475e-2
 
 
 
@@ -1618,7 +1618,7 @@ troy_ounce
 
   val carat : float
 
-carat
+carat = 2e-4
 
 
 
@@ -1626,7 +1626,7 @@ carat
 
   val unified_atomic_mass : float
 
-unified_atomic_mass
+unified_atomic_mass = 1.660538782e-27
 
 
 
@@ -1634,7 +1634,7 @@ unified_atomic_mass
 
   val gram_force : float
 
-gram_force
+gram_force = 9.80665e-3
 
 
 
@@ -1642,7 +1642,7 @@ gram_force
 
   val pound_force : float
 
-pound_force
+pound_force = 4.44822161526e0
 
 
 
@@ -1650,7 +1650,7 @@ pound_force
 
   val kilopound_force : float
 
-kilopound_force
+kilopound_force = 4.44822161526e3
 
 
 
@@ -1658,7 +1658,7 @@ kilopound_force
 
   val poundal : float
 
-poundal
+poundal = 1.38255e-1
 
 
 
@@ -1666,7 +1666,7 @@ poundal
 
   val calorie : float
 
-calorie
+calorie = 4.1868e0
 
 
 
@@ -1674,7 +1674,7 @@ calorie
 
   val btu : float
 
-btu
+btu = 1.05505585262e3
 
 
 
@@ -1682,7 +1682,7 @@ btu
 
   val therm : float
 
-therm
+therm = 1.05506e8
 
 
 
@@ -1690,7 +1690,7 @@ therm
 
   val horsepower : float
 
-horsepower
+horsepower = 7.457e2
 
 
 
@@ -1698,7 +1698,7 @@ horsepower
 
   val bar : float
 
-bar
+bar = 1e5
 
 
 
@@ -1706,7 +1706,7 @@ bar
 
   val std_atmosphere : float
 
-std_atmosphere
+std_atmosphere = 1.01325e5
 
 
 
@@ -1714,7 +1714,7 @@ std_atmosphere
 
   val torr : float
 
-torr
+torr = 1.33322368421e2
 
 
 
@@ -1722,7 +1722,7 @@ torr
 
   val meter_of_mercury : float
 
-meter_of_mercury
+meter_of_mercury = 1.33322368421e5
 
 
 
@@ -1730,7 +1730,7 @@ meter_of_mercury
 
   val inch_of_mercury : float
 
-inch_of_mercury
+inch_of_mercury = 3.38638815789e3
 
 
 
@@ -1738,7 +1738,7 @@ inch_of_mercury
 
   val inch_of_water : float
 
-inch_of_water
+inch_of_water = 2.490889e2
 
 
 
@@ -1746,7 +1746,7 @@ inch_of_water
 
   val psi : float
 
-psi
+psi = 6.89475729317e3
 
 
 
@@ -1754,7 +1754,7 @@ psi
 
   val poise : float
 
-poise
+poise = 1e-1
 
 
 
@@ -1762,7 +1762,7 @@ poise
 
   val stokes : float
 
-stokes
+stokes = 1e-4
 
 
 
@@ -1770,7 +1770,7 @@ stokes
 
   val stilb : float
 
-stilb
+stilb = 1e4
 
 
 
@@ -1778,7 +1778,7 @@ stilb
 
   val lumen : float
 
-lumen
+lumen = 1e0
 
 
 
@@ -1786,7 +1786,7 @@ lumen
 
   val lux : float
 
-lux
+lux = 1e0
 
 
 
@@ -1794,7 +1794,7 @@ lux
 
   val phot : float
 
-phot
+phot = 1e4
 
 
 
@@ -1802,7 +1802,7 @@ phot
 
   val footcandle : float
 
-footcandle
+footcandle = 1.076e1
 
 
 
@@ -1810,7 +1810,7 @@ footcandle
 
   val lambert : float
 
-lambert
+lambert = 1e4
 
 
 
@@ -1818,7 +1818,7 @@ lambert
 
   val footlambert : float
 
-footlambert
+footlambert = 1.07639104e1
 
 
 
@@ -1826,7 +1826,7 @@ footlambert
 
   val curie : float
 
-curie
+curie = 3.7e10
 
 
 
@@ -1834,7 +1834,7 @@ curie
 
   val roentgen : float
 
-roentgen
+roentgen = 2.58e-4
 
 
 
@@ -1842,7 +1842,7 @@ roentgen
 
   val rad : float
 
-rad
+rad = 1e-2
 
 
 
@@ -1850,7 +1850,7 @@ rad
 
   val solar_mass : float
 
-solar_mass
+solar_mass = 1.98892e30
 
 
 
@@ -1858,7 +1858,7 @@ solar_mass
 
   val bohr_radius : float
 
-bohr_radius
+bohr_radius = 5.291772083e-11
 
 
 
@@ -1866,7 +1866,7 @@ bohr_radius
 
   val newton : float
 
-newton
+newton = 1e0
 
 
 
@@ -1874,7 +1874,7 @@ newton
 
   val dyne : float
 
-dyne
+dyne = 1e-5
 
 
 
@@ -1882,7 +1882,7 @@ dyne
 
   val joule : float
 
-joule
+joule = 1e0
 
 
 
@@ -1890,7 +1890,7 @@ joule
 
   val erg : float
 
-erg
+erg = 1e-7
 
 
 
@@ -1898,7 +1898,7 @@ erg
 
   val stefan_boltzmann_constant : float
 
-stefan_boltzmann_constant
+stefan_boltzmann_constant = 5.67040047374e-8
 
 
 
@@ -1906,7 +1906,7 @@ stefan_boltzmann_constant
 
   val thomson_cross_section : float
 
-thomson_cross_section
+thomson_cross_section = 6.65245893699e-29
 
 
 
@@ -1914,7 +1914,7 @@ thomson_cross_section
 
   val bohr_magneton : float
 
-bohr_magneton
+bohr_magneton = 9.27400899e-24
 
 
 
@@ -1922,7 +1922,7 @@ bohr_magneton
 
   val nuclear_magneton : float
 
-nuclear_magneton
+nuclear_magneton = 5.05078317e-27
 
 
 
@@ -1930,7 +1930,7 @@ nuclear_magneton
 
   val electron_magnetic_moment : float
 
-electron_magnetic_moment
+electron_magnetic_moment = 9.28476362e-24
 
 
 
@@ -1938,7 +1938,7 @@ electron_magnetic_moment
 
   val proton_magnetic_moment : float
 
-proton_magnetic_moment
+proton_magnetic_moment = 1.410606633e-26
 
 
 
@@ -1946,7 +1946,7 @@ proton_magnetic_moment
 
   val faraday : float
 
-faraday
+faraday = 9.64853429775e4
 
 
 
@@ -1954,7 +1954,7 @@ faraday
 
   val electron_charge : float
 
-electron_charge
+electron_charge = 1.602176487e-19
 
 
 
@@ -1962,7 +1962,7 @@ electron_charge
 
   val vacuum_permittivity : float
 
-vacuum_permittivity
+vacuum_permittivity = 8.854187817e-12
 
 
 
@@ -1970,7 +1970,7 @@ vacuum_permittivity
 
   val vacuum_permeability : float
 
-vacuum_permeability
+vacuum_permeability = 1.25663706144e-6
 
 
 
@@ -1978,7 +1978,7 @@ vacuum_permeability
 
   val debye : float
 
-debye
+debye = 3.33564095198e-30
 
 
 
@@ -1986,7 +1986,7 @@ debye
 
   val gauss : float
 
-gauss
+gauss = 1e-4
 
 
 
@@ -1999,7 +1999,7 @@ CGS: Centimetre–gram–second system of units
 
   val speed_of_light : float
 
-speed_of_light
+speed_of_light = 2.99792458e10
 
 
 
@@ -2007,7 +2007,7 @@ speed_of_light
 
   val gravitational_constant : float
 
-gravitational_constant
+gravitational_constant = 6.673e-8
 
 
 
@@ -2015,7 +2015,7 @@ gravitational_constant
 
   val plancks_constant_h : float
 
-plancks_constant_h
+plancks_constant_h = 6.62606896e-27
 
 
 
@@ -2023,7 +2023,7 @@ plancks_constant_h
 
   val plancks_constant_hbar : float
 
-plancks_constant_hbar
+plancks_constant_hbar = 1.05457162825e-27
 
 
 
@@ -2031,7 +2031,7 @@ plancks_constant_hbar
 
   val astronomical_unit : float
 
-astronomical_unit
+astronomical_unit = 1.49597870691e13
 
 
 
@@ -2039,7 +2039,7 @@ astronomical_unit
 
   val light_year : float
 
-light_year
+light_year = 9.46053620707e17
 
 
 
@@ -2047,7 +2047,7 @@ light_year
 
   val parsec : float
 
-parsec
+parsec = 3.08567758135e18
 
 
 
@@ -2055,7 +2055,7 @@ parsec
 
   val grav_accel : float
 
-grav_accel
+grav_accel = 9.80665e2
 
 
 
@@ -2063,7 +2063,7 @@ grav_accel
 
   val electron_volt : float
 
-electron_volt
+electron_volt = 1.602176487e-12
 
 
 
@@ -2071,7 +2071,7 @@ electron_volt
 
   val mass_electron : float
 
-mass_electron
+mass_electron = 9.10938188e-28
 
 
 
@@ -2079,7 +2079,7 @@ mass_electron
 
   val mass_muon : float
 
-mass_muon
+mass_muon = 1.88353109e-25
 
 
 
@@ -2087,7 +2087,7 @@ mass_muon
 
   val mass_proton : float
 
-mass_proton
+mass_proton = 1.67262158e-24
 
 
 
@@ -2095,7 +2095,7 @@ mass_proton
 
   val mass_neutron : float
 
-mass_neutron
+mass_neutron = 1.67492716e-24
 
 
 
@@ -2103,7 +2103,7 @@ mass_neutron
 
   val rydberg : float
 
-rydberg
+rydberg = 2.17987196968e-11
 
 
 
@@ -2111,7 +2111,7 @@ rydberg
 
   val boltzmann : float
 
-boltzmann
+boltzmann = 1.3806504e-16
 
 
 
@@ -2119,7 +2119,7 @@ boltzmann
 
   val molar_gas : float
 
-molar_gas
+molar_gas = 8.314472e7
 
 
 
@@ -2127,7 +2127,7 @@ molar_gas
 
   val standard_gas_volume : float
 
-standard_gas_volume
+standard_gas_volume = 2.2710981e4
 
 
 
@@ -2135,7 +2135,7 @@ standard_gas_volume
 
   val minute : float
 
-minute
+minute = 6e1
 
 
 
@@ -2143,7 +2143,7 @@ minute
 
   val hour : float
 
-hour
+hour = 3.6e3
 
 
 
@@ -2151,7 +2151,7 @@ hour
 
   val day : float
 
-day
+day = 8.64e4
 
 
 
@@ -2159,7 +2159,7 @@ day
 
   val week : float
 
-week
+week = 6.048e5
 
 
 
@@ -2167,7 +2167,7 @@ week
 
   val inch : float
 
-inch
+inch = 2.54e0
 
 
 
@@ -2175,7 +2175,7 @@ inch
 
   val foot : float
 
-foot
+foot = 3.048e1
 
 
 
@@ -2183,7 +2183,7 @@ foot
 
   val yard : float
 
-yard
+yard = 9.144e1
 
 
 
@@ -2191,7 +2191,7 @@ yard
 
   val mile : float
 
-mile
+mile = 1.609344e5
 
 
 
@@ -2199,7 +2199,7 @@ mile
 
   val nautical_mile : float
 
-nautical_mile
+nautical_mile = 1.852e5
 
 
 
@@ -2207,7 +2207,7 @@ nautical_mile
 
   val fathom : float
 
-fathom
+fathom = 1.8288e2
 
 
 
@@ -2215,7 +2215,7 @@ fathom
 
   val mil : float
 
-mil
+mil = 2.54e-3
 
 
 
@@ -2223,7 +2223,7 @@ mil
 
   val point : float
 
-point
+point = 3.52777777778e-2
 
 
 
@@ -2231,7 +2231,7 @@ point
 
   val texpoint : float
 
-texpoint
+texpoint = 3.51459803515e-2
 
 
 
@@ -2239,7 +2239,7 @@ texpoint
 
   val micron : float
 
-micron
+micron = 1e-4
 
 
 
@@ -2247,7 +2247,7 @@ micron
 
   val angstrom : float
 
-angstrom
+angstrom = 1e-8
 
 
 
@@ -2255,7 +2255,7 @@ angstrom
 
   val hectare : float
 
-hectare
+hectare = 1e8
 
 
 
@@ -2263,7 +2263,7 @@ hectare
 
   val acre : float
 
-acre
+acre = 4.04685642241e7
 
 
 
@@ -2271,7 +2271,7 @@ acre
 
   val barn : float
 
-barn
+barn = 1e-24
 
 
 
@@ -2279,7 +2279,7 @@ barn
 
   val liter : float
 
-liter
+liter = 1e3
 
 
 
@@ -2287,7 +2287,7 @@ liter
 
   val us_gallon : float
 
-us_gallon
+us_gallon = 3.78541178402e3
 
 
 
@@ -2295,7 +2295,7 @@ us_gallon
 
   val quart : float
 
-quart
+quart = 9.46352946004e2
 
 
 
@@ -2303,7 +2303,7 @@ quart
 
   val pint : float
 
-pint
+pint = 4.73176473002e2
 
 
 
@@ -2311,7 +2311,7 @@ pint
 
   val cup : float
 
-cup
+cup = 2.36588236501e2
 
 
 
@@ -2319,7 +2319,7 @@ cup
 
   val fluid_ounce : float
 
-fluid_ounce
+fluid_ounce = 2.95735295626e1
 
 
 
@@ -2327,7 +2327,7 @@ fluid_ounce
 
   val tablespoon : float
 
-tablespoon
+tablespoon = 1.47867647813e1
 
 
 
@@ -2335,7 +2335,7 @@ tablespoon
 
   val teaspoon : float
 
-teaspoon
+teaspoon = 4.92892159375e0
 
 
 
@@ -2343,7 +2343,7 @@ teaspoon
 
   val canadian_gallon : float
 
-canadian_gallon
+canadian_gallon = 4.54609e3
 
 
 
@@ -2351,7 +2351,7 @@ canadian_gallon
 
   val uk_gallon : float
 
-uk_gallon
+uk_gallon = 4.546092e3
 
 
 
@@ -2359,7 +2359,7 @@ uk_gallon
 
   val miles_per_hour : float
 
-miles_per_hour
+miles_per_hour = 4.4704e1
 
 
 
@@ -2367,7 +2367,7 @@ miles_per_hour
 
   val kilometers_per_hour : float
 
-kilometers_per_hour
+kilometers_per_hour = 2.77777777778e1
 
 
 
@@ -2375,7 +2375,7 @@ kilometers_per_hour
 
   val knot : float
 
-knot
+knot = 5.14444444444e1
 
 
 
@@ -2383,7 +2383,7 @@ knot
 
   val pound_mass : float
 
-pound_mass
+pound_mass = 4.5359237e2
 
 
 
@@ -2391,7 +2391,7 @@ pound_mass
 
   val ounce_mass : float
 
-ounce_mass
+ounce_mass = 2.8349523125e1
 
 
 
@@ -2399,7 +2399,7 @@ ounce_mass
 
   val ton : float
 
-ton
+ton = 9.0718474e5
 
 
 
@@ -2407,7 +2407,7 @@ ton
 
   val metric_ton : float
 
-metric_ton
+metric_ton = 1e6
 
 
 
@@ -2415,7 +2415,7 @@ metric_ton
 
   val uk_ton : float
 
-uk_ton
+uk_ton = 1.0160469088e6
 
 
 
@@ -2423,7 +2423,7 @@ uk_ton
 
   val troy_ounce : float
 
-troy_ounce
+troy_ounce = 3.1103475e1
 
 
 
@@ -2431,7 +2431,7 @@ troy_ounce
 
   val carat : float
 
-carat
+carat = 2e-1
 
 
 
@@ -2439,7 +2439,7 @@ carat
 
   val unified_atomic_mass : float
 
-unified_atomic_mass
+unified_atomic_mass = 1.660538782e-24
 
 
 
@@ -2447,7 +2447,7 @@ unified_atomic_mass
 
   val gram_force : float
 
-gram_force
+gram_force = 9.80665e2
 
 
 
@@ -2455,7 +2455,7 @@ gram_force
 
   val pound_force : float
 
-pound_force
+pound_force = 4.44822161526e5
 
 
 
@@ -2463,7 +2463,7 @@ pound_force
 
   val kilopound_force : float
 
-kilopound_force
+kilopound_force = 4.44822161526e8
 
 
 
@@ -2471,7 +2471,7 @@ kilopound_force
 
   val poundal : float
 
-poundal
+poundal = 1.38255e4
 
 
 
@@ -2479,7 +2479,7 @@ poundal
 
   val calorie : float
 
-calorie
+calorie = 4.1868e7
 
 
 
@@ -2487,7 +2487,7 @@ calorie
 
   val btu : float
 
-btu
+btu = 1.05505585262e10
 
 
 
@@ -2495,7 +2495,7 @@ btu
 
   val therm : float
 
-therm
+therm = 1.05506e15
 
 
 
@@ -2503,7 +2503,7 @@ therm
 
   val horsepower : float
 
-horsepower
+horsepower = 7.457e9
 
 
 
@@ -2511,7 +2511,7 @@ horsepower
 
   val bar : float
 
-bar
+bar = 1e6
 
 
 
@@ -2519,7 +2519,7 @@ bar
 
   val std_atmosphere : float
 
-std_atmosphere
+std_atmosphere = 1.01325e6
 
 
 
@@ -2527,7 +2527,7 @@ std_atmosphere
 
   val torr : float
 
-torr
+torr = 1.33322368421e3
 
 
 
@@ -2535,7 +2535,7 @@ torr
 
   val meter_of_mercury : float
 
-meter_of_mercury
+meter_of_mercury = 1.33322368421e6
 
 
 
@@ -2543,7 +2543,7 @@ meter_of_mercury
 
   val inch_of_mercury : float
 
-inch_of_mercury
+inch_of_mercury = 3.38638815789e4
 
 
 
@@ -2551,7 +2551,7 @@ inch_of_mercury
 
   val inch_of_water : float
 
-inch_of_water
+inch_of_water = 2.490889e3
 
 
 
@@ -2559,7 +2559,7 @@ inch_of_water
 
   val psi : float
 
-psi
+psi = 6.89475729317e4
 
 
 
@@ -2567,7 +2567,7 @@ psi
 
   val poise : float
 
-poise
+poise = 1e0
 
 
 
@@ -2575,7 +2575,7 @@ poise
 
   val stokes : float
 
-stokes
+stokes = 1e0
 
 
 
@@ -2583,7 +2583,7 @@ stokes
 
   val stilb : float
 
-stilb
+stilb = 1e0
 
 
 
@@ -2591,7 +2591,7 @@ stilb
 
   val lumen : float
 
-lumen
+lumen = 1e0
 
 
 
@@ -2599,7 +2599,7 @@ lumen
 
   val lux : float
 
-lux
+lux = 1e-4
 
 
 
@@ -2607,7 +2607,7 @@ lux
 
   val phot : float
 
-phot
+phot = 1e0
 
 
 
@@ -2615,7 +2615,7 @@ phot
 
   val footcandle : float
 
-footcandle
+footcandle = 1.076e-3
 
 
 
@@ -2623,7 +2623,7 @@ footcandle
 
   val lambert : float
 
-lambert
+lambert = 1e0
 
 
 
@@ -2631,7 +2631,7 @@ lambert
 
   val footlambert : float
 
-footlambert
+footlambert = 1.07639104e-3
 
 
 
@@ -2639,7 +2639,7 @@ footlambert
 
   val curie : float
 
-curie
+curie = 3.7e10
 
 
 
@@ -2647,7 +2647,7 @@ curie
 
   val roentgen : float
 
-roentgen
+roentgen = 2.58e-7
 
 
 
@@ -2655,7 +2655,7 @@ roentgen
 
   val rad : float
 
-rad
+rad = 1e2
 
 
 
@@ -2663,7 +2663,7 @@ rad
 
   val solar_mass : float
 
-solar_mass
+solar_mass = 1.98892e33
 
 
 
@@ -2671,7 +2671,7 @@ solar_mass
 
   val bohr_radius : float
 
-bohr_radius
+bohr_radius = 5.291772083e-9
 
 
 
@@ -2679,7 +2679,7 @@ bohr_radius
 
   val newton : float
 
-newton
+newton = 1e5
 
 
 
@@ -2687,7 +2687,7 @@ newton
 
   val dyne : float
 
-dyne
+dyne = 1e0
 
 
 
@@ -2695,7 +2695,7 @@ dyne
 
   val joule : float
 
-joule
+joule = 1e7
 
 
 
@@ -2703,7 +2703,7 @@ joule
 
   val erg : float
 
-erg
+erg = 1e0
 
 
 
@@ -2711,7 +2711,7 @@ erg
 
   val stefan_boltzmann_constant : float
 
-stefan_boltzmann_constant
+stefan_boltzmann_constant = 5.67040047374e-5
 
 
 
@@ -2719,7 +2719,7 @@ stefan_boltzmann_constant
 
   val thomson_cross_section : float
 
-thomson_cross_section
+thomson_cross_section = 6.65245893699e-25
 
 
 
@@ -2732,7 +2732,7 @@ CGSM: Unit Systems in Electromagnetism
 
   val speed_of_light : float
 
-speed_of_light
+speed_of_light = 2.99792458e10
 
 
 
@@ -2740,7 +2740,7 @@ speed_of_light
 
   val gravitational_constant : float
 
-gravitational_constant
+gravitational_constant = 6.673e-8
 
 
 
@@ -2748,7 +2748,7 @@ gravitational_constant
 
   val plancks_constant_h : float
 
-plancks_constant_h
+plancks_constant_h = 6.62606896e-27
 
 
 
@@ -2756,7 +2756,7 @@ plancks_constant_h
 
   val plancks_constant_hbar : float
 
-plancks_constant_hbar
+plancks_constant_hbar = 1.05457162825e-27
 
 
 
@@ -2764,7 +2764,7 @@ plancks_constant_hbar
 
   val astronomical_unit : float
 
-astronomical_unit
+astronomical_unit = 1.49597870691e13
 
 
 
@@ -2772,7 +2772,7 @@ astronomical_unit
 
   val light_year : float
 
-light_year
+light_year = 9.46053620707e17
 
 
 
@@ -2780,7 +2780,7 @@ light_year
 
   val parsec : float
 
-parsec
+parsec = 3.08567758135e18
 
 
 
@@ -2788,7 +2788,7 @@ parsec
 
   val grav_accel : float
 
-grav_accel
+grav_accel = 9.80665e2
 
 
 
@@ -2796,7 +2796,7 @@ grav_accel
 
   val electron_volt : float
 
-electron_volt
+electron_volt = 1.602176487e-12
 
 
 
@@ -2804,7 +2804,7 @@ electron_volt
 
   val mass_electron : float
 
-mass_electron
+mass_electron = 9.10938188e-28
 
 
 
@@ -2812,7 +2812,7 @@ mass_electron
 
   val mass_muon : float
 
-mass_muon
+mass_muon = 1.88353109e-25
 
 
 
@@ -2820,7 +2820,7 @@ mass_muon
 
   val mass_proton : float
 
-mass_proton
+mass_proton = 1.67262158e-24
 
 
 
@@ -2828,7 +2828,7 @@ mass_proton
 
   val mass_neutron : float
 
-mass_neutron
+mass_neutron = 1.67492716e-24
 
 
 
@@ -2836,7 +2836,7 @@ mass_neutron
 
   val rydberg : float
 
-rydberg
+rydberg = 2.17987196968e-11
 
 
 
@@ -2844,7 +2844,7 @@ rydberg
 
   val boltzmann : float
 
-boltzmann
+boltzmann = 1.3806504e-16
 
 
 
@@ -2852,7 +2852,7 @@ boltzmann
 
   val molar_gas : float
 
-molar_gas
+molar_gas = 8.314472e7
 
 
 
@@ -2860,7 +2860,7 @@ molar_gas
 
   val standard_gas_volume : float
 
-standard_gas_volume
+standard_gas_volume = 2.2710981e4
 
 
 
@@ -2868,7 +2868,7 @@ standard_gas_volume
 
   val minute : float
 
-minute
+minute = 6e1
 
 
 
@@ -2876,7 +2876,7 @@ minute
 
   val hour : float
 
-hour
+hour = 3.6e3
 
 
 
@@ -2884,7 +2884,7 @@ hour
 
   val day : float
 
-day
+day = 8.64e4
 
 
 
@@ -2892,7 +2892,7 @@ day
 
   val week : float
 
-week
+week = 6.048e5
 
 
 
@@ -2900,7 +2900,7 @@ week
 
   val inch : float
 
-inch
+inch = 2.54e0
 
 
 
@@ -2908,7 +2908,7 @@ inch
 
   val foot : float
 
-foot
+foot = 3.048e1
 
 
 
@@ -2916,7 +2916,7 @@ foot
 
   val yard : float
 
-yard
+yard = 9.144e1
 
 
 
@@ -2924,7 +2924,7 @@ yard
 
   val mile : float
 
-mile
+mile = 1.609344e5
 
 
 
@@ -2932,7 +2932,7 @@ mile
 
   val nautical_mile : float
 
-nautical_mile
+nautical_mile = 1.852e5
 
 
 
@@ -2940,7 +2940,7 @@ nautical_mile
 
   val fathom : float
 
-fathom
+fathom = 1.8288e2
 
 
 
@@ -2948,7 +2948,7 @@ fathom
 
   val mil : float
 
-mil
+mil = 2.54e-3
 
 
 
@@ -2956,7 +2956,7 @@ mil
 
   val point : float
 
-point
+point = 3.52777777778e-2
 
 
 
@@ -2964,7 +2964,7 @@ point
 
   val texpoint : float
 
-texpoint
+texpoint = 3.51459803515e-2
 
 
 
@@ -2972,7 +2972,7 @@ texpoint
 
   val micron : float
 
-micron
+micron = 1e-4
 
 
 
@@ -2980,7 +2980,7 @@ micron
 
   val angstrom : float
 
-angstrom
+angstrom = 1e-8
 
 
 
@@ -2988,7 +2988,7 @@ angstrom
 
   val hectare : float
 
-hectare
+hectare = 1e8
 
 
 
@@ -2996,7 +2996,7 @@ hectare
 
   val acre : float
 
-acre
+acre = 4.04685642241e7
 
 
 
@@ -3004,7 +3004,7 @@ acre
 
   val barn : float
 
-barn
+barn = 1e-24
 
 
 
@@ -3012,7 +3012,7 @@ barn
 
   val liter : float
 
-liter
+liter = 1e3
 
 
 
@@ -3020,7 +3020,7 @@ liter
 
   val us_gallon : float
 
-us_gallon
+us_gallon = 3.78541178402e3
 
 
 
@@ -3028,7 +3028,7 @@ us_gallon
 
   val quart : float
 
-quart
+quart = 9.46352946004e2
 
 
 
@@ -3036,7 +3036,7 @@ quart
 
   val pint : float
 
-pint
+pint = 4.73176473002e2
 
 
 
@@ -3044,7 +3044,7 @@ pint
 
   val cup : float
 
-cup
+cup = 2.36588236501e2
 
 
 
@@ -3052,7 +3052,7 @@ cup
 
   val fluid_ounce : float
 
-fluid_ounce
+fluid_ounce = 2.95735295626e1
 
 
 
@@ -3060,7 +3060,7 @@ fluid_ounce
 
   val tablespoon : float
 
-tablespoon
+tablespoon = 1.47867647813e1
 
 
 
@@ -3068,7 +3068,7 @@ tablespoon
 
   val teaspoon : float
 
-teaspoon
+teaspoon = 4.92892159375e0
 
 
 
@@ -3076,7 +3076,7 @@ teaspoon
 
   val canadian_gallon : float
 
-canadian_gallon
+canadian_gallon = 4.54609e3
 
 
 
@@ -3084,7 +3084,7 @@ canadian_gallon
 
   val uk_gallon : float
 
-uk_gallon
+uk_gallon = 4.546092e3
 
 
 
@@ -3092,7 +3092,7 @@ uk_gallon
 
   val miles_per_hour : float
 
-miles_per_hour
+miles_per_hour = 4.4704e1
 
 
 
@@ -3100,7 +3100,7 @@ miles_per_hour
 
   val kilometers_per_hour : float
 
-kilometers_per_hour
+kilometers_per_hour = 2.77777777778e1
 
 
 
@@ -3108,7 +3108,7 @@ kilometers_per_hour
 
   val knot : float
 
-knot
+knot = 5.14444444444e1
 
 
 
@@ -3116,7 +3116,7 @@ knot
 
   val pound_mass : float
 
-pound_mass
+pound_mass = 4.5359237e2
 
 
 
@@ -3124,7 +3124,7 @@ pound_mass
 
   val ounce_mass : float
 
-ounce_mass
+ounce_mass = 2.8349523125e1
 
 
 
@@ -3132,7 +3132,7 @@ ounce_mass
 
   val ton : float
 
-ton
+ton = 9.0718474e5
 
 
 
@@ -3140,7 +3140,7 @@ ton
 
   val metric_ton : float
 
-metric_ton
+metric_ton = 1e6
 
 
 
@@ -3148,7 +3148,7 @@ metric_ton
 
   val uk_ton : float
 
-uk_ton
+uk_ton = 1.0160469088e6
 
 
 
@@ -3156,7 +3156,7 @@ uk_ton
 
   val troy_ounce : float
 
-troy_ounce
+troy_ounce = 3.1103475e1
 
 
 
@@ -3164,7 +3164,7 @@ troy_ounce
 
   val carat : float
 
-carat
+carat = 2e-1
 
 
 
@@ -3172,7 +3172,7 @@ carat
 
   val unified_atomic_mass : float
 
-unified_atomic_mass
+unified_atomic_mass = 1.660538782e-24
 
 
 
@@ -3180,7 +3180,7 @@ unified_atomic_mass
 
   val gram_force : float
 
-gram_force
+gram_force = 9.80665e2
 
 
 
@@ -3188,7 +3188,7 @@ gram_force
 
   val pound_force : float
 
-pound_force
+pound_force = 4.44822161526e5
 
 
 
@@ -3196,7 +3196,7 @@ pound_force
 
   val kilopound_force : float
 
-kilopound_force
+kilopound_force = 4.44822161526e8
 
 
 
@@ -3204,7 +3204,7 @@ kilopound_force
 
   val poundal : float
 
-poundal
+poundal = 1.38255e4
 
 
 
@@ -3212,7 +3212,7 @@ poundal
 
   val calorie : float
 
-calorie
+calorie = 4.1868e7
 
 
 
@@ -3220,7 +3220,7 @@ calorie
 
   val btu : float
 
-btu
+btu = 1.05505585262e10
 
 
 
@@ -3228,7 +3228,7 @@ btu
 
   val therm : float
 
-therm
+therm = 1.05506e15
 
 
 
@@ -3236,7 +3236,7 @@ therm
 
   val horsepower : float
 
-horsepower
+horsepower = 7.457e9
 
 
 
@@ -3244,7 +3244,7 @@ horsepower
 
   val bar : float
 
-bar
+bar = 1e6
 
 
 
@@ -3252,7 +3252,7 @@ bar
 
   val std_atmosphere : float
 
-std_atmosphere
+std_atmosphere = 1.01325e6
 
 
 
@@ -3260,7 +3260,7 @@ std_atmosphere
 
   val torr : float
 
-torr
+torr = 1.33322368421e3
 
 
 
@@ -3268,7 +3268,7 @@ torr
 
   val meter_of_mercury : float
 
-meter_of_mercury
+meter_of_mercury = 1.33322368421e6
 
 
 
@@ -3276,7 +3276,7 @@ meter_of_mercury
 
   val inch_of_mercury : float
 
-inch_of_mercury
+inch_of_mercury = 3.38638815789e4
 
 
 
@@ -3284,7 +3284,7 @@ inch_of_mercury
 
   val inch_of_water : float
 
-inch_of_water
+inch_of_water = 2.490889e3
 
 
 
@@ -3292,7 +3292,7 @@ inch_of_water
 
   val psi : float
 
-psi
+psi = 6.89475729317e4
 
 
 
@@ -3300,7 +3300,7 @@ psi
 
   val poise : float
 
-poise
+poise = 1e0
 
 
 
@@ -3308,7 +3308,7 @@ poise
 
   val stokes : float
 
-stokes
+stokes = 1e0
 
 
 
@@ -3316,7 +3316,7 @@ stokes
 
   val stilb : float
 
-stilb
+stilb = 1e0
 
 
 
@@ -3324,7 +3324,7 @@ stilb
 
   val lumen : float
 
-lumen
+lumen = 1e0
 
 
 
@@ -3332,7 +3332,7 @@ lumen
 
   val lux : float
 
-lux
+lux = 1e-4
 
 
 
@@ -3340,7 +3340,7 @@ lux
 
   val phot : float
 
-phot
+phot = 1e0
 
 
 
@@ -3348,7 +3348,7 @@ phot
 
   val footcandle : float
 
-footcandle
+footcandle = 1.076e-3
 
 
 
@@ -3356,7 +3356,7 @@ footcandle
 
   val lambert : float
 
-lambert
+lambert = 1e0
 
 
 
@@ -3364,7 +3364,7 @@ lambert
 
   val footlambert : float
 
-footlambert
+footlambert = 1.07639104e-3
 
 
 
@@ -3372,7 +3372,7 @@ footlambert
 
   val curie : float
 
-curie
+curie = 3.7e10
 
 
 
@@ -3380,7 +3380,7 @@ curie
 
   val roentgen : float
 
-roentgen
+roentgen = 2.58e-8
 
 
 
@@ -3388,7 +3388,7 @@ roentgen
 
   val rad : float
 
-rad
+rad = 1e2
 
 
 
@@ -3396,7 +3396,7 @@ rad
 
   val solar_mass : float
 
-solar_mass
+solar_mass = 1.98892e33
 
 
 
@@ -3404,7 +3404,7 @@ solar_mass
 
   val bohr_radius : float
 
-bohr_radius
+bohr_radius = 5.291772083e-9
 
 
 
@@ -3412,7 +3412,7 @@ bohr_radius
 
   val newton : float
 
-newton
+newton = 1e5
 
 
 
@@ -3420,7 +3420,7 @@ newton
 
   val dyne : float
 
-dyne
+dyne = 1e0
 
 
 
@@ -3428,7 +3428,7 @@ dyne
 
   val joule : float
 
-joule
+joule = 1e7
 
 
 
@@ -3436,7 +3436,7 @@ joule
 
   val erg : float
 
-erg
+erg = 1e0
 
 
 
@@ -3444,7 +3444,7 @@ erg
 
   val stefan_boltzmann_constant : float
 
-stefan_boltzmann_constant
+stefan_boltzmann_constant = 5.67040047374e-5
 
 
 
@@ -3452,7 +3452,7 @@ stefan_boltzmann_constant
 
   val thomson_cross_section : float
 
-thomson_cross_section
+thomson_cross_section = 6.65245893699e-25
 
 
 
@@ -3460,7 +3460,7 @@ thomson_cross_section
 
   val bohr_magneton : float
 
-bohr_magneton
+bohr_magneton = 9.27400899e-21
 
 
 
@@ -3468,7 +3468,7 @@ bohr_magneton
 
   val nuclear_magneton : float
 
-nuclear_magneton
+nuclear_magneton = 5.05078317e-24
 
 
 
@@ -3476,7 +3476,7 @@ nuclear_magneton
 
   val electron_magnetic_moment : float
 
-electron_magnetic_moment
+electron_magnetic_moment = 9.28476362e-21
 
 
 
@@ -3484,7 +3484,7 @@ electron_magnetic_moment
 
   val proton_magnetic_moment : float
 
-proton_magnetic_moment
+proton_magnetic_moment = 1.410606633e-23
 
 
 
@@ -3492,7 +3492,7 @@ proton_magnetic_moment
 
   val faraday : float
 
-faraday
+faraday = 9.64853429775e3
 
 
 
@@ -3500,7 +3500,7 @@ faraday
 
   val electron_charge : float
 
-electron_charge
+electron_charge = 1.602176487e-20
 
 
 
