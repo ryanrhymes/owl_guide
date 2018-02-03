@@ -3,13 +3,15 @@ Pretty
 
 This document is auto-generated for Owl's APIs.
 #2 functions have been extracted.
-timestamp:1517665950
+timestamp:1517666039
 
 .. code-block:: ocaml
 
   val pp_dsnda : Format.formatter -> ('a, 'b, 'c) Bigarray.Genarray.t -> unit
 
 [pp_dsnda] is the pretty printer for n-dimensional arrays.
+
+
 
 .. code-block:: ocaml
 
@@ -19,4 +21,6 @@ timestamp:1517665950
 n-dimensional array. [max_row] and [max_col] specify the maximum number of
 rows and columns to display. [header] specifies whether or not to print out
 the headers. [fmt] is the function to format every element into string.
+
+
 

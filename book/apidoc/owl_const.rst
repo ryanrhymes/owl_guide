@@ -3,7 +3,7 @@ Constants
 
 This document is auto-generated for Owl's APIs.
 #22 functions have been extracted.
-timestamp:1517665949
+timestamp:1517666038
 
 .. code-block:: ocaml
 
@@ -11,11 +11,15 @@ timestamp:1517665949
 
 {6 Unit prefixes}
 
+
+
 .. code-block:: ocaml
 
   val e : float
 
 e
+
+
 
 .. code-block:: ocaml
 
@@ -23,11 +27,15 @@ e
 
 Euler constant
 
+
+
 .. code-block:: ocaml
 
   val log2e : float
 
 log2_e
+
+
 
 .. code-block:: ocaml
 
@@ -35,11 +43,15 @@ log2_e
 
 log_10 e
 
+
+
 .. code-block:: ocaml
 
   val loge2 : float
 
 log_e 2
+
+
 
 .. code-block:: ocaml
 
@@ -47,11 +59,15 @@ log_e 2
 
 log_e 10
 
+
+
 .. code-block:: ocaml
 
   val logepi : float
 
 log_e pi
+
+
 
 .. code-block:: ocaml
 
@@ -59,11 +75,15 @@ log_e pi
 
 1/sqrt(2)
 
+
+
 .. code-block:: ocaml
 
   val sqrt2 : float
 
 sqrt(2)
+
+
 
 .. code-block:: ocaml
 
@@ -71,11 +91,15 @@ sqrt(2)
 
 sqrt(3)
 
+
+
 .. code-block:: ocaml
 
   val sqrtpi : float
 
 sqrt(pi)
+
+
 
 .. code-block:: ocaml
 
@@ -83,11 +107,15 @@ sqrt(pi)
 
 pi
 
+
+
 .. code-block:: ocaml
 
   val pi2 : float
 
 2*pi
+
+
 
 .. code-block:: ocaml
 
@@ -95,11 +123,15 @@ pi
 
 4*pi
 
+
+
 .. code-block:: ocaml
 
   val pi_2 : float
 
 pi/2
+
+
 
 .. code-block:: ocaml
 
@@ -107,11 +139,15 @@ pi/2
 
 pi/4
 
+
+
 .. code-block:: ocaml
 
   val zero : ('a, 'b) Bigarray.kind -> 'a
 
 ``zero kind`` returns value zero of the given number type ``kind``.
+
+
 
 .. code-block:: ocaml
 
@@ -119,11 +155,15 @@ pi/4
 
 ``one kind`` returns value one of the given number type ``kind``.
 
+
+
 .. code-block:: ocaml
 
   val neg_one : ('a, 'b) Bigarray.kind -> 'a
 
 ``neg_one kind`` returns negative one of the given number type ``kind``.
+
+
 
 .. code-block:: ocaml
 
@@ -131,9 +171,13 @@ pi/4
 
 ``pos_inf kind`` returns positive infinity of the given number type ``kind``.
 
+
+
 .. code-block:: ocaml
 
   val neg_inf : ('a, 'b) Bigarray.kind -> 'a
 
 ``neg_inf kind`` returns negative infinity of the given number type ``kind``.
+
+
 

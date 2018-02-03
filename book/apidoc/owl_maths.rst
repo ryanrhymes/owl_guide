@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #124 functions have been extracted.
-timestamp:1517665949
+timestamp:1517666038
 
 .. code-block:: ocaml
 
@@ -11,11 +11,15 @@ timestamp:1517665949
 
 ``add x y``
 
+
+
 .. code-block:: ocaml
 
   val sub : float -> float -> float
 
 ``sub x y``
+
+
 
 .. code-block:: ocaml
 
@@ -23,11 +27,15 @@ timestamp:1517665949
 
 ``mul x y``
 
+
+
 .. code-block:: ocaml
 
   val div : float -> float -> float
 
 ``div x y``
+
+
 
 .. code-block:: ocaml
 
@@ -35,11 +43,15 @@ timestamp:1517665949
 
 ``atan2 x y``
 
+
+
 .. code-block:: ocaml
 
   val abs : float -> float
 
 ``abs x``
+
+
 
 .. code-block:: ocaml
 
@@ -47,11 +59,15 @@ timestamp:1517665949
 
 ``neg x``
 
+
+
 .. code-block:: ocaml
 
   val reci : float -> float
 
 ``reci x``
+
+
 
 .. code-block:: ocaml
 
@@ -59,11 +75,15 @@ timestamp:1517665949
 
 ``floor x``
 
+
+
 .. code-block:: ocaml
 
   val ceil : float -> float
 
 ``ceil x``
+
+
 
 .. code-block:: ocaml
 
@@ -71,11 +91,15 @@ timestamp:1517665949
 
 ``round x``
 
+
+
 .. code-block:: ocaml
 
   val trunc : float -> float
 
 ``trunc x``
+
+
 
 .. code-block:: ocaml
 
@@ -83,11 +107,15 @@ timestamp:1517665949
 
 ``sqr x``
 
+
+
 .. code-block:: ocaml
 
   val sqrt : float -> float
 
 ``sqrt x``
+
+
 
 .. code-block:: ocaml
 
@@ -95,11 +123,15 @@ timestamp:1517665949
 
 ``pow x``
 
+
+
 .. code-block:: ocaml
 
   val exp : float -> float
 
 ``exp x``
+
+
 
 .. code-block:: ocaml
 
@@ -107,11 +139,15 @@ timestamp:1517665949
 
 ``expm1``
 
+
+
 .. code-block:: ocaml
 
   val log : float -> float
 
 ``log x``
+
+
 
 .. code-block:: ocaml
 
@@ -119,11 +155,15 @@ timestamp:1517665949
 
 ``log1p x``
 
+
+
 .. code-block:: ocaml
 
   val logabs : float -> float
 
 ``logabs x``
+
+
 
 .. code-block:: ocaml
 
@@ -131,11 +171,15 @@ timestamp:1517665949
 
 ``log2 x``
 
+
+
 .. code-block:: ocaml
 
   val log10 : float -> float
 
 ``log10 x``
+
+
 
 .. code-block:: ocaml
 
@@ -143,11 +187,15 @@ timestamp:1517665949
 
 ``logn x``
 
+
+
 .. code-block:: ocaml
 
   val sigmoid : float -> float
 
 ``sigmod x``
+
+
 
 .. code-block:: ocaml
 
@@ -155,11 +203,15 @@ timestamp:1517665949
 
 ``signum x``
 
+
+
 .. code-block:: ocaml
 
   val softsign : float -> float
 
 ``softsign x``
+
+
 
 .. code-block:: ocaml
 
@@ -167,11 +219,15 @@ timestamp:1517665949
 
 ``softplus x``
 
+
+
 .. code-block:: ocaml
 
   val relu : float -> float
 
 ``relu x``
+
+
 
 .. code-block:: ocaml
 
@@ -179,11 +235,15 @@ timestamp:1517665949
 
 ``sin x``
 
+
+
 .. code-block:: ocaml
 
   val cos : float -> float
 
 ``cos x``
+
+
 
 .. code-block:: ocaml
 
@@ -191,11 +251,15 @@ timestamp:1517665949
 
 ``tan x``
 
+
+
 .. code-block:: ocaml
 
   val cot : float -> float
 
 ``cot x``
+
+
 
 .. code-block:: ocaml
 
@@ -203,11 +267,15 @@ timestamp:1517665949
 
 ``sec x``
 
+
+
 .. code-block:: ocaml
 
   val csc : float -> float
 
 ``csc x``
+
+
 
 .. code-block:: ocaml
 
@@ -215,11 +283,15 @@ timestamp:1517665949
 
 ``asin x``
 
+
+
 .. code-block:: ocaml
 
   val acos : float -> float
 
 ``acos x``
+
+
 
 .. code-block:: ocaml
 
@@ -227,11 +299,15 @@ timestamp:1517665949
 
 ``atan x``
 
+
+
 .. code-block:: ocaml
 
   val acot : float -> float
 
 ``acot x``
+
+
 
 .. code-block:: ocaml
 
@@ -239,11 +315,15 @@ timestamp:1517665949
 
 ``asec x``
 
+
+
 .. code-block:: ocaml
 
   val acsc : float -> float
 
 ``acsc x``
+
+
 
 .. code-block:: ocaml
 
@@ -251,11 +331,15 @@ timestamp:1517665949
 
 ``sinh x``
 
+
+
 .. code-block:: ocaml
 
   val cosh : float -> float
 
 ``cosh x``
+
+
 
 .. code-block:: ocaml
 
@@ -263,11 +347,15 @@ timestamp:1517665949
 
 ``tanh x``
 
+
+
 .. code-block:: ocaml
 
   val coth : float -> float
 
 ``coth x``
+
+
 
 .. code-block:: ocaml
 
@@ -275,11 +363,15 @@ timestamp:1517665949
 
 ``sech x``
 
+
+
 .. code-block:: ocaml
 
   val csch : float -> float
 
 ``csch x``
+
+
 
 .. code-block:: ocaml
 
@@ -287,11 +379,15 @@ timestamp:1517665949
 
 ``asinh x``
 
+
+
 .. code-block:: ocaml
 
   val acosh : float -> float
 
 ``acosh x``
+
+
 
 .. code-block:: ocaml
 
@@ -299,11 +395,15 @@ timestamp:1517665949
 
 ``atanh x``
 
+
+
 .. code-block:: ocaml
 
   val acoth : float -> float
 
 ``acoth x``
+
+
 
 .. code-block:: ocaml
 
@@ -311,11 +411,15 @@ timestamp:1517665949
 
 ``asech x``
 
+
+
 .. code-block:: ocaml
 
   val acsch : float -> float
 
 ``acsch x``
+
+
 
 .. code-block:: ocaml
 
@@ -323,11 +427,15 @@ timestamp:1517665949
 
 ``sinc x``
 
+
+
 .. code-block:: ocaml
 
   val logsinh : float -> float
 
 ``logsinh x``
+
+
 
 .. code-block:: ocaml
 
@@ -335,11 +443,15 @@ timestamp:1517665949
 
 ``logcosh x``
 
+
+
 .. code-block:: ocaml
 
   val sindg : float -> float
 
 Sine of angle given in degrees
+
+
 
 .. code-block:: ocaml
 
@@ -347,11 +459,15 @@ Sine of angle given in degrees
 
 Cosine of the angle x given in degrees.
 
+
+
 .. code-block:: ocaml
 
   val tandg : float -> float
 
 Tangent of angle x given in degrees.
+
+
 
 .. code-block:: ocaml
 
@@ -359,11 +475,15 @@ Tangent of angle x given in degrees.
 
 Cotangent of the angle x given in degrees.
 
+
+
 .. code-block:: ocaml
 
   val hypot : float -> float -> float
 
 Calculate the length of the hypotenuse.
+
+
 
 .. code-block:: ocaml
 
@@ -371,11 +491,15 @@ Calculate the length of the hypotenuse.
 
 ``xlogy(x, y) = x*log(y)``
 
+
+
 .. code-block:: ocaml
 
   val xlog1py : float -> float -> float
 
 ``xlog1py(x, y) = x*log1p(y)``
+
+
 
 .. code-block:: ocaml
 
@@ -383,11 +507,15 @@ Calculate the length of the hypotenuse.
 
 ``logit(x) = log(p/(1-p))``
 
+
+
 .. code-block:: ocaml
 
   val expit : float -> float
 
 ``expit(x) = 1/(1+exp(-x))``
+
+
 
 .. code-block:: ocaml
 
@@ -396,11 +524,15 @@ Calculate the length of the hypotenuse.
 Airy function ``airy x`` returns ``(Ai, Aip, Bi, Bip)``. ``Aip`` is the
 derivative of ``Ai`` whilst ``Bip`` is the derivative of ``Bi``.
 
+
+
 .. code-block:: ocaml
 
   val j0 : float -> float
 
 Bessel function of the first kind of order 0.
+
+
 
 .. code-block:: ocaml
 
@@ -408,11 +540,15 @@ Bessel function of the first kind of order 0.
 
 Bessel function of the first kind of order 1.
 
+
+
 .. code-block:: ocaml
 
   val jv : float -> float -> float
 
 Bessel function of real order.
+
+
 
 .. code-block:: ocaml
 
@@ -420,11 +556,15 @@ Bessel function of real order.
 
 Bessel function of the second kind of order 0.
 
+
+
 .. code-block:: ocaml
 
   val y1 : float -> float
 
 Bessel function of the second kind of order 1.
+
+
 
 .. code-block:: ocaml
 
@@ -432,11 +572,15 @@ Bessel function of the second kind of order 1.
 
 Bessel function of the second kind of real order.
 
+
+
 .. code-block:: ocaml
 
   val yn : int -> float -> float
 
 Bessel function of the second kind of integer order.
+
+
 
 .. code-block:: ocaml
 
@@ -444,11 +588,15 @@ Bessel function of the second kind of integer order.
 
 Modified Bessel function of order 0.
 
+
+
 .. code-block:: ocaml
 
   val i0e : float -> float
 
 Exponentially scaled modified Bessel function of order 0.
+
+
 
 .. code-block:: ocaml
 
@@ -456,11 +604,15 @@ Exponentially scaled modified Bessel function of order 0.
 
 Modified Bessel function of order 1.
 
+
+
 .. code-block:: ocaml
 
   val i1e : float -> float
 
 Exponentially scaled modified Bessel function of order 1.
+
+
 
 .. code-block:: ocaml
 
@@ -468,11 +620,15 @@ Exponentially scaled modified Bessel function of order 1.
 
 Modified Bessel function of the first kind of real order.
 
+
+
 .. code-block:: ocaml
 
   val k0 : float -> float
 
 Modified Bessel function of the second kind of order 0, K_0.
+
+
 
 .. code-block:: ocaml
 
@@ -480,11 +636,15 @@ Modified Bessel function of the second kind of order 0, K_0.
 
 Exponentially scaled modified Bessel function K of order 0.
 
+
+
 .. code-block:: ocaml
 
   val k1 : float -> float
 
 Modified Bessel function of the second kind of order 1, K_1(x).
+
+
 
 .. code-block:: ocaml
 
@@ -492,11 +652,15 @@ Modified Bessel function of the second kind of order 1, K_1(x).
 
 Exponentially scaled modified Bessel function K of order 1.
 
+
+
 .. code-block:: ocaml
 
   val ellipj : float -> float -> float * float * float * float
 
 Jacobian Elliptic function ``ellipj u m`` returns ``(sn, cn, dn, phi)``.
+
+
 
 .. code-block:: ocaml
 
@@ -504,11 +668,15 @@ Jacobian Elliptic function ``ellipj u m`` returns ``(sn, cn, dn, phi)``.
 
 Complete elliptic integral of the first kind ``ellipk m``.
 
+
+
 .. code-block:: ocaml
 
   val ellipkm1 : float -> float
 
 Complete elliptic integral of the first kind around ``m = 1``.
+
+
 
 .. code-block:: ocaml
 
@@ -516,11 +684,15 @@ Complete elliptic integral of the first kind around ``m = 1``.
 
 Incomplete elliptic integral of the first kind ``ellipkinc phi m``.
 
+
+
 .. code-block:: ocaml
 
   val ellipe : float -> float
 
 Complete elliptic integral of the second kind ``ellipe m``.
+
+
 
 .. code-block:: ocaml
 
@@ -528,11 +700,15 @@ Complete elliptic integral of the second kind ``ellipe m``.
 
 Incomplete elliptic integral of the second kind ``ellipeinc phi m``.
 
+
+
 .. code-block:: ocaml
 
   val gamma : float -> float
 
 Gamma function.
+
+
 
 .. code-block:: ocaml
 
@@ -540,11 +716,15 @@ Gamma function.
 
 Reciprocal Gamma function.
 
+
+
 .. code-block:: ocaml
 
   val loggamma : float -> float
 
 Logarithm of the gamma function.
+
+
 
 .. code-block:: ocaml
 
@@ -552,11 +732,15 @@ Logarithm of the gamma function.
 
 Incomplete gamma function.
 
+
+
 .. code-block:: ocaml
 
   val gammaincinv : float -> float -> float
 
 Inverse function of ``gammainc``
+
+
 
 .. code-block:: ocaml
 
@@ -564,11 +748,15 @@ Inverse function of ``gammainc``
 
 Complemented incomplete gamma integral
 
+
+
 .. code-block:: ocaml
 
   val gammainccinv : float -> float -> float
 
 Inverse function of ``gammaincc``
+
+
 
 .. code-block:: ocaml
 
@@ -576,11 +764,15 @@ Inverse function of ``gammaincc``
 
 The digamma function.
 
+
+
 .. code-block:: ocaml
 
   val beta : float -> float -> float
 
 Beta function.
+
+
 
 .. code-block:: ocaml
 
@@ -588,11 +780,15 @@ Beta function.
 
 Incomplete beta integral.
 
+
+
 .. code-block:: ocaml
 
   val betaincinv : float -> float -> float -> float
 
 Inverse funciton of beta integral.
+
+
 
 .. code-block:: ocaml
 
@@ -600,11 +796,15 @@ Inverse funciton of beta integral.
 
 Factorial function ``fact n`` calculates ``n!``.
 
+
+
 .. code-block:: ocaml
 
   val log_fact : int -> float
 
 Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
+
+
 
 .. code-block:: ocaml
 
@@ -612,11 +812,15 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
 
 ``permutation n k`` return the number of permutations of n things taken k at a time.
 
+
+
 .. code-block:: ocaml
 
   val combination : int -> int -> int
 
 ``combination n k`` return the combination number of taking k out of n.
+
+
 
 .. code-block:: ocaml
 
@@ -624,11 +828,15 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
 
 Error function.
 
+
+
 .. code-block:: ocaml
 
   val erfc : float -> float
 
 Complementary error function, ``1 - erf(x)``
+
+
 
 .. code-block:: ocaml
 
@@ -636,11 +844,15 @@ Complementary error function, ``1 - erf(x)``
 
 Scaled complementary error function, ``exp(x**2) * erfc(x)``.
 
+
+
 .. code-block:: ocaml
 
   val erfinv : float -> float
 
 Inverse of ``erf x``.
+
+
 
 .. code-block:: ocaml
 
@@ -648,11 +860,15 @@ Inverse of ``erf x``.
 
 Inverse of ``erfc x``
 
+
+
 .. code-block:: ocaml
 
   val dawsn : float -> float
 
 Dawson’s integral.
+
+
 
 .. code-block:: ocaml
 
@@ -661,11 +877,15 @@ Dawson’s integral.
 Fresnel sin and cos integrals, ``fresnel x`` returns a tuple consisting of
 ``(Fresnel sin integral, Fresnel cos integral)``.
 
+
+
 .. code-block:: ocaml
 
   val struve : float -> float -> float
 
 Struve function ``struve v x``.
+
+
 
 .. code-block:: ocaml
 
@@ -673,11 +893,15 @@ Struve function ``struve v x``.
 
 Exponential integral E_n.
 
+
+
 .. code-block:: ocaml
 
   val shichi : float -> float * float
 
 Hyperbolic sine and cosine integrals, ``shichi x`` returns ``(shi, chi)``.
+
+
 
 .. code-block:: ocaml
 
@@ -685,11 +909,15 @@ Hyperbolic sine and cosine integrals, ``shichi x`` returns ``(shi, chi)``.
 
 Hyperbolic sine integrals.
 
+
+
 .. code-block:: ocaml
 
   val chi : float -> float
 
 Hyperbolic cosine integrals.
+
+
 
 .. code-block:: ocaml
 
@@ -697,11 +925,15 @@ Hyperbolic cosine integrals.
 
 Sine and cosine integrals, ``sici x`` returns ``(si, ci)``.
 
+
+
 .. code-block:: ocaml
 
   val si : float -> float
 
 Sine integral.
+
+
 
 .. code-block:: ocaml
 
@@ -709,11 +941,15 @@ Sine integral.
 
 Cosine integral.
 
+
+
 .. code-block:: ocaml
 
   val zeta : float -> float -> float
 
 Riemann or Hurwitz zeta function ``zeta x q``.
+
+
 
 .. code-block:: ocaml
 
@@ -721,11 +957,15 @@ Riemann or Hurwitz zeta function ``zeta x q``.
 
 Riemann zeta function minus 1.
 
+
+
 .. code-block:: ocaml
 
   val is_odd : int -> bool
 
 ``is_odd x`` returns ``true`` if ``x`` is odd.
+
+
 
 .. code-block:: ocaml
 
@@ -733,11 +973,15 @@ Riemann zeta function minus 1.
 
 ``is_even x`` returns ``true`` if ``x`` is even.
 
+
+
 .. code-block:: ocaml
 
   val is_pow2 : int -> bool
 
 ``is_pow2 x`` return ``true`` if ``x`` is integer power of 2, e.g. 32, 64, etc.
+
+
 
 .. code-block:: ocaml
 
@@ -746,10 +990,14 @@ Riemann zeta function minus 1.
 ``nextafter from to`` returns the next representable double precision value
 of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
 
+
+
 .. code-block:: ocaml
 
   val nextafterf : float -> float -> float
 
 ``nextafter from to`` returns the next representable single precision value
 of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
+
+
 

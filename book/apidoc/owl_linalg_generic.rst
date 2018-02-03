@@ -3,13 +3,15 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #34 functions have been extracted.
-timestamp:1517665950
+timestamp:1517666039
 
 .. code-block:: ocaml
 
   type ('a, 'b) t = ('a, 'b) Owl_dense.Matrix.Generic.t
 
 Matrix type, a special case of N-dimensional array.
+
+
 
 .. code-block:: ocaml
 
@@ -19,6 +21,8 @@ Matrix type, a special case of N-dimensional array.
 such that ``x *@ x = I`` wherein ``I`` is an identity matrix.  (If ``x``
 is singular, ``inv`` will return a useless result.)
 
+
+
 .. code-block:: ocaml
 
   val pinv : ?tol:float -> ('a, 'b) t -> ('a, 'b) t
@@ -27,11 +31,15 @@ is singular, ``inv`` will return a useless result.)
 the tolerance, the absolute value of the elements smaller than ``tol`` will be
 set to zeros.
 
+
+
 .. code-block:: ocaml
 
   val det : ('a, 'b) t -> 'a
 
 ``det x`` computes the determinant of a square matrix ``x``.
+
+
 
 .. code-block:: ocaml
 
@@ -39,6 +47,8 @@ set to zeros.
 
 ``logdet x`` computes the log of the determinant of a square matrix ``x``. It is
 equivalent to ``log (det x)`` but may provide more accuracy and efficiency.
+
+
 
 .. code-block:: ocaml
 
@@ -48,6 +58,8 @@ equivalent to ``log (det x)`` but may provide more accuracy and efficiency.
 The function does so by counting the number of singular values of ``x`` which
 are beyond a pre-defined threshold ``tol``. By default, ``tol = max(m,n) * eps``
 where ``eps = 1e-10``.
+
+
 
 .. code-block:: ocaml
 
@@ -60,6 +72,8 @@ If ``p = 1``, then ``n`` is the maximum absolute column sum of the matrix.
 If ``p = 2``, then ``n`` is approximately ``max (svd x)``. This is equivalent to norm(X).
 
 If ``p = infinity``, then ``n`` is the maximum absolute row sum of the matrix.
+
+
 
 .. code-block:: ocaml
 
@@ -75,6 +89,8 @@ If ``p = infinity``, then ``n`` is the maximum absolute row sum of the matrix.
 
 The default value of ``p`` is ``2.``
 
+
+
 .. code-block:: ocaml
 
   val rcond : ('a, 'b) t -> float
@@ -83,11 +99,15 @@ The default value of ``p`` is ``2.``
 If ``x`` is well conditioned, the returned result is near ``1.0``. If ``x`` is badly
 conditioned, the result is near ``0.``
 
+
+
 .. code-block:: ocaml
 
   val is_triu : ('a, 'b) t -> bool
 
 ``is_triu x`` returns ``true`` if ``x`` is upper triangular otherwise ``false``.
+
+
 
 .. code-block:: ocaml
 
@@ -95,11 +115,15 @@ conditioned, the result is near ``0.``
 
 ``is_tril x`` returns ``true`` if ``x`` is lower triangular otherwise ``false``.
 
+
+
 .. code-block:: ocaml
 
   val is_symmetric : ('a, 'b) t -> bool
 
 ``is_symmetric x`` returns ``true`` if ``x`` is symmetric otherwise ``false``.
+
+
 
 .. code-block:: ocaml
 
@@ -107,17 +131,23 @@ conditioned, the result is near ``0.``
 
 ``is_hermitian x`` returns ``true`` if ``x`` is hermitian otherwise ``false``.
 
+
+
 .. code-block:: ocaml
 
   val is_diag : ('a, 'b) t -> bool
 
 ``is_diag x`` returns ``true`` if ``x`` is diagonal otherwise ``false``.
 
+
+
 .. code-block:: ocaml
 
   val is_posdef : ('a, 'b) t -> bool
 
 ``is_posdef x`` checks whether ``x`` is a positive semi-definite matrix.
+
+
 
 .. code-block:: ocaml
 
@@ -126,6 +156,8 @@ conditioned, the result is near ``0.``
 ``lu x -> (l, u, ipiv)`` calculates LU decomposition of ``x``. The pivoting is
 used by default.
 
+
+
 .. code-block:: ocaml
 
   val lq : ?thin:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
@@ -133,6 +165,8 @@ used by default.
 ``lq x -> (l, q)`` calculates the LQ decomposition of ``x``. By default, the
 reduced LQ decomposition is performed. But you can get full ``Q`` by setting
 parameter ``thin = false``.
+
+
 
 .. code-block:: ocaml
 
@@ -150,6 +184,8 @@ the returned indices are not adjusted to 0-based C layout.
 By default, ``qr`` performs a reduced QR factorisation, full factorisation can
 be enabled by setting ``thin`` parameter to ``false``.
 
+
+
 .. code-block:: ocaml
 
   val chol : ?upper:bool -> ('a, 'b) t -> ('a, 'b) t
@@ -158,6 +194,8 @@ be enabled by setting ``thin`` parameter to ``false``.
 matrix ``x`` such that ``x = u' *@ u``. By default, the upper triangular matrix
 is returned. The lower triangular part can be obtained by setting the
 parameter ``upper = false``.
+
+
 
 .. code-block:: ocaml
 
@@ -173,6 +211,8 @@ The full svd can be performed by setting ``thin = false``. Note that for complex
 numbers, the type of returned singular values are also complex, the imaginary
 part is zero.
 
+
+
 .. code-block:: ocaml
 
   val svdvals : ('a, 'b) t -> ('a, 'b) t
@@ -180,6 +220,8 @@ part is zero.
 ``svdvals x -> s`` performs the singular value decomposition of ``x`` like
 ``svd x``, but the function only returns the singular values without ``u`` and
 ``vt``. Note that for complex numbers, the return is also complex type.
+
+
 
 .. code-block:: ocaml
 
@@ -201,12 +243,16 @@ of ``x`` is ``m x n`` and the shape of ``y`` is ``p x n``.
 Please refer to:
 https://software.intel.com/en-us/mkl-developer-reference-c-ggsvd3
 
+
+
 .. code-block:: ocaml
 
   val gsvdvals : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``gsvdvals x y`` is similar to ``gsvd x y`` but only returns the singular
 values of the generalised singular value decomposition of ``x`` and ``y``.
+
+
 
 .. code-block:: ocaml
 
@@ -222,6 +268,8 @@ needs to be consistent with input type. E.g., if the input ``x`` is ``float32``
 then ``otyp`` must be ``complex32``. However, if you use S, D, C, Z module, then
 you do not need to worry about ``otyp``.
 
+
+
 .. code-block:: ocaml
 
   val hess : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
@@ -229,6 +277,8 @@ you do not need to worry about ``otyp``.
 ``hess x -> (h, q)`` calculates the Hessenberg form of a given matrix ``x``.
 Both Hessenberg matrix ``h`` and unitary matrix ``q`` is returned, such that
 ``x = q *@ h *@ (transpose q)``.
+
+
 
 .. code-block:: ocaml
 
@@ -242,12 +292,16 @@ of an arbitrary square matrix ``x``. The eigenvectors are column vectors in
 Note that ``otyp`` specifies the complex type of the output, but you do not
 need worry about this parameter if you use S, D, C, Z modules in Linalg.
 
+
+
 .. code-block:: ocaml
 
   val eigvals : ?permute:bool -> ?scale:bool -> otyp:('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t
 
 ``eigvals x -> w`` is similar to ``eig`` but only computes the eigenvalues of
 an arbitrary square matrix ``x``.
+
+
 
 .. code-block:: ocaml
 
@@ -257,6 +311,8 @@ an arbitrary square matrix ``x``.
 obtained from the singular value decomposition. Namely, ``a *@ x`` has
 negligible elements, ``M.col_num x`` is the nullity of ``a``, and
 ``transpose x *@ x = I``.
+
+
 
 .. code-block:: ocaml
 
@@ -271,11 +327,15 @@ By default, ``trans = false`` indicates no transpose. If ``trans = true``, then
 function will solve ``A^T * x = b`` for real matrices; ``A^H * x = b`` for
 complex matrices.
 
+
+
 .. code-block:: ocaml
 
   val linreg : ('a, 'b) t -> ('a, 'b) t -> 'a * 'a
 
 ``linreg x y -> (a, b)`` solves ``y = a + b*x`` using Ordinary Least Squares.
+
+
 
 .. code-block:: ocaml
 
@@ -284,12 +344,16 @@ complex matrices.
 ``lufact x -> (a, ipiv)`` calculates LU factorisation with pivot of a general
 matrix ``x``.
 
+
+
 .. code-block:: ocaml
 
   val qrfact : ?pivot:bool -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t
 
 ``qrfact x -> (a, tau, jpvt)`` calculates QR factorisation of a general
 matrix ``x``.
+
+
 
 .. code-block:: ocaml
 
@@ -310,6 +374,8 @@ For ``ipiv``, it indicates the details of the interchanges and the block
 structure of ``d``. Please refer to the function ``sytrf``, ``hetrf`` in MKL
 documentation for more details.
 
+
+
 .. code-block:: ocaml
 
   val peakflops : ?n:int -> unit -> float
@@ -317,4 +383,6 @@ documentation for more details.
 ``peakflops ()`` returns the peak number of float point operations using
 ``Owl_cblas.dgemm`` function. The default matrix size is ``2000 x 2000``, but you
 can change this by setting ``n`` to other numbers as you like.
+
+
 

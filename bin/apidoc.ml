@@ -54,7 +54,7 @@ let write_to_rst apidoc fname module_name =
 
   Array.iter (fun (api, doc) ->
     Printf.fprintf h ".. code-block:: ocaml\n\n  %s\n\n" api;
-    Printf.fprintf h "%s\n\n" doc;
+    Printf.fprintf h "%s\n\n\n\n" doc;
   ) apidoc;
 
   close_out h

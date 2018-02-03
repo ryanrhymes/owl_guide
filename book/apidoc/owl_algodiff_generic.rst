@@ -3,7 +3,7 @@ Algodiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #23 functions have been extracted.
-timestamp:1517665950
+timestamp:1517666039
 
 .. code-block:: ocaml
 
@@ -16,11 +16,15 @@ of the same type, i.e. ``g : scalar -> scalar``.
 Keep calling this function will give you higher-order derivatives of ``f``, i.e.
 ``f |> diff |> diff |> diff |> ...``
 
+
+
 .. code-block:: ocaml
 
   val diff' : (t -> t) -> t -> t * t
 
 similar to ``diff``, but return ``(f x, diff f x)``.
+
+
 
 .. code-block:: ocaml
 
@@ -28,11 +32,15 @@ similar to ``diff``, but return ``(f x, diff f x)``.
 
 gradient of ``f`` : (vector -> scalar) at ``x``, reverse ad.
 
+
+
 .. code-block:: ocaml
 
   val grad' : (t -> t) -> t -> t * t
 
 similar to ``grad``, but return ``(f x, grad f x)``.
+
+
 
 .. code-block:: ocaml
 
@@ -40,11 +48,15 @@ similar to ``grad``, but return ``(f x, grad f x)``.
 
 jacobian of ``f`` : (vector -> vector) at ``x``, both ``x`` and ``y`` are row vectors.
 
+
+
 .. code-block:: ocaml
 
   val jacobian' : (t -> t) -> t -> t * t
 
 similar to ``jacobian``, but return ``(f x, jacobian f x)``
+
+
 
 .. code-block:: ocaml
 
@@ -53,11 +65,15 @@ similar to ``jacobian``, but return ``(f x, jacobian f x)``
 jacobian vector product of ``f`` : (vector -> vector) at ``x`` along ``v``,
     forward ad. Namely, it calcultes ``(jacobian x) v``
 
+
+
 .. code-block:: ocaml
 
   val jacobianv' : (t -> t) -> t -> t -> t * t
 
 similar to ``jacobianv'``, but return ``(f x, jacobianv f x v)``
+
+
 
 .. code-block:: ocaml
 
@@ -66,11 +82,15 @@ similar to ``jacobianv'``, but return ``(f x, jacobianv f x v)``
 transposed jacobian vector product of ``f : (vector -> vector)`` at ``x``
 along ``v``, backward ad. Namely, it calculates ``transpose ((jacobianv f x v))``.
 
+
+
 .. code-block:: ocaml
 
   val jacobianTv' : (t -> t) -> t -> t -> t * t
 
 similar to ``jacobianTv``, but return ``(f x, transpose (jacobianv f x v))``
+
+
 
 .. code-block:: ocaml
 
@@ -78,11 +98,15 @@ similar to ``jacobianTv``, but return ``(f x, transpose (jacobianv f x v))``
 
 hessian of ``f`` : (scalar -> scalar) at ``x``.
 
+
+
 .. code-block:: ocaml
 
   val hessian' : (t -> t) -> t -> t * t
 
 simiarl to ``hessian``, but return ``(f x, hessian f x)``
+
+
 
 .. code-block:: ocaml
 
@@ -91,11 +115,15 @@ simiarl to ``hessian``, but return ``(f x, hessian f x)``
 hessian vector product of ``f`` : (scalar -> scalar) at ``x`` along ``v``.
     Namely, it calculates ``(hessian x) v``.
 
+
+
 .. code-block:: ocaml
 
   val hessianv' : (t -> t) -> t -> t -> t * t
 
 similar to ``hessianv``, but return ``(f x, hessianv f x v)``.
+
+
 
 .. code-block:: ocaml
 
@@ -103,11 +131,15 @@ similar to ``hessianv``, but return ``(f x, hessianv f x v)``.
 
 laplacian of ``f : (scalar -> scalar)`` at ``x``.
 
+
+
 .. code-block:: ocaml
 
   val laplacian' : (t -> t) -> t -> t * t
 
 simiar to ``laplacian``, but return ``(f x, laplacian f x)``.
+
+
 
 .. code-block:: ocaml
 
@@ -115,11 +147,15 @@ simiar to ``laplacian``, but return ``(f x, laplacian f x)``.
 
 return ``(grad f x, hessian f x)``, ``f : (scalar -> scalar)``
 
+
+
 .. code-block:: ocaml
 
   val gradhessian' : (t -> t) -> t -> t * t * t
 
 return ``(f x, grad f x, hessian f x)``
+
+
 
 .. code-block:: ocaml
 
@@ -127,11 +163,15 @@ return ``(f x, grad f x, hessian f x)``
 
 return ``(grad f x v, hessian f x v)``
 
+
+
 .. code-block:: ocaml
 
   val gradhessianv' : (t -> t) -> t -> t -> t * t * t
 
 return ``(f x, grad f x v, hessian f x v)``
+
+
 
 .. code-block:: ocaml
 
@@ -139,6 +179,8 @@ return ``(f x, grad f x v, hessian f x v)``
 
 ``to_trace [t0; t1; ...]`` outputs the trace of computation graph on the
 terminal in a human-readable format.
+
+
 
 .. code-block:: ocaml
 
@@ -148,9 +190,13 @@ terminal in a human-readable format.
 file format which you can use other tools further visualisation, such as
 Graphviz.
 
+
+
 .. code-block:: ocaml
 
   val pp_num : Format.formatter -> t -> unit
 
 ``pp_num t`` pretty prints the abstract number used in ``Algodiff``.
+
+
 
