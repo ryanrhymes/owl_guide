@@ -2,8 +2,26 @@ Graph
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#3 functions have been extracted.
-timestamp:1517625319
+#6 functions have been extracted.
+timestamp:1517659115
+
+.. code-block:: ocaml
+
+  type order = BFS | DFS
+
+Order to traverse a graph, BFS or DFS.
+
+.. code-block:: ocaml
+
+  type dir = Ancestor | Descendant
+
+Iteration direction, i.e. ancestors or descendants
+
+.. code-block:: ocaml
+
+  type 'a node
+
+type definition of a node
 
 .. code-block:: ocaml
 

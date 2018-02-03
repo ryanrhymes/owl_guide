@@ -2,8 +2,14 @@ Stats
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#39 functions have been extracted.
-timestamp:1517625318
+#40 functions have been extracted.
+timestamp:1517659114
+
+.. code-block:: ocaml
+
+  type tail = BothSide | RightSide | LeftSide
+
+Types of alternative hypothesis tests: one-side, left-side, or right-side.
 
 .. code-block:: ocaml
 

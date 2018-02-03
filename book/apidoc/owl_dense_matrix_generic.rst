@@ -2,8 +2,14 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#382 functions have been extracted.
-timestamp:1517625319
+#383 functions have been extracted.
+timestamp:1517659115
+
+.. code-block:: ocaml
+
+  type ('a, 'b) t = ('a, 'b, c_layout) Genarray.t
+
+N-dimensional array type, i.e. Bigarray Genarray type.
 
 .. code-block:: ocaml
 

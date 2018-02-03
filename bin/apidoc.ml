@@ -1,5 +1,7 @@
 #!/usr/bin/env utop
 
+(* This script is used to build API document for Owl. *)
+
 #require "re.pcre"
 #require "owl_top"
 
@@ -29,11 +31,11 @@ let ocaml_to_sphinx doc =
 
 
 (* given a mli, parse to retrieve api doc and save to a hashtbl *)
-let parse_one_mli fname =
+let parse_one_mli regstr fname =
   let s = get_content fname in
   let apidoc = Owl.Utils.Stack.make () in
-  let restr = "[ \n]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
-  let regex = Re_pcre.regexp ~flags:[`MULTILINE] restr in
+  (* let restr = "[ \n]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in *)
+  let regex = Re_pcre.regexp ~flags:[`MULTILINE] regstr in
   Re.all regex s |> List.iter (fun mc ->
     let _fun_typ = Re.Group.get mc 1 in
     let _fun_doc = Re.Group.get mc 2 in
@@ -66,16 +68,21 @@ let parse_modules src_root dst_root modules =
   Printf.fprintf h ".. toctree::\n  :maxdepth: 2\n  :caption: Modules:\n\n";
   let num_funs = ref 0 in
 
+  let res0 = "[ \n]*(type .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
+  let res1 = "[ \n]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
+
   Array.iter (fun (file_name, module_name) ->
     Owl_log.info "apidoc: parsing %s ..." file_name;
     let bname = Filename.(basename file_name |> chop_extension) in
     let iname = src_root ^ file_name in
     let oname = dst_root ^ bname ^ ".rst" in
-    let apidoc = parse_one_mli iname in
-    write_to_rst apidoc oname module_name;
+    let typdoc = parse_one_mli res0 iname in
+    let apidoc = parse_one_mli res1 iname in
+    let alldoc = Array.append typdoc apidoc in
+    write_to_rst alldoc oname module_name;
 
     Printf.fprintf h "  %s\n\n" bname;
-    num_funs := !num_funs + (Array.length apidoc);
+    num_funs := !num_funs + (Array.length alldoc);
   ) modules;
 
   Printf.fprintf h "#%i functions have been extracted.\n\n" !num_funs;

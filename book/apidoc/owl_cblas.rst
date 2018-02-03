@@ -2,8 +2,14 @@ Cblas
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#47 functions have been extracted.
-timestamp:1517625319
+#48 functions have been extracted.
+timestamp:1517659115
+
+.. code-block:: ocaml
+
+  type cblas_side = CblasLeft | CblasRight
+
+{6 Level-1 BLAS: vector-vector operations}
 
 .. code-block:: ocaml
 

@@ -2,8 +2,14 @@ Linalg.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#33 functions have been extracted.
-timestamp:1517625319
+#34 functions have been extracted.
+timestamp:1517659115
+
+.. code-block:: ocaml
+
+  type ('a, 'b) t = ('a, 'b) Owl_dense.Matrix.Generic.t
+
+Matrix type, a special case of N-dimensional array.
 
 .. code-block:: ocaml
 

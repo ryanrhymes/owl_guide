@@ -29,5 +29,5 @@ Owl's API Dcoumentation
 
   owl_graph
 
-#1035 functions have been extracted.
+#1176 functions have been extracted.
 

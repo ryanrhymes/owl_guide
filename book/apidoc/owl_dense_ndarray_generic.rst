@@ -2,8 +2,20 @@ Dense.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#352 functions have been extracted.
-timestamp:1517625318
+#354 functions have been extracted.
+timestamp:1517659114
+
+.. code-block:: ocaml
+
+  type ('a, 'b) t = ('a, 'b, c_layout) Genarray.t
+
+N-dimensional array type, i.e. Bigarray Genarray type.
+
+.. code-block:: ocaml
+
+  type ('a, 'b) kind = ('a, 'b) Bigarray.kind
+
+Type of the ndarray, e.g., Bigarray.Float32, Bigarray.Complex64, and etc.
 
 .. code-block:: ocaml
 
