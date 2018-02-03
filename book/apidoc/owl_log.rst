@@ -3,7 +3,7 @@ Log
 
 This document is auto-generated for Owl's APIs.
 #1 functions have been extracted.
-timestamp:1517620731
+timestamp:1517625319
 
 .. code-block:: ocaml
 
