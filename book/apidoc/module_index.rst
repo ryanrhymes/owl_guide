@@ -15,6 +15,8 @@ Owl's API Dcoumentation
 
   owl_dense_matrix_generic
 
+  owl_sparse_ndarray_generic
+
   owl_sparse_matrix_generic
 
   owl_linalg_generic
@@ -35,5 +37,5 @@ Owl's API Dcoumentation
 
   owl_lapacke_generated
 
-#2384 entries (incl. constants, types, and functions) have been extracted.
+#2460 entries (incl. constants, types, and functions) have been extracted.
 

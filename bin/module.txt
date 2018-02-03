@@ -3,6 +3,7 @@ owl/maths/owl_maths.mli | Maths
 owl/stats/owl_stats.mli | Stats
 owl/dense/owl_dense_ndarray_generic.mli | Dense.Ndarray.Generic
 owl/dense/owl_dense_matrix_generic.mli | Dense.Matrix.Generic
+owl/sparse/owl_sparse_ndarray_generic.mli | Sparse.Ndarray.Generic
 owl/sparse/owl_sparse_matrix_generic.mli | Sparse.Matrix.Generic
 owl/linalg/owl_linalg_generic.mli | Linalg.Generic
 base/optimise/owl_algodiff_generic.mli | Algodiff.Generic Functor
