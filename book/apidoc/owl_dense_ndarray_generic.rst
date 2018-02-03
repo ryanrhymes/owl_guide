@@ -2,22 +2,11 @@ Dense.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#354 functions have been extracted.
-timestamp:1517679663
+#365 entries have been extracted.
+timestamp:1517687375
 
-.. code-block:: ocaml
-
-  type ('a, 'b) t = ('a, 'b, c_layout) Genarray.t
-
-N-dimensional array type, i.e. Bigarray Genarray type.
-
-
-
-.. code-block:: ocaml
-
-  type ('a, 'b) kind = ('a, 'b) Bigarray.kind
-
-Type of the ndarray, e.g., Bigarray.Float32, Bigarray.Complex64, and etc.
+Create N-dimensional array
+-------------------------------------------------------------------------------
 
 
 
@@ -175,6 +164,11 @@ negative elelments or ``theta`` has infinity elelments.
 
 
 
+Obtain basic properties
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val shape : ('a, 'b) t -> int array
@@ -280,6 +274,11 @@ shape ``[|3;4;5|]``, the returned slice size will be ``[|60; 20; 5|]``.
   val i1d : ('a, 'b) t -> int array -> int
 
 ``i1d x i`` converts ``x``'s n-dimensional index ``i`` to one-dimensional one.
+
+
+
+Manipulate a N-dimensional array
+-------------------------------------------------------------------------------
 
 
 
@@ -637,6 +636,11 @@ of both samples and the indices of the selected samples.
 
 
 
+Iterate array elements
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val iteri :(int -> 'a -> unit) -> ('a, 'b) t -> unit
@@ -759,6 +763,11 @@ and ``y``. Note that 1d index is passed to funciton ``f``.
   val map2 : ('a -> 'a -> 'a) -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``map2 f x y`` is similar to ``map2i f x y`` except the index is not passed.
+
+
+
+Examine array elements or compare two arrays 
+-------------------------------------------------------------------------------
 
 
 
@@ -1159,6 +1168,11 @@ considered as approximately equal to ``a``, namely ``abs (a - b) < eps``.
 
 
 
+Input/Output functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val of_array : ('a, 'b) kind -> 'a array -> int array -> ('a, 'b) t
@@ -1211,6 +1225,11 @@ function to format every element into string.
 
 ``load k s`` loads previously serialised ndarray from file ``s`` into memory.
 It is necesssary to specify the type of the ndarray with paramater ``k``.
+
+
+
+Unary mathematical operations 
+-------------------------------------------------------------------------------
 
 
 
@@ -1969,6 +1988,11 @@ the elements along the given ``~axis``.
 
 
 
+Binary mathematical operations 
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val add : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
@@ -2242,6 +2266,11 @@ elements greater than ``amax`` will be set to ``amax``.
 
 
 
+Cast functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val cast : ('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t
@@ -2313,6 +2342,11 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
   val cast_d2c : (float, float64_elt) t -> (Complex.t, complex32_elt) t
 
 ``cast_d2c x`` casts ``x`` from ``float64`` to ``complex32``.
+
+
+
+Neural network related functions
+-------------------------------------------------------------------------------
 
 
 
@@ -2476,6 +2510,11 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 
 
+Some helper and experimental functions 
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val print_element : ('a, 'b) kind -> 'a -> unit
@@ -2507,6 +2546,11 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 ``sum_slices ~axis:2 x`` for ``x`` of ``[|2;3;4;5|]``, it returns an ndarray of
 shape ``[|4;5|]``. Currently, the operation is done using ``gemm``, fast but uses
 more memory.
+
+
+
+Fucntions of in-place modification 
+-------------------------------------------------------------------------------
 
 
 
@@ -3207,6 +3251,11 @@ but the output is written to ``x``.
 
 ``elt_greater_equal_scalar_ x a`` is simiar to ``elt_greater_equal_scalar``
 function but the output is written to ``x``.
+
+
+
+Matrix functions
+-------------------------------------------------------------------------------
 
 
 

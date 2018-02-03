@@ -2,8 +2,13 @@ Log
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#9 functions have been extracted.
-timestamp:1517679663
+#12 entries have been extracted.
+timestamp:1517687376
+
+Type definition
+-------------------------------------------------------------------------------
+
+
 
 .. code-block:: ocaml
 
@@ -12,6 +17,11 @@ timestamp:1517679663
 Type definition of log levels, priority is from low to high. Using ``set_level``
 function to set global logging level to high one can mask the output from low
 level loggging.
+
+
+
+Configuration functions
+-------------------------------------------------------------------------------
 
 
 
@@ -37,6 +47,11 @@ standard output.
   val set_color : bool -> unit
 
 ``set_color true`` turns on the colour; ``set_color false`` turns it off.
+
+
+
+Log functions
+-------------------------------------------------------------------------------
 
 
 

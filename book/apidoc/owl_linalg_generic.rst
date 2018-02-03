@@ -2,14 +2,11 @@ Linalg.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#34 functions have been extracted.
-timestamp:1517679663
+#39 entries have been extracted.
+timestamp:1517687376
 
-.. code-block:: ocaml
-
-  type ('a, 'b) t = ('a, 'b) Owl_dense.Matrix.Generic.t
-
-Matrix type, a special case of N-dimensional array.
+Basic functions
+-------------------------------------------------------------------------------
 
 
 
@@ -149,6 +146,11 @@ conditioned, the result is near ``0.``
 
 
 
+Factorisation
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val lu : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * (int32, int32_elt) t
@@ -280,6 +282,11 @@ Both Hessenberg matrix ``h`` and unitary matrix ``q`` is returned, such that
 
 
 
+Eigenvalues & eigenvectors
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val eig : ?permute:bool -> ?scale:bool -> otyp:('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t * ('a, 'b) t
@@ -300,6 +307,11 @@ need worry about this parameter if you use S, D, C, Z modules in Linalg.
 
 ``eigvals x -> w`` is similar to ``eig`` but only computes the eigenvalues of
 an arbitrary square matrix ``x``.
+
+
+
+Linear system of equations
+-------------------------------------------------------------------------------
 
 
 
@@ -334,6 +346,11 @@ complex matrices.
   val linreg : ('a, 'b) t -> ('a, 'b) t -> 'a * 'a
 
 ``linreg x y -> (a, b)`` solves ``y = a + b*x`` using Ordinary Least Squares.
+
+
+
+Low-level factorisation functions
+-------------------------------------------------------------------------------
 
 
 
@@ -373,6 +390,11 @@ is stored: ``x = u*d*u'`` else ``x = l*d*l'``.
 For ``ipiv``, it indicates the details of the interchanges and the block
 structure of ``d``. Please refer to the function ``sytrf``, ``hetrf`` in MKL
 documentation for more details.
+
+
+
+Helper functions
+-------------------------------------------------------------------------------
 
 
 

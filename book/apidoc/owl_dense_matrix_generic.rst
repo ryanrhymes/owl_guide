@@ -2,14 +2,11 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#383 functions have been extracted.
-timestamp:1517679663
+#393 entries have been extracted.
+timestamp:1517687376
 
-.. code-block:: ocaml
-
-  type ('a, 'b) t = ('a, 'b, c_layout) Genarray.t
-
-N-dimensional array type, i.e. Bigarray Genarray type.
+Create dense matrices
+-------------------------------------------------------------------------------
 
 
 
@@ -302,6 +299,11 @@ and doubly even respectively.
 
 
 
+Obtain the basic properties
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val shape : ('a, 'b) t -> int * int
@@ -373,6 +375,11 @@ to ``(row_num x) * (col_num x)``.
   val kind : ('a, 'b) t -> ('a, 'b) kind
 
 ``kind x`` returns the type of matrix ``x``.
+
+
+
+Manipulate a matrix
+-------------------------------------------------------------------------------
 
 
 
@@ -749,6 +756,11 @@ one to the greatest one.
 
 
 
+Iterate elements, columns, and rows.
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val iteri : (int -> 'a -> unit) -> ('a, 'b) t -> unit
@@ -1040,6 +1052,11 @@ the ``j``th column in matrix ``x``.
 
 ``map_at_col f x i`` is similar to ``mapi_at_col`` except that the coordinates
 of an element is not passed to ``f``.
+
+
+
+Examine elements and compare two matrices
+-------------------------------------------------------------------------------
 
 
 
@@ -1426,6 +1443,11 @@ considered as approximately equal to ``a``, namely ``abs (a - b) < eps``.
 
 
 
+Randomisation functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val draw_rows : ?replacement:bool -> ('a, 'b) t -> int -> ('a, 'b) t * int array
@@ -1484,6 +1506,11 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle x`` shuffles all the elements in ``x`` by first shuffling along the
 rows then shuffling along columns. It is equivalent to ``shuffle_cols (shuffle_rows x)``.
+
+
+
+Input/Output functions
+-------------------------------------------------------------------------------
 
 
 
@@ -1563,6 +1590,11 @@ The operation can be very time consuming.
   val load_txt : (float, 'a) kind -> string -> (float, 'a) t
 
 ``load_txt f`` load a tab-delimited text file ``f`` into a matrix.
+
+
+
+Unary mathematical operations 
+-------------------------------------------------------------------------------
 
 
 
@@ -2426,6 +2458,11 @@ The elements in ``x`` are clipped by ``amin`` and ``amax``, and they will be bet
 
 
 
+Binary mathematical operations 
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val add : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
@@ -2727,6 +2764,11 @@ between the elements of ``a`` and the matrix ``b``.
 
 
 
+Cast functions to different number types
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val cast : ('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t
@@ -2798,6 +2840,11 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
   val cast_d2c : (float, float64_elt) t -> (Complex.t, complex32_elt) t
 
 ``cast_d2c x`` casts ``x`` from ``float64`` to ``complex32``.
+
+
+
+Fucntions of in-place modification 
+-------------------------------------------------------------------------------
 
 
 

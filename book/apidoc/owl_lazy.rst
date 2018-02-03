@@ -2,15 +2,11 @@ Lazy Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#144 functions have been extracted.
-timestamp:1517679663
+#150 entries have been extracted.
+timestamp:1517687376
 
-.. code-block:: ocaml
-
-  type t
-
-``t`` is an abstract type to represent an experssion, it is also an alias
-for type ``node``. Type ``node`` is only for internal use in the module.
+Core functions
+-------------------------------------------------------------------------------
 
 
 
@@ -82,6 +78,11 @@ for type ``node``. Type ``node`` is only for internal use in the module.
 
 
 
+Printing functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val pp_lazy : Format.formatter -> t -> unit
@@ -114,6 +115,11 @@ for type ``node``. Type ``node`` is only for internal use in the module.
   val copy : t array -> t array
 
 ``copy x``
+
+
+
+Properties and manipulations
+-------------------------------------------------------------------------------
 
 
 
@@ -179,6 +185,11 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val concatenate : ?axis:int -> t array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+
+
+Unary operators
+-------------------------------------------------------------------------------
 
 
 
@@ -686,6 +697,11 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 
 
+Binary operators
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val add : t -> t -> t
@@ -1038,6 +1054,11 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 
 
+Comparion functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val elt_equal : t -> t -> t
@@ -1131,6 +1152,11 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val elt_greater_equal_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+
+
+Advanced operations
+-------------------------------------------------------------------------------
 
 
 

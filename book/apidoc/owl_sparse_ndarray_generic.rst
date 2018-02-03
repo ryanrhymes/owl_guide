@@ -2,22 +2,11 @@ Sparse.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#76 functions have been extracted.
-timestamp:1517679663
+#82 entries have been extracted.
+timestamp:1517687376
 
-.. code-block:: ocaml
-
-  type ('a, 'b) kind = ('a, 'b) Bigarray.kind
-
-TODO
-
-
-
-.. code-block:: ocaml
-
-  type ('a, 'b) t
-
-TODO
+Create sparse ndarray
+-------------------------------------------------------------------------------
 
 
 
@@ -42,6 +31,11 @@ TODO
   val uniform : ?scale:float -> ?density:float -> ('a, 'b) kind -> int array -> ('a, 'b) t
 
 TODO
+
+
+
+Obtain basic properties
+-------------------------------------------------------------------------------
 
 
 
@@ -109,6 +103,11 @@ TODO
 
 
 
+Manipulate a N-dimensional array
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val get : ('a, 'b) t -> int array -> 'a
@@ -170,6 +169,11 @@ TODO
   val swap : int -> int -> ('a, 'b) t -> ('a, 'b) t
 
 TODO
+
+
+
+Iterate array elements
+-------------------------------------------------------------------------------
 
 
 
@@ -301,6 +305,11 @@ TODO
 
 
 
+Examine array elements or compare two arrays 
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val exists : ('a -> bool) -> ('a, 'b) t -> bool
@@ -413,6 +422,11 @@ TODO
 
 
 
+Input/Output and helper functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val to_array : ('a, 'b) t -> (int array * 'a) array
@@ -458,6 +472,11 @@ TODO
   val load : ('a, 'b) kind -> string -> ('a, 'b) t
 
 TODO
+
+
+
+Unary mathematical operations 
+-------------------------------------------------------------------------------
 
 
 
@@ -514,6 +533,11 @@ TODO
   val mean : ('a, 'b) t -> 'a
 
 TODO
+
+
+
+Binary mathematical operations 
+-------------------------------------------------------------------------------
 
 
 

@@ -2,8 +2,13 @@ Low-level CBLAS API
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#53 functions have been extracted.
-timestamp:1517679663
+#57 entries have been extracted.
+timestamp:1517687376
+
+Definition of basic types
+-------------------------------------------------------------------------------
+
+
 
 .. code-block:: ocaml
 
@@ -50,6 +55,11 @@ Diag type
   type cblas_side = CblasLeft | CblasRight
 
 Side type
+
+
+
+Level-1 BLAS: vector-vector operations
+-------------------------------------------------------------------------------
 
 
 
@@ -171,6 +181,11 @@ Computes the sum of magnitudes of the vector elements.
   val amax : int -> ('a, 'b) t -> int -> int
 
 Finds the index of the element with maximum absolute value.
+
+
+
+Level-2 BLAS: matrix-vector operations
+-------------------------------------------------------------------------------
 
 
 
@@ -356,6 +371,11 @@ Performs a rank-2 update of a Hermitian matrix.
   val hpr2 : cblas_layout -> cblas_uplo -> int -> Complex.t -> (Complex.t, 'a) t -> int -> (Complex.t, 'a) t -> int -> (Complex.t, 'a) t -> unit
 
 Performs a rank-2 update of a Hermitian packed matrix.
+
+
+
+Level-3 BLAS: matrix-matrix operations
+-------------------------------------------------------------------------------
 
 
 

@@ -2,8 +2,8 @@ Pretty
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#2 functions have been extracted.
-timestamp:1517679663
+#2 entries have been extracted.
+timestamp:1517687376
 
 .. code-block:: ocaml
 

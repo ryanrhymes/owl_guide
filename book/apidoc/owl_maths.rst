@@ -2,8 +2,13 @@ Maths
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#124 functions have been extracted.
-timestamp:1517679662
+#135 entries have been extracted.
+timestamp:1517687375
+
+Basic math functions
+-------------------------------------------------------------------------------
+
+
 
 .. code-block:: ocaml
 
@@ -517,12 +522,22 @@ Calculate the length of the hypotenuse.
 
 
 
+Airy functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val airy : float -> float * float * float * float
 
 Airy function ``airy x`` returns ``(Ai, Aip, Bi, Bip)``. ``Aip`` is the
 derivative of ``Ai`` whilst ``Bip`` is the derivative of ``Bi``.
+
+
+
+Bessel functions
+-------------------------------------------------------------------------------
 
 
 
@@ -654,6 +669,11 @@ Exponentially scaled modified Bessel function K of order 1.
 
 
 
+Elliptic functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val ellipj : float -> float -> float * float * float * float
@@ -699,6 +719,11 @@ Complete elliptic integral of the second kind ``ellipe m``.
   val ellipeinc : float -> float -> float
 
 Incomplete elliptic integral of the second kind ``ellipeinc phi m``.
+
+
+
+Gamma Functions
+-------------------------------------------------------------------------------
 
 
 
@@ -766,6 +791,11 @@ The digamma function.
 
 
 
+Beta functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val beta : float -> float -> float
@@ -787,6 +817,11 @@ Incomplete beta integral.
   val betaincinv : float -> float -> float -> float
 
 Inverse funciton of beta integral.
+
+
+
+Factorials
+-------------------------------------------------------------------------------
 
 
 
@@ -819,6 +854,11 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
   val combination : int -> int -> int
 
 ``combination n k`` return the combination number of taking k out of n.
+
+
+
+Error Function and Fresnel Integrals
+-------------------------------------------------------------------------------
 
 
 
@@ -879,11 +919,21 @@ Fresnel sin and cos integrals, ``fresnel x`` returns a tuple consisting of
 
 
 
+Struve functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val struve : float -> float -> float
 
 Struve function ``struve v x``.
+
+
+
+Other special functions
+-------------------------------------------------------------------------------
 
 
 
@@ -956,6 +1006,11 @@ Riemann or Hurwitz zeta function ``zeta x q``.
   val zetac : float -> float
 
 Riemann zeta function minus 1.
+
+
+
+Some utility functions
+-------------------------------------------------------------------------------
 
 
 

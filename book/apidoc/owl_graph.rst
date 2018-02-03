@@ -2,8 +2,13 @@ Graph
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#28 functions have been extracted.
-timestamp:1517679663
+#33 entries have been extracted.
+timestamp:1517687376
+
+Type definition
+-------------------------------------------------------------------------------
+
+
 
 .. code-block:: ocaml
 
@@ -26,6 +31,11 @@ Iteration direction, i.e. ancestors or descendants
   type 'a node
 
 type definition of a node
+
+
+
+Obtaining properties
+-------------------------------------------------------------------------------
 
 
 
@@ -93,6 +103,11 @@ type definition of a node
 
 
 
+Manipulation functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val node : ?id:int -> ?name:string -> ?prev:'a node array -> ?next:'a node array -> 'a -> 'a node
@@ -140,6 +155,11 @@ it does not remove [dst -> src] if there exists one.
 Note that this function only makes a copy of the graph structure, ``attr``
 fileds of the nodes in the new graph share the same memory with those in the
 original graph.
+
+
+
+Iterators
+-------------------------------------------------------------------------------
 
 
 
@@ -220,6 +240,11 @@ Fold all the in-edges of a given node.
   val fold_out_edges : ('b -> 'a node -> 'a node -> 'b) -> 'b -> 'a node array -> 'b
 
 Fold all the out-edges of a given node.
+
+
+
+Helper functions
+-------------------------------------------------------------------------------
 
 
 

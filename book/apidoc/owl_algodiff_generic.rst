@@ -2,8 +2,8 @@ Algodiff.Generic Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#23 functions have been extracted.
-timestamp:1517679663
+#23 entries have been extracted.
+timestamp:1517687376
 
 .. code-block:: ocaml
 

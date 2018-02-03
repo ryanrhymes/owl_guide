@@ -2,14 +2,11 @@ Stats
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#40 functions have been extracted.
-timestamp:1517679663
+#43 entries have been extracted.
+timestamp:1517687375
 
-.. code-block:: ocaml
-
-  type tail = BothSide | RightSide | LeftSide
-
-Types of alternative hypothesis tests: one-side, left-side, or right-side.
+Randomisation functions
+-------------------------------------------------------------------------------
 
 
 
@@ -34,6 +31,11 @@ Types of alternative hypothesis tests: one-side, left-side, or right-side.
   val sample : 'a array -> int -> 'a array
 
 ``sample x n`` draw ``n`` samples from ``x`` with replacement.
+
+
+
+Basic statistical functions
+-------------------------------------------------------------------------------
 
 
 
@@ -216,11 +218,8 @@ Computes sample's ranks.
 
 
 
-.. code-block:: ocaml
-
-  val normlise_pdf : float array -> float array
-
-{6 MCMC: Markov Chain Monte Carlo}
+MCMC: Markov Chain Monte Carlo
+-------------------------------------------------------------------------------
 
 
 
@@ -239,6 +238,19 @@ TODO: ``metropolis_hastings f p n`` is Metropolis-Hastings MCMC algorithm.
 
 TODO: ``gibbs_sampling f p n`` is Gibbs sampler. f is a sampler based on the full
   conditional function of all variables
+
+
+
+Hypothesis tests
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type tail = BothSide | RightSide | LeftSide
+
+Types of alternative hypothesis tests: one-side, left-side, or right-side.
 
 
 
@@ -387,19 +399,13 @@ TODO: ``gibbs_sampling f p n`` is Gibbs sampler. f is a sampler based on the ful
 
 
 
-.. code-block:: ocaml
-
-  val wilcoxon : ?alpha:float -> ?side:tail -> float array -> float array -> hypothesis
-
-{6 Discrete random variables}
+Discrete random variables
+-------------------------------------------------------------------------------
 
 
 
-.. code-block:: ocaml
-
-  val hypergeometric_logpdf : int -> good:int -> bad:int -> sample:int -> float
-
-{6 Continuous random variables}
+Continuous random variables
+-------------------------------------------------------------------------------
 
 
 

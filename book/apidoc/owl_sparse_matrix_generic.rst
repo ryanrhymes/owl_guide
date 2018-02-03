@@ -2,22 +2,11 @@ Sparse.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#124 functions have been extracted.
-timestamp:1517679663
+#130 entries have been extracted.
+timestamp:1517687376
 
-.. code-block:: ocaml
-
-  type ('a, 'b) t
-
-Abstract type of sparse matrices
-
-
-
-.. code-block:: ocaml
-
-  type ('a, 'b) kind = ('a, 'b) Bigarray.kind
-
-Type of sparse matrices. It is defined in ``types.ml`` as record type.
+Create sparse matrices
+-------------------------------------------------------------------------------
 
 
 
@@ -72,6 +61,11 @@ adjusts the interval to ``(0,a)``.
   val sequential : ('a, 'b) kind -> int -> int -> ('a, 'b) t
 
 TODO
+
+
+
+Obtain the basic properties
+-------------------------------------------------------------------------------
 
 
 
@@ -159,11 +153,8 @@ equivalent to ``nnz x`` divided by ``numel x``.
 
 
 
-.. code-block:: ocaml
-
-  val kind : ('a, 'b) t -> ('a, 'b) kind
-
-{6 Manipulate a matrix}
+Manipulate a matrix
+-------------------------------------------------------------------------------
 
 
 
@@ -281,6 +272,11 @@ of x in a new sparse matrix.
   val concat_horizontal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``concat_horizontal x y`` not implemented yet
+
+
+
+Iterate elements, columns, and rows
+-------------------------------------------------------------------------------
 
 
 
@@ -584,6 +580,11 @@ columns in ``x`` using function ``f``. Zero columns will be dropped in iterating
 
 
 
+Examin elements and compare two matrices
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val exists : ('a -> bool) -> ('a, 'b) t -> bool
@@ -728,6 +729,11 @@ greater than the corresponding elements in ``y``.
 
 
 
+Randomisation functions
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val permutation_matrix : ('a, 'b) kind -> int -> ('a, 'b) t
@@ -778,6 +784,11 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle x`` shuffles all the elements in ``x`` by first shuffling along the
 rows then shuffling along columns. It is equivalent to ``shuffle_cols (shuffle_rows x)``.
+
+
+
+Input/Output and helper functions
+-------------------------------------------------------------------------------
 
 
 
@@ -845,6 +856,11 @@ is binary by using ``Marshal`` module to serialise the matrix.
 
 ``load k f`` loads a sparse matrix from file ``f``. The file must be previously
 saved by using ``save`` function.
+
+
+
+Unary mathematical operations 
+-------------------------------------------------------------------------------
 
 
 
@@ -962,6 +978,11 @@ TODO
   val l2norm : (float, 'b) t -> float
 
 TODO
+
+
+
+Binary mathematical operations 
+-------------------------------------------------------------------------------
 
 
 

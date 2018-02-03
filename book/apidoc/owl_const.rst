@@ -2,14 +2,11 @@ Constants
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#22 functions have been extracted.
-timestamp:1517679662
+#28 entries have been extracted.
+timestamp:1517687375
 
-.. code-block:: ocaml
-
-  type ``kind``. *)
-
-{6 Unit prefixes}
+Maths constants
+-------------------------------------------------------------------------------
 
 
 
@@ -141,6 +138,11 @@ pi/4
 
 
 
+Functions that return constants using Bigarray kind
+-------------------------------------------------------------------------------
+
+
+
 .. code-block:: ocaml
 
   val zero : ('a, 'b) Bigarray.kind -> 'a
@@ -178,6 +180,31 @@ pi/4
   val neg_inf : ('a, 'b) Bigarray.kind -> 'a
 
 ``neg_inf kind`` returns negative infinity of the given number type ``kind``.
+
+
+
+Unit prefixes
+-------------------------------------------------------------------------------
+
+
+
+SI: International System of Units
+-------------------------------------------------------------------------------
+
+
+
+MKS: MKS system of units
+-------------------------------------------------------------------------------
+
+
+
+CGS: Centimetre–gram–second system of units
+-------------------------------------------------------------------------------
+
+
+
+CGSM: Unit Systems in Electromagnetism
+-------------------------------------------------------------------------------
 
 
 
