@@ -49,9 +49,9 @@ API Documentation
    apidoc/module_index
 
 
+.. Comment out for the time being
+  Indices and tables
+  =================================================
 
-Indices and tables
-=================================================
-
-* :ref:`genindex`
-* :ref:`search`
+  * :ref:`genindex`
+  * :ref:`search`

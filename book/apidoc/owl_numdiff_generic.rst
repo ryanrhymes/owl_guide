@@ -3,7 +3,7 @@ Numdiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #10 entries have been extracted.
-timestamp:1517687376
+timestamp:1517688693
 
 .. code-block:: ocaml
 
