@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #124 functions have been extracted.
-timestamp:1517616106
+timestamp:1517618869
 
 .. code-block:: ocaml
 
@@ -394,7 +394,7 @@ Calculate the length of the hypotenuse.
   val airy : float -> float * float * float * float
 
 Airy function ``airy x`` returns ``(Ai, Aip, Bi, Bip)``. ``Aip`` is the
-derivative of ``Ai`` whilst ``Bip`` is the derivative of ``Bi``.
+  derivative of ``Ai`` whilst ``Bip`` is the derivative of ``Bi``.
 
 .. code-block:: ocaml
 
@@ -659,7 +659,7 @@ Dawson’s integral.
   val fresnel : float -> float * float
 
 Fresnel sin and cos integrals, ``fresnel x`` returns a tuple consisting of
-``(Fresnel sin integral, Fresnel cos integral)``.
+  ``(Fresnel sin integral, Fresnel cos integral)``.
 
 .. code-block:: ocaml
 
@@ -744,12 +744,12 @@ Riemann zeta function minus 1.
   val nextafter : float -> float -> float
 
 ``nextafter from to`` returns the next representable double precision value
-of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
+  of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
 
 .. code-block:: ocaml
 
   val nextafterf : float -> float -> float
 
 ``nextafter from to`` returns the next representable single precision value
-of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
+  of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
 

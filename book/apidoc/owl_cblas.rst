@@ -3,7 +3,7 @@ Cblas
 
 This document is auto-generated for Owl's APIs.
 #47 functions have been extracted.
-timestamp:1517616107
+timestamp:1517618869
 
 .. code-block:: ocaml
 
@@ -64,7 +64,7 @@ Computes a vector-scalar product and adds the result to a vector.
   val dot : ?conj:bool -> int -> ('a, 'b) t -> int -> ('a, 'b) t -> int -> 'a
 
 Computes a vector-vector dot product. [conj] is for complex numbers, [true]
-indicates conjugated, [false] indicates unconjugated.
+  indicates conjugated, [false] indicates unconjugated.
 
 .. code-block:: ocaml
 
@@ -167,7 +167,7 @@ Computes a matrix-vector product using a symmetric packed matrix.
   val ger : ?conj:bool -> cblas_layout -> int -> int -> 'a -> ('a, 'b) t -> int -> ('a, 'b) t -> int -> ('a, 'b) t -> int -> unit
 
 Performs a rank-1 update of a general matrix. [conj] is for complex numbers,
-[true] indicates conjugated, [false] indicates unconjugated.
+  [true] indicates conjugated, [false] indicates unconjugated.
 
 .. code-block:: ocaml
 

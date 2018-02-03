@@ -16,9 +16,7 @@ let get_module_files fname =
 
 
 (* simple function to read in the content of a file *)
-let get_content fname =
-  Owl.Utils.read_file fname
-  |> Array.fold_left (fun a b -> a ^ (String.trim b) ^ "\n") ""
+let get_content fname = Owl.Utils.read_file_string ~trim:false fname
 
 
 (* convert some ocaml doc string into sphinx *)
@@ -34,7 +32,7 @@ let ocaml_to_sphinx doc =
 let parse_one_mli fname =
   let s = get_content fname in
   let apidoc = Owl.Utils.Stack.make () in
-  let restr = "^(val .+)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
+  let restr = "[ \n]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
   let regex = Re_pcre.regexp ~flags:[`MULTILINE] restr in
   Re.all regex s |> List.iter (fun mc ->
     let _fun_typ = Re.Group.get mc 1 in

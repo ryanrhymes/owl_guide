@@ -3,7 +3,7 @@ Lazy
 
 This document is auto-generated for Owl's APIs.
 #20 functions have been extracted.
-timestamp:1517616107
+timestamp:1517618870
 
 .. code-block:: ocaml
 
@@ -16,8 +16,8 @@ timestamp:1517616107
   val assign_arr : t -> A.arr -> unit
 
 [assign_arr x a] assigns value [a] to [x]. [x] is the variable created by
-[variable ()] function before. Note that assignment will invalidate all the
-nodes in the subgraph depending on [x].
+    [variable ()] function before. Note that assignment will invalidate all the
+    nodes in the subgraph depending on [x].
 
 .. code-block:: ocaml
 
@@ -42,7 +42,7 @@ nodes in the subgraph depending on [x].
   val of_arr : ?name:string -> A.arr -> t
 
 [of_arr x] creates a constant value from [x] in the computation graph. The
-constant value cannot be re-assigned by [assign_arr] or [assign_elt] later.
+    constant value cannot be re-assigned by [assign_arr] or [assign_elt] later.
 
 .. code-block:: ocaml
 
@@ -55,7 +55,7 @@ constant value cannot be re-assigned by [assign_arr] or [assign_elt] later.
   val eval : t -> unit
 
 [eval x] evaluates the experssion represented by [x]. Note only the
-subgraph that [x] depends on will be evaluated rather than the whole graph.
+    subgraph that [x] depends on will be evaluated rather than the whole graph.
 
 .. code-block:: ocaml
 
@@ -68,15 +68,15 @@ subgraph that [x] depends on will be evaluated rather than the whole graph.
   val to_trace : t list -> string
 
 [to_trace x] returns the trace string that can be printed on the terminal
-for a list of given expressions. The trace shows the structure of the graph.
+    for a list of given expressions. The trace shows the structure of the graph.
 
 .. code-block:: ocaml
 
   val to_dot : t list -> string
 
 [to_dot x] converts a list of experssions into graph using dot-formatted
-string. The returned string can be used for visualising the computation
-graph with third-party tool such as graphviz.
+    string. The returned string can be used for visualising the computation
+    graph with third-party tool such as graphviz.
 
 .. code-block:: ocaml
 
@@ -107,15 +107,15 @@ graph with third-party tool such as graphviz.
   val map : ?name:string -> (t array -> t) -> t array -> t
 
 [map f x] is a general mechanism that allows you to plug in any functions
-into a compuation graph as a computation node in case the unary and binary
-math operators defined in this functor are not sufficient. Also because of
-[map], we do not really need the control flow node in Owl as that in
-TensorFlow since [map] is more general can be used to implement arbitrary
-operations (almost).
+    into a compuation graph as a computation node in case the unary and binary
+    math operators defined in this functor are not sufficient. Also because of
+    [map], we do not really need the control flow node in Owl as that in
+    TensorFlow since [map] is more general can be used to implement arbitrary
+    operations (almost).
 
-[f : t array -> t] takes an array of [t] as inputs and outputs a constant
-value of [t]. This means the output must be wrapped up using either [of_arr]
-or [of_elt] function before returning the result.
+    [f : t array -> t] takes an array of [t] as inputs and outputs a constant
+    value of [t]. This means the output must be wrapped up using either [of_arr]
+    or [of_elt] function before returning the result.
 
 .. code-block:: ocaml
 
