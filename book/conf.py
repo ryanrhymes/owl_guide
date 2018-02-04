@@ -46,7 +46,8 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Owl Numerical Library'
-copyright = u'2018, Liang Wang'
+copyright = u'2018, <a href="http://www.cl.cam.ac.uk/~lw525/">Liang Wang</a> \
+  | <a href="http://www.cl.cam.ac.uk/">Computer Lab, University of Cambridge</a>'
 author = u'Liang Wang'
 
 # The version info for the project you're documenting, acts as replacement for
@@ -88,7 +89,11 @@ html_theme = 'alabaster'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-# html_theme_options = {}
+html_theme_options = {
+  'github_user': 'ryanrhymes',
+  'github_repo': 'https://github.com/ryanrhymes/owl',
+  'show_powered_by' : 'false',
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
