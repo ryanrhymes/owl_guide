@@ -2,8 +2,583 @@ Algodiff.Generic Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#23 entries have been extracted.
-timestamp:1517702703
+#114 entries have been extracted.
+timestamp:1517711412
+
+Type definition
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type arr = A.arr
+
+General ndarray type
+
+
+
+.. code-block:: ocaml
+
+  type elt = A.elt
+
+Scalar type
+
+
+
+.. code-block:: ocaml
+
+  type trace_op
+
+Trace type
+
+
+
+.. code-block:: ocaml
+
+  type t =
+
+Abstract number type
+
+
+
+Supported Maths functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val ( + )  : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val ( - )  : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val ( * )  : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val ( / )  : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val ( *@ )  : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val ( ** )  : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val add : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sub : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val mul : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val div : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val dot : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val pow : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val atan2 : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val min2 : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val max2 : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val cross_entropy : t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val inv : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val neg : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val abs : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val signum : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val floor : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val ceil : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val round : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sqr : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sqrt : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val log : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val log2 : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val log10 : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val exp : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sin : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val cos : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val tan : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sinh : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val cosh : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val tanh : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val asin : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val acos : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val atan : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val asinh : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val acosh : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val atanh : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sum' : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sum : ?axis:int -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val mean : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val transpose : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val l1norm' : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val l2norm' : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val l2norm_sqr' : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val sigmoid : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val relu : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val softplus : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val softsign: t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val softmax : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val dropout : ?rate:float -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val conv1d : ?padding:padding -> t -> t -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val conv2d : ?padding:padding -> t -> t -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val conv3d : ?padding:padding -> t -> t -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val max_pool1d : padding -> t -> int array -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val max_pool2d : padding -> t -> int array -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val avg_pool1d : padding -> t -> int array -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val avg_pool2d : padding -> t -> int array -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val reshape : t -> int array -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val flatten : t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val concat : int -> t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val get_slice : int list list -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+.. code-block:: ocaml
+
+  val set_slice : int list list -> t -> t -> t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+
+
+Core functions
+-------------------------------------------------------------------------------
+
+
 
 .. code-block:: ocaml
 
@@ -63,7 +638,7 @@ similar to ``jacobian``, but return ``(f x, jacobian f x)``
   val jacobianv : (t -> t) -> t -> t -> t
 
 jacobian vector product of ``f`` : (vector -> vector) at ``x`` along ``v``,
-    forward ad. Namely, it calcultes ``(jacobian x) v``
+forward ad. Namely, it calcultes ``(jacobian x) v``
 
 
 
@@ -113,7 +688,7 @@ simiarl to ``hessian``, but return ``(f x, hessian f x)``
   val hessianv : (t -> t) -> t -> t -> t
 
 hessian vector product of ``f`` : (scalar -> scalar) at ``x`` along ``v``.
-    Namely, it calculates ``(hessian x) v``.
+Namely, it calculates ``(hessian x) v``.
 
 
 
@@ -170,6 +745,144 @@ return ``(grad f x v, hessian f x v)``
   val gradhessianv' : (t -> t) -> t -> t -> t * t * t
 
 return ``(f x, grad f x v, hessian f x v)``
+
+
+
+Low-level functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val pack_flt : elt -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val unpack_flt : t -> elt
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val pack_arr : arr -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val unpack_arr : t -> arr
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val tag : unit -> int
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val primal : t -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val primal' : t -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val adjval : t -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val adjref : t -> t ref
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val tangent : t -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val make_forward : t -> t -> int -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val make_reverse : t -> int -> t
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val reverse_prop : t -> t -> unit
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val type_info : t -> string
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val shape : t -> int array
+
+TODO
+
+
+
+.. code-block:: ocaml
+
+  val copy_primal' : t -> t
+
+TODO
+
+
+
+Helper functions
+-------------------------------------------------------------------------------
 
 
 

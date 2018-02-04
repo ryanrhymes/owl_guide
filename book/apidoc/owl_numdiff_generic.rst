@@ -2,8 +2,34 @@ Numdiff.Generic Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#10 entries have been extracted.
-timestamp:1517702703
+#14 entries have been extracted.
+timestamp:1517711412
+
+Type definition
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type arr = A.arr
+
+General ndarray type
+
+
+
+.. code-block:: ocaml
+
+  type elt = A.elt
+
+Scalar type
+
+
+
+Basic functions
+-------------------------------------------------------------------------------
+
+
 
 .. code-block:: ocaml
 

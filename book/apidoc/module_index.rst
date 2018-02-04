@@ -35,11 +35,13 @@ Owl's API Dcoumentation
 
   owl_plot
 
+  owl_fft_generic
+
   owl_cblas
 
   owl_lapacke_generated
 
   owl_lapacke
 
-#3284 entries (incl. constants, types, and functions) have been extracted.
+#3385 entries (incl. constants, types, and functions) have been extracted.
 
