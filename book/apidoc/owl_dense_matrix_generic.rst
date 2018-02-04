@@ -3,7 +3,7 @@ Dense.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #393 entries have been extracted.
-timestamp:1517751744
+timestamp:1517785808
 
 Create dense matrices
 -------------------------------------------------------------------------------

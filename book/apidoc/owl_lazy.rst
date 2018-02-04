@@ -3,7 +3,7 @@ Lazy Functor
 
 This document is auto-generated for Owl's APIs.
 #150 entries have been extracted.
-timestamp:1517751744
+timestamp:1517785809
 
 Core functions
 -------------------------------------------------------------------------------

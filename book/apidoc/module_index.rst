@@ -21,9 +21,9 @@ Owl's API Dcoumentation
 
   owl_linalg_generic
 
-  owl_algodiff_generic
+  owl_algodiff_generic_sig
 
-  owl_numdiff_generic
+  owl_numdiff_generic_sig
 
   owl_operator
 

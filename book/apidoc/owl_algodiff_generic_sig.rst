@@ -3,7 +3,7 @@ Algodiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #114 entries have been extracted.
-timestamp:1517751744
+timestamp:1517785809
 
 Type definition
 -------------------------------------------------------------------------------
@@ -12,7 +12,7 @@ Type definition
 
 .. code-block:: ocaml
 
-  type arr = A.arr
+  type arr
 
 General ndarray type
 
@@ -20,7 +20,7 @@ General ndarray type
 
 .. code-block:: ocaml
 
-  type elt = A.elt
+  type elt
 
 Scalar type
 
