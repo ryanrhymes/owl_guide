@@ -25,7 +25,11 @@ Owl's API Dcoumentation
 
   owl_numdiff_generic
 
+  owl_operator
+
   owl_lazy
+
+  owl_view
 
   owl_log
 
@@ -43,5 +47,5 @@ Owl's API Dcoumentation
 
   owl_lapacke
 
-#3385 entries (incl. constants, types, and functions) have been extracted.
+#3478 entries (incl. constants, types, and functions) have been extracted.
 

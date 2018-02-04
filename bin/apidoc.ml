@@ -1,6 +1,6 @@
 #!/usr/bin/env utop
-
-(* This script for building Owl's API documentation. *)
+(** This script is for building Owl's API documentation.           *)
+(** Liang Wang, Computer Lab, University of Cambridge, 2018.02.01. *)
 
 #require "re.pcre"
 #require "owl_top"
