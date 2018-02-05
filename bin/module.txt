@@ -9,6 +9,7 @@ owl/linalg/owl_linalg_generic.mli | Linalg.Generic
 base/optimise/owl_numdiff_generic_sig.ml | Numdiff.Generic Functor
 base/optimise/owl_algodiff_generic_sig.ml | Algodiff.Generic Functor
 base/optimise/owl_optimise_generic_sig.ml | Optimise.Generic Functor
+base/neural/owl_neural_neuron_sig.ml | Neural.Neuron Functor
 base/misc/owl_operator.mli | Operator Functor
 base/misc/owl_lazy.mli | Lazy Functor
 base/misc/owl_view.mli | View Functor

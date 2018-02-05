@@ -27,6 +27,8 @@ Owl's API Dcoumentation
 
   owl_optimise_generic_sig
 
+  owl_neural_neuron_sig
+
   owl_operator
 
   owl_lazy
@@ -49,5 +51,5 @@ Owl's API Dcoumentation
 
   owl_lapacke
 
-#3539 entries (incl. constants, types, and functions) have been extracted.
+#3597 entries (incl. constants, types, and functions) have been extracted.
 

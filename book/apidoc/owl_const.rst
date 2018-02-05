@@ -3,7 +3,7 @@ Constants
 
 This document is auto-generated for Owl's APIs.
 #440 entries have been extracted.
-timestamp:1517792537
+timestamp:1517794544
 
 Maths constants
 -------------------------------------------------------------------------------
