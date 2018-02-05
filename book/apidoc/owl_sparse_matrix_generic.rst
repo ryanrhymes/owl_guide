@@ -2,8 +2,31 @@ Sparse.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#130 entries have been extracted.
-timestamp:1517842309
+#133 entries have been extracted.
+timestamp:1517843405
+
+Type definition
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type ('a, 'b) t
+    
+
+Abstract type of sparse matrices
+
+
+
+.. code-block:: ocaml
+
+  type ('a, 'b) kind = ('a, 'b) Bigarray.kind
+    
+
+Type of sparse matrices. It is defined in ``types.ml`` as record type.
+
+
 
 Create sparse matrices
 -------------------------------------------------------------------------------

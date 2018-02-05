@@ -2,8 +2,23 @@ Lazy Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#150 entries have been extracted.
-timestamp:1517842309
+#152 entries have been extracted.
+timestamp:1517843405
+
+Type definition
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type t
+    
+
+``t`` is an abstract type to represent an experssion, it is also an alias
+for type ``node``. Type ``node`` is only for internal use in the module.
+
+
 
 Core functions
 -------------------------------------------------------------------------------

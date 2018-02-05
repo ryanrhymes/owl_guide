@@ -2,8 +2,31 @@ Sparse.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#82 entries have been extracted.
-timestamp:1517842309
+#85 entries have been extracted.
+timestamp:1517843405
+
+Type definition
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type ('a, 'b) kind = ('a, 'b) Bigarray.kind
+    
+
+Type of ``kind``.
+
+
+
+.. code-block:: ocaml
+
+  type ('a, 'b) t
+    
+
+Abstract type of sparse ndarray.
+
+
 
 Create sparse ndarray
 -------------------------------------------------------------------------------

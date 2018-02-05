@@ -3,9 +3,9 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #135 entries have been extracted.
-timestamp:1517842309
+timestamp:1517843404
 
-Basic math functions
+Basic functions
 -------------------------------------------------------------------------------
 
 
@@ -857,7 +857,7 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
 
 
 
-Error Function and Fresnel Integrals
+Error function and Fresnel integrals
 -------------------------------------------------------------------------------
 
 

@@ -2,8 +2,22 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#394 entries have been extracted.
-timestamp:1517842309
+#396 entries have been extracted.
+timestamp:1517843405
+
+Type definition
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type ('a, 'b) t = ('a, 'b, c_layout) Genarray.t
+    
+
+N-dimensional array type, i.e. Bigarray Genarray type.
+
+
 
 Create dense matrices
 -------------------------------------------------------------------------------
