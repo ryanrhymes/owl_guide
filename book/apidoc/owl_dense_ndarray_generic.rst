@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #368 entries have been extracted.
-timestamp:1517843405
+timestamp:1517845404
 
 Type definition
 -------------------------------------------------------------------------------

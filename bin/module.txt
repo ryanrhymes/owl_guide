@@ -6,6 +6,10 @@ owl/dense/owl_dense_matrix_generic.mli | Dense.Matrix.Generic
 owl/sparse/owl_sparse_ndarray_generic.mli | Sparse.Ndarray.Generic
 owl/sparse/owl_sparse_matrix_generic.mli | Sparse.Matrix.Generic
 owl/linalg/owl_linalg_generic.mli | Linalg.Generic
+owl/fftpack/owl_fft_generic.mli | FFT
+owl/cblas/owl_cblas.mli | Low-level CBLAS API
+owl/lapacke/owl_lapacke_generated.mli | Low-level LAPACKE API
+owl/lapacke/owl_lapacke.mli | High-level LAPACKE API
 base/optimise/owl_numdiff_generic_sig.ml | Numdiff.Generic Functor
 base/optimise/owl_algodiff_generic_sig.ml | Algodiff.Generic Functor
 base/optimise/owl_optimise_generic_sig.ml | Optimise.Generic Functor
@@ -19,7 +23,4 @@ base/misc/owl_log.mli | Log
 base/misc/owl_pretty.mli | Pretty
 base/misc/owl_graph.mli | Graph
 owl/misc/owl_plot.mli | Plot
-owl/fftpack/owl_fft_generic.mli | FFT
-owl/cblas/owl_cblas.mli | Low-level CBLAS API
-owl/lapacke/owl_lapacke_generated.mli | Low-level LAPACKE API
-owl/lapacke/owl_lapacke.mli | High-level LAPACKE API
+zoo/owl_zoo_cmd.mli | Zoo System

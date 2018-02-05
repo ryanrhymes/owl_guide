@@ -21,6 +21,14 @@ Owl's API Dcoumentation
 
   owl_linalg_generic
 
+  owl_fft_generic
+
+  owl_cblas
+
+  owl_lapacke_generated
+
+  owl_lapacke
+
   owl_numdiff_generic_sig
 
   owl_algodiff_generic_sig
@@ -47,13 +55,7 @@ Owl's API Dcoumentation
 
   owl_plot
 
-  owl_fft_generic
+  owl_zoo_cmd
 
-  owl_cblas
-
-  owl_lapacke_generated
-
-  owl_lapacke
-
-#4014 entries (incl. constants, types, and functions) have been extracted.
+#4030 entries (incl. constants, types, and functions) have been extracted.
 

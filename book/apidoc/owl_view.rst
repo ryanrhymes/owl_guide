@@ -3,7 +3,7 @@ View Functor
 
 This document is auto-generated for Owl's APIs.
 #21 entries have been extracted.
-timestamp:1517843405
+timestamp:1517845406
 
 Type definition
 -------------------------------------------------------------------------------
