@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #365 entries have been extracted.
-timestamp:1517836012
+timestamp:1517836487
 
 Create N-dimensional array
 -------------------------------------------------------------------------------
