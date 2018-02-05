@@ -21,9 +21,11 @@ Owl's API Dcoumentation
 
   owl_linalg_generic
 
+  owl_numdiff_generic_sig
+
   owl_algodiff_generic_sig
 
-  owl_numdiff_generic_sig
+  owl_optimise_generic_sig
 
   owl_operator
 
@@ -47,5 +49,5 @@ Owl's API Dcoumentation
 
   owl_lapacke
 
-#3478 entries (incl. constants, types, and functions) have been extracted.
+#3539 entries (incl. constants, types, and functions) have been extracted.
 

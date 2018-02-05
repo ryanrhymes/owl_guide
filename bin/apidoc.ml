@@ -59,8 +59,8 @@ let parse_one_section regstr s =
 
 (* given a mli, parse to retrieve api doc and save to a hashtbl *)
 let parse_one_mli fname =
-  let res0 = "[ \n]*(type .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
-  let res1 = "[ \n]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
+  let res0 = "^[\s]*(type [\S\s]+?)\(\*\*[\s]*([\S\s]+?)[\s]*\*\)[\s]*?^[\s]*$" in
+  let res1 = "^[\s]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
 
   let s = get_content fname in
   let sections = extract_sections s in
@@ -96,7 +96,8 @@ let write_to_rst apidoc fname module_name =
         Printf.fprintf h "%s\n%s\n\n\n\n" section_head line;
       )
     | `Function (api, doc)  -> (
-        Printf.fprintf h ".. code-block:: ocaml\n\n  %s\n\n" api;
+        Str.(global_replace (regexp "\n[ ]*") "\n    ") api |>
+        Printf.fprintf h ".. code-block:: ocaml\n\n  %s\n\n";
         Printf.fprintf h "%s\n\n\n\n" doc;
       )
   ) apidoc;

@@ -3,7 +3,7 @@ Log
 
 This document is auto-generated for Owl's APIs.
 #12 entries have been extracted.
-timestamp:1517785809
+timestamp:1517792538
 
 Type definition
 -------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ Type definition
 .. code-block:: ocaml
 
   type level = DEBUG | INFO | WARN | ERROR | FATAL
+    
 
 Type definition of log levels, priority is from low to high. Using ``set_level``
 function to set global logging level to high one can mask the output from low

@@ -3,7 +3,7 @@ Sparse.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #82 entries have been extracted.
-timestamp:1517785808
+timestamp:1517792538
 
 Create sparse ndarray
 -------------------------------------------------------------------------------

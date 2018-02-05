@@ -3,7 +3,7 @@ High-level LAPACKE API
 
 This document is auto-generated for Owl's APIs.
 #93 entries have been extracted.
-timestamp:1517785810
+timestamp:1517792539
 
 Type definition
 -------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ Type definition
 .. code-block:: ocaml
 
   type ('a, 'b) t = ('a, 'b, c_layout) Genarray.t
+    
 
 Default data type
 
@@ -21,6 +22,7 @@ Default data type
 .. code-block:: ocaml
 
   type lapacke_layout = RowMajor | ColMajor
+    
 
 Layout type.
 
@@ -29,6 +31,7 @@ Layout type.
 .. code-block:: ocaml
 
   type lapacke_transpose = NoTrans | Trans | ConjTrans
+    
 
 Transpose type.
 
@@ -37,6 +40,7 @@ Transpose type.
 .. code-block:: ocaml
 
   type lapacke_uplo = Upper | Lower
+    
 
 Upper or lower trangular.
 
@@ -45,6 +49,7 @@ Upper or lower trangular.
 .. code-block:: ocaml
 
   type lapacke_diag = NonUnit | Unit
+    
 
 Diangonal type.
 
@@ -53,6 +58,7 @@ Diangonal type.
 .. code-block:: ocaml
 
   type lapacke_side = Left | Right
+    
 
 Side type.
 

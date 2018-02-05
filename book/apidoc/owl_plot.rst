@@ -2,8 +2,8 @@ Plot
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#64 entries have been extracted.
-timestamp:1517785809
+#63 entries have been extracted.
+timestamp:1517792538
 
 Type definition
 -------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ Type definition
 .. code-block:: ocaml
 
   type dsmat = Owl_dense_matrix.D.mat
+    
 
 Default input type is double precision matrices.
 
@@ -21,6 +22,7 @@ Default input type is double precision matrices.
 .. code-block:: ocaml
 
   type handle
+    
 
 Handle of a figure
 
@@ -29,6 +31,7 @@ Handle of a figure
 .. code-block:: ocaml
 
   type color = RED | GREEN | BLUE
+    
 
 colour type
 
@@ -37,6 +40,7 @@ colour type
 .. code-block:: ocaml
 
   type legend_position = North | South | West | East | NorthWest | NorthEast | SouthWest | SouthEast
+    
 
 legend position type
 
@@ -45,16 +49,9 @@ legend position type
 .. code-block:: ocaml
 
   type axis = X | Y | Z | XY | XZ | YZ | XYZ
+    
 
 axis type
-
-
-
-.. code-block:: ocaml
-
-  type spec =
-
-specification of a figure
 
 
 

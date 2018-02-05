@@ -2,8 +2,8 @@ Stats
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#222 entries have been extracted.
-timestamp:1517785808
+#223 entries have been extracted.
+timestamp:1517792537
 
 Randomisation functions
 -------------------------------------------------------------------------------
@@ -352,7 +352,21 @@ Hypothesis tests
 
 .. code-block:: ocaml
 
+  type hypothesis = {
+    reject  : bool;    (* reject null hypothesis if ``true`` *)
+    p_value : float;   (* p-value of the hypothesis test *)
+    score   : float;   (* score has different meaning in different tests *)
+    }
+    
+
+record type contains the result of hypothesis tests.
+
+
+
+.. code-block:: ocaml
+
   type tail = BothSide | RightSide | LeftSide
+    
 
 Types of alternative hypothesis tests: one-side, left-side, or right-side.
 

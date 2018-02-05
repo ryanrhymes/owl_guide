@@ -2,8 +2,8 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#393 entries have been extracted.
-timestamp:1517785808
+#394 entries have been extracted.
+timestamp:1517792538
 
 Create dense matrices
 -------------------------------------------------------------------------------
@@ -2766,6 +2766,18 @@ between the elements of ``a`` and the matrix ``b``.
 
 Cast functions to different number types
 -------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
+    *)
+    
+    val cast_s2d : (float, float32_elt) t -> (float, float64_elt) t
+    
+
+``cast_s2d x`` casts ``x`` from ``float32`` to ``float64``.
 
 
 

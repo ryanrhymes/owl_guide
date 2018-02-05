@@ -3,7 +3,7 @@ Algodiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #114 entries have been extracted.
-timestamp:1517785809
+timestamp:1517792538
 
 Type definition
 -------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ Type definition
 .. code-block:: ocaml
 
   type arr
+    
 
 General ndarray type
 
@@ -21,6 +22,7 @@ General ndarray type
 .. code-block:: ocaml
 
   type elt
+    
 
 Scalar type
 
@@ -29,6 +31,7 @@ Scalar type
 .. code-block:: ocaml
 
   type trace_op
+    
 
 Trace type
 
@@ -37,6 +40,11 @@ Trace type
 .. code-block:: ocaml
 
   type t =
+    | F   of float                                  (* constructor of float numbers *)
+    | Arr of arr                                    (* constructor of ndarrays *)
+    | DF  of t * t * int                            (* primal, tangent, tag *)
+    | DR  of t * t ref * trace_op * int ref * int   (* primal, adjoint, op, fanout, tag *)
+    
 
 Abstract number type
 

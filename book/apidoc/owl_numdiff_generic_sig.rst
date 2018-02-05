@@ -3,7 +3,7 @@ Numdiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #14 entries have been extracted.
-timestamp:1517785809
+timestamp:1517792538
 
 Type definition
 -------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ Type definition
 .. code-block:: ocaml
 
   type arr
+    
 
 General ndarray type
 
@@ -21,6 +22,7 @@ General ndarray type
 .. code-block:: ocaml
 
   type elt
+    
 
 Scalar type
 

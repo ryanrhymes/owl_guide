@@ -3,7 +3,7 @@ Low-level CBLAS API
 
 This document is auto-generated for Owl's APIs.
 #57 entries have been extracted.
-timestamp:1517785809
+timestamp:1517792538
 
 Definition of basic types
 -------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ Definition of basic types
 .. code-block:: ocaml
 
   type ('a, 'b) t = ('a, 'b, Bigarray.c_layout) Bigarray.Array1.t
+    
 
 The default type is Bigarray's ``Array1.t``.
 
@@ -21,6 +22,7 @@ The default type is Bigarray's ``Array1.t``.
 .. code-block:: ocaml
 
   type cblas_layout = CblasRowMajor | CblasColMajor
+    
 
 Layout type, Row-major or Column-major.
 
@@ -29,6 +31,7 @@ Layout type, Row-major or Column-major.
 .. code-block:: ocaml
 
   type cblas_transpose = CblasNoTrans | CblasTrans | CblasConjTrans
+    
 
 Transpose type, no transpose, transpose, or conjugate transpose.
 
@@ -37,6 +40,7 @@ Transpose type, no transpose, transpose, or conjugate transpose.
 .. code-block:: ocaml
 
   type cblas_uplo = CblasUpper | CblasLower
+    
 
 Upper or lower triangular matrix.
 
@@ -45,6 +49,7 @@ Upper or lower triangular matrix.
 .. code-block:: ocaml
 
   type cblas_diag = CblasNonUnit | CblasUnit
+    
 
 Diag type
 
@@ -53,6 +58,7 @@ Diag type
 .. code-block:: ocaml
 
   type cblas_side = CblasLeft | CblasRight
+    
 
 Side type
 

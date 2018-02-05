@@ -3,7 +3,7 @@ Graph
 
 This document is auto-generated for Owl's APIs.
 #33 entries have been extracted.
-timestamp:1517785809
+timestamp:1517792538
 
 Type definition
 -------------------------------------------------------------------------------
@@ -13,6 +13,7 @@ Type definition
 .. code-block:: ocaml
 
   type order = BFS | DFS
+    
 
 Order to traverse a graph, BFS or DFS.
 
@@ -21,6 +22,7 @@ Order to traverse a graph, BFS or DFS.
 .. code-block:: ocaml
 
   type dir = Ancestor | Descendant
+    
 
 Iteration direction, i.e. ancestors or descendants
 
@@ -29,6 +31,7 @@ Iteration direction, i.e. ancestors or descendants
 .. code-block:: ocaml
 
   type 'a node
+    
 
 type definition of a node
 
