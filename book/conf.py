@@ -90,7 +90,7 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
-  'logo' : 'owl_logo_0.png',
+  'logo' : 'owl_logo_2.png',
   'github_user': 'ryanrhymes',
   'github_repo': 'owl',
   'github_type' : 'star',
