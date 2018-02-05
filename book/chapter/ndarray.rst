@@ -142,7 +142,7 @@ Property functions are easy to understand. In the following, I want to focus on 
 Map Functions
 -------------------------------------------------
 
-`map` function transforms from one ndarray to another with a given function, which is often done by applying the transformation function to every element in the original ndarray. The ``map`` function in Owl is pure and always generates a fresh new data structure rather than modifying original one.
+``map`` function transforms from one ndarray to another with a given function, which is often done by applying the transformation function to every element in the original ndarray. The ``map`` function in Owl is pure and always generates a fresh new data structure rather than modifying original one.
 
 For example, the following code add 1 to every element in ``x``
 
@@ -176,7 +176,7 @@ If you need indices in the transformation function, you can use ``mapi`` functio
 Fold Functions
 -------------------------------------------------
 
-`fold` function is often referred to as reduction in other programming languages. ``fold`` function has a named parameter called ``axis``, with which you can specify along what axis you want to fold a given ndarray.
+``fold`` function is often referred to as reduction in other programming languages. ``fold`` function has a named parameter called ``axis``, with which you can specify along what axis you want to fold a given ndarray.
 
 .. code-block:: ocaml
 

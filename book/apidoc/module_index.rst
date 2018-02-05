@@ -59,5 +59,7 @@ Owl's API Dcoumentation
 
   owl_top
 
-#4032 entries (incl. constants, types, and functions) have been extracted.
+  owl_opencl_generated
+
+#4036 entries (incl. constants, types, and functions) have been extracted.
 

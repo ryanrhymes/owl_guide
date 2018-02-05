@@ -3,7 +3,7 @@ Neural.Graph Functor
 
 This document is auto-generated for Owl's APIs.
 #71 entries have been extracted.
-timestamp:1517845770
+timestamp:1517846810
 
 Type definition
 -------------------------------------------------------------------------------

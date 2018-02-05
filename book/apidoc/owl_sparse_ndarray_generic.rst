@@ -3,7 +3,7 @@ Sparse.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #85 entries have been extracted.
-timestamp:1517845769
+timestamp:1517846809
 
 Type definition
 -------------------------------------------------------------------------------
