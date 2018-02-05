@@ -57,5 +57,7 @@ Owl's API Dcoumentation
 
   owl_zoo_cmd
 
-#4030 entries (incl. constants, types, and functions) have been extracted.
+  owl_top
+
+#4032 entries (incl. constants, types, and functions) have been extracted.
 
