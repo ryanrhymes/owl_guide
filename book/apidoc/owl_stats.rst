@@ -2,8 +2,8 @@ Stats
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#223 entries have been extracted.
-timestamp:1517848326
+#224 entries have been extracted.
+timestamp:1517850916
 
 Randomisation functions
 -------------------------------------------------------------------------------
@@ -359,7 +359,7 @@ Hypothesis tests
     }
     
 
-record type contains the result of hypothesis tests.
+Record type contains the result of a hypothesis test.
 
 
 
@@ -429,15 +429,15 @@ two variances are not the same, the test is referred to as Welche's t-test.
   val ks_test : ?alpha:float -> float array -> (float -> float) -> hypothesis
 
 ``ks_test ~alpha x f`` returns a test decision for the null
- hypothesis that the data in vector ``x`` comes from independent
- random samples of the distribution with CDF f. The alternative
- hypothesis is that the data in ``x`` comes from a different
- distribution.
+hypothesis that the data in vector ``x`` comes from independent
+random samples of the distribution with CDF f. The alternative
+hypothesis is that the data in ``x`` comes from a different
+distribution.
 
- The result ``(h,p,d)`` : ``h`` is ``true`` if the test rejects the null
- hypothesis at the ``alpha`` significance level, and ``false``
- otherwise. ``p`` is the p-value and ``d`` is the Kolmogorov-Smirnov
- test statistic.
+The result ``(h,p,d)`` : ``h`` is ``true`` if the test rejects the null
+hypothesis at the ``alpha`` significance level, and ``false``
+otherwise. ``p`` is the p-value and ``d`` is the Kolmogorov-Smirnov
+test statistic.
 
 
 
@@ -522,6 +522,15 @@ Statistica Sinica 7 805-813), else usning asymptotic normal distribution.
   val wilcoxon : ?alpha:float -> ?side:tail -> float array -> float array -> hypothesis
 
 TODO
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_EMPTY_ARRAY
+    
+
+Exception for empty array
 
 
 

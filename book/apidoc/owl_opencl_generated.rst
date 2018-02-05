@@ -2,8 +2,8 @@ Low-level OpenCL API
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#483 entries have been extracted.
-timestamp:1517848328
+#542 entries have been extracted.
+timestamp:1517850918
 
 Type definition
 -------------------------------------------------------------------------------
@@ -961,7 +961,7 @@ Constant definition
 
   val cl_SUCCESS : int
 
-Constant ``SUCCESS``.
+Constant ``SUCCESS = 0``.
 
 
 
@@ -969,7 +969,7 @@ Constant ``SUCCESS``.
 
   val cl_DEVICE_NOT_FOUND : int
 
-Constant ``DEVICE_NOT_FOUND``.
+Constant ``DEVICE_NOT_FOUND = -1``.
 
 
 
@@ -977,7 +977,7 @@ Constant ``DEVICE_NOT_FOUND``.
 
   val cl_DEVICE_NOT_AVAILABLE : int
 
-Constant ``DEVICE_NOT_AVAILABLE``.
+Constant ``DEVICE_NOT_AVAILABLE = -2``.
 
 
 
@@ -985,7 +985,7 @@ Constant ``DEVICE_NOT_AVAILABLE``.
 
   val cl_COMPILER_NOT_AVAILABLE : int
 
-Constant ``COMPILER_NOT_AVAILABLE``.
+Constant ``COMPILER_NOT_AVAILABLE = -3``.
 
 
 
@@ -993,7 +993,7 @@ Constant ``COMPILER_NOT_AVAILABLE``.
 
   val cl_MEM_OBJECT_ALLOCATION_FAILURE : int
 
-Constant ``MEM_OBJECT_ALLOCATION_FAILURE``.
+Constant ``MEM_OBJECT_ALLOCATION_FAILURE = -4``.
 
 
 
@@ -1001,7 +1001,7 @@ Constant ``MEM_OBJECT_ALLOCATION_FAILURE``.
 
   val cl_OUT_OF_RESOURCES : int
 
-Constant ``OUT_OF_RESOURCES``.
+Constant ``OUT_OF_RESOURCES = -5``.
 
 
 
@@ -1009,7 +1009,7 @@ Constant ``OUT_OF_RESOURCES``.
 
   val cl_OUT_OF_HOST_MEMORY : int
 
-Constant ``OUT_OF_HOST_MEMORY``.
+Constant ``OUT_OF_HOST_MEMORY = -6``.
 
 
 
@@ -1017,7 +1017,7 @@ Constant ``OUT_OF_HOST_MEMORY``.
 
   val cl_PROFILING_INFO_NOT_AVAILABLE : int
 
-Constant ``PROFILING_INFO_NOT_AVAILABLE``.
+Constant ``PROFILING_INFO_NOT_AVAILABLE = -7``.
 
 
 
@@ -1025,7 +1025,7 @@ Constant ``PROFILING_INFO_NOT_AVAILABLE``.
 
   val cl_MEM_COPY_OVERLAP : int
 
-Constant ``MEM_COPY_OVERLAP``.
+Constant ``MEM_COPY_OVERLAP = -8``.
 
 
 
@@ -1033,7 +1033,7 @@ Constant ``MEM_COPY_OVERLAP``.
 
   val cl_IMAGE_FORMAT_MISMATCH : int
 
-Constant ``IMAGE_FORMAT_MISMATCH``.
+Constant ``IMAGE_FORMAT_MISMATCH = -9``.
 
 
 
@@ -1041,7 +1041,7 @@ Constant ``IMAGE_FORMAT_MISMATCH``.
 
   val cl_IMAGE_FORMAT_NOT_SUPPORTED : int
 
-Constant ``IMAGE_FORMAT_NOT_SUPPORTED``.
+Constant ``IMAGE_FORMAT_NOT_SUPPORTED = -10``.
 
 
 
@@ -1049,7 +1049,7 @@ Constant ``IMAGE_FORMAT_NOT_SUPPORTED``.
 
   val cl_BUILD_PROGRAM_FAILURE : int
 
-Constant ``BUILD_PROGRAM_FAILURE``.
+Constant ``BUILD_PROGRAM_FAILURE = -11``.
 
 
 
@@ -1057,7 +1057,7 @@ Constant ``BUILD_PROGRAM_FAILURE``.
 
   val cl_MAP_FAILURE : int
 
-Constant ``MAP_FAILURE``.
+Constant ``MAP_FAILURE = -12``.
 
 
 
@@ -1065,7 +1065,7 @@ Constant ``MAP_FAILURE``.
 
   val cl_MISALIGNED_SUB_BUFFER_OFFSET : int
 
-Constant ``MISALIGNED_SUB_BUFFER_OFFSET``.
+Constant ``MISALIGNED_SUB_BUFFER_OFFSET = -13``.
 
 
 
@@ -1073,7 +1073,7 @@ Constant ``MISALIGNED_SUB_BUFFER_OFFSET``.
 
   val cl_EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST : int
 
-Constant ``EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST``.
+Constant ``EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST = -14``.
 
 
 
@@ -1081,7 +1081,7 @@ Constant ``EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST``.
 
   val cl_COMPILE_PROGRAM_FAILURE : int
 
-Constant ``COMPILE_PROGRAM_FAILURE``.
+Constant ``COMPILE_PROGRAM_FAILURE = -15``.
 
 
 
@@ -1089,7 +1089,7 @@ Constant ``COMPILE_PROGRAM_FAILURE``.
 
   val cl_LINKER_NOT_AVAILABLE : int
 
-Constant ``LINKER_NOT_AVAILABLE``.
+Constant ``LINKER_NOT_AVAILABLE = -16``.
 
 
 
@@ -1097,7 +1097,7 @@ Constant ``LINKER_NOT_AVAILABLE``.
 
   val cl_LINK_PROGRAM_FAILURE : int
 
-Constant ``LINK_PROGRAM_FAILURE``.
+Constant ``LINK_PROGRAM_FAILURE = -17``.
 
 
 
@@ -1105,7 +1105,7 @@ Constant ``LINK_PROGRAM_FAILURE``.
 
   val cl_DEVICE_PARTITION_FAILED : int
 
-Constant ``DEVICE_PARTITION_FAILED``.
+Constant ``DEVICE_PARTITION_FAILED = -18``.
 
 
 
@@ -1113,7 +1113,7 @@ Constant ``DEVICE_PARTITION_FAILED``.
 
   val cl_KERNEL_ARG_INFO_NOT_AVAILABLE : int
 
-Constant ``KERNEL_ARG_INFO_NOT_AVAILABLE``.
+Constant ``KERNEL_ARG_INFO_NOT_AVAILABLE = -19``.
 
 
 
@@ -1121,7 +1121,7 @@ Constant ``KERNEL_ARG_INFO_NOT_AVAILABLE``.
 
   val cl_INVALID_VALUE : int
 
-Constant ``INVALID_VALUE``.
+Constant ``INVALID_VALUE = -30``.
 
 
 
@@ -1129,7 +1129,7 @@ Constant ``INVALID_VALUE``.
 
   val cl_INVALID_DEVICE_TYPE : int
 
-Constant ``INVALID_DEVICE_TYPE``.
+Constant ``INVALID_DEVICE_TYPE = -31``.
 
 
 
@@ -1137,7 +1137,7 @@ Constant ``INVALID_DEVICE_TYPE``.
 
   val cl_INVALID_PLATFORM : int
 
-Constant ``INVALID_PLATFORM``.
+Constant ``INVALID_PLATFORM = -32``.
 
 
 
@@ -1145,7 +1145,7 @@ Constant ``INVALID_PLATFORM``.
 
   val cl_INVALID_DEVICE : int
 
-Constant ``INVALID_DEVICE``.
+Constant ``INVALID_DEVICE = -33``.
 
 
 
@@ -1153,7 +1153,7 @@ Constant ``INVALID_DEVICE``.
 
   val cl_INVALID_CONTEXT : int
 
-Constant ``INVALID_CONTEXT``.
+Constant ``INVALID_CONTEXT = -34``.
 
 
 
@@ -1161,7 +1161,7 @@ Constant ``INVALID_CONTEXT``.
 
   val cl_INVALID_QUEUE_PROPERTIES : int
 
-Constant ``INVALID_QUEUE_PROPERTIES``.
+Constant ``INVALID_QUEUE_PROPERTIES = -35``.
 
 
 
@@ -1169,7 +1169,7 @@ Constant ``INVALID_QUEUE_PROPERTIES``.
 
   val cl_INVALID_COMMAND_QUEUE : int
 
-Constant ``INVALID_COMMAND_QUEUE``.
+Constant ``INVALID_COMMAND_QUEUE = -36``.
 
 
 
@@ -1177,7 +1177,7 @@ Constant ``INVALID_COMMAND_QUEUE``.
 
   val cl_INVALID_HOST_PTR : int
 
-Constant ``INVALID_HOST_PTR``.
+Constant ``INVALID_HOST_PTR = -37``.
 
 
 
@@ -1185,7 +1185,7 @@ Constant ``INVALID_HOST_PTR``.
 
   val cl_INVALID_MEM_OBJECT : int
 
-Constant ``INVALID_MEM_OBJECT``.
+Constant ``INVALID_MEM_OBJECT = -38``.
 
 
 
@@ -1193,7 +1193,7 @@ Constant ``INVALID_MEM_OBJECT``.
 
   val cl_INVALID_IMAGE_FORMAT_DESCRIPTOR : int
 
-Constant ``INVALID_IMAGE_FORMAT_DESCRIPTOR``.
+Constant ``INVALID_IMAGE_FORMAT_DESCRIPTOR = -39``.
 
 
 
@@ -1201,7 +1201,7 @@ Constant ``INVALID_IMAGE_FORMAT_DESCRIPTOR``.
 
   val cl_INVALID_IMAGE_SIZE : int
 
-Constant ``INVALID_IMAGE_SIZE``.
+Constant ``INVALID_IMAGE_SIZE = -40``.
 
 
 
@@ -1209,7 +1209,7 @@ Constant ``INVALID_IMAGE_SIZE``.
 
   val cl_INVALID_SAMPLER : int
 
-Constant ``INVALID_SAMPLER``.
+Constant ``INVALID_SAMPLER = -41``.
 
 
 
@@ -1217,7 +1217,7 @@ Constant ``INVALID_SAMPLER``.
 
   val cl_INVALID_BINARY : int
 
-Constant ``INVALID_BINARY``.
+Constant ``INVALID_BINARY = -42``.
 
 
 
@@ -1225,7 +1225,7 @@ Constant ``INVALID_BINARY``.
 
   val cl_INVALID_BUILD_OPTIONS : int
 
-Constant ``INVALID_BUILD_OPTIONS``.
+Constant ``INVALID_BUILD_OPTIONS = -43``.
 
 
 
@@ -1233,7 +1233,7 @@ Constant ``INVALID_BUILD_OPTIONS``.
 
   val cl_INVALID_PROGRAM : int
 
-Constant ``INVALID_PROGRAM``.
+Constant ``INVALID_PROGRAM = -44``.
 
 
 
@@ -1241,7 +1241,7 @@ Constant ``INVALID_PROGRAM``.
 
   val cl_INVALID_PROGRAM_EXECUTABLE : int
 
-Constant ``INVALID_PROGRAM_EXECUTABLE``.
+Constant ``INVALID_PROGRAM_EXECUTABLE = -45``.
 
 
 
@@ -1249,7 +1249,7 @@ Constant ``INVALID_PROGRAM_EXECUTABLE``.
 
   val cl_INVALID_KERNEL_NAME : int
 
-Constant ``INVALID_KERNEL_NAME``.
+Constant ``INVALID_KERNEL_NAME = -46``.
 
 
 
@@ -1257,7 +1257,7 @@ Constant ``INVALID_KERNEL_NAME``.
 
   val cl_INVALID_KERNEL_DEFINITION : int
 
-Constant ``INVALID_KERNEL_DEFINITION``.
+Constant ``INVALID_KERNEL_DEFINITION = -47``.
 
 
 
@@ -1265,7 +1265,7 @@ Constant ``INVALID_KERNEL_DEFINITION``.
 
   val cl_INVALID_KERNEL : int
 
-Constant ``INVALID_KERNEL``.
+Constant ``INVALID_KERNEL = -48``.
 
 
 
@@ -1273,7 +1273,7 @@ Constant ``INVALID_KERNEL``.
 
   val cl_INVALID_ARG_INDEX : int
 
-Constant ``INVALID_ARG_INDEX``.
+Constant ``INVALID_ARG_INDEX = -49``.
 
 
 
@@ -1281,7 +1281,7 @@ Constant ``INVALID_ARG_INDEX``.
 
   val cl_INVALID_ARG_VALUE : int
 
-Constant ``INVALID_ARG_VALUE``.
+Constant ``INVALID_ARG_VALUE = -50``.
 
 
 
@@ -1289,7 +1289,7 @@ Constant ``INVALID_ARG_VALUE``.
 
   val cl_INVALID_ARG_SIZE : int
 
-Constant ``INVALID_ARG_SIZE``.
+Constant ``INVALID_ARG_SIZE = -51``.
 
 
 
@@ -1297,7 +1297,7 @@ Constant ``INVALID_ARG_SIZE``.
 
   val cl_INVALID_KERNEL_ARGS : int
 
-Constant ``INVALID_KERNEL_ARGS``.
+Constant ``INVALID_KERNEL_ARGS = -52``.
 
 
 
@@ -1305,7 +1305,7 @@ Constant ``INVALID_KERNEL_ARGS``.
 
   val cl_INVALID_WORK_DIMENSION : int
 
-Constant ``INVALID_WORK_DIMENSION``.
+Constant ``INVALID_WORK_DIMENSION = -53``.
 
 
 
@@ -1313,7 +1313,7 @@ Constant ``INVALID_WORK_DIMENSION``.
 
   val cl_INVALID_WORK_GROUP_SIZE : int
 
-Constant ``INVALID_WORK_GROUP_SIZE``.
+Constant ``INVALID_WORK_GROUP_SIZE = -54``.
 
 
 
@@ -1321,7 +1321,7 @@ Constant ``INVALID_WORK_GROUP_SIZE``.
 
   val cl_INVALID_WORK_ITEM_SIZE : int
 
-Constant ``INVALID_WORK_ITEM_SIZE``.
+Constant ``INVALID_WORK_ITEM_SIZE = -55``.
 
 
 
@@ -1329,7 +1329,7 @@ Constant ``INVALID_WORK_ITEM_SIZE``.
 
   val cl_INVALID_GLOBAL_OFFSET : int
 
-Constant ``INVALID_GLOBAL_OFFSET``.
+Constant ``INVALID_GLOBAL_OFFSET = -56``.
 
 
 
@@ -1337,7 +1337,7 @@ Constant ``INVALID_GLOBAL_OFFSET``.
 
   val cl_INVALID_EVENT_WAIT_LIST : int
 
-Constant ``INVALID_EVENT_WAIT_LIST``.
+Constant ``INVALID_EVENT_WAIT_LIST = -57``.
 
 
 
@@ -1345,7 +1345,7 @@ Constant ``INVALID_EVENT_WAIT_LIST``.
 
   val cl_INVALID_EVENT : int
 
-Constant ``INVALID_EVENT``.
+Constant ``INVALID_EVENT = -58``.
 
 
 
@@ -1353,7 +1353,7 @@ Constant ``INVALID_EVENT``.
 
   val cl_INVALID_OPERATION : int
 
-Constant ``INVALID_OPERATION``.
+Constant ``INVALID_OPERATION = -59``.
 
 
 
@@ -1361,7 +1361,7 @@ Constant ``INVALID_OPERATION``.
 
   val cl_INVALID_GL_OBJECT : int
 
-Constant ``INVALID_GL_OBJECT``.
+Constant ``INVALID_GL_OBJECT = -60``.
 
 
 
@@ -1369,7 +1369,7 @@ Constant ``INVALID_GL_OBJECT``.
 
   val cl_INVALID_BUFFER_SIZE : int
 
-Constant ``INVALID_BUFFER_SIZE``.
+Constant ``INVALID_BUFFER_SIZE = -61``.
 
 
 
@@ -1377,7 +1377,7 @@ Constant ``INVALID_BUFFER_SIZE``.
 
   val cl_INVALID_MIP_LEVEL : int
 
-Constant ``INVALID_MIP_LEVEL``.
+Constant ``INVALID_MIP_LEVEL = -62``.
 
 
 
@@ -1385,7 +1385,7 @@ Constant ``INVALID_MIP_LEVEL``.
 
   val cl_INVALID_GLOBAL_WORK_SIZE : int
 
-Constant ``INVALID_GLOBAL_WORK_SIZE``.
+Constant ``INVALID_GLOBAL_WORK_SIZE = -63``.
 
 
 
@@ -1393,7 +1393,7 @@ Constant ``INVALID_GLOBAL_WORK_SIZE``.
 
   val cl_INVALID_PROPERTY : int
 
-Constant ``INVALID_PROPERTY``.
+Constant ``INVALID_PROPERTY = -64``.
 
 
 
@@ -1401,7 +1401,7 @@ Constant ``INVALID_PROPERTY``.
 
   val cl_INVALID_IMAGE_DESCRIPTOR : int
 
-Constant ``INVALID_IMAGE_DESCRIPTOR``.
+Constant ``INVALID_IMAGE_DESCRIPTOR = -65``.
 
 
 
@@ -1409,7 +1409,7 @@ Constant ``INVALID_IMAGE_DESCRIPTOR``.
 
   val cl_INVALID_COMPILER_OPTIONS : int
 
-Constant ``INVALID_COMPILER_OPTIONS``.
+Constant ``INVALID_COMPILER_OPTIONS = -66``.
 
 
 
@@ -1417,7 +1417,7 @@ Constant ``INVALID_COMPILER_OPTIONS``.
 
   val cl_INVALID_LINKER_OPTIONS : int
 
-Constant ``INVALID_LINKER_OPTIONS``.
+Constant ``INVALID_LINKER_OPTIONS = -67``.
 
 
 
@@ -1425,7 +1425,7 @@ Constant ``INVALID_LINKER_OPTIONS``.
 
   val cl_INVALID_DEVICE_PARTITION_COUNT : int
 
-Constant ``INVALID_DEVICE_PARTITION_COUNT``.
+Constant ``INVALID_DEVICE_PARTITION_COUNT = -68``.
 
 
 
@@ -1433,7 +1433,7 @@ Constant ``INVALID_DEVICE_PARTITION_COUNT``.
 
   val cl_VERSION_1_0 : int
 
-Constant ``VERSION_1_0``.
+Constant ``VERSION_1_0 = 1``.
 
 
 
@@ -1441,7 +1441,7 @@ Constant ``VERSION_1_0``.
 
   val cl_VERSION_1_1 : int
 
-Constant ``VERSION_1_1``.
+Constant ``VERSION_1_1 = 1``.
 
 
 
@@ -1449,7 +1449,7 @@ Constant ``VERSION_1_1``.
 
   val cl_VERSION_1_2 : int
 
-Constant ``VERSION_1_2``.
+Constant ``VERSION_1_2 = 1``.
 
 
 
@@ -1457,7 +1457,7 @@ Constant ``VERSION_1_2``.
 
   val cl_FALSE : int
 
-Constant ``FALSE``.
+Constant ``FALSE = 0``.
 
 
 
@@ -1465,7 +1465,7 @@ Constant ``FALSE``.
 
   val cl_TRUE : int
 
-Constant ``TRUE``.
+Constant ``TRUE = 1``.
 
 
 
@@ -1473,7 +1473,7 @@ Constant ``TRUE``.
 
   val cl_BLOCKING : int
 
-Constant ``BLOCKING``.
+Constant ``BLOCKING = 1``.
 
 
 
@@ -1481,7 +1481,7 @@ Constant ``BLOCKING``.
 
   val cl_NON_BLOCKING : int
 
-Constant ``NON_BLOCKING``.
+Constant ``NON_BLOCKING = 0``.
 
 
 
@@ -1489,7 +1489,7 @@ Constant ``NON_BLOCKING``.
 
   val cl_PLATFORM_PROFILE : int
 
-Constant ``PLATFORM_PROFILE``.
+Constant ``PLATFORM_PROFILE = 0x0900``.
 
 
 
@@ -1497,7 +1497,7 @@ Constant ``PLATFORM_PROFILE``.
 
   val cl_PLATFORM_VERSION : int
 
-Constant ``PLATFORM_VERSION``.
+Constant ``PLATFORM_VERSION = 0x0901``.
 
 
 
@@ -1505,7 +1505,7 @@ Constant ``PLATFORM_VERSION``.
 
   val cl_PLATFORM_NAME : int
 
-Constant ``PLATFORM_NAME``.
+Constant ``PLATFORM_NAME = 0x0902``.
 
 
 
@@ -1513,7 +1513,7 @@ Constant ``PLATFORM_NAME``.
 
   val cl_PLATFORM_VENDOR : int
 
-Constant ``PLATFORM_VENDOR``.
+Constant ``PLATFORM_VENDOR = 0x0903``.
 
 
 
@@ -1521,7 +1521,7 @@ Constant ``PLATFORM_VENDOR``.
 
   val cl_PLATFORM_EXTENSIONS : int
 
-Constant ``PLATFORM_EXTENSIONS``.
+Constant ``PLATFORM_EXTENSIONS = 0x0904``.
 
 
 
@@ -1529,7 +1529,7 @@ Constant ``PLATFORM_EXTENSIONS``.
 
   val cl_DEVICE_TYPE_DEFAULT : int
 
-Constant ``DEVICE_TYPE_DEFAULT``.
+Constant ``DEVICE_TYPE_DEFAULT = (1 lsl 0)``.
 
 
 
@@ -1537,7 +1537,7 @@ Constant ``DEVICE_TYPE_DEFAULT``.
 
   val cl_DEVICE_TYPE_CPU : int
 
-Constant ``DEVICE_TYPE_CPU``.
+Constant ``DEVICE_TYPE_CPU = (1 lsl 1)``.
 
 
 
@@ -1545,7 +1545,7 @@ Constant ``DEVICE_TYPE_CPU``.
 
   val cl_DEVICE_TYPE_GPU : int
 
-Constant ``DEVICE_TYPE_GPU``.
+Constant ``DEVICE_TYPE_GPU = (1 lsl 2)``.
 
 
 
@@ -1553,7 +1553,7 @@ Constant ``DEVICE_TYPE_GPU``.
 
   val cl_DEVICE_TYPE_ACCELERATOR : int
 
-Constant ``DEVICE_TYPE_ACCELERATOR``.
+Constant ``DEVICE_TYPE_ACCELERATOR = (1 lsl 3)``.
 
 
 
@@ -1561,7 +1561,7 @@ Constant ``DEVICE_TYPE_ACCELERATOR``.
 
   val cl_DEVICE_TYPE_CUSTOM : int
 
-Constant ``DEVICE_TYPE_CUSTOM``.
+Constant ``DEVICE_TYPE_CUSTOM = (1 lsl 4)``.
 
 
 
@@ -1569,7 +1569,7 @@ Constant ``DEVICE_TYPE_CUSTOM``.
 
   val cl_DEVICE_TYPE_ALL : int
 
-Constant ``DEVICE_TYPE_ALL``.
+Constant ``DEVICE_TYPE_ALL = 0xFFFFFFFF``.
 
 
 
@@ -1577,7 +1577,7 @@ Constant ``DEVICE_TYPE_ALL``.
 
   val cl_DEVICE_TYPE : int
 
-Constant ``DEVICE_TYPE``.
+Constant ``DEVICE_TYPE = 0x1000``.
 
 
 
@@ -1585,7 +1585,7 @@ Constant ``DEVICE_TYPE``.
 
   val cl_DEVICE_VENDOR_ID : int
 
-Constant ``DEVICE_VENDOR_ID``.
+Constant ``DEVICE_VENDOR_ID = 0x1001``.
 
 
 
@@ -1593,7 +1593,7 @@ Constant ``DEVICE_VENDOR_ID``.
 
   val cl_DEVICE_MAX_COMPUTE_UNITS : int
 
-Constant ``DEVICE_MAX_COMPUTE_UNITS``.
+Constant ``DEVICE_MAX_COMPUTE_UNITS = 0x1002``.
 
 
 
@@ -1601,7 +1601,7 @@ Constant ``DEVICE_MAX_COMPUTE_UNITS``.
 
   val cl_DEVICE_MAX_WORK_ITEM_DIMENSIONS : int
 
-Constant ``DEVICE_MAX_WORK_ITEM_DIMENSIONS``.
+Constant ``DEVICE_MAX_WORK_ITEM_DIMENSIONS = 0x1003``.
 
 
 
@@ -1609,7 +1609,7 @@ Constant ``DEVICE_MAX_WORK_ITEM_DIMENSIONS``.
 
   val cl_DEVICE_MAX_WORK_GROUP_SIZE : int
 
-Constant ``DEVICE_MAX_WORK_GROUP_SIZE``.
+Constant ``DEVICE_MAX_WORK_GROUP_SIZE = 0x1004``.
 
 
 
@@ -1617,7 +1617,7 @@ Constant ``DEVICE_MAX_WORK_GROUP_SIZE``.
 
   val cl_DEVICE_MAX_WORK_ITEM_SIZES : int
 
-Constant ``DEVICE_MAX_WORK_ITEM_SIZES``.
+Constant ``DEVICE_MAX_WORK_ITEM_SIZES = 0x1005``.
 
 
 
@@ -1625,7 +1625,7 @@ Constant ``DEVICE_MAX_WORK_ITEM_SIZES``.
 
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR : int
 
-Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_CHAR``.
+Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_CHAR = 0x1006``.
 
 
 
@@ -1633,7 +1633,7 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_CHAR``.
 
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_SHORT : int
 
-Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_SHORT``.
+Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_SHORT = 0x1007``.
 
 
 
@@ -1641,7 +1641,7 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_SHORT``.
 
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_INT : int
 
-Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_INT``.
+Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_INT = 0x1008``.
 
 
 
@@ -1649,7 +1649,7 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_INT``.
 
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_LONG : int
 
-Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_LONG``.
+Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_LONG = 0x1009``.
 
 
 
@@ -1657,7 +1657,7 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_LONG``.
 
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT : int
 
-Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT``.
+Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT = 0x100A``.
 
 
 
@@ -1665,7 +1665,7 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT``.
 
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE : int
 
-Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE``.
+Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE = 0x100B``.
 
 
 
@@ -1673,7 +1673,7 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE``.
 
   val cl_DEVICE_MAX_CLOCK_FREQUENCY : int
 
-Constant ``DEVICE_MAX_CLOCK_FREQUENCY``.
+Constant ``DEVICE_MAX_CLOCK_FREQUENCY = 0x100C``.
 
 
 
@@ -1681,7 +1681,7 @@ Constant ``DEVICE_MAX_CLOCK_FREQUENCY``.
 
   val cl_DEVICE_ADDRESS_BITS : int
 
-Constant ``DEVICE_ADDRESS_BITS``.
+Constant ``DEVICE_ADDRESS_BITS = 0x100D``.
 
 
 
@@ -1689,7 +1689,7 @@ Constant ``DEVICE_ADDRESS_BITS``.
 
   val cl_DEVICE_MAX_READ_IMAGE_ARGS : int
 
-Constant ``DEVICE_MAX_READ_IMAGE_ARGS``.
+Constant ``DEVICE_MAX_READ_IMAGE_ARGS = 0x100E``.
 
 
 
@@ -1697,7 +1697,7 @@ Constant ``DEVICE_MAX_READ_IMAGE_ARGS``.
 
   val cl_DEVICE_MAX_WRITE_IMAGE_ARGS : int
 
-Constant ``DEVICE_MAX_WRITE_IMAGE_ARGS``.
+Constant ``DEVICE_MAX_WRITE_IMAGE_ARGS = 0x100F``.
 
 
 
@@ -1705,7 +1705,7 @@ Constant ``DEVICE_MAX_WRITE_IMAGE_ARGS``.
 
   val cl_DEVICE_MAX_MEM_ALLOC_SIZE : int
 
-Constant ``DEVICE_MAX_MEM_ALLOC_SIZE``.
+Constant ``DEVICE_MAX_MEM_ALLOC_SIZE = 0x1010``.
 
 
 
@@ -1713,7 +1713,7 @@ Constant ``DEVICE_MAX_MEM_ALLOC_SIZE``.
 
   val cl_DEVICE_IMAGE2D_MAX_WIDTH : int
 
-Constant ``DEVICE_IMAGE2D_MAX_WIDTH``.
+Constant ``DEVICE_IMAGE2D_MAX_WIDTH = 0x1011``.
 
 
 
@@ -1721,7 +1721,7 @@ Constant ``DEVICE_IMAGE2D_MAX_WIDTH``.
 
   val cl_DEVICE_IMAGE2D_MAX_HEIGHT : int
 
-Constant ``DEVICE_IMAGE2D_MAX_HEIGHT``.
+Constant ``DEVICE_IMAGE2D_MAX_HEIGHT = 0x1012``.
 
 
 
@@ -1729,7 +1729,7 @@ Constant ``DEVICE_IMAGE2D_MAX_HEIGHT``.
 
   val cl_DEVICE_IMAGE3D_MAX_WIDTH : int
 
-Constant ``DEVICE_IMAGE3D_MAX_WIDTH``.
+Constant ``DEVICE_IMAGE3D_MAX_WIDTH = 0x1013``.
 
 
 
@@ -1737,7 +1737,7 @@ Constant ``DEVICE_IMAGE3D_MAX_WIDTH``.
 
   val cl_DEVICE_IMAGE3D_MAX_HEIGHT : int
 
-Constant ``DEVICE_IMAGE3D_MAX_HEIGHT``.
+Constant ``DEVICE_IMAGE3D_MAX_HEIGHT = 0x1014``.
 
 
 
@@ -1745,7 +1745,7 @@ Constant ``DEVICE_IMAGE3D_MAX_HEIGHT``.
 
   val cl_DEVICE_IMAGE3D_MAX_DEPTH : int
 
-Constant ``DEVICE_IMAGE3D_MAX_DEPTH``.
+Constant ``DEVICE_IMAGE3D_MAX_DEPTH = 0x1015``.
 
 
 
@@ -1753,7 +1753,7 @@ Constant ``DEVICE_IMAGE3D_MAX_DEPTH``.
 
   val cl_DEVICE_IMAGE_SUPPORT : int
 
-Constant ``DEVICE_IMAGE_SUPPORT``.
+Constant ``DEVICE_IMAGE_SUPPORT = 0x1016``.
 
 
 
@@ -1761,7 +1761,7 @@ Constant ``DEVICE_IMAGE_SUPPORT``.
 
   val cl_DEVICE_MAX_PARAMETER_SIZE : int
 
-Constant ``DEVICE_MAX_PARAMETER_SIZE``.
+Constant ``DEVICE_MAX_PARAMETER_SIZE = 0x1017``.
 
 
 
@@ -1769,7 +1769,7 @@ Constant ``DEVICE_MAX_PARAMETER_SIZE``.
 
   val cl_DEVICE_MAX_SAMPLERS : int
 
-Constant ``DEVICE_MAX_SAMPLERS``.
+Constant ``DEVICE_MAX_SAMPLERS = 0x1018``.
 
 
 
@@ -1777,7 +1777,7 @@ Constant ``DEVICE_MAX_SAMPLERS``.
 
   val cl_DEVICE_MEM_BASE_ADDR_ALIGN : int
 
-Constant ``DEVICE_MEM_BASE_ADDR_ALIGN``.
+Constant ``DEVICE_MEM_BASE_ADDR_ALIGN = 0x1019``.
 
 
 
@@ -1785,7 +1785,7 @@ Constant ``DEVICE_MEM_BASE_ADDR_ALIGN``.
 
   val cl_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE : int
 
-Constant ``DEVICE_MIN_DATA_TYPE_ALIGN_SIZE``.
+Constant ``DEVICE_MIN_DATA_TYPE_ALIGN_SIZE = 0x101A``.
 
 
 
@@ -1793,7 +1793,7 @@ Constant ``DEVICE_MIN_DATA_TYPE_ALIGN_SIZE``.
 
   val cl_DEVICE_SINGLE_FP_CONFIG : int
 
-Constant ``DEVICE_SINGLE_FP_CONFIG``.
+Constant ``DEVICE_SINGLE_FP_CONFIG = 0x101B``.
 
 
 
@@ -1801,7 +1801,7 @@ Constant ``DEVICE_SINGLE_FP_CONFIG``.
 
   val cl_DEVICE_GLOBAL_MEM_CACHE_TYPE : int
 
-Constant ``DEVICE_GLOBAL_MEM_CACHE_TYPE``.
+Constant ``DEVICE_GLOBAL_MEM_CACHE_TYPE = 0x101C``.
 
 
 
@@ -1809,7 +1809,7 @@ Constant ``DEVICE_GLOBAL_MEM_CACHE_TYPE``.
 
   val cl_DEVICE_GLOBAL_MEM_CACHELINE_SIZE : int
 
-Constant ``DEVICE_GLOBAL_MEM_CACHELINE_SIZE``.
+Constant ``DEVICE_GLOBAL_MEM_CACHELINE_SIZE = 0x101D``.
 
 
 
@@ -1817,7 +1817,7 @@ Constant ``DEVICE_GLOBAL_MEM_CACHELINE_SIZE``.
 
   val cl_DEVICE_GLOBAL_MEM_CACHE_SIZE : int
 
-Constant ``DEVICE_GLOBAL_MEM_CACHE_SIZE``.
+Constant ``DEVICE_GLOBAL_MEM_CACHE_SIZE = 0x101E``.
 
 
 
@@ -1825,7 +1825,7 @@ Constant ``DEVICE_GLOBAL_MEM_CACHE_SIZE``.
 
   val cl_DEVICE_GLOBAL_MEM_SIZE : int
 
-Constant ``DEVICE_GLOBAL_MEM_SIZE``.
+Constant ``DEVICE_GLOBAL_MEM_SIZE = 0x101F``.
 
 
 
@@ -1833,7 +1833,7 @@ Constant ``DEVICE_GLOBAL_MEM_SIZE``.
 
   val cl_DEVICE_MAX_CONSTANT_BUFFER_SIZE : int
 
-Constant ``DEVICE_MAX_CONSTANT_BUFFER_SIZE``.
+Constant ``DEVICE_MAX_CONSTANT_BUFFER_SIZE = 0x1020``.
 
 
 
@@ -1841,7 +1841,7 @@ Constant ``DEVICE_MAX_CONSTANT_BUFFER_SIZE``.
 
   val cl_DEVICE_MAX_CONSTANT_ARGS : int
 
-Constant ``DEVICE_MAX_CONSTANT_ARGS``.
+Constant ``DEVICE_MAX_CONSTANT_ARGS = 0x1021``.
 
 
 
@@ -1849,7 +1849,7 @@ Constant ``DEVICE_MAX_CONSTANT_ARGS``.
 
   val cl_DEVICE_LOCAL_MEM_TYPE : int
 
-Constant ``DEVICE_LOCAL_MEM_TYPE``.
+Constant ``DEVICE_LOCAL_MEM_TYPE = 0x1022``.
 
 
 
@@ -1857,7 +1857,7 @@ Constant ``DEVICE_LOCAL_MEM_TYPE``.
 
   val cl_DEVICE_LOCAL_MEM_SIZE : int
 
-Constant ``DEVICE_LOCAL_MEM_SIZE``.
+Constant ``DEVICE_LOCAL_MEM_SIZE = 0x1023``.
 
 
 
@@ -1865,7 +1865,7 @@ Constant ``DEVICE_LOCAL_MEM_SIZE``.
 
   val cl_DEVICE_ERROR_CORRECTION_SUPPORT : int
 
-Constant ``DEVICE_ERROR_CORRECTION_SUPPORT``.
+Constant ``DEVICE_ERROR_CORRECTION_SUPPORT = 0x1024``.
 
 
 
@@ -1873,7 +1873,7 @@ Constant ``DEVICE_ERROR_CORRECTION_SUPPORT``.
 
   val cl_DEVICE_PROFILING_TIMER_RESOLUTION : int
 
-Constant ``DEVICE_PROFILING_TIMER_RESOLUTION``.
+Constant ``DEVICE_PROFILING_TIMER_RESOLUTION = 0x1025``.
 
 
 
@@ -1881,7 +1881,7 @@ Constant ``DEVICE_PROFILING_TIMER_RESOLUTION``.
 
   val cl_DEVICE_ENDIAN_LITTLE : int
 
-Constant ``DEVICE_ENDIAN_LITTLE``.
+Constant ``DEVICE_ENDIAN_LITTLE = 0x1026``.
 
 
 
@@ -1889,7 +1889,7 @@ Constant ``DEVICE_ENDIAN_LITTLE``.
 
   val cl_DEVICE_AVAILABLE : int
 
-Constant ``DEVICE_AVAILABLE``.
+Constant ``DEVICE_AVAILABLE = 0x1027``.
 
 
 
@@ -1897,7 +1897,7 @@ Constant ``DEVICE_AVAILABLE``.
 
   val cl_DEVICE_COMPILER_AVAILABLE : int
 
-Constant ``DEVICE_COMPILER_AVAILABLE``.
+Constant ``DEVICE_COMPILER_AVAILABLE = 0x1028``.
 
 
 
@@ -1905,7 +1905,7 @@ Constant ``DEVICE_COMPILER_AVAILABLE``.
 
   val cl_DEVICE_EXECUTION_CAPABILITIES : int
 
-Constant ``DEVICE_EXECUTION_CAPABILITIES``.
+Constant ``DEVICE_EXECUTION_CAPABILITIES = 0x1029``.
 
 
 
@@ -1913,7 +1913,7 @@ Constant ``DEVICE_EXECUTION_CAPABILITIES``.
 
   val cl_DEVICE_QUEUE_PROPERTIES : int
 
-Constant ``DEVICE_QUEUE_PROPERTIES``.
+Constant ``DEVICE_QUEUE_PROPERTIES = 0x102A``.
 
 
 
@@ -1921,7 +1921,7 @@ Constant ``DEVICE_QUEUE_PROPERTIES``.
 
   val cl_DEVICE_NAME : int
 
-Constant ``DEVICE_NAME``.
+Constant ``DEVICE_NAME = 0x102B``.
 
 
 
@@ -1929,7 +1929,7 @@ Constant ``DEVICE_NAME``.
 
   val cl_DEVICE_VENDOR : int
 
-Constant ``DEVICE_VENDOR``.
+Constant ``DEVICE_VENDOR = 0x102C``.
 
 
 
@@ -1937,7 +1937,7 @@ Constant ``DEVICE_VENDOR``.
 
   val cl_DRIVER_VERSION : int
 
-Constant ``DRIVER_VERSION``.
+Constant ``DRIVER_VERSION = 0x102D``.
 
 
 
@@ -1945,7 +1945,7 @@ Constant ``DRIVER_VERSION``.
 
   val cl_DEVICE_PROFILE : int
 
-Constant ``DEVICE_PROFILE``.
+Constant ``DEVICE_PROFILE = 0x102E``.
 
 
 
@@ -1953,7 +1953,7 @@ Constant ``DEVICE_PROFILE``.
 
   val cl_DEVICE_VERSION : int
 
-Constant ``DEVICE_VERSION``.
+Constant ``DEVICE_VERSION = 0x102F``.
 
 
 
@@ -1961,7 +1961,7 @@ Constant ``DEVICE_VERSION``.
 
   val cl_DEVICE_EXTENSIONS : int
 
-Constant ``DEVICE_EXTENSIONS``.
+Constant ``DEVICE_EXTENSIONS = 0x1030``.
 
 
 
@@ -1969,7 +1969,7 @@ Constant ``DEVICE_EXTENSIONS``.
 
   val cl_DEVICE_PLATFORM : int
 
-Constant ``DEVICE_PLATFORM``.
+Constant ``DEVICE_PLATFORM = 0x1031``.
 
 
 
@@ -1977,7 +1977,7 @@ Constant ``DEVICE_PLATFORM``.
 
   val cl_DEVICE_DOUBLE_FP_CONFIG : int
 
-Constant ``DEVICE_DOUBLE_FP_CONFIG``.
+Constant ``DEVICE_DOUBLE_FP_CONFIG = 0x1032``.
 
 
 
@@ -1985,7 +1985,7 @@ Constant ``DEVICE_DOUBLE_FP_CONFIG``.
 
   val cl_DEVICE_HALF_FP_CONFIG : int
 
-Constant ``DEVICE_HALF_FP_CONFIG``.
+Constant ``DEVICE_HALF_FP_CONFIG = 0x1033``.
 
 
 
@@ -1993,7 +1993,7 @@ Constant ``DEVICE_HALF_FP_CONFIG``.
 
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_HALF : int
 
-Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_HALF``.
+Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_HALF = 0x1034``.
 
 
 
@@ -2001,7 +2001,7 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_HALF``.
 
   val cl_DEVICE_HOST_UNIFIED_MEMORY : int
 
-Constant ``DEVICE_HOST_UNIFIED_MEMORY``.
+Constant ``DEVICE_HOST_UNIFIED_MEMORY = 0x1035``.
 
 
 
@@ -2009,7 +2009,7 @@ Constant ``DEVICE_HOST_UNIFIED_MEMORY``.
 
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_CHAR : int
 
-Constant ``DEVICE_NATIVE_VECTOR_WIDTH_CHAR``.
+Constant ``DEVICE_NATIVE_VECTOR_WIDTH_CHAR = 0x1036``.
 
 
 
@@ -2017,7 +2017,7 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_CHAR``.
 
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_SHORT : int
 
-Constant ``DEVICE_NATIVE_VECTOR_WIDTH_SHORT``.
+Constant ``DEVICE_NATIVE_VECTOR_WIDTH_SHORT = 0x1037``.
 
 
 
@@ -2025,7 +2025,7 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_SHORT``.
 
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_INT : int
 
-Constant ``DEVICE_NATIVE_VECTOR_WIDTH_INT``.
+Constant ``DEVICE_NATIVE_VECTOR_WIDTH_INT = 0x1038``.
 
 
 
@@ -2033,7 +2033,7 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_INT``.
 
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_LONG : int
 
-Constant ``DEVICE_NATIVE_VECTOR_WIDTH_LONG``.
+Constant ``DEVICE_NATIVE_VECTOR_WIDTH_LONG = 0x1039``.
 
 
 
@@ -2041,7 +2041,7 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_LONG``.
 
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_FLOAT : int
 
-Constant ``DEVICE_NATIVE_VECTOR_WIDTH_FLOAT``.
+Constant ``DEVICE_NATIVE_VECTOR_WIDTH_FLOAT = 0x103A``.
 
 
 
@@ -2049,7 +2049,7 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_FLOAT``.
 
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE : int
 
-Constant ``DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE``.
+Constant ``DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE = 0x103B``.
 
 
 
@@ -2057,7 +2057,7 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE``.
 
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_HALF : int
 
-Constant ``DEVICE_NATIVE_VECTOR_WIDTH_HALF``.
+Constant ``DEVICE_NATIVE_VECTOR_WIDTH_HALF = 0x103C``.
 
 
 
@@ -2065,7 +2065,7 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_HALF``.
 
   val cl_DEVICE_OPENCL_C_VERSION : int
 
-Constant ``DEVICE_OPENCL_C_VERSION``.
+Constant ``DEVICE_OPENCL_C_VERSION = 0x103D``.
 
 
 
@@ -2073,7 +2073,7 @@ Constant ``DEVICE_OPENCL_C_VERSION``.
 
   val cl_DEVICE_LINKER_AVAILABLE : int
 
-Constant ``DEVICE_LINKER_AVAILABLE``.
+Constant ``DEVICE_LINKER_AVAILABLE = 0x103E``.
 
 
 
@@ -2081,7 +2081,7 @@ Constant ``DEVICE_LINKER_AVAILABLE``.
 
   val cl_DEVICE_BUILT_IN_KERNELS : int
 
-Constant ``DEVICE_BUILT_IN_KERNELS``.
+Constant ``DEVICE_BUILT_IN_KERNELS = 0x103F``.
 
 
 
@@ -2089,7 +2089,7 @@ Constant ``DEVICE_BUILT_IN_KERNELS``.
 
   val cl_DEVICE_IMAGE_MAX_BUFFER_SIZE : int
 
-Constant ``DEVICE_IMAGE_MAX_BUFFER_SIZE``.
+Constant ``DEVICE_IMAGE_MAX_BUFFER_SIZE = 0x1040``.
 
 
 
@@ -2097,7 +2097,7 @@ Constant ``DEVICE_IMAGE_MAX_BUFFER_SIZE``.
 
   val cl_DEVICE_IMAGE_MAX_ARRAY_SIZE : int
 
-Constant ``DEVICE_IMAGE_MAX_ARRAY_SIZE``.
+Constant ``DEVICE_IMAGE_MAX_ARRAY_SIZE = 0x1041``.
 
 
 
@@ -2105,7 +2105,7 @@ Constant ``DEVICE_IMAGE_MAX_ARRAY_SIZE``.
 
   val cl_DEVICE_PARENT_DEVICE : int
 
-Constant ``DEVICE_PARENT_DEVICE``.
+Constant ``DEVICE_PARENT_DEVICE = 0x1042``.
 
 
 
@@ -2113,7 +2113,7 @@ Constant ``DEVICE_PARENT_DEVICE``.
 
   val cl_DEVICE_PARTITION_MAX_SUB_DEVICES : int
 
-Constant ``DEVICE_PARTITION_MAX_SUB_DEVICES``.
+Constant ``DEVICE_PARTITION_MAX_SUB_DEVICES = 0x1043``.
 
 
 
@@ -2121,7 +2121,7 @@ Constant ``DEVICE_PARTITION_MAX_SUB_DEVICES``.
 
   val cl_DEVICE_PARTITION_PROPERTIES : int
 
-Constant ``DEVICE_PARTITION_PROPERTIES``.
+Constant ``DEVICE_PARTITION_PROPERTIES = 0x1044``.
 
 
 
@@ -2129,7 +2129,7 @@ Constant ``DEVICE_PARTITION_PROPERTIES``.
 
   val cl_DEVICE_PARTITION_AFFINITY_DOMAIN : int
 
-Constant ``DEVICE_PARTITION_AFFINITY_DOMAIN``.
+Constant ``DEVICE_PARTITION_AFFINITY_DOMAIN = 0x1045``.
 
 
 
@@ -2137,7 +2137,7 @@ Constant ``DEVICE_PARTITION_AFFINITY_DOMAIN``.
 
   val cl_DEVICE_PARTITION_TYPE : int
 
-Constant ``DEVICE_PARTITION_TYPE``.
+Constant ``DEVICE_PARTITION_TYPE = 0x1046``.
 
 
 
@@ -2145,7 +2145,7 @@ Constant ``DEVICE_PARTITION_TYPE``.
 
   val cl_DEVICE_REFERENCE_COUNT : int
 
-Constant ``DEVICE_REFERENCE_COUNT``.
+Constant ``DEVICE_REFERENCE_COUNT = 0x1047``.
 
 
 
@@ -2153,7 +2153,7 @@ Constant ``DEVICE_REFERENCE_COUNT``.
 
   val cl_DEVICE_PREFERRED_INTEROP_USER_SYNC : int
 
-Constant ``DEVICE_PREFERRED_INTEROP_USER_SYNC``.
+Constant ``DEVICE_PREFERRED_INTEROP_USER_SYNC = 0x1048``.
 
 
 
@@ -2161,7 +2161,7 @@ Constant ``DEVICE_PREFERRED_INTEROP_USER_SYNC``.
 
   val cl_DEVICE_PRINTF_BUFFER_SIZE : int
 
-Constant ``DEVICE_PRINTF_BUFFER_SIZE``.
+Constant ``DEVICE_PRINTF_BUFFER_SIZE = 0x1049``.
 
 
 
@@ -2169,7 +2169,7 @@ Constant ``DEVICE_PRINTF_BUFFER_SIZE``.
 
   val cl_DEVICE_IMAGE_PITCH_ALIGNMENT : int
 
-Constant ``DEVICE_IMAGE_PITCH_ALIGNMENT``.
+Constant ``DEVICE_IMAGE_PITCH_ALIGNMENT = 0x104A``.
 
 
 
@@ -2177,7 +2177,7 @@ Constant ``DEVICE_IMAGE_PITCH_ALIGNMENT``.
 
   val cl_DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT : int
 
-Constant ``DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT``.
+Constant ``DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT = 0x104B``.
 
 
 
@@ -2185,7 +2185,7 @@ Constant ``DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT``.
 
   val cl_FP_DENORM : int
 
-Constant ``FP_DENORM``.
+Constant ``FP_DENORM = (1 lsl 0)``.
 
 
 
@@ -2193,7 +2193,7 @@ Constant ``FP_DENORM``.
 
   val cl_FP_INF_NAN : int
 
-Constant ``FP_INF_NAN``.
+Constant ``FP_INF_NAN = (1 lsl 1)``.
 
 
 
@@ -2201,7 +2201,7 @@ Constant ``FP_INF_NAN``.
 
   val cl_FP_ROUND_TO_NEAREST : int
 
-Constant ``FP_ROUND_TO_NEAREST``.
+Constant ``FP_ROUND_TO_NEAREST = (1 lsl 2)``.
 
 
 
@@ -2209,7 +2209,7 @@ Constant ``FP_ROUND_TO_NEAREST``.
 
   val cl_FP_ROUND_TO_ZERO : int
 
-Constant ``FP_ROUND_TO_ZERO``.
+Constant ``FP_ROUND_TO_ZERO = (1 lsl 3)``.
 
 
 
@@ -2217,7 +2217,7 @@ Constant ``FP_ROUND_TO_ZERO``.
 
   val cl_FP_ROUND_TO_INF : int
 
-Constant ``FP_ROUND_TO_INF``.
+Constant ``FP_ROUND_TO_INF = (1 lsl 4)``.
 
 
 
@@ -2225,7 +2225,7 @@ Constant ``FP_ROUND_TO_INF``.
 
   val cl_FP_FMA : int
 
-Constant ``FP_FMA``.
+Constant ``FP_FMA = (1 lsl 5)``.
 
 
 
@@ -2233,7 +2233,7 @@ Constant ``FP_FMA``.
 
   val cl_FP_SOFT_FLOAT : int
 
-Constant ``FP_SOFT_FLOAT``.
+Constant ``FP_SOFT_FLOAT = (1 lsl 6)``.
 
 
 
@@ -2241,7 +2241,7 @@ Constant ``FP_SOFT_FLOAT``.
 
   val cl_FP_CORRECTLY_ROUNDED_DIVIDE_SQRT : int
 
-Constant ``FP_CORRECTLY_ROUNDED_DIVIDE_SQRT``.
+Constant ``FP_CORRECTLY_ROUNDED_DIVIDE_SQRT = (1 lsl 7)``.
 
 
 
@@ -2249,7 +2249,7 @@ Constant ``FP_CORRECTLY_ROUNDED_DIVIDE_SQRT``.
 
   val cl_NONE : int
 
-Constant ``NONE``.
+Constant ``NONE = 0x0``.
 
 
 
@@ -2257,7 +2257,7 @@ Constant ``NONE``.
 
   val cl_READ_ONLY_CACHE : int
 
-Constant ``READ_ONLY_CACHE``.
+Constant ``READ_ONLY_CACHE = 0x1``.
 
 
 
@@ -2265,7 +2265,7 @@ Constant ``READ_ONLY_CACHE``.
 
   val cl_READ_WRITE_CACHE : int
 
-Constant ``READ_WRITE_CACHE``.
+Constant ``READ_WRITE_CACHE = 0x2``.
 
 
 
@@ -2273,7 +2273,7 @@ Constant ``READ_WRITE_CACHE``.
 
   val cl_LOCAL : int
 
-Constant ``LOCAL``.
+Constant ``LOCAL = 0x1``.
 
 
 
@@ -2281,7 +2281,7 @@ Constant ``LOCAL``.
 
   val cl_GLOBAL : int
 
-Constant ``GLOBAL``.
+Constant ``GLOBAL = 0x2``.
 
 
 
@@ -2289,7 +2289,7 @@ Constant ``GLOBAL``.
 
   val cl_EXEC_KERNEL : int
 
-Constant ``EXEC_KERNEL``.
+Constant ``EXEC_KERNEL = (1 lsl 0)``.
 
 
 
@@ -2297,7 +2297,7 @@ Constant ``EXEC_KERNEL``.
 
   val cl_EXEC_NATIVE_KERNEL : int
 
-Constant ``EXEC_NATIVE_KERNEL``.
+Constant ``EXEC_NATIVE_KERNEL = (1 lsl 1)``.
 
 
 
@@ -2305,7 +2305,7 @@ Constant ``EXEC_NATIVE_KERNEL``.
 
   val cl_QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE : int
 
-Constant ``QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE``.
+Constant ``QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE = (1 lsl 0)``.
 
 
 
@@ -2313,7 +2313,7 @@ Constant ``QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE``.
 
   val cl_QUEUE_PROFILING_ENABLE : int
 
-Constant ``QUEUE_PROFILING_ENABLE``.
+Constant ``QUEUE_PROFILING_ENABLE = (1 lsl 1)``.
 
 
 
@@ -2321,7 +2321,7 @@ Constant ``QUEUE_PROFILING_ENABLE``.
 
   val cl_CONTEXT_REFERENCE_COUNT : int
 
-Constant ``CONTEXT_REFERENCE_COUNT``.
+Constant ``CONTEXT_REFERENCE_COUNT = 0x1080``.
 
 
 
@@ -2329,7 +2329,7 @@ Constant ``CONTEXT_REFERENCE_COUNT``.
 
   val cl_CONTEXT_DEVICES : int
 
-Constant ``CONTEXT_DEVICES``.
+Constant ``CONTEXT_DEVICES = 0x1081``.
 
 
 
@@ -2337,7 +2337,7 @@ Constant ``CONTEXT_DEVICES``.
 
   val cl_CONTEXT_PROPERTIES : int
 
-Constant ``CONTEXT_PROPERTIES``.
+Constant ``CONTEXT_PROPERTIES = 0x1082``.
 
 
 
@@ -2345,7 +2345,7 @@ Constant ``CONTEXT_PROPERTIES``.
 
   val cl_CONTEXT_NUM_DEVICES : int
 
-Constant ``CONTEXT_NUM_DEVICES``.
+Constant ``CONTEXT_NUM_DEVICES = 0x1083``.
 
 
 
@@ -2353,7 +2353,7 @@ Constant ``CONTEXT_NUM_DEVICES``.
 
   val cl_CONTEXT_PLATFORM : int
 
-Constant ``CONTEXT_PLATFORM``.
+Constant ``CONTEXT_PLATFORM = 0x1084``.
 
 
 
@@ -2361,7 +2361,7 @@ Constant ``CONTEXT_PLATFORM``.
 
   val cl_CONTEXT_INTEROP_USER_SYNC : int
 
-Constant ``CONTEXT_INTEROP_USER_SYNC``.
+Constant ``CONTEXT_INTEROP_USER_SYNC = 0x1085``.
 
 
 
@@ -2369,7 +2369,7 @@ Constant ``CONTEXT_INTEROP_USER_SYNC``.
 
   val cl_DEVICE_PARTITION_EQUALLY : int
 
-Constant ``DEVICE_PARTITION_EQUALLY``.
+Constant ``DEVICE_PARTITION_EQUALLY = 0x1086``.
 
 
 
@@ -2377,7 +2377,7 @@ Constant ``DEVICE_PARTITION_EQUALLY``.
 
   val cl_DEVICE_PARTITION_BY_COUNTS : int
 
-Constant ``DEVICE_PARTITION_BY_COUNTS``.
+Constant ``DEVICE_PARTITION_BY_COUNTS = 0x1087``.
 
 
 
@@ -2385,7 +2385,7 @@ Constant ``DEVICE_PARTITION_BY_COUNTS``.
 
   val cl_DEVICE_PARTITION_BY_COUNTS_LIST_END : int
 
-Constant ``DEVICE_PARTITION_BY_COUNTS_LIST_END``.
+Constant ``DEVICE_PARTITION_BY_COUNTS_LIST_END = 0x0``.
 
 
 
@@ -2393,7 +2393,7 @@ Constant ``DEVICE_PARTITION_BY_COUNTS_LIST_END``.
 
   val cl_DEVICE_PARTITION_BY_AFFINITY_DOMAIN : int
 
-Constant ``DEVICE_PARTITION_BY_AFFINITY_DOMAIN``.
+Constant ``DEVICE_PARTITION_BY_AFFINITY_DOMAIN = 0x1088``.
 
 
 
@@ -2401,7 +2401,7 @@ Constant ``DEVICE_PARTITION_BY_AFFINITY_DOMAIN``.
 
   val cl_DEVICE_AFFINITY_DOMAIN_NUMA : int
 
-Constant ``DEVICE_AFFINITY_DOMAIN_NUMA``.
+Constant ``DEVICE_AFFINITY_DOMAIN_NUMA = (1 lsl 0)``.
 
 
 
@@ -2409,7 +2409,7 @@ Constant ``DEVICE_AFFINITY_DOMAIN_NUMA``.
 
   val cl_DEVICE_AFFINITY_DOMAIN_L4_CACHE : int
 
-Constant ``DEVICE_AFFINITY_DOMAIN_L4_CACHE``.
+Constant ``DEVICE_AFFINITY_DOMAIN_L4_CACHE = (1 lsl 1)``.
 
 
 
@@ -2417,7 +2417,7 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L4_CACHE``.
 
   val cl_DEVICE_AFFINITY_DOMAIN_L3_CACHE : int
 
-Constant ``DEVICE_AFFINITY_DOMAIN_L3_CACHE``.
+Constant ``DEVICE_AFFINITY_DOMAIN_L3_CACHE = (1 lsl 2)``.
 
 
 
@@ -2425,7 +2425,7 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L3_CACHE``.
 
   val cl_DEVICE_AFFINITY_DOMAIN_L2_CACHE : int
 
-Constant ``DEVICE_AFFINITY_DOMAIN_L2_CACHE``.
+Constant ``DEVICE_AFFINITY_DOMAIN_L2_CACHE = (1 lsl 3)``.
 
 
 
@@ -2433,7 +2433,7 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L2_CACHE``.
 
   val cl_DEVICE_AFFINITY_DOMAIN_L1_CACHE : int
 
-Constant ``DEVICE_AFFINITY_DOMAIN_L1_CACHE``.
+Constant ``DEVICE_AFFINITY_DOMAIN_L1_CACHE = (1 lsl 4)``.
 
 
 
@@ -2441,7 +2441,7 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L1_CACHE``.
 
   val cl_DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE : int
 
-Constant ``DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE``.
+Constant ``DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE = (1 lsl 5)``.
 
 
 
@@ -2449,7 +2449,7 @@ Constant ``DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE``.
 
   val cl_QUEUE_CONTEXT : int
 
-Constant ``QUEUE_CONTEXT``.
+Constant ``QUEUE_CONTEXT = 0x1090``.
 
 
 
@@ -2457,7 +2457,7 @@ Constant ``QUEUE_CONTEXT``.
 
   val cl_QUEUE_DEVICE : int
 
-Constant ``QUEUE_DEVICE``.
+Constant ``QUEUE_DEVICE = 0x1091``.
 
 
 
@@ -2465,7 +2465,7 @@ Constant ``QUEUE_DEVICE``.
 
   val cl_QUEUE_REFERENCE_COUNT : int
 
-Constant ``QUEUE_REFERENCE_COUNT``.
+Constant ``QUEUE_REFERENCE_COUNT = 0x1092``.
 
 
 
@@ -2473,7 +2473,7 @@ Constant ``QUEUE_REFERENCE_COUNT``.
 
   val cl_QUEUE_PROPERTIES : int
 
-Constant ``QUEUE_PROPERTIES``.
+Constant ``QUEUE_PROPERTIES = 0x1093``.
 
 
 
@@ -2481,7 +2481,7 @@ Constant ``QUEUE_PROPERTIES``.
 
   val cl_MEM_READ_WRITE : int
 
-Constant ``MEM_READ_WRITE``.
+Constant ``MEM_READ_WRITE = (1 lsl 0)``.
 
 
 
@@ -2489,7 +2489,7 @@ Constant ``MEM_READ_WRITE``.
 
   val cl_MEM_WRITE_ONLY : int
 
-Constant ``MEM_WRITE_ONLY``.
+Constant ``MEM_WRITE_ONLY = (1 lsl 1)``.
 
 
 
@@ -2497,7 +2497,7 @@ Constant ``MEM_WRITE_ONLY``.
 
   val cl_MEM_READ_ONLY : int
 
-Constant ``MEM_READ_ONLY``.
+Constant ``MEM_READ_ONLY = (1 lsl 2)``.
 
 
 
@@ -2505,7 +2505,7 @@ Constant ``MEM_READ_ONLY``.
 
   val cl_MEM_USE_HOST_PTR : int
 
-Constant ``MEM_USE_HOST_PTR``.
+Constant ``MEM_USE_HOST_PTR = (1 lsl 3)``.
 
 
 
@@ -2513,7 +2513,7 @@ Constant ``MEM_USE_HOST_PTR``.
 
   val cl_MEM_ALLOC_HOST_PTR : int
 
-Constant ``MEM_ALLOC_HOST_PTR``.
+Constant ``MEM_ALLOC_HOST_PTR = (1 lsl 4)``.
 
 
 
@@ -2521,7 +2521,7 @@ Constant ``MEM_ALLOC_HOST_PTR``.
 
   val cl_MEM_COPY_HOST_PTR : int
 
-Constant ``MEM_COPY_HOST_PTR``.
+Constant ``MEM_COPY_HOST_PTR = (1 lsl 5)``.
 
 
 
@@ -2529,7 +2529,7 @@ Constant ``MEM_COPY_HOST_PTR``.
 
   val cl_MEM_HOST_WRITE_ONLY : int
 
-Constant ``MEM_HOST_WRITE_ONLY``.
+Constant ``MEM_HOST_WRITE_ONLY = (1 lsl 7)``.
 
 
 
@@ -2537,7 +2537,7 @@ Constant ``MEM_HOST_WRITE_ONLY``.
 
   val cl_MEM_HOST_READ_ONLY : int
 
-Constant ``MEM_HOST_READ_ONLY``.
+Constant ``MEM_HOST_READ_ONLY = (1 lsl 8)``.
 
 
 
@@ -2545,7 +2545,7 @@ Constant ``MEM_HOST_READ_ONLY``.
 
   val cl_MEM_HOST_NO_ACCESS : int
 
-Constant ``MEM_HOST_NO_ACCESS``.
+Constant ``MEM_HOST_NO_ACCESS = (1 lsl 9)``.
 
 
 
@@ -2553,7 +2553,7 @@ Constant ``MEM_HOST_NO_ACCESS``.
 
   val cl_MIGRATE_MEM_OBJECT_HOST : int
 
-Constant ``MIGRATE_MEM_OBJECT_HOST``.
+Constant ``MIGRATE_MEM_OBJECT_HOST = (1 lsl 0)``.
 
 
 
@@ -2561,7 +2561,7 @@ Constant ``MIGRATE_MEM_OBJECT_HOST``.
 
   val cl_MIGRATE_MEM_OBJECT_CONTENT_UNDEFINED : int
 
-Constant ``MIGRATE_MEM_OBJECT_CONTENT_UNDEFINED``.
+Constant ``MIGRATE_MEM_OBJECT_CONTENT_UNDEFINED = (1 lsl 1)``.
 
 
 
@@ -2569,7 +2569,7 @@ Constant ``MIGRATE_MEM_OBJECT_CONTENT_UNDEFINED``.
 
   val cl_R : int
 
-Constant ``R``.
+Constant ``R = 0x10B0``.
 
 
 
@@ -2577,7 +2577,7 @@ Constant ``R``.
 
   val cl_A : int
 
-Constant ``A``.
+Constant ``A = 0x10B1``.
 
 
 
@@ -2585,7 +2585,7 @@ Constant ``A``.
 
   val cl_RG : int
 
-Constant ``RG``.
+Constant ``RG = 0x10B2``.
 
 
 
@@ -2593,7 +2593,7 @@ Constant ``RG``.
 
   val cl_RA : int
 
-Constant ``RA``.
+Constant ``RA = 0x10B3``.
 
 
 
@@ -2601,7 +2601,7 @@ Constant ``RA``.
 
   val cl_RGB : int
 
-Constant ``RGB``.
+Constant ``RGB = 0x10B4``.
 
 
 
@@ -2609,7 +2609,7 @@ Constant ``RGB``.
 
   val cl_RGBA : int
 
-Constant ``RGBA``.
+Constant ``RGBA = 0x10B5``.
 
 
 
@@ -2617,7 +2617,7 @@ Constant ``RGBA``.
 
   val cl_BGRA : int
 
-Constant ``BGRA``.
+Constant ``BGRA = 0x10B6``.
 
 
 
@@ -2625,7 +2625,7 @@ Constant ``BGRA``.
 
   val cl_ARGB : int
 
-Constant ``ARGB``.
+Constant ``ARGB = 0x10B7``.
 
 
 
@@ -2633,7 +2633,7 @@ Constant ``ARGB``.
 
   val cl_INTENSITY : int
 
-Constant ``INTENSITY``.
+Constant ``INTENSITY = 0x10B8``.
 
 
 
@@ -2641,7 +2641,7 @@ Constant ``INTENSITY``.
 
   val cl_LUMINANCE : int
 
-Constant ``LUMINANCE``.
+Constant ``LUMINANCE = 0x10B9``.
 
 
 
@@ -2649,7 +2649,7 @@ Constant ``LUMINANCE``.
 
   val cl_Rx : int
 
-Constant ``Rx``.
+Constant ``Rx = 0x10BA``.
 
 
 
@@ -2657,7 +2657,7 @@ Constant ``Rx``.
 
   val cl_RGx : int
 
-Constant ``RGx``.
+Constant ``RGx = 0x10BB``.
 
 
 
@@ -2665,7 +2665,7 @@ Constant ``RGx``.
 
   val cl_RGBx : int
 
-Constant ``RGBx``.
+Constant ``RGBx = 0x10BC``.
 
 
 
@@ -2673,7 +2673,7 @@ Constant ``RGBx``.
 
   val cl_DEPTH : int
 
-Constant ``DEPTH``.
+Constant ``DEPTH = 0x10BD``.
 
 
 
@@ -2681,7 +2681,7 @@ Constant ``DEPTH``.
 
   val cl_DEPTH_STENCIL : int
 
-Constant ``DEPTH_STENCIL``.
+Constant ``DEPTH_STENCIL = 0x10BE``.
 
 
 
@@ -2689,7 +2689,7 @@ Constant ``DEPTH_STENCIL``.
 
   val cl_SNORM_INT8 : int
 
-Constant ``SNORM_INT8``.
+Constant ``SNORM_INT8 = 0x10D0``.
 
 
 
@@ -2697,7 +2697,7 @@ Constant ``SNORM_INT8``.
 
   val cl_SNORM_INT16 : int
 
-Constant ``SNORM_INT16``.
+Constant ``SNORM_INT16 = 0x10D1``.
 
 
 
@@ -2705,7 +2705,7 @@ Constant ``SNORM_INT16``.
 
   val cl_UNORM_INT8 : int
 
-Constant ``UNORM_INT8``.
+Constant ``UNORM_INT8 = 0x10D2``.
 
 
 
@@ -2713,7 +2713,7 @@ Constant ``UNORM_INT8``.
 
   val cl_UNORM_INT16 : int
 
-Constant ``UNORM_INT16``.
+Constant ``UNORM_INT16 = 0x10D3``.
 
 
 
@@ -2721,7 +2721,7 @@ Constant ``UNORM_INT16``.
 
   val cl_UNORM_SHORT_565 : int
 
-Constant ``UNORM_SHORT_565``.
+Constant ``UNORM_SHORT_565 = 0x10D4``.
 
 
 
@@ -2729,7 +2729,7 @@ Constant ``UNORM_SHORT_565``.
 
   val cl_UNORM_SHORT_555 : int
 
-Constant ``UNORM_SHORT_555``.
+Constant ``UNORM_SHORT_555 = 0x10D5``.
 
 
 
@@ -2737,7 +2737,7 @@ Constant ``UNORM_SHORT_555``.
 
   val cl_UNORM_INT_101010 : int
 
-Constant ``UNORM_INT_101010``.
+Constant ``UNORM_INT_101010 = 0x10D6``.
 
 
 
@@ -2745,7 +2745,7 @@ Constant ``UNORM_INT_101010``.
 
   val cl_SIGNED_INT8 : int
 
-Constant ``SIGNED_INT8``.
+Constant ``SIGNED_INT8 = 0x10D7``.
 
 
 
@@ -2753,7 +2753,7 @@ Constant ``SIGNED_INT8``.
 
   val cl_SIGNED_INT16 : int
 
-Constant ``SIGNED_INT16``.
+Constant ``SIGNED_INT16 = 0x10D8``.
 
 
 
@@ -2761,7 +2761,7 @@ Constant ``SIGNED_INT16``.
 
   val cl_SIGNED_INT32 : int
 
-Constant ``SIGNED_INT32``.
+Constant ``SIGNED_INT32 = 0x10D9``.
 
 
 
@@ -2769,7 +2769,7 @@ Constant ``SIGNED_INT32``.
 
   val cl_UNSIGNED_INT8 : int
 
-Constant ``UNSIGNED_INT8``.
+Constant ``UNSIGNED_INT8 = 0x10DA``.
 
 
 
@@ -2777,7 +2777,7 @@ Constant ``UNSIGNED_INT8``.
 
   val cl_UNSIGNED_INT16 : int
 
-Constant ``UNSIGNED_INT16``.
+Constant ``UNSIGNED_INT16 = 0x10DB``.
 
 
 
@@ -2785,7 +2785,7 @@ Constant ``UNSIGNED_INT16``.
 
   val cl_UNSIGNED_INT32 : int
 
-Constant ``UNSIGNED_INT32``.
+Constant ``UNSIGNED_INT32 = 0x10DC``.
 
 
 
@@ -2793,7 +2793,7 @@ Constant ``UNSIGNED_INT32``.
 
   val cl_HALF_FLOAT : int
 
-Constant ``HALF_FLOAT``.
+Constant ``HALF_FLOAT = 0x10DD``.
 
 
 
@@ -2801,7 +2801,7 @@ Constant ``HALF_FLOAT``.
 
   val cl_FLOAT : int
 
-Constant ``FLOAT``.
+Constant ``FLOAT = 0x10DE``.
 
 
 
@@ -2809,7 +2809,7 @@ Constant ``FLOAT``.
 
   val cl_UNORM_INT24 : int
 
-Constant ``UNORM_INT24``.
+Constant ``UNORM_INT24 = 0x10DF``.
 
 
 
@@ -2817,7 +2817,7 @@ Constant ``UNORM_INT24``.
 
   val cl_MEM_OBJECT_BUFFER : int
 
-Constant ``MEM_OBJECT_BUFFER``.
+Constant ``MEM_OBJECT_BUFFER = 0x10F0``.
 
 
 
@@ -2825,7 +2825,7 @@ Constant ``MEM_OBJECT_BUFFER``.
 
   val cl_MEM_OBJECT_IMAGE2D : int
 
-Constant ``MEM_OBJECT_IMAGE2D``.
+Constant ``MEM_OBJECT_IMAGE2D = 0x10F1``.
 
 
 
@@ -2833,7 +2833,7 @@ Constant ``MEM_OBJECT_IMAGE2D``.
 
   val cl_MEM_OBJECT_IMAGE3D : int
 
-Constant ``MEM_OBJECT_IMAGE3D``.
+Constant ``MEM_OBJECT_IMAGE3D = 0x10F2``.
 
 
 
@@ -2841,7 +2841,7 @@ Constant ``MEM_OBJECT_IMAGE3D``.
 
   val cl_MEM_OBJECT_IMAGE2D_ARRAY : int
 
-Constant ``MEM_OBJECT_IMAGE2D_ARRAY``.
+Constant ``MEM_OBJECT_IMAGE2D_ARRAY = 0x10F3``.
 
 
 
@@ -2849,7 +2849,7 @@ Constant ``MEM_OBJECT_IMAGE2D_ARRAY``.
 
   val cl_MEM_OBJECT_IMAGE1D : int
 
-Constant ``MEM_OBJECT_IMAGE1D``.
+Constant ``MEM_OBJECT_IMAGE1D = 0x10F4``.
 
 
 
@@ -2857,7 +2857,7 @@ Constant ``MEM_OBJECT_IMAGE1D``.
 
   val cl_MEM_OBJECT_IMAGE1D_ARRAY : int
 
-Constant ``MEM_OBJECT_IMAGE1D_ARRAY``.
+Constant ``MEM_OBJECT_IMAGE1D_ARRAY = 0x10F5``.
 
 
 
@@ -2865,7 +2865,7 @@ Constant ``MEM_OBJECT_IMAGE1D_ARRAY``.
 
   val cl_MEM_OBJECT_IMAGE1D_BUFFER : int
 
-Constant ``MEM_OBJECT_IMAGE1D_BUFFER``.
+Constant ``MEM_OBJECT_IMAGE1D_BUFFER = 0x10F6``.
 
 
 
@@ -2873,7 +2873,7 @@ Constant ``MEM_OBJECT_IMAGE1D_BUFFER``.
 
   val cl_MEM_TYPE : int
 
-Constant ``MEM_TYPE``.
+Constant ``MEM_TYPE = 0x1100``.
 
 
 
@@ -2881,7 +2881,7 @@ Constant ``MEM_TYPE``.
 
   val cl_MEM_FLAGS : int
 
-Constant ``MEM_FLAGS``.
+Constant ``MEM_FLAGS = 0x1101``.
 
 
 
@@ -2889,7 +2889,7 @@ Constant ``MEM_FLAGS``.
 
   val cl_MEM_SIZE : int
 
-Constant ``MEM_SIZE``.
+Constant ``MEM_SIZE = 0x1102``.
 
 
 
@@ -2897,7 +2897,7 @@ Constant ``MEM_SIZE``.
 
   val cl_MEM_HOST_PTR : int
 
-Constant ``MEM_HOST_PTR``.
+Constant ``MEM_HOST_PTR = 0x1103``.
 
 
 
@@ -2905,7 +2905,7 @@ Constant ``MEM_HOST_PTR``.
 
   val cl_MEM_MAP_COUNT : int
 
-Constant ``MEM_MAP_COUNT``.
+Constant ``MEM_MAP_COUNT = 0x1104``.
 
 
 
@@ -2913,7 +2913,7 @@ Constant ``MEM_MAP_COUNT``.
 
   val cl_MEM_REFERENCE_COUNT : int
 
-Constant ``MEM_REFERENCE_COUNT``.
+Constant ``MEM_REFERENCE_COUNT = 0x1105``.
 
 
 
@@ -2921,7 +2921,7 @@ Constant ``MEM_REFERENCE_COUNT``.
 
   val cl_MEM_CONTEXT : int
 
-Constant ``MEM_CONTEXT``.
+Constant ``MEM_CONTEXT = 0x1106``.
 
 
 
@@ -2929,7 +2929,7 @@ Constant ``MEM_CONTEXT``.
 
   val cl_MEM_ASSOCIATED_MEMOBJECT : int
 
-Constant ``MEM_ASSOCIATED_MEMOBJECT``.
+Constant ``MEM_ASSOCIATED_MEMOBJECT = 0x1107``.
 
 
 
@@ -2937,7 +2937,7 @@ Constant ``MEM_ASSOCIATED_MEMOBJECT``.
 
   val cl_MEM_OFFSET : int
 
-Constant ``MEM_OFFSET``.
+Constant ``MEM_OFFSET = 0x1108``.
 
 
 
@@ -2945,7 +2945,7 @@ Constant ``MEM_OFFSET``.
 
   val cl_IMAGE_FORMAT : int
 
-Constant ``IMAGE_FORMAT``.
+Constant ``IMAGE_FORMAT = 0x1110``.
 
 
 
@@ -2953,7 +2953,7 @@ Constant ``IMAGE_FORMAT``.
 
   val cl_IMAGE_ELEMENT_SIZE : int
 
-Constant ``IMAGE_ELEMENT_SIZE``.
+Constant ``IMAGE_ELEMENT_SIZE = 0x1111``.
 
 
 
@@ -2961,7 +2961,7 @@ Constant ``IMAGE_ELEMENT_SIZE``.
 
   val cl_IMAGE_ROW_PITCH : int
 
-Constant ``IMAGE_ROW_PITCH``.
+Constant ``IMAGE_ROW_PITCH = 0x1112``.
 
 
 
@@ -2969,7 +2969,7 @@ Constant ``IMAGE_ROW_PITCH``.
 
   val cl_IMAGE_SLICE_PITCH : int
 
-Constant ``IMAGE_SLICE_PITCH``.
+Constant ``IMAGE_SLICE_PITCH = 0x1113``.
 
 
 
@@ -2977,7 +2977,7 @@ Constant ``IMAGE_SLICE_PITCH``.
 
   val cl_IMAGE_WIDTH : int
 
-Constant ``IMAGE_WIDTH``.
+Constant ``IMAGE_WIDTH = 0x1114``.
 
 
 
@@ -2985,7 +2985,7 @@ Constant ``IMAGE_WIDTH``.
 
   val cl_IMAGE_HEIGHT : int
 
-Constant ``IMAGE_HEIGHT``.
+Constant ``IMAGE_HEIGHT = 0x1115``.
 
 
 
@@ -2993,7 +2993,7 @@ Constant ``IMAGE_HEIGHT``.
 
   val cl_IMAGE_DEPTH : int
 
-Constant ``IMAGE_DEPTH``.
+Constant ``IMAGE_DEPTH = 0x1116``.
 
 
 
@@ -3001,7 +3001,7 @@ Constant ``IMAGE_DEPTH``.
 
   val cl_IMAGE_ARRAY_SIZE : int
 
-Constant ``IMAGE_ARRAY_SIZE``.
+Constant ``IMAGE_ARRAY_SIZE = 0x1117``.
 
 
 
@@ -3009,7 +3009,7 @@ Constant ``IMAGE_ARRAY_SIZE``.
 
   val cl_IMAGE_BUFFER : int
 
-Constant ``IMAGE_BUFFER``.
+Constant ``IMAGE_BUFFER = 0x1118``.
 
 
 
@@ -3017,7 +3017,7 @@ Constant ``IMAGE_BUFFER``.
 
   val cl_IMAGE_NUM_MIP_LEVELS : int
 
-Constant ``IMAGE_NUM_MIP_LEVELS``.
+Constant ``IMAGE_NUM_MIP_LEVELS = 0x1119``.
 
 
 
@@ -3025,7 +3025,7 @@ Constant ``IMAGE_NUM_MIP_LEVELS``.
 
   val cl_IMAGE_NUM_SAMPLES : int
 
-Constant ``IMAGE_NUM_SAMPLES``.
+Constant ``IMAGE_NUM_SAMPLES = 0x111A``.
 
 
 
@@ -3033,7 +3033,7 @@ Constant ``IMAGE_NUM_SAMPLES``.
 
   val cl_ADDRESS_NONE : int
 
-Constant ``ADDRESS_NONE``.
+Constant ``ADDRESS_NONE = 0x1130``.
 
 
 
@@ -3041,7 +3041,7 @@ Constant ``ADDRESS_NONE``.
 
   val cl_ADDRESS_CLAMP_TO_EDGE : int
 
-Constant ``ADDRESS_CLAMP_TO_EDGE``.
+Constant ``ADDRESS_CLAMP_TO_EDGE = 0x1131``.
 
 
 
@@ -3049,7 +3049,7 @@ Constant ``ADDRESS_CLAMP_TO_EDGE``.
 
   val cl_ADDRESS_CLAMP : int
 
-Constant ``ADDRESS_CLAMP``.
+Constant ``ADDRESS_CLAMP = 0x1132``.
 
 
 
@@ -3057,7 +3057,7 @@ Constant ``ADDRESS_CLAMP``.
 
   val cl_ADDRESS_REPEAT : int
 
-Constant ``ADDRESS_REPEAT``.
+Constant ``ADDRESS_REPEAT = 0x1133``.
 
 
 
@@ -3065,7 +3065,7 @@ Constant ``ADDRESS_REPEAT``.
 
   val cl_ADDRESS_MIRRORED_REPEAT : int
 
-Constant ``ADDRESS_MIRRORED_REPEAT``.
+Constant ``ADDRESS_MIRRORED_REPEAT = 0x1134``.
 
 
 
@@ -3073,7 +3073,7 @@ Constant ``ADDRESS_MIRRORED_REPEAT``.
 
   val cl_FILTER_NEAREST : int
 
-Constant ``FILTER_NEAREST``.
+Constant ``FILTER_NEAREST = 0x1140``.
 
 
 
@@ -3081,7 +3081,7 @@ Constant ``FILTER_NEAREST``.
 
   val cl_FILTER_LINEAR : int
 
-Constant ``FILTER_LINEAR``.
+Constant ``FILTER_LINEAR = 0x1141``.
 
 
 
@@ -3089,7 +3089,7 @@ Constant ``FILTER_LINEAR``.
 
   val cl_SAMPLER_REFERENCE_COUNT : int
 
-Constant ``SAMPLER_REFERENCE_COUNT``.
+Constant ``SAMPLER_REFERENCE_COUNT = 0x1150``.
 
 
 
@@ -3097,7 +3097,7 @@ Constant ``SAMPLER_REFERENCE_COUNT``.
 
   val cl_SAMPLER_CONTEXT : int
 
-Constant ``SAMPLER_CONTEXT``.
+Constant ``SAMPLER_CONTEXT = 0x1151``.
 
 
 
@@ -3105,7 +3105,7 @@ Constant ``SAMPLER_CONTEXT``.
 
   val cl_SAMPLER_NORMALIZED_COORDS : int
 
-Constant ``SAMPLER_NORMALIZED_COORDS``.
+Constant ``SAMPLER_NORMALIZED_COORDS = 0x1152``.
 
 
 
@@ -3113,7 +3113,7 @@ Constant ``SAMPLER_NORMALIZED_COORDS``.
 
   val cl_SAMPLER_ADDRESSING_MODE : int
 
-Constant ``SAMPLER_ADDRESSING_MODE``.
+Constant ``SAMPLER_ADDRESSING_MODE = 0x1153``.
 
 
 
@@ -3121,7 +3121,7 @@ Constant ``SAMPLER_ADDRESSING_MODE``.
 
   val cl_SAMPLER_FILTER_MODE : int
 
-Constant ``SAMPLER_FILTER_MODE``.
+Constant ``SAMPLER_FILTER_MODE = 0x1154``.
 
 
 
@@ -3129,7 +3129,7 @@ Constant ``SAMPLER_FILTER_MODE``.
 
   val cl_MAP_READ : int
 
-Constant ``MAP_READ``.
+Constant ``MAP_READ = (1 lsl 0)``.
 
 
 
@@ -3137,7 +3137,7 @@ Constant ``MAP_READ``.
 
   val cl_MAP_WRITE : int
 
-Constant ``MAP_WRITE``.
+Constant ``MAP_WRITE = (1 lsl 1)``.
 
 
 
@@ -3145,7 +3145,7 @@ Constant ``MAP_WRITE``.
 
   val cl_MAP_WRITE_INVALIDATE_REGION : int
 
-Constant ``MAP_WRITE_INVALIDATE_REGION``.
+Constant ``MAP_WRITE_INVALIDATE_REGION = (1 lsl 2)``.
 
 
 
@@ -3153,7 +3153,7 @@ Constant ``MAP_WRITE_INVALIDATE_REGION``.
 
   val cl_PROGRAM_REFERENCE_COUNT : int
 
-Constant ``PROGRAM_REFERENCE_COUNT``.
+Constant ``PROGRAM_REFERENCE_COUNT = 0x1160``.
 
 
 
@@ -3161,7 +3161,7 @@ Constant ``PROGRAM_REFERENCE_COUNT``.
 
   val cl_PROGRAM_CONTEXT : int
 
-Constant ``PROGRAM_CONTEXT``.
+Constant ``PROGRAM_CONTEXT = 0x1161``.
 
 
 
@@ -3169,7 +3169,7 @@ Constant ``PROGRAM_CONTEXT``.
 
   val cl_PROGRAM_NUM_DEVICES : int
 
-Constant ``PROGRAM_NUM_DEVICES``.
+Constant ``PROGRAM_NUM_DEVICES = 0x1162``.
 
 
 
@@ -3177,7 +3177,7 @@ Constant ``PROGRAM_NUM_DEVICES``.
 
   val cl_PROGRAM_DEVICES : int
 
-Constant ``PROGRAM_DEVICES``.
+Constant ``PROGRAM_DEVICES = 0x1163``.
 
 
 
@@ -3185,7 +3185,7 @@ Constant ``PROGRAM_DEVICES``.
 
   val cl_PROGRAM_SOURCE : int
 
-Constant ``PROGRAM_SOURCE``.
+Constant ``PROGRAM_SOURCE = 0x1164``.
 
 
 
@@ -3193,7 +3193,7 @@ Constant ``PROGRAM_SOURCE``.
 
   val cl_PROGRAM_BINARY_SIZES : int
 
-Constant ``PROGRAM_BINARY_SIZES``.
+Constant ``PROGRAM_BINARY_SIZES = 0x1165``.
 
 
 
@@ -3201,7 +3201,7 @@ Constant ``PROGRAM_BINARY_SIZES``.
 
   val cl_PROGRAM_BINARIES : int
 
-Constant ``PROGRAM_BINARIES``.
+Constant ``PROGRAM_BINARIES = 0x1166``.
 
 
 
@@ -3209,7 +3209,7 @@ Constant ``PROGRAM_BINARIES``.
 
   val cl_PROGRAM_NUM_KERNELS : int
 
-Constant ``PROGRAM_NUM_KERNELS``.
+Constant ``PROGRAM_NUM_KERNELS = 0x1167``.
 
 
 
@@ -3217,7 +3217,7 @@ Constant ``PROGRAM_NUM_KERNELS``.
 
   val cl_PROGRAM_KERNEL_NAMES : int
 
-Constant ``PROGRAM_KERNEL_NAMES``.
+Constant ``PROGRAM_KERNEL_NAMES = 0x1168``.
 
 
 
@@ -3225,7 +3225,7 @@ Constant ``PROGRAM_KERNEL_NAMES``.
 
   val cl_PROGRAM_BUILD_STATUS : int
 
-Constant ``PROGRAM_BUILD_STATUS``.
+Constant ``PROGRAM_BUILD_STATUS = 0x1181``.
 
 
 
@@ -3233,7 +3233,7 @@ Constant ``PROGRAM_BUILD_STATUS``.
 
   val cl_PROGRAM_BUILD_OPTIONS : int
 
-Constant ``PROGRAM_BUILD_OPTIONS``.
+Constant ``PROGRAM_BUILD_OPTIONS = 0x1182``.
 
 
 
@@ -3241,7 +3241,7 @@ Constant ``PROGRAM_BUILD_OPTIONS``.
 
   val cl_PROGRAM_BUILD_LOG : int
 
-Constant ``PROGRAM_BUILD_LOG``.
+Constant ``PROGRAM_BUILD_LOG = 0x1183``.
 
 
 
@@ -3249,7 +3249,7 @@ Constant ``PROGRAM_BUILD_LOG``.
 
   val cl_PROGRAM_BINARY_TYPE : int
 
-Constant ``PROGRAM_BINARY_TYPE``.
+Constant ``PROGRAM_BINARY_TYPE = 0x1184``.
 
 
 
@@ -3257,7 +3257,7 @@ Constant ``PROGRAM_BINARY_TYPE``.
 
   val cl_PROGRAM_BINARY_TYPE_NONE : int
 
-Constant ``PROGRAM_BINARY_TYPE_NONE``.
+Constant ``PROGRAM_BINARY_TYPE_NONE = 0x0``.
 
 
 
@@ -3265,7 +3265,7 @@ Constant ``PROGRAM_BINARY_TYPE_NONE``.
 
   val cl_PROGRAM_BINARY_TYPE_COMPILED_OBJECT : int
 
-Constant ``PROGRAM_BINARY_TYPE_COMPILED_OBJECT``.
+Constant ``PROGRAM_BINARY_TYPE_COMPILED_OBJECT = 0x1``.
 
 
 
@@ -3273,7 +3273,7 @@ Constant ``PROGRAM_BINARY_TYPE_COMPILED_OBJECT``.
 
   val cl_PROGRAM_BINARY_TYPE_LIBRARY : int
 
-Constant ``PROGRAM_BINARY_TYPE_LIBRARY``.
+Constant ``PROGRAM_BINARY_TYPE_LIBRARY = 0x2``.
 
 
 
@@ -3281,7 +3281,7 @@ Constant ``PROGRAM_BINARY_TYPE_LIBRARY``.
 
   val cl_PROGRAM_BINARY_TYPE_EXECUTABLE : int
 
-Constant ``PROGRAM_BINARY_TYPE_EXECUTABLE``.
+Constant ``PROGRAM_BINARY_TYPE_EXECUTABLE = 0x4``.
 
 
 
@@ -3289,7 +3289,7 @@ Constant ``PROGRAM_BINARY_TYPE_EXECUTABLE``.
 
   val cl_BUILD_SUCCESS : int
 
-Constant ``BUILD_SUCCESS``.
+Constant ``BUILD_SUCCESS = 0``.
 
 
 
@@ -3297,7 +3297,7 @@ Constant ``BUILD_SUCCESS``.
 
   val cl_BUILD_NONE : int
 
-Constant ``BUILD_NONE``.
+Constant ``BUILD_NONE = -1``.
 
 
 
@@ -3305,7 +3305,7 @@ Constant ``BUILD_NONE``.
 
   val cl_BUILD_ERROR : int
 
-Constant ``BUILD_ERROR``.
+Constant ``BUILD_ERROR = -2``.
 
 
 
@@ -3313,7 +3313,7 @@ Constant ``BUILD_ERROR``.
 
   val cl_BUILD_IN_PROGRESS : int
 
-Constant ``BUILD_IN_PROGRESS``.
+Constant ``BUILD_IN_PROGRESS = -3``.
 
 
 
@@ -3321,7 +3321,7 @@ Constant ``BUILD_IN_PROGRESS``.
 
   val cl_KERNEL_FUNCTION_NAME : int
 
-Constant ``KERNEL_FUNCTION_NAME``.
+Constant ``KERNEL_FUNCTION_NAME = 0x1190``.
 
 
 
@@ -3329,7 +3329,7 @@ Constant ``KERNEL_FUNCTION_NAME``.
 
   val cl_KERNEL_NUM_ARGS : int
 
-Constant ``KERNEL_NUM_ARGS``.
+Constant ``KERNEL_NUM_ARGS = 0x1191``.
 
 
 
@@ -3337,7 +3337,7 @@ Constant ``KERNEL_NUM_ARGS``.
 
   val cl_KERNEL_REFERENCE_COUNT : int
 
-Constant ``KERNEL_REFERENCE_COUNT``.
+Constant ``KERNEL_REFERENCE_COUNT = 0x1192``.
 
 
 
@@ -3345,7 +3345,7 @@ Constant ``KERNEL_REFERENCE_COUNT``.
 
   val cl_KERNEL_CONTEXT : int
 
-Constant ``KERNEL_CONTEXT``.
+Constant ``KERNEL_CONTEXT = 0x1193``.
 
 
 
@@ -3353,7 +3353,7 @@ Constant ``KERNEL_CONTEXT``.
 
   val cl_KERNEL_PROGRAM : int
 
-Constant ``KERNEL_PROGRAM``.
+Constant ``KERNEL_PROGRAM = 0x1194``.
 
 
 
@@ -3361,7 +3361,7 @@ Constant ``KERNEL_PROGRAM``.
 
   val cl_KERNEL_ATTRIBUTES : int
 
-Constant ``KERNEL_ATTRIBUTES``.
+Constant ``KERNEL_ATTRIBUTES = 0x1195``.
 
 
 
@@ -3369,7 +3369,7 @@ Constant ``KERNEL_ATTRIBUTES``.
 
   val cl_KERNEL_ARG_ADDRESS_QUALIFIER : int
 
-Constant ``KERNEL_ARG_ADDRESS_QUALIFIER``.
+Constant ``KERNEL_ARG_ADDRESS_QUALIFIER = 0x1196``.
 
 
 
@@ -3377,7 +3377,7 @@ Constant ``KERNEL_ARG_ADDRESS_QUALIFIER``.
 
   val cl_KERNEL_ARG_ACCESS_QUALIFIER : int
 
-Constant ``KERNEL_ARG_ACCESS_QUALIFIER``.
+Constant ``KERNEL_ARG_ACCESS_QUALIFIER = 0x1197``.
 
 
 
@@ -3385,7 +3385,7 @@ Constant ``KERNEL_ARG_ACCESS_QUALIFIER``.
 
   val cl_KERNEL_ARG_TYPE_NAME : int
 
-Constant ``KERNEL_ARG_TYPE_NAME``.
+Constant ``KERNEL_ARG_TYPE_NAME = 0x1198``.
 
 
 
@@ -3393,7 +3393,7 @@ Constant ``KERNEL_ARG_TYPE_NAME``.
 
   val cl_KERNEL_ARG_TYPE_QUALIFIER : int
 
-Constant ``KERNEL_ARG_TYPE_QUALIFIER``.
+Constant ``KERNEL_ARG_TYPE_QUALIFIER = 0x1199``.
 
 
 
@@ -3401,7 +3401,7 @@ Constant ``KERNEL_ARG_TYPE_QUALIFIER``.
 
   val cl_KERNEL_ARG_NAME : int
 
-Constant ``KERNEL_ARG_NAME``.
+Constant ``KERNEL_ARG_NAME = 0x119A``.
 
 
 
@@ -3409,7 +3409,7 @@ Constant ``KERNEL_ARG_NAME``.
 
   val cl_KERNEL_ARG_ADDRESS_GLOBAL : int
 
-Constant ``KERNEL_ARG_ADDRESS_GLOBAL``.
+Constant ``KERNEL_ARG_ADDRESS_GLOBAL = 0x119B``.
 
 
 
@@ -3417,7 +3417,7 @@ Constant ``KERNEL_ARG_ADDRESS_GLOBAL``.
 
   val cl_KERNEL_ARG_ADDRESS_LOCAL : int
 
-Constant ``KERNEL_ARG_ADDRESS_LOCAL``.
+Constant ``KERNEL_ARG_ADDRESS_LOCAL = 0x119C``.
 
 
 
@@ -3425,7 +3425,7 @@ Constant ``KERNEL_ARG_ADDRESS_LOCAL``.
 
   val cl_KERNEL_ARG_ADDRESS_CONSTANT : int
 
-Constant ``KERNEL_ARG_ADDRESS_CONSTANT``.
+Constant ``KERNEL_ARG_ADDRESS_CONSTANT = 0x119D``.
 
 
 
@@ -3433,7 +3433,7 @@ Constant ``KERNEL_ARG_ADDRESS_CONSTANT``.
 
   val cl_KERNEL_ARG_ADDRESS_PRIVATE : int
 
-Constant ``KERNEL_ARG_ADDRESS_PRIVATE``.
+Constant ``KERNEL_ARG_ADDRESS_PRIVATE = 0x119E``.
 
 
 
@@ -3441,7 +3441,7 @@ Constant ``KERNEL_ARG_ADDRESS_PRIVATE``.
 
   val cl_KERNEL_ARG_ACCESS_READ_ONLY : int
 
-Constant ``KERNEL_ARG_ACCESS_READ_ONLY``.
+Constant ``KERNEL_ARG_ACCESS_READ_ONLY = 0x11A0``.
 
 
 
@@ -3449,7 +3449,7 @@ Constant ``KERNEL_ARG_ACCESS_READ_ONLY``.
 
   val cl_KERNEL_ARG_ACCESS_WRITE_ONLY : int
 
-Constant ``KERNEL_ARG_ACCESS_WRITE_ONLY``.
+Constant ``KERNEL_ARG_ACCESS_WRITE_ONLY = 0x11A1``.
 
 
 
@@ -3457,7 +3457,7 @@ Constant ``KERNEL_ARG_ACCESS_WRITE_ONLY``.
 
   val cl_KERNEL_ARG_ACCESS_READ_WRITE : int
 
-Constant ``KERNEL_ARG_ACCESS_READ_WRITE``.
+Constant ``KERNEL_ARG_ACCESS_READ_WRITE = 0x11A2``.
 
 
 
@@ -3465,7 +3465,7 @@ Constant ``KERNEL_ARG_ACCESS_READ_WRITE``.
 
   val cl_KERNEL_ARG_ACCESS_NONE : int
 
-Constant ``KERNEL_ARG_ACCESS_NONE``.
+Constant ``KERNEL_ARG_ACCESS_NONE = 0x11A3``.
 
 
 
@@ -3473,7 +3473,7 @@ Constant ``KERNEL_ARG_ACCESS_NONE``.
 
   val cl_KERNEL_ARG_TYPE_NONE : int
 
-Constant ``KERNEL_ARG_TYPE_NONE``.
+Constant ``KERNEL_ARG_TYPE_NONE = 0``.
 
 
 
@@ -3481,7 +3481,7 @@ Constant ``KERNEL_ARG_TYPE_NONE``.
 
   val cl_KERNEL_ARG_TYPE_CONST : int
 
-Constant ``KERNEL_ARG_TYPE_CONST``.
+Constant ``KERNEL_ARG_TYPE_CONST = (1 lsl 0)``.
 
 
 
@@ -3489,7 +3489,7 @@ Constant ``KERNEL_ARG_TYPE_CONST``.
 
   val cl_KERNEL_ARG_TYPE_RESTRICT : int
 
-Constant ``KERNEL_ARG_TYPE_RESTRICT``.
+Constant ``KERNEL_ARG_TYPE_RESTRICT = (1 lsl 1)``.
 
 
 
@@ -3497,7 +3497,7 @@ Constant ``KERNEL_ARG_TYPE_RESTRICT``.
 
   val cl_KERNEL_ARG_TYPE_VOLATILE : int
 
-Constant ``KERNEL_ARG_TYPE_VOLATILE``.
+Constant ``KERNEL_ARG_TYPE_VOLATILE = (1 lsl 2)``.
 
 
 
@@ -3505,7 +3505,7 @@ Constant ``KERNEL_ARG_TYPE_VOLATILE``.
 
   val cl_KERNEL_WORK_GROUP_SIZE : int
 
-Constant ``KERNEL_WORK_GROUP_SIZE``.
+Constant ``KERNEL_WORK_GROUP_SIZE = 0x11B0``.
 
 
 
@@ -3513,7 +3513,7 @@ Constant ``KERNEL_WORK_GROUP_SIZE``.
 
   val cl_KERNEL_COMPILE_WORK_GROUP_SIZE : int
 
-Constant ``KERNEL_COMPILE_WORK_GROUP_SIZE``.
+Constant ``KERNEL_COMPILE_WORK_GROUP_SIZE = 0x11B1``.
 
 
 
@@ -3521,7 +3521,7 @@ Constant ``KERNEL_COMPILE_WORK_GROUP_SIZE``.
 
   val cl_KERNEL_LOCAL_MEM_SIZE : int
 
-Constant ``KERNEL_LOCAL_MEM_SIZE``.
+Constant ``KERNEL_LOCAL_MEM_SIZE = 0x11B2``.
 
 
 
@@ -3529,7 +3529,7 @@ Constant ``KERNEL_LOCAL_MEM_SIZE``.
 
   val cl_KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE : int
 
-Constant ``KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE``.
+Constant ``KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE = 0x11B3``.
 
 
 
@@ -3537,7 +3537,7 @@ Constant ``KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE``.
 
   val cl_KERNEL_PRIVATE_MEM_SIZE : int
 
-Constant ``KERNEL_PRIVATE_MEM_SIZE``.
+Constant ``KERNEL_PRIVATE_MEM_SIZE = 0x11B4``.
 
 
 
@@ -3545,7 +3545,7 @@ Constant ``KERNEL_PRIVATE_MEM_SIZE``.
 
   val cl_KERNEL_GLOBAL_WORK_SIZE : int
 
-Constant ``KERNEL_GLOBAL_WORK_SIZE``.
+Constant ``KERNEL_GLOBAL_WORK_SIZE = 0x11B5``.
 
 
 
@@ -3553,7 +3553,7 @@ Constant ``KERNEL_GLOBAL_WORK_SIZE``.
 
   val cl_EVENT_COMMAND_QUEUE : int
 
-Constant ``EVENT_COMMAND_QUEUE``.
+Constant ``EVENT_COMMAND_QUEUE = 0x11D0``.
 
 
 
@@ -3561,7 +3561,7 @@ Constant ``EVENT_COMMAND_QUEUE``.
 
   val cl_EVENT_COMMAND_TYPE : int
 
-Constant ``EVENT_COMMAND_TYPE``.
+Constant ``EVENT_COMMAND_TYPE = 0x11D1``.
 
 
 
@@ -3569,7 +3569,7 @@ Constant ``EVENT_COMMAND_TYPE``.
 
   val cl_EVENT_REFERENCE_COUNT : int
 
-Constant ``EVENT_REFERENCE_COUNT``.
+Constant ``EVENT_REFERENCE_COUNT = 0x11D2``.
 
 
 
@@ -3577,7 +3577,7 @@ Constant ``EVENT_REFERENCE_COUNT``.
 
   val cl_EVENT_COMMAND_EXECUTION_STATUS : int
 
-Constant ``EVENT_COMMAND_EXECUTION_STATUS``.
+Constant ``EVENT_COMMAND_EXECUTION_STATUS = 0x11D3``.
 
 
 
@@ -3585,7 +3585,7 @@ Constant ``EVENT_COMMAND_EXECUTION_STATUS``.
 
   val cl_EVENT_CONTEXT : int
 
-Constant ``EVENT_CONTEXT``.
+Constant ``EVENT_CONTEXT = 0x11D4``.
 
 
 
@@ -3593,7 +3593,7 @@ Constant ``EVENT_CONTEXT``.
 
   val cl_COMMAND_NDRANGE_KERNEL : int
 
-Constant ``COMMAND_NDRANGE_KERNEL``.
+Constant ``COMMAND_NDRANGE_KERNEL = 0x11F0``.
 
 
 
@@ -3601,7 +3601,7 @@ Constant ``COMMAND_NDRANGE_KERNEL``.
 
   val cl_COMMAND_TASK : int
 
-Constant ``COMMAND_TASK``.
+Constant ``COMMAND_TASK = 0x11F1``.
 
 
 
@@ -3609,7 +3609,7 @@ Constant ``COMMAND_TASK``.
 
   val cl_COMMAND_NATIVE_KERNEL : int
 
-Constant ``COMMAND_NATIVE_KERNEL``.
+Constant ``COMMAND_NATIVE_KERNEL = 0x11F2``.
 
 
 
@@ -3617,7 +3617,7 @@ Constant ``COMMAND_NATIVE_KERNEL``.
 
   val cl_COMMAND_READ_BUFFER : int
 
-Constant ``COMMAND_READ_BUFFER``.
+Constant ``COMMAND_READ_BUFFER = 0x11F3``.
 
 
 
@@ -3625,7 +3625,7 @@ Constant ``COMMAND_READ_BUFFER``.
 
   val cl_COMMAND_WRITE_BUFFER : int
 
-Constant ``COMMAND_WRITE_BUFFER``.
+Constant ``COMMAND_WRITE_BUFFER = 0x11F4``.
 
 
 
@@ -3633,7 +3633,7 @@ Constant ``COMMAND_WRITE_BUFFER``.
 
   val cl_COMMAND_COPY_BUFFER : int
 
-Constant ``COMMAND_COPY_BUFFER``.
+Constant ``COMMAND_COPY_BUFFER = 0x11F5``.
 
 
 
@@ -3641,7 +3641,7 @@ Constant ``COMMAND_COPY_BUFFER``.
 
   val cl_COMMAND_READ_IMAGE : int
 
-Constant ``COMMAND_READ_IMAGE``.
+Constant ``COMMAND_READ_IMAGE = 0x11F6``.
 
 
 
@@ -3649,7 +3649,7 @@ Constant ``COMMAND_READ_IMAGE``.
 
   val cl_COMMAND_WRITE_IMAGE : int
 
-Constant ``COMMAND_WRITE_IMAGE``.
+Constant ``COMMAND_WRITE_IMAGE = 0x11F7``.
 
 
 
@@ -3657,7 +3657,7 @@ Constant ``COMMAND_WRITE_IMAGE``.
 
   val cl_COMMAND_COPY_IMAGE : int
 
-Constant ``COMMAND_COPY_IMAGE``.
+Constant ``COMMAND_COPY_IMAGE = 0x11F8``.
 
 
 
@@ -3665,7 +3665,7 @@ Constant ``COMMAND_COPY_IMAGE``.
 
   val cl_COMMAND_COPY_IMAGE_TO_BUFFER : int
 
-Constant ``COMMAND_COPY_IMAGE_TO_BUFFER``.
+Constant ``COMMAND_COPY_IMAGE_TO_BUFFER = 0x11F9``.
 
 
 
@@ -3673,7 +3673,7 @@ Constant ``COMMAND_COPY_IMAGE_TO_BUFFER``.
 
   val cl_COMMAND_COPY_BUFFER_TO_IMAGE : int
 
-Constant ``COMMAND_COPY_BUFFER_TO_IMAGE``.
+Constant ``COMMAND_COPY_BUFFER_TO_IMAGE = 0x11FA``.
 
 
 
@@ -3681,7 +3681,7 @@ Constant ``COMMAND_COPY_BUFFER_TO_IMAGE``.
 
   val cl_COMMAND_MAP_BUFFER : int
 
-Constant ``COMMAND_MAP_BUFFER``.
+Constant ``COMMAND_MAP_BUFFER = 0x11FB``.
 
 
 
@@ -3689,7 +3689,7 @@ Constant ``COMMAND_MAP_BUFFER``.
 
   val cl_COMMAND_MAP_IMAGE : int
 
-Constant ``COMMAND_MAP_IMAGE``.
+Constant ``COMMAND_MAP_IMAGE = 0x11FC``.
 
 
 
@@ -3697,7 +3697,7 @@ Constant ``COMMAND_MAP_IMAGE``.
 
   val cl_COMMAND_UNMAP_MEM_OBJECT : int
 
-Constant ``COMMAND_UNMAP_MEM_OBJECT``.
+Constant ``COMMAND_UNMAP_MEM_OBJECT = 0x11FD``.
 
 
 
@@ -3705,7 +3705,7 @@ Constant ``COMMAND_UNMAP_MEM_OBJECT``.
 
   val cl_COMMAND_MARKER : int
 
-Constant ``COMMAND_MARKER``.
+Constant ``COMMAND_MARKER = 0x11FE``.
 
 
 
@@ -3713,7 +3713,7 @@ Constant ``COMMAND_MARKER``.
 
   val cl_COMMAND_ACQUIRE_GL_OBJECTS : int
 
-Constant ``COMMAND_ACQUIRE_GL_OBJECTS``.
+Constant ``COMMAND_ACQUIRE_GL_OBJECTS = 0x11FF``.
 
 
 
@@ -3721,7 +3721,7 @@ Constant ``COMMAND_ACQUIRE_GL_OBJECTS``.
 
   val cl_COMMAND_RELEASE_GL_OBJECTS : int
 
-Constant ``COMMAND_RELEASE_GL_OBJECTS``.
+Constant ``COMMAND_RELEASE_GL_OBJECTS = 0x1200``.
 
 
 
@@ -3729,7 +3729,7 @@ Constant ``COMMAND_RELEASE_GL_OBJECTS``.
 
   val cl_COMMAND_READ_BUFFER_RECT : int
 
-Constant ``COMMAND_READ_BUFFER_RECT``.
+Constant ``COMMAND_READ_BUFFER_RECT = 0x1201``.
 
 
 
@@ -3737,7 +3737,7 @@ Constant ``COMMAND_READ_BUFFER_RECT``.
 
   val cl_COMMAND_WRITE_BUFFER_RECT : int
 
-Constant ``COMMAND_WRITE_BUFFER_RECT``.
+Constant ``COMMAND_WRITE_BUFFER_RECT = 0x1202``.
 
 
 
@@ -3745,7 +3745,7 @@ Constant ``COMMAND_WRITE_BUFFER_RECT``.
 
   val cl_COMMAND_COPY_BUFFER_RECT : int
 
-Constant ``COMMAND_COPY_BUFFER_RECT``.
+Constant ``COMMAND_COPY_BUFFER_RECT = 0x1203``.
 
 
 
@@ -3753,7 +3753,7 @@ Constant ``COMMAND_COPY_BUFFER_RECT``.
 
   val cl_COMMAND_USER : int
 
-Constant ``COMMAND_USER``.
+Constant ``COMMAND_USER = 0x1204``.
 
 
 
@@ -3761,7 +3761,7 @@ Constant ``COMMAND_USER``.
 
   val cl_COMMAND_BARRIER : int
 
-Constant ``COMMAND_BARRIER``.
+Constant ``COMMAND_BARRIER = 0x1205``.
 
 
 
@@ -3769,7 +3769,7 @@ Constant ``COMMAND_BARRIER``.
 
   val cl_COMMAND_MIGRATE_MEM_OBJECTS : int
 
-Constant ``COMMAND_MIGRATE_MEM_OBJECTS``.
+Constant ``COMMAND_MIGRATE_MEM_OBJECTS = 0x1206``.
 
 
 
@@ -3777,7 +3777,7 @@ Constant ``COMMAND_MIGRATE_MEM_OBJECTS``.
 
   val cl_COMMAND_FILL_BUFFER : int
 
-Constant ``COMMAND_FILL_BUFFER``.
+Constant ``COMMAND_FILL_BUFFER = 0x1207``.
 
 
 
@@ -3785,7 +3785,7 @@ Constant ``COMMAND_FILL_BUFFER``.
 
   val cl_COMMAND_FILL_IMAGE : int
 
-Constant ``COMMAND_FILL_IMAGE``.
+Constant ``COMMAND_FILL_IMAGE = 0x1208``.
 
 
 
@@ -3793,7 +3793,7 @@ Constant ``COMMAND_FILL_IMAGE``.
 
   val cl_COMPLETE : int
 
-Constant ``COMPLETE``.
+Constant ``COMPLETE = 0x0``.
 
 
 
@@ -3801,7 +3801,7 @@ Constant ``COMPLETE``.
 
   val cl_RUNNING : int
 
-Constant ``RUNNING``.
+Constant ``RUNNING = 0x1``.
 
 
 
@@ -3809,7 +3809,7 @@ Constant ``RUNNING``.
 
   val cl_SUBMITTED : int
 
-Constant ``SUBMITTED``.
+Constant ``SUBMITTED = 0x2``.
 
 
 
@@ -3817,7 +3817,7 @@ Constant ``SUBMITTED``.
 
   val cl_QUEUED : int
 
-Constant ``QUEUED``.
+Constant ``QUEUED = 0x3``.
 
 
 
@@ -3825,7 +3825,7 @@ Constant ``QUEUED``.
 
   val cl_BUFFER_CREATE_TYPE_REGION : int
 
-Constant ``BUFFER_CREATE_TYPE_REGION``.
+Constant ``BUFFER_CREATE_TYPE_REGION = 0x1220``.
 
 
 
@@ -3833,7 +3833,7 @@ Constant ``BUFFER_CREATE_TYPE_REGION``.
 
   val cl_PROFILING_COMMAND_QUEUED : int
 
-Constant ``PROFILING_COMMAND_QUEUED``.
+Constant ``PROFILING_COMMAND_QUEUED = 0x1280``.
 
 
 
@@ -3841,7 +3841,7 @@ Constant ``PROFILING_COMMAND_QUEUED``.
 
   val cl_PROFILING_COMMAND_SUBMIT : int
 
-Constant ``PROFILING_COMMAND_SUBMIT``.
+Constant ``PROFILING_COMMAND_SUBMIT = 0x1281``.
 
 
 
@@ -3849,7 +3849,7 @@ Constant ``PROFILING_COMMAND_SUBMIT``.
 
   val cl_PROFILING_COMMAND_START : int
 
-Constant ``PROFILING_COMMAND_START``.
+Constant ``PROFILING_COMMAND_START = 0x1282``.
 
 
 
@@ -3857,12 +3857,543 @@ Constant ``PROFILING_COMMAND_START``.
 
   val cl_PROFILING_COMMAND_END : int
 
-Constant ``PROFILING_COMMAND_END``.
+Constant ``PROFILING_COMMAND_END = 0x1283``.
 
 
 
 Exception definition
 -------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_SUCCESS
+    
+
+Exception ``EXN_SUCCESS``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_DEVICE_NOT_FOUND
+    
+
+Exception ``EXN_DEVICE_NOT_FOUND``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_DEVICE_NOT_AVAILABLE
+    
+
+Exception ``EXN_DEVICE_NOT_AVAILABLE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_COMPILER_NOT_AVAILABLE
+    
+
+Exception ``EXN_COMPILER_NOT_AVAILABLE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_MEM_OBJECT_ALLOCATION_FAILURE
+    
+
+Exception ``EXN_MEM_OBJECT_ALLOCATION_FAILURE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_OUT_OF_RESOURCES
+    
+
+Exception ``EXN_OUT_OF_RESOURCES``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_OUT_OF_HOST_MEMORY
+    
+
+Exception ``EXN_OUT_OF_HOST_MEMORY``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_PROFILING_INFO_NOT_AVAILABLE
+    
+
+Exception ``EXN_PROFILING_INFO_NOT_AVAILABLE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_MEM_COPY_OVERLAP
+    
+
+Exception ``EXN_MEM_COPY_OVERLAP``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_IMAGE_FORMAT_MISMATCH
+    
+
+Exception ``EXN_IMAGE_FORMAT_MISMATCH``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_IMAGE_FORMAT_NOT_SUPPORTED
+    
+
+Exception ``EXN_IMAGE_FORMAT_NOT_SUPPORTED``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_BUILD_PROGRAM_FAILURE
+    
+
+Exception ``EXN_BUILD_PROGRAM_FAILURE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_MAP_FAILURE
+    
+
+Exception ``EXN_MAP_FAILURE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_MISALIGNED_SUB_BUFFER_OFFSET
+    
+
+Exception ``EXN_MISALIGNED_SUB_BUFFER_OFFSET``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST
+    
+
+Exception ``EXN_EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_COMPILE_PROGRAM_FAILURE
+    
+
+Exception ``EXN_COMPILE_PROGRAM_FAILURE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_LINKER_NOT_AVAILABLE
+    
+
+Exception ``EXN_LINKER_NOT_AVAILABLE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_LINK_PROGRAM_FAILURE
+    
+
+Exception ``EXN_LINK_PROGRAM_FAILURE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_DEVICE_PARTITION_FAILED
+    
+
+Exception ``EXN_DEVICE_PARTITION_FAILED``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_KERNEL_ARG_INFO_NOT_AVAILABLE
+    
+
+Exception ``EXN_KERNEL_ARG_INFO_NOT_AVAILABLE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_VALUE
+    
+
+Exception ``EXN_INVALID_VALUE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_DEVICE_TYPE
+    
+
+Exception ``EXN_INVALID_DEVICE_TYPE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_PLATFORM
+    
+
+Exception ``EXN_INVALID_PLATFORM``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_DEVICE
+    
+
+Exception ``EXN_INVALID_DEVICE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_CONTEXT
+    
+
+Exception ``EXN_INVALID_CONTEXT``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_QUEUE_PROPERTIES
+    
+
+Exception ``EXN_INVALID_QUEUE_PROPERTIES``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_COMMAND_QUEUE
+    
+
+Exception ``EXN_INVALID_COMMAND_QUEUE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_HOST_PTR
+    
+
+Exception ``EXN_INVALID_HOST_PTR``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_MEM_OBJECT
+    
+
+Exception ``EXN_INVALID_MEM_OBJECT``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_IMAGE_FORMAT_DESCRIPTOR
+    
+
+Exception ``EXN_INVALID_IMAGE_FORMAT_DESCRIPTOR``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_IMAGE_SIZE
+    
+
+Exception ``EXN_INVALID_IMAGE_SIZE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_SAMPLER
+    
+
+Exception ``EXN_INVALID_SAMPLER``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_BINARY
+    
+
+Exception ``EXN_INVALID_BINARY``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_BUILD_OPTIONS
+    
+
+Exception ``EXN_INVALID_BUILD_OPTIONS``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_PROGRAM
+    
+
+Exception ``EXN_INVALID_PROGRAM``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_PROGRAM_EXECUTABLE
+    
+
+Exception ``EXN_INVALID_PROGRAM_EXECUTABLE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_KERNEL_NAME
+    
+
+Exception ``EXN_INVALID_KERNEL_NAME``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_KERNEL_DEFINITION
+    
+
+Exception ``EXN_INVALID_KERNEL_DEFINITION``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_KERNEL
+    
+
+Exception ``EXN_INVALID_KERNEL``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_ARG_INDEX
+    
+
+Exception ``EXN_INVALID_ARG_INDEX``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_ARG_VALUE
+    
+
+Exception ``EXN_INVALID_ARG_VALUE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_ARG_SIZE
+    
+
+Exception ``EXN_INVALID_ARG_SIZE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_KERNEL_ARGS
+    
+
+Exception ``EXN_INVALID_KERNEL_ARGS``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_WORK_DIMENSION
+    
+
+Exception ``EXN_INVALID_WORK_DIMENSION``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_WORK_GROUP_SIZE
+    
+
+Exception ``EXN_INVALID_WORK_GROUP_SIZE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_WORK_ITEM_SIZE
+    
+
+Exception ``EXN_INVALID_WORK_ITEM_SIZE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_GLOBAL_OFFSET
+    
+
+Exception ``EXN_INVALID_GLOBAL_OFFSET``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_EVENT_WAIT_LIST
+    
+
+Exception ``EXN_INVALID_EVENT_WAIT_LIST``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_EVENT
+    
+
+Exception ``EXN_INVALID_EVENT``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_OPERATION
+    
+
+Exception ``EXN_INVALID_OPERATION``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_GL_OBJECT
+    
+
+Exception ``EXN_INVALID_GL_OBJECT``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_BUFFER_SIZE
+    
+
+Exception ``EXN_INVALID_BUFFER_SIZE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_MIP_LEVEL
+    
+
+Exception ``EXN_INVALID_MIP_LEVEL``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_GLOBAL_WORK_SIZE
+    
+
+Exception ``EXN_INVALID_GLOBAL_WORK_SIZE``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_PROPERTY
+    
+
+Exception ``EXN_INVALID_PROPERTY``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_IMAGE_DESCRIPTOR
+    
+
+Exception ``EXN_INVALID_IMAGE_DESCRIPTOR``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_COMPILER_OPTIONS
+    
+
+Exception ``EXN_INVALID_COMPILER_OPTIONS``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_LINKER_OPTIONS
+    
+
+Exception ``EXN_INVALID_LINKER_OPTIONS``.
+
+
+
+.. code-block:: ocaml
+
+  exception EXN_INVALID_DEVICE_PARTITION_COUNT
+    
+
+Exception ``EXN_INVALID_DEVICE_PARTITION_COUNT``.
 
 
 

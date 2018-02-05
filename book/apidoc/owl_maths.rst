@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #135 entries have been extracted.
-timestamp:1517848326
+timestamp:1517850916
 
 Basic functions
 -------------------------------------------------------------------------------

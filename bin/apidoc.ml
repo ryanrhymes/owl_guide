@@ -61,6 +61,7 @@ let parse_one_section regstr s =
 let parse_one_mli fname =
   let res0 = "^[\s]*(type [\S\s]+?)\(\*\*[\s]*([\S\s]+?)[\s]*\*\)[\s]*?^[\s]*$" in
   let res1 = "^[\s]*(val .+?)[ \n]*\(\*\*[ \n]*([\S\s]+?)[ \n]*\*\)" in
+  let res2 = "^[\s]*(exception [\S\s]+?)\(\*\*[\s]*([\S\s]+?)[\s]*\*\)[\s]*?^[\s]*$" in
 
   let s = get_content fname in
   let sections = extract_sections s in
@@ -68,13 +69,15 @@ let parse_one_mli fname =
   if Array.length sections = 0 then (
     let typdoc = parse_one_section res0 s in
     let apidoc = parse_one_section res1 s in
-    Array.append typdoc apidoc
+    let exndoc = parse_one_section res2 s in
+    Array.(append apidoc exndoc |> append typdoc)
   )
   else (
     Array.fold_left (fun acc (head, body) ->
       let typdoc = parse_one_section res0 body in
       let apidoc = parse_one_section res1 body in
-      Array.append typdoc apidoc |>
+      let exndoc = parse_one_section res2 body in
+      Array.(append apidoc exndoc |> append typdoc) |>
       Array.append [| `Section head |] |>
       Array.append acc
     ) [||] sections;

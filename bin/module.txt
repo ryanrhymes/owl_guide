@@ -23,6 +23,7 @@ base/misc/owl_log.mli | Log
 base/misc/owl_pretty.mli | Pretty
 base/misc/owl_graph.mli | Graph
 owl/misc/owl_plot.mli | Plot
+opencl/owl_opencl_generated.mli | Low-level OpenCL API
+opencl/owl_opencl_base.mli | High-level OpenCL API
 zoo/owl_zoo_cmd.mli | Zoo System
 top/owl_top.mli | Toplevel
-opencl/owl_opencl_generated.mli | Low-level OpenCL API

@@ -55,11 +55,13 @@ Owl's API Dcoumentation
 
   owl_plot
 
+  owl_opencl_generated
+
+  owl_opencl_base
+
   owl_zoo_cmd
 
   owl_top
 
-  owl_opencl_generated
-
-#4515 entries (incl. constants, types, and functions) have been extracted.
+#4642 entries (incl. constants, types, and functions) have been extracted.
 
