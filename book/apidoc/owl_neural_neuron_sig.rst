@@ -3,7 +3,7 @@ Neural.Neuron Functor
 
 This document is auto-generated for Owl's APIs.
 #377 entries have been extracted.
-timestamp:1517836488
+timestamp:1517842309
 
 Init neuron
 -------------------------------------------------------------------------------

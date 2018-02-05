@@ -3,7 +3,7 @@ Neural.Graph Functor
 
 This document is auto-generated for Owl's APIs.
 #71 entries have been extracted.
-timestamp:1517836488
+timestamp:1517842309
 
 Type definition
 -------------------------------------------------------------------------------
@@ -29,7 +29,7 @@ Type definition
     }
     
 
-TODO
+Type definition of a node and a neural network.
 
 
 
@@ -42,7 +42,7 @@ Manipuate networks
 
   val make_network : ?nnid:string -> int -> node option -> node array -> network
 
-TODO
+Create an empty neural network.
 
 
 
@@ -50,7 +50,7 @@ TODO
 
   val make_node : ?name:string -> ?train:bool -> node array -> node array -> neuron -> t option -> network -> node
 
-TODO
+Create a node in a neural network.
 
 
 
@@ -58,7 +58,7 @@ TODO
 
   val get_root : network -> node
 
-TODO
+Get the root of the neural network.
 
 
 
@@ -66,7 +66,7 @@ TODO
 
   val get_node : network -> string -> node
 
-TODO
+Get a node in a network with the given name.
 
 
 
@@ -74,7 +74,7 @@ TODO
 
   val get_network : node -> network
 
-TODO
+Get the neural network of a given node associated with.
 
 
 
@@ -82,7 +82,7 @@ TODO
 
   val collect_output : node array -> t array
 
-TODO
+Collect the output values of given nodes.
 
 
 
@@ -90,7 +90,7 @@ TODO
 
   val connect_pair : node -> node -> unit
 
-TODO
+Connect two nodes in a neural network.
 
 
 
@@ -98,7 +98,7 @@ TODO
 
   val connect_to_parents : node array -> node -> unit
 
-TODO
+Connect a node to a list of parents.
 
 
 
@@ -106,7 +106,7 @@ TODO
 
   val add_node : ?act_typ:Activation.typ -> network -> node array -> node -> node
 
-TODO
+Add a node to the given network.
 
 
 
@@ -119,7 +119,7 @@ Interface to optimisation engine
 
   val init : network -> unit
 
-TODO
+Initialise the network.
 
 
 
@@ -127,7 +127,7 @@ TODO
 
   val reset : network -> unit
 
-TODO
+Reset the network, i.e. all the paramters in the neurons.
 
 
 
@@ -135,7 +135,7 @@ TODO
 
   val mktag : int -> network -> unit
 
-TODO
+Tag the neurons, used by ``Algodiff`` module.
 
 
 
@@ -143,7 +143,7 @@ TODO
 
   val mkpar : network -> t array array
 
-TODO
+Collect the paramters of neurons, used by ``Optimise`` module.
 
 
 
@@ -151,7 +151,7 @@ TODO
 
   val mkpri : network -> t array array
 
-TODO
+Collect the primal values of neurons, used by ``Optimise`` module.
 
 
 
@@ -159,7 +159,7 @@ TODO
 
   val mkadj : network -> t array array
 
-TODO
+Collect the adjacent values of neurons, used by ``Optimise`` module.
 
 
 
@@ -167,7 +167,7 @@ TODO
 
   val update : network -> t array array -> unit
 
-TODO
+Update the paramters of neurons, used by ``Optimise`` module.
 
 
 
@@ -175,7 +175,7 @@ TODO
 
   val run : t -> network -> t
 
-TODO
+Execute the computations in all the neurons in a network with the given input.
 
 
 
@@ -183,7 +183,7 @@ TODO
 
   val forward : network -> t -> t * t array array
 
-TODO
+Run the forward pass of a network.
 
 
 
@@ -191,7 +191,7 @@ TODO
 
   val backward : network -> t -> t array array * t array array
 
-TODO
+Run the backward pass of a network.
 
 
 
@@ -199,7 +199,7 @@ TODO
 
   val copy : network -> network
 
-TODO
+Make a deep copy of the given network.
 
 
 
@@ -207,7 +207,7 @@ TODO
 
   val model : network -> arr -> arr
 
-TODO
+Make a deep copy of the given network, excluding the neurons marked with ``training = true``.
 
 
 
@@ -220,7 +220,10 @@ Create Neurons
 
   val input : ?name:string -> int array -> node
 
-TODO
+``input shape`` creates an input node for input data.
+
+Arguments:
+  * ``shape``: shape of input data.
 
 
 
@@ -228,7 +231,10 @@ TODO
 
   val activation : ?name:string -> Activation.typ -> node -> node
 
-TODO
+Applies an activation function to an output.
+
+Arguments:
+  * ``activation``: name of activation function to use.
 
 
 
@@ -236,7 +242,12 @@ TODO
 
   val linear : ?name:string -> ?init_typ:Init.typ -> ?act_typ:Activation.typ -> int -> node -> node
 
-TODO
+``linear ?act_typ units node`` adds the regular densely-connected NN node to
+``node``.
+
+Arguments:
+  * ``units``: Positive integer, dimensionality of the output space.
+  * ``act_typ``: Activation function to use.
 
 
 
@@ -244,7 +255,7 @@ TODO
 
   val linear_nobias : ?name:string -> ?init_typ:Init.typ -> ?act_typ:Activation.typ -> int -> node -> node
 
-TODO
+Similar to ``linear``, but does not use the bias vector.
 
 
 
@@ -252,7 +263,7 @@ TODO
 
   val embedding : ?name:string -> ?init_typ:Init.typ -> ?act_typ:Activation.typ -> int -> int -> node -> node
 
-TODO
+Create a node for embedding neuron.
 
 
 
@@ -260,7 +271,7 @@ TODO
 
   val recurrent : ?name:string -> ?init_typ:Init.typ -> act_typ:Activation.typ -> int -> int -> node -> node
 
-TODO
+Create a node for recurrent neuron.
 
 
 
@@ -268,7 +279,10 @@ TODO
 
   val lstm : ?name:string -> ?init_typ:Init.typ -> int -> node -> node
 
-TODO
+``lstm units node`` adds a LSTM node on previous ``node``.
+
+Arguments:
+  * ``units``: Positive integer, dimensionality of the output space.
 
 
 
@@ -276,7 +290,10 @@ TODO
 
   val gru : ?name:string -> ?init_typ:Init.typ -> int -> node -> node
 
-TODO
+``gru units node`` adds a Gated Recurrent Unit node on previous ``node``.
+
+Arguments:
+  * ``units``: Positive integer, dimensionality of the output space.
 
 
 
@@ -284,7 +301,12 @@ TODO
 
   val conv1d : ?name:string -> ?padding:Owl_types.padding -> ?init_typ:Init.typ -> ?act_typ:Activation.typ -> int array -> int array -> node -> node
 
-TODO
+``conv1d kernels strides node`` adds a 1D convolution node (e.g. temporal
+convolution) on previous ``node``.
+
+Arguments:
+  * ``kernel``: int array consists of ``h, i, o``. ``h`` specifies the dimension of the 1D convolution window. ``i`` and ``o`` are the dimensionalities of the input and output space.
+  * ``stride``: int array of 1 integer
 
 
 
@@ -292,7 +314,11 @@ TODO
 
   val conv2d : ?name:string -> ?padding:Owl_types.padding -> ?init_typ:Init.typ -> ?act_typ:Activation.typ -> int array -> int array -> node -> node
 
-TODO
+``conv2d kernels strides node`` adds a 2D convolution node (e.g. spatial convolution over images) on previous ``node``.
+
+Arguments:
+  * ``kernel``: int array consists of ``w, h, i, o``. ``w`` and ``h`` specify the width and height of the 2D convolution window. ``i`` and ``o`` are the dimensionality of the input and output space.
+  * ``stride``: int array of 2 integers
 
 
 
@@ -300,7 +326,12 @@ TODO
 
   val conv3d : ?name:string -> ?padding:Owl_types.padding -> ?init_typ:Init.typ -> ?act_typ:Activation.typ -> int array -> int array -> node -> node
 
-TODO
+``conv3d kernels strides node`` adds a 3D convolution node (e.g. spatial
+convolution over volumes) on previous ``node``.
+
+Arguments:
+  * ``kernel``: int array consists of ``w, h, d, i, o``. ``w``, ``h``, and ``d`` specify the 3 dimensionality of the 3D convolution window. ``i`` and ``o`` are the dimensionality of the input and output space.
+  * ``stride``: int array of 3 integers
 
 
 
@@ -308,7 +339,10 @@ TODO
 
   val fully_connected : ?name:string -> ?init_typ:Init.typ -> ?act_typ:Activation.typ -> int -> node -> node
 
-TODO
+``fully_connected outputs node`` adds a fully connected node to ``node``.
+
+Arguments:
+  * ``outputs``: integer, the number of output units in the node
 
 
 
@@ -316,7 +350,12 @@ TODO
 
   val max_pool1d : ?name:string -> ?padding:Owl_types.padding -> ?act_typ:Activation.typ -> int array -> int array -> node -> node
 
-TODO
+``max_pool1d ~padding ~act_typ pool_size strides node`` adds a max pooling
+operation for temporal data to ``node``.
+
+Arguments:
+  * ``pool_size``: Array of one integer, size of the max pooling windows.
+  * ``strides``: Array of one integer, factor by which to downscale.
 
 
 
@@ -324,7 +363,12 @@ TODO
 
   val max_pool2d : ?name:string -> ?padding:Owl_types.padding -> ?act_typ:Activation.typ -> int array -> int array -> node -> node
 
-TODO
+``max_pool2d ~padding ~act_typ pool_size strides node`` adds a max pooling
+operation for spatial data to ``node``.
+
+Arguments:
+  * ``pool_size``: Array of 2 integers, size of the max pooling windows.
+  * ``strides``: Array of 2 integers, factor by which to downscale.
 
 
 
@@ -332,7 +376,12 @@ TODO
 
   val avg_pool1d : ?name:string -> ?padding:Owl_types.padding -> ?act_typ:Activation.typ -> int array -> int array -> node -> node
 
-TODO
+``avg_pool1d ~padding ~act_typ pool_size strides node`` adds a average pooling
+operation for temporal data to ``node``.
+
+Arguments:
+  * ``pool_size``: Array of one integer, size of the max pooling windows.
+  * ``strides``: Array of one integer, factor by which to downscale.
 
 
 
@@ -340,7 +389,11 @@ TODO
 
   val avg_pool2d : ?name:string -> ?padding:Owl_types.padding -> ?act_typ:Activation.typ -> int array -> int array -> node -> node
 
-TODO
+``avg_pool2d ~padding ~act_typ pool_size strides node`` adds a average pooling operation for spatial data to ``node``.
+
+Arguments:
+  * ``pool_size``: Array of 2 integers, size of the max pooling windows.
+  * ``strides``: Array of 2 integers, factor by which to downscale.
 
 
 
@@ -348,7 +401,7 @@ TODO
 
   val global_max_pool1d : ?name:string -> ?act_typ:Activation.typ -> node -> node
 
-TODO
+``global_max_pool1d`` adds global max pooling operation for temporal data.
 
 
 
@@ -356,7 +409,7 @@ TODO
 
   val global_max_pool2d : ?name:string -> ?act_typ:Activation.typ -> node -> node
 
-TODO
+``global_max_poo2d`` global max pooling operation for spatial data.
 
 
 
@@ -364,7 +417,7 @@ TODO
 
   val global_avg_pool1d : ?name:string -> ?act_typ:Activation.typ -> node -> node
 
-TODO
+``global_avg_pool1d`` adds global average pooling operation for temporal data.
 
 
 
@@ -372,7 +425,7 @@ TODO
 
   val global_avg_pool2d : ?name:string -> ?act_typ:Activation.typ -> node -> node
 
-TODO
+``global_avg_poo2d`` global average pooling operation for spatial data.
 
 
 
@@ -380,7 +433,10 @@ TODO
 
   val dropout : ?name:string -> float -> node -> node
 
-TODO
+``dropout rate node`` applies Dropout to the input to prevent overfitting.
+
+Arguments:
+  * ``rate``: float between 0 and 1. Fraction of the input units to drop.
 
 
 
@@ -388,7 +444,10 @@ TODO
 
   val gaussian_noise : ?name:string -> float -> node -> node
 
-TODO
+``gaussian_noise stddev node`` applies additive zero-centered Gaussian noise.
+
+Arguments:
+  * ``stddev``: float, standard deviation of the noise distribution.
 
 
 
@@ -396,7 +455,11 @@ TODO
 
   val gaussian_dropout : ?name:string -> float -> node -> node
 
-TODO
+``gaussian_dropout rate node`` applies multiplicative 1-centered Gaussian noise.
+Only active at training time.
+
+Arguments:
+  * ``rates``: float, drop probability
 
 
 
@@ -404,7 +467,11 @@ TODO
 
   val alpha_dropout : ?name:string -> float -> node -> node
 
-TODO
+``alpha_dropout rate node`` applies Alpha Dropout to the input ``node``.
+Only active at training time.
+
+Arguments:
+  * ``rates``: float, drop probability
 
 
 
@@ -412,7 +479,11 @@ TODO
 
   val normalisation : ?name:string -> ?axis:int -> ?training:bool -> ?decay:float -> ?mu:arr -> ?var:arr -> node -> node
 
-TODO
+``normalisation axis node`` normalise the activations of the previous node at
+each batch.
+
+Arguments:
+  * ``axis``:  Integer, the axis that should be normalised (typically the features axis). Default value is 0.
 
 
 
@@ -420,7 +491,10 @@ TODO
 
   val reshape : ?name:string -> int array -> node -> node
 
-TODO
+``reshape target_shape node`` reshapes an output to a certain shape.
+
+Arguments:
+  * ``target_shape``: target shape. Array of integers. Does not include the batch axis.
 
 
 
@@ -428,7 +502,7 @@ TODO
 
   val flatten : ?name:string -> node -> node
 
-TODO
+``flatten node`` flattens the input. Does not affect the batch size.
 
 
 
@@ -436,7 +510,10 @@ TODO
 
   val lambda : ?name:string -> ?act_typ:Activation.typ -> (t -> t) -> node -> node
 
-TODO
+``lambda func node`` wraps arbitrary expression as a Node object.
+
+Arguments:
+  * ``func``: The function to be evaluated. Takes input tensor as first argument.
 
 
 
@@ -444,7 +521,10 @@ TODO
 
   val add : ?name:string -> ?act_typ:Activation.typ -> node array -> node
 
-TODO
+Node that adds a list of inputs.
+
+It takes as input an array of nodes, all of the same shape, and returns a
+single node (also of the same shape).
 
 
 
@@ -452,7 +532,10 @@ TODO
 
   val mul : ?name:string -> ?act_typ:Activation.typ -> node array -> node
 
-TODO
+Node that multiplies (element-wise) a list of inputs.
+
+It takes as input an array of nodes, all of the same shape, and returns a
+single node (also of the same shape).
 
 
 
@@ -460,7 +543,7 @@ TODO
 
   val dot : ?name:string -> ?act_typ:Activation.typ -> node array -> node
 
-TODO
+Node that computes a dot product between samples in two nodes.
 
 
 
@@ -468,7 +551,7 @@ TODO
 
   val max : ?name:string -> ?act_typ:Activation.typ -> node array -> node
 
-TODO
+Node that computes the maximum (element-wise) a list of inputs.
 
 
 
@@ -476,7 +559,10 @@ TODO
 
   val average : ?name:string -> ?act_typ:Activation.typ -> node array -> node
 
-TODO
+Node that averages a list of inputs.
+
+It takes as input an array of nodes, all of the same shape, and returns a
+single node (also of the same shape).
 
 
 
@@ -484,7 +570,10 @@ TODO
 
   val concatenate : ?name:string -> ?act_typ:Activation.typ -> int -> node array -> node
 
-TODO
+``concatenate axis nodes`` concatenates a array of ``nodes`` and return as a single node.
+
+Arguments:
+  * ``axis``: Axis along which to concatenate.
 
 
 
@@ -497,7 +586,7 @@ Helper functions
 
   val to_string : network -> string
 
-TODO
+Convert a neural network to its string representation.
 
 
 
@@ -505,7 +594,7 @@ TODO
 
   val pp_network : Format.formatter -> network -> unit
 
-TODO
+Pretty printing function a neural network.
 
 
 
@@ -513,7 +602,7 @@ TODO
 
   val print : network -> unit
 
-TODO
+Print the string representation of a neural network to the standard output.
 
 
 
@@ -521,7 +610,7 @@ TODO
 
   val save : network -> string -> unit
 
-TODO
+Serialise a network and save it to the a file with the given name.
 
 
 
@@ -529,7 +618,7 @@ TODO
 
   val load : string -> network
 
-TODO
+Load the neural network from a file with the given name.
 
 
 
@@ -537,7 +626,8 @@ TODO
 
   val save_weights : network -> string -> unit
 
-TODO
+Save all the weights in a neural network to a file. The weights and the name of
+their associated neurons are saved as key-value pairs in a hash table.
 
 
 
@@ -545,7 +635,8 @@ TODO
 
   val load_weights : network -> string -> unit
 
-TODO
+Load the weights from a file of the given name. Note that the weights and the
+name of their associated neurons are saved as key-value pairs in a hash table.
 
 
 
@@ -558,7 +649,7 @@ Train Networks
 
   val train_generic : ?state:Checkpoint.state -> ?params:Params.typ -> ?init_model:bool -> network -> t -> t -> Checkpoint.state
 
-TODO
+Generic function of training a neural network.
 
 
 
@@ -566,7 +657,7 @@ TODO
 
   val train : ?state:Checkpoint.state -> ?params:Params.typ -> ?init_model:bool -> network -> arr -> arr -> Checkpoint.state
 
-TODO
+Train a neural network with various configurations.
 
 
 

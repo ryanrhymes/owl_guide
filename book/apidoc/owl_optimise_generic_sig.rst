@@ -3,7 +3,7 @@ Optimise.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #60 entries have been extracted.
-timestamp:1517836488
+timestamp:1517842309
 
 Utils module
 -------------------------------------------------------------------------------
