@@ -3,7 +3,9 @@ Sparse.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #85 entries have been extracted.
-timestamp:1517850916
+timestamp:1517855153
+
+`[Signature file] <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_ndarray_generic.mli>`_ [Implementation file] <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_ndarray_generic.ml>`_
 
 Type definition
 -------------------------------------------------------------------------------

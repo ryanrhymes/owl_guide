@@ -1,29 +1,29 @@
-base/misc/owl_const.mli | Constants
-owl/maths/owl_maths.mli | Maths
-owl/stats/owl_stats.mli | Stats
-owl/dense/owl_dense_ndarray_generic.mli | Dense.Ndarray.Generic
-owl/dense/owl_dense_matrix_generic.mli | Dense.Matrix.Generic
-owl/sparse/owl_sparse_ndarray_generic.mli | Sparse.Ndarray.Generic
-owl/sparse/owl_sparse_matrix_generic.mli | Sparse.Matrix.Generic
-owl/linalg/owl_linalg_generic.mli | Linalg.Generic
-owl/fftpack/owl_fft_generic.mli | FFT
-owl/cblas/owl_cblas.mli | Low-level CBLAS API
-owl/lapacke/owl_lapacke_generated.mli | Low-level LAPACKE API
-owl/lapacke/owl_lapacke.mli | High-level LAPACKE API
-base/optimise/owl_numdiff_generic_sig.ml | Numdiff.Generic Functor
-base/optimise/owl_algodiff_generic_sig.ml | Algodiff.Generic Functor
-base/optimise/owl_optimise_generic_sig.ml | Optimise.Generic Functor
-owl/optimise/owl_regression_generic.mli | Regression.Generic Functor
-base/neural/owl_neural_neuron_sig.ml | Neural.Neuron Functor
-base/neural/owl_neural_graph_sig.ml | Neural.Graph Functor
-base/misc/owl_operator.mli | Operator Functor
-base/misc/owl_lazy.mli | Lazy Functor
-base/misc/owl_view.mli | View Functor
-base/misc/owl_log.mli | Log
-base/misc/owl_pretty.mli | Pretty
-base/misc/owl_graph.mli | Graph
-owl/misc/owl_plot.mli | Plot
-opencl/owl_opencl_generated.mli | Low-level OpenCL API
-opencl/owl_opencl_base.mli | High-level OpenCL API
-zoo/owl_zoo_cmd.mli | Zoo System
-top/owl_top.mli | Toplevel
+base/misc/owl_const.mli | base/misc/owl_const.ml | Constants
+owl/maths/owl_maths.mli | owl/maths/owl_maths.ml | Maths
+owl/stats/owl_stats.mli | owl/stats/owl_stats.ml | Stats
+owl/dense/owl_dense_ndarray_generic.mli | owl/dense/owl_dense_ndarray_generic.ml | Dense.Ndarray.Generic
+owl/dense/owl_dense_matrix_generic.mli | owl/dense/owl_dense_matrix_generic.ml | Dense.Matrix.Generic
+owl/sparse/owl_sparse_ndarray_generic.mli | owl/sparse/owl_sparse_ndarray_generic.ml | Sparse.Ndarray.Generic
+owl/sparse/owl_sparse_matrix_generic.mli | owl/sparse/owl_sparse_matrix_generic.ml | Sparse.Matrix.Generic
+owl/linalg/owl_linalg_generic.mli | owl/linalg/owl_linalg_generic.ml | Linalg.Generic
+owl/fftpack/owl_fft_generic.mli | owl/fftpack/owl_fft_generic.ml | FFT
+owl/cblas/owl_cblas.mli | owl/cblas/owl_cblas.ml | Low-level CBLAS API
+owl/lapacke/owl_lapacke_generated.mli | owl/lapacke/owl_lapacke_generated.ml | Low-level LAPACKE API
+owl/lapacke/owl_lapacke.mli | owl/lapacke/owl_lapacke.ml | High-level LAPACKE API
+base/optimise/owl_numdiff_generic_sig.ml | base/optimise/owl_numdiff_generic.ml | Numdiff.Generic Functor
+base/optimise/owl_algodiff_generic_sig.ml | base/optimise/owl_algodiff_generic.ml | Algodiff.Generic Functor
+base/optimise/owl_optimise_generic_sig.ml | base/optimise/owl_optimise_generic.ml | Optimise.Generic Functor
+owl/optimise/owl_regression_generic.mli | owl/optimise/owl_regression_generic.ml | Regression.Generic Functor
+base/neural/owl_neural_neuron_sig.ml | base/neural/owl_neural_neuron.ml | Neural.Neuron Functor
+base/neural/owl_neural_graph_sig.ml | base/neural/owl_neural_graph.ml | Neural.Graph Functor
+base/misc/owl_operator.mli | base/misc/owl_operator.ml | Operator Functor
+base/misc/owl_lazy.mli | base/misc/owl_lazy.ml | Lazy Functor
+base/misc/owl_view.mli | base/misc/owl_view.ml | View Functor
+base/misc/owl_log.mli | base/misc/owl_log.ml | Log
+base/misc/owl_pretty.mli | base/misc/owl_pretty.ml | Pretty
+base/misc/owl_graph.mli | base/misc/owl_graph.ml | Graph
+owl/misc/owl_plot.mli | owl/misc/owl_plot.ml | Plot
+opencl/owl_opencl_generated.mli | opencl/owl_opencl_generated.ml | Low-level OpenCL API
+opencl/owl_opencl_base.mli | opencl/owl_opencl_base.ml | High-level OpenCL API
+zoo/owl_zoo_cmd.mli | zoo/owl_zoo_cmd.ml | Zoo System
+top/owl_top.mli | top/owl_top.ml | Toplevel

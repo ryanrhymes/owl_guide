@@ -6,6 +6,11 @@
 Owl Numerical Library
 =================================================
 
+Owl's full documentation consists of two parts. The first part is a `Tutorial Book` which gives you a brief tour of the overall system with many examples and explanations. This part is mostly written by hand.
+
+The second part is the `API Reference` built automatically from Owl's repository by the `parser` I wrote. You can access both parts from the current entry page.
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:

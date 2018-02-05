@@ -3,7 +3,9 @@ Neural.Graph Functor
 
 This document is auto-generated for Owl's APIs.
 #71 entries have been extracted.
-timestamp:1517850918
+timestamp:1517855154
+
+`[Signature file] <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_graph_sig.ml>`_ [Implementation file] <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_graph.ml>`_
 
 Type definition
 -------------------------------------------------------------------------------

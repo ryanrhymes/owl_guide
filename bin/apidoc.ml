@@ -10,14 +10,20 @@
 let get_content fname = Owl.Utils.read_file_string ~trim:false fname
 
 
+(** given a file name, return its url on github *)
+let fname_to_github_url fname =
+  "https://github.com/ryanrhymes/owl/tree/master/src/" ^ fname
+
+
 (* parse module.txt to get a list of modules to generate api doc *)
 let get_module_files fname =
   Owl.Utils.read_file fname |>
   Array.map (fun s ->
     let l = String.split_on_char '|' s in
-    let file_name = List.nth l 0 |> String.trim in
-    let module_name = List.nth l 1 |> String.trim in
-    file_name, module_name
+    let sig_file = List.nth l 0 |> String.trim in
+    let impl_file = List.nth l 1 |> String.trim in
+    let module_name = List.nth l 2 |> String.trim in
+    sig_file, impl_file, module_name
   )
 
 
@@ -85,12 +91,15 @@ let parse_one_mli fname =
 
 
 (* dump the api doc to a rst file *)
-let write_to_rst apidoc fname module_name =
-  let h = open_out fname in
+let write_to_rst apidoc sig_file impl_file rst_file module_name =
+  let h = open_out rst_file in
+  let sig_url = fname_to_github_url sig_file in
+  let impl_url = fname_to_github_url impl_file in
   Printf.fprintf h "%s\n%s\n\n" module_name (String.make 79 '=');
   Printf.fprintf h "This document is auto-generated for Owl's APIs.\n";
   Printf.fprintf h "#%i entries have been extracted.\n" (Array.length apidoc);
   Printf.fprintf h "timestamp:%.0f\n\n" (Unix.gettimeofday ());
+  Printf.fprintf h "`[Signature file] <%s>`_ [Implementation file] <%s>`_\n\n" sig_url impl_url;
 
   Array.iter (function
     | `Section section_head -> (
@@ -115,13 +124,13 @@ let parse_modules src_root dst_root modules =
   Printf.fprintf h ".. toctree::\n  :maxdepth: 2\n  :caption: Modules:\n\n";
   let num_funs = ref 0 in
 
-  Array.iter (fun (file_name, module_name) ->
-    Owl_log.info "owl_doc: parsing %s ..." file_name;
-    let bname = Filename.(basename file_name |> chop_extension) in
-    let iname = src_root ^ file_name in
+  Array.iter (fun (sig_file, impl_file, module_name) ->
+    Owl_log.info "owl_doc: parsing %s ..." sig_file;
+    let bname = Filename.(basename sig_file |> chop_extension) in
+    let iname = src_root ^ sig_file in
     let oname = dst_root ^ bname ^ ".rst" in
     let alldoc = parse_one_mli iname in
-    write_to_rst alldoc oname module_name;
+    write_to_rst alldoc sig_file impl_file oname module_name;
 
     Printf.fprintf h "  %s\n\n" bname;
     num_funs := !num_funs + (Array.length alldoc);
