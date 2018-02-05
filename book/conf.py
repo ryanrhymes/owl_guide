@@ -90,8 +90,12 @@ html_theme = 'alabaster'
 # documentation.
 #
 html_theme_options = {
+  'logo' : 'owl_logo_0.png',
   'github_user': 'ryanrhymes',
-  'github_repo': 'https://github.com/ryanrhymes/owl',
+  'github_repo': 'owl',
+  'github_type' : 'star',
+  'github_button' : 'false',
+#  'travis_button' : 'true',
   'show_powered_by' : 'false',
 }
 
@@ -108,6 +112,7 @@ html_static_path = ['_static']
 html_sidebars = {
     '**': [
         #'globaltoc.html',
+        'about.html',
         'localtoc.html',
         'relations.html',  # needs 'show_related': True theme option to display
         'searchbox.html',
