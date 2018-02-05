@@ -99,7 +99,7 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name =
   Printf.fprintf h "This document is auto-generated for Owl's APIs.\n";
   Printf.fprintf h "#%i entries have been extracted.\n" (Array.length apidoc);
   Printf.fprintf h "timestamp:%.0f\n\n" (Unix.gettimeofday ());
-  Printf.fprintf h "`[Signature file] <%s>`_ [Implementation file] <%s>`_\n\n" sig_url impl_url;
+  Printf.fprintf h "Github:\n`[Signature] <%s>`_ \n`[Implementation] <%s>`_\n\n\n\n" sig_url impl_url;
 
   Array.iter (function
     | `Section section_head -> (

@@ -3,9 +3,13 @@ Plot
 
 This document is auto-generated for Owl's APIs.
 #63 entries have been extracted.
-timestamp:1517855155
+timestamp:1517855500
 
-`[Signature file] <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.mli>`_ [Implementation file] <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.ml>`_
+Github:
+`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.mli>`_ 
+`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.ml>`_
+
+
 
 Type definition
 -------------------------------------------------------------------------------

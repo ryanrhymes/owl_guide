@@ -3,9 +3,13 @@ Lazy Functor
 
 This document is auto-generated for Owl's APIs.
 #152 entries have been extracted.
-timestamp:1517855155
+timestamp:1517855499
 
-`[Signature file] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ [Implementation file] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.ml>`_
+Github:
+`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ 
+`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.ml>`_
+
+
 
 Type definition
 -------------------------------------------------------------------------------

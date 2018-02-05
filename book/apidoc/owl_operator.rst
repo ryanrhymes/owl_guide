@@ -3,9 +3,13 @@ Operator Functor
 
 This document is auto-generated for Owl's APIs.
 #72 entries have been extracted.
-timestamp:1517855154
+timestamp:1517855499
 
-`[Signature file] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ [Implementation file] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.ml>`_
+Github:
+`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ 
+`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.ml>`_
+
+
 
 Basic operators
 -------------------------------------------------------------------------------

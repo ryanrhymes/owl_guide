@@ -3,9 +3,13 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #135 entries have been extracted.
-timestamp:1517855152
+timestamp:1517855497
 
-`[Signature file] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ [Implementation file] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.ml>`_
+Github:
+`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
+`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.ml>`_
+
+
 
 Basic functions
 -------------------------------------------------------------------------------
