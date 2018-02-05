@@ -3,7 +3,7 @@ Log
 
 This document is auto-generated for Owl's APIs.
 #12 entries have been extracted.
-timestamp:1517794545
+timestamp:1517834946
 
 Type definition
 -------------------------------------------------------------------------------
