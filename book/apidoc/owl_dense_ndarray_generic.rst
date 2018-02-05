@@ -2,8 +2,8 @@ Dense.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#368 entries have been extracted.
-timestamp:1517862060
+#393 entries have been extracted.
+timestamp:1517873898
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -34,7 +34,7 @@ Type of the ndarray, e.g., Bigarray.Float32, Bigarray.Complex64, and etc.
 
 
 
-Create N-dimensional array
+Create Ndarrays
 -------------------------------------------------------------------------------
 
 
@@ -306,7 +306,7 @@ shape ``[|3;4;5|]``, the returned slice size will be ``[|60; 20; 5|]``.
 
 
 
-Manipulate a N-dimensional array
+Manipulate Ndarrays
 -------------------------------------------------------------------------------
 
 
@@ -795,7 +795,7 @@ and ``y``. Note that 1d index is passed to funciton ``f``.
 
 
 
-Examine array elements or compare two arrays 
+Examination & Comparison
 -------------------------------------------------------------------------------
 
 
@@ -1257,7 +1257,7 @@ It is necesssary to specify the type of the ndarray with paramater ``k``.
 
 
 
-Unary mathematical operations 
+Unary math operators 
 -------------------------------------------------------------------------------
 
 
@@ -2017,7 +2017,7 @@ the elements along the given ``~axis``.
 
 
 
-Binary mathematical operations 
+Binary math operators
 -------------------------------------------------------------------------------
 
 
@@ -2374,7 +2374,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 
 
-Neural network related functions
+Neural network related
 -------------------------------------------------------------------------------
 
 
@@ -2539,7 +2539,7 @@ Neural network related functions
 
 
 
-Some helper and experimental functions 
+Helper functions 
 -------------------------------------------------------------------------------
 
 
@@ -2578,7 +2578,7 @@ more memory.
 
 
 
-Fucntions of in-place modification 
+In-place modification
 -------------------------------------------------------------------------------
 
 
@@ -3285,6 +3285,207 @@ function but the output is written to ``x``.
 
 Matrix functions
 -------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  type area = { a : int; b : int; c : int; d : int }
+    
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val area : int -> int -> int -> int -> area
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val copy_area_to : ('a, 'b) t -> area -> ('a, 'b) t -> area -> unit
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val row_num : ('a, 'b) t -> int
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val col_num : ('a, 'b) t -> int
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val row : ('a, 'b) t -> int -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val col : ('a, 'b) t -> int -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val rows : ('a, 'b) t -> int array -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val cols : ('a, 'b) t -> int array -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val copy_row_to : ('a, 'b) t -> ('a, 'b) t -> int -> unit
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val copy_col_to : ('a, 'b) t -> ('a, 'b) t -> int -> unit
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val dot : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val inv : ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val diag : ?k:int -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val trace : ('a, 'b) t -> 'a
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val to_rows : ('a, 'b) t -> ('a, 'b) t array
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val of_rows : ('a, 'b) t array -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val to_cols : ('a, 'b) t -> ('a, 'b) t array
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val of_cols : ('a, 'b) t array -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val to_arrays : ('a, 'b) t -> 'a array array
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val of_arrays : ('a, 'b) kind -> 'a array array -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val draw_rows : ?replacement:bool -> ('a, 'b) t -> int -> ('a, 'b) t * int array
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val draw_cols : ?replacement:bool -> ('a, 'b) t -> int -> ('a, 'b) t * int array
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val draw_rows2 : ?replacement:bool -> ('a, 'b) t -> ('a, 'b) t -> int -> ('a, 'b) t * ('a, 'b) t * int array
+
+Refer to :doc:`owl_dense_matrix_generic`
+
+
+
+.. code-block:: ocaml
+
+  val draw_cols2 : ?replacement:bool -> ('a, 'b) t -> ('a, 'b) t -> int -> ('a, 'b) t * ('a, 'b) t * int array
+
+Refer to :doc:`owl_dense_matrix_generic`
 
 
 

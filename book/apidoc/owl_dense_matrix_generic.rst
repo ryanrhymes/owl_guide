@@ -3,7 +3,7 @@ Dense.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #396 entries have been extracted.
-timestamp:1517862060
+timestamp:1517873898
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -25,7 +25,7 @@ N-dimensional array type, i.e. Bigarray Genarray type.
 
 
 
-Create dense matrices
+Create matrices
 -------------------------------------------------------------------------------
 
 
@@ -319,7 +319,7 @@ and doubly even respectively.
 
 
 
-Obtain the basic properties
+Obtain basic properties
 -------------------------------------------------------------------------------
 
 
@@ -776,7 +776,7 @@ one to the greatest one.
 
 
 
-Iterate elements, columns, and rows.
+Iteration functions
 -------------------------------------------------------------------------------
 
 
@@ -1075,7 +1075,7 @@ of an element is not passed to ``f``.
 
 
 
-Examine elements and compare two matrices
+Examination & Comparison
 -------------------------------------------------------------------------------
 
 
@@ -1613,7 +1613,7 @@ The operation can be very time consuming.
 
 
 
-Unary mathematical operations 
+Unary math operators
 -------------------------------------------------------------------------------
 
 
@@ -2478,7 +2478,7 @@ The elements in ``x`` are clipped by ``amin`` and ``amax``, and they will be bet
 
 
 
-Binary mathematical operations 
+Binary math operators
 -------------------------------------------------------------------------------
 
 
@@ -2784,7 +2784,7 @@ between the elements of ``a`` and the matrix ``b``.
 
 
 
-Cast functions to different number types
+Cast functions
 -------------------------------------------------------------------------------
 
 
@@ -2875,7 +2875,7 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 
 
-Fucntions of in-place modification 
+In-place modification
 -------------------------------------------------------------------------------
 
 
