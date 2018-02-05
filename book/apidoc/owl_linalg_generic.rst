@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #41 entries have been extracted.
-timestamp:1517846809
+timestamp:1517848327
 
 Type definition
 -------------------------------------------------------------------------------
