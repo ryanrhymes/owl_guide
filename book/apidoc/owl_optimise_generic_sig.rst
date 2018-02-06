@@ -3,7 +3,7 @@ Optimise.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #60 entries have been extracted.
-timestamp:1517918020
+timestamp:1517921090
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_optimise_generic_sig.ml>`_ 
@@ -20,7 +20,7 @@ Utils module
 
   val sample_num : t -> int
 
-TODO
+Return the total number of samples in passed in ndarray.
 
 
 
@@ -28,7 +28,9 @@ TODO
 
   val draw_samples : t -> t -> int -> t * t
 
-TODO
+``draw_samples x y`` draws samples from both ``x`` (observations) and ``y``
+(labels). The samples will be drew along axis 0, so ``x`` and ``y`` must agree
+along axis 0.
 
 
 
@@ -36,7 +38,8 @@ TODO
 
   val get_chunk : t -> t -> int -> int -> t * t
 
-TODO
+``get_chunk x y i c`` gets a continuous chunk of ``c`` samples from position
+``i`` from  ``x`` (observations) and ``y`` (labels).
 
 
 
@@ -64,7 +67,7 @@ types of learning rate
 
   val run : typ -> int -> 'a -> t -> t
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -72,7 +75,7 @@ TODO
 
   val default : typ -> typ
 
-TODO
+Create module ``typ`` with default values.
 
 
 
@@ -80,7 +83,7 @@ TODO
 
   val update_ch : typ -> t -> t -> t
 
-TODO
+Update the cache of gradients.
 
 
 
@@ -88,7 +91,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -102,7 +105,7 @@ Batch module
   type typ = Full | Mini of int | Sample of int | Stochastic
     
 
-TODO
+Types of batches.
 
 
 
@@ -110,7 +113,7 @@ TODO
 
   val run : typ -> t -> t -> int -> t * t
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -118,7 +121,7 @@ TODO
 
   val batches : typ -> t -> int
 
-TODO
+Return the total number of batches given a batch ``typ``.
 
 
 
@@ -126,7 +129,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -146,7 +149,7 @@ Loss module
     | Custom of (t -> t -> t)
     
 
-TODO
+Types of loss functions.
 
 
 
@@ -154,7 +157,7 @@ TODO
 
   val run : typ -> t -> t -> t
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -162,7 +165,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -176,7 +179,7 @@ Gradient module
   type typ = GD | CG | CD | NonlinearCG | DaiYuanCG | NewtonCG | Newton
     
 
-TODO
+Types of gradient function.
 
 
 
@@ -184,7 +187,7 @@ TODO
 
   val run : typ -> (t -> t) -> t -> t -> t -> t -> t
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -192,7 +195,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -206,7 +209,7 @@ Momentum module
   type typ = Standard of float | Nesterov of float | None
     
 
-TODO
+Types of momentum functions.
 
 
 
@@ -214,7 +217,7 @@ TODO
 
   val run : typ -> t -> t -> t
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -222,7 +225,7 @@ TODO
 
   val default : typ -> typ
 
-TODO
+Create module ``typ`` with default values.
 
 
 
@@ -230,7 +233,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -248,7 +251,7 @@ Regularisation module
     | None
     
 
-TODO
+Types of regularisation functions.
 
 
 
@@ -256,7 +259,7 @@ TODO
 
   val run : typ -> t -> t
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -264,7 +267,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -278,7 +281,7 @@ Clipping module
   type typ = L2norm of float | Value of float * float | None
     
 
-TODO
+Types of clipping functions.
 
 
 
@@ -286,7 +289,7 @@ TODO
 
   val run : typ -> t -> t
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -294,7 +297,7 @@ TODO
 
   val default : typ -> typ
 
-TODO
+Create module ``typ`` with default values.
 
 
 
@@ -302,7 +305,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -316,7 +319,7 @@ Stopping module
   type typ = Const of float | Early of int * int | None
     
 
-TODO
+Types of stopping functions.
 
 
 
@@ -324,7 +327,7 @@ TODO
 
   val run : typ -> float -> bool
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -332,7 +335,7 @@ TODO
 
   val default : typ -> typ
 
-TODO
+Create module ``typ`` with default values.
 
 
 
@@ -340,7 +343,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -366,7 +369,7 @@ Checkpoint module
     }
     
 
-TODO
+Type definition of checkpoint
 
 
 
@@ -379,7 +382,7 @@ TODO
     | None
     
 
-TODO
+Batch type.
 
 
 
@@ -387,7 +390,8 @@ TODO
 
   val init_state : int -> float -> state
 
-TODO
+``init_state batches_per_epoch epochs`` initialises a state by specifying the
+number of batches per epoch and the number of epochs in total.
 
 
 
@@ -395,7 +399,7 @@ TODO
 
   val default_checkpoint_fun : (string -> 'a) -> 'a
 
-TODO
+This function is used for saving intermediate files during optimisation.
 
 
 
@@ -403,7 +407,7 @@ TODO
 
   val print_state_info : state -> unit
 
-TODO
+Print out the detail information of current ``state``.
 
 
 
@@ -411,7 +415,7 @@ TODO
 
   val print_summary : state -> unit
 
-TODO
+Print out the summary of current ``state``.
 
 
 
@@ -419,7 +423,7 @@ TODO
 
   val run : typ -> (string -> unit) -> int -> t -> state -> unit
 
-TODO
+Execute the computations defined in module ``typ``.
 
 
 
@@ -427,7 +431,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -453,7 +457,7 @@ Params module
     }
     
 
-TODO
+Type definition of paramater.
 
 
 
@@ -461,7 +465,7 @@ TODO
 
   val default : unit -> typ
 
-TODO
+Create module ``typ`` with default values.
 
 
 
@@ -469,7 +473,7 @@ TODO
 
   val config : ?batch:Batch.typ -> ?gradient:Gradient.typ -> ?loss:Loss.typ -> ?learning_rate:Learning_Rate.typ -> ?regularisation:Regularisation.typ -> ?momentum:Momentum.typ -> ?clipping:Clipping.typ -> ?stopping:Stopping.typ -> ?checkpoint:Checkpoint.typ -> ?verbosity:bool -> float -> typ
 
-TODO
+This function creates a parameter object with many configurations.
 
 
 
@@ -477,7 +481,7 @@ TODO
 
   val to_string : typ -> string
 
-TODO
+Convert the module ``typ`` to its string representation.
 
 
 
@@ -490,7 +494,10 @@ Core functions
 
   val minimise_weight : ?state:Checkpoint.state -> Params.typ -> (t -> t -> t) -> t -> t -> t -> Checkpoint.state * t
 
-TODO
+This function minimises the weight ``w`` of passed-in function ``f``.
+
+* ``f`` is a function ``f : w -> x -> y``.
+* ``w`` is a row vector but ``y`` can have any shape.
 
 
 
@@ -498,7 +505,9 @@ TODO
 
   val minimise_network : ?state:Checkpoint.state -> Params.typ -> (t -> t * t array array) -> (t -> t array array * t array array) -> (t array array -> 'a) -> (string -> unit) -> t -> t -> Checkpoint.state
 
-TODO
+This function is specifically designed for minimising the weights in a neural
+network of graph structure. In Owl's earlier versions, the functions in the
+regression module were actually implemented using this function.
 
 
 
@@ -506,7 +515,9 @@ TODO
 
   val minimise_fun : ?state:Checkpoint.state -> Params.typ -> (t -> t) -> t -> Checkpoint.state * t
 
-TODO
+This function minimises ``f : x -> y`` w.r.t ``x``.
+
+``x`` is an ndarray; and ``y`` is an scalar value.
 
 
 
