@@ -14,6 +14,7 @@ The second part is the `API Reference` built automatically from Owl's repository
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+   :name: mastertoc
 
    chapter/intro
    chapter/install
@@ -46,11 +47,11 @@ The second part is the `API Reference` built automatically from Owl's repository
 
 
 
-API Documentation
+API Reference
 =================================================
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
 
    apidoc/module_index
 

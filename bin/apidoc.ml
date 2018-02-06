@@ -120,7 +120,7 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name =
 (* parse all the modules to extract docs *)
 let parse_modules src_root dst_root modules =
   let h = open_out (dst_root ^ "module_index.rst") in
-  Printf.fprintf h "%s\n%s\n\n" "Owl's API Dcoumentation" (String.make 79 '=');
+  Printf.fprintf h "%s\n%s\n\n" "Owl's API Reference" (String.make 79 '=');
   Printf.fprintf h ".. toctree::\n  :maxdepth: 2\n  :caption: Modules:\n\n";
   let num_funs = ref 0 in
 

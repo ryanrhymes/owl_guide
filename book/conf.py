@@ -95,7 +95,7 @@ html_theme_options = {
   'github_repo': 'owl',
   'github_type' : 'star',
   'github_button' : 'false',
-#  'travis_button' : 'true',
+  #'travis_button' : 'true',
   'fixed_sidebar' : 'true',
   'show_powered_by' : 'false',
 }

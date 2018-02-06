@@ -1,7 +1,7 @@
 Neural Network
 =================================================
 
-**NOTE: many places needs fixes, not finished yet.**
+**NOTE: many places need fixes, not finished yet.**
 
 I will cover the neural network module in this chapter. My original purpose of introducing neural network module into Owl is two-fold:
 

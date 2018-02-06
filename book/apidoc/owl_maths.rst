@@ -2,8 +2,8 @@ Maths
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#135 entries have been extracted.
-timestamp:1517873897
+#136 entries have been extracted.
+timestamp:1517878516
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -863,7 +863,7 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
 
 
 
-Error function and Fresnel integrals
+Error functions
 -------------------------------------------------------------------------------
 
 
@@ -905,6 +905,11 @@ Inverse of ``erf x``.
   val erfcinv : float -> float
 
 Inverse of ``erfc x``
+
+
+
+Dawson & Fresnel integrals
+-------------------------------------------------------------------------------
 
 
 
@@ -1015,7 +1020,7 @@ Riemann zeta function minus 1.
 
 
 
-Some utility functions
+Helper functions
 -------------------------------------------------------------------------------
 
 

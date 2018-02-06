@@ -1,4 +1,4 @@
-Owl's API Dcoumentation
+Owl's API Reference
 ===============================================================================
 
 .. toctree::
@@ -63,5 +63,5 @@ Owl's API Dcoumentation
 
   owl_top
 
-#4667 entries (incl. constants, types, and functions) have been extracted.
+#4668 entries (incl. constants, types, and functions) have been extracted.
 
