@@ -59,9 +59,11 @@ Owl's API Reference
 
   owl_opencl_base
 
+  owl_utils_stack
+
   owl_zoo_cmd
 
   owl_top
 
-#4668 entries (incl. constants, types, and functions) have been extracted.
+#4679 entries (incl. constants, types, and functions) have been extracted.
 

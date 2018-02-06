@@ -25,5 +25,6 @@ base/misc/owl_graph.mli | base/misc/owl_graph.ml | Graph
 owl/misc/owl_plot.mli | owl/misc/owl_plot.ml | Plot
 opencl/owl_opencl_generated.mli | opencl/owl_opencl_generated.ml | Low-level OpenCL API
 opencl/owl_opencl_base.mli | opencl/owl_opencl_base.ml | High-level OpenCL API
+base/misc/owl_utils_stack.mli | base/misc/owl_utils_stack.ml | Utils.Stack
 zoo/owl_zoo_cmd.mli | zoo/owl_zoo_cmd.ml | Zoo System
 top/owl_top.mli | top/owl_top.ml | Toplevel
