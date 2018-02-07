@@ -3,11 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #142 entries have been extracted.
-<<<<<<< HEAD
-timestamp:1518028273
-=======
-timestamp:1518025252
->>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
+timestamp:1518028376
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -1015,7 +1011,7 @@ Beta functions
 Beta function.
 
 .. math::
-  \Beta(a, b) =  \frac{\Gamma(a) \Gamma(b)}{\Gamma(a+b)}
+  \mathrm{B}(a, b) =  \frac{\Gamma(a) \Gamma(b)}{\Gamma(a+b)}
 
 `[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L249>`__
 
@@ -1176,7 +1172,20 @@ Struve functions
 
   val struve : float -> float -> float
 
-Struve function ``struve v x``.
+Struve function ``struve v x`` returns the value of the Struve function of
+order ``v`` at ``x``. The Struve function is defined as,
+
+.. math::
+  H_v(x) = (z/2)^{v + 1} \sum_{n=0}^\infty \frac{(-1)^n (z/2)^{2n}}{\Gamma(n + \frac{3}{2}) \Gamma(n + v + \frac{3}{2})},
+
+where :math:`\Gamma` is the gamma function.
+
+Parameters:
+  * ``v``: order of the Struve function (float).
+  * ``x``: Argument of the Struve function (float; must be positive unless v is an integer).
+
+Returns:
+  * Value of the Struve function of order ``v`` at ``x``.
 
 `[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L286>`__
 
