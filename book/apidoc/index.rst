@@ -3,7 +3,7 @@ Owl's API Reference
 
 .. toctree::
   :maxdepth: 2
-  :caption: Modules:
+  :caption: Modules: #4861 entries extracted at 2018-02-07 23:31:26
 
   owl_const
 
@@ -70,6 +70,4 @@ Owl's API Reference
   owl_base_maths
 
   owl_base_stats
-
-#4861 entries (incl. constants, types, and functions) have been extracted.
 

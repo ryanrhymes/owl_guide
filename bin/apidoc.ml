@@ -15,6 +15,15 @@ let fname_to_github_url fname =
   "https://github.com/ryanrhymes/owl/tree/master/src/" ^ fname
 
 
+(** generate a timestamp string for current moment *)
+let make_timestamp () =
+  let ts = Unix.gettimeofday() in
+  let tm = Unix.localtime ts in
+  Printf.sprintf "%04d-%02d-%02d %02d:%02d:%02d"
+    (tm.Unix.tm_year + 1900) (tm.Unix.tm_mon + 1) tm.Unix.tm_mday
+    tm.Unix.tm_hour tm.Unix.tm_min tm.Unix.tm_sec
+
+
 (** given a function type string, convert it to github line url *)
 let funloc_to_github_line fname fun_typ loc =
   let regstr = "^[ ]*val[ ]*(.+?)[\s]+" in
@@ -134,7 +143,7 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name funloc =
   Printf.fprintf h "%s\n%s\n\n" module_name (String.make 79 '=');
   Printf.fprintf h "This document is auto-generated for Owl's APIs.\n";
   Printf.fprintf h "#%i entries have been extracted.\n" (Array.length apidoc);
-  Printf.fprintf h "timestamp:%.0f\n\n" (Unix.gettimeofday ());
+  Printf.fprintf h "timestamp: %s\n\n" (make_timestamp ());
   Printf.fprintf h "Github:\n`[Signature] <%s>`_ \n`[Implementation] <%s>`_\n\n\n\n" sig_url impl_url;
 
   Array.iter (function
@@ -158,12 +167,10 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name funloc =
 
 (* parse all the modules to extract docs *)
 let parse_modules src_root dst_root modules =
-  let h = open_out (dst_root ^ "module_index.rst") in
-  Printf.fprintf h "%s\n%s\n\n" "Owl's API Reference" (String.make 79 '=');
-  Printf.fprintf h ".. toctree::\n  :maxdepth: 2\n  :caption: Modules:\n\n";
+  let h = open_out (dst_root ^ "index.rst") in
   let num_funs = ref 0 in
 
-  Array.iter (fun (sig_file, impl_file, module_name) ->
+  let toc = Array.fold_left (fun acc (sig_file, impl_file, module_name) ->
     Owl_log.info "owl_doc: parsing %s ..." sig_file;
     let bname = Filename.(basename sig_file |> chop_extension) in
     let iname = src_root ^ sig_file in
@@ -172,11 +179,15 @@ let parse_modules src_root dst_root modules =
     let funloc = locate_functions src_root impl_file in
     write_to_rst alldoc sig_file impl_file oname module_name funloc;
 
-    Printf.fprintf h "  %s\n\n" bname;
     num_funs := !num_funs + (Array.length alldoc);
-  ) modules;
+    Printf.sprintf "%s  %s\n\n" acc bname;
+  ) "" modules
+  in
 
-  Printf.fprintf h "#%i entries (incl. constants, types, and functions) have been extracted.\n\n" !num_funs;
+  Printf.fprintf h "%s\n%s\n\n" "Owl's API Reference" (String.make 79 '=');
+  Printf.fprintf h ".. toctree::\n  :maxdepth: 2\n  :caption: Modules: ";
+  Printf.fprintf h "#%i entries extracted at %s\n\n%s" !num_funs (make_timestamp ()) toc;
+
   close_out h
 
 
