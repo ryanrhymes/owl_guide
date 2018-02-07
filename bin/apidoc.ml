@@ -108,7 +108,7 @@ let parse_one_mli fname =
 
 (** Extract function implementation from an ml file, return a hashtbl *)
 let locate_functions src_root impl_file =
-  let regstr = "^[ ]*let[ ]*(.+?)[ ]" in
+  let regstr = "^[ ]*let[ ]*(.+?)[ \n]" in
   let regex = Re_pcre.regexp regstr in
   let impl = Hashtbl.create 512 in
   Array.iteri (fun i s ->
