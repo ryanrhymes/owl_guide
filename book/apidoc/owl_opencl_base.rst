@@ -3,7 +3,11 @@ High-level OpenCL API
 
 This document is auto-generated for Owl's APIs.
 #67 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028276
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_base.mli>`_ 
@@ -29,15 +33,11 @@ Platform module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_platform_id -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -45,13 +45,13 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val get_platforms : unit -> cl_platform_id array
 
 Get an array of all the available platforms.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L27>`__
 
 
 
@@ -92,15 +92,11 @@ Device module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_device_id -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -108,13 +104,13 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val get_devices : cl_platform_id -> cl_device_id array
 
 Get an array of all the available devices on a given platform.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L101>`__
 
 
 
@@ -134,15 +130,11 @@ Context module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_context -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -150,21 +142,19 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val create : ?properties:(int * int) list -> cl_device_id array -> cl_context
 
 Create an object with the passed in parameters.
 
-
-
 .. code-block:: ocaml
 
   val create_from_type : ?properties:(int * int) list -> int -> cl_context
 
 Create a context from a given type.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L231>`__
 
 
 
@@ -174,15 +164,11 @@ Create a context from a given type.
 
 Retain a resource by increasing its reference number by 1.
 
-
-
 .. code-block:: ocaml
 
   val release : cl_context -> unit
 
 Release a resource by decreasing its reference number by 1.
-
-
 
 Program module
 -------------------------------------------------------------------------------
@@ -206,15 +192,11 @@ Program module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_program -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -222,13 +204,13 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val create_with_source : cl_context -> string array -> cl_program
 
 Create a program from its source string.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L294>`__
 
 
 
@@ -238,6 +220,8 @@ Create a program from its source string.
 
 Build a program with the given parameters.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L311>`__
+
 
 
 .. code-block:: ocaml
@@ -246,15 +230,11 @@ Build a program with the given parameters.
 
 Retain a resource by increasing its reference number by 1.
 
-
-
 .. code-block:: ocaml
 
   val release : cl_program -> unit
 
 Release a resource by decreasing its reference number by 1.
-
-
 
 Kernel module
 -------------------------------------------------------------------------------
@@ -276,15 +256,11 @@ Kernel module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_kernel -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -292,21 +268,19 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val create : cl_program -> string -> cl_kernel
 
 Create an object with the passed in parameters.
 
-
-
 .. code-block:: ocaml
 
   val set_arg : cl_kernel -> int -> int -> 'a Ctypes.ptr -> unit
 
 Set the arguments of a given kernel.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L412>`__
 
 
 
@@ -316,6 +290,8 @@ Set the arguments of a given kernel.
 
 Enqueue a task into the associate command queue of a given kernel.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L419>`__
+
 
 
 .. code-block:: ocaml
@@ -323,6 +299,8 @@ Enqueue a task into the associate command queue of a given kernel.
   val enqueue_ndrange : ?wait_for:cl_event list -> ?global_work_ofs:int list -> ?local_work_size:int list -> cl_command_queue -> cl_kernel -> int -> int list -> cl_event
 
 Enqueue a ndrange task into the associate command queue of a given kernel.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L431>`__
 
 
 
@@ -332,15 +310,11 @@ Enqueue a ndrange task into the associate command queue of a given kernel.
 
 Retain a resource by increasing its reference number by 1.
 
-
-
 .. code-block:: ocaml
 
   val release : cl_kernel -> unit
 
 Release a resource by decreasing its reference number by 1.
-
-
 
 CommandQueue module
 -------------------------------------------------------------------------------
@@ -359,15 +333,11 @@ CommandQueue module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_command_queue -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -375,21 +345,19 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val create : ?properties:int list -> cl_context -> cl_device_id -> cl_command_queue
 
 Create an object with the passed in parameters.
 
-
-
 .. code-block:: ocaml
 
   val barrier : ?wait_for:cl_event list -> cl_command_queue -> cl_event
 
 Barrier function of the given command queue.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L526>`__
 
 
 
@@ -399,6 +367,8 @@ Barrier function of the given command queue.
 
 Marker function of the given command queue.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L538>`__
+
 
 
 .. code-block:: ocaml
@@ -406,6 +376,8 @@ Marker function of the given command queue.
   val flush : cl_command_queue -> unit
 
 Flush the given command queue.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L520>`__
 
 
 
@@ -415,6 +387,8 @@ Flush the given command queue.
 
 Finish the given command queue.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L523>`__
+
 
 
 .. code-block:: ocaml
@@ -423,15 +397,11 @@ Finish the given command queue.
 
 Retain a resource by increasing its reference number by 1.
 
-
-
 .. code-block:: ocaml
 
   val release : cl_command_queue -> unit
 
 Release a resource by decreasing its reference number by 1.
-
-
 
 Event module
 -------------------------------------------------------------------------------
@@ -451,15 +421,11 @@ Event module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_event -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -467,21 +433,19 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val create : cl_context -> cl_event
 
 Create an object with the passed in parameters.
 
-
-
 .. code-block:: ocaml
 
   val set_status : cl_event -> int -> unit
 
 Set the status of a given event.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L611>`__
 
 
 
@@ -491,6 +455,8 @@ Set the status of a given event.
 
 Wait for a list of events to finish.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L617>`__
+
 
 
 .. code-block:: ocaml
@@ -499,15 +465,11 @@ Wait for a list of events to finish.
 
 Retain a resource by increasing its reference number by 1.
 
-
-
 .. code-block:: ocaml
 
   val release : cl_event -> unit
 
 Release a resource by decreasing its reference number by 1.
-
-
 
 Buffer module
 -------------------------------------------------------------------------------
@@ -525,15 +487,11 @@ Buffer module
 
 ``info`` type contains the basic information of the object.
 
-
-
 .. code-block:: ocaml
 
   val get_info : cl_mem -> info
 
 Get the information of a given object.
-
-
 
 .. code-block:: ocaml
 
@@ -541,21 +499,19 @@ Get the information of a given object.
 
 Get the string representation of a given object, often contains the object's basic information.
 
-
-
 .. code-block:: ocaml
 
   val create : ?flags:int list -> cl_context -> ('a, 'b) Owl_dense_ndarray_generic.t -> cl_mem
 
 Create an object with the passed in parameters.
 
-
-
 .. code-block:: ocaml
 
   val enqueue_read : ?blocking:bool -> ?wait_for:cl_event list -> cl_command_queue -> cl_mem -> int -> int -> unit Ctypes.ptr -> cl_event
 
 Enqueue a read operation on the given memory object to a command queue.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L687>`__
 
 
 
@@ -565,6 +521,8 @@ Enqueue a read operation on the given memory object to a command queue.
 
 Enqueue a write operation on the given memory object to a command queue.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L707>`__
+
 
 
 .. code-block:: ocaml
@@ -572,6 +530,8 @@ Enqueue a write operation on the given memory object to a command queue.
   val enqueue_map : ?blocking:bool -> ?wait_for:Owl_opencl_generated.cl_event list -> ?flags:int list -> cl_command_queue -> cl_mem -> int -> int -> 'a -> cl_event * unit Ctypes.ptr
 
 Enqueue a map operation on the given memory object to a command queue.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L727>`__
 
 
 
@@ -581,6 +541,8 @@ Enqueue a map operation on the given memory object to a command queue.
 
 Enqueue a unmap operation on the given memory object to a command queue.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L750>`__
+
 
 
 .. code-block:: ocaml
@@ -589,13 +551,9 @@ Enqueue a unmap operation on the given memory object to a command queue.
 
 Retain a resource by increasing its reference number by 1.
 
-
-
 .. code-block:: ocaml
 
   val release : cl_mem -> unit
 
 Release a resource by decreasing its reference number by 1.
-
-
 

@@ -3,7 +3,11 @@ Operator Functor
 
 This document is auto-generated for Owl's APIs.
 #72 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028275
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ 
@@ -22,15 +26,11 @@ Basic operators
 
 Operator of ``add``
 
-
-
 .. code-block:: ocaml
 
   val ( - ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``sub``
-
-
 
 .. code-block:: ocaml
 
@@ -38,15 +38,11 @@ Operator of ``sub``
 
 Operator of ``mul``
 
-
-
 .. code-block:: ocaml
 
   val ( / ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``div``
-
-
 
 .. code-block:: ocaml
 
@@ -54,15 +50,11 @@ Operator of ``div``
 
 Operator of ``add_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( -$ ) : ('a, 'b) M.t -> 'a -> ('a, 'b) M.t
 
 Operator of ``sub_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -70,15 +62,11 @@ Operator of ``sub_scalar``
 
 Operator of ``mul_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( /$ ) : ('a, 'b) M.t -> 'a -> ('a, 'b) M.t
 
 Operator of ``div_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -86,15 +74,11 @@ Operator of ``div_scalar``
 
 Operator of ``scalar_add``
 
-
-
 .. code-block:: ocaml
 
   val ( $- ) : 'a -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``scalar_sub``
-
-
 
 .. code-block:: ocaml
 
@@ -102,15 +86,11 @@ Operator of ``scalar_sub``
 
 Operator of ``scalar_mul``
 
-
-
 .. code-block:: ocaml
 
   val ( $/ ) : 'a -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``scalar_div``
-
-
 
 .. code-block:: ocaml
 
@@ -118,15 +98,11 @@ Operator of ``scalar_div``
 
 Operator of ``equal``
 
-
-
 .. code-block:: ocaml
 
   val ( != ) : ('a, 'b) M.t -> ('a, 'b) M.t -> bool
 
 Operator of ``not_equal``
-
-
 
 .. code-block:: ocaml
 
@@ -134,15 +110,11 @@ Operator of ``not_equal``
 
 Operator of ``not_equal``
 
-
-
 .. code-block:: ocaml
 
   val ( > ) : ('a, 'b) M.t -> ('a, 'b) M.t -> bool
 
 Operator of ``greater``
-
-
 
 .. code-block:: ocaml
 
@@ -150,23 +122,17 @@ Operator of ``greater``
 
 Operator of ``less``
 
-
-
 .. code-block:: ocaml
 
   val ( >= ) : ('a, 'b) M.t -> ('a, 'b) M.t -> bool
 
 Operator of ``greater_equal``
 
-
-
 .. code-block:: ocaml
 
   val ( <= ) : ('a, 'b) M.t -> ('a, 'b) M.t -> bool
 
 Operator of ``less_equal``
-
-
 
 Extended operators
 -------------------------------------------------------------------------------
@@ -179,15 +145,11 @@ Extended operators
 
 Operator of ``equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( !=$ ) : ('a, 'b) M.t -> 'a -> bool
 
 Operator of ``not_equal_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -195,15 +157,11 @@ Operator of ``not_equal_scalar``
 
 Operator of ``not_equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( <$ ) : ('a, 'b) M.t -> 'a -> bool
 
 Operator of ``less_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -211,15 +169,11 @@ Operator of ``less_scalar``
 
 Operator of ``greater_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( <=$ ) : ('a, 'b) M.t -> 'a -> bool
 
 Operator of ``less_equal_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -227,15 +181,11 @@ Operator of ``less_equal_scalar``
 
 Operator of ``greater_equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( =. ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``elt_equal``
-
-
 
 .. code-block:: ocaml
 
@@ -243,15 +193,11 @@ Operator of ``elt_equal``
 
 Operator of ``elt_not_equal``
 
-
-
 .. code-block:: ocaml
 
   val ( <>. ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``elt_not_equal``
-
-
 
 .. code-block:: ocaml
 
@@ -259,15 +205,11 @@ Operator of ``elt_not_equal``
 
 Operator of ``elt_less``
 
-
-
 .. code-block:: ocaml
 
   val ( >. ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``elt_greater``
-
-
 
 .. code-block:: ocaml
 
@@ -275,15 +217,11 @@ Operator of ``elt_greater``
 
 Operator of ``elt_less_equal``
 
-
-
 .. code-block:: ocaml
 
   val ( >=. ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``elt_greater_equal``
-
-
 
 .. code-block:: ocaml
 
@@ -291,15 +229,11 @@ Operator of ``elt_greater_equal``
 
 Operator of ``elt_equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( !=.$ ) : ('a, 'b) M.t -> 'a -> ('a, 'b) M.t
 
 Operator of ``elt_not_equal_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -307,15 +241,11 @@ Operator of ``elt_not_equal_scalar``
 
 Operator of ``elt_not_equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( <.$ ) : ('a, 'b) M.t -> 'a -> ('a, 'b) M.t
 
 Operator of ``elt_less_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -323,15 +253,11 @@ Operator of ``elt_less_scalar``
 
 Operator of ``elt_greater_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( <=.$ ) : ('a, 'b) M.t -> 'a -> ('a, 'b) M.t
 
 Operator of ``elt_less_equal_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -339,15 +265,11 @@ Operator of ``elt_less_equal_scalar``
 
 Operator of ``elt_greater_equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( =~ ) : ?eps:float -> ('a, 'b) M.t -> ('a, 'b) M.t -> bool
 
 Operator of ``approx_equal``
-
-
 
 .. code-block:: ocaml
 
@@ -355,15 +277,11 @@ Operator of ``approx_equal``
 
 Operator of ``approx_equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( =~. ) : ?eps:float -> ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``approx_elt_equal``
-
-
 
 .. code-block:: ocaml
 
@@ -371,15 +289,11 @@ Operator of ``approx_elt_equal``
 
 Operator of ``approx_elt_equal_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( % ) : (float, 'a) M.t -> (float, 'a) M.t -> (float, 'a) M.t
 
 Operator of ``fmod``
-
-
 
 .. code-block:: ocaml
 
@@ -387,15 +301,11 @@ Operator of ``fmod``
 
 Operator of ``fmod_scalar``
 
-
-
 .. code-block:: ocaml
 
   val ( ** ) : (float, 'a) M.t -> (float, 'a) M.t -> (float, 'a) M.t
 
 Operator of ``pow``
-
-
 
 .. code-block:: ocaml
 
@@ -403,15 +313,11 @@ Operator of ``pow``
 
 Operator of ``scalar_pow``
 
-
-
 .. code-block:: ocaml
 
   val ( **$ ) : (float, 'a) M.t -> float -> (float, 'a) M.t
 
 Operator of ``pow_scalar``
-
-
 
 .. code-block:: ocaml
 
@@ -419,15 +325,11 @@ Operator of ``pow_scalar``
 
 Operator of ``add_``
 
-
-
 .. code-block:: ocaml
 
   val ( -= ) : ('a, 'b) M.t -> ('a, 'b) M.t -> unit
 
 Operator of ``sub_``
-
-
 
 .. code-block:: ocaml
 
@@ -435,15 +337,11 @@ Operator of ``sub_``
 
 Operator of ``mul_``
 
-
-
 .. code-block:: ocaml
 
   val ( /= ) : ('a, 'b) M.t -> ('a, 'b) M.t -> unit
 
 Operator of ``div_``
-
-
 
 .. code-block:: ocaml
 
@@ -451,15 +349,11 @@ Operator of ``div_``
 
 Operator of ``add_scalar_``
 
-
-
 .. code-block:: ocaml
 
   val ( -$= ) : ('a, 'b) M.t -> 'a -> unit
 
 Operator of ``sub_scalar_``
-
-
 
 .. code-block:: ocaml
 
@@ -467,15 +361,11 @@ Operator of ``sub_scalar_``
 
 Operator of ``mul_scalar_``
 
-
-
 .. code-block:: ocaml
 
   val ( /$= ) : ('a, 'b) M.t -> 'a -> unit
 
 Operator of ``div_scalar_``
-
-
 
 .. code-block:: ocaml
 
@@ -483,15 +373,11 @@ Operator of ``div_scalar_``
 
 Operator of ``get_fancy``
 
-
-
 .. code-block:: ocaml
 
   val ( .!{}<- ) : ('a, 'b) M.t -> Owl_types.index list -> ('a, 'b) M.t -> unit
 
 Operator of ``set_fancy``
-
-
 
 .. code-block:: ocaml
 
@@ -499,15 +385,11 @@ Operator of ``set_fancy``
 
 Operator of ``get_slice``
 
-
-
 .. code-block:: ocaml
 
   val ( .${}<- ) : ('a, 'b) M.t -> int list list -> ('a, 'b) M.t -> unit
 
 Operator of ``set_slice``
-
-
 
 Matrix-specific operators
 -------------------------------------------------------------------------------
@@ -520,15 +402,11 @@ Matrix-specific operators
 
 Operator of ``dot``
 
-
-
 .. code-block:: ocaml
 
   val ( @= ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``concat_vertical``
-
-
 
 .. code-block:: ocaml
 
@@ -536,23 +414,17 @@ Operator of ``concat_vertical``
 
 Operator of ``concat_horizontal``
 
-
-
 .. code-block:: ocaml
 
   val ( .%{} ) : ('a, 'b) M.t -> int array -> 'a
 
 Operator of ``get``
 
-
-
 .. code-block:: ocaml
 
   val ( .%{}<- ) : ('a, 'b) M.t -> int array -> 'a -> unit
 
 Operator of ``set``
-
-
 
 Ndarray-specific operators
 -------------------------------------------------------------------------------
@@ -565,13 +437,9 @@ Ndarray-specific operators
 
 Operator of ``get``
 
-
-
 .. code-block:: ocaml
 
   val ( .%{}<- ) : ('a, 'b) M.t -> int array -> 'a -> unit
 
 Operator of ``set``
-
-
 

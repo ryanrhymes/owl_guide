@@ -3,7 +3,11 @@ Lazy Functor
 
 This document is auto-generated for Owl's APIs.
 #152 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028275
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ 
@@ -24,8 +28,6 @@ Type definition
 ``t`` is an abstract type to represent an experssion, it is also an alias
 for type ``node``. Type ``node`` is only for internal use in the module.
 
-
-
 Core functions
 -------------------------------------------------------------------------------
 
@@ -37,6 +39,8 @@ Core functions
 
 ``variable ()`` creates a placeholder for the variable in the graph.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L76>`__
+
 
 
 .. code-block:: ocaml
@@ -47,6 +51,8 @@ Core functions
 ``variable ()`` function before. Note that assignment will invalidate all the
 nodes in the subgraph depending on ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L84>`__
+
 
 
 .. code-block:: ocaml
@@ -54,6 +60,8 @@ nodes in the subgraph depending on ``x``.
   val assign_elt : t -> A.elt -> unit
 
 ``assign_elt x a`` assigns value ``a`` to ``x``, simiar to ``assign_arr``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L86>`__
 
 
 
@@ -63,6 +71,8 @@ nodes in the subgraph depending on ``x``.
 
 ``to_arr x`` unpacks an ndarray from ``x`` of type ``t``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L88>`__
+
 
 
 .. code-block:: ocaml
@@ -70,6 +80,8 @@ nodes in the subgraph depending on ``x``.
   val to_elt : t -> A.elt
 
 ``to_elt x`` unpacks an element from ``x`` of type ``t``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L90>`__
 
 
 
@@ -80,6 +92,8 @@ nodes in the subgraph depending on ``x``.
 ``of_arr x`` creates a constant value from ``x`` in the computation graph. The
 constant value cannot be re-assigned by ``assign_arr`` or ``assign_elt`` later.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L92>`__
+
 
 
 .. code-block:: ocaml
@@ -87,6 +101,8 @@ constant value cannot be re-assigned by ``assign_arr`` or ``assign_elt`` later.
   val of_elt : ?name:string -> A.elt -> t
 
 ``of_elt x`` is similar to ``of_arr`` but used for the value of type ``elt``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L94>`__
 
 
 
@@ -96,6 +112,8 @@ constant value cannot be re-assigned by ``assign_arr`` or ``assign_elt`` later.
 
 ``eval x`` evaluates the experssion represented by ``x``. Note only the
 subgraph that ``x`` depends on will be evaluated rather than the whole graph.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L304>`__
 
 
 
@@ -110,6 +128,8 @@ Printing functions
 
 ``pp_lazy x`` pretty prints ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L128>`__
+
 
 
 .. code-block:: ocaml
@@ -118,6 +138,8 @@ Printing functions
 
 ``to_trace x`` returns the trace string that can be printed on the terminal
 for a list of given expressions. The trace shows the structure of the graph.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L133>`__
 
 
 
@@ -129,6 +151,8 @@ for a list of given expressions. The trace shows the structure of the graph.
 string. The returned string can be used for visualising the computation
 graph with third-party tool such as graphviz.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L138>`__
+
 
 
 .. code-block:: ocaml
@@ -136,6 +160,8 @@ graph with third-party tool such as graphviz.
   val copy : t array -> t array
 
 ``copy x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L146>`__
 
 
 
@@ -150,6 +176,8 @@ Properties and manipulations
 
 ``is_var x`` returns ``true`` if ``x`` is a variable created by ``variable``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L59>`__
+
 
 
 .. code-block:: ocaml
@@ -158,6 +186,8 @@ Properties and manipulations
 
 ``is_const x`` returns ``true`` if ``x`` is a const created by ``of_arr`` or ``of_elt``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L61>`__
+
 
 
 .. code-block:: ocaml
@@ -165,6 +195,8 @@ Properties and manipulations
   val refnum : t -> int
 
 ``refnum x`` returns the number of ``x``'s parents in the computation graph.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L49>`__
 
 
 
@@ -183,6 +215,8 @@ operations (almost).
 value of ``t``. This means the output must be wrapped up using either ``of_arr``
 or ``of_elt`` function before returning the result.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L315>`__
+
 
 
 .. code-block:: ocaml
@@ -190,6 +224,8 @@ or ``of_elt`` function before returning the result.
   val tile : t -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L317>`__
 
 
 
@@ -199,6 +235,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L319>`__
+
 
 
 .. code-block:: ocaml
@@ -206,6 +244,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val concatenate : ?axis:int -> t array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L321>`__
 
 
 
@@ -220,6 +260,8 @@ Unary operators
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L376>`__
+
 
 
 .. code-block:: ocaml
@@ -227,6 +269,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val neg : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L378>`__
 
 
 
@@ -236,6 +280,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L380>`__
+
 
 
 .. code-block:: ocaml
@@ -243,6 +289,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val reci : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L382>`__
 
 
 
@@ -252,6 +300,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L384>`__
+
 
 
 .. code-block:: ocaml
@@ -259,6 +309,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val sqr : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L386>`__
 
 
 
@@ -268,6 +320,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L388>`__
+
 
 
 .. code-block:: ocaml
@@ -275,6 +329,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val cbrt : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L390>`__
 
 
 
@@ -284,6 +340,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L392>`__
+
 
 
 .. code-block:: ocaml
@@ -291,6 +349,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val exp2 : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L394>`__
 
 
 
@@ -300,6 +360,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L396>`__
+
 
 
 .. code-block:: ocaml
@@ -307,6 +369,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val expm1 : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L398>`__
 
 
 
@@ -316,6 +380,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L400>`__
+
 
 
 .. code-block:: ocaml
@@ -323,6 +389,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val log2 : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L402>`__
 
 
 
@@ -332,6 +400,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L404>`__
+
 
 
 .. code-block:: ocaml
@@ -339,6 +409,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val log1p : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L406>`__
 
 
 
@@ -348,6 +420,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L408>`__
+
 
 
 .. code-block:: ocaml
@@ -355,6 +429,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val cos : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L410>`__
 
 
 
@@ -364,6 +440,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L412>`__
+
 
 
 .. code-block:: ocaml
@@ -371,6 +449,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val asin : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L414>`__
 
 
 
@@ -380,6 +460,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L416>`__
+
 
 
 .. code-block:: ocaml
@@ -387,6 +469,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val atan : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L418>`__
 
 
 
@@ -396,6 +480,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L420>`__
+
 
 
 .. code-block:: ocaml
@@ -403,6 +489,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val cosh : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L422>`__
 
 
 
@@ -412,6 +500,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L424>`__
+
 
 
 .. code-block:: ocaml
@@ -419,6 +509,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val asinh : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L426>`__
 
 
 
@@ -428,6 +520,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L428>`__
+
 
 
 .. code-block:: ocaml
@@ -435,6 +529,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val atanh : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L430>`__
 
 
 
@@ -444,6 +540,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L432>`__
+
 
 
 .. code-block:: ocaml
@@ -451,6 +549,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val ceil : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L434>`__
 
 
 
@@ -460,6 +560,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L436>`__
+
 
 
 .. code-block:: ocaml
@@ -467,6 +569,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val trunc : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L438>`__
 
 
 
@@ -476,6 +580,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L440>`__
+
 
 
 .. code-block:: ocaml
@@ -483,6 +589,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val erf : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L442>`__
 
 
 
@@ -492,6 +600,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L444>`__
+
 
 
 .. code-block:: ocaml
@@ -499,6 +609,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val relu : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L446>`__
 
 
 
@@ -508,6 +620,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L448>`__
+
 
 
 .. code-block:: ocaml
@@ -515,6 +629,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val softsign : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L450>`__
 
 
 
@@ -524,6 +640,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L452>`__
+
 
 
 .. code-block:: ocaml
@@ -531,6 +649,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val sigmoid : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L454>`__
 
 
 
@@ -540,6 +660,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L456>`__
+
 
 
 .. code-block:: ocaml
@@ -547,6 +669,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val prod : ?axis:int -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L458>`__
 
 
 
@@ -556,6 +680,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L460>`__
+
 
 
 .. code-block:: ocaml
@@ -563,6 +689,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val max : ?axis:int -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L462>`__
 
 
 
@@ -572,6 +700,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L464>`__
+
 
 
 .. code-block:: ocaml
@@ -579,6 +709,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val var : ?axis:int -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L466>`__
 
 
 
@@ -588,6 +720,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L468>`__
+
 
 
 .. code-block:: ocaml
@@ -595,6 +729,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val l1norm : ?axis:int -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L470>`__
 
 
 
@@ -604,6 +740,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L472>`__
+
 
 
 .. code-block:: ocaml
@@ -611,6 +749,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val cumsum : ?axis:int -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L474>`__
 
 
 
@@ -620,6 +760,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L476>`__
+
 
 
 .. code-block:: ocaml
@@ -627,6 +769,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val cummin : ?axis:int -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L478>`__
 
 
 
@@ -636,6 +780,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L480>`__
+
 
 
 .. code-block:: ocaml
@@ -643,6 +789,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val sum' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L523>`__
 
 
 
@@ -652,6 +800,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L525>`__
+
 
 
 .. code-block:: ocaml
@@ -659,6 +809,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val min' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L527>`__
 
 
 
@@ -668,6 +820,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L529>`__
+
 
 
 .. code-block:: ocaml
@@ -675,6 +829,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val mean' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L531>`__
 
 
 
@@ -684,6 +840,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L533>`__
+
 
 
 .. code-block:: ocaml
@@ -691,6 +849,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val std' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L535>`__
 
 
 
@@ -700,6 +860,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L537>`__
+
 
 
 .. code-block:: ocaml
@@ -708,6 +870,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L539>`__
+
 
 
 .. code-block:: ocaml
@@ -715,6 +879,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val l2norm_sqr' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L541>`__
 
 
 
@@ -729,6 +895,8 @@ Binary operators
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L326>`__
+
 
 
 .. code-block:: ocaml
@@ -736,6 +904,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val sub : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L328>`__
 
 
 
@@ -745,6 +915,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L330>`__
+
 
 
 .. code-block:: ocaml
@@ -752,6 +924,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val div : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L332>`__
 
 
 
@@ -761,6 +935,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L334>`__
+
 
 
 .. code-block:: ocaml
@@ -768,6 +944,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val dot : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L346>`__
 
 
 
@@ -777,6 +955,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L336>`__
+
 
 
 .. code-block:: ocaml
@@ -784,6 +964,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val hypot : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L338>`__
 
 
 
@@ -793,6 +975,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L340>`__
+
 
 
 .. code-block:: ocaml
@@ -800,6 +984,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val min2 : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L342>`__
 
 
 
@@ -809,6 +995,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L344>`__
+
 
 
 .. code-block:: ocaml
@@ -816,6 +1004,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val add_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L348>`__
 
 
 
@@ -825,6 +1015,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L350>`__
+
 
 
 .. code-block:: ocaml
@@ -832,6 +1024,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val mul_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L352>`__
 
 
 
@@ -841,6 +1035,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L354>`__
+
 
 
 .. code-block:: ocaml
@@ -848,6 +1044,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val pow_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L356>`__
 
 
 
@@ -857,6 +1055,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L358>`__
+
 
 
 .. code-block:: ocaml
@@ -864,6 +1064,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val fmod_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L360>`__
 
 
 
@@ -873,6 +1075,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L362>`__
+
 
 
 .. code-block:: ocaml
@@ -880,6 +1084,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val scalar_sub : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L364>`__
 
 
 
@@ -889,6 +1095,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L366>`__
+
 
 
 .. code-block:: ocaml
@@ -896,6 +1104,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val scalar_div : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L368>`__
 
 
 
@@ -905,6 +1115,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L370>`__
+
 
 
 .. code-block:: ocaml
@@ -912,6 +1124,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val scalar_atan2 : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L372>`__
 
 
 
@@ -921,6 +1135,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L374>`__
+
 
 
 .. code-block:: ocaml
@@ -928,6 +1144,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val conv1d : ?padding:padding -> t -> t -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L482>`__
 
 
 
@@ -937,6 +1155,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L484>`__
+
 
 
 .. code-block:: ocaml
@@ -944,6 +1164,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val conv3d : ?padding:padding -> t -> t -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L486>`__
 
 
 
@@ -953,6 +1175,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L488>`__
+
 
 
 .. code-block:: ocaml
@@ -960,6 +1184,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val max_pool2d : ?padding:padding -> t -> int array -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L490>`__
 
 
 
@@ -969,6 +1195,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L492>`__
+
 
 
 .. code-block:: ocaml
@@ -976,6 +1204,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val avg_pool1d : ?padding:padding -> t -> int array -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L494>`__
 
 
 
@@ -985,6 +1215,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L496>`__
+
 
 
 .. code-block:: ocaml
@@ -992,6 +1224,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val avg_pool3d : ?padding:padding -> t -> int array -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L498>`__
 
 
 
@@ -1001,6 +1235,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L500>`__
+
 
 
 .. code-block:: ocaml
@@ -1008,6 +1244,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val conv1d_backward_kernel : t -> t -> int array -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L502>`__
 
 
 
@@ -1017,6 +1255,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L504>`__
+
 
 
 .. code-block:: ocaml
@@ -1024,6 +1264,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val conv2d_backward_kernel : t -> t -> int array -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L506>`__
 
 
 
@@ -1033,6 +1275,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L508>`__
+
 
 
 .. code-block:: ocaml
@@ -1040,6 +1284,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val conv3d_backward_kernel : t -> t -> int array -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L510>`__
 
 
 
@@ -1049,6 +1295,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L512>`__
+
 
 
 .. code-block:: ocaml
@@ -1056,6 +1304,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val max_pool2d_backward : padding -> t -> int array -> int array -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L514>`__
 
 
 
@@ -1065,6 +1315,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L516>`__
+
 
 
 .. code-block:: ocaml
@@ -1072,6 +1324,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val avg_pool2d_backward : padding -> t -> int array -> int array -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L518>`__
 
 
 
@@ -1086,6 +1340,8 @@ Comparion functions
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L546>`__
+
 
 
 .. code-block:: ocaml
@@ -1093,6 +1349,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val elt_not_equal : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L548>`__
 
 
 
@@ -1102,6 +1360,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L550>`__
+
 
 
 .. code-block:: ocaml
@@ -1109,6 +1369,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val elt_greater : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L552>`__
 
 
 
@@ -1118,6 +1380,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L554>`__
+
 
 
 .. code-block:: ocaml
@@ -1125,6 +1389,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val elt_greater_equal : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L556>`__
 
 
 
@@ -1134,6 +1400,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L558>`__
+
 
 
 .. code-block:: ocaml
@@ -1141,6 +1409,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val elt_not_equal_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L560>`__
 
 
 
@@ -1150,6 +1420,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L562>`__
+
 
 
 .. code-block:: ocaml
@@ -1157,6 +1429,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val elt_greater_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L564>`__
 
 
 
@@ -1166,6 +1440,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L566>`__
+
 
 
 .. code-block:: ocaml
@@ -1173,6 +1449,8 @@ Refer to :doc:`owl_dense_ndarray_generic`.
   val elt_greater_equal_scalar : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L568>`__
 
 
 
@@ -1188,6 +1466,8 @@ Advanced operations
 ``invalidate x`` set the status of ``x`` to ``Invalid``. Therefore the value of
 ``x`` will be re-computed when in the future evaluation.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L69>`__
+
 
 
 .. code-block:: ocaml
@@ -1196,13 +1476,13 @@ Advanced operations
 
 ``id x`` retrieves the id number of ``x``.
 
-
-
 .. code-block:: ocaml
 
   val name : t -> string
 
 ``name x`` retrieves the name of ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L98>`__
 
 
 
@@ -1213,6 +1493,8 @@ Advanced operations
 ``get_by_id x id`` retrieves the node with the given ``id`` in the subgraph of
 ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L100>`__
+
 
 
 .. code-block:: ocaml
@@ -1221,6 +1503,8 @@ Advanced operations
 
 ``get_by_name x name`` retrieves the node with the given ``name`` in the
 subgraph of ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L102>`__
 
 
 

@@ -3,7 +3,11 @@ FFT
 
 This document is auto-generated for Owl's APIs.
 #5 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028274
+=======
+timestamp:1518025253
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/fftpack/owl_fft_generic.mli>`_ 
@@ -23,6 +27,8 @@ Basic functions
 ``fft ~axis x`` performs 1-dimensional FFT on a complex input. ``axis`` is the
 highest dimension if not specified. The return is not scaled.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L9>`__
+
 
 
 .. code-block:: ocaml
@@ -31,6 +37,8 @@ highest dimension if not specified. The return is not scaled.
 
 ``ifft ~axis x`` performs inverse 1-dimensional FFT on a complex input. ``axis``
 is the highest dimension by default.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L20>`__
 
 
 
@@ -43,6 +51,8 @@ is the highest dimension by default.
 precision with input ``x``. You can skip this parameter by using a submodule
 with specific precision such as ``Owl.Fft.S`` or ``Owl.Fft.D``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L33>`__
+
 
 
 .. code-block:: ocaml
@@ -51,6 +61,8 @@ with specific precision such as ``Owl.Fft.S`` or ``Owl.Fft.D``.
 
 ``irfft ~axis ~n x`` is the inverse function of ``rfft``. Note the ``n`` parameter
 is used to specified the size of output.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L47>`__
 
 
 

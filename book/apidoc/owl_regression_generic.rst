@@ -3,7 +3,11 @@ Regression.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #12 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028275
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/optimise/owl_regression_generic.mli>`_ 
@@ -23,16 +27,12 @@ Type definition
 
 Type of ndarray values.
 
-
-
 .. code-block:: ocaml
 
   type elt = A.elt
     
 
 Type of scalar values.
-
-
 
 Regression models
 -------------------------------------------------------------------------------
@@ -45,6 +45,8 @@ Regression models
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L40>`__
+
 
 
 .. code-block:: ocaml
@@ -52,6 +54,8 @@ TODO
   val ridge : ?i:bool -> ?alpha:float -> arr -> arr -> arr array
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L49>`__
 
 
 
@@ -61,6 +65,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L58>`__
+
 
 
 .. code-block:: ocaml
@@ -68,6 +74,8 @@ TODO
   val elastic_net : ?i:bool -> ?alpha:float -> ?l1_ratio:float -> arr -> arr -> arr array
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L67>`__
 
 
 
@@ -77,6 +85,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L78>`__
+
 
 
 .. code-block:: ocaml
@@ -84,6 +94,8 @@ TODO
   val logistic : ?i:bool -> arr -> arr -> arr array
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L87>`__
 
 
 
@@ -93,6 +105,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L96>`__
+
 
 
 .. code-block:: ocaml
@@ -100,6 +114,8 @@ TODO
   val poly : arr -> arr -> int -> arr
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L119>`__
 
 
 

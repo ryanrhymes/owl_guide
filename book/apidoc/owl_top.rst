@@ -3,7 +3,11 @@ Toplevel
 
 This document is auto-generated for Owl's APIs.
 #2 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028276
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.mli>`_ 
@@ -17,6 +21,8 @@ Github:
 
 List of registered pretty printers for Owl.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/top/owl_top.ml#L7>`__
+
 
 
 .. code-block:: ocaml
@@ -24,6 +30,8 @@ List of registered pretty printers for Owl.
   val install_printers : string list -> unit
 
 Install all the registered pretty printers.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/top/owl_top.ml#L19>`__
 
 
 

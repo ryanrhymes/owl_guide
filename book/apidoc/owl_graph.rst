@@ -3,7 +3,11 @@ Graph
 
 This document is auto-generated for Owl's APIs.
 #33 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028276
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_graph.mli>`_ 
@@ -23,8 +27,6 @@ Type definition
 
 Order to traverse a graph, BFS or DFS.
 
-
-
 .. code-block:: ocaml
 
   type dir = Ancestor | Descendant
@@ -32,16 +34,12 @@ Order to traverse a graph, BFS or DFS.
 
 Iteration direction, i.e. ancestors or descendants
 
-
-
 .. code-block:: ocaml
 
   type 'a node
     
 
 type definition of a node
-
-
 
 Obtaining properties
 -------------------------------------------------------------------------------
@@ -54,13 +52,13 @@ Obtaining properties
 
 ``id x`` returns the id of node ``x``.
 
-
-
 .. code-block:: ocaml
 
   val name : 'a node -> string
 
 ``name x`` returns the name string of node ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L24>`__
 
 
 
@@ -70,6 +68,8 @@ Obtaining properties
 
 ``parents x`` returns the parents of node ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L26>`__
+
 
 
 .. code-block:: ocaml
@@ -77,6 +77,8 @@ Obtaining properties
   val children : 'a node -> 'a node array
 
 ``children x`` returns the children of node ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L28>`__
 
 
 
@@ -86,6 +88,8 @@ Obtaining properties
 
 ``indegree x`` returns the in-degree of node ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L30>`__
+
 
 
 .. code-block:: ocaml
@@ -93,6 +97,8 @@ Obtaining properties
   val outdegree : 'a node -> int
 
 ``outdegree x`` returns the out-degree of node ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L32>`__
 
 
 
@@ -102,6 +108,8 @@ Obtaining properties
 
 ``attr x`` returns the ``attr`` field of node ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L34>`__
+
 
 
 .. code-block:: ocaml
@@ -109,6 +117,8 @@ Obtaining properties
   val set_attr : 'a node -> 'a -> unit
 
 ``set_attr x`` sets the ``attr`` field of node ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L36>`__
 
 
 
@@ -125,6 +135,8 @@ Manipulation functions
 string. The created node is also connected to parents in ``prev`` and children
 in ``next``. The ``attr`` will be saved in ``attr`` field.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L39>`__
+
 
 
 .. code-block:: ocaml
@@ -133,6 +145,8 @@ in ``next``. The ``attr`` will be saved in ``attr`` field.
 
 ``connect parents children`` connects a set of parents to a set of children.
 The created links are the Cartesian product of parents and children.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L50>`__
 
 
 
@@ -143,6 +157,8 @@ The created links are the Cartesian product of parents and children.
 ``remove_node x`` removes node ``x`` from the graph by disconnecting itself
 from all its parent nodes and child nodes.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L59>`__
+
 
 
 .. code-block:: ocaml
@@ -151,6 +167,8 @@ from all its parent nodes and child nodes.
 
 ``remove_edge src dst`` removes a link ``src -> dst`` from the graph. Note that
 it does not remove [dst -> src] if there exists one.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L69>`__
 
 
 
@@ -165,6 +183,8 @@ Note that this function only makes a copy of the graph structure, ``attr``
 fileds of the nodes in the new graph share the same memory with those in the
 original graph.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L162>`__
+
 
 
 Iterators
@@ -178,6 +198,8 @@ Iterators
 
 Iterate the ancestors of a given node.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L95>`__
+
 
 
 .. code-block:: ocaml
@@ -185,6 +207,8 @@ Iterate the ancestors of a given node.
   val iter_descendants : ?order:order -> ('a node -> unit) -> 'a node array -> unit
 
 Iterate the descendants of a given node.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L101>`__
 
 
 
@@ -194,6 +218,8 @@ Iterate the descendants of a given node.
 
 Filter the ancestors of a given node.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L113>`__
+
 
 
 .. code-block:: ocaml
@@ -201,6 +227,8 @@ Filter the ancestors of a given node.
   val filter_descendants : ('a node -> bool) -> 'a node array -> 'a node array
 
 Iterate the descendants of a given node.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L119>`__
 
 
 
@@ -210,6 +238,8 @@ Iterate the descendants of a given node.
 
 Fold the ancestors of a given node.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L125>`__
+
 
 
 .. code-block:: ocaml
@@ -217,6 +247,8 @@ Fold the ancestors of a given node.
   val fold_descendants : ('b -> 'a node -> 'b) -> 'b -> 'a node array -> 'b
 
 Fold the descendants of a given node.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L131>`__
 
 
 
@@ -226,6 +258,8 @@ Fold the descendants of a given node.
 
 Iterate all the in-edges of a given node.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L137>`__
+
 
 
 .. code-block:: ocaml
@@ -233,6 +267,8 @@ Iterate all the in-edges of a given node.
   val iter_out_edges : ?order:order -> ('a node -> 'a node -> unit) -> 'a node array -> unit
 
 Iterate all the out-edges of a given node.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L143>`__
 
 
 
@@ -242,6 +278,8 @@ Iterate all the out-edges of a given node.
 
 Fold all the in-edges of a given node.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L149>`__
+
 
 
 .. code-block:: ocaml
@@ -249,6 +287,8 @@ Fold all the in-edges of a given node.
   val fold_out_edges : ('b -> 'a node -> 'a node -> 'b) -> 'b -> 'a node array -> 'b
 
 Fold all the out-edges of a given node.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L155>`__
 
 
 
@@ -263,6 +303,8 @@ Helper functions
 
 Pretty print a given node.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L193>`__
+
 
 
 .. code-block:: ocaml
@@ -270,6 +312,8 @@ Pretty print a given node.
   val to_string : bool -> 'a node array -> string
 
 Convert a given node to its string representaion.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L199>`__
 
 
 

@@ -3,7 +3,11 @@ Utils.Stack
 
 This document is auto-generated for Owl's APIs.
 #11 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028276
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_utils_stack.mli>`_ 
@@ -27,8 +31,6 @@ Type definition
 
 Type of a stack.
 
-
-
 Basic functions
 -------------------------------------------------------------------------------
 
@@ -40,6 +42,8 @@ Basic functions
 
 ``make ()`` creates an empty stack.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L17>`__
+
 
 
 .. code-block:: ocaml
@@ -47,6 +51,8 @@ Basic functions
   val push : 'a t -> 'a -> unit
 
 ``push stack x`` pushes ``x`` into ``stack``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L23>`__
 
 
 
@@ -57,6 +63,8 @@ Basic functions
 ``pop stack`` pops the top element in ``stack``. It returns ``None`` if the
 ``stack`` is empty.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L32>`__
+
 
 
 .. code-block:: ocaml
@@ -66,6 +74,8 @@ Basic functions
 ``peek stack`` returns the value of top element in ``stack`` but it does not
 remove the element from the stack. ``None`` is returned if the stack is empty.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L36>`__
+
 
 
 .. code-block:: ocaml
@@ -73,6 +83,8 @@ remove the element from the stack. ``None`` is returned if the stack is empty.
   val is_empty : 'a t -> bool
 
 Returns ``true`` if the stack is empty, otherwise ``false``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L40>`__
 
 
 
@@ -83,6 +95,8 @@ Returns ``true`` if the stack is empty, otherwise ``false``.
 ``mem stack x`` checks whether ``x`` exist in ``stack``. The complexity is
 ``O(n)`` where ``n`` is the size of the ``stack``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L42>`__
+
 
 
 .. code-block:: ocaml
@@ -91,6 +105,8 @@ Returns ``true`` if the stack is empty, otherwise ``false``.
 
 Similar to ``mem`` but physical equality is used for comparing values.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L44>`__
+
 
 
 .. code-block:: ocaml
@@ -98,6 +114,8 @@ Similar to ``mem`` but physical equality is used for comparing values.
   val to_array : 'a t -> 'a array
 
 ``to_array stack`` converts the elements in ``stack`` into an array.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L46>`__
 
 
 

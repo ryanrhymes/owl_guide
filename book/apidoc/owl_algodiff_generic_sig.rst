@@ -3,7 +3,11 @@ Algodiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #114 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028275
+=======
+timestamp:1518025254
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_algodiff_generic_sig.ml>`_ 
@@ -23,8 +27,6 @@ Type definition
 
 General ndarray type
 
-
-
 .. code-block:: ocaml
 
   type elt
@@ -32,16 +34,12 @@ General ndarray type
 
 Scalar type
 
-
-
 .. code-block:: ocaml
 
   type trace_op
     
 
 Trace type
-
-
 
 .. code-block:: ocaml
 
@@ -54,8 +52,6 @@ Trace type
 
 Abstract number type
 
-
-
 Supported Maths functions
 -------------------------------------------------------------------------------
 
@@ -67,15 +63,11 @@ Supported Maths functions
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val ( - )  : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -83,15 +75,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val ( / )  : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -99,15 +87,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val ( ** )  : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -115,15 +99,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val sub : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -131,15 +111,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val div : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -147,15 +123,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val pow : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -163,15 +135,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val min2 : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -179,15 +147,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val cross_entropy : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -195,15 +159,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val neg : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -211,15 +171,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val signum : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -227,15 +183,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val ceil : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -243,15 +195,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val sqr : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -259,15 +207,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val log : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -275,15 +219,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val log10 : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -291,15 +231,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val sin : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -307,15 +243,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val tan : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -323,15 +255,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val cosh : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -339,15 +267,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val asin : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -355,15 +279,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val atan : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -371,15 +291,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val acosh : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -387,15 +303,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val sum' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -403,13 +315,13 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val mean : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1517>`__
 
 
 
@@ -419,15 +331,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val l1norm' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -435,15 +343,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val l2norm_sqr' : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -451,15 +355,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val relu : t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -467,15 +367,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val softsign: t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -483,15 +379,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val dropout : ?rate:float -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -499,15 +391,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val conv2d : ?padding:padding -> t -> t -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -515,15 +403,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val max_pool1d : padding -> t -> int array -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -531,15 +415,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val avg_pool1d : padding -> t -> int array -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -547,15 +427,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val reshape : t -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -563,15 +439,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val concat : int -> t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 .. code-block:: ocaml
 
@@ -579,15 +451,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-
-
 .. code-block:: ocaml
 
   val set_slice : int list list -> t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-
 
 Core functions
 -------------------------------------------------------------------------------
@@ -605,6 +473,8 @@ of the same type, i.e. ``g : scalar -> scalar``.
 Keep calling this function will give you higher-order derivatives of ``f``, i.e.
 ``f |> diff |> diff |> diff |> ...``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1371>`__
+
 
 
 .. code-block:: ocaml
@@ -612,6 +482,8 @@ Keep calling this function will give you higher-order derivatives of ``f``, i.e.
   val diff' : (t -> t) -> t -> t * t
 
 similar to ``diff``, but return ``(f x, diff f x)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1365>`__
 
 
 
@@ -621,6 +493,8 @@ similar to ``diff``, but return ``(f x, diff f x)``.
 
 gradient of ``f`` : (vector -> scalar) at ``x``, reverse ad.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1382>`__
+
 
 
 .. code-block:: ocaml
@@ -628,6 +502,8 @@ gradient of ``f`` : (vector -> scalar) at ``x``, reverse ad.
   val grad' : (t -> t) -> t -> t * t
 
 similar to ``grad``, but return ``(f x, grad f x)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1374>`__
 
 
 
@@ -637,6 +513,8 @@ similar to ``grad``, but return ``(f x, grad f x)``.
 
 jacobian of ``f`` : (vector -> vector) at ``x``, both ``x`` and ``y`` are row vectors.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1441>`__
+
 
 
 .. code-block:: ocaml
@@ -644,6 +522,8 @@ jacobian of ``f`` : (vector -> vector) at ``x``, both ``x`` and ``y`` are row ve
   val jacobian' : (t -> t) -> t -> t * t
 
 similar to ``jacobian``, but return ``(f x, jacobian f x)``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1405>`__
 
 
 
@@ -654,6 +534,8 @@ similar to ``jacobian``, but return ``(f x, jacobian f x)``
 jacobian vector product of ``f`` : (vector -> vector) at ``x`` along ``v``,
 forward ad. Namely, it calcultes ``(jacobian x) v``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1391>`__
+
 
 
 .. code-block:: ocaml
@@ -661,6 +543,8 @@ forward ad. Namely, it calcultes ``(jacobian x) v``
   val jacobianv' : (t -> t) -> t -> t -> t * t
 
 similar to ``jacobianv'``, but return ``(f x, jacobianv f x v)``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1385>`__
 
 
 
@@ -671,6 +555,8 @@ similar to ``jacobianv'``, but return ``(f x, jacobianv f x v)``
 transposed jacobian vector product of ``f : (vector -> vector)`` at ``x``
 along ``v``, backward ad. Namely, it calculates ``transpose ((jacobianv f x v))``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1402>`__
+
 
 
 .. code-block:: ocaml
@@ -678,6 +564,8 @@ along ``v``, backward ad. Namely, it calculates ``transpose ((jacobianv f x v))`
   val jacobianTv' : (t -> t) -> t -> t -> t * t
 
 similar to ``jacobianTv``, but return ``(f x, transpose (jacobianv f x v))``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1394>`__
 
 
 
@@ -687,6 +575,8 @@ similar to ``jacobianTv``, but return ``(f x, transpose (jacobianv f x v))``
 
 hessian of ``f`` : (scalar -> scalar) at ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1452>`__
+
 
 
 .. code-block:: ocaml
@@ -694,6 +584,8 @@ hessian of ``f`` : (scalar -> scalar) at ``x``.
   val hessian' : (t -> t) -> t -> t * t
 
 simiarl to ``hessian``, but return ``(f x, hessian f x)``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1455>`__
 
 
 
@@ -704,6 +596,8 @@ simiarl to ``hessian``, but return ``(f x, hessian f x)``
 hessian vector product of ``f`` : (scalar -> scalar) at ``x`` along ``v``.
 Namely, it calculates ``(hessian x) v``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1473>`__
+
 
 
 .. code-block:: ocaml
@@ -711,6 +605,8 @@ Namely, it calculates ``(hessian x) v``.
   val hessianv' : (t -> t) -> t -> t -> t * t
 
 similar to ``hessianv``, but return ``(f x, hessianv f x v)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1468>`__
 
 
 
@@ -720,6 +616,8 @@ similar to ``hessianv``, but return ``(f x, hessianv f x v)``.
 
 laplacian of ``f : (scalar -> scalar)`` at ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1478>`__
+
 
 
 .. code-block:: ocaml
@@ -727,6 +625,8 @@ laplacian of ``f : (scalar -> scalar)`` at ``x``.
   val laplacian' : (t -> t) -> t -> t * t
 
 simiar to ``laplacian``, but return ``(f x, laplacian f x)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1480>`__
 
 
 
@@ -736,6 +636,8 @@ simiar to ``laplacian``, but return ``(f x, laplacian f x)``.
 
 return ``(grad f x, hessian f x)``, ``f : (scalar -> scalar)``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1444>`__
+
 
 
 .. code-block:: ocaml
@@ -743,6 +645,8 @@ return ``(grad f x, hessian f x)``, ``f : (scalar -> scalar)``
   val gradhessian' : (t -> t) -> t -> t * t * t
 
 return ``(f x, grad f x, hessian f x)``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1447>`__
 
 
 
@@ -752,6 +656,8 @@ return ``(f x, grad f x, hessian f x)``
 
 return ``(grad f x v, hessian f x v)``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1463>`__
+
 
 
 .. code-block:: ocaml
@@ -759,6 +665,8 @@ return ``(grad f x v, hessian f x v)``
   val gradhessianv' : (t -> t) -> t -> t -> t * t * t
 
 return ``(f x, grad f x v, hessian f x v)``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1458>`__
 
 
 
@@ -773,6 +681,8 @@ Low-level functions
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L212>`__
+
 
 
 .. code-block:: ocaml
@@ -780,6 +690,8 @@ TODO
   val unpack_flt : t -> elt
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L214>`__
 
 
 
@@ -789,6 +701,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L205>`__
+
 
 
 .. code-block:: ocaml
@@ -796,6 +710,8 @@ TODO
   val unpack_arr : t -> arr
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L207>`__
 
 
 
@@ -805,6 +721,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L118>`__
+
 
 
 .. code-block:: ocaml
@@ -812,6 +730,8 @@ TODO
   val primal : t -> t
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L133>`__
 
 
 
@@ -821,13 +741,13 @@ TODO
 
 TODO
 
-
-
 .. code-block:: ocaml
 
   val adjval : t -> t
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L159>`__
 
 
 
@@ -837,6 +757,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L154>`__
+
 
 
 .. code-block:: ocaml
@@ -844,6 +766,8 @@ TODO
   val tangent : t -> t
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L149>`__
 
 
 
@@ -853,6 +777,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1360>`__
+
 
 
 .. code-block:: ocaml
@@ -860,6 +786,8 @@ TODO
   val make_reverse : t -> int -> t
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1362>`__
 
 
 
@@ -869,6 +797,8 @@ TODO
 
 TODO
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1353>`__
+
 
 
 .. code-block:: ocaml
@@ -876,6 +806,8 @@ TODO
   val type_info : t -> string
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L226>`__
 
 
 
@@ -885,13 +817,13 @@ TODO
 
 TODO
 
-
-
 .. code-block:: ocaml
 
   val copy_primal' : t -> t
 
 TODO
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L188>`__
 
 
 
@@ -907,6 +839,8 @@ Helper functions
 ``to_trace [t0; t1; ...]`` outputs the trace of computation graph on the
 terminal in a human-readable format.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1733>`__
+
 
 
 .. code-block:: ocaml
@@ -917,6 +851,8 @@ terminal in a human-readable format.
 file format which you can use other tools further visualisation, such as
 Graphviz.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1736>`__
+
 
 
 .. code-block:: ocaml
@@ -924,6 +860,8 @@ Graphviz.
   val pp_num : Format.formatter -> t -> unit
 
 ``pp_num t`` pretty prints the abstract number used in ``Algodiff``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1742>`__
 
 
 

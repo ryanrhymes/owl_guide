@@ -3,7 +3,11 @@ Neural.Neuron Functor
 
 This document is auto-generated for Owl's APIs.
 #377 entries have been extracted.
+<<<<<<< HEAD
 timestamp:1518028275
+=======
+timestamp:1518025255
+>>>>>>> 1760fa6d72d5c9a1558e1344f093e97a27903f73
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_neuron_sig.ml>`_ 
@@ -31,13 +35,13 @@ Init neuron
 
 Initialisation types
 
-
-
 .. code-block:: ocaml
 
   val calc_fans : int array -> float * float
 
 Calculate fan-in and fan-out of weights.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L33>`__
 
 
 
@@ -47,23 +51,17 @@ Calculate fan-in and fan-out of weights.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Input neuron
 -------------------------------------------------------------------------------
@@ -80,15 +78,11 @@ Input neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : int array -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -96,15 +90,11 @@ Create the neuron.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -112,15 +102,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Activation neuron
 -------------------------------------------------------------------------------
@@ -147,8 +133,6 @@ Activation neuron
 
 Types of activation functions.
 
-
-
 .. code-block:: ocaml
 
   type neuron_typ = {
@@ -160,15 +144,11 @@ Types of activation functions.
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -176,15 +156,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -192,23 +168,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Linear neuron
 -------------------------------------------------------------------------------
@@ -228,15 +198,11 @@ Linear neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int -> int -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -244,15 +210,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -260,15 +222,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -276,15 +234,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -292,15 +246,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -308,15 +258,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -324,15 +270,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 LinearNoBias neuron
 -------------------------------------------------------------------------------
@@ -351,15 +293,11 @@ LinearNoBias neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int -> int -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -367,15 +305,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -383,15 +317,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -399,15 +329,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -415,15 +341,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -431,15 +353,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -447,15 +365,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Recurrent neuron
 -------------------------------------------------------------------------------
@@ -481,15 +395,11 @@ Recurrent neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?time_steps:int -> ?inputs:int -> int -> int -> Activation.typ -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -497,15 +407,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -513,15 +419,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -529,15 +431,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -545,15 +443,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -561,15 +455,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -577,15 +467,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 LSTM neuron
 -------------------------------------------------------------------------------
@@ -617,15 +503,11 @@ LSTM neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?time_steps:int -> ?inputs:int -> int -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -633,15 +515,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -649,15 +527,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -665,15 +539,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -681,15 +551,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -697,15 +563,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -713,15 +575,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 GRU neuron
 -------------------------------------------------------------------------------
@@ -749,15 +607,11 @@ GRU neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?time_steps:int -> ?inputs:int -> int -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -765,15 +619,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -781,15 +631,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -797,15 +643,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -813,15 +655,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -829,15 +667,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -845,15 +679,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Conv1D neuron
 -------------------------------------------------------------------------------
@@ -876,15 +706,11 @@ Conv1D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int array -> Owl_types.padding -> int array -> int array -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -892,15 +718,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -908,15 +730,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -924,15 +742,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -940,15 +754,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -956,15 +766,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -972,15 +778,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Conv2D neuron
 -------------------------------------------------------------------------------
@@ -1003,15 +805,11 @@ Conv2D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int array -> Owl_types.padding -> int array -> int array -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1019,15 +817,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1035,15 +829,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1051,15 +841,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1067,15 +853,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1083,15 +865,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1099,15 +877,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Conv3D neuron
 -------------------------------------------------------------------------------
@@ -1130,15 +904,11 @@ Conv3D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int array -> Owl_types.padding -> int array -> int array -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1146,15 +916,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1162,15 +928,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1178,15 +940,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1194,15 +952,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1210,15 +964,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1226,15 +976,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 FullyConnected neuron
 -------------------------------------------------------------------------------
@@ -1254,15 +1000,11 @@ FullyConnected neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int -> int -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1270,15 +1012,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1286,15 +1024,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1302,15 +1036,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1318,15 +1048,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -1334,15 +1060,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1350,15 +1072,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 MaxPool1D neuron
 -------------------------------------------------------------------------------
@@ -1378,15 +1096,11 @@ MaxPool1D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : Owl_types.padding -> int array -> int array -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1394,15 +1108,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1410,23 +1120,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 MaxPool2D neuron
 -------------------------------------------------------------------------------
@@ -1446,15 +1150,11 @@ MaxPool2D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-
 
 .. code-block:: ocaml
 
@@ -1462,15 +1162,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1478,15 +1174,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 AvgPool1D neuron
 -------------------------------------------------------------------------------
@@ -1506,15 +1198,11 @@ AvgPool1D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-
 
 .. code-block:: ocaml
 
@@ -1522,15 +1210,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1538,15 +1222,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 AvgPool2D neuron
 -------------------------------------------------------------------------------
@@ -1566,15 +1246,11 @@ AvgPool2D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : Owl_types.padding -> int array -> int array -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1582,15 +1258,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1598,23 +1270,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 GlobalMaxPool1D neuron
 -------------------------------------------------------------------------------
@@ -1631,15 +1297,11 @@ GlobalMaxPool1D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1647,15 +1309,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1663,23 +1321,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 GlobalMaxPool2D neuron
 -------------------------------------------------------------------------------
@@ -1696,15 +1348,11 @@ GlobalMaxPool2D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1712,15 +1360,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1728,23 +1372,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 GlobalAvgPool1D neuron
 -------------------------------------------------------------------------------
@@ -1761,15 +1399,11 @@ GlobalAvgPool1D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1777,15 +1411,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1793,23 +1423,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 GlobalAvgPool2D neuron
 -------------------------------------------------------------------------------
@@ -1826,15 +1450,11 @@ GlobalAvgPool2D neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1842,15 +1462,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1858,23 +1474,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 UpSampling1D neuron
 -------------------------------------------------------------------------------
@@ -1922,15 +1532,11 @@ Lambda neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : (t -> t) -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -1938,15 +1544,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -1954,23 +1556,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Dropout neuron
 -------------------------------------------------------------------------------
@@ -1988,15 +1584,11 @@ Dropout neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : float -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2004,15 +1596,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2020,23 +1608,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Reshape neuron
 -------------------------------------------------------------------------------
@@ -2053,15 +1635,11 @@ Reshape neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int array -> int array -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2069,15 +1647,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2085,23 +1659,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Flatten neuron
 -------------------------------------------------------------------------------
@@ -2118,15 +1686,11 @@ Flatten neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2134,15 +1698,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2150,23 +1710,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Add neuron
 -------------------------------------------------------------------------------
@@ -2183,15 +1737,11 @@ Add neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2199,15 +1749,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2215,23 +1761,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Mul neuron
 -------------------------------------------------------------------------------
@@ -2248,15 +1788,11 @@ Mul neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2264,15 +1800,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2280,23 +1812,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Dot neuron
 -------------------------------------------------------------------------------
@@ -2313,15 +1839,11 @@ Dot neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2329,15 +1851,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2345,23 +1863,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Max neuron
 -------------------------------------------------------------------------------
@@ -2378,15 +1890,11 @@ Max neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2394,15 +1902,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2410,23 +1914,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Average neuron
 -------------------------------------------------------------------------------
@@ -2443,15 +1941,11 @@ Average neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : unit -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2459,15 +1953,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : 'a -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2475,23 +1965,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Concatenate neuron
 -------------------------------------------------------------------------------
@@ -2509,15 +1993,11 @@ Concatenate neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : int -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2525,15 +2005,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2541,23 +2017,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Normalisation neuron
 -------------------------------------------------------------------------------
@@ -2581,15 +2051,11 @@ Normalisation neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?training:bool -> ?decay:float -> ?mu:arr -> ?var:arr -> int -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2597,15 +2063,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2613,15 +2075,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -2629,15 +2087,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -2645,15 +2099,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -2661,15 +2111,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2677,15 +2123,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 GaussianNoise neuron
 -------------------------------------------------------------------------------
@@ -2703,15 +2145,11 @@ GaussianNoise neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : float -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2719,15 +2157,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2735,23 +2169,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 GaussianDropout neuron
 -------------------------------------------------------------------------------
@@ -2769,15 +2197,11 @@ GaussianDropout neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : float -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2785,15 +2209,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2801,23 +2221,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 AlphaDropout neuron
 -------------------------------------------------------------------------------
@@ -2835,15 +2249,11 @@ AlphaDropout neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : float -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2851,15 +2261,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2867,23 +2273,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Embedding neuron
 -------------------------------------------------------------------------------
@@ -2903,15 +2303,11 @@ Embedding neuron
 
 Neuron type definition.
 
-
-
 .. code-block:: ocaml
 
   val create : ?inputs:int -> int -> int -> Init.typ -> neuron_typ
 
 Create the neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2919,15 +2315,11 @@ Create the neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron_typ -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -2935,15 +2327,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron_typ -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -2951,15 +2339,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron_typ -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -2967,15 +2351,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron_typ -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -2983,15 +2363,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -2999,15 +2375,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-
 
 Masking neuron
 -------------------------------------------------------------------------------
@@ -3060,13 +2432,13 @@ Core functions
 
 Types of neuron.
 
-
-
 .. code-block:: ocaml
 
   val get_in_out_shape : neuron -> int array * int array
 
 Get both input and output shapes of a neuron.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2333>`__
 
 
 
@@ -3076,6 +2448,8 @@ Get both input and output shapes of a neuron.
 
 Get the input shape of a neuron.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2370>`__
+
 
 
 .. code-block:: ocaml
@@ -3083,6 +2457,8 @@ Get the input shape of a neuron.
   val get_out_shape : neuron -> int array
 
 Get the output shape of a neuron.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2373>`__
 
 
 
@@ -3092,15 +2468,11 @@ Get the output shape of a neuron.
 
 Connect this neuron to others in a neural network.
 
-
-
 .. code-block:: ocaml
 
   val init : neuron -> unit
 
 Initialise the neuron and its parameters.
-
-
 
 .. code-block:: ocaml
 
@@ -3108,15 +2480,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -3124,15 +2492,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -3140,15 +2504,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-
-
 .. code-block:: ocaml
 
   val update : neuron -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-
 
 .. code-block:: ocaml
 
@@ -3156,15 +2516,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-
-
 .. code-block:: ocaml
 
   val run : t array -> neuron -> t
 
 Execute the computation in this neuron.
-
-
 
 .. code-block:: ocaml
 
@@ -3172,13 +2528,9 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-
-
 .. code-block:: ocaml
 
   val to_name : neuron -> string
 
 Return the name of the neuron.
-
-
 
