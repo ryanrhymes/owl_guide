@@ -6,54 +6,52 @@
 Owl Numerical Library
 =================================================
 
-Owl's full documentation consists of two parts. The first part is a `Tutorial Book` which gives you a brief tour of the overall system with many examples and explanations. This part is mostly written by hand.
+Owl is a dedicated library for engineering and scientific computing. It is designed in the functional programming language OCaml, and aims to provide programmers a powerful numerical framework to write concise, high-performance and type-safe applications.
 
-The second part is the `API Reference` built automatically from Owl's repository by the `parser` I wrote. You can access both parts from the current entry page.
-
-
-.. toctree::
-   :maxdepth: 2
-   :caption: Contents:
-   :name: mastertoc
-
-   chapter/intro
-   chapter/install
-   chapter/arch
-   chapter/basics
-   chapter/ndarray
-   chapter/matrix
-   chapter/broadcast
-   chapter/slicing
-   chapter/naming
-   chapter/operator
-   chapter/maths
-   chapter/stats
-   chapter/linalg
-   chapter/fft
-   chapter/lazy
-   chapter/algodiff
-   chapter/optimise
-   chapter/neural
-   chapter/plot
-   chapter/zoo
-   chapter/sparse
-   chapter/metric
-   chapter/test
-   chapter/nlp
-   chapter/case_inception
-   chapter/case_nst
-   chapter/community
-   chapter/project
+The project is my on-going research in the `Computer Lab <http://www.cl.cam.ac.uk/>`_, University of Cambridge. You can fork my project code on the `Github Repository <https://github.com/ryanrhymes/owl>`_.
 
 
 
-API Reference
-=================================================
+Tutorial Book
+-------------------------------------------------
+
+The full documentation consists of two parts. You can access both parts from the current page. The first part is a `Tutorial Book` which gives you a brief tour of the overall system with many examples and explanations. This part is mostly written by hand.
 
 .. toctree::
    :maxdepth: 1
 
-   apidoc/module_index
+   chapter/index
+
+
+API Reference
+-------------------------------------------------
+
+The second part is the `API Reference` built automatically from Owl's repository by the `parser` I wrote. The API Reference cover the important functions and provides links to the source code form many functions in the library.
+
+.. toctree::
+   :maxdepth: 1
+
+   apidoc/index
+
+
+
+Showcases
+-------------------------------------------------
+
+Here are some examples to showcase Owl's capability.
+
+* `Google Inception Demo <http://138.68.155.178/index.html>`_
+* `Neural Style Transfer Demo <http://138.68.155.178/neuraltrans.html>`_
+
+
+Contact Me
+-------------------------------------------------
+
+You can reach me in the following ways, looking forward to hearing from you!
+
+* `Email Me <mailto:liang.wang@cl.cam.ac.uk>`_
+* `Slack Channel <https://join.slack.com/t/owl-dev-team/shared_invite/enQtMjQ3OTM1MDY4MDIwLTA3MmMyMmQ5Y2U0NjJiNjI0NzFhZDAwNGFhODBmMTk4N2ZmNDExYjZiMzI2N2M1MGNiMTUyYTQ5MTAzZjliZDI>`_
+* `Issue Tracker <https://github.com/ryanrhymes/owl/issues>`_
 
 
 .. Comment out for the time being
