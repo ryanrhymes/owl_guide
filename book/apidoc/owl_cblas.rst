@@ -3,7 +3,7 @@ Low-level CBLAS API
 
 This document is auto-generated for Owl's APIs.
 #57 entries have been extracted.
-timestamp:1517969970
+timestamp:1518028274
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/cblas/owl_cblas.mli>`_ 
