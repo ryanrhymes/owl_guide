@@ -3,7 +3,7 @@ Plot
 
 This document is auto-generated for Owl's APIs.
 #63 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025255
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.mli>`_ 
@@ -376,10 +376,6 @@ Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
 Parameters: ``RGB``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L366>`__
-
-
-
 .. code-block:: ocaml
 
   val draw_line: ?h:handle -> ?spec:spec list -> float -> float -> float -> float -> unit
@@ -592,10 +588,6 @@ more information.
   val contour : ?h:handle -> dsmat -> dsmat -> dsmat -> unit
 
 ``contour x y z`` generates a contour plot defined by ``x``, ``y``, and ``z``.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1315>`__
-
-
 
 .. code-block:: ocaml
 

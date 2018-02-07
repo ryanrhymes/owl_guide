@@ -17,19 +17,22 @@ let fname_to_github_url fname =
 
 (** given a function type string, convert it to github line url *)
 let funloc_to_github_line fname fun_typ loc =
-  let regstr = "^[ ]*val[ ]*(.+?)[ ]" in
+  let regstr = "^[ ]*val[ ]*(.+?)[\s]+" in
   let regex = Re_pcre.regexp regstr in
   let l = Re.all regex fun_typ |> Array.of_list in
   if Array.length l = 0 then None
   else
     let fun_name = Re.Group.get l.(0) 1 in
     if Hashtbl.mem loc fun_name = false then None
-    else (
-      let line_num = Hashtbl.find loc fun_name in
-      Some (Printf.sprintf
-        "https://github.com/ryanrhymes/owl/blob/master/src/%s#L%i"
-      fname line_num)
-    )
+    else
+      let lines = Hashtbl.find_all loc fun_name in
+      if List.length lines > 1 then None
+      else
+        let line_num = List.nth lines 0 in
+        Some (Printf.sprintf
+          "https://github.com/ryanrhymes/owl/blob/master/src/%s#L%i"
+        fname line_num)
+
 
 (* parse module.txt to get a list of modules to generate api doc *)
 let get_module_files fname =
@@ -108,15 +111,16 @@ let parse_one_mli fname =
 
 (** Extract function implementation from an ml file, return a hashtbl *)
 let locate_functions src_root impl_file =
-  let regstr = "^[ ]*let[ ]*(.+?)[ \n]" in
-  let regex = Re_pcre.regexp regstr in
+  let regs1 = "^[ ]*let[ ]*(.+?)[\s]+" in
+  let regs2 = "^[ ]*let[ ]*(.+?)[\s]*$" in
+  let regex1 = Re_pcre.regexp regs1 in
+  let regex2 = Re_pcre.regexp regs2 in
   let impl = Hashtbl.create 512 in
   Array.iteri (fun i s ->
-    Re.all regex s |> List.iter (fun mc ->
+    Re.(all regex1 s) @ Re.(all regex2 s) |>
+    List.iter (fun mc ->
       let _fun = Re.Group.get mc 1 in
-      (** Owl_log.info "%s" _fun; *)
-      if Hashtbl.mem impl _fun = false then
-        Hashtbl.add impl _fun (i + 1)
+      Hashtbl.add impl _fun (i + 1)
     );
   ) (Owl.Utils.read_file ~trim:false (src_root ^ impl_file));
   impl

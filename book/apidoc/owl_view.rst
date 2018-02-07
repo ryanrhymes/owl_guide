@@ -3,7 +3,7 @@ View Functor
 
 This document is auto-generated for Owl's APIs.
 #21 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025255
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.mli>`_ 
@@ -98,10 +98,6 @@ Refer to :doc:`owl_dense_ndarray_generic`
   val shape : t -> int array
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L78>`__
-
-
 
 .. code-block:: ocaml
 

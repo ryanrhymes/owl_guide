@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #393 entries have been extracted.
-timestamp:1518020078
+timestamp:1518025253
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -202,6 +202,10 @@ Note that both ``re`` and ``im`` can be complex but must have same type. The rea
 part of ``re`` will be the real part of ``x`` and the imaginary part of ``im`` will
 be the imaginary part of ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1337>`__
+
+
+
 .. code-block:: ocaml
 
   val polar : ('a, 'b) kind -> ('c, 'd) kind -> ('a, 'b) t -> ('a, 'b) t -> ('c, 'd) t
@@ -210,6 +214,10 @@ be the imaginary part of ``x``.
 coordinates ``rho`` and ``theta``. ``rho`` contains the magnitudes and ``theta``
 contains phase angles. Note that the behaviour is undefined if ``rho`` has
 negative elelments or ``theta`` has infinity elelments.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1345>`__
+
+
 
 Obtain basic properties
 -------------------------------------------------------------------------------
@@ -2772,6 +2780,10 @@ Cast functions
 specify by the passed in ``kind`` parameter. This function is a generalisation
 of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1387>`__
+
+
+
 .. code-block:: ocaml
 
   val cast_s2d : (float, float32_elt) t -> (float, float64_elt) t
@@ -3099,10 +3111,6 @@ Helper functions
 ``sum_slices ~axis:2 x`` for ``x`` of ``[|2;3;4;5|]``, it returns an ndarray of
 shape ``[|4;5|]``. Currently, the operation is done using ``gemm``, fast but uses
 more memory.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3235>`__
-
-
 
 In-place modification
 -------------------------------------------------------------------------------

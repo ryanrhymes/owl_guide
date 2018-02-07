@@ -3,7 +3,7 @@ Algodiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #114 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025254
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_algodiff_generic_sig.ml>`_ 
@@ -95,19 +95,11 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1521>`__
-
-
-
 .. code-block:: ocaml
 
   val sub : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1523>`__
-
-
 
 .. code-block:: ocaml
 
@@ -115,29 +107,17 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1525>`__
-
-
-
 .. code-block:: ocaml
 
   val div : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1527>`__
-
-
-
 .. code-block:: ocaml
 
   val dot : t -> t -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1529>`__
-
-
 
 .. code-block:: ocaml
 
@@ -448,10 +428,6 @@ Refer to :doc:`owl_dense_ndarray_generic`
   val reshape : t -> int array -> t
 
 Refer to :doc:`owl_dense_ndarray_generic`
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L1499>`__
-
-
 
 .. code-block:: ocaml
 
@@ -836,10 +812,6 @@ TODO
   val shape : t -> int array
 
 TODO
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_algodiff_generic.ml#L164>`__
-
-
 
 .. code-block:: ocaml
 

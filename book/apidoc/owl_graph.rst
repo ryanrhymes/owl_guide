@@ -3,7 +3,7 @@ Graph
 
 This document is auto-generated for Owl's APIs.
 #33 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025255
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_graph.mli>`_ 
@@ -47,10 +47,6 @@ Obtaining properties
   val id : 'a node -> int
 
 ``id x`` returns the id of node ``x``.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_graph.ml#L22>`__
-
-
 
 .. code-block:: ocaml
 

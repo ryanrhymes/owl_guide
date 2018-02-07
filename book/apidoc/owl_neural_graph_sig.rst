@@ -3,7 +3,7 @@ Neural.Graph Functor
 
 This document is auto-generated for Owl's APIs.
 #71 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025255
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_graph_sig.ml>`_ 
@@ -266,10 +266,6 @@ Create Neurons
 
 Arguments:
   * ``shape``: shape of input data.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_graph.ml#L157>`__
-
-
 
 .. code-block:: ocaml
 

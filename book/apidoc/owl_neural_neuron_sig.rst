@@ -3,7 +3,7 @@ Neural.Neuron Functor
 
 This document is auto-generated for Owl's APIs.
 #377 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025255
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_neuron_sig.ml>`_ 
@@ -47,29 +47,17 @@ Calculate fan-in and fan-out of weights.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Input neuron
 -------------------------------------------------------------------------------
@@ -92,19 +80,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -112,29 +92,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Activation neuron
 -------------------------------------------------------------------------------
@@ -178,19 +146,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -198,19 +158,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -218,19 +170,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Linear neuron
 -------------------------------------------------------------------------------
@@ -256,19 +200,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -276,19 +212,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -296,19 +224,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -316,19 +236,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -336,19 +248,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -356,29 +260,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 LinearNoBias neuron
 -------------------------------------------------------------------------------
@@ -403,19 +295,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -423,19 +307,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -443,19 +319,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -463,19 +331,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -483,19 +343,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -503,29 +355,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Recurrent neuron
 -------------------------------------------------------------------------------
@@ -557,19 +397,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -577,19 +409,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -597,19 +421,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -617,19 +433,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -637,19 +445,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -657,29 +457,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 LSTM neuron
 -------------------------------------------------------------------------------
@@ -717,19 +505,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -737,19 +517,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -757,19 +529,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -777,19 +541,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -797,19 +553,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -817,29 +565,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 GRU neuron
 -------------------------------------------------------------------------------
@@ -873,19 +609,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -893,19 +621,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -913,19 +633,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -933,19 +645,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -953,19 +657,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -973,29 +669,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Conv1D neuron
 -------------------------------------------------------------------------------
@@ -1024,19 +708,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1044,19 +720,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1064,19 +732,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1084,19 +744,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1104,19 +756,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1124,29 +768,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Conv2D neuron
 -------------------------------------------------------------------------------
@@ -1175,19 +807,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1195,19 +819,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1215,19 +831,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1235,19 +843,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1255,19 +855,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1275,29 +867,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Conv3D neuron
 -------------------------------------------------------------------------------
@@ -1326,19 +906,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1346,19 +918,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1366,19 +930,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1386,19 +942,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1406,19 +954,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1426,29 +966,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 FullyConnected neuron
 -------------------------------------------------------------------------------
@@ -1474,19 +1002,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1494,19 +1014,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1514,19 +1026,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1534,19 +1038,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1554,19 +1050,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1574,29 +1062,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 MaxPool1D neuron
 -------------------------------------------------------------------------------
@@ -1622,19 +1098,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1642,19 +1110,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1662,19 +1122,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 MaxPool2D neuron
 -------------------------------------------------------------------------------
@@ -1700,19 +1152,11 @@ Neuron type definition.
 
 Connect this neuron to others in a neural network.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1720,29 +1164,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 AvgPool1D neuron
 -------------------------------------------------------------------------------
@@ -1768,19 +1200,11 @@ Neuron type definition.
 
 Connect this neuron to others in a neural network.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1788,29 +1212,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 AvgPool2D neuron
 -------------------------------------------------------------------------------
@@ -1836,19 +1248,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1856,19 +1260,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1876,19 +1272,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 GlobalMaxPool1D neuron
 -------------------------------------------------------------------------------
@@ -1911,19 +1299,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1931,19 +1311,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -1951,19 +1323,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 GlobalMaxPool2D neuron
 -------------------------------------------------------------------------------
@@ -1986,19 +1350,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2006,19 +1362,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2026,19 +1374,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 GlobalAvgPool1D neuron
 -------------------------------------------------------------------------------
@@ -2061,19 +1401,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2081,19 +1413,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2101,19 +1425,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 GlobalAvgPool2D neuron
 -------------------------------------------------------------------------------
@@ -2136,19 +1452,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2156,19 +1464,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2176,19 +1476,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 UpSampling1D neuron
 -------------------------------------------------------------------------------
@@ -2242,19 +1534,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2262,19 +1546,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2282,19 +1558,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Dropout neuron
 -------------------------------------------------------------------------------
@@ -2318,19 +1586,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2338,19 +1598,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2358,19 +1610,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Reshape neuron
 -------------------------------------------------------------------------------
@@ -2393,19 +1637,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2413,19 +1649,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2433,19 +1661,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Flatten neuron
 -------------------------------------------------------------------------------
@@ -2468,19 +1688,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2488,19 +1700,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2508,19 +1712,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Add neuron
 -------------------------------------------------------------------------------
@@ -2543,19 +1739,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2563,19 +1751,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t array -> 'a -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2583,19 +1763,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Mul neuron
 -------------------------------------------------------------------------------
@@ -2618,19 +1790,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2638,19 +1802,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t array -> 'a -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2658,19 +1814,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Dot neuron
 -------------------------------------------------------------------------------
@@ -2693,19 +1841,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2713,19 +1853,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t array -> 'a -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2733,19 +1865,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Max neuron
 -------------------------------------------------------------------------------
@@ -2768,19 +1892,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2788,19 +1904,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t array -> 'a -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2808,19 +1916,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Average neuron
 -------------------------------------------------------------------------------
@@ -2843,19 +1943,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2863,19 +1955,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t array -> 'a -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2883,19 +1967,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Concatenate neuron
 -------------------------------------------------------------------------------
@@ -2919,19 +1995,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2939,19 +2007,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t array -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -2959,19 +2019,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Normalisation neuron
 -------------------------------------------------------------------------------
@@ -3001,19 +2053,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3021,19 +2065,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3041,19 +2077,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3061,19 +2089,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3081,19 +2101,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3101,29 +2113,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 GaussianNoise neuron
 -------------------------------------------------------------------------------
@@ -3147,19 +2147,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3167,19 +2159,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3187,19 +2171,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 GaussianDropout neuron
 -------------------------------------------------------------------------------
@@ -3223,19 +2199,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3243,19 +2211,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3263,19 +2223,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 AlphaDropout neuron
 -------------------------------------------------------------------------------
@@ -3299,19 +2251,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3319,19 +2263,11 @@ Connect this neuron to others in a neural network.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t -> neuron_typ -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3339,19 +2275,11 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Embedding neuron
 -------------------------------------------------------------------------------
@@ -3377,19 +2305,11 @@ Neuron type definition.
 
 Create the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L98>`__
-
-
-
 .. code-block:: ocaml
 
   val connect : int array -> neuron_typ -> unit
 
 Connect this neuron to others in a neural network.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3397,19 +2317,11 @@ Connect this neuron to others in a neural network.
 
 Initialise the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
-
 .. code-block:: ocaml
 
   val reset : neuron_typ -> unit
 
 Reset the parameters in a neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3417,19 +2329,11 @@ Reset the parameters in a neuron.
 
 Tag the neuron, used by ``Algodiff`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpar : neuron_typ -> t array
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3437,19 +2341,11 @@ Assemble all the parameters in an array, used by ``Optimise`` module.
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
-
 .. code-block:: ocaml
 
   val mkadj : neuron_typ -> t array
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3457,19 +2353,11 @@ Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
 Update parameters in a neuron, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
-
 .. code-block:: ocaml
 
   val copy : neuron_typ -> neuron_typ
 
 Make a deep copy of the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3477,29 +2365,17 @@ Make a deep copy of the neuron and its parameters.
 
 Execute the computation in this neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : neuron_typ -> string
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : unit -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 
 Masking neuron
 -------------------------------------------------------------------------------
@@ -3588,19 +2464,11 @@ Get the output shape of a neuron.
 
 Connect this neuron to others in a neural network.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L156>`__
-
-
-
 .. code-block:: ocaml
 
   val init : neuron -> unit
 
 Initialise the neuron and its parameters.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L234>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3608,19 +2476,11 @@ Initialise the neuron and its parameters.
 
 Reset the parameters in a neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L240>`__
-
-
-
 .. code-block:: ocaml
 
   val mktag : int -> neuron -> unit
 
 Tag the neuron, used by ``Algodiff`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L244>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3628,19 +2488,11 @@ Tag the neuron, used by ``Algodiff`` module.
 
 Assemble all the parameters in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L248>`__
-
-
-
 .. code-block:: ocaml
 
   val mkpri : neuron -> t array
 
 Assemble all the primial values in an array, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L250>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3648,19 +2500,11 @@ Assemble all the primial values in an array, used by ``Optimise`` module.
 
 Assemble all the adjacent values in an array, used by ``Optimise`` module.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L252>`__
-
-
-
 .. code-block:: ocaml
 
   val update : neuron -> t array -> unit
 
 Update parameters in a neuron, used by ``Optimise`` module.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L254>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3668,19 +2512,11 @@ Update parameters in a neuron, used by ``Optimise`` module.
 
 Make a deep copy of the neuron and its parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L103>`__
-
-
-
 .. code-block:: ocaml
 
   val run : t array -> neuron -> t
 
 Execute the computation in this neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L56>`__
-
-
 
 .. code-block:: ocaml
 
@@ -3688,17 +2524,9 @@ Execute the computation in this neuron.
 
 Convert the neuron to its string representation. The string is often a summary of the parameters defined in the neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L75>`__
-
-
-
 .. code-block:: ocaml
 
   val to_name : neuron -> string
 
 Return the name of the neuron.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L85>`__
-
-
 

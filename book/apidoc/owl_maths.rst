@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #142 entries have been extracted.
-timestamp:1518020077
+timestamp:1518025252
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -1239,19 +1239,11 @@ Sine and cosine integrals, ``sici x`` returns ``(si, ci)``.
 
 Sine integral.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L207>`__
-
-
-
 .. code-block:: ocaml
 
   val ci : float -> float
 
 Cosine integral.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L208>`__
-
-
 
 .. code-block:: ocaml
 

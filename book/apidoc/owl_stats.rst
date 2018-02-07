@@ -3,7 +3,7 @@ Stats
 
 This document is auto-generated for Owl's APIs.
 #224 entries have been extracted.
-timestamp:1518020077
+timestamp:1518025252
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/stats/owl_stats.mli>`_ 
@@ -66,10 +66,6 @@ Basic statistical functions
   val mean : float array -> float
 
 ``mean x`` returns the mean of the elements in ``x``.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L35>`__
-
-
 
 .. code-block:: ocaml
 
@@ -262,10 +258,6 @@ TODO
   val max : float array -> float
 
 ``max x`` returns the maximum element in ``x``.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L225>`__
-
-
 
 .. code-block:: ocaml
 

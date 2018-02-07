@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #41 entries have been extracted.
-timestamp:1518020078
+timestamp:1518025253
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -98,10 +98,6 @@ If ``p = 2``, then ``n`` is approximately ``max (svd x)``. This is equivalent to
 
 If ``p = infinity``, then ``n`` is the maximum absolute row sum of the matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L523>`__
-
-
-
 .. code-block:: ocaml
 
   val cond : ?p:float -> ('a, 'b) t -> float
@@ -127,10 +123,6 @@ The default value of ``p`` is ``2.``
 ``rcond x`` returns an estimate for the reciprocal condition of ``x`` in 1-norm.
 If ``x`` is well conditioned, the returned result is near ``1.0``. If ``x`` is badly
 conditioned, the result is near ``0.``
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L543>`__
-
-
 
 .. code-block:: ocaml
 
@@ -332,6 +324,10 @@ needs to be consistent with input type. E.g., if the input ``x`` is ``float32``
 then ``otyp`` must be ``complex32``. However, if you use S, D, C, Z module, then
 you do not need to worry about ``otyp``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L266>`__
+
+
+
 .. code-block:: ocaml
 
   val hess : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
@@ -361,12 +357,20 @@ of an arbitrary square matrix ``x``. The eigenvectors are column vectors in
 Note that ``otyp`` specifies the complex type of the output, but you do not
 need worry about this parameter if you use S, D, C, Z modules in Linalg.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L285>`__
+
+
+
 .. code-block:: ocaml
 
   val eigvals : ?permute:bool -> ?scale:bool -> otyp:('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t
 
 ``eigvals x -> w`` is similar to ``eig`` but only computes the eigenvalues of
 an arbitrary square matrix ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L353>`__
+
+
 
 Linear system of equations
 -------------------------------------------------------------------------------

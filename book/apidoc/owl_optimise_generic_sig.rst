@@ -3,7 +3,7 @@ Optimise.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #60 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025255
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_optimise_generic_sig.ml>`_ 
@@ -73,19 +73,11 @@ types of learning rate
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val default : typ -> typ
 
 Create module ``typ`` with default values.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L78>`__
-
-
 
 .. code-block:: ocaml
 
@@ -102,10 +94,6 @@ Update the cache of gradients.
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Batch module
 -------------------------------------------------------------------------------
@@ -125,29 +113,17 @@ Types of batches.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val batches : typ -> t -> int
 
 Return the total number of batches given a batch ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L116>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Loss module
 -------------------------------------------------------------------------------
@@ -173,19 +149,11 @@ Types of loss functions.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Gradient module
 -------------------------------------------------------------------------------
@@ -205,19 +173,11 @@ Types of gradient function.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Momentum module
 -------------------------------------------------------------------------------
@@ -237,29 +197,17 @@ Types of momentum functions.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val default : typ -> typ
 
 Create module ``typ`` with default values.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L78>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Regularisation module
 -------------------------------------------------------------------------------
@@ -283,19 +231,11 @@ Types of regularisation functions.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Clipping module
 -------------------------------------------------------------------------------
@@ -315,29 +255,17 @@ Types of clipping functions.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val default : typ -> typ
 
 Create module ``typ`` with default values.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L78>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Stopping module
 -------------------------------------------------------------------------------
@@ -357,29 +285,17 @@ Types of stopping functions.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val default : typ -> typ
 
 Create module ``typ`` with default values.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L78>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Checkpoint module
 -------------------------------------------------------------------------------
@@ -463,19 +379,11 @@ Print out the summary of current ``state``.
 
 Execute the computations defined in module ``typ``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L70>`__
-
-
-
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Params module
 -------------------------------------------------------------------------------
@@ -507,25 +415,21 @@ Type definition of paramater.
 
 Create module ``typ`` with default values.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L78>`__
-
-
-
 .. code-block:: ocaml
 
   val config : ?batch:Batch.typ -> ?gradient:Gradient.typ -> ?loss:Loss.typ -> ?learning_rate:Learning_Rate.typ -> ?regularisation:Regularisation.typ -> ?momentum:Momentum.typ -> ?clipping:Clipping.typ -> ?stopping:Stopping.typ -> ?checkpoint:Checkpoint.typ -> ?verbosity:bool -> float -> typ
 
 This function creates a parameter object with many configurations.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L429>`__
+
+
+
 .. code-block:: ocaml
 
   val to_string : typ -> string
 
 Convert the module ``typ`` to its string representation.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L91>`__
-
-
 
 Core functions
 -------------------------------------------------------------------------------

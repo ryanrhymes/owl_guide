@@ -3,7 +3,7 @@ Lazy Functor
 
 This document is auto-generated for Owl's APIs.
 #152 entries have been extracted.
-timestamp:1518020080
+timestamp:1518025255
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ 
@@ -1471,10 +1471,6 @@ Advanced operations
   val id : t -> int
 
 ``id x`` retrieves the id number of ``x``.
-
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L96>`__
-
-
 
 .. code-block:: ocaml
 
