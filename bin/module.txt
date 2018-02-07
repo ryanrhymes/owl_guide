@@ -28,3 +28,6 @@ opencl/owl_opencl_base.mli | opencl/owl_opencl_base.ml | High-level OpenCL API
 base/misc/owl_utils_stack.mli | base/misc/owl_utils_stack.ml | Utils.Stack
 zoo/owl_zoo_cmd.mli | zoo/owl_zoo_cmd.ml | Zoo System
 top/owl_top.mli | top/owl_top.ml | Toplevel
+base/dense/owl_base_dense_ndarray_generic.mli | base/dense/owl_base_dense_ndarray_generic.ml | Base.Dense.Ndarray.Generic
+base/maths/owl_base_maths.mli | base/maths/owl_base_maths.ml | Base.Maths
+base/stats/owl_base_stats.mli | base/stats/owl_base_stats.ml | Base.Stats

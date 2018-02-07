@@ -2,12 +2,17 @@ Toplevel
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#2 entries have been extracted.
-timestamp:1518028380
+#3 entries have been extracted.
+timestamp:1518030855
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.mli>`_ 
 `[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.ml>`_
+
+
+
+Core functions
+-------------------------------------------------------------------------------
 
 
 

@@ -65,5 +65,11 @@ Owl's API Reference
 
   owl_top
 
-#4685 entries (incl. constants, types, and functions) have been extracted.
+  owl_base_dense_ndarray_generic
+
+  owl_base_maths
+
+  owl_base_stats
+
+#4861 entries (incl. constants, types, and functions) have been extracted.
 
