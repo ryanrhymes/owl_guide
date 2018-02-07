@@ -1,7 +1,7 @@
 Broadcasting Operation
 =================================================
 
-Indexing, slicing, and broadcasting are three fundamental functions in `Ndarray module <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_. This chapter introduces the broadcasting operation in Owl. For indexing and slicing, please refer to `[this Chapter] <slicing>`_.
+Indexing, slicing, and broadcasting are three fundamental functions in `Ndarray module <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_. This chapter introduces the broadcasting operation in Owl. For indexing and slicing, please refer to :doc:`[this Chapter] <slicing>`.
 
 
 
