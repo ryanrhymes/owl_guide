@@ -3,7 +3,7 @@ Dense.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #396 entries have been extracted.
-timestamp:1517969970
+timestamp:1518019720
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -23,8 +23,6 @@ Type definition
 
 N-dimensional array type, i.e. Bigarray Genarray type.
 
-
-
 Create matrices
 -------------------------------------------------------------------------------
 
@@ -37,6 +35,8 @@ Create matrices
 ``empty m n`` creates an ``m`` by ``n`` matrix without initialising the values of
 elements in ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L21>`__
+
 
 
 .. code-block:: ocaml
@@ -45,6 +45,8 @@ elements in ``x``.
 
 ``create m n a`` creates an ``m`` by ``n`` matrix and all the elements of ``x`` are
 initialised with the value ``a``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L24>`__
 
 
 
@@ -57,6 +59,8 @@ initialised with the value ``a``.
 index of the matrix. You need to explicitly convert it if you need 2D
 index. The function ``Owl_utils.ind`` can help you.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L33>`__
+
 
 
 .. code-block:: ocaml
@@ -67,6 +71,8 @@ index. The function ``Owl_utils.ind`` can help you.
 as input. It is more convenient since you don't have to convert the index by
 yourself, but this also means ``init_nd`` is slower than ``init``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L36>`__
+
 
 
 .. code-block:: ocaml
@@ -76,6 +82,8 @@ yourself, but this also means ``init_nd`` is slower than ``init``.
 ``zeros m n`` creates an ``m`` by ``n`` matrix where all the elements are
 initialised to zeros.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L27>`__
+
 
 
 .. code-block:: ocaml
@@ -84,6 +92,8 @@ initialised to zeros.
 
 ``ones m n`` creates an ``m`` by ``n`` matrix where all the elements are ones.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L30>`__
+
 
 
 .. code-block:: ocaml
@@ -91,6 +101,8 @@ initialised to zeros.
   val eye : ('a, 'b) kind -> int -> ('a, 'b) t
 
 ``eye m`` creates an ``m`` by ``m`` identity matrix.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L47>`__
 
 
 
@@ -105,8 +117,6 @@ Note that both ``re`` and ``im`` can be complex but must have same type. The rea
 part of ``re`` will be the real part of ``x`` and the imaginary part of ``im`` will
 be the imaginary part of ``x``.
 
-
-
 .. code-block:: ocaml
 
   val polar : ('a, 'b) kind -> ('c, 'd) kind -> ('a, 'b) t -> ('a, 'b) t -> ('c, 'd) t
@@ -116,8 +126,6 @@ coordinates ``rho`` and ``theta``. ``rho`` contains the magnitudes and ``theta``
 contains phase angles. Note that the behaviour is undefined if ``rho`` has
 negative elelments or ``theta`` has infinity elelments.
 
-
-
 .. code-block:: ocaml
 
   val sequential : ('a, 'b) kind -> ?a:'a -> ?step:'a -> int -> int -> ('a, 'b) t
@@ -126,6 +134,8 @@ negative elelments or ``theta`` has infinity elelments.
 are initialised sequentiallly from ``~a`` and is increased by ``~step``.
 
 The default value of ``~a`` is zero whilst the default value of ``~step`` is one.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L50>`__
 
 
 
@@ -137,6 +147,8 @@ The default value of ``~a`` is zero whilst the default value of ``~step`` is one
 follow a uniform distribution in ``(0,1)`` interval. ``uniform ~scale:a m n``
 adjusts the interval to ``(0,a)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L188>`__
+
 
 
 .. code-block:: ocaml
@@ -146,6 +158,8 @@ adjusts the interval to ``(0,a)``.
 ``gaussian m n`` creates an ``m`` by ``n`` matrix where all the elements in ``x``
 follow a Gaussian distribution with specified sigma. By default ``sigma = 1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L191>`__
+
 
 
 .. code-block:: ocaml
@@ -153,6 +167,8 @@ follow a Gaussian distribution with specified sigma. By default ``sigma = 1``.
   val semidef : (float, 'b) kind -> int -> (float, 'b) t
 
 `` semidef n `` returns an random ``n`` by ``n`` positive semi-definite matrix.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L523>`__
 
 
 
@@ -164,6 +180,8 @@ follow a Gaussian distribution with specified sigma. By default ``sigma = 1``.
 creating an ``m`` by ``1`` row vector. E.g., ``linspace 0. 5. 5`` will create a
 row vector ``[0;1;2;3;4;5]``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L54>`__
+
 
 
 .. code-block:: ocaml
@@ -171,6 +189,8 @@ row vector ``[0;1;2;3;4;5]``.
   val logspace : ('a, 'b) kind -> ?base:float -> 'a -> 'a -> int -> ('a, 'b) t
 
 ``logspace base a b n`` ... the default value of base is ``e``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L59>`__
 
 
 
@@ -183,6 +203,8 @@ Matlab. It returns two matrices ``x`` and ``y`` where the row vectors in ``x`` a
 linearly spaced between ``[a1,b1]`` by ``n1`` whilst the column vectors in ``y``
 are linearly spaced between ``(a2,b2)`` by ``n2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L547>`__
+
 
 
 .. code-block:: ocaml
@@ -191,6 +213,8 @@ are linearly spaced between ``(a2,b2)`` by ``n2``.
 
 ``meshup x y`` creates mesh grids by using two row vectors ``x`` and ``y``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L554>`__
+
 
 
 .. code-block:: ocaml
@@ -198,6 +222,8 @@ are linearly spaced between ``(a2,b2)`` by ``n2``.
   val bernoulli : ('a, 'b) kind -> ?p:float -> int -> int -> ('a, 'b) t
 
 ``bernoulli k ~p:0.3 m n``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L194>`__
 
 
 
@@ -210,6 +236,8 @@ diagonal values. ``k`` specifies the main diagonal index. If ``k > 0`` then it i
 above the main diagonal, if ``k < 0`` then it is below the main diagonal.
 This function is the same as the ``diag`` function in Matlab.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L64>`__
+
 
 
 .. code-block:: ocaml
@@ -220,6 +248,8 @@ This function is the same as the ``diag`` function in Matlab.
 ``k = 0`` is the main diagonal, ``k > 0`` is above the main diagonal, and
 ``k < 0`` is below the main diagonal.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L80>`__
+
 
 
 .. code-block:: ocaml
@@ -229,6 +259,8 @@ This function is the same as the ``diag`` function in Matlab.
 ``tril k x`` returns the element on and below the ``k``th diagonal of ``x``.
 ``k = 0`` is the main diagonal, ``k > 0`` is above the main diagonal, and
 ``k < 0`` is below the main diagonal.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L101>`__
 
 
 
@@ -241,6 +273,8 @@ triangular part of ``x``. If ``upper`` is ``true`` then it uses the upper part, 
 ``upper`` is ``false``, then ``symmetric`` uses the lower part. By default ``upper``
 is true.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L120>`__
+
 
 
 .. code-block:: ocaml
@@ -250,6 +284,8 @@ is true.
 ``hermitian ~upper x`` creates a hermitian matrix based on ``x``. By default,
 the upper triangular part is used for creating the hermitian matrix, but you
 use the lower part by setting ``upper=false``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L162>`__
 
 
 
@@ -267,6 +303,8 @@ function set the imaginary part of the diagonal elements to zero by default.
 In other words, if the diagonal elements of ``x`` have non-zero imaginary parts,
 the imaginary parts will be dropped without a warning.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L140>`__
+
 
 
 .. code-block:: ocaml
@@ -280,6 +318,8 @@ different from that of ``r``, ``r``'s first element will be used.
 Note: 1) If ``c`` is not passed in, then ``c = r`` will be used. 2) If ``c`` is not
 passed in and ``r`` is complex, the ``c = conj r`` will be used. 3) If ``r`` and ``c``
 have different length, then the result is a rectangular matrix.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L197>`__
 
 
 
@@ -295,6 +335,8 @@ zero. 2) If the last element of ``c`` is different from the first element of ``r
 then the first element of ``c`` prevails. 3) ``c`` and ``r`` can have different
 length, the return will be an rectangular matrix.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L218>`__
+
 
 
 .. code-block:: ocaml
@@ -304,6 +346,8 @@ length, the return will be an rectangular matrix.
 ``hadamard k n`` constructs a hadamard matrix of order ``n``. For a hadamard ``H``,
 we have ``H'*H = n*I``. Currrently, this function handles only the cases where
 ``n``, ``n/12``, or ``n/20`` is a power of 2.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L607>`__
 
 
 
@@ -316,6 +360,8 @@ we have ``H'*H = n*I``. Currrently, this function handles only the cases where
 
 There are three different algorithms to deal with ``n`` is odd, singly even,
 and doubly even respectively.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L669>`__
 
 
 
@@ -331,6 +377,8 @@ Obtain basic properties
 If ``x`` is an ``m`` by ``n`` matrix, ``shape x`` returns ``(m,n)``, i.e., the size
 of two dimensions of ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L13>`__
+
 
 
 .. code-block:: ocaml
@@ -339,15 +387,11 @@ of two dimensions of ``x``.
 
 ``row_num x`` returns the number of rows in matrix ``x``.
 
-
-
 .. code-block:: ocaml
 
   val col_num : ('a, 'b) t -> int
 
 ``col_num x`` returns the number of columns in matrix ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -356,15 +400,11 @@ of two dimensions of ``x``.
 ``numel x`` returns the number of elements in matrix ``x``. It is equivalent
 to ``(row_num x) * (col_num x)``.
 
-
-
 .. code-block:: ocaml
 
   val nnz : ('a, 'b) t -> int
 
 ``nnz x`` returns the number of non-zero elements in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -372,15 +412,11 @@ to ``(row_num x) * (col_num x)``.
 
 ``density x`` returns the percentage of non-zero elements in ``x``.
 
-
-
 .. code-block:: ocaml
 
   val size_in_bytes : ('a, 'b) t -> int
 
 ``size_in_bytes x`` returns the size of ``x`` in bytes in memory.
-
-
 
 .. code-block:: ocaml
 
@@ -388,15 +424,11 @@ to ``(row_num x) * (col_num x)``.
 
 ``same_shape x y`` returns ``true`` if two matrics have the same shape.
 
-
-
 .. code-block:: ocaml
 
   val kind : ('a, 'b) t -> ('a, 'b) kind
 
 ``kind x`` returns the type of matrix ``x``.
-
-
 
 Manipulate a matrix
 -------------------------------------------------------------------------------
@@ -410,6 +442,8 @@ Manipulate a matrix
 ``get x i j`` returns the value of element ``(i,j)`` of ``x``. The shorthand
 for ``get x i j`` is ``x.{i,j}``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L265>`__
+
 
 
 .. code-block:: ocaml
@@ -418,6 +452,8 @@ for ``get x i j`` is ``x.{i,j}``
 
 ``set x i j a`` sets the element ``(i,j)`` of ``x`` to value ``a``. The shorthand
 for ``set x i j a`` is ``x.{i,j} <- a``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L268>`__
 
 
 
@@ -433,8 +469,6 @@ that dimension.
 E.g., ``[| [|1;2|]; [|3;4|] |]`` returns the value of elements at position
 ``(1,3)`` and ``(2,4)`` respectively.
 
-
-
 .. code-block:: ocaml
 
   val set_index : ('a, 'b) t -> int array array -> 'a array -> unit
@@ -444,8 +478,6 @@ specified by ``i``. The length of array ``i`` equals the number of dimensions of
 ``x``. The arrays in ``i`` must have the same length, and each represents the
 indices in that dimension.
 
-
-
 .. code-block:: ocaml
 
   val get_fancy : index list -> ('a, 'b) t -> ('a, 'b) t
@@ -453,8 +485,6 @@ indices in that dimension.
 ``get_fancy s x`` returns a copy of the slice in ``x``. The slice is defined by
 ``a`` which is an ``int array``. Please refer to the same function in the
 ``Owl_dense_ndarray_generic`` documentation for more details.
-
-
 
 .. code-block:: ocaml
 
@@ -464,8 +494,6 @@ indices in that dimension.
 the values in ``y``. ``y`` must have the same shape as the one defined by ``axis``.
 
 About the slice definition of ``axis``, please refer to ``slice`` function.
-
-
 
 .. code-block:: ocaml
 
@@ -477,8 +505,6 @@ represents a range, i.e., ``R`` constructor.
 
 E.g., ``[[];[0;3];[0]]`` is equivalent to ``[R []; R [0;3]; R [0]]``.
 
-
-
 .. code-block:: ocaml
 
   val set_slice : int list list -> ('a, 'b) t -> ('a, 'b) t -> unit
@@ -489,8 +515,6 @@ represents a range, i.e., ``R`` constructor.
 
 E.g., ``[[];[0;3];[0]]`` is equivalent to ``[R []; R [0;3]; R [0]]``.
 
-
-
 .. code-block:: ocaml
 
   val row : ('a, 'b) t -> int -> ('a, 'b) t
@@ -499,16 +523,12 @@ E.g., ``[[];[0;3];[0]]`` is equivalent to ``[R []; R [0;3]; R [0]]``.
 is simply a view onto the original row in ``x``, so modifying ``row``'s
 value also alters ``x``.
 
-
-
 .. code-block:: ocaml
 
   val col : ('a, 'b) t -> int -> ('a, 'b) t
 
 ``col x j`` returns column ``j`` of ``x``.  Note: Unlike ``row``, the return
 value is a copy of the original row in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -518,8 +538,6 @@ value is a copy of the original row in ``x``.
 returned rows will be combined into a new dense matrix. The order of rows in
 the new matrix is the same as that in the array ``a``.
 
-
-
 .. code-block:: ocaml
 
   val cols : ('a, 'b) t -> int array -> ('a, 'b) t
@@ -527,15 +545,11 @@ the new matrix is the same as that in the array ``a``.
 Similar to ``rows``, ``cols x a`` returns the columns (specified in array ``a``)
 of x in a new dense matrix.
 
-
-
 .. code-block:: ocaml
 
   val resize : ?head:bool -> ('a, 'b) t -> int array -> ('a, 'b) t
 
 ``resize x s`` please refer to the Ndarray document.
-
-
 
 .. code-block:: ocaml
 
@@ -545,8 +559,6 @@ of x in a new dense matrix.
 matrix ``x``. Note that ``(m * n)`` must be equal to ``(m' * n')``, and the
 returned matrix shares the same memory with the original ``x``.
 
-
-
 .. code-block:: ocaml
 
   val flatten : ('a, 'b) t -> ('a, 'b) t
@@ -554,16 +566,12 @@ returned matrix shares the same memory with the original ``x``.
 ``flatten x`` reshape ``x`` into a ``1`` by ``n`` row vector without making a copy.
 Therefore the returned value shares the same memory space with original ``x``.
 
-
-
 .. code-block:: ocaml
 
   val reverse : ('a, 'b) t -> ('a, 'b) t
 
 ``reverse x`` reverse the order of all elements in the flattened ``x`` and
 returns the results in a new matrix. The original ``x`` remains intact.
-
-
 
 .. code-block:: ocaml
 
@@ -573,8 +581,6 @@ returns the results in a new matrix. The original ``x`` remains intact.
 The result is returned in a new matrix/ndarray, so the original ``x`` remains
 intact.
 
-
-
 .. code-block:: ocaml
 
   val rotate : ('a, 'b) t -> int -> ('a, 'b) t
@@ -583,15 +589,11 @@ intact.
 of ``90``, otherwise the function will fail. If ``x`` is an n-dimensional array,
 then the function rotates the plane formed by the first and second dimensions.
 
-
-
 .. code-block:: ocaml
 
   val reset : ('a, 'b) t -> unit
 
 ``reset x`` resets all the elements of ``x`` to zero value.
-
-
 
 .. code-block:: ocaml
 
@@ -599,15 +601,11 @@ then the function rotates the plane formed by the first and second dimensions.
 
 ``fill x a`` fills the ``x`` with value ``a``.
 
-
-
 .. code-block:: ocaml
 
   val copy : ('a, 'b) t -> ('a, 'b) t
 
 ``copy x`` returns a copy of matrix ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -616,16 +614,12 @@ then the function rotates the plane formed by the first and second dimensions.
 ``copy_to x y`` copies the elements of ``x`` to ``y``. ``x`` and ``y`` must have
 the same dimensions.
 
-
-
 .. code-block:: ocaml
 
   val copy_row_to : ('a, 'b) t -> ('a, 'b) t -> int -> unit
 
 ``copy_row_to v x i`` copies an ``1`` by ``n`` row vector ``v`` to the ``ith`` row
 in an ``m`` by ``n`` matrix ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -634,14 +628,14 @@ in an ``m`` by ``n`` matrix ``x``.
 ``copy_col_to v x j`` copies an ``1`` by ``n`` column vector ``v`` to the ``jth``
 column in an ``m`` by ``n`` matrix ``x``.
 
-
-
 .. code-block:: ocaml
 
   val concat_vertical : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``concat_vertical x y`` concats two matrices ``x`` and ``y`` vertically,
 therefore their column numbers must be the same.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L271>`__
 
 
 
@@ -651,6 +645,8 @@ therefore their column numbers must be the same.
 
 ``concat_horizontal x y`` concats two matrices ``x`` and ``y`` horizontally,
 therefore their row numbers must be the same.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L274>`__
 
 
 
@@ -663,21 +659,19 @@ dimension. For the matrices in ``x``, they must have the same shape except the
 dimension specified by ``axis``. The default value of ``axis`` is 0, i.e., the
 lowest dimension on a marix, i.e., rows.
 
-
-
 .. code-block:: ocaml
 
   val split : ?axis:int -> int array -> ('a, 'b) t -> ('a, 'b) t array
 
 ``split ~axis parts x``
 
-
-
 .. code-block:: ocaml
 
   val transpose : ('a, 'b) t -> ('a, 'b) t
 
 ``transpose x`` transposes an ``m`` by ``n`` matrix to ``n`` by ``m`` one.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L288>`__
 
 
 
@@ -688,6 +682,8 @@ lowest dimension on a marix, i.e., rows.
 ``ctranspose x`` performs conjugate transpose of a complex matrix ``x``. If ``x``
 is a real matrix, then ``ctranspose x`` is equivalent to ``transpose x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L296>`__
+
 
 
 .. code-block:: ocaml
@@ -697,13 +693,13 @@ is a real matrix, then ``ctranspose x`` is equivalent to ``transpose x``.
 ``diag k x`` returns the ``k``th diagonal elements of ``x``. ``k > 0`` means above
 the main diagonal and ``k < 0`` means the below the main diagonal.
 
-
-
 .. code-block:: ocaml
 
   val swap_rows : ('a, 'b) t -> int -> int -> unit
 
 ``swap_rows x i i'`` swaps the row ``i`` with row ``i'`` of ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L278>`__
 
 
 
@@ -713,6 +709,8 @@ the main diagonal and ``k < 0`` means the below the main diagonal.
 
 ``swap_cols x j j'`` swaps the column ``j`` with column ``j'`` of ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L283>`__
+
 
 
 .. code-block:: ocaml
@@ -721,15 +719,11 @@ the main diagonal and ``k < 0`` means the below the main diagonal.
 
 ``tile x a`` provides the exact behaviour as ``numpy.tile`` function.
 
-
-
 .. code-block:: ocaml
 
   val repeat : ?axis:int -> ('a, 'b) t -> int -> ('a, 'b) t
 
 ``repeat ~axis x a`` repeats the elements along ``~axis`` for ``a`` times.
-
-
 
 .. code-block:: ocaml
 
@@ -737,16 +731,12 @@ the main diagonal and ``k < 0`` means the below the main diagonal.
 
 ``padd ~v:0. [[1;1]] x``
 
-
-
 .. code-block:: ocaml
 
   val dropout : ?rate:float -> ('a, 'b) t -> ('a, 'b) t
 
 ``dropout ~rate:0.3 x`` drops out 30% of the elements in ``x``, in other words,
 by setting their values to zeros.
-
-
 
 .. code-block:: ocaml
 
@@ -756,8 +746,6 @@ by setting their values to zeros.
 arranged according to the corresponding elelment values, from the greatest one
 to the smallest one.
 
-
-
 .. code-block:: ocaml
 
   val bottom : ('a, 'b) t -> int -> int array array
@@ -766,15 +754,11 @@ to the smallest one.
 are arranged according to the corresponding elelment values, from the smallest
 one to the greatest one.
 
-
-
 .. code-block:: ocaml
 
   val sort : ('a, 'b) t -> unit
 
 ``sort x`` performs in-place quicksort of the elelments in ``x``.
-
-
 
 Iteration functions
 -------------------------------------------------------------------------------
@@ -789,16 +773,12 @@ Iteration functions
 function ``f : int -> int -> float -> 'a``. ``f i j v`` takes three parameters,
 ``i`` and ``j`` are the coordinates of current element, and ``v`` is its value.
 
-
-
 .. code-block:: ocaml
 
   val iter : ('a -> unit) -> ('a, 'b) t -> unit
 
 ``iter f x`` is the same as as ``iteri f x`` except the coordinates of the
 current element is not passed to the function ``f : float -> 'a``
-
-
 
 .. code-block:: ocaml
 
@@ -808,16 +788,12 @@ current element is not passed to the function ``f : float -> 'a``
 ``f : int -> int -> float -> float``. The first two parameters are the
 coordinates of the element, and the third parameter is the value.
 
-
-
 .. code-block:: ocaml
 
   val map : ('a -> 'a) -> ('a, 'b) t -> ('a, 'b) t
 
 ``map f x`` is similar to ``mapi f x`` except the coordinates of the
 current element is not passed to the function ``f : float -> float``
-
-
 
 .. code-block:: ocaml
 
@@ -828,15 +804,11 @@ the specified ``axis`` using passed in function ``f``. ``a`` is the initial elem
 and in ``f i acc b`` ``acc`` is the accumulater and ``b`` is one of the elemets in
 ``x`` along the same axis. Note that ``i`` is 1d index of ``b``.
 
-
-
 .. code-block:: ocaml
 
   val fold : ?axis:int -> ('a -> 'a -> 'a) -> 'a -> ('a, 'b) t -> ('a, 'b) t
 
 Similar to ``foldi``, except that the index of an element is not passed to ``f``.
-
-
 
 .. code-block:: ocaml
 
@@ -848,15 +820,11 @@ the next call to ``f i acc a``. This function can be used to implement
 accumulative operations such as ``sum`` and ``prod`` functions. Note that the ``i``
 is 1d index of ``a`` in ``x``.
 
-
-
 .. code-block:: ocaml
 
   val scan : ?axis:int -> ('a -> 'a -> 'a) -> ('a, 'b) t -> ('a, 'b) t
 
 Similar to ``scani``, except that the index of an element is not passed to ``f``.
-
-
 
 .. code-block:: ocaml
 
@@ -866,16 +834,12 @@ Similar to ``scani``, except that the index of an element is not passed to ``f``
 elements in ``x``. An element will be included if ``f`` returns ``true``. The
 returned result is a list of coordinates of the selected elements.
 
-
-
 .. code-block:: ocaml
 
   val filter : ('a -> bool) -> ('a, 'b) t -> int array
 
 Similar to ``filteri``, but the coordinates of the elements are not passed to
 the function ``f : float -> bool``.
-
-
 
 .. code-block:: ocaml
 
@@ -884,6 +848,8 @@ the function ``f : float -> bool``.
 ``iteri_rows f x`` iterates every row in ``x`` and applies function
 ``f : int -> mat -> unit`` to each of them.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L319>`__
+
 
 
 .. code-block:: ocaml
@@ -891,6 +857,8 @@ the function ``f : float -> bool``.
   val iter_rows : (('a, 'b) t -> unit) -> ('a, 'b) t -> unit
 
 Similar to ``iteri_rows`` except row number is not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L325>`__
 
 
 
@@ -902,6 +870,8 @@ Similar to ``iteri_rows`` except row number is not passed to ``f``.
 ``f : int -> mat -> unit`` to each of them. Column number is passed to ``f`` as
 the first parameter.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L342>`__
+
 
 
 .. code-block:: ocaml
@@ -909,6 +879,8 @@ the first parameter.
   val iter_cols : (('a, 'b) t -> unit) -> ('a, 'b) t -> unit
 
 Similar to ``iteri_cols`` except col number is not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L349>`__
 
 
 
@@ -920,6 +892,8 @@ Similar to ``iteri_cols`` except col number is not passed to ``f``.
 row in ``x``, then returns an int array containing the indices of those rows
 which satisfy the function ``f``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L407>`__
+
 
 
 .. code-block:: ocaml
@@ -927,6 +901,8 @@ which satisfy the function ``f``.
   val filter_rows : (('a, 'b) t -> bool) -> ('a, 'b) t -> int array
 
 Similar to ``filteri_rows`` except that the row indices are not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L415>`__
 
 
 
@@ -938,6 +914,8 @@ Similar to ``filteri_rows`` except that the row indices are not passed to ``f``.
 column in ``x``, then returns an int array containing the indices of those
 columns which satisfy the function ``f``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L418>`__
+
 
 
 .. code-block:: ocaml
@@ -945,6 +923,8 @@ columns which satisfy the function ``f``.
   val filter_cols : (('a, 'b) t -> bool) -> ('a, 'b) t -> int array
 
 Similar to ``filteri_cols`` except that the column indices are not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L426>`__
 
 
 
@@ -955,6 +935,8 @@ Similar to ``filteri_cols`` except that the column indices are not passed to ``f
 ``fold_rows f a x`` folds all the rows in ``x`` using function ``f``. The order
 of folding is from the first row to the last one.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L435>`__
+
 
 
 .. code-block:: ocaml
@@ -963,6 +945,8 @@ of folding is from the first row to the last one.
 
 ``fold_cols f a x`` folds all the columns in ``x`` using function ``f``. The
 order of folding is from the first column to the last one.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L438>`__
 
 
 
@@ -974,6 +958,8 @@ order of folding is from the first column to the last one.
 function ``f : int -> mat -> 'a`` to each of them. The results is an array of
 all the returned values.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L352>`__
+
 
 
 .. code-block:: ocaml
@@ -981,6 +967,8 @@ all the returned values.
   val map_rows : (('a, 'b) t -> 'c) -> ('a, 'b) t -> 'c array
 
 Similar to ``mapi_rows`` except row number is not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L355>`__
 
 
 
@@ -991,6 +979,8 @@ Similar to ``mapi_rows`` except row number is not passed to ``f``.
 ``mapi_cols f x`` maps every column in ``x`` to a type ``'a`` value by applying
 function ``f : int -> mat -> 'a``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L358>`__
+
 
 
 .. code-block:: ocaml
@@ -998,6 +988,8 @@ function ``f : int -> mat -> 'a``.
   val map_cols : (('a, 'b) t -> 'c) -> ('a, 'b) t -> 'c array
 
 Similar to ``mapi_cols`` except column number is not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L363>`__
 
 
 
@@ -1009,6 +1001,8 @@ Similar to ``mapi_cols`` except column number is not passed to ``f``.
 then uses the returned ``d`` dimensional row vectors to assemble a new
 ``m`` by ``d`` matrix.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L366>`__
+
 
 
 .. code-block:: ocaml
@@ -1017,6 +1011,8 @@ then uses the returned ``d`` dimensional row vectors to assemble a new
 
 ``map_by_row d f x`` is similar to ``mapi_by_row`` except that the row indices
 are not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L373>`__
 
 
 
@@ -1028,6 +1024,8 @@ are not passed to ``f``.
 then uses the returned ``d`` dimensional column vectors to assemble a new
 ``d`` by ``n`` matrix.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L376>`__
+
 
 
 .. code-block:: ocaml
@@ -1036,6 +1034,8 @@ then uses the returned ``d`` dimensional column vectors to assemble a new
 
 ``map_by_col d f x`` is similar to ``mapi_by_col`` except that the column
 indices are not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L384>`__
 
 
 
@@ -1046,6 +1046,8 @@ indices are not passed to ``f``.
 ``mapi_at_row f x i`` creates a new matrix by applying function ``f`` only to
 the ``i``th row in matrix ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L387>`__
+
 
 
 .. code-block:: ocaml
@@ -1054,6 +1056,8 @@ the ``i``th row in matrix ``x``.
 
 ``map_at_row f x i`` is similar to ``mapi_at_row`` except that the coordinates
 of an element is not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L394>`__
 
 
 
@@ -1064,6 +1068,8 @@ of an element is not passed to ``f``.
 ``mapi_at_col f x j`` creates a new matrix by applying function ``f`` only to
 the ``j``th column in matrix ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L397>`__
+
 
 
 .. code-block:: ocaml
@@ -1072,6 +1078,8 @@ the ``j``th column in matrix ``x``.
 
 ``map_at_col f x i`` is similar to ``mapi_at_col`` except that the coordinates
 of an element is not passed to ``f``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L404>`__
 
 
 
@@ -1087,16 +1095,12 @@ Examination & Comparison
 ``exists f x`` checks all the elements in ``x`` using ``f``. If at least one
 element satisfies ``f`` then the function returns ``true`` otherwise ``false``.
 
-
-
 .. code-block:: ocaml
 
   val not_exists : ('a -> bool) -> ('a, 'b) t -> bool
 
 ``not_exists f x`` checks all the elements in ``x``, the function returns
 ``true`` only if all the elements fail to satisfy ``f : float -> bool``.
-
-
 
 .. code-block:: ocaml
 
@@ -1105,15 +1109,11 @@ element satisfies ``f`` then the function returns ``true`` otherwise ``false``.
 ``for_all f x`` checks all the elements in ``x``, the function returns ``true``
 if and only if all the elements pass the check of function ``f``.
 
-
-
 .. code-block:: ocaml
 
   val is_zero : ('a, 'b) t -> bool
 
 ``is_zero x`` returns ``true`` if all the elements in ``x`` are zeros.
-
-
 
 .. code-block:: ocaml
 
@@ -1121,15 +1121,11 @@ if and only if all the elements pass the check of function ``f``.
 
 ``is_positive x`` returns ``true`` if all the elements in ``x`` are positive.
 
-
-
 .. code-block:: ocaml
 
   val is_negative : ('a, 'b) t -> bool
 
 ``is_negative x`` returns ``true`` if all the elements in ``x`` are negative.
-
-
 
 .. code-block:: ocaml
 
@@ -1137,15 +1133,11 @@ if and only if all the elements pass the check of function ``f``.
 
 ``is_nonpositive`` returns ``true`` if all the elements in ``x`` are non-positive.
 
-
-
 .. code-block:: ocaml
 
   val is_nonnegative : ('a, 'b) t -> bool
 
 ``is_nonnegative`` returns ``true`` if all the elements in ``x`` are non-negative.
-
-
 
 .. code-block:: ocaml
 
@@ -1157,16 +1149,12 @@ numbers, i.e., not ``NaN``, not ``INF``, not ``SUBNORMAL``. Please refer to
 https://www.gnu.org/software/libc/manual/html_node/Floating-Point-Classes.html
 https://www.gnu.org/software/libc/manual/html_node/Infinity-and-NaN.html#Infinity-and-NaN
 
-
-
 .. code-block:: ocaml
 
   val not_nan : ('a, 'b) t -> bool
 
 ``not_nan x`` returns ``false`` if there is any ``NaN`` element in ``x``. Otherwise,
 the function returns ``true`` indicating all the numbers in ``x`` are not ``NaN``.
-
-
 
 .. code-block:: ocaml
 
@@ -1175,15 +1163,11 @@ the function returns ``true`` indicating all the numbers in ``x`` are not ``NaN`
 ``not_inf x`` returns ``false`` if there is any positive or negative ``INF``
 element in ``x``. Otherwise, the function returns ``true``.
 
-
-
 .. code-block:: ocaml
 
   val equal : ('a, 'b) t -> ('a, 'b) t -> bool
 
 ``equal x y`` returns ``true`` if two matrices ``x`` and ``y`` are equal.
-
-
 
 .. code-block:: ocaml
 
@@ -1192,16 +1176,12 @@ element in ``x``. Otherwise, the function returns ``true``.
 ``not_equal x y`` returns ``true`` if there is at least one element in ``x`` is
 not equal to that in ``y``.
 
-
-
 .. code-block:: ocaml
 
   val greater : ('a, 'b) t -> ('a, 'b) t -> bool
 
 ``greater x y`` returns ``true`` if all the elements in ``x`` are greater than
 the corresponding elements in ``y``.
-
-
 
 .. code-block:: ocaml
 
@@ -1210,8 +1190,6 @@ the corresponding elements in ``y``.
 ``less x y`` returns ``true`` if all the elements in ``x`` are smaller than
 the corresponding elements in ``y``.
 
-
-
 .. code-block:: ocaml
 
   val greater_equal : ('a, 'b) t -> ('a, 'b) t -> bool
@@ -1219,16 +1197,12 @@ the corresponding elements in ``y``.
 ``greater_equal x y`` returns ``true`` if all the elements in ``x`` are not
 smaller than the corresponding elements in ``y``.
 
-
-
 .. code-block:: ocaml
 
   val less_equal : ('a, 'b) t -> ('a, 'b) t -> bool
 
 ``less_equal x y`` returns ``true`` if all the elements in ``x`` are not
 greater than the corresponding elements in ``y``.
-
-
 
 .. code-block:: ocaml
 
@@ -1239,8 +1213,6 @@ that ``a`` is from ``x`` and ``b`` is the corresponding element of ``a`` from ``
 the same position. The function returns another binary (``0`` and ``1``)
 ndarray/matrix wherein ``1`` indicates ``a = b``.
 
-
-
 .. code-block:: ocaml
 
   val elt_not_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
@@ -1249,8 +1221,6 @@ ndarray/matrix wherein ``1`` indicates ``a = b``.
 Assume that ``a`` is from ``x`` and ``b`` is the corresponding element of ``a`` from
 ``y`` of the same position. The function returns another binary (``0`` and ``1``)
 ndarray/matrix wherein ``1`` indicates ``a <> b``.
-
-
 
 .. code-block:: ocaml
 
@@ -1261,8 +1231,6 @@ that ``a`` is from ``x`` and ``b`` is the corresponding element of ``a`` from ``
 the same position. The function returns another binary (``0`` and ``1``)
 ndarray/matrix wherein ``1`` indicates ``a < b``.
 
-
-
 .. code-block:: ocaml
 
   val elt_greater : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
@@ -1271,8 +1239,6 @@ ndarray/matrix wherein ``1`` indicates ``a < b``.
 Assume that ``a`` is from ``x`` and ``b`` is the corresponding element of ``a`` from
 ``y`` of the same position. The function returns another binary (``0`` and ``1``)
 ndarray/matrix wherein ``1`` indicates ``a > b``.
-
-
 
 .. code-block:: ocaml
 
@@ -1283,8 +1249,6 @@ Assume that ``a`` is from ``x`` and ``b`` is the corresponding element of ``a`` 
 ``y`` of the same position. The function returns another binary (``0`` and ``1``)
 ndarray/matrix wherein ``1`` indicates ``a <= b``.
 
-
-
 .. code-block:: ocaml
 
   val elt_greater_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
@@ -1294,16 +1258,12 @@ Assume that ``a`` is from ``x`` and ``b`` is the corresponding element of ``a`` 
 ``y`` of the same position. The function returns another binary (``0`` and ``1``)
 ndarray/matrix wherein ``1`` indicates ``a >= b``.
 
-
-
 .. code-block:: ocaml
 
   val equal_scalar : ('a, 'b) t -> 'a -> bool
 
 ``equal_scalar x a`` checks if all the elements in ``x`` are equal to ``a``. The
 function returns ``true`` iff for every element ``b`` in ``x``, ``b = a``.
-
-
 
 .. code-block:: ocaml
 
@@ -1312,16 +1272,12 @@ function returns ``true`` iff for every element ``b`` in ``x``, ``b = a``.
 ``not_equal_scalar x a`` checks if all the elements in ``x`` are not equal to ``a``.
 The function returns ``true`` iff for every element ``b`` in ``x``, ``b <> a``.
 
-
-
 .. code-block:: ocaml
 
   val less_scalar : ('a, 'b) t -> 'a -> bool
 
 ``less_scalar x a`` checks if all the elements in ``x`` are less than ``a``.
 The function returns ``true`` iff for every element ``b`` in ``x``, ``b < a``.
-
-
 
 .. code-block:: ocaml
 
@@ -1330,16 +1286,12 @@ The function returns ``true`` iff for every element ``b`` in ``x``, ``b < a``.
 ``greater_scalar x a`` checks if all the elements in ``x`` are greater than ``a``.
 The function returns ``true`` iff for every element ``b`` in ``x``, ``b > a``.
 
-
-
 .. code-block:: ocaml
 
   val less_equal_scalar : ('a, 'b) t -> 'a -> bool
 
 ``less_equal_scalar x a`` checks if all the elements in ``x`` are less or equal
 to ``a``. The function returns ``true`` iff for every element ``b`` in ``x``, ``b <= a``.
-
-
 
 .. code-block:: ocaml
 
@@ -1348,8 +1300,6 @@ to ``a``. The function returns ``true`` iff for every element ``b`` in ``x``, ``
 ``greater_equal_scalar x a`` checks if all the elements in ``x`` are greater or
 equal to ``a``. The function returns ``true`` iff for every element ``b`` in ``x``,
 ``b >= a``.
-
-
 
 .. code-block:: ocaml
 
@@ -1360,8 +1310,6 @@ Assume that ``b`` is one element from ``x`` The function returns another binary
 (``0`` and ``1``) ndarray/matrix wherein ``1`` of the corresponding position
 indicates ``a = b``, otherwise ``0``.
 
-
-
 .. code-block:: ocaml
 
   val elt_not_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
@@ -1370,8 +1318,6 @@ indicates ``a = b``, otherwise ``0``.
 ``a``. Assume that ``b`` is one element from ``x`` The function returns another
 binary (``0`` and ``1``) ndarray/matrix wherein ``1`` of the corresponding position
 indicates ``a <> b``, otherwise ``0``.
-
-
 
 .. code-block:: ocaml
 
@@ -1382,8 +1328,6 @@ Assume that ``b`` is one element from ``x`` The function returns another binary
 (``0`` and ``1``) ndarray/matrix wherein ``1`` of the corresponding position
 indicates ``a < b``, otherwise ``0``.
 
-
-
 .. code-block:: ocaml
 
   val elt_greater_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
@@ -1392,8 +1336,6 @@ indicates ``a < b``, otherwise ``0``.
 Assume that ``b`` is one element from ``x`` The function returns another binary
 (``0`` and ``1``) ndarray/matrix wherein ``1`` of the corresponding position
 indicates ``a > b``, otherwise ``0``.
-
-
 
 .. code-block:: ocaml
 
@@ -1404,8 +1346,6 @@ indicates ``a > b``, otherwise ``0``.
 binary (``0`` and ``1``) ndarray/matrix wherein ``1`` of the corresponding position
 indicates ``a <= b``, otherwise ``0``.
 
-
-
 .. code-block:: ocaml
 
   val elt_greater_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
@@ -1414,8 +1354,6 @@ indicates ``a <= b``, otherwise ``0``.
 and ``a``. Assume that ``b`` is one element from ``x`` The function returns
 another binary (``0`` and ``1``) ndarray/matrix wherein ``1`` of the corresponding
 position indicates ``a >= b``, otherwise ``0``.
-
-
 
 .. code-block:: ocaml
 
@@ -1427,8 +1365,6 @@ equal, i.e., for any two elements ``a`` from ``x`` and ``b`` from ``y``, we have
 
 Note: the threshold check is exclusive for passed in ``eps``.
 
-
-
 .. code-block:: ocaml
 
   val approx_equal_scalar : ?eps:float -> ('a, 'b) t -> 'a -> bool
@@ -1439,8 +1375,6 @@ the ``eps`` applies to both real and imaginary part.
 
 Note: the threshold check is exclusive for the passed in ``eps``.
 
-
-
 .. code-block:: ocaml
 
   val approx_elt_equal : ?eps:float -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
@@ -1450,8 +1384,6 @@ Note: the threshold check is exclusive for the passed in ``eps``.
 ``1`` indicates that two corresponding elements ``a`` from ``x`` and ``b`` from ``y``
 are considered as approximately equal, namely ``abs (a - b) < eps``.
 
-
-
 .. code-block:: ocaml
 
   val approx_elt_equal_scalar : ?eps:float -> ('a, 'b) t -> 'a -> ('a, 'b) t
@@ -1460,8 +1392,6 @@ are considered as approximately equal, namely ``abs (a - b) < eps``.
 scalar value ``a``, then returns another binary (i.e., ``0`` and ``1``)
 ndarray/matrix wherein ``1`` indicates that the element ``b`` from ``x`` is
 considered as approximately equal to ``a``, namely ``abs (a - b) < eps``.
-
-
 
 Randomisation functions
 -------------------------------------------------------------------------------
@@ -1476,8 +1406,6 @@ Randomisation functions
 returned in an int array along with the selected rows. The parameter
 ``replacement`` indicates whether the drawing is by replacement or not.
 
-
-
 .. code-block:: ocaml
 
   val draw_cols : ?replacement:bool -> ('a, 'b) t -> int -> ('a, 'b) t * int array
@@ -1486,15 +1414,11 @@ returned in an int array along with the selected rows. The parameter
 also returned in an int array along with the selected columns. The parameter
 ``replacement`` indicates whether the drawing is by replacement or not.
 
-
-
 .. code-block:: ocaml
 
   val draw_rows2 : ?replacement:bool -> ('a, 'b) t -> ('a, 'b) t -> int -> ('a, 'b) t * ('a, 'b) t * int array
 
 ``draw_rows2 x y c`` is similar to ``draw_rows`` but applies to two matrices.
-
-
 
 .. code-block:: ocaml
 
@@ -1502,13 +1426,13 @@ also returned in an int array along with the selected columns. The parameter
 
 ``draw_col2 x y c`` is similar to ``draw_cols`` but applies to two matrices.
 
-
-
 .. code-block:: ocaml
 
   val shuffle_rows : ('a, 'b) t -> ('a, 'b) t
 
 ``shuffle_rows x`` shuffles all the rows in matrix ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L528>`__
 
 
 
@@ -1518,6 +1442,8 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle_cols x`` shuffles all the columns in matrix ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L536>`__
+
 
 
 .. code-block:: ocaml
@@ -1526,8 +1452,6 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle x`` shuffles all the elements in ``x`` by first shuffling along the
 rows then shuffling along columns. It is equivalent to ``shuffle_cols (shuffle_rows x)``.
-
-
 
 Input/Output functions
 -------------------------------------------------------------------------------
@@ -1541,14 +1465,14 @@ Input/Output functions
 ``to_array x`` flattens an ``m`` by ``n`` matrix ``x`` then returns ``x`` as an
 float array of length ``(numel x)``.
 
-
-
 .. code-block:: ocaml
 
   val of_array : ('a, 'b) kind -> 'a array -> int -> int -> ('a, 'b) t
 
 ``of_array x m n`` converts a float array ``x`` into an ``m`` by ``n`` matrix. Note the
 length of ``x`` must be equal to ``(m * n)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L491>`__
 
 
 
@@ -1559,8 +1483,6 @@ length of ``x`` must be equal to ``(m * n)``.
 ``to arrays x`` returns an array of float arrays, wherein each row in ``x``
 becomes an array in the result.
 
-
-
 .. code-block:: ocaml
 
   val of_arrays : ('a, 'b) kind -> 'a array array -> ('a, 'b) t
@@ -1568,15 +1490,11 @@ becomes an array in the result.
 ``of_arrays x`` converts an array of ``m`` float arrays (of length ``n``) in to
 an ``m`` by ``n`` matrix.
 
-
-
 .. code-block:: ocaml
 
   val print : ?max_row:int -> ?max_col:int -> ?header:bool -> ?fmt:('a -> string) -> ('a, 'b) t -> unit
 
 ``print x`` pretty prints matrix ``x`` without headings.
-
-
 
 .. code-block:: ocaml
 
@@ -1585,16 +1503,12 @@ an ``m`` by ``n`` matrix.
 ``save x f`` saves the matrix ``x`` to a file with the name ``f``. The format
 is binary by using ``Marshal`` module to serialise the matrix.
 
-
-
 .. code-block:: ocaml
 
   val load : ('a, 'b) kind -> string -> ('a, 'b) t
 
 ``load f`` loads a matrix from file ``f``. The file must be previously saved
 by using ``save`` function.
-
-
 
 .. code-block:: ocaml
 
@@ -1603,6 +1517,8 @@ by using ``save`` function.
 ``save_txt x f`` save the matrix ``x`` into a tab-delimited text file ``f``.
 The operation can be very time consuming.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L498>`__
+
 
 
 .. code-block:: ocaml
@@ -1610,6 +1526,8 @@ The operation can be very time consuming.
   val load_txt : (float, 'a) kind -> string -> (float, 'a) t
 
 ``load_txt f`` load a tab-delimited text file ``f`` into a matrix.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L508>`__
 
 
 
@@ -1624,15 +1542,11 @@ Unary math operators
 
 ``re_c2s x`` returns all the real components of ``x`` in a new ndarray of same shape.
 
-
-
 .. code-block:: ocaml
 
   val re_z2d : (Complex.t, complex64_elt) t -> (float, float64_elt) t
 
 ``re_d2z x`` returns all the real components of ``x`` in a new ndarray of same shape.
-
-
 
 .. code-block:: ocaml
 
@@ -1640,15 +1554,11 @@ Unary math operators
 
 ``im_c2s x`` returns all the imaginary components of ``x`` in a new ndarray of same shape.
 
-
-
 .. code-block:: ocaml
 
   val im_z2d : (Complex.t, complex64_elt) t -> (float, float64_elt) t
 
 ``im_d2z x`` returns all the imaginary components of ``x`` in a new ndarray of same shape.
-
-
 
 .. code-block:: ocaml
 
@@ -1660,16 +1570,12 @@ elements will be returned.  For two complex numbers, the one with the smaller
 magnitude will be selected. If two magnitudes are the same, the one with the
 smaller phase will be selected.
 
-
-
 .. code-block:: ocaml
 
   val min' : ('a, 'b) t -> 'a
 
 ``min' x`` is similar to ``min`` but returns the minimum of all elements in ``x``
 in scalar value.
-
-
 
 .. code-block:: ocaml
 
@@ -1681,16 +1587,12 @@ elements will be returned.  For two complex numbers, the one with the greater
 magnitude will be selected. If two magnitudes are the same, the one with the
 greater phase will be selected.
 
-
-
 .. code-block:: ocaml
 
   val max' : ('a, 'b) t -> 'a
 
 ``max' x`` is similar to ``max`` but returns the maximum of all elements in ``x``
 in scalar value.
-
-
 
 .. code-block:: ocaml
 
@@ -1699,8 +1601,6 @@ in scalar value.
 ``minmax' x`` returns ``(min_v, max_v)``, ``min_v`` is the minimum value in ``x``
 while ``max_v`` is the maximum.
 
-
-
 .. code-block:: ocaml
 
   val minmax' : ('a, 'b) t -> 'a * 'a
@@ -1708,23 +1608,17 @@ while ``max_v`` is the maximum.
 ``minmax' x`` returns ``(min_v, max_v)``, ``min_v`` is the minimum value in ``x``
 while ``max_v`` is the maximum.
 
-
-
 .. code-block:: ocaml
 
   val min_i : ('a, 'b) t -> 'a * int array
 
 ``min_i x`` returns the minimum of all elements in ``x`` as well as its index.
 
-
-
 .. code-block:: ocaml
 
   val max_i : ('a, 'b) t -> 'a * int array
 
 ``max_i x`` returns the maximum of all elements in ``x`` as well as its index.
-
-
 
 .. code-block:: ocaml
 
@@ -1734,8 +1628,6 @@ while ``max_v`` is the maximum.
 is the minimum value in ``x`` along with its index while ``(max_v,max_i)`` is the
 maximum value along its index.
 
-
-
 .. code-block:: ocaml
 
   val inv : ('a, 'b) t -> ('a, 'b) t
@@ -1744,15 +1636,11 @@ maximum value along its index.
   such that ``x *@ x = I`` wherein ``I`` is an identity matrix.  (If ``x``
   is singular, ``inv`` will return a useless result.)
 
-
-
 .. code-block:: ocaml
 
   val trace : ('a, 'b) t -> 'a
 
 ``trace x`` returns the sum of diagonal elements in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -1760,15 +1648,11 @@ maximum value along its index.
 
 ``sum_ axis x`` sums the elements in ``x`` along specified ``axis``.
 
-
-
 .. code-block:: ocaml
 
   val sum': ('a, 'b) t -> 'a
 
 ``sum x`` returns the summation of all the elements in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -1776,15 +1660,11 @@ maximum value along its index.
 
 ``prod_ axis x`` multiplies the elements in ``x`` along specified ``axis``.
 
-
-
 .. code-block:: ocaml
 
   val prod' : ('a, 'b) t -> 'a
 
 ``prod x`` returns the product of all the elements in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -1792,13 +1672,13 @@ maximum value along its index.
 
 ``mean ~axis x`` calculates the mean along specified ``axis``.
 
-
-
 .. code-block:: ocaml
 
   val mean' : ('a, 'b) t -> 'a
 
 ``mean' x`` calculates the mean of all the elements in ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L474>`__
 
 
 
@@ -1808,15 +1688,11 @@ maximum value along its index.
 
 ``var ~axis x`` calculates the variance along specified ``axis``.
 
-
-
 .. code-block:: ocaml
 
   val var' : ('a, 'b) t -> 'a
 
 ``var' x`` calculates the variance of all the elements in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -1824,21 +1700,19 @@ maximum value along its index.
 
 ``std ~axis`` calculates the standard deviation along specified ``axis``.
 
-
-
 .. code-block:: ocaml
 
   val std' : ('a, 'b) t -> 'a
 
 ``std' x`` calculates the standard deviation of all the elements in ``x``.
 
-
-
 .. code-block:: ocaml
 
   val sum_rows : ('a, 'b) t -> ('a, 'b) t
 
 ``sum_rows x`` returns the summation of all the row vectors in ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L444>`__
 
 
 
@@ -1847,6 +1721,8 @@ maximum value along its index.
   val sum_cols : ('a, 'b) t -> ('a, 'b) t
 
 ``sum_cols`` returns the summation of all the column vectors in ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L441>`__
 
 
 
@@ -1857,6 +1733,8 @@ maximum value along its index.
 ``mean_rows x`` returns the mean value of all row vectors in ``x``. It is
  equivalent to ``div_scalar (sum_rows x) (float_of_int (row_num x))``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L450>`__
+
 
 
 .. code-block:: ocaml
@@ -1866,6 +1744,8 @@ maximum value along its index.
 ``mean_cols x`` returns the mean value of all column vectors in ``x``.
  It is equivalent to ``div_scalar (sum_cols x) (float_of_int (col_num x))``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L447>`__
+
 
 
 .. code-block:: ocaml
@@ -1873,6 +1753,8 @@ maximum value along its index.
   val min_rows : (float, 'b) t -> (float * int * int) array
 
 ``min_rows x`` returns the minimum value in each row along with their coordinates.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L458>`__
 
 
 
@@ -1882,6 +1764,8 @@ maximum value along its index.
 
 ``min_cols x`` returns the minimum value in each column along with their coordinates.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L453>`__
+
 
 
 .. code-block:: ocaml
@@ -1889,6 +1773,8 @@ maximum value along its index.
   val max_rows : (float, 'b) t -> (float * int * int) array
 
 ``max_rows x`` returns the maximum value in each row along with their coordinates.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L468>`__
 
 
 
@@ -1898,6 +1784,8 @@ maximum value along its index.
 
 ``max_cols x`` returns the maximum value in each column along with their coordinates.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L463>`__
+
 
 
 .. code-block:: ocaml
@@ -1906,15 +1794,11 @@ maximum value along its index.
 
 ``abs x`` returns the absolute value of all elements in ``x`` in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val abs_c2s : (Complex.t, complex32_elt) t -> (float, float32_elt) t
 
 ``abs_c2s x`` is similar to ``abs`` but takes ``complex32`` as input.
-
-
 
 .. code-block:: ocaml
 
@@ -1922,15 +1806,11 @@ maximum value along its index.
 
 ``abs_z2d x`` is similar to ``abs`` but takes ``complex64`` as input.
 
-
-
 .. code-block:: ocaml
 
   val abs2 : ('a, 'b) t -> ('a, 'b) t
 
 ``abs2 x`` returns the square of absolute value of all elements in ``x`` in a new ndarray.
-
-
 
 .. code-block:: ocaml
 
@@ -1938,15 +1818,11 @@ maximum value along its index.
 
 ``abs2_c2s x`` is similar to ``abs2`` but takes ``complex32`` as input.
 
-
-
 .. code-block:: ocaml
 
   val abs2_z2d : (Complex.t, complex64_elt) t -> (float, float64_elt) t
 
 ``abs2_z2d x`` is similar to ``abs2`` but takes ``complex64`` as input.
-
-
 
 .. code-block:: ocaml
 
@@ -1956,15 +1832,11 @@ maximum value along its index.
 result in a new matrix. If the passed in ``x`` is a real matrix, the function
 simply returns a copy of the original ``x``.
 
-
-
 .. code-block:: ocaml
 
   val neg : ('a, 'b) t -> ('a, 'b) t
 
 ``neg x`` negates the elements in ``x`` and returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -1972,8 +1844,6 @@ simply returns a copy of the original ``x``.
 
 ``reci x`` computes the reciprocal of every elements in ``x`` and returns the
 result in a new ndarray.
-
-
 
 .. code-block:: ocaml
 
@@ -1984,16 +1854,12 @@ from ``reci``, ``reci_tol`` sets the elements whose ``abs`` value smaller than `
 to zeros. If ``tol`` is not specified, the defautl ``Owl_utils.eps Float32`` will
 be used. For complex numbers, refer to Owl's doc to see how to compare.
 
-
-
 .. code-block:: ocaml
 
   val signum : (float, 'a) t -> (float, 'a) t
 
 ``signum`` computes the sign value (``-1`` for negative numbers, ``0`` (or ``-0``)
 for zero, ``1`` for positive numbers, ``nan`` for ``nan``).
-
-
 
 .. code-block:: ocaml
 
@@ -2002,16 +1868,12 @@ for zero, ``1`` for positive numbers, ``nan`` for ``nan``).
 ``sqr x`` computes the square of the elements in ``x`` and returns the result in
 a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val sqrt : ('a, 'b) t -> ('a, 'b) t
 
 ``sqrt x`` computes the square root of the elements in ``x`` and returns the
 result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2020,16 +1882,12 @@ result in a new matrix.
 ``cbrt x`` computes the cubic root of the elements in ``x`` and returns the
 result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val exp : ('a, 'b) t -> ('a, 'b) t
 
 ``exp x`` computes the exponential of the elements in ``x`` and returns the
 result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2038,16 +1896,12 @@ result in a new matrix.
 ``exp2 x`` computes the base-2 exponential of the elements in ``x`` and returns
 the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val exp10 : ('a, 'b) t -> ('a, 'b) t
 
 ``exp2 x`` computes the base-10 exponential of the elements in ``x`` and returns
 the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2056,16 +1910,12 @@ the result in a new matrix.
 ``expm1 x`` computes ``exp x -. 1.`` of the elements in ``x`` and returns the
 result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val log : ('a, 'b) t -> ('a, 'b) t
 
 ``log x`` computes the logarithm of the elements in ``x`` and returns the
 result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2074,16 +1924,12 @@ result in a new matrix.
 ``log10 x`` computes the base-10 logarithm of the elements in ``x`` and returns
 the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val log2 : ('a, 'b) t -> ('a, 'b) t
 
 ``log2 x`` computes the base-2 logarithm of the elements in ``x`` and returns
 the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2092,16 +1938,12 @@ the result in a new matrix.
 ``log1p x`` computes ``log (1 + x)`` of the elements in ``x`` and returns the
 result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val sin : ('a, 'b) t -> ('a, 'b) t
 
 ``sin x`` computes the sine of the elements in ``x`` and returns the result in
 a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2110,16 +1952,12 @@ a new matrix.
 ``cos x`` computes the cosine of the elements in ``x`` and returns the result in
 a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val tan : ('a, 'b) t -> ('a, 'b) t
 
 ``tan x`` computes the tangent of the elements in ``x`` and returns the result
 in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2128,16 +1966,12 @@ in a new matrix.
 ``asin x`` computes the arc sine of the elements in ``x`` and returns the result
 in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val acos : ('a, 'b) t -> ('a, 'b) t
 
 ``acos x`` computes the arc cosine of the elements in ``x`` and returns the
 result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2146,16 +1980,12 @@ result in a new matrix.
 ``atan x`` computes the arc tangent of the elements in ``x`` and returns the
 result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val sinh : ('a, 'b) t -> ('a, 'b) t
 
 ``sinh x`` computes the hyperbolic sine of the elements in ``x`` and returns
 the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2164,16 +1994,12 @@ the result in a new matrix.
 ``cosh x`` computes the hyperbolic cosine of the elements in ``x`` and returns
 the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val tanh : ('a, 'b) t -> ('a, 'b) t
 
 ``tanh x`` computes the hyperbolic tangent of the elements in ``x`` and returns
 the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2182,16 +2008,12 @@ the result in a new matrix.
 ``asinh x`` computes the hyperbolic arc sine of the elements in ``x`` and
 returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val acosh : ('a, 'b) t -> ('a, 'b) t
 
 ``acosh x`` computes the hyperbolic arc cosine of the elements in ``x`` and
 returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2200,16 +2022,12 @@ returns the result in a new matrix.
 ``atanh x`` computes the hyperbolic arc tangent of the elements in ``x`` and
 returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val floor : ('a, 'b) t -> ('a, 'b) t
 
 ``floor x`` computes the floor of the elements in ``x`` and returns the result
 in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2218,15 +2036,11 @@ in a new matrix.
 ``ceil x`` computes the ceiling of the elements in ``x`` and returns the result
 in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val round : ('a, 'b) t -> ('a, 'b) t
 
 ``round x`` rounds the elements in ``x`` and returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2234,8 +2048,6 @@ in a new matrix.
 
 ``trunc x`` computes the truncation of the elements in ``x`` and returns the
 result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2245,8 +2057,6 @@ result in a new matrix.
 For positive elements, the behavior is the same as ``floor``. For negative ones,
 the behavior is the same as ``ceil``.
 
-
-
 .. code-block:: ocaml
 
   val modf : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
@@ -2255,16 +2065,12 @@ the behavior is the same as ``ceil``.
 saved in the first element of the returned tuple whereas the integer part is
 saved in the second element.
 
-
-
 .. code-block:: ocaml
 
   val erf : (float, 'a) t -> (float, 'a) t
 
 ``erf x`` computes the error function of the elements in ``x`` and returns the
 result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2273,16 +2079,12 @@ result in a new matrix.
 ``erfc x`` computes the complementary error function of the elements in ``x``
 and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val logistic : (float, 'a) t -> (float, 'a) t
 
 ``logistic x`` computes the logistic function ``1/(1 + exp(-a)`` of the elements
 in ``x`` and returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2291,23 +2093,17 @@ in ``x`` and returns the result in a new matrix.
 ``relu x`` computes the rectified linear unit function ``max(x, 0)`` of the
 elements in ``x`` and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val elu : ?alpha:float -> (float, 'a) t -> (float, 'a) t
 
 refer to ``Owl_dense_ndarray_generic.elu``
 
-
-
 .. code-block:: ocaml
 
   val leaky_relu : ?alpha:float -> (float, 'a) t -> (float, 'a) t
 
 refer to ``Owl_dense_ndarray_generic.leaky_relu``
-
-
 
 .. code-block:: ocaml
 
@@ -2316,16 +2112,12 @@ refer to ``Owl_dense_ndarray_generic.leaky_relu``
 ``softplus x`` computes the softplus function ``log(1 + exp(x)`` of the elements
 in ``x`` and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val softsign : (float, 'a) t -> (float, 'a) t
 
 ``softsign x`` computes the softsign function ``x / (1 + abs(x))`` of the
 elements in ``x`` and returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2334,16 +2126,12 @@ elements in ``x`` and returns the result in a new matrix.
 ``softmax x`` computes the softmax functions ``(exp x) / (sum (exp x))`` of
 all the elements in ``x`` and returns the result in a new array.
 
-
-
 .. code-block:: ocaml
 
   val sigmoid : (float, 'a) t -> (float, 'a) t
 
 ``sigmoid x`` computes the sigmoid function ``1 / (1 + exp (-x))`` for each
 element in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -2352,15 +2140,11 @@ element in ``x``.
 ``log_sum_exp x`` computes the logarithm of the sum of exponentials of all
 the elements in ``x``.
 
-
-
 .. code-block:: ocaml
 
   val l1norm : ?axis:int -> ('a, 'b) t -> ('a, 'b) t
 
 ``l1norm x`` calculates the l1-norm of of ``x`` along specified axis.
-
-
 
 .. code-block:: ocaml
 
@@ -2368,15 +2152,11 @@ the elements in ``x``.
 
 ``l1norm x`` calculates the l1-norm of all the element in ``x``.
 
-
-
 .. code-block:: ocaml
 
   val l2norm : ?axis:int -> ('a, 'b) t -> ('a, 'b) t
 
 ``l2norm x`` calculates the l2-norm of of ``x`` along specified axis.
-
-
 
 .. code-block:: ocaml
 
@@ -2384,15 +2164,11 @@ the elements in ``x``.
 
 ``l2norm x`` calculates the l2-norm of all the element in ``x``.
 
-
-
 .. code-block:: ocaml
 
   val l2norm_sqr : ?axis:int -> ('a, 'b) t -> ('a, 'b) t
 
 ``l2norm x`` calculates the square l2-norm of of ``x`` along specified axis.
-
-
 
 .. code-block:: ocaml
 
@@ -2402,13 +2178,13 @@ the elements in ``x``.
 of all elements in ``x``. The function uses conjugate transpose in the product,
 hence it always returns a float number.
 
-
-
 .. code-block:: ocaml
 
   val max_pool : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
 
 []
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L765>`__
 
 
 
@@ -2418,6 +2194,8 @@ hence it always returns a float number.
 
 []
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L774>`__
+
 
 
 .. code-block:: ocaml
@@ -2426,15 +2204,11 @@ hence it always returns a float number.
 
 ``cumsum ~axis x``, refer to the documentation in ``Owl_dense_ndarray_generic``.
 
-
-
 .. code-block:: ocaml
 
   val cumprod : ?axis:int -> ('a, 'b) t -> ('a, 'b) t
 
 ``cumprod ~axis x``, refer to the documentation in ``Owl_dense_ndarray_generic``.
-
-
 
 .. code-block:: ocaml
 
@@ -2442,15 +2216,11 @@ hence it always returns a float number.
 
 ``cummin ~axis x`` : performs cumulative ``min`` along ``axis`` dimension.
 
-
-
 .. code-block:: ocaml
 
   val cummax : ?axis:int -> ('a, 'b) t -> ('a, 'b) t
 
 ``cummax ~axis x`` : performs cumulative ``max`` along ``axis`` dimension.
-
-
 
 .. code-block:: ocaml
 
@@ -2458,15 +2228,11 @@ hence it always returns a float number.
 
 ``angle x`` calculates the phase angle of all complex numbers in ``x``.
 
-
-
 .. code-block:: ocaml
 
   val proj : (Complex.t, 'a) t -> (Complex.t, 'a) t
 
 ``proj x`` computes the projection on Riemann sphere of all elelments in ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -2475,6 +2241,8 @@ hence it always returns a float number.
 ``mat2gray ~amin ~amax x`` converts the matrix ``x`` to the intensity image.
 The elements in ``x`` are clipped by ``amin`` and ``amax``, and they will be between
 ``0.`` and ``1.`` after conversion to represents the intensity.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L810>`__
 
 
 
@@ -2490,16 +2258,12 @@ Binary math operators
 ``add x y`` adds all the elements in ``x`` and ``y`` elementwise, and returns the
 result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val sub : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``sub x y`` subtracts all the elements in ``x`` and ``y`` elementwise, and returns
 the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2508,16 +2272,12 @@ the result in a new matrix.
 ``mul x y`` multiplies all the elements in ``x`` and ``y`` elementwise, and
 returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val div : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``div x y`` divides all the elements in ``x`` and ``y`` elementwise, and returns
 the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2526,16 +2286,12 @@ the result in a new matrix.
 ``add_scalar x a`` adds a scalar value ``a`` to each element in ``x``, and
 returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val sub_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
 
 ``sub_scalar x a`` subtracts a scalar value ``a`` from each element in ``x``,
 and returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2544,16 +2300,12 @@ and returns the result in a new matrix.
 ``mul_scalar x a`` multiplies each element in ``x`` by a scalar value ``a``,
 and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val div_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
 
 ``div_scalar x a`` divides each element in ``x`` by a scalar value ``a``, and
 returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2562,16 +2314,12 @@ returns the result in a new matrix.
 ``scalar_add a x`` adds a scalar value ``a`` to each element in ``x``,
 and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val scalar_sub : 'a -> ('a, 'b) t -> ('a, 'b) t
 
 ``scalar_sub a x`` subtracts each element in ``x`` from a scalar value ``a``,
 and returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2580,8 +2328,6 @@ and returns the result in a new matrix.
 ``scalar_mul a x`` multiplies each element in ``x`` by a scalar value ``a``,
 and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val scalar_div : 'a -> ('a, 'b) t -> ('a, 'b) t
@@ -2589,15 +2335,11 @@ and returns the result in a new matrix.
 ``scalar_div a x`` divides a scalar value ``a`` by each element in ``x``,
 and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val dot : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``dot x y`` returns the matrix product of matrix ``x`` and ``y``.
-
-
 
 .. code-block:: ocaml
 
@@ -2606,23 +2348,17 @@ and returns the result in a new matrix.
 ``pow x y`` computes ``pow(a, b)`` of all the elements in ``x`` and ``y``
 elementwise, and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val scalar_pow : 'a -> ('a, 'b) t -> ('a, 'b) t
 
 ``scalar_pow a x``
 
-
-
 .. code-block:: ocaml
 
   val pow_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
 
 ``pow_scalar x a``
-
-
 
 .. code-block:: ocaml
 
@@ -2635,8 +2371,6 @@ it can be be negative, zero, or positive. Non-integer exponents
 are not yet implemented. (If ``r`` is negative, ``mpow`` calls ``inv``,
 and warnings in documentation for ``inv`` apply.)
 
-
-
 .. code-block:: ocaml
 
   val atan2 : (float, 'a) t -> (float, 'a) t -> (float, 'a) t
@@ -2644,23 +2378,17 @@ and warnings in documentation for ``inv`` apply.)
 ``atan2 x y`` computes ``atan2(a, b)`` of all the elements in ``x`` and ``y``
 elementwise, and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val scalar_atan2 : float -> (float, 'a) t -> (float, 'a) t
 
 ``scalar_atan2 a x``
 
-
-
 .. code-block:: ocaml
 
   val atan2_scalar : (float, 'a) t -> float -> (float, 'a) t
 
 ``scalar_atan2 x a``
-
-
 
 .. code-block:: ocaml
 
@@ -2669,16 +2397,12 @@ elementwise, and returns the result in a new matrix.
 ``hypot x y`` computes ``sqrt(x*x + y*y)`` of all the elements in ``x`` and ``y``
 elementwise, and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val min2 : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``min2 x y`` computes the minimum of all the elements in ``x`` and ``y``
 elementwise, and returns the result in a new matrix.
-
-
 
 .. code-block:: ocaml
 
@@ -2687,15 +2411,11 @@ elementwise, and returns the result in a new matrix.
 ``max2 x y`` computes the maximum of all the elements in ``x`` and ``y``
 elementwise, and returns the result in a new matrix.
 
-
-
 .. code-block:: ocaml
 
   val fmod : (float, 'a) t -> (float, 'a) t -> (float, 'a) t
 
 ``fmod x y`` performs float mod division.
-
-
 
 .. code-block:: ocaml
 
@@ -2703,15 +2423,11 @@ elementwise, and returns the result in a new matrix.
 
 ``fmod_scalar x a`` performs mod division between ``x`` and scalar ``a``.
 
-
-
 .. code-block:: ocaml
 
   val scalar_fmod : float -> (float, 'a) t -> (float, 'a) t
 
 ``scalar_fmod x a`` performs mod division between scalar ``a`` and ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -2721,8 +2437,6 @@ elementwise, and returns the result in a new matrix.
 ``x`` from constant ``a``. This function only computes the square of each element
 rather than the conjugate transpose as {!sqr_nrm2} does.
 
-
-
 .. code-block:: ocaml
 
   val ssqr_diff' : ('a, 'b) t -> ('a, 'b) t -> 'a
@@ -2730,15 +2444,11 @@ rather than the conjugate transpose as {!sqr_nrm2} does.
 ``ssqr_diff x y`` computes the sum of squared differences of every elements in
 ``x`` and its corresponding element in ``y``.
 
-
-
 .. code-block:: ocaml
 
   val cross_entropy' : (float, 'a) t -> (float, 'a) t -> float
 
 ``cross_entropy x y`` calculates the cross entropy between ``x`` and ``y`` using base ``e``.
-
-
 
 .. code-block:: ocaml
 
@@ -2748,15 +2458,11 @@ rather than the conjugate transpose as {!sqr_nrm2} does.
 ``amax``. The elements smaller than ``amin`` will be set to ``amin``, and the
 elements greater than ``amax`` will be set to ``amax``.
 
-
-
 .. code-block:: ocaml
 
   val clip_by_l2norm : float -> (float, 'a) t -> (float, 'a) t
 
 ``clip_by_l2norm t x`` clips the ``x`` according to the threshold set by ``t``.
-
-
 
 .. code-block:: ocaml
 
@@ -2771,6 +2477,8 @@ it is normalised by ``1``.
 first then returns a ``2 x 2`` matrix, so two must have the same number of
 elements.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L783>`__
+
 
 
 .. code-block:: ocaml
@@ -2781,6 +2489,8 @@ elements.
 and ``b``. If ``a`` is an ``m x n`` matrix and ``b`` is a ``p x q`` matrix, then
 ``kron(a,b)`` is an ``m*p x n*q`` matrix formed by taking all possible products
 between the elements of ``a`` and the matrix ``b``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L239>`__
 
 
 
@@ -2799,8 +2509,6 @@ Cast functions
 
 ``cast_s2d x`` casts ``x`` from ``float32`` to ``float64``.
 
-
-
 .. code-block:: ocaml
 
   val cast : ('a, 'b) kind -> ('c, 'd) t -> ('a, 'b) t
@@ -2809,15 +2517,11 @@ Cast functions
 the passed in ``kind`` parameter. This function is a generalisation of the other
 type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
-
-
 .. code-block:: ocaml
 
   val cast_s2d : (float, float32_elt) t -> (float, float64_elt) t
 
 ``cast_s2d x`` casts ``x`` from ``float32`` to ``float64``.
-
-
 
 .. code-block:: ocaml
 
@@ -2825,15 +2529,11 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_d2s x`` casts ``x`` from ``float64`` to ``float32``.
 
-
-
 .. code-block:: ocaml
 
   val cast_c2z : (Complex.t, complex32_elt) t -> (Complex.t, complex64_elt) t
 
 ``cast_c2z x`` casts ``x`` from ``complex32`` to ``complex64``.
-
-
 
 .. code-block:: ocaml
 
@@ -2841,15 +2541,11 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_z2c x`` casts ``x`` from ``complex64`` to ``complex32``.
 
-
-
 .. code-block:: ocaml
 
   val cast_s2c : (float, float32_elt) t -> (Complex.t, complex32_elt) t
 
 ``cast_s2c x`` casts ``x`` from ``float32`` to ``complex32``.
-
-
 
 .. code-block:: ocaml
 
@@ -2857,23 +2553,17 @@ type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_d2z x`` casts ``x`` from ``float64`` to ``complex64``.
 
-
-
 .. code-block:: ocaml
 
   val cast_s2z : (float, float32_elt) t -> (Complex.t, complex64_elt) t
 
 ``cast_s2z x`` casts ``x`` from ``float32`` to ``complex64``.
 
-
-
 .. code-block:: ocaml
 
   val cast_d2c : (float, float64_elt) t -> (Complex.t, complex32_elt) t
 
 ``cast_d2c x`` casts ``x`` from ``float64`` to ``complex32``.
-
-
 
 In-place modification
 -------------------------------------------------------------------------------
@@ -2888,8 +2578,6 @@ In-place modification
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val sub_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -2897,8 +2585,6 @@ make sure ``x`` is big enough to hold the output result.
 ``sub_ x y`` is simiar to ``sub`` function but the output is written to ``x``.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
-
-
 
 .. code-block:: ocaml
 
@@ -2908,8 +2594,6 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val div_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -2917,8 +2601,6 @@ make sure ``x`` is big enough to hold the output result.
 ``div_ x y`` is simiar to ``div`` function but the output is written to ``x``.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
-
-
 
 .. code-block:: ocaml
 
@@ -2928,8 +2610,6 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val atan2_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -2937,8 +2617,6 @@ make sure ``x`` is big enough to hold the output result.
 ``atan2_ x y`` is simiar to ``atan2`` function but the output is written to ``x``.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
-
-
 
 .. code-block:: ocaml
 
@@ -2948,8 +2626,6 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val fmod_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -2957,8 +2633,6 @@ make sure ``x`` is big enough to hold the output result.
 ``fmod_ x y`` is simiar to ``fmod`` function but the output is written to ``x``.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
-
-
 
 .. code-block:: ocaml
 
@@ -2968,8 +2642,6 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val max2_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -2978,16 +2650,12 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val add_scalar_ : ('a, 'b) t -> 'a -> unit
 
 ``add_scalar_ x y`` is simiar to ``add_scalar`` function but the output is
 written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -2996,16 +2664,12 @@ written to ``x``.
 ``sub_scalar_ x y`` is simiar to ``sub_scalar`` function but the output is
 written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val mul_scalar_ : ('a, 'b) t -> 'a -> unit
 
 ``mul_scalar_ x y`` is simiar to ``mul_scalar`` function but the output is
 written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -3014,16 +2678,12 @@ written to ``x``.
 ``div_scalar_ x y`` is simiar to ``div_scalar`` function but the output is
 written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val pow_scalar_ : ('a, 'b) t -> 'a -> unit
 
 ``pow_scalar_ x y`` is simiar to ``pow_scalar`` function but the output is
 written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -3032,16 +2692,12 @@ written to ``x``.
 ``atan2_scalar_ x y`` is simiar to ``atan2_scalar`` function but the output is
 written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val scalar_add_ : 'a -> ('a, 'b) t -> unit
 
 ``scalar_add_ a x`` is simiar to ``scalar_add`` function but the output is
 written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -3050,16 +2706,12 @@ written to ``x``.
 ``scalar_sub_ a x`` is simiar to ``scalar_sub`` function but the output is
 written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val scalar_mul_ : 'a -> ('a, 'b) t -> unit
 
 ``scalar_mul_ a x`` is simiar to ``scalar_mul`` function but the output is
 written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -3068,16 +2720,12 @@ written to ``x``.
 ``scalar_div_ a x`` is simiar to ``scalar_div`` function but the output is
 written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val scalar_pow_ : 'a -> ('a, 'b) t -> unit
 
 ``scalar_pow_ a x`` is simiar to ``scalar_pow`` function but the output is
 written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -3086,15 +2734,11 @@ written to ``x``.
 ``scalar_atan2_ a x`` is simiar to ``scalar_atan2`` function but the output is
 written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val conj_ : ('a, 'b) t -> unit
 
 ``conj_ x`` is similar to ``conj`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3102,15 +2746,11 @@ written to ``x``.
 
 ``neg_ x`` is similar to ``neg`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val reci_ : ('a, 'b) t -> unit
 
 ``reci_ x`` is similar to ``reci`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3118,15 +2758,11 @@ written to ``x``.
 
 ``signum_ x`` is similar to ``signum`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val sqr_ : ('a, 'b) t -> unit
 
 ``sqr_ x`` is similar to ``sqr`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3134,15 +2770,11 @@ written to ``x``.
 
 ``sqrt_ x`` is similar to ``sqrt`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val cbrt_ : ('a, 'b) t -> unit
 
 ``cbrt_ x`` is similar to ``cbrt`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3150,15 +2782,11 @@ written to ``x``.
 
 ``exp_ x`` is similar to ``exp_`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val exp2_ : ('a, 'b) t -> unit
 
 ``exp2_ x`` is similar to ``exp2`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3166,15 +2794,11 @@ written to ``x``.
 
 ``exp2_ x`` is similar to ``exp2`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val expm1_ : ('a, 'b) t -> unit
 
 ``expm1_ x`` is similar to ``expm1`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3182,15 +2806,11 @@ written to ``x``.
 
 ``log_ x`` is similar to ``log`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val log2_ : ('a, 'b) t -> unit
 
 ``log2_ x`` is similar to ``log2`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3198,15 +2818,11 @@ written to ``x``.
 
 ``log10_ x`` is similar to ``log10`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val log1p_ : ('a, 'b) t -> unit
 
 ``log1p_ x`` is similar to ``log1p`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3214,15 +2830,11 @@ written to ``x``.
 
 ``sin_ x`` is similar to ``sin`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val cos_ : ('a, 'b) t -> unit
 
 ``cos_ x`` is similar to ``cos`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3230,15 +2842,11 @@ written to ``x``.
 
 ``tan_ x`` is similar to ``tan`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val asin_ : ('a, 'b) t -> unit
 
 ``asin_ x`` is similar to ``asin`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3246,15 +2854,11 @@ written to ``x``.
 
 ``acos_ x`` is similar to ``acos`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val atan_ : ('a, 'b) t -> unit
 
 ``atan_ x`` is similar to ``atan`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3262,15 +2866,11 @@ written to ``x``.
 
 ``sinh_ x`` is similar to ``sinh`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val cosh_ : ('a, 'b) t -> unit
 
 ``cosh_ x`` is similar to ``cosh`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3278,15 +2878,11 @@ written to ``x``.
 
 ``tanh_ x`` is similar to ``tanh`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val asinh_ : ('a, 'b) t -> unit
 
 ``asinh_ x`` is similar to ``asinh`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3294,15 +2890,11 @@ written to ``x``.
 
 ``acosh_ x`` is similar to ``acosh`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val atanh_ : ('a, 'b) t -> unit
 
 ``atanh_ x`` is similar to ``atanh`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3310,15 +2902,11 @@ written to ``x``.
 
 ``floor_ x`` is similar to ``floor`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val ceil_ : ('a, 'b) t -> unit
 
 ``ceil_ x`` is similar to ``ceil`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3326,15 +2914,11 @@ written to ``x``.
 
 ``round_ x`` is similar to ``round`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val trunc_ : ('a, 'b) t -> unit
 
 ``trunc_ x`` is similar to ``trunc`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3342,15 +2926,11 @@ written to ``x``.
 
 ``fix_ x`` is similar to ``fix`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val erf_ : ('a, 'b) t -> unit
 
 ``erf_ x`` is similar to ``erf`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3358,15 +2938,11 @@ written to ``x``.
 
 ``erfc_ x`` is similar to ``erfc`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val relu_ : ('a, 'b) t -> unit
 
 ``relu_ x`` is similar to ``relu`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3374,15 +2950,11 @@ written to ``x``.
 
 ``softplus_ x`` is similar to ``softplus`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val softsign_ : ('a, 'b) t -> unit
 
 ``softsign_ x`` is similar to ``softsign`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3390,15 +2962,11 @@ written to ``x``.
 
 ``sigmoid_ x`` is similar to ``sigmoid`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val softmax_ : ('a, 'b) t -> unit
 
 ``softmax_ x`` is similar to ``softmax`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3406,15 +2974,11 @@ written to ``x``.
 
 ``cumsum_ x`` is similar to ``cumsum`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val cumprod_ : ?axis:int -> ('a, 'b) t -> unit
 
 ``cumprod_ x`` is similar to ``cumprod`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3422,15 +2986,11 @@ written to ``x``.
 
 ``cummin_ x`` is similar to ``cummin`` but output is written to ``x``
 
-
-
 .. code-block:: ocaml
 
   val cumprod_ : ?axis:int -> ('a, 'b) t -> unit
 
 ``cumprod_ x`` is similar to ``cumprod`` but output is written to ``x``
-
-
 
 .. code-block:: ocaml
 
@@ -3440,8 +3000,6 @@ written to ``x``.
 to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``, so you
 need to make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val elt_not_equal_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -3449,8 +3007,6 @@ need to make sure ``x`` is big enough to hold the output result.
 ``elt_not_equal_ x y`` is simiar to ``elt_not_equal`` function but the output is
 written to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``,
 so you need to make sure ``x`` is big enough to hold the output result.
-
-
 
 .. code-block:: ocaml
 
@@ -3460,8 +3016,6 @@ so you need to make sure ``x`` is big enough to hold the output result.
 to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``, so you
 need to make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val elt_greater_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -3469,8 +3023,6 @@ need to make sure ``x`` is big enough to hold the output result.
 ``elt_greater_ x y`` is simiar to ``elt_greater`` function but the output is
 written to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``,
 so you need to make sure ``x`` is big enough to hold the output result.
-
-
 
 .. code-block:: ocaml
 
@@ -3480,8 +3032,6 @@ so you need to make sure ``x`` is big enough to hold the output result.
 is written to ``x``. The broadcast operation only allows broadcasting ``y`` over
 ``x``, so you need to make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val elt_greater_equal_ : ('a, 'b) t -> ('a, 'b) t -> unit
@@ -3490,16 +3040,12 @@ is written to ``x``. The broadcast operation only allows broadcasting ``y`` over
 output is written to ``x``. The broadcast operation only allows broadcasting ``y``
 over ``x``, so you need to make sure ``x`` is big enough to hold the output result.
 
-
-
 .. code-block:: ocaml
 
   val elt_equal_scalar_ : ('a, 'b) t -> 'a -> unit
 
 ``elt_equal_scalar_ x a`` is simiar to ``elt_equal_scalar`` function but the
 output is written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -3508,16 +3054,12 @@ output is written to ``x``.
 ``elt_not_equal_scalar_ x a`` is simiar to ``elt_not_equal_scalar`` function but
 the output is written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val elt_less_scalar_ : ('a, 'b) t -> 'a -> unit
 
 ``elt_less_scalar_ x a`` is simiar to ``elt_less_scalar`` function but the
 output is written to ``x``.
-
-
 
 .. code-block:: ocaml
 
@@ -3526,8 +3068,6 @@ output is written to ``x``.
 ``elt_greater_scalar_ x a`` is simiar to ``elt_greater_scalar`` function but the
 output is written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val elt_less_equal_scalar_ : ('a, 'b) t -> 'a -> unit
@@ -3535,14 +3075,10 @@ output is written to ``x``.
 ``elt_less_equal_scalar_ x a`` is simiar to ``elt_less_equal_scalar`` function
 but the output is written to ``x``.
 
-
-
 .. code-block:: ocaml
 
   val elt_greater_equal_scalar_ : ('a, 'b) t -> 'a -> unit
 
 ``elt_greater_equal_scalar_ x a`` is simiar to ``elt_greater_equal_scalar``
 function but the output is written to ``x``.
-
-
 

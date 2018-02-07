@@ -3,7 +3,7 @@ View Functor
 
 This document is auto-generated for Owl's APIs.
 #21 entries have been extracted.
-timestamp:1517969971
+timestamp:1518019722
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.mli>`_ 
@@ -23,8 +23,6 @@ Type definition
 
 ``t`` is the abstract type to represent a view atop of an ndarray.
 
-
-
 Conversion functions
 -------------------------------------------------------------------------------
 
@@ -36,6 +34,8 @@ Conversion functions
 
 ``of_arr x`` creates a view from ndarray ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L77>`__
+
 
 
 .. code-block:: ocaml
@@ -43,6 +43,8 @@ Conversion functions
   val to_arr : t -> A.arr
 
 ``to_arr x`` creates an new ndarray based on the view ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L86>`__
 
 
 
@@ -57,6 +59,8 @@ Manipulation functions
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L103>`__
+
 
 
 .. code-block:: ocaml
@@ -64,6 +68,8 @@ Refer to :doc:`owl_dense_ndarray_generic`
   val set : t -> int array -> A.elt -> unit
 
 Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L108>`__
 
 
 
@@ -73,6 +79,8 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L113>`__
+
 
 
 .. code-block:: ocaml
@@ -80,6 +88,8 @@ Refer to :doc:`owl_dense_ndarray_generic`
   val set_slice : int list list -> t -> t -> unit
 
 Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L215>`__
 
 
 
@@ -89,6 +99,8 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L78>`__
+
 
 
 .. code-block:: ocaml
@@ -96,6 +108,8 @@ Refer to :doc:`owl_dense_ndarray_generic`
   val num_dims : t -> int
 
 Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L96>`__
 
 
 
@@ -105,6 +119,8 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L98>`__
+
 
 
 .. code-block:: ocaml
@@ -112,6 +128,8 @@ Refer to :doc:`owl_dense_ndarray_generic`
   val numel : t -> int
 
 Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L100>`__
 
 
 
@@ -128,6 +146,8 @@ Iteration functions
 ``f : int array -> elt -> unit``, the first paramater is index. The function
 is much slower than ``iter``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L184>`__
+
 
 
 .. code-block:: ocaml
@@ -135,6 +155,8 @@ is much slower than ``iter``.
   val iter : (A.elt -> unit) -> t -> unit
 
 Similar to ``iteri``, the index is not passed in.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L187>`__
 
 
 
@@ -145,6 +167,8 @@ Similar to ``iteri``, the index is not passed in.
 ``mapi f x`` applies ``f : int array -> elt -> elt`` to every element in ``x``,
 then save the result in place. This function is much slower than ``map``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L190>`__
+
 
 
 .. code-block:: ocaml
@@ -153,6 +177,8 @@ then save the result in place. This function is much slower than ``map``.
 
 ``map f x`` applies ``f : elt -> elt`` to every element in ``x``, then save the
 the result in place in ``x``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L193>`__
 
 
 
@@ -163,6 +189,8 @@ the result in place in ``x``.
 ``iter2 f x y`` applies ``f : elt -> elt -> elt`` every pair of elements in
 ``x`` and ``y``. The indices are not passed in the user function.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L199>`__
+
 
 
 .. code-block:: ocaml
@@ -172,6 +200,8 @@ the result in place in ``x``.
 ``map2 f x y`` applies ``f : elt -> elt -> elt`` every pair of elements in ``x``
 and ``y``, then saves the result in ``y``. So be careful with the order, it
 matters, the data reflected by view ``y`` will be modified.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L207>`__
 
 
 

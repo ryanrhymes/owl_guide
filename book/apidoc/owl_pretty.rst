@@ -3,7 +3,7 @@ Pretty
 
 This document is auto-generated for Owl's APIs.
 #3 entries have been extracted.
-timestamp:1517969971
+timestamp:1518019722
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_pretty.mli>`_ 
@@ -22,6 +22,8 @@ Basic functions
 
 [pp_dsnda] is the pretty printer for n-dimensional arrays.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_pretty.ml#L142>`__
+
 
 
 .. code-block:: ocaml
@@ -32,6 +34,8 @@ Basic functions
 n-dimensional array. [max_row] and [max_col] specify the maximum number of
 rows and columns to display. [header] specifies whether or not to print out
 the headers. [fmt] is the function to format every element into string.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_pretty.ml#L145>`__
 
 
 

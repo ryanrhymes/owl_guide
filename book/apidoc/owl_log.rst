@@ -3,7 +3,7 @@ Log
 
 This document is auto-generated for Owl's APIs.
 #12 entries have been extracted.
-timestamp:1517969971
+timestamp:1518019722
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_log.mli>`_ 
@@ -25,8 +25,6 @@ Type definition of log levels, priority is from low to high. Using ``set_level``
 function to set global logging level to high one can mask the output from low
 level loggging.
 
-
-
 Configuration functions
 -------------------------------------------------------------------------------
 
@@ -38,6 +36,8 @@ Configuration functions
 
 This function sets the global logging level. Low level logging will be omitted.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L33>`__
+
 
 
 .. code-block:: ocaml
@@ -47,6 +47,8 @@ This function sets the global logging level. Low level logging will be omitted.
 This function sets the channel for the logging output. The default one is the
 standard output.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L35>`__
+
 
 
 .. code-block:: ocaml
@@ -54,6 +56,8 @@ standard output.
   val set_color : bool -> unit
 
 ``set_color true`` turns on the colour; ``set_color false`` turns it off.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L37>`__
 
 
 
@@ -68,6 +72,8 @@ Log functions
 
 This function outputs log at ``DEBUG`` level.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L73>`__
+
 
 
 .. code-block:: ocaml
@@ -75,6 +81,8 @@ This function outputs log at ``DEBUG`` level.
   val info : ('a, out_channel, unit) format -> 'a
 
 This function outputs log at ``INFO`` level.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L71>`__
 
 
 
@@ -84,6 +92,8 @@ This function outputs log at ``INFO`` level.
 
 This function outputs log at ``WARN`` level.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L75>`__
+
 
 
 .. code-block:: ocaml
@@ -92,6 +102,8 @@ This function outputs log at ``WARN`` level.
 
 This function outputs log at ``ERROR`` level.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L77>`__
+
 
 
 .. code-block:: ocaml
@@ -99,6 +111,8 @@ This function outputs log at ``ERROR`` level.
   val fatal : ('a, out_channel, unit) format -> 'a
 
 This function outputs log at ``FATAL`` level.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_log.ml#L79>`__
 
 
 

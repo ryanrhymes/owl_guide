@@ -3,7 +3,7 @@ Low-level LAPACKE API
 
 This document is auto-generated for Owl's APIs.
 #1034 entries have been extracted.
-timestamp:1517969971
+timestamp:1518019721
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/lapacke/owl_lapacke_generated.mli>`_ 
@@ -17,6 +17,8 @@ Github:
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4148>`__
+
 
 
 .. code-block:: ocaml
@@ -24,6 +26,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dbdsdc : layout:int -> uplo:char -> compq:char -> n:int -> d:(float ptr) -> e:(float ptr) -> u:(float ptr) -> ldu:int -> vt:(float ptr) -> ldvt:int -> q:(float ptr) -> iq:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4151>`__
 
 
 
@@ -33,6 +37,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4154>`__
+
 
 
 .. code-block:: ocaml
@@ -40,6 +46,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dbdsqr : layout:int -> uplo:char -> n:int -> ncvt:int -> nru:int -> ncc:int -> d:(float ptr) -> e:(float ptr) -> vt:(float ptr) -> ldvt:int -> u:(float ptr) -> ldu:int -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4157>`__
 
 
 
@@ -49,6 +57,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4160>`__
+
 
 
 .. code-block:: ocaml
@@ -56,6 +66,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zbdsqr : layout:int -> uplo:char -> n:int -> ncvt:int -> nru:int -> ncc:int -> d:(float ptr) -> e:(float ptr) -> vt:(Complex.t ptr) -> ldvt:int -> u:(Complex.t ptr) -> ldu:int -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4163>`__
 
 
 
@@ -65,6 +77,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4166>`__
+
 
 
 .. code-block:: ocaml
@@ -72,6 +86,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dbdsvdx : layout:int -> uplo:char -> jobz:char -> range:char -> n:int -> d:(float ptr) -> e:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> ns:(int32 ptr) -> s:(float ptr) -> z:(float ptr) -> ldz:int -> superb:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4169>`__
 
 
 
@@ -81,6 +97,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4172>`__
+
 
 
 .. code-block:: ocaml
@@ -88,6 +106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ddisna : job:char -> m:int -> n:int -> d:(float ptr) -> sep:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4175>`__
 
 
 
@@ -97,6 +117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4178>`__
+
 
 
 .. code-block:: ocaml
@@ -104,6 +126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbbrd : layout:int -> vect:char -> m:int -> n:int -> ncc:int -> kl:int -> ku:int -> ab:(float ptr) -> ldab:int -> d:(float ptr) -> e:(float ptr) -> q:(float ptr) -> ldq:int -> pt:(float ptr) -> ldpt:int -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4181>`__
 
 
 
@@ -113,6 +137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4184>`__
+
 
 
 .. code-block:: ocaml
@@ -120,6 +146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbbrd : layout:int -> vect:char -> m:int -> n:int -> ncc:int -> kl:int -> ku:int -> ab:(Complex.t ptr) -> ldab:int -> d:(float ptr) -> e:(float ptr) -> q:(Complex.t ptr) -> ldq:int -> pt:(Complex.t ptr) -> ldpt:int -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4187>`__
 
 
 
@@ -129,6 +157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4190>`__
+
 
 
 .. code-block:: ocaml
@@ -136,6 +166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbcon : layout:int -> norm:char -> n:int -> kl:int -> ku:int -> ab:(float ptr) -> ldab:int -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4193>`__
 
 
 
@@ -145,6 +177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4196>`__
+
 
 
 .. code-block:: ocaml
@@ -152,6 +186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbcon : layout:int -> norm:char -> n:int -> kl:int -> ku:int -> ab:(Complex.t ptr) -> ldab:int -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4199>`__
 
 
 
@@ -161,6 +197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4202>`__
+
 
 
 .. code-block:: ocaml
@@ -168,6 +206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbequ : layout:int -> m:int -> n:int -> kl:int -> ku:int -> ab:(float ptr) -> ldab:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4205>`__
 
 
 
@@ -177,6 +217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4208>`__
+
 
 
 .. code-block:: ocaml
@@ -184,6 +226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbequ : layout:int -> m:int -> n:int -> kl:int -> ku:int -> ab:(Complex.t ptr) -> ldab:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4211>`__
 
 
 
@@ -193,6 +237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4214>`__
+
 
 
 .. code-block:: ocaml
@@ -200,6 +246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbequb : layout:int -> m:int -> n:int -> kl:int -> ku:int -> ab:(float ptr) -> ldab:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4217>`__
 
 
 
@@ -209,6 +257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4220>`__
+
 
 
 .. code-block:: ocaml
@@ -216,6 +266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbequb : layout:int -> m:int -> n:int -> kl:int -> ku:int -> ab:(Complex.t ptr) -> ldab:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4223>`__
 
 
 
@@ -225,6 +277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4226>`__
+
 
 
 .. code-block:: ocaml
@@ -232,6 +286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbrfs : layout:int -> trans:char -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> afb:(float ptr) -> ldafb:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4229>`__
 
 
 
@@ -241,6 +297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4232>`__
+
 
 
 .. code-block:: ocaml
@@ -248,6 +306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbrfs : layout:int -> trans:char -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> afb:(Complex.t ptr) -> ldafb:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4235>`__
 
 
 
@@ -257,6 +317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4238>`__
+
 
 
 .. code-block:: ocaml
@@ -264,6 +326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbsv : layout:int -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4241>`__
 
 
 
@@ -273,6 +337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4244>`__
+
 
 
 .. code-block:: ocaml
@@ -280,6 +346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbsv : layout:int -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4247>`__
 
 
 
@@ -289,6 +357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4250>`__
+
 
 
 .. code-block:: ocaml
@@ -296,6 +366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbsvx : layout:int -> fact:char -> trans:char -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> afb:(float ptr) -> ldafb:int -> ipiv:(int32 ptr) -> equed:(char ptr) -> r:(float ptr) -> c:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> rpivot:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4253>`__
 
 
 
@@ -305,6 +377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4256>`__
+
 
 
 .. code-block:: ocaml
@@ -312,6 +386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbsvx : layout:int -> fact:char -> trans:char -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> afb:(Complex.t ptr) -> ldafb:int -> ipiv:(int32 ptr) -> equed:(char ptr) -> r:(float ptr) -> c:(float ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> rpivot:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4259>`__
 
 
 
@@ -321,6 +397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4262>`__
+
 
 
 .. code-block:: ocaml
@@ -328,6 +406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbtrf : layout:int -> m:int -> n:int -> kl:int -> ku:int -> ab:(float ptr) -> ldab:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4265>`__
 
 
 
@@ -337,6 +417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4268>`__
+
 
 
 .. code-block:: ocaml
@@ -344,6 +426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbtrf : layout:int -> m:int -> n:int -> kl:int -> ku:int -> ab:(Complex.t ptr) -> ldab:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4271>`__
 
 
 
@@ -353,6 +437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4274>`__
+
 
 
 .. code-block:: ocaml
@@ -360,6 +446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgbtrs : layout:int -> trans:char -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4277>`__
 
 
 
@@ -369,6 +457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4280>`__
+
 
 
 .. code-block:: ocaml
@@ -376,6 +466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgbtrs : layout:int -> trans:char -> n:int -> kl:int -> ku:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4283>`__
 
 
 
@@ -385,6 +477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4286>`__
+
 
 
 .. code-block:: ocaml
@@ -392,6 +486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgebak : layout:int -> job:char -> side:char -> n:int -> ilo:int -> ihi:int -> scale:(float ptr) -> m:int -> v:(float ptr) -> ldv:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4289>`__
 
 
 
@@ -401,6 +497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4292>`__
+
 
 
 .. code-block:: ocaml
@@ -408,6 +506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgebak : layout:int -> job:char -> side:char -> n:int -> ilo:int -> ihi:int -> scale:(float ptr) -> m:int -> v:(Complex.t ptr) -> ldv:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4295>`__
 
 
 
@@ -417,6 +517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4298>`__
+
 
 
 .. code-block:: ocaml
@@ -424,6 +526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgebal : layout:int -> job:char -> n:int -> a:(float ptr) -> lda:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> scale:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4301>`__
 
 
 
@@ -433,6 +537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4304>`__
+
 
 
 .. code-block:: ocaml
@@ -440,6 +546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgebal : layout:int -> job:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> scale:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4307>`__
 
 
 
@@ -449,6 +557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4310>`__
+
 
 
 .. code-block:: ocaml
@@ -456,6 +566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgebrd : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> d:(float ptr) -> e:(float ptr) -> tauq:(float ptr) -> taup:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4313>`__
 
 
 
@@ -465,6 +577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4316>`__
+
 
 
 .. code-block:: ocaml
@@ -472,6 +586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgebrd : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> d:(float ptr) -> e:(float ptr) -> tauq:(Complex.t ptr) -> taup:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4319>`__
 
 
 
@@ -481,6 +597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4322>`__
+
 
 
 .. code-block:: ocaml
@@ -488,6 +606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgecon : layout:int -> norm:char -> n:int -> a:(float ptr) -> lda:int -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4325>`__
 
 
 
@@ -497,6 +617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4328>`__
+
 
 
 .. code-block:: ocaml
@@ -504,6 +626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgecon : layout:int -> norm:char -> n:int -> a:(Complex.t ptr) -> lda:int -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4331>`__
 
 
 
@@ -513,6 +637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4334>`__
+
 
 
 .. code-block:: ocaml
@@ -520,6 +646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeequ : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4337>`__
 
 
 
@@ -529,6 +657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4340>`__
+
 
 
 .. code-block:: ocaml
@@ -536,6 +666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeequ : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4343>`__
 
 
 
@@ -545,6 +677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4346>`__
+
 
 
 .. code-block:: ocaml
@@ -552,6 +686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeequb : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4349>`__
 
 
 
@@ -561,6 +697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4352>`__
+
 
 
 .. code-block:: ocaml
@@ -568,6 +706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeequb : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> r:(float ptr) -> c:(float ptr) -> rowcnd:(float ptr) -> colcnd:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4355>`__
 
 
 
@@ -577,6 +717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4358>`__
+
 
 
 .. code-block:: ocaml
@@ -584,6 +726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgees : layout:int -> jobvs:char -> sort:char -> select:(unit ptr) -> n:int -> a:(float ptr) -> lda:int -> sdim:(int32 ptr) -> wr:(float ptr) -> wi:(float ptr) -> vs:(float ptr) -> ldvs:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4361>`__
 
 
 
@@ -593,6 +737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4364>`__
+
 
 
 .. code-block:: ocaml
@@ -600,6 +746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgees : layout:int -> jobvs:char -> sort:char -> select:(unit ptr) -> n:int -> a:(Complex.t ptr) -> lda:int -> sdim:(int32 ptr) -> w:(Complex.t ptr) -> vs:(Complex.t ptr) -> ldvs:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4367>`__
 
 
 
@@ -609,6 +757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4370>`__
+
 
 
 .. code-block:: ocaml
@@ -616,6 +766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeesx : layout:int -> jobvs:char -> sort:char -> select:(unit ptr) -> sense:char -> n:int -> a:(float ptr) -> lda:int -> sdim:(int32 ptr) -> wr:(float ptr) -> wi:(float ptr) -> vs:(float ptr) -> ldvs:int -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4373>`__
 
 
 
@@ -625,6 +777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4376>`__
+
 
 
 .. code-block:: ocaml
@@ -632,6 +786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeesx : layout:int -> jobvs:char -> sort:char -> select:(unit ptr) -> sense:char -> n:int -> a:(Complex.t ptr) -> lda:int -> sdim:(int32 ptr) -> w:(Complex.t ptr) -> vs:(Complex.t ptr) -> ldvs:int -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4379>`__
 
 
 
@@ -641,6 +797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4382>`__
+
 
 
 .. code-block:: ocaml
@@ -648,6 +806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeev : layout:int -> jobvl:char -> jobvr:char -> n:int -> a:(float ptr) -> lda:int -> wr:(float ptr) -> wi:(float ptr) -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4385>`__
 
 
 
@@ -657,6 +817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4388>`__
+
 
 
 .. code-block:: ocaml
@@ -664,6 +826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeev : layout:int -> jobvl:char -> jobvr:char -> n:int -> a:(Complex.t ptr) -> lda:int -> w:(Complex.t ptr) -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4391>`__
 
 
 
@@ -673,6 +837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4394>`__
+
 
 
 .. code-block:: ocaml
@@ -680,6 +846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeevx : layout:int -> balanc:char -> jobvl:char -> jobvr:char -> sense:char -> n:int -> a:(float ptr) -> lda:int -> wr:(float ptr) -> wi:(float ptr) -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> scale:(float ptr) -> abnrm:(float ptr) -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4397>`__
 
 
 
@@ -689,6 +857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4400>`__
+
 
 
 .. code-block:: ocaml
@@ -696,6 +866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeevx : layout:int -> balanc:char -> jobvl:char -> jobvr:char -> sense:char -> n:int -> a:(Complex.t ptr) -> lda:int -> w:(Complex.t ptr) -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> scale:(float ptr) -> abnrm:(float ptr) -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4403>`__
 
 
 
@@ -705,6 +877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4406>`__
+
 
 
 .. code-block:: ocaml
@@ -712,6 +886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgehrd : layout:int -> n:int -> ilo:int -> ihi:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4409>`__
 
 
 
@@ -721,6 +897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4412>`__
+
 
 
 .. code-block:: ocaml
@@ -728,6 +906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgehrd : layout:int -> n:int -> ilo:int -> ihi:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4415>`__
 
 
 
@@ -737,6 +917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4418>`__
+
 
 
 .. code-block:: ocaml
@@ -744,6 +926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgejsv : layout:int -> joba:char -> jobu:char -> jobv:char -> jobr:char -> jobt:char -> jobp:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> sva:(float ptr) -> u:(float ptr) -> ldu:int -> v:(float ptr) -> ldv:int -> stat:(float ptr) -> istat:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4421>`__
 
 
 
@@ -753,6 +937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4424>`__
+
 
 
 .. code-block:: ocaml
@@ -760,6 +946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgejsv : layout:int -> joba:char -> jobu:char -> jobv:char -> jobr:char -> jobt:char -> jobp:char -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> sva:(float ptr) -> u:(Complex.t ptr) -> ldu:int -> v:(Complex.t ptr) -> ldv:int -> stat:(float ptr) -> istat:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4427>`__
 
 
 
@@ -769,6 +957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4430>`__
+
 
 
 .. code-block:: ocaml
@@ -776,6 +966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgelq2 : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4433>`__
 
 
 
@@ -785,6 +977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4436>`__
+
 
 
 .. code-block:: ocaml
@@ -792,6 +986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgelq2 : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4439>`__
 
 
 
@@ -801,6 +997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4442>`__
+
 
 
 .. code-block:: ocaml
@@ -808,6 +1006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgelqf : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4445>`__
 
 
 
@@ -817,6 +1017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4448>`__
+
 
 
 .. code-block:: ocaml
@@ -824,6 +1026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgelqf : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4451>`__
 
 
 
@@ -833,6 +1037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4454>`__
+
 
 
 .. code-block:: ocaml
@@ -840,6 +1046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgels : layout:int -> trans:char -> m:int -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4457>`__
 
 
 
@@ -849,6 +1057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4460>`__
+
 
 
 .. code-block:: ocaml
@@ -856,6 +1066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgels : layout:int -> trans:char -> m:int -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4463>`__
 
 
 
@@ -865,6 +1077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4466>`__
+
 
 
 .. code-block:: ocaml
@@ -872,6 +1086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgelsd : layout:int -> m:int -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> s:(float ptr) -> rcond:float -> rank:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4469>`__
 
 
 
@@ -881,6 +1097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4472>`__
+
 
 
 .. code-block:: ocaml
@@ -888,6 +1106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgelsd : layout:int -> m:int -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> s:(float ptr) -> rcond:float -> rank:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4475>`__
 
 
 
@@ -897,6 +1117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4478>`__
+
 
 
 .. code-block:: ocaml
@@ -904,6 +1126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgelss : layout:int -> m:int -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> s:(float ptr) -> rcond:float -> rank:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4481>`__
 
 
 
@@ -913,6 +1137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4484>`__
+
 
 
 .. code-block:: ocaml
@@ -920,6 +1146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgelss : layout:int -> m:int -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> s:(float ptr) -> rcond:float -> rank:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4487>`__
 
 
 
@@ -929,6 +1157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4490>`__
+
 
 
 .. code-block:: ocaml
@@ -936,6 +1166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgelsy : layout:int -> m:int -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> jpvt:(int32 ptr) -> rcond:float -> rank:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4493>`__
 
 
 
@@ -945,6 +1177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4496>`__
+
 
 
 .. code-block:: ocaml
@@ -952,6 +1186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgelsy : layout:int -> m:int -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> jpvt:(int32 ptr) -> rcond:float -> rank:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4499>`__
 
 
 
@@ -961,6 +1197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4502>`__
+
 
 
 .. code-block:: ocaml
@@ -968,6 +1206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqlf : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4505>`__
 
 
 
@@ -977,6 +1217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4508>`__
+
 
 
 .. code-block:: ocaml
@@ -984,6 +1226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqlf : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4511>`__
 
 
 
@@ -993,6 +1237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4514>`__
+
 
 
 .. code-block:: ocaml
@@ -1000,6 +1246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqp3 : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> jpvt:(int32 ptr) -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4517>`__
 
 
 
@@ -1009,6 +1257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4520>`__
+
 
 
 .. code-block:: ocaml
@@ -1016,6 +1266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqp3 : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> jpvt:(int32 ptr) -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4523>`__
 
 
 
@@ -1025,6 +1277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4526>`__
+
 
 
 .. code-block:: ocaml
@@ -1032,6 +1286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqr2 : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4529>`__
 
 
 
@@ -1041,6 +1297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4532>`__
+
 
 
 .. code-block:: ocaml
@@ -1048,6 +1306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqr2 : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4535>`__
 
 
 
@@ -1057,6 +1317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4538>`__
+
 
 
 .. code-block:: ocaml
@@ -1064,6 +1326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqrf : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4541>`__
 
 
 
@@ -1073,6 +1337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4544>`__
+
 
 
 .. code-block:: ocaml
@@ -1080,6 +1346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqrf : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4547>`__
 
 
 
@@ -1089,6 +1357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4550>`__
+
 
 
 .. code-block:: ocaml
@@ -1096,6 +1366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqrfp : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4553>`__
 
 
 
@@ -1105,6 +1377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4556>`__
+
 
 
 .. code-block:: ocaml
@@ -1112,6 +1386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqrfp : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4559>`__
 
 
 
@@ -1121,6 +1397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4562>`__
+
 
 
 .. code-block:: ocaml
@@ -1128,6 +1406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgerfs : layout:int -> trans:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> af:(float ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4565>`__
 
 
 
@@ -1137,6 +1417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4568>`__
+
 
 
 .. code-block:: ocaml
@@ -1144,6 +1426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgerfs : layout:int -> trans:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4571>`__
 
 
 
@@ -1153,6 +1437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4574>`__
+
 
 
 .. code-block:: ocaml
@@ -1160,6 +1446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgerqf : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4577>`__
 
 
 
@@ -1169,6 +1457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4580>`__
+
 
 
 .. code-block:: ocaml
@@ -1176,6 +1466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgerqf : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4583>`__
 
 
 
@@ -1185,6 +1477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4586>`__
+
 
 
 .. code-block:: ocaml
@@ -1192,6 +1486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgesdd : layout:int -> jobz:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> s:(float ptr) -> u:(float ptr) -> ldu:int -> vt:(float ptr) -> ldvt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4589>`__
 
 
 
@@ -1201,6 +1497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4592>`__
+
 
 
 .. code-block:: ocaml
@@ -1208,6 +1506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgesdd : layout:int -> jobz:char -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> s:(float ptr) -> u:(Complex.t ptr) -> ldu:int -> vt:(Complex.t ptr) -> ldvt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4595>`__
 
 
 
@@ -1217,6 +1517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4598>`__
+
 
 
 .. code-block:: ocaml
@@ -1224,6 +1526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgesv : layout:int -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4601>`__
 
 
 
@@ -1233,6 +1537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4604>`__
+
 
 
 .. code-block:: ocaml
@@ -1240,6 +1546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgesv : layout:int -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4607>`__
 
 
 
@@ -1249,6 +1557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4610>`__
+
 
 
 .. code-block:: ocaml
@@ -1256,6 +1566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zcgesv : layout:int -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> iter:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4613>`__
 
 
 
@@ -1265,6 +1577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4616>`__
+
 
 
 .. code-block:: ocaml
@@ -1272,6 +1586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgesvd : layout:int -> jobu:char -> jobvt:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> s:(float ptr) -> u:(float ptr) -> ldu:int -> vt:(float ptr) -> ldvt:int -> superb:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4619>`__
 
 
 
@@ -1281,6 +1597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4622>`__
+
 
 
 .. code-block:: ocaml
@@ -1288,6 +1606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgesvd : layout:int -> jobu:char -> jobvt:char -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> s:(float ptr) -> u:(Complex.t ptr) -> ldu:int -> vt:(Complex.t ptr) -> ldvt:int -> superb:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4625>`__
 
 
 
@@ -1297,6 +1617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4628>`__
+
 
 
 .. code-block:: ocaml
@@ -1304,6 +1626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgesvdx : layout:int -> jobu:char -> jobvt:char -> range:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> vl:float -> vu:float -> il:int -> iu:int -> ns:(int32 ptr) -> s:(float ptr) -> u:(float ptr) -> ldu:int -> vt:(float ptr) -> ldvt:int -> superb:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4631>`__
 
 
 
@@ -1313,6 +1637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4634>`__
+
 
 
 .. code-block:: ocaml
@@ -1320,6 +1646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgesvdx : layout:int -> jobu:char -> jobvt:char -> range:char -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> vl:float -> vu:float -> il:int -> iu:int -> ns:(int32 ptr) -> s:(float ptr) -> u:(Complex.t ptr) -> ldu:int -> vt:(Complex.t ptr) -> ldvt:int -> superb:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4637>`__
 
 
 
@@ -1329,6 +1657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4640>`__
+
 
 
 .. code-block:: ocaml
@@ -1336,6 +1666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgesvj : layout:int -> joba:char -> jobu:char -> jobv:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> sva:(float ptr) -> mv:int -> v:(float ptr) -> ldv:int -> stat:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4643>`__
 
 
 
@@ -1345,6 +1677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4646>`__
+
 
 
 .. code-block:: ocaml
@@ -1352,6 +1686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgesvj : layout:int -> joba:char -> jobu:char -> jobv:char -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> sva:(float ptr) -> mv:int -> v:(Complex.t ptr) -> ldv:int -> stat:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4649>`__
 
 
 
@@ -1361,6 +1697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4652>`__
+
 
 
 .. code-block:: ocaml
@@ -1368,6 +1706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgesvx : layout:int -> fact:char -> trans:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> af:(float ptr) -> ldaf:int -> ipiv:(int32 ptr) -> equed:(char ptr) -> r:(float ptr) -> c:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> rpivot:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4655>`__
 
 
 
@@ -1377,6 +1717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4658>`__
+
 
 
 .. code-block:: ocaml
@@ -1384,6 +1726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgesvx : layout:int -> fact:char -> trans:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> ipiv:(int32 ptr) -> equed:(char ptr) -> r:(float ptr) -> c:(float ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> rpivot:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4661>`__
 
 
 
@@ -1393,6 +1737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4664>`__
+
 
 
 .. code-block:: ocaml
@@ -1400,6 +1746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgetf2 : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4667>`__
 
 
 
@@ -1409,6 +1757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4670>`__
+
 
 
 .. code-block:: ocaml
@@ -1416,6 +1766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgetf2 : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4673>`__
 
 
 
@@ -1425,6 +1777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4676>`__
+
 
 
 .. code-block:: ocaml
@@ -1432,6 +1786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgetrf : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4679>`__
 
 
 
@@ -1441,6 +1797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4682>`__
+
 
 
 .. code-block:: ocaml
@@ -1448,6 +1806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgetrf : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4685>`__
 
 
 
@@ -1457,6 +1817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4688>`__
+
 
 
 .. code-block:: ocaml
@@ -1464,6 +1826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgetrf2 : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4691>`__
 
 
 
@@ -1473,6 +1837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4694>`__
+
 
 
 .. code-block:: ocaml
@@ -1480,6 +1846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgetrf2 : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4697>`__
 
 
 
@@ -1489,6 +1857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4700>`__
+
 
 
 .. code-block:: ocaml
@@ -1496,6 +1866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgetri : layout:int -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4703>`__
 
 
 
@@ -1505,6 +1877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4706>`__
+
 
 
 .. code-block:: ocaml
@@ -1512,6 +1886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgetri : layout:int -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4709>`__
 
 
 
@@ -1521,6 +1897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4712>`__
+
 
 
 .. code-block:: ocaml
@@ -1528,6 +1906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgetrs : layout:int -> trans:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4715>`__
 
 
 
@@ -1537,6 +1917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4718>`__
+
 
 
 .. code-block:: ocaml
@@ -1544,6 +1926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgetrs : layout:int -> trans:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4721>`__
 
 
 
@@ -1553,6 +1937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4724>`__
+
 
 
 .. code-block:: ocaml
@@ -1560,6 +1946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggbak : layout:int -> job:char -> side:char -> n:int -> ilo:int -> ihi:int -> lscale:(float ptr) -> rscale:(float ptr) -> m:int -> v:(float ptr) -> ldv:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4727>`__
 
 
 
@@ -1569,6 +1957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4730>`__
+
 
 
 .. code-block:: ocaml
@@ -1576,6 +1966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggbak : layout:int -> job:char -> side:char -> n:int -> ilo:int -> ihi:int -> lscale:(float ptr) -> rscale:(float ptr) -> m:int -> v:(Complex.t ptr) -> ldv:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4733>`__
 
 
 
@@ -1585,6 +1977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4736>`__
+
 
 
 .. code-block:: ocaml
@@ -1592,6 +1986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggbal : layout:int -> job:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> lscale:(float ptr) -> rscale:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4739>`__
 
 
 
@@ -1601,6 +1997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4742>`__
+
 
 
 .. code-block:: ocaml
@@ -1608,6 +2006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggbal : layout:int -> job:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> lscale:(float ptr) -> rscale:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4745>`__
 
 
 
@@ -1617,6 +2017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4748>`__
+
 
 
 .. code-block:: ocaml
@@ -1624,6 +2026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgges : layout:int -> jobvsl:char -> jobvsr:char -> sort:char -> selctg:(unit ptr) -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> sdim:(int32 ptr) -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> vsl:(float ptr) -> ldvsl:int -> vsr:(float ptr) -> ldvsr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4751>`__
 
 
 
@@ -1633,6 +2037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4754>`__
+
 
 
 .. code-block:: ocaml
@@ -1640,6 +2046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgges : layout:int -> jobvsl:char -> jobvsr:char -> sort:char -> selctg:(unit ptr) -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> sdim:(int32 ptr) -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> vsl:(Complex.t ptr) -> ldvsl:int -> vsr:(Complex.t ptr) -> ldvsr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4757>`__
 
 
 
@@ -1649,6 +2057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4760>`__
+
 
 
 .. code-block:: ocaml
@@ -1656,6 +2066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgges3 : layout:int -> jobvsl:char -> jobvsr:char -> sort:char -> selctg:(unit ptr) -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> sdim:(int32 ptr) -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> vsl:(float ptr) -> ldvsl:int -> vsr:(float ptr) -> ldvsr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4763>`__
 
 
 
@@ -1665,6 +2077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4766>`__
+
 
 
 .. code-block:: ocaml
@@ -1672,6 +2086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgges3 : layout:int -> jobvsl:char -> jobvsr:char -> sort:char -> selctg:(unit ptr) -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> sdim:(int32 ptr) -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> vsl:(Complex.t ptr) -> ldvsl:int -> vsr:(Complex.t ptr) -> ldvsr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4769>`__
 
 
 
@@ -1681,6 +2097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4772>`__
+
 
 
 .. code-block:: ocaml
@@ -1688,6 +2106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggesx : layout:int -> jobvsl:char -> jobvsr:char -> sort:char -> selctg:(unit ptr) -> sense:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> sdim:(int32 ptr) -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> vsl:(float ptr) -> ldvsl:int -> vsr:(float ptr) -> ldvsr:int -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4775>`__
 
 
 
@@ -1697,6 +2117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4778>`__
+
 
 
 .. code-block:: ocaml
@@ -1704,6 +2126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggesx : layout:int -> jobvsl:char -> jobvsr:char -> sort:char -> selctg:(unit ptr) -> sense:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> sdim:(int32 ptr) -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> vsl:(Complex.t ptr) -> ldvsl:int -> vsr:(Complex.t ptr) -> ldvsr:int -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4781>`__
 
 
 
@@ -1713,6 +2137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4784>`__
+
 
 
 .. code-block:: ocaml
@@ -1720,6 +2146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggev : layout:int -> jobvl:char -> jobvr:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4787>`__
 
 
 
@@ -1729,6 +2157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4790>`__
+
 
 
 .. code-block:: ocaml
@@ -1736,6 +2166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggev : layout:int -> jobvl:char -> jobvr:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4793>`__
 
 
 
@@ -1745,6 +2177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4796>`__
+
 
 
 .. code-block:: ocaml
@@ -1752,6 +2186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggev3 : layout:int -> jobvl:char -> jobvr:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4799>`__
 
 
 
@@ -1761,6 +2197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4802>`__
+
 
 
 .. code-block:: ocaml
@@ -1768,6 +2206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggev3 : layout:int -> jobvl:char -> jobvr:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4805>`__
 
 
 
@@ -1777,6 +2217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4808>`__
+
 
 
 .. code-block:: ocaml
@@ -1784,6 +2226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggevx : layout:int -> balanc:char -> jobvl:char -> jobvr:char -> sense:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> lscale:(float ptr) -> rscale:(float ptr) -> abnrm:(float ptr) -> bbnrm:(float ptr) -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4811>`__
 
 
 
@@ -1793,6 +2237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4814>`__
+
 
 
 .. code-block:: ocaml
@@ -1800,6 +2246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggevx : layout:int -> balanc:char -> jobvl:char -> jobvr:char -> sense:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> ilo:(int32 ptr) -> ihi:(int32 ptr) -> lscale:(float ptr) -> rscale:(float ptr) -> abnrm:(float ptr) -> bbnrm:(float ptr) -> rconde:(float ptr) -> rcondv:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4817>`__
 
 
 
@@ -1809,6 +2257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4820>`__
+
 
 
 .. code-block:: ocaml
@@ -1816,6 +2266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggglm : layout:int -> n:int -> m:int -> p:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> d:(float ptr) -> x:(float ptr) -> y:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4823>`__
 
 
 
@@ -1825,6 +2277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4826>`__
+
 
 
 .. code-block:: ocaml
@@ -1832,6 +2286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggglm : layout:int -> n:int -> m:int -> p:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> d:(Complex.t ptr) -> x:(Complex.t ptr) -> y:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4829>`__
 
 
 
@@ -1841,6 +2297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4832>`__
+
 
 
 .. code-block:: ocaml
@@ -1848,6 +2306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgghrd : layout:int -> compq:char -> compz:char -> n:int -> ilo:int -> ihi:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> q:(float ptr) -> ldq:int -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4835>`__
 
 
 
@@ -1857,6 +2317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4838>`__
+
 
 
 .. code-block:: ocaml
@@ -1864,6 +2326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgghrd : layout:int -> compq:char -> compz:char -> n:int -> ilo:int -> ihi:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> q:(Complex.t ptr) -> ldq:int -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4841>`__
 
 
 
@@ -1873,6 +2337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4844>`__
+
 
 
 .. code-block:: ocaml
@@ -1880,6 +2346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgghd3 : layout:int -> compq:char -> compz:char -> n:int -> ilo:int -> ihi:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> q:(float ptr) -> ldq:int -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4847>`__
 
 
 
@@ -1889,6 +2357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4850>`__
+
 
 
 .. code-block:: ocaml
@@ -1896,6 +2366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgghd3 : layout:int -> compq:char -> compz:char -> n:int -> ilo:int -> ihi:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> q:(Complex.t ptr) -> ldq:int -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4853>`__
 
 
 
@@ -1905,6 +2377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4856>`__
+
 
 
 .. code-block:: ocaml
@@ -1912,6 +2386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgglse : layout:int -> m:int -> n:int -> p:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> c:(float ptr) -> d:(float ptr) -> x:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4859>`__
 
 
 
@@ -1921,6 +2397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4862>`__
+
 
 
 .. code-block:: ocaml
@@ -1928,6 +2406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgglse : layout:int -> m:int -> n:int -> p:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> c:(Complex.t ptr) -> d:(Complex.t ptr) -> x:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4865>`__
 
 
 
@@ -1937,6 +2417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4868>`__
+
 
 
 .. code-block:: ocaml
@@ -1944,6 +2426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggqrf : layout:int -> n:int -> m:int -> p:int -> a:(float ptr) -> lda:int -> taua:(float ptr) -> b:(float ptr) -> ldb:int -> taub:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4871>`__
 
 
 
@@ -1953,6 +2437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4874>`__
+
 
 
 .. code-block:: ocaml
@@ -1960,6 +2446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggqrf : layout:int -> n:int -> m:int -> p:int -> a:(Complex.t ptr) -> lda:int -> taua:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> taub:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4877>`__
 
 
 
@@ -1969,6 +2457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4880>`__
+
 
 
 .. code-block:: ocaml
@@ -1976,6 +2466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggrqf : layout:int -> m:int -> p:int -> n:int -> a:(float ptr) -> lda:int -> taua:(float ptr) -> b:(float ptr) -> ldb:int -> taub:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4883>`__
 
 
 
@@ -1985,6 +2477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4886>`__
+
 
 
 .. code-block:: ocaml
@@ -1992,6 +2486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggrqf : layout:int -> m:int -> p:int -> n:int -> a:(Complex.t ptr) -> lda:int -> taua:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> taub:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4889>`__
 
 
 
@@ -2001,6 +2497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4892>`__
+
 
 
 .. code-block:: ocaml
@@ -2008,6 +2506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggsvd3 : layout:int -> jobu:char -> jobv:char -> jobq:char -> m:int -> n:int -> p:int -> k:(int32 ptr) -> l:(int32 ptr) -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> alpha:(float ptr) -> beta:(float ptr) -> u:(float ptr) -> ldu:int -> v:(float ptr) -> ldv:int -> q:(float ptr) -> ldq:int -> iwork:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4895>`__
 
 
 
@@ -2017,6 +2517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4898>`__
+
 
 
 .. code-block:: ocaml
@@ -2024,6 +2526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggsvd3 : layout:int -> jobu:char -> jobv:char -> jobq:char -> m:int -> n:int -> p:int -> k:(int32 ptr) -> l:(int32 ptr) -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> alpha:(float ptr) -> beta:(float ptr) -> u:(Complex.t ptr) -> ldu:int -> v:(Complex.t ptr) -> ldv:int -> q:(Complex.t ptr) -> ldq:int -> iwork:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4901>`__
 
 
 
@@ -2033,6 +2537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4904>`__
+
 
 
 .. code-block:: ocaml
@@ -2040,6 +2546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dggsvp3 : layout:int -> jobu:char -> jobv:char -> jobq:char -> m:int -> p:int -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> tola:float -> tolb:float -> k:(int32 ptr) -> l:(int32 ptr) -> u:(float ptr) -> ldu:int -> v:(float ptr) -> ldv:int -> q:(float ptr) -> ldq:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4907>`__
 
 
 
@@ -2049,6 +2557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4910>`__
+
 
 
 .. code-block:: ocaml
@@ -2056,6 +2566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zggsvp3 : layout:int -> jobu:char -> jobv:char -> jobq:char -> m:int -> p:int -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> tola:float -> tolb:float -> k:(int32 ptr) -> l:(int32 ptr) -> u:(Complex.t ptr) -> ldu:int -> v:(Complex.t ptr) -> ldv:int -> q:(Complex.t ptr) -> ldq:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4913>`__
 
 
 
@@ -2065,6 +2577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4916>`__
+
 
 
 .. code-block:: ocaml
@@ -2072,6 +2586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgtcon : norm:char -> n:int -> dl:(float ptr) -> d:(float ptr) -> du:(float ptr) -> du2:(float ptr) -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4919>`__
 
 
 
@@ -2081,6 +2597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4922>`__
+
 
 
 .. code-block:: ocaml
@@ -2088,6 +2606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgtcon : norm:char -> n:int -> dl:(Complex.t ptr) -> d:(Complex.t ptr) -> du:(Complex.t ptr) -> du2:(Complex.t ptr) -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4925>`__
 
 
 
@@ -2097,6 +2617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4928>`__
+
 
 
 .. code-block:: ocaml
@@ -2104,6 +2626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgtrfs : layout:int -> trans:char -> n:int -> nrhs:int -> dl:(float ptr) -> d:(float ptr) -> du:(float ptr) -> dlf:(float ptr) -> df:(float ptr) -> duf:(float ptr) -> du2:(float ptr) -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4931>`__
 
 
 
@@ -2113,6 +2637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4934>`__
+
 
 
 .. code-block:: ocaml
@@ -2120,6 +2646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgtrfs : layout:int -> trans:char -> n:int -> nrhs:int -> dl:(Complex.t ptr) -> d:(Complex.t ptr) -> du:(Complex.t ptr) -> dlf:(Complex.t ptr) -> df:(Complex.t ptr) -> duf:(Complex.t ptr) -> du2:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4937>`__
 
 
 
@@ -2129,6 +2657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4940>`__
+
 
 
 .. code-block:: ocaml
@@ -2136,6 +2666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgtsv : layout:int -> n:int -> nrhs:int -> dl:(float ptr) -> d:(float ptr) -> du:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4943>`__
 
 
 
@@ -2145,6 +2677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4946>`__
+
 
 
 .. code-block:: ocaml
@@ -2152,6 +2686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgtsv : layout:int -> n:int -> nrhs:int -> dl:(Complex.t ptr) -> d:(Complex.t ptr) -> du:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4949>`__
 
 
 
@@ -2161,6 +2697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4952>`__
+
 
 
 .. code-block:: ocaml
@@ -2168,6 +2706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgtsvx : layout:int -> fact:char -> trans:char -> n:int -> nrhs:int -> dl:(float ptr) -> d:(float ptr) -> du:(float ptr) -> dlf:(float ptr) -> df:(float ptr) -> duf:(float ptr) -> du2:(float ptr) -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4955>`__
 
 
 
@@ -2177,6 +2717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4958>`__
+
 
 
 .. code-block:: ocaml
@@ -2184,6 +2726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgtsvx : layout:int -> fact:char -> trans:char -> n:int -> nrhs:int -> dl:(Complex.t ptr) -> d:(Complex.t ptr) -> du:(Complex.t ptr) -> dlf:(Complex.t ptr) -> df:(Complex.t ptr) -> duf:(Complex.t ptr) -> du2:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4961>`__
 
 
 
@@ -2193,6 +2737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4964>`__
+
 
 
 .. code-block:: ocaml
@@ -2200,6 +2746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgttrf : n:int -> dl:(float ptr) -> d:(float ptr) -> du:(float ptr) -> du2:(float ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4967>`__
 
 
 
@@ -2209,6 +2757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4970>`__
+
 
 
 .. code-block:: ocaml
@@ -2216,6 +2766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgttrf : n:int -> dl:(Complex.t ptr) -> d:(Complex.t ptr) -> du:(Complex.t ptr) -> du2:(Complex.t ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4973>`__
 
 
 
@@ -2225,6 +2777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4976>`__
+
 
 
 .. code-block:: ocaml
@@ -2232,6 +2786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgttrs : layout:int -> trans:char -> n:int -> nrhs:int -> dl:(float ptr) -> d:(float ptr) -> du:(float ptr) -> du2:(float ptr) -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4979>`__
 
 
 
@@ -2241,6 +2797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4982>`__
+
 
 
 .. code-block:: ocaml
@@ -2248,6 +2806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgttrs : layout:int -> trans:char -> n:int -> nrhs:int -> dl:(Complex.t ptr) -> d:(Complex.t ptr) -> du:(Complex.t ptr) -> du2:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4985>`__
 
 
 
@@ -2257,6 +2817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4988>`__
+
 
 
 .. code-block:: ocaml
@@ -2264,6 +2826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbev : layout:int -> jobz:char -> uplo:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4991>`__
 
 
 
@@ -2273,6 +2837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4994>`__
+
 
 
 .. code-block:: ocaml
@@ -2280,6 +2846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbevd : layout:int -> jobz:char -> uplo:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4997>`__
 
 
 
@@ -2289,6 +2857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5000>`__
+
 
 
 .. code-block:: ocaml
@@ -2296,6 +2866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbevx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> q:(Complex.t ptr) -> ldq:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5003>`__
 
 
 
@@ -2305,6 +2877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5006>`__
+
 
 
 .. code-block:: ocaml
@@ -2312,6 +2886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbgst : layout:int -> vect:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(Complex.t ptr) -> ldab:int -> bb:(Complex.t ptr) -> ldbb:int -> x:(Complex.t ptr) -> ldx:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5009>`__
 
 
 
@@ -2321,6 +2897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5012>`__
+
 
 
 .. code-block:: ocaml
@@ -2328,6 +2906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbgv : layout:int -> jobz:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(Complex.t ptr) -> ldab:int -> bb:(Complex.t ptr) -> ldbb:int -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5015>`__
 
 
 
@@ -2337,6 +2917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5018>`__
+
 
 
 .. code-block:: ocaml
@@ -2344,6 +2926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbgvd : layout:int -> jobz:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(Complex.t ptr) -> ldab:int -> bb:(Complex.t ptr) -> ldbb:int -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5021>`__
 
 
 
@@ -2353,6 +2937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5024>`__
+
 
 
 .. code-block:: ocaml
@@ -2360,6 +2946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbgvx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(Complex.t ptr) -> ldab:int -> bb:(Complex.t ptr) -> ldbb:int -> q:(Complex.t ptr) -> ldq:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5027>`__
 
 
 
@@ -2369,6 +2957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5030>`__
+
 
 
 .. code-block:: ocaml
@@ -2376,6 +2966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhbtrd : layout:int -> vect:char -> uplo:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> d:(float ptr) -> e:(float ptr) -> q:(Complex.t ptr) -> ldq:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5033>`__
 
 
 
@@ -2385,6 +2977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5036>`__
+
 
 
 .. code-block:: ocaml
@@ -2392,6 +2986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhecon : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5039>`__
 
 
 
@@ -2401,6 +2997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5042>`__
+
 
 
 .. code-block:: ocaml
@@ -2408,6 +3006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zheequb : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5045>`__
 
 
 
@@ -2417,6 +3017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5048>`__
+
 
 
 .. code-block:: ocaml
@@ -2424,6 +3026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zheev : layout:int -> jobz:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5051>`__
 
 
 
@@ -2433,6 +3037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5054>`__
+
 
 
 .. code-block:: ocaml
@@ -2440,6 +3046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zheevd : layout:int -> jobz:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5057>`__
 
 
 
@@ -2449,6 +3057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5060>`__
+
 
 
 .. code-block:: ocaml
@@ -2456,6 +3066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zheevr : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> isuppz:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5063>`__
 
 
 
@@ -2465,6 +3077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5066>`__
+
 
 
 .. code-block:: ocaml
@@ -2472,6 +3086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zheevx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5069>`__
 
 
 
@@ -2481,6 +3097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5072>`__
+
 
 
 .. code-block:: ocaml
@@ -2488,6 +3106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhegst : layout:int -> ityp:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5075>`__
 
 
 
@@ -2497,6 +3117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5078>`__
+
 
 
 .. code-block:: ocaml
@@ -2504,6 +3126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhegv : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5081>`__
 
 
 
@@ -2513,6 +3137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5084>`__
+
 
 
 .. code-block:: ocaml
@@ -2520,6 +3146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhegvd : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5087>`__
 
 
 
@@ -2529,6 +3157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5090>`__
+
 
 
 .. code-block:: ocaml
@@ -2536,6 +3166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhegvx : layout:int -> ityp:int -> jobz:char -> range:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5093>`__
 
 
 
@@ -2545,6 +3177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5096>`__
+
 
 
 .. code-block:: ocaml
@@ -2552,6 +3186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zherfs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5099>`__
 
 
 
@@ -2561,6 +3197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5102>`__
+
 
 
 .. code-block:: ocaml
@@ -2568,6 +3206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhesv : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5105>`__
 
 
 
@@ -2577,6 +3217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5108>`__
+
 
 
 .. code-block:: ocaml
@@ -2584,6 +3226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhesvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5111>`__
 
 
 
@@ -2593,6 +3237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5114>`__
+
 
 
 .. code-block:: ocaml
@@ -2600,6 +3246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetrd : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> d:(float ptr) -> e:(float ptr) -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5117>`__
 
 
 
@@ -2609,6 +3257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5120>`__
+
 
 
 .. code-block:: ocaml
@@ -2616,6 +3266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetrf : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5123>`__
 
 
 
@@ -2625,6 +3277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5126>`__
+
 
 
 .. code-block:: ocaml
@@ -2632,6 +3286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetri : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5129>`__
 
 
 
@@ -2641,6 +3297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5132>`__
+
 
 
 .. code-block:: ocaml
@@ -2648,6 +3306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetrs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5135>`__
 
 
 
@@ -2657,6 +3317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5138>`__
+
 
 
 .. code-block:: ocaml
@@ -2664,6 +3326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhfrk : layout:int -> transr:char -> uplo:char -> trans:char -> n:int -> k:int -> alpha:float -> a:(Complex.t ptr) -> lda:int -> beta:float -> c:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5141>`__
 
 
 
@@ -2673,6 +3337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5144>`__
+
 
 
 .. code-block:: ocaml
@@ -2680,6 +3346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dhgeqz : layout:int -> job:char -> compq:char -> compz:char -> n:int -> ilo:int -> ihi:int -> h:(float ptr) -> ldh:int -> t:(float ptr) -> ldt:int -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> q:(float ptr) -> ldq:int -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5147>`__
 
 
 
@@ -2689,6 +3357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5150>`__
+
 
 
 .. code-block:: ocaml
@@ -2696,6 +3366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhgeqz : layout:int -> job:char -> compq:char -> compz:char -> n:int -> ilo:int -> ihi:int -> h:(Complex.t ptr) -> ldh:int -> t:(Complex.t ptr) -> ldt:int -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> q:(Complex.t ptr) -> ldq:int -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5153>`__
 
 
 
@@ -2705,6 +3377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5156>`__
+
 
 
 .. code-block:: ocaml
@@ -2712,6 +3386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpcon : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5159>`__
 
 
 
@@ -2721,6 +3397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5162>`__
+
 
 
 .. code-block:: ocaml
@@ -2728,6 +3406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpev : layout:int -> jobz:char -> uplo:char -> n:int -> ap:(Complex.t ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5165>`__
 
 
 
@@ -2737,6 +3417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5168>`__
+
 
 
 .. code-block:: ocaml
@@ -2744,6 +3426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpevd : layout:int -> jobz:char -> uplo:char -> n:int -> ap:(Complex.t ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5171>`__
 
 
 
@@ -2753,6 +3437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5174>`__
+
 
 
 .. code-block:: ocaml
@@ -2760,6 +3446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpevx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> ap:(Complex.t ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5177>`__
 
 
 
@@ -2769,6 +3457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5180>`__
+
 
 
 .. code-block:: ocaml
@@ -2776,6 +3466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpgst : layout:int -> ityp:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> bp:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5183>`__
 
 
 
@@ -2785,6 +3477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5186>`__
+
 
 
 .. code-block:: ocaml
@@ -2792,6 +3486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpgv : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> ap:(Complex.t ptr) -> bp:(Complex.t ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5189>`__
 
 
 
@@ -2801,6 +3497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5192>`__
+
 
 
 .. code-block:: ocaml
@@ -2808,6 +3506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpgvd : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> ap:(Complex.t ptr) -> bp:(Complex.t ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5195>`__
 
 
 
@@ -2817,6 +3517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5198>`__
+
 
 
 .. code-block:: ocaml
@@ -2824,6 +3526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpgvx : layout:int -> ityp:int -> jobz:char -> range:char -> uplo:char -> n:int -> ap:(Complex.t ptr) -> bp:(Complex.t ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5201>`__
 
 
 
@@ -2833,6 +3537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5204>`__
+
 
 
 .. code-block:: ocaml
@@ -2840,6 +3546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhprfs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> afp:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5207>`__
 
 
 
@@ -2849,6 +3557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5210>`__
+
 
 
 .. code-block:: ocaml
@@ -2856,6 +3566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpsv : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5213>`__
 
 
 
@@ -2865,6 +3577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5216>`__
+
 
 
 .. code-block:: ocaml
@@ -2872,6 +3586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhpsvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> afp:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5219>`__
 
 
 
@@ -2881,6 +3597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5222>`__
+
 
 
 .. code-block:: ocaml
@@ -2888,6 +3606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhptrd : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> d:(float ptr) -> e:(float ptr) -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5225>`__
 
 
 
@@ -2897,6 +3617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5228>`__
+
 
 
 .. code-block:: ocaml
@@ -2904,6 +3626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhptrf : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5231>`__
 
 
 
@@ -2913,6 +3637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5234>`__
+
 
 
 .. code-block:: ocaml
@@ -2920,6 +3646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhptri : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5237>`__
 
 
 
@@ -2929,6 +3657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5240>`__
+
 
 
 .. code-block:: ocaml
@@ -2936,6 +3666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhptrs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5243>`__
 
 
 
@@ -2945,6 +3677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5246>`__
+
 
 
 .. code-block:: ocaml
@@ -2952,6 +3686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dhsein : layout:int -> job:char -> eigsrc:char -> initv:char -> select:(int32 ptr) -> n:int -> h:(float ptr) -> ldh:int -> wr:(float ptr) -> wi:(float ptr) -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> mm:int -> m:(int32 ptr) -> ifaill:(int32 ptr) -> ifailr:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5249>`__
 
 
 
@@ -2961,6 +3697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5252>`__
+
 
 
 .. code-block:: ocaml
@@ -2968,6 +3706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhsein : layout:int -> job:char -> eigsrc:char -> initv:char -> select:(int32 ptr) -> n:int -> h:(Complex.t ptr) -> ldh:int -> w:(Complex.t ptr) -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> mm:int -> m:(int32 ptr) -> ifaill:(int32 ptr) -> ifailr:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5255>`__
 
 
 
@@ -2977,6 +3717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5258>`__
+
 
 
 .. code-block:: ocaml
@@ -2984,6 +3726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dhseqr : layout:int -> job:char -> compz:char -> n:int -> ilo:int -> ihi:int -> h:(float ptr) -> ldh:int -> wr:(float ptr) -> wi:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5261>`__
 
 
 
@@ -2993,6 +3737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5264>`__
+
 
 
 .. code-block:: ocaml
@@ -3000,6 +3746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhseqr : layout:int -> job:char -> compz:char -> n:int -> ilo:int -> ihi:int -> h:(Complex.t ptr) -> ldh:int -> w:(Complex.t ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5267>`__
 
 
 
@@ -3009,6 +3757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5270>`__
+
 
 
 .. code-block:: ocaml
@@ -3016,6 +3766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlacgv : n:int -> x:(Complex.t ptr) -> incx:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5273>`__
 
 
 
@@ -3025,6 +3777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5276>`__
+
 
 
 .. code-block:: ocaml
@@ -3032,6 +3786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlacn2 : n:int -> v:(float ptr) -> x:(float ptr) -> isgn:(int32 ptr) -> est:(float ptr) -> kase:(int32 ptr) -> isave:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5279>`__
 
 
 
@@ -3041,6 +3797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5282>`__
+
 
 
 .. code-block:: ocaml
@@ -3048,6 +3806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlacn2 : n:int -> v:(Complex.t ptr) -> x:(Complex.t ptr) -> est:(float ptr) -> kase:(int32 ptr) -> isave:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5285>`__
 
 
 
@@ -3057,6 +3817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5288>`__
+
 
 
 .. code-block:: ocaml
@@ -3064,6 +3826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlacpy : layout:int -> uplo:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5291>`__
 
 
 
@@ -3073,6 +3837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5294>`__
+
 
 
 .. code-block:: ocaml
@@ -3080,6 +3846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlacpy : layout:int -> uplo:char -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5297>`__
 
 
 
@@ -3089,6 +3857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5300>`__
+
 
 
 .. code-block:: ocaml
@@ -3096,6 +3866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlacp2 : layout:int -> uplo:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5303>`__
 
 
 
@@ -3105,6 +3877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5306>`__
+
 
 
 .. code-block:: ocaml
@@ -3112,6 +3886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val slag2d : layout:int -> m:int -> n:int -> sa:(float ptr) -> ldsa:int -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5309>`__
 
 
 
@@ -3121,6 +3897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5312>`__
+
 
 
 .. code-block:: ocaml
@@ -3128,6 +3906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val clag2z : layout:int -> m:int -> n:int -> sa:(Complex.t ptr) -> ldsa:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5315>`__
 
 
 
@@ -3137,6 +3917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5318>`__
+
 
 
 .. code-block:: ocaml
@@ -3144,6 +3926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlagge : layout:int -> m:int -> n:int -> kl:int -> ku:int -> d:(float ptr) -> a:(float ptr) -> lda:int -> iseed:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5321>`__
 
 
 
@@ -3153,6 +3937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5324>`__
+
 
 
 .. code-block:: ocaml
@@ -3160,6 +3946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlagge : layout:int -> m:int -> n:int -> kl:int -> ku:int -> d:(float ptr) -> a:(Complex.t ptr) -> lda:int -> iseed:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5327>`__
 
 
 
@@ -3169,6 +3957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5330>`__
+
 
 
 .. code-block:: ocaml
@@ -3176,6 +3966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlarfb : layout:int -> side:char -> trans:char -> direct:char -> storev:char -> m:int -> n:int -> k:int -> v:(float ptr) -> ldv:int -> t:(float ptr) -> ldt:int -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5333>`__
 
 
 
@@ -3185,6 +3977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5336>`__
+
 
 
 .. code-block:: ocaml
@@ -3192,6 +3986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlarfb : layout:int -> side:char -> trans:char -> direct:char -> storev:char -> m:int -> n:int -> k:int -> v:(Complex.t ptr) -> ldv:int -> t:(Complex.t ptr) -> ldt:int -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5339>`__
 
 
 
@@ -3201,6 +3997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5342>`__
+
 
 
 .. code-block:: ocaml
@@ -3208,6 +4006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlarfg : n:int -> alpha:(float ptr) -> x:(float ptr) -> incx:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5345>`__
 
 
 
@@ -3217,6 +4017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5348>`__
+
 
 
 .. code-block:: ocaml
@@ -3224,6 +4026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlarfg : n:int -> alpha:(Complex.t ptr) -> x:(Complex.t ptr) -> incx:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5351>`__
 
 
 
@@ -3233,6 +4037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5354>`__
+
 
 
 .. code-block:: ocaml
@@ -3240,6 +4046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlarft : layout:int -> direct:char -> storev:char -> n:int -> k:int -> v:(float ptr) -> ldv:int -> tau:(float ptr) -> t:(float ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5357>`__
 
 
 
@@ -3249,6 +4057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5360>`__
+
 
 
 .. code-block:: ocaml
@@ -3256,6 +4066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlarft : layout:int -> direct:char -> storev:char -> n:int -> k:int -> v:(Complex.t ptr) -> ldv:int -> tau:(Complex.t ptr) -> t:(Complex.t ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5363>`__
 
 
 
@@ -3265,6 +4077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5366>`__
+
 
 
 .. code-block:: ocaml
@@ -3272,6 +4086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlarfx : layout:int -> side:char -> m:int -> n:int -> v:(float ptr) -> tau:float -> c:(float ptr) -> ldc:int -> work:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5369>`__
 
 
 
@@ -3281,6 +4097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5372>`__
+
 
 
 .. code-block:: ocaml
@@ -3288,6 +4106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlarfx : layout:int -> side:char -> m:int -> n:int -> v:(Complex.t ptr) -> tau:Complex.t -> c:(Complex.t ptr) -> ldc:int -> work:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5375>`__
 
 
 
@@ -3297,6 +4117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5378>`__
+
 
 
 .. code-block:: ocaml
@@ -3304,6 +4126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlarnv : idist:int -> iseed:(int32 ptr) -> n:int -> x:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5381>`__
 
 
 
@@ -3313,6 +4137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5384>`__
+
 
 
 .. code-block:: ocaml
@@ -3320,6 +4146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlarnv : idist:int -> iseed:(int32 ptr) -> n:int -> x:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5387>`__
 
 
 
@@ -3329,6 +4157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5390>`__
+
 
 
 .. code-block:: ocaml
@@ -3336,6 +4166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlascl : layout:int -> typ:char -> kl:int -> ku:int -> cfrom:float -> cto:float -> m:int -> n:int -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5393>`__
 
 
 
@@ -3345,6 +4177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5396>`__
+
 
 
 .. code-block:: ocaml
@@ -3352,6 +4186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlascl : layout:int -> typ:char -> kl:int -> ku:int -> cfrom:float -> cto:float -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5399>`__
 
 
 
@@ -3361,6 +4197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5402>`__
+
 
 
 .. code-block:: ocaml
@@ -3368,6 +4206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlaset : layout:int -> uplo:char -> m:int -> n:int -> alpha:float -> beta:float -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5405>`__
 
 
 
@@ -3377,6 +4217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5408>`__
+
 
 
 .. code-block:: ocaml
@@ -3384,6 +4226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlaset : layout:int -> uplo:char -> m:int -> n:int -> alpha:Complex.t -> beta:Complex.t -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5411>`__
 
 
 
@@ -3393,6 +4237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5414>`__
+
 
 
 .. code-block:: ocaml
@@ -3400,6 +4246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlasrt : id:char -> n:int -> d:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5417>`__
 
 
 
@@ -3409,6 +4257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5420>`__
+
 
 
 .. code-block:: ocaml
@@ -3416,6 +4266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlaswp : layout:int -> n:int -> a:(float ptr) -> lda:int -> k1:int -> k2:int -> ipiv:(int32 ptr) -> incx:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5423>`__
 
 
 
@@ -3425,6 +4277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5426>`__
+
 
 
 .. code-block:: ocaml
@@ -3432,6 +4286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlaswp : layout:int -> n:int -> a:(Complex.t ptr) -> lda:int -> k1:int -> k2:int -> ipiv:(int32 ptr) -> incx:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5429>`__
 
 
 
@@ -3441,6 +4297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5432>`__
+
 
 
 .. code-block:: ocaml
@@ -3448,6 +4306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlatms : layout:int -> m:int -> n:int -> dist:char -> iseed:(int32 ptr) -> sym:char -> d:(float ptr) -> mode:int -> cond:float -> dmax:float -> kl:int -> ku:int -> pack:char -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5435>`__
 
 
 
@@ -3457,6 +4317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5438>`__
+
 
 
 .. code-block:: ocaml
@@ -3464,6 +4326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlatms : layout:int -> m:int -> n:int -> dist:char -> iseed:(int32 ptr) -> sym:char -> d:(float ptr) -> mode:int -> cond:float -> dmax:float -> kl:int -> ku:int -> pack:char -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5441>`__
 
 
 
@@ -3473,6 +4337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5444>`__
+
 
 
 .. code-block:: ocaml
@@ -3480,6 +4346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlauum : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5447>`__
 
 
 
@@ -3489,6 +4357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5450>`__
+
 
 
 .. code-block:: ocaml
@@ -3496,6 +4366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlauum : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5453>`__
 
 
 
@@ -3505,6 +4377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5456>`__
+
 
 
 .. code-block:: ocaml
@@ -3512,6 +4386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dopgtr : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> tau:(float ptr) -> q:(float ptr) -> ldq:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5459>`__
 
 
 
@@ -3521,6 +4397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5462>`__
+
 
 
 .. code-block:: ocaml
@@ -3528,6 +4406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dopmtr : layout:int -> side:char -> uplo:char -> trans:char -> m:int -> n:int -> ap:(float ptr) -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5465>`__
 
 
 
@@ -3537,6 +4417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5468>`__
+
 
 
 .. code-block:: ocaml
@@ -3544,6 +4426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorgbr : layout:int -> vect:char -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5471>`__
 
 
 
@@ -3553,6 +4437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5474>`__
+
 
 
 .. code-block:: ocaml
@@ -3560,6 +4446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorghr : layout:int -> n:int -> ilo:int -> ihi:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5477>`__
 
 
 
@@ -3569,6 +4457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5480>`__
+
 
 
 .. code-block:: ocaml
@@ -3576,6 +4466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorglq : layout:int -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5483>`__
 
 
 
@@ -3585,6 +4477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5486>`__
+
 
 
 .. code-block:: ocaml
@@ -3592,6 +4486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorgql : layout:int -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5489>`__
 
 
 
@@ -3601,6 +4497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5492>`__
+
 
 
 .. code-block:: ocaml
@@ -3608,6 +4506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorgqr : layout:int -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5495>`__
 
 
 
@@ -3617,6 +4517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5498>`__
+
 
 
 .. code-block:: ocaml
@@ -3624,6 +4526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorgrq : layout:int -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5501>`__
 
 
 
@@ -3633,6 +4537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5504>`__
+
 
 
 .. code-block:: ocaml
@@ -3640,6 +4546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorgtr : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5507>`__
 
 
 
@@ -3649,6 +4557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5510>`__
+
 
 
 .. code-block:: ocaml
@@ -3656,6 +4566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormbr : layout:int -> vect:char -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5513>`__
 
 
 
@@ -3665,6 +4577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5516>`__
+
 
 
 .. code-block:: ocaml
@@ -3672,6 +4586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormhr : layout:int -> side:char -> trans:char -> m:int -> n:int -> ilo:int -> ihi:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5519>`__
 
 
 
@@ -3681,6 +4597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5522>`__
+
 
 
 .. code-block:: ocaml
@@ -3688,6 +4606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormlq : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5525>`__
 
 
 
@@ -3697,6 +4617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5528>`__
+
 
 
 .. code-block:: ocaml
@@ -3704,6 +4626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormql : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5531>`__
 
 
 
@@ -3713,6 +4637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5534>`__
+
 
 
 .. code-block:: ocaml
@@ -3720,6 +4646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormqr : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5537>`__
 
 
 
@@ -3729,6 +4657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5540>`__
+
 
 
 .. code-block:: ocaml
@@ -3736,6 +4666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormrq : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5543>`__
 
 
 
@@ -3745,6 +4677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5546>`__
+
 
 
 .. code-block:: ocaml
@@ -3752,6 +4686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormrz : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> l:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5549>`__
 
 
 
@@ -3761,6 +4697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5552>`__
+
 
 
 .. code-block:: ocaml
@@ -3768,6 +4706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dormtr : layout:int -> side:char -> uplo:char -> trans:char -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5555>`__
 
 
 
@@ -3777,6 +4717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5558>`__
+
 
 
 .. code-block:: ocaml
@@ -3784,6 +4726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbcon : layout:int -> uplo:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5561>`__
 
 
 
@@ -3793,6 +4737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5564>`__
+
 
 
 .. code-block:: ocaml
@@ -3800,6 +4746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbcon : layout:int -> uplo:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5567>`__
 
 
 
@@ -3809,6 +4757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5570>`__
+
 
 
 .. code-block:: ocaml
@@ -3816,6 +4766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbequ : layout:int -> uplo:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5573>`__
 
 
 
@@ -3825,6 +4777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5576>`__
+
 
 
 .. code-block:: ocaml
@@ -3832,6 +4786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbequ : layout:int -> uplo:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5579>`__
 
 
 
@@ -3841,6 +4797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5582>`__
+
 
 
 .. code-block:: ocaml
@@ -3848,6 +4806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbrfs : layout:int -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> afb:(float ptr) -> ldafb:int -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5585>`__
 
 
 
@@ -3857,6 +4817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5588>`__
+
 
 
 .. code-block:: ocaml
@@ -3864,6 +4826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbrfs : layout:int -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> afb:(Complex.t ptr) -> ldafb:int -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5591>`__
 
 
 
@@ -3873,6 +4837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5594>`__
+
 
 
 .. code-block:: ocaml
@@ -3880,6 +4846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbstf : layout:int -> uplo:char -> n:int -> kb:int -> bb:(float ptr) -> ldbb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5597>`__
 
 
 
@@ -3889,6 +4857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5600>`__
+
 
 
 .. code-block:: ocaml
@@ -3896,6 +4866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbstf : layout:int -> uplo:char -> n:int -> kb:int -> bb:(Complex.t ptr) -> ldbb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5603>`__
 
 
 
@@ -3905,6 +4877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5606>`__
+
 
 
 .. code-block:: ocaml
@@ -3912,6 +4886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbsv : layout:int -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5609>`__
 
 
 
@@ -3921,6 +4897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5612>`__
+
 
 
 .. code-block:: ocaml
@@ -3928,6 +4906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbsv : layout:int -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5615>`__
 
 
 
@@ -3937,6 +4917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5618>`__
+
 
 
 .. code-block:: ocaml
@@ -3944,6 +4926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbsvx : layout:int -> fact:char -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> afb:(float ptr) -> ldafb:int -> equed:(char ptr) -> s:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5621>`__
 
 
 
@@ -3953,6 +4937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5624>`__
+
 
 
 .. code-block:: ocaml
@@ -3960,6 +4946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbsvx : layout:int -> fact:char -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> afb:(Complex.t ptr) -> ldafb:int -> equed:(char ptr) -> s:(float ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5627>`__
 
 
 
@@ -3969,6 +4957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5630>`__
+
 
 
 .. code-block:: ocaml
@@ -3976,6 +4966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbtrf : layout:int -> uplo:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5633>`__
 
 
 
@@ -3985,6 +4977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5636>`__
+
 
 
 .. code-block:: ocaml
@@ -3992,6 +4986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbtrf : layout:int -> uplo:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5639>`__
 
 
 
@@ -4001,6 +4997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5642>`__
+
 
 
 .. code-block:: ocaml
@@ -4008,6 +5006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpbtrs : layout:int -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5645>`__
 
 
 
@@ -4017,6 +5017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5648>`__
+
 
 
 .. code-block:: ocaml
@@ -4024,6 +5026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpbtrs : layout:int -> uplo:char -> n:int -> kd:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5651>`__
 
 
 
@@ -4033,6 +5037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5654>`__
+
 
 
 .. code-block:: ocaml
@@ -4040,6 +5046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpftrf : layout:int -> transr:char -> uplo:char -> n:int -> a:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5657>`__
 
 
 
@@ -4049,6 +5057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5660>`__
+
 
 
 .. code-block:: ocaml
@@ -4056,6 +5066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpftrf : layout:int -> transr:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5663>`__
 
 
 
@@ -4065,6 +5077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5666>`__
+
 
 
 .. code-block:: ocaml
@@ -4072,6 +5086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpftri : layout:int -> transr:char -> uplo:char -> n:int -> a:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5669>`__
 
 
 
@@ -4081,6 +5097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5672>`__
+
 
 
 .. code-block:: ocaml
@@ -4088,6 +5106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpftri : layout:int -> transr:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5675>`__
 
 
 
@@ -4097,6 +5117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5678>`__
+
 
 
 .. code-block:: ocaml
@@ -4104,6 +5126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpftrs : layout:int -> transr:char -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5681>`__
 
 
 
@@ -4113,6 +5137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5684>`__
+
 
 
 .. code-block:: ocaml
@@ -4120,6 +5146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpftrs : layout:int -> transr:char -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5687>`__
 
 
 
@@ -4129,6 +5157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5690>`__
+
 
 
 .. code-block:: ocaml
@@ -4136,6 +5166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpocon : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5693>`__
 
 
 
@@ -4145,6 +5177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5696>`__
+
 
 
 .. code-block:: ocaml
@@ -4152,6 +5186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpocon : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5699>`__
 
 
 
@@ -4161,6 +5197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5702>`__
+
 
 
 .. code-block:: ocaml
@@ -4168,6 +5206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpoequ : layout:int -> n:int -> a:(float ptr) -> lda:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5705>`__
 
 
 
@@ -4177,6 +5217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5708>`__
+
 
 
 .. code-block:: ocaml
@@ -4184,6 +5226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpoequ : layout:int -> n:int -> a:(Complex.t ptr) -> lda:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5711>`__
 
 
 
@@ -4193,6 +5237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5714>`__
+
 
 
 .. code-block:: ocaml
@@ -4200,6 +5246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpoequb : layout:int -> n:int -> a:(float ptr) -> lda:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5717>`__
 
 
 
@@ -4209,6 +5257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5720>`__
+
 
 
 .. code-block:: ocaml
@@ -4216,6 +5266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpoequb : layout:int -> n:int -> a:(Complex.t ptr) -> lda:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5723>`__
 
 
 
@@ -4225,6 +5277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5726>`__
+
 
 
 .. code-block:: ocaml
@@ -4232,6 +5286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dporfs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> af:(float ptr) -> ldaf:int -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5729>`__
 
 
 
@@ -4241,6 +5297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5732>`__
+
 
 
 .. code-block:: ocaml
@@ -4248,6 +5306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zporfs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5735>`__
 
 
 
@@ -4257,6 +5317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5738>`__
+
 
 
 .. code-block:: ocaml
@@ -4264,6 +5326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dposv : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5741>`__
 
 
 
@@ -4273,6 +5337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5744>`__
+
 
 
 .. code-block:: ocaml
@@ -4280,6 +5346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zposv : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5747>`__
 
 
 
@@ -4289,6 +5357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5750>`__
+
 
 
 .. code-block:: ocaml
@@ -4296,6 +5366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zcposv : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> iter:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5753>`__
 
 
 
@@ -4305,6 +5377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5756>`__
+
 
 
 .. code-block:: ocaml
@@ -4312,6 +5386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dposvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> af:(float ptr) -> ldaf:int -> equed:(char ptr) -> s:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5759>`__
 
 
 
@@ -4321,6 +5397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5762>`__
+
 
 
 .. code-block:: ocaml
@@ -4328,6 +5406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zposvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> equed:(char ptr) -> s:(float ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5765>`__
 
 
 
@@ -4337,6 +5417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5768>`__
+
 
 
 .. code-block:: ocaml
@@ -4344,6 +5426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpotrf2 : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5771>`__
 
 
 
@@ -4353,6 +5437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5774>`__
+
 
 
 .. code-block:: ocaml
@@ -4360,6 +5446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpotrf2 : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5777>`__
 
 
 
@@ -4369,6 +5457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5780>`__
+
 
 
 .. code-block:: ocaml
@@ -4376,6 +5466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpotrf : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5783>`__
 
 
 
@@ -4385,6 +5477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5786>`__
+
 
 
 .. code-block:: ocaml
@@ -4392,6 +5486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpotrf : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5789>`__
 
 
 
@@ -4401,6 +5497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5792>`__
+
 
 
 .. code-block:: ocaml
@@ -4408,6 +5506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpotri : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5795>`__
 
 
 
@@ -4417,6 +5517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5798>`__
+
 
 
 .. code-block:: ocaml
@@ -4424,6 +5526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpotri : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5801>`__
 
 
 
@@ -4433,6 +5537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5804>`__
+
 
 
 .. code-block:: ocaml
@@ -4440,6 +5546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpotrs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5807>`__
 
 
 
@@ -4449,6 +5557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5810>`__
+
 
 
 .. code-block:: ocaml
@@ -4456,6 +5566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpotrs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5813>`__
 
 
 
@@ -4465,6 +5577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5816>`__
+
 
 
 .. code-block:: ocaml
@@ -4472,6 +5586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dppcon : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5819>`__
 
 
 
@@ -4481,6 +5597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5822>`__
+
 
 
 .. code-block:: ocaml
@@ -4488,6 +5606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zppcon : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5825>`__
 
 
 
@@ -4497,6 +5617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5828>`__
+
 
 
 .. code-block:: ocaml
@@ -4504,6 +5626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dppequ : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5831>`__
 
 
 
@@ -4513,6 +5637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5834>`__
+
 
 
 .. code-block:: ocaml
@@ -4520,6 +5646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zppequ : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5837>`__
 
 
 
@@ -4529,6 +5657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5840>`__
+
 
 
 .. code-block:: ocaml
@@ -4536,6 +5666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpprfs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> afp:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5843>`__
 
 
 
@@ -4545,6 +5677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5846>`__
+
 
 
 .. code-block:: ocaml
@@ -4552,6 +5686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpprfs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> afp:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5849>`__
 
 
 
@@ -4561,6 +5697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5852>`__
+
 
 
 .. code-block:: ocaml
@@ -4568,6 +5706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dppsv : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5855>`__
 
 
 
@@ -4577,6 +5717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5858>`__
+
 
 
 .. code-block:: ocaml
@@ -4584,6 +5726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zppsv : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5861>`__
 
 
 
@@ -4593,6 +5737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5864>`__
+
 
 
 .. code-block:: ocaml
@@ -4600,6 +5746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dppsvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> afp:(float ptr) -> equed:(char ptr) -> s:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5867>`__
 
 
 
@@ -4609,6 +5757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5870>`__
+
 
 
 .. code-block:: ocaml
@@ -4616,6 +5766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zppsvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> afp:(Complex.t ptr) -> equed:(char ptr) -> s:(float ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5873>`__
 
 
 
@@ -4625,6 +5777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5876>`__
+
 
 
 .. code-block:: ocaml
@@ -4632,6 +5786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpptrf : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5879>`__
 
 
 
@@ -4641,6 +5797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5882>`__
+
 
 
 .. code-block:: ocaml
@@ -4648,6 +5806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpptrf : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5885>`__
 
 
 
@@ -4657,6 +5817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5888>`__
+
 
 
 .. code-block:: ocaml
@@ -4664,6 +5826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpptri : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5891>`__
 
 
 
@@ -4673,6 +5837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5894>`__
+
 
 
 .. code-block:: ocaml
@@ -4680,6 +5846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpptri : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5897>`__
 
 
 
@@ -4689,6 +5857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5900>`__
+
 
 
 .. code-block:: ocaml
@@ -4696,6 +5866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpptrs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5903>`__
 
 
 
@@ -4705,6 +5877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5906>`__
+
 
 
 .. code-block:: ocaml
@@ -4712,6 +5886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpptrs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5909>`__
 
 
 
@@ -4721,6 +5897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5912>`__
+
 
 
 .. code-block:: ocaml
@@ -4728,6 +5906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpstrf : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> piv:(int32 ptr) -> rank:(int32 ptr) -> tol:float -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5915>`__
 
 
 
@@ -4737,6 +5917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5918>`__
+
 
 
 .. code-block:: ocaml
@@ -4744,6 +5926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpstrf : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> piv:(int32 ptr) -> rank:(int32 ptr) -> tol:float -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5921>`__
 
 
 
@@ -4753,6 +5937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5924>`__
+
 
 
 .. code-block:: ocaml
@@ -4760,6 +5946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dptcon : n:int -> d:(float ptr) -> e:(float ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5927>`__
 
 
 
@@ -4769,6 +5957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5930>`__
+
 
 
 .. code-block:: ocaml
@@ -4776,6 +5966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zptcon : n:int -> d:(float ptr) -> e:(Complex.t ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5933>`__
 
 
 
@@ -4785,6 +5977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5936>`__
+
 
 
 .. code-block:: ocaml
@@ -4792,6 +5986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpteqr : layout:int -> compz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5939>`__
 
 
 
@@ -4801,6 +5997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5942>`__
+
 
 
 .. code-block:: ocaml
@@ -4808,6 +6006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpteqr : layout:int -> compz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5945>`__
 
 
 
@@ -4817,6 +6017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5948>`__
+
 
 
 .. code-block:: ocaml
@@ -4824,6 +6026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dptrfs : layout:int -> n:int -> nrhs:int -> d:(float ptr) -> e:(float ptr) -> df:(float ptr) -> ef:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5951>`__
 
 
 
@@ -4833,6 +6037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5954>`__
+
 
 
 .. code-block:: ocaml
@@ -4840,6 +6046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zptrfs : layout:int -> uplo:char -> n:int -> nrhs:int -> d:(float ptr) -> e:(Complex.t ptr) -> df:(float ptr) -> ef:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5957>`__
 
 
 
@@ -4849,6 +6057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5960>`__
+
 
 
 .. code-block:: ocaml
@@ -4856,6 +6066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dptsv : layout:int -> n:int -> nrhs:int -> d:(float ptr) -> e:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5963>`__
 
 
 
@@ -4865,6 +6077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5966>`__
+
 
 
 .. code-block:: ocaml
@@ -4872,6 +6086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zptsv : layout:int -> n:int -> nrhs:int -> d:(float ptr) -> e:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5969>`__
 
 
 
@@ -4881,6 +6097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5972>`__
+
 
 
 .. code-block:: ocaml
@@ -4888,6 +6106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dptsvx : layout:int -> fact:char -> n:int -> nrhs:int -> d:(float ptr) -> e:(float ptr) -> df:(float ptr) -> ef:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5975>`__
 
 
 
@@ -4897,6 +6117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5978>`__
+
 
 
 .. code-block:: ocaml
@@ -4904,6 +6126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zptsvx : layout:int -> fact:char -> n:int -> nrhs:int -> d:(float ptr) -> e:(Complex.t ptr) -> df:(float ptr) -> ef:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5981>`__
 
 
 
@@ -4913,6 +6137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5984>`__
+
 
 
 .. code-block:: ocaml
@@ -4920,6 +6146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpttrf : n:int -> d:(float ptr) -> e:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5987>`__
 
 
 
@@ -4929,6 +6157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5990>`__
+
 
 
 .. code-block:: ocaml
@@ -4936,6 +6166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpttrf : n:int -> d:(float ptr) -> e:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5993>`__
 
 
 
@@ -4945,6 +6177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5996>`__
+
 
 
 .. code-block:: ocaml
@@ -4952,6 +6186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dpttrs : layout:int -> n:int -> nrhs:int -> d:(float ptr) -> e:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5999>`__
 
 
 
@@ -4961,6 +6197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6002>`__
+
 
 
 .. code-block:: ocaml
@@ -4968,6 +6206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zpttrs : layout:int -> uplo:char -> n:int -> nrhs:int -> d:(float ptr) -> e:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6005>`__
 
 
 
@@ -4977,6 +6217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6008>`__
+
 
 
 .. code-block:: ocaml
@@ -4984,6 +6226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbev : layout:int -> jobz:char -> uplo:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6011>`__
 
 
 
@@ -4993,6 +6237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6014>`__
+
 
 
 .. code-block:: ocaml
@@ -5000,6 +6246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbevd : layout:int -> jobz:char -> uplo:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6017>`__
 
 
 
@@ -5009,6 +6257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6020>`__
+
 
 
 .. code-block:: ocaml
@@ -5016,6 +6266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbevx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> q:(float ptr) -> ldq:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6023>`__
 
 
 
@@ -5025,6 +6277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6026>`__
+
 
 
 .. code-block:: ocaml
@@ -5032,6 +6286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbgst : layout:int -> vect:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(float ptr) -> ldab:int -> bb:(float ptr) -> ldbb:int -> x:(float ptr) -> ldx:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6029>`__
 
 
 
@@ -5041,6 +6297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6032>`__
+
 
 
 .. code-block:: ocaml
@@ -5048,6 +6306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbgv : layout:int -> jobz:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(float ptr) -> ldab:int -> bb:(float ptr) -> ldbb:int -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6035>`__
 
 
 
@@ -5057,6 +6317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6038>`__
+
 
 
 .. code-block:: ocaml
@@ -5064,6 +6326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbgvd : layout:int -> jobz:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(float ptr) -> ldab:int -> bb:(float ptr) -> ldbb:int -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6041>`__
 
 
 
@@ -5073,6 +6337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6044>`__
+
 
 
 .. code-block:: ocaml
@@ -5080,6 +6346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbgvx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> ka:int -> kb:int -> ab:(float ptr) -> ldab:int -> bb:(float ptr) -> ldbb:int -> q:(float ptr) -> ldq:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6047>`__
 
 
 
@@ -5089,6 +6357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6050>`__
+
 
 
 .. code-block:: ocaml
@@ -5096,6 +6366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsbtrd : layout:int -> vect:char -> uplo:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> d:(float ptr) -> e:(float ptr) -> q:(float ptr) -> ldq:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6053>`__
 
 
 
@@ -5105,6 +6377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6056>`__
+
 
 
 .. code-block:: ocaml
@@ -5112,6 +6386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsfrk : layout:int -> transr:char -> uplo:char -> trans:char -> n:int -> k:int -> alpha:float -> a:(float ptr) -> lda:int -> beta:float -> c:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6059>`__
 
 
 
@@ -5121,6 +6397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6062>`__
+
 
 
 .. code-block:: ocaml
@@ -5128,6 +6406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspcon : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6065>`__
 
 
 
@@ -5137,6 +6417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6068>`__
+
 
 
 .. code-block:: ocaml
@@ -5144,6 +6426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zspcon : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6071>`__
 
 
 
@@ -5153,6 +6437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6074>`__
+
 
 
 .. code-block:: ocaml
@@ -5160,6 +6446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspev : layout:int -> jobz:char -> uplo:char -> n:int -> ap:(float ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6077>`__
 
 
 
@@ -5169,6 +6457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6080>`__
+
 
 
 .. code-block:: ocaml
@@ -5176,6 +6466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspevd : layout:int -> jobz:char -> uplo:char -> n:int -> ap:(float ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6083>`__
 
 
 
@@ -5185,6 +6477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6086>`__
+
 
 
 .. code-block:: ocaml
@@ -5192,6 +6486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspevx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> ap:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6089>`__
 
 
 
@@ -5201,6 +6497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6092>`__
+
 
 
 .. code-block:: ocaml
@@ -5208,6 +6506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspgst : layout:int -> ityp:int -> uplo:char -> n:int -> ap:(float ptr) -> bp:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6095>`__
 
 
 
@@ -5217,6 +6517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6098>`__
+
 
 
 .. code-block:: ocaml
@@ -5224,6 +6526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspgv : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> ap:(float ptr) -> bp:(float ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6101>`__
 
 
 
@@ -5233,6 +6537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6104>`__
+
 
 
 .. code-block:: ocaml
@@ -5240,6 +6546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspgvd : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> ap:(float ptr) -> bp:(float ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6107>`__
 
 
 
@@ -5249,6 +6557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6110>`__
+
 
 
 .. code-block:: ocaml
@@ -5256,6 +6566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspgvx : layout:int -> ityp:int -> jobz:char -> range:char -> uplo:char -> n:int -> ap:(float ptr) -> bp:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6113>`__
 
 
 
@@ -5265,6 +6577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6116>`__
+
 
 
 .. code-block:: ocaml
@@ -5272,6 +6586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsprfs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> afp:(float ptr) -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6119>`__
 
 
 
@@ -5281,6 +6597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6122>`__
+
 
 
 .. code-block:: ocaml
@@ -5288,6 +6606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsprfs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> afp:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6125>`__
 
 
 
@@ -5297,6 +6617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6128>`__
+
 
 
 .. code-block:: ocaml
@@ -5304,6 +6626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspsv : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6131>`__
 
 
 
@@ -5313,6 +6637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6134>`__
+
 
 
 .. code-block:: ocaml
@@ -5320,6 +6646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zspsv : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6137>`__
 
 
 
@@ -5329,6 +6657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6140>`__
+
 
 
 .. code-block:: ocaml
@@ -5336,6 +6666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dspsvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> afp:(float ptr) -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6143>`__
 
 
 
@@ -5345,6 +6677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6146>`__
+
 
 
 .. code-block:: ocaml
@@ -5352,6 +6686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zspsvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> afp:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6149>`__
 
 
 
@@ -5361,6 +6697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6152>`__
+
 
 
 .. code-block:: ocaml
@@ -5368,6 +6706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsptrd : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> d:(float ptr) -> e:(float ptr) -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6155>`__
 
 
 
@@ -5377,6 +6717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6158>`__
+
 
 
 .. code-block:: ocaml
@@ -5384,6 +6726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsptrf : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6161>`__
 
 
 
@@ -5393,6 +6737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6164>`__
+
 
 
 .. code-block:: ocaml
@@ -5400,6 +6746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsptrf : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6167>`__
 
 
 
@@ -5409,6 +6757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6170>`__
+
 
 
 .. code-block:: ocaml
@@ -5416,6 +6766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsptri : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6173>`__
 
 
 
@@ -5425,6 +6777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6176>`__
+
 
 
 .. code-block:: ocaml
@@ -5432,6 +6786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsptri : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6179>`__
 
 
 
@@ -5441,6 +6797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6182>`__
+
 
 
 .. code-block:: ocaml
@@ -5448,6 +6806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsptrs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(float ptr) -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6185>`__
 
 
 
@@ -5457,6 +6817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6188>`__
+
 
 
 .. code-block:: ocaml
@@ -5464,6 +6826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsptrs : layout:int -> uplo:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6191>`__
 
 
 
@@ -5473,6 +6837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6194>`__
+
 
 
 .. code-block:: ocaml
@@ -5480,6 +6846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstebz : range:char -> order:char -> n:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> d:(float ptr) -> e:(float ptr) -> m:(int32 ptr) -> nsplit:(int32 ptr) -> w:(float ptr) -> iblock:(int32 ptr) -> isplit:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6197>`__
 
 
 
@@ -5489,6 +6857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6200>`__
+
 
 
 .. code-block:: ocaml
@@ -5496,6 +6866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstedc : layout:int -> compz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6203>`__
 
 
 
@@ -5505,6 +6877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6206>`__
+
 
 
 .. code-block:: ocaml
@@ -5512,6 +6886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zstedc : layout:int -> compz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6209>`__
 
 
 
@@ -5521,6 +6897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6212>`__
+
 
 
 .. code-block:: ocaml
@@ -5528,6 +6906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstegr : layout:int -> jobz:char -> range:char -> n:int -> d:(float ptr) -> e:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> isuppz:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6215>`__
 
 
 
@@ -5537,6 +6917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6218>`__
+
 
 
 .. code-block:: ocaml
@@ -5544,6 +6926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zstegr : layout:int -> jobz:char -> range:char -> n:int -> d:(float ptr) -> e:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> isuppz:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6221>`__
 
 
 
@@ -5553,6 +6937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6224>`__
+
 
 
 .. code-block:: ocaml
@@ -5560,6 +6946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstein : layout:int -> n:int -> d:(float ptr) -> e:(float ptr) -> m:int -> w:(float ptr) -> iblock:(int32 ptr) -> isplit:(int32 ptr) -> z:(float ptr) -> ldz:int -> ifailv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6227>`__
 
 
 
@@ -5569,6 +6957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6230>`__
+
 
 
 .. code-block:: ocaml
@@ -5576,6 +6966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zstein : layout:int -> n:int -> d:(float ptr) -> e:(float ptr) -> m:int -> w:(float ptr) -> iblock:(int32 ptr) -> isplit:(int32 ptr) -> z:(Complex.t ptr) -> ldz:int -> ifailv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6233>`__
 
 
 
@@ -5585,6 +6977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6236>`__
+
 
 
 .. code-block:: ocaml
@@ -5592,6 +6986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstemr : layout:int -> jobz:char -> range:char -> n:int -> d:(float ptr) -> e:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> nzc:int -> isuppz:(int32 ptr) -> tryrac:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6239>`__
 
 
 
@@ -5601,6 +6997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6242>`__
+
 
 
 .. code-block:: ocaml
@@ -5608,6 +7006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zstemr : layout:int -> jobz:char -> range:char -> n:int -> d:(float ptr) -> e:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> m:(int32 ptr) -> w:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> nzc:int -> isuppz:(int32 ptr) -> tryrac:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6245>`__
 
 
 
@@ -5617,6 +7017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6248>`__
+
 
 
 .. code-block:: ocaml
@@ -5624,6 +7026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsteqr : layout:int -> compz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6251>`__
 
 
 
@@ -5633,6 +7037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6254>`__
+
 
 
 .. code-block:: ocaml
@@ -5640,6 +7046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsteqr : layout:int -> compz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(Complex.t ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6257>`__
 
 
 
@@ -5649,6 +7057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6260>`__
+
 
 
 .. code-block:: ocaml
@@ -5656,6 +7066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsterf : n:int -> d:(float ptr) -> e:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6263>`__
 
 
 
@@ -5665,6 +7077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6266>`__
+
 
 
 .. code-block:: ocaml
@@ -5672,6 +7086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstev : layout:int -> jobz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6269>`__
 
 
 
@@ -5681,6 +7097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6272>`__
+
 
 
 .. code-block:: ocaml
@@ -5688,6 +7106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstevd : layout:int -> jobz:char -> n:int -> d:(float ptr) -> e:(float ptr) -> z:(float ptr) -> ldz:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6275>`__
 
 
 
@@ -5697,6 +7117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6278>`__
+
 
 
 .. code-block:: ocaml
@@ -5704,6 +7126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstevr : layout:int -> jobz:char -> range:char -> n:int -> d:(float ptr) -> e:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> isuppz:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6281>`__
 
 
 
@@ -5713,6 +7137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6284>`__
+
 
 
 .. code-block:: ocaml
@@ -5720,6 +7146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dstevx : layout:int -> jobz:char -> range:char -> n:int -> d:(float ptr) -> e:(float ptr) -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6287>`__
 
 
 
@@ -5729,6 +7157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6290>`__
+
 
 
 .. code-block:: ocaml
@@ -5736,6 +7166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsycon : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6293>`__
 
 
 
@@ -5745,6 +7177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6296>`__
+
 
 
 .. code-block:: ocaml
@@ -5752,6 +7186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsycon : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> anorm:float -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6299>`__
 
 
 
@@ -5761,6 +7197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6302>`__
+
 
 
 .. code-block:: ocaml
@@ -5768,6 +7206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsyequb : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6305>`__
 
 
 
@@ -5777,6 +7217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6308>`__
+
 
 
 .. code-block:: ocaml
@@ -5784,6 +7226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsyequb : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> s:(float ptr) -> scond:(float ptr) -> amax:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6311>`__
 
 
 
@@ -5793,6 +7237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6314>`__
+
 
 
 .. code-block:: ocaml
@@ -5800,6 +7246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsyev : layout:int -> jobz:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6317>`__
 
 
 
@@ -5809,6 +7257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6320>`__
+
 
 
 .. code-block:: ocaml
@@ -5816,6 +7266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsyevd : layout:int -> jobz:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6323>`__
 
 
 
@@ -5825,6 +7277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6326>`__
+
 
 
 .. code-block:: ocaml
@@ -5832,6 +7286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsyevr : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> isuppz:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6329>`__
 
 
 
@@ -5841,6 +7297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6332>`__
+
 
 
 .. code-block:: ocaml
@@ -5848,6 +7306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsyevx : layout:int -> jobz:char -> range:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6335>`__
 
 
 
@@ -5857,6 +7317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6338>`__
+
 
 
 .. code-block:: ocaml
@@ -5864,6 +7326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsygst : layout:int -> ityp:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6341>`__
 
 
 
@@ -5873,6 +7337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6344>`__
+
 
 
 .. code-block:: ocaml
@@ -5880,6 +7346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsygv : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6347>`__
 
 
 
@@ -5889,6 +7357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6350>`__
+
 
 
 .. code-block:: ocaml
@@ -5896,6 +7366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsygvd : layout:int -> ityp:int -> jobz:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> w:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6353>`__
 
 
 
@@ -5905,6 +7377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6356>`__
+
 
 
 .. code-block:: ocaml
@@ -5912,6 +7386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsygvx : layout:int -> ityp:int -> jobz:char -> range:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> vl:float -> vu:float -> il:int -> iu:int -> abstol:float -> m:(int32 ptr) -> w:(float ptr) -> z:(float ptr) -> ldz:int -> ifail:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6359>`__
 
 
 
@@ -5921,6 +7397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6362>`__
+
 
 
 .. code-block:: ocaml
@@ -5928,6 +7406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsyrfs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> af:(float ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6365>`__
 
 
 
@@ -5937,6 +7417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6368>`__
+
 
 
 .. code-block:: ocaml
@@ -5944,6 +7426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsyrfs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6371>`__
 
 
 
@@ -5953,6 +7437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6374>`__
+
 
 
 .. code-block:: ocaml
@@ -5960,6 +7446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsysv : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6377>`__
 
 
 
@@ -5969,6 +7457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6380>`__
+
 
 
 .. code-block:: ocaml
@@ -5976,6 +7466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsysv : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6383>`__
 
 
 
@@ -5985,6 +7477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6386>`__
+
 
 
 .. code-block:: ocaml
@@ -5992,6 +7486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsysvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> af:(float ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6389>`__
 
 
 
@@ -6001,6 +7497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6392>`__
+
 
 
 .. code-block:: ocaml
@@ -6008,6 +7506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsysvx : layout:int -> fact:char -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> af:(Complex.t ptr) -> ldaf:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> rcond:(float ptr) -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6395>`__
 
 
 
@@ -6017,6 +7517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6398>`__
+
 
 
 .. code-block:: ocaml
@@ -6024,6 +7526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytrd : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> d:(float ptr) -> e:(float ptr) -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6401>`__
 
 
 
@@ -6033,6 +7537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6404>`__
+
 
 
 .. code-block:: ocaml
@@ -6040,6 +7546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytrf : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6407>`__
 
 
 
@@ -6049,6 +7557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6410>`__
+
 
 
 .. code-block:: ocaml
@@ -6056,6 +7566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsytrf : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6413>`__
 
 
 
@@ -6065,6 +7577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6416>`__
+
 
 
 .. code-block:: ocaml
@@ -6072,6 +7586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytri : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6419>`__
 
 
 
@@ -6081,6 +7597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6422>`__
+
 
 
 .. code-block:: ocaml
@@ -6088,6 +7606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsytri : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6425>`__
 
 
 
@@ -6097,6 +7617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6428>`__
+
 
 
 .. code-block:: ocaml
@@ -6104,6 +7626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytrs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6431>`__
 
 
 
@@ -6113,6 +7637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6434>`__
+
 
 
 .. code-block:: ocaml
@@ -6120,6 +7646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsytrs : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6437>`__
 
 
 
@@ -6129,6 +7657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6440>`__
+
 
 
 .. code-block:: ocaml
@@ -6136,6 +7666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtbcon : layout:int -> norm:char -> uplo:char -> diag:char -> n:int -> kd:int -> ab:(float ptr) -> ldab:int -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6443>`__
 
 
 
@@ -6145,6 +7677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6446>`__
+
 
 
 .. code-block:: ocaml
@@ -6152,6 +7686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztbcon : layout:int -> norm:char -> uplo:char -> diag:char -> n:int -> kd:int -> ab:(Complex.t ptr) -> ldab:int -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6449>`__
 
 
 
@@ -6161,6 +7697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6452>`__
+
 
 
 .. code-block:: ocaml
@@ -6168,6 +7706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtbrfs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> kd:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6455>`__
 
 
 
@@ -6177,6 +7717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6458>`__
+
 
 
 .. code-block:: ocaml
@@ -6184,6 +7726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztbrfs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> kd:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6461>`__
 
 
 
@@ -6193,6 +7737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6464>`__
+
 
 
 .. code-block:: ocaml
@@ -6200,6 +7746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtbtrs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> kd:int -> nrhs:int -> ab:(float ptr) -> ldab:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6467>`__
 
 
 
@@ -6209,6 +7757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6470>`__
+
 
 
 .. code-block:: ocaml
@@ -6216,6 +7766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztbtrs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> kd:int -> nrhs:int -> ab:(Complex.t ptr) -> ldab:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6473>`__
 
 
 
@@ -6225,6 +7777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6476>`__
+
 
 
 .. code-block:: ocaml
@@ -6232,6 +7786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtfsm : layout:int -> transr:char -> side:char -> uplo:char -> trans:char -> diag:char -> m:int -> n:int -> alpha:float -> a:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6479>`__
 
 
 
@@ -6241,6 +7797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6482>`__
+
 
 
 .. code-block:: ocaml
@@ -6248,6 +7806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztfsm : layout:int -> transr:char -> side:char -> uplo:char -> trans:char -> diag:char -> m:int -> n:int -> alpha:Complex.t -> a:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6485>`__
 
 
 
@@ -6257,6 +7817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6488>`__
+
 
 
 .. code-block:: ocaml
@@ -6264,6 +7826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtftri : layout:int -> transr:char -> uplo:char -> diag:char -> n:int -> a:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6491>`__
 
 
 
@@ -6273,6 +7837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6494>`__
+
 
 
 .. code-block:: ocaml
@@ -6280,6 +7846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztftri : layout:int -> transr:char -> uplo:char -> diag:char -> n:int -> a:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6497>`__
 
 
 
@@ -6289,6 +7857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6500>`__
+
 
 
 .. code-block:: ocaml
@@ -6296,6 +7866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtfttp : layout:int -> transr:char -> uplo:char -> n:int -> arf:(float ptr) -> ap:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6503>`__
 
 
 
@@ -6305,6 +7877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6506>`__
+
 
 
 .. code-block:: ocaml
@@ -6312,6 +7886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztfttp : layout:int -> transr:char -> uplo:char -> n:int -> arf:(Complex.t ptr) -> ap:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6509>`__
 
 
 
@@ -6321,6 +7897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6512>`__
+
 
 
 .. code-block:: ocaml
@@ -6328,6 +7906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtfttr : layout:int -> transr:char -> uplo:char -> n:int -> arf:(float ptr) -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6515>`__
 
 
 
@@ -6337,6 +7917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6518>`__
+
 
 
 .. code-block:: ocaml
@@ -6344,6 +7926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztfttr : layout:int -> transr:char -> uplo:char -> n:int -> arf:(Complex.t ptr) -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6521>`__
 
 
 
@@ -6353,6 +7937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6524>`__
+
 
 
 .. code-block:: ocaml
@@ -6360,6 +7946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtgevc : layout:int -> side:char -> howmny:char -> select:(int32 ptr) -> n:int -> s:(float ptr) -> lds:int -> p:(float ptr) -> ldp:int -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6527>`__
 
 
 
@@ -6369,6 +7957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6530>`__
+
 
 
 .. code-block:: ocaml
@@ -6376,6 +7966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztgevc : layout:int -> side:char -> howmny:char -> select:(int32 ptr) -> n:int -> s:(Complex.t ptr) -> lds:int -> p:(Complex.t ptr) -> ldp:int -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6533>`__
 
 
 
@@ -6385,6 +7977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6536>`__
+
 
 
 .. code-block:: ocaml
@@ -6392,6 +7986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtgexc : layout:int -> wantq:int -> wantz:int -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> q:(float ptr) -> ldq:int -> z:(float ptr) -> ldz:int -> ifst:(int32 ptr) -> ilst:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6539>`__
 
 
 
@@ -6401,6 +7997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6542>`__
+
 
 
 .. code-block:: ocaml
@@ -6408,6 +8006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztgexc : layout:int -> wantq:int -> wantz:int -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> q:(Complex.t ptr) -> ldq:int -> z:(Complex.t ptr) -> ldz:int -> ifst:int -> ilst:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6545>`__
 
 
 
@@ -6417,6 +8017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6548>`__
+
 
 
 .. code-block:: ocaml
@@ -6424,6 +8026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtgsen : layout:int -> ijob:int -> wantq:int -> wantz:int -> select:(int32 ptr) -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> alphar:(float ptr) -> alphai:(float ptr) -> beta:(float ptr) -> q:(float ptr) -> ldq:int -> z:(float ptr) -> ldz:int -> m:(int32 ptr) -> pl:(float ptr) -> pr:(float ptr) -> dif:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6551>`__
 
 
 
@@ -6433,6 +8037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6554>`__
+
 
 
 .. code-block:: ocaml
@@ -6440,6 +8046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztgsen : layout:int -> ijob:int -> wantq:int -> wantz:int -> select:(int32 ptr) -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> alpha:(Complex.t ptr) -> beta:(Complex.t ptr) -> q:(Complex.t ptr) -> ldq:int -> z:(Complex.t ptr) -> ldz:int -> m:(int32 ptr) -> pl:(float ptr) -> pr:(float ptr) -> dif:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6557>`__
 
 
 
@@ -6449,6 +8057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6560>`__
+
 
 
 .. code-block:: ocaml
@@ -6456,6 +8066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtgsja : layout:int -> jobu:char -> jobv:char -> jobq:char -> m:int -> p:int -> n:int -> k:int -> l:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> tola:float -> tolb:float -> alpha:(float ptr) -> beta:(float ptr) -> u:(float ptr) -> ldu:int -> v:(float ptr) -> ldv:int -> q:(float ptr) -> ldq:int -> ncycle:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6563>`__
 
 
 
@@ -6465,6 +8077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6566>`__
+
 
 
 .. code-block:: ocaml
@@ -6472,6 +8086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztgsja : layout:int -> jobu:char -> jobv:char -> jobq:char -> m:int -> p:int -> n:int -> k:int -> l:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> tola:float -> tolb:float -> alpha:(float ptr) -> beta:(float ptr) -> u:(Complex.t ptr) -> ldu:int -> v:(Complex.t ptr) -> ldv:int -> q:(Complex.t ptr) -> ldq:int -> ncycle:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6569>`__
 
 
 
@@ -6481,6 +8097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6572>`__
+
 
 
 .. code-block:: ocaml
@@ -6488,6 +8106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtgsna : layout:int -> job:char -> howmny:char -> select:(int32 ptr) -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> s:(float ptr) -> dif:(float ptr) -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6575>`__
 
 
 
@@ -6497,6 +8117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6578>`__
+
 
 
 .. code-block:: ocaml
@@ -6504,6 +8126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztgsna : layout:int -> job:char -> howmny:char -> select:(int32 ptr) -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> s:(float ptr) -> dif:(float ptr) -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6581>`__
 
 
 
@@ -6513,6 +8137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6584>`__
+
 
 
 .. code-block:: ocaml
@@ -6520,6 +8146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtgsyl : layout:int -> trans:char -> ijob:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> c:(float ptr) -> ldc:int -> d:(float ptr) -> ldd:int -> e:(float ptr) -> lde:int -> f:(float ptr) -> ldf:int -> scale:(float ptr) -> dif:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6587>`__
 
 
 
@@ -6529,6 +8157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6590>`__
+
 
 
 .. code-block:: ocaml
@@ -6536,6 +8166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztgsyl : layout:int -> trans:char -> ijob:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> c:(Complex.t ptr) -> ldc:int -> d:(Complex.t ptr) -> ldd:int -> e:(Complex.t ptr) -> lde:int -> f:(Complex.t ptr) -> ldf:int -> scale:(float ptr) -> dif:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6593>`__
 
 
 
@@ -6545,6 +8177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6596>`__
+
 
 
 .. code-block:: ocaml
@@ -6552,6 +8186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtpcon : layout:int -> norm:char -> uplo:char -> diag:char -> n:int -> ap:(float ptr) -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6599>`__
 
 
 
@@ -6561,6 +8197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6602>`__
+
 
 
 .. code-block:: ocaml
@@ -6568,6 +8206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztpcon : layout:int -> norm:char -> uplo:char -> diag:char -> n:int -> ap:(Complex.t ptr) -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6605>`__
 
 
 
@@ -6577,6 +8217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6608>`__
+
 
 
 .. code-block:: ocaml
@@ -6584,6 +8226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtprfs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> ap:(float ptr) -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6611>`__
 
 
 
@@ -6593,6 +8237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6614>`__
+
 
 
 .. code-block:: ocaml
@@ -6600,6 +8246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztprfs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6617>`__
 
 
 
@@ -6609,6 +8257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6620>`__
+
 
 
 .. code-block:: ocaml
@@ -6616,6 +8266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtptri : layout:int -> uplo:char -> diag:char -> n:int -> ap:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6623>`__
 
 
 
@@ -6625,6 +8277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6626>`__
+
 
 
 .. code-block:: ocaml
@@ -6632,6 +8286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztptri : layout:int -> uplo:char -> diag:char -> n:int -> ap:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6629>`__
 
 
 
@@ -6641,6 +8297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6632>`__
+
 
 
 .. code-block:: ocaml
@@ -6648,6 +8306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtptrs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> ap:(float ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6635>`__
 
 
 
@@ -6657,6 +8317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6638>`__
+
 
 
 .. code-block:: ocaml
@@ -6664,6 +8326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztptrs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> ap:(Complex.t ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6641>`__
 
 
 
@@ -6673,6 +8337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6644>`__
+
 
 
 .. code-block:: ocaml
@@ -6680,6 +8346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtpttf : layout:int -> transr:char -> uplo:char -> n:int -> ap:(float ptr) -> arf:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6647>`__
 
 
 
@@ -6689,6 +8357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6650>`__
+
 
 
 .. code-block:: ocaml
@@ -6696,6 +8366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztpttf : layout:int -> transr:char -> uplo:char -> n:int -> ap:(Complex.t ptr) -> arf:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6653>`__
 
 
 
@@ -6705,6 +8377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6656>`__
+
 
 
 .. code-block:: ocaml
@@ -6712,6 +8386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtpttr : layout:int -> uplo:char -> n:int -> ap:(float ptr) -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6659>`__
 
 
 
@@ -6721,6 +8397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6662>`__
+
 
 
 .. code-block:: ocaml
@@ -6728,6 +8406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztpttr : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6665>`__
 
 
 
@@ -6737,6 +8417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6668>`__
+
 
 
 .. code-block:: ocaml
@@ -6744,6 +8426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrcon : layout:int -> norm:char -> uplo:char -> diag:char -> n:int -> a:(float ptr) -> lda:int -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6671>`__
 
 
 
@@ -6753,6 +8437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6674>`__
+
 
 
 .. code-block:: ocaml
@@ -6760,6 +8446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrcon : layout:int -> norm:char -> uplo:char -> diag:char -> n:int -> a:(Complex.t ptr) -> lda:int -> rcond:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6677>`__
 
 
 
@@ -6769,6 +8457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6680>`__
+
 
 
 .. code-block:: ocaml
@@ -6776,6 +8466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrevc : layout:int -> side:char -> howmny:char -> select:(int32 ptr) -> n:int -> t:(float ptr) -> ldt:int -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6683>`__
 
 
 
@@ -6785,6 +8477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6686>`__
+
 
 
 .. code-block:: ocaml
@@ -6792,6 +8486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrevc : layout:int -> side:char -> howmny:char -> select:(int32 ptr) -> n:int -> t:(Complex.t ptr) -> ldt:int -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6689>`__
 
 
 
@@ -6801,6 +8497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6692>`__
+
 
 
 .. code-block:: ocaml
@@ -6808,6 +8506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrexc : layout:int -> compq:char -> n:int -> t:(float ptr) -> ldt:int -> q:(float ptr) -> ldq:int -> ifst:(int32 ptr) -> ilst:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6695>`__
 
 
 
@@ -6817,6 +8517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6698>`__
+
 
 
 .. code-block:: ocaml
@@ -6824,6 +8526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrexc : layout:int -> compq:char -> n:int -> t:(Complex.t ptr) -> ldt:int -> q:(Complex.t ptr) -> ldq:int -> ifst:int -> ilst:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6701>`__
 
 
 
@@ -6833,6 +8537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6704>`__
+
 
 
 .. code-block:: ocaml
@@ -6840,6 +8546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrrfs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> x:(float ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6707>`__
 
 
 
@@ -6849,6 +8557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6710>`__
+
 
 
 .. code-block:: ocaml
@@ -6856,6 +8566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrrfs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> x:(Complex.t ptr) -> ldx:int -> ferr:(float ptr) -> berr:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6713>`__
 
 
 
@@ -6865,6 +8577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6716>`__
+
 
 
 .. code-block:: ocaml
@@ -6872,6 +8586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrsen : layout:int -> job:char -> compq:char -> select:(int32 ptr) -> n:int -> t:(float ptr) -> ldt:int -> q:(float ptr) -> ldq:int -> wr:(float ptr) -> wi:(float ptr) -> m:(int32 ptr) -> s:(float ptr) -> sep:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6719>`__
 
 
 
@@ -6881,6 +8597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6722>`__
+
 
 
 .. code-block:: ocaml
@@ -6888,6 +8606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrsen : layout:int -> job:char -> compq:char -> select:(int32 ptr) -> n:int -> t:(Complex.t ptr) -> ldt:int -> q:(Complex.t ptr) -> ldq:int -> w:(Complex.t ptr) -> m:(int32 ptr) -> s:(float ptr) -> sep:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6725>`__
 
 
 
@@ -6897,6 +8617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6728>`__
+
 
 
 .. code-block:: ocaml
@@ -6904,6 +8626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrsna : layout:int -> job:char -> howmny:char -> select:(int32 ptr) -> n:int -> t:(float ptr) -> ldt:int -> vl:(float ptr) -> ldvl:int -> vr:(float ptr) -> ldvr:int -> s:(float ptr) -> sep:(float ptr) -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6731>`__
 
 
 
@@ -6913,6 +8637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6734>`__
+
 
 
 .. code-block:: ocaml
@@ -6920,6 +8646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrsna : layout:int -> job:char -> howmny:char -> select:(int32 ptr) -> n:int -> t:(Complex.t ptr) -> ldt:int -> vl:(Complex.t ptr) -> ldvl:int -> vr:(Complex.t ptr) -> ldvr:int -> s:(float ptr) -> sep:(float ptr) -> mm:int -> m:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6737>`__
 
 
 
@@ -6929,6 +8657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6740>`__
+
 
 
 .. code-block:: ocaml
@@ -6936,6 +8666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrsyl : layout:int -> trana:char -> tranb:char -> isgn:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> c:(float ptr) -> ldc:int -> scale:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6743>`__
 
 
 
@@ -6945,6 +8677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6746>`__
+
 
 
 .. code-block:: ocaml
@@ -6952,6 +8686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrsyl : layout:int -> trana:char -> tranb:char -> isgn:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> c:(Complex.t ptr) -> ldc:int -> scale:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6749>`__
 
 
 
@@ -6961,6 +8697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6752>`__
+
 
 
 .. code-block:: ocaml
@@ -6968,6 +8706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrtri : layout:int -> uplo:char -> diag:char -> n:int -> a:(float ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6755>`__
 
 
 
@@ -6977,6 +8717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6758>`__
+
 
 
 .. code-block:: ocaml
@@ -6984,6 +8726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrtri : layout:int -> uplo:char -> diag:char -> n:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6761>`__
 
 
 
@@ -6993,6 +8737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6764>`__
+
 
 
 .. code-block:: ocaml
@@ -7000,6 +8746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrtrs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6767>`__
 
 
 
@@ -7009,6 +8757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6770>`__
+
 
 
 .. code-block:: ocaml
@@ -7016,6 +8766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrtrs : layout:int -> uplo:char -> trans:char -> diag:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6773>`__
 
 
 
@@ -7025,6 +8777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6776>`__
+
 
 
 .. code-block:: ocaml
@@ -7032,6 +8786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrttf : layout:int -> transr:char -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> arf:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6779>`__
 
 
 
@@ -7041,6 +8797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6782>`__
+
 
 
 .. code-block:: ocaml
@@ -7048,6 +8806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrttf : layout:int -> transr:char -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> arf:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6785>`__
 
 
 
@@ -7057,6 +8817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6788>`__
+
 
 
 .. code-block:: ocaml
@@ -7064,6 +8826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtrttp : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> ap:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6791>`__
 
 
 
@@ -7073,6 +8837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6794>`__
+
 
 
 .. code-block:: ocaml
@@ -7080,6 +8846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztrttp : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ap:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6797>`__
 
 
 
@@ -7089,6 +8857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6800>`__
+
 
 
 .. code-block:: ocaml
@@ -7096,6 +8866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtzrzf : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> tau:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6803>`__
 
 
 
@@ -7105,6 +8877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6806>`__
+
 
 
 .. code-block:: ocaml
@@ -7112,6 +8886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztzrzf : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6809>`__
 
 
 
@@ -7121,6 +8897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6812>`__
+
 
 
 .. code-block:: ocaml
@@ -7128,6 +8906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zungbr : layout:int -> vect:char -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6815>`__
 
 
 
@@ -7137,6 +8917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6818>`__
+
 
 
 .. code-block:: ocaml
@@ -7144,6 +8926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunghr : layout:int -> n:int -> ilo:int -> ihi:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6821>`__
 
 
 
@@ -7153,6 +8937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6824>`__
+
 
 
 .. code-block:: ocaml
@@ -7160,6 +8946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunglq : layout:int -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6827>`__
 
 
 
@@ -7169,6 +8957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6830>`__
+
 
 
 .. code-block:: ocaml
@@ -7176,6 +8966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zungql : layout:int -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6833>`__
 
 
 
@@ -7185,6 +8977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6836>`__
+
 
 
 .. code-block:: ocaml
@@ -7192,6 +8986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zungqr : layout:int -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6839>`__
 
 
 
@@ -7201,6 +8997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6842>`__
+
 
 
 .. code-block:: ocaml
@@ -7208,6 +9006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zungrq : layout:int -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6845>`__
 
 
 
@@ -7217,6 +9017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6848>`__
+
 
 
 .. code-block:: ocaml
@@ -7224,6 +9026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zungtr : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6851>`__
 
 
 
@@ -7233,6 +9037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6854>`__
+
 
 
 .. code-block:: ocaml
@@ -7240,6 +9046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmbr : layout:int -> vect:char -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6857>`__
 
 
 
@@ -7249,6 +9057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6860>`__
+
 
 
 .. code-block:: ocaml
@@ -7256,6 +9066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmhr : layout:int -> side:char -> trans:char -> m:int -> n:int -> ilo:int -> ihi:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6863>`__
 
 
 
@@ -7265,6 +9077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6866>`__
+
 
 
 .. code-block:: ocaml
@@ -7272,6 +9086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmlq : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6869>`__
 
 
 
@@ -7281,6 +9097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6872>`__
+
 
 
 .. code-block:: ocaml
@@ -7288,6 +9106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmql : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6875>`__
 
 
 
@@ -7297,6 +9117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6878>`__
+
 
 
 .. code-block:: ocaml
@@ -7304,6 +9126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmqr : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6881>`__
 
 
 
@@ -7313,6 +9137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6884>`__
+
 
 
 .. code-block:: ocaml
@@ -7320,6 +9146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmrq : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6887>`__
 
 
 
@@ -7329,6 +9157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6890>`__
+
 
 
 .. code-block:: ocaml
@@ -7336,6 +9166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmrz : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> l:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6893>`__
 
 
 
@@ -7345,6 +9177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6896>`__
+
 
 
 .. code-block:: ocaml
@@ -7352,6 +9186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunmtr : layout:int -> side:char -> uplo:char -> trans:char -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6899>`__
 
 
 
@@ -7361,6 +9197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6902>`__
+
 
 
 .. code-block:: ocaml
@@ -7368,6 +9206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zupgtr : layout:int -> uplo:char -> n:int -> ap:(Complex.t ptr) -> tau:(Complex.t ptr) -> q:(Complex.t ptr) -> ldq:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6905>`__
 
 
 
@@ -7377,6 +9217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6908>`__
+
 
 
 .. code-block:: ocaml
@@ -7384,6 +9226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zupmtr : layout:int -> side:char -> uplo:char -> trans:char -> m:int -> n:int -> ap:(Complex.t ptr) -> tau:(Complex.t ptr) -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6911>`__
 
 
 
@@ -7393,6 +9237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6914>`__
+
 
 
 .. code-block:: ocaml
@@ -7400,6 +9246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlaghe : layout:int -> n:int -> k:int -> d:(float ptr) -> a:(Complex.t ptr) -> lda:int -> iseed:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6917>`__
 
 
 
@@ -7409,6 +9257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6920>`__
+
 
 
 .. code-block:: ocaml
@@ -7416,6 +9266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlagsy : layout:int -> n:int -> k:int -> d:(float ptr) -> a:(float ptr) -> lda:int -> iseed:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6923>`__
 
 
 
@@ -7425,6 +9277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6926>`__
+
 
 
 .. code-block:: ocaml
@@ -7432,6 +9286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlagsy : layout:int -> n:int -> k:int -> d:(float ptr) -> a:(Complex.t ptr) -> lda:int -> iseed:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6929>`__
 
 
 
@@ -7441,6 +9297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6932>`__
+
 
 
 .. code-block:: ocaml
@@ -7448,6 +9306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlapmr : layout:int -> forwrd:int -> m:int -> n:int -> x:(float ptr) -> ldx:int -> k:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6935>`__
 
 
 
@@ -7457,6 +9317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6938>`__
+
 
 
 .. code-block:: ocaml
@@ -7464,6 +9326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlapmr : layout:int -> forwrd:int -> m:int -> n:int -> x:(Complex.t ptr) -> ldx:int -> k:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6941>`__
 
 
 
@@ -7473,6 +9337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6944>`__
+
 
 
 .. code-block:: ocaml
@@ -7480,6 +9346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlapmt : layout:int -> forwrd:int -> m:int -> n:int -> x:(float ptr) -> ldx:int -> k:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6947>`__
 
 
 
@@ -7489,6 +9357,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6950>`__
+
 
 
 .. code-block:: ocaml
@@ -7496,6 +9366,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zlapmt : layout:int -> forwrd:int -> m:int -> n:int -> x:(Complex.t ptr) -> ldx:int -> k:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6953>`__
 
 
 
@@ -7505,6 +9377,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6956>`__
+
 
 
 .. code-block:: ocaml
@@ -7512,6 +9386,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlartgp : f:float -> g:float -> cs:(float ptr) -> sn:(float ptr) -> r:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6959>`__
 
 
 
@@ -7521,6 +9397,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6962>`__
+
 
 
 .. code-block:: ocaml
@@ -7528,6 +9406,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dlartgs : x:float -> y:float -> sigma:float -> cs:(float ptr) -> sn:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6965>`__
 
 
 
@@ -7537,6 +9417,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6968>`__
+
 
 
 .. code-block:: ocaml
@@ -7544,6 +9426,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val cheswapr : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> i1:int -> i2:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6971>`__
 
 
 
@@ -7553,6 +9437,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6974>`__
+
 
 
 .. code-block:: ocaml
@@ -7560,6 +9446,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val chetri2x : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> nb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6977>`__
 
 
 
@@ -7569,6 +9457,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6980>`__
+
 
 
 .. code-block:: ocaml
@@ -7576,6 +9466,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val csyconv : layout:int -> uplo:char -> way:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> e:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6983>`__
 
 
 
@@ -7585,6 +9477,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6986>`__
+
 
 
 .. code-block:: ocaml
@@ -7592,6 +9486,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val csytri2 : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6989>`__
 
 
 
@@ -7601,6 +9497,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6992>`__
+
 
 
 .. code-block:: ocaml
@@ -7608,6 +9506,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val csytrs2 : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6995>`__
 
 
 
@@ -7617,6 +9517,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6998>`__
+
 
 
 .. code-block:: ocaml
@@ -7624,6 +9526,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val cuncsd : layout:int -> jobu1:char -> jobu2:char -> jobv1t:char -> jobv2t:char -> trans:char -> signs:char -> m:int -> p:int -> q:int -> x11:(Complex.t ptr) -> ldx11:int -> x12:(Complex.t ptr) -> ldx12:int -> x21:(Complex.t ptr) -> ldx21:int -> x22:(Complex.t ptr) -> ldx22:int -> theta:(float ptr) -> u1:(Complex.t ptr) -> ldu1:int -> u2:(Complex.t ptr) -> ldu2:int -> v1t:(Complex.t ptr) -> ldv1t:int -> v2t:(Complex.t ptr) -> ldv2t:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7001>`__
 
 
 
@@ -7633,6 +9537,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7004>`__
+
 
 
 .. code-block:: ocaml
@@ -7640,6 +9546,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dbbcsd : layout:int -> jobu1:char -> jobu2:char -> jobv1t:char -> jobv2t:char -> trans:char -> m:int -> p:int -> q:int -> theta:(float ptr) -> phi:(float ptr) -> u1:(float ptr) -> ldu1:int -> u2:(float ptr) -> ldu2:int -> v1t:(float ptr) -> ldv1t:int -> v2t:(float ptr) -> ldv2t:int -> b11d:(float ptr) -> b11e:(float ptr) -> b12d:(float ptr) -> b12e:(float ptr) -> b21d:(float ptr) -> b21e:(float ptr) -> b22d:(float ptr) -> b22e:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7007>`__
 
 
 
@@ -7649,6 +9557,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7010>`__
+
 
 
 .. code-block:: ocaml
@@ -7656,6 +9566,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dorcsd : layout:int -> jobu1:char -> jobu2:char -> jobv1t:char -> jobv2t:char -> trans:char -> signs:char -> m:int -> p:int -> q:int -> x11:(float ptr) -> ldx11:int -> x12:(float ptr) -> ldx12:int -> x21:(float ptr) -> ldx21:int -> x22:(float ptr) -> ldx22:int -> theta:(float ptr) -> u1:(float ptr) -> ldu1:int -> u2:(float ptr) -> ldu2:int -> v1t:(float ptr) -> ldv1t:int -> v2t:(float ptr) -> ldv2t:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7013>`__
 
 
 
@@ -7665,6 +9577,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7016>`__
+
 
 
 .. code-block:: ocaml
@@ -7672,6 +9586,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsyconv : layout:int -> uplo:char -> way:char -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> e:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7019>`__
 
 
 
@@ -7681,6 +9597,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7022>`__
+
 
 
 .. code-block:: ocaml
@@ -7688,6 +9606,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytri2 : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7025>`__
 
 
 
@@ -7697,6 +9617,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7028>`__
+
 
 
 .. code-block:: ocaml
@@ -7704,6 +9626,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytrs2 : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7031>`__
 
 
 
@@ -7713,6 +9637,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7034>`__
+
 
 
 .. code-block:: ocaml
@@ -7720,6 +9646,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val sorbdb : layout:int -> trans:char -> signs:char -> m:int -> p:int -> q:int -> x11:(float ptr) -> ldx11:int -> x12:(float ptr) -> ldx12:int -> x21:(float ptr) -> ldx21:int -> x22:(float ptr) -> ldx22:int -> theta:(float ptr) -> phi:(float ptr) -> taup1:(float ptr) -> taup2:(float ptr) -> tauq1:(float ptr) -> tauq2:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7037>`__
 
 
 
@@ -7729,6 +9657,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7040>`__
+
 
 
 .. code-block:: ocaml
@@ -7736,6 +9666,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val sorcsd2by1 : layout:int -> jobu1:char -> jobu2:char -> jobv1t:char -> m:int -> p:int -> q:int -> x11:(float ptr) -> ldx11:int -> x21:(float ptr) -> ldx21:int -> theta:(float ptr) -> u1:(float ptr) -> ldu1:int -> u2:(float ptr) -> ldu2:int -> v1t:(float ptr) -> ldv1t:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7043>`__
 
 
 
@@ -7745,6 +9677,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7046>`__
+
 
 
 .. code-block:: ocaml
@@ -7752,6 +9686,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ssyswapr : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> i1:int -> i2:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7049>`__
 
 
 
@@ -7761,6 +9697,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7052>`__
+
 
 
 .. code-block:: ocaml
@@ -7768,6 +9706,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ssytri2x : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> nb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7055>`__
 
 
 
@@ -7777,6 +9717,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7058>`__
+
 
 
 .. code-block:: ocaml
@@ -7784,6 +9726,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zbbcsd : layout:int -> jobu1:char -> jobu2:char -> jobv1t:char -> jobv2t:char -> trans:char -> m:int -> p:int -> q:int -> theta:(float ptr) -> phi:(float ptr) -> u1:(Complex.t ptr) -> ldu1:int -> u2:(Complex.t ptr) -> ldu2:int -> v1t:(Complex.t ptr) -> ldv1t:int -> v2t:(Complex.t ptr) -> ldv2t:int -> b11d:(float ptr) -> b11e:(float ptr) -> b12d:(float ptr) -> b12e:(float ptr) -> b21d:(float ptr) -> b21e:(float ptr) -> b22d:(float ptr) -> b22e:(float ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7061>`__
 
 
 
@@ -7793,6 +9737,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7064>`__
+
 
 
 .. code-block:: ocaml
@@ -7800,6 +9746,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetri2 : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7067>`__
 
 
 
@@ -7809,6 +9757,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7070>`__
+
 
 
 .. code-block:: ocaml
@@ -7816,6 +9766,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetrs2 : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7073>`__
 
 
 
@@ -7825,6 +9777,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7076>`__
+
 
 
 .. code-block:: ocaml
@@ -7832,6 +9786,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsyswapr : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> i1:int -> i2:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7079>`__
 
 
 
@@ -7841,6 +9797,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7082>`__
+
 
 
 .. code-block:: ocaml
@@ -7848,6 +9806,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsytri2x : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> nb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7085>`__
 
 
 
@@ -7857,6 +9817,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7088>`__
+
 
 
 .. code-block:: ocaml
@@ -7864,6 +9826,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zunbdb : layout:int -> trans:char -> signs:char -> m:int -> p:int -> q:int -> x11:(Complex.t ptr) -> ldx11:int -> x12:(Complex.t ptr) -> ldx12:int -> x21:(Complex.t ptr) -> ldx21:int -> x22:(Complex.t ptr) -> ldx22:int -> theta:(float ptr) -> phi:(float ptr) -> taup1:(Complex.t ptr) -> taup2:(Complex.t ptr) -> tauq1:(Complex.t ptr) -> tauq2:(Complex.t ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7091>`__
 
 
 
@@ -7873,6 +9837,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7094>`__
+
 
 
 .. code-block:: ocaml
@@ -7880,6 +9846,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zuncsd2by1 : layout:int -> jobu1:char -> jobu2:char -> jobv1t:char -> m:int -> p:int -> q:int -> x11:(Complex.t ptr) -> ldx11:int -> x21:(Complex.t ptr) -> ldx21:int -> theta:(float ptr) -> u1:(Complex.t ptr) -> ldu1:int -> u2:(Complex.t ptr) -> ldu2:int -> v1t:(Complex.t ptr) -> ldv1t:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7097>`__
 
 
 
@@ -7889,6 +9857,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7100>`__
+
 
 
 .. code-block:: ocaml
@@ -7896,6 +9866,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgemqrt : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> nb:int -> v:(float ptr) -> ldv:int -> t:(float ptr) -> ldt:int -> c:(float ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7103>`__
 
 
 
@@ -7905,6 +9877,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7106>`__
+
 
 
 .. code-block:: ocaml
@@ -7912,6 +9886,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgemqrt : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> nb:int -> v:(Complex.t ptr) -> ldv:int -> t:(Complex.t ptr) -> ldt:int -> c:(Complex.t ptr) -> ldc:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7109>`__
 
 
 
@@ -7921,6 +9897,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7112>`__
+
 
 
 .. code-block:: ocaml
@@ -7928,6 +9906,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqrt : layout:int -> m:int -> n:int -> nb:int -> a:(float ptr) -> lda:int -> t:(float ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7115>`__
 
 
 
@@ -7937,6 +9917,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7118>`__
+
 
 
 .. code-block:: ocaml
@@ -7944,6 +9926,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqrt : layout:int -> m:int -> n:int -> nb:int -> a:(Complex.t ptr) -> lda:int -> t:(Complex.t ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7121>`__
 
 
 
@@ -7953,6 +9937,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7124>`__
+
 
 
 .. code-block:: ocaml
@@ -7960,6 +9946,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqrt2 : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> t:(float ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7127>`__
 
 
 
@@ -7969,6 +9957,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7130>`__
+
 
 
 .. code-block:: ocaml
@@ -7976,6 +9966,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqrt2 : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> t:(Complex.t ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7133>`__
 
 
 
@@ -7985,6 +9977,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7136>`__
+
 
 
 .. code-block:: ocaml
@@ -7992,6 +9986,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dgeqrt3 : layout:int -> m:int -> n:int -> a:(float ptr) -> lda:int -> t:(float ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7139>`__
 
 
 
@@ -8001,6 +9997,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7142>`__
+
 
 
 .. code-block:: ocaml
@@ -8008,6 +10006,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zgeqrt3 : layout:int -> m:int -> n:int -> a:(Complex.t ptr) -> lda:int -> t:(Complex.t ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7145>`__
 
 
 
@@ -8017,6 +10017,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7148>`__
+
 
 
 .. code-block:: ocaml
@@ -8024,6 +10026,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtpmqrt : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> l:int -> nb:int -> v:(float ptr) -> ldv:int -> t:(float ptr) -> ldt:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7151>`__
 
 
 
@@ -8033,6 +10037,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7154>`__
+
 
 
 .. code-block:: ocaml
@@ -8040,6 +10046,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztpmqrt : layout:int -> side:char -> trans:char -> m:int -> n:int -> k:int -> l:int -> nb:int -> v:(Complex.t ptr) -> ldv:int -> t:(Complex.t ptr) -> ldt:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7157>`__
 
 
 
@@ -8049,6 +10057,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7160>`__
+
 
 
 .. code-block:: ocaml
@@ -8056,6 +10066,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtpqrt : layout:int -> m:int -> n:int -> l:int -> nb:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> t:(float ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7163>`__
 
 
 
@@ -8065,6 +10077,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7166>`__
+
 
 
 .. code-block:: ocaml
@@ -8072,6 +10086,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztpqrt : layout:int -> m:int -> n:int -> l:int -> nb:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> t:(Complex.t ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7169>`__
 
 
 
@@ -8081,6 +10097,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7172>`__
+
 
 
 .. code-block:: ocaml
@@ -8088,6 +10106,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtpqrt2 : layout:int -> m:int -> n:int -> l:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> t:(float ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7175>`__
 
 
 
@@ -8097,6 +10117,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7178>`__
+
 
 
 .. code-block:: ocaml
@@ -8104,6 +10126,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztpqrt2 : layout:int -> m:int -> n:int -> l:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> t:(Complex.t ptr) -> ldt:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7181>`__
 
 
 
@@ -8113,6 +10137,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7184>`__
+
 
 
 .. code-block:: ocaml
@@ -8120,6 +10146,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dtprfb : layout:int -> side:char -> trans:char -> direct:char -> storev:char -> m:int -> n:int -> k:int -> l:int -> v:(float ptr) -> ldv:int -> t:(float ptr) -> ldt:int -> a:(float ptr) -> lda:int -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7187>`__
 
 
 
@@ -8129,6 +10157,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7190>`__
+
 
 
 .. code-block:: ocaml
@@ -8136,6 +10166,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val ztprfb : layout:int -> side:char -> trans:char -> direct:char -> storev:char -> m:int -> n:int -> k:int -> l:int -> v:(Complex.t ptr) -> ldv:int -> t:(Complex.t ptr) -> ldt:int -> a:(Complex.t ptr) -> lda:int -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7193>`__
 
 
 
@@ -8145,6 +10177,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7196>`__
+
 
 
 .. code-block:: ocaml
@@ -8152,6 +10186,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsysv_rook : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7199>`__
 
 
 
@@ -8161,6 +10197,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7202>`__
+
 
 
 .. code-block:: ocaml
@@ -8168,6 +10206,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsysv_rook : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7205>`__
 
 
 
@@ -8177,6 +10217,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7208>`__
+
 
 
 .. code-block:: ocaml
@@ -8184,6 +10226,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytrf_rook : layout:int -> uplo:char -> n:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7211>`__
 
 
 
@@ -8193,6 +10237,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7214>`__
+
 
 
 .. code-block:: ocaml
@@ -8200,6 +10246,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsytrf_rook : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7217>`__
 
 
 
@@ -8209,6 +10257,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7220>`__
+
 
 
 .. code-block:: ocaml
@@ -8216,6 +10266,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val dsytrs_rook : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(float ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(float ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7223>`__
 
 
 
@@ -8225,6 +10277,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7226>`__
+
 
 
 .. code-block:: ocaml
@@ -8232,6 +10286,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsytrs_rook : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7229>`__
 
 
 
@@ -8241,6 +10297,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7232>`__
+
 
 
 .. code-block:: ocaml
@@ -8248,6 +10306,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetrf_rook : layout:int -> uplo:char -> n:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7235>`__
 
 
 
@@ -8257,6 +10317,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7238>`__
+
 
 
 .. code-block:: ocaml
@@ -8264,6 +10326,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zhetrs_rook : layout:int -> uplo:char -> n:int -> nrhs:int -> a:(Complex.t ptr) -> lda:int -> ipiv:(int32 ptr) -> b:(Complex.t ptr) -> ldb:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7241>`__
 
 
 
@@ -8273,6 +10337,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7244>`__
+
 
 
 .. code-block:: ocaml
@@ -8280,6 +10346,8 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
   val zsyr : layout:int -> uplo:char -> n:int -> alpha:Complex.t -> x:(Complex.t ptr) -> incx:int -> a:(Complex.t ptr) -> lda:int -> int
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7247>`__
 
 
 

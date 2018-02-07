@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #142 entries have been extracted.
-timestamp:1517969969
+timestamp:1518019719
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -22,6 +22,8 @@ Basic functions
 
 ``add x y``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L11>`__
+
 
 
 .. code-block:: ocaml
@@ -29,6 +31,8 @@ Basic functions
   val sub : float -> float -> float
 
 ``sub x y``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L13>`__
 
 
 
@@ -38,6 +42,8 @@ Basic functions
 
 ``mul x y``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L15>`__
+
 
 
 .. code-block:: ocaml
@@ -45,6 +51,8 @@ Basic functions
   val div : float -> float -> float
 
 ``div x y``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L17>`__
 
 
 
@@ -54,6 +62,8 @@ Basic functions
 
 ``atan2 x y``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L19>`__
+
 
 
 .. code-block:: ocaml
@@ -61,6 +71,8 @@ Basic functions
   val abs : float -> float
 
 ``abs x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L22>`__
 
 
 
@@ -70,6 +82,8 @@ Basic functions
 
 ``neg x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L24>`__
+
 
 
 .. code-block:: ocaml
@@ -77,6 +91,8 @@ Basic functions
   val reci : float -> float
 
 ``reci x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L26>`__
 
 
 
@@ -86,6 +102,8 @@ Basic functions
 
 ``floor x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L36>`__
+
 
 
 .. code-block:: ocaml
@@ -93,6 +111,8 @@ Basic functions
   val ceil : float -> float
 
 ``ceil x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L38>`__
 
 
 
@@ -102,6 +122,8 @@ Basic functions
 
 ``round x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L42>`__
+
 
 
 .. code-block:: ocaml
@@ -109,6 +131,8 @@ Basic functions
   val trunc : float -> float
 
 ``trunc x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L47>`__
 
 
 
@@ -118,6 +142,8 @@ Basic functions
 
 ``sqr x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L49>`__
+
 
 
 .. code-block:: ocaml
@@ -125,6 +151,8 @@ Basic functions
   val sqrt : float -> float
 
 ``sqrt x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L51>`__
 
 
 
@@ -134,6 +162,8 @@ Basic functions
 
 ``pow x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L53>`__
+
 
 
 .. code-block:: ocaml
@@ -141,6 +171,8 @@ Basic functions
   val exp : float -> float
 
 ``exp x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L55>`__
 
 
 
@@ -150,6 +182,8 @@ Basic functions
 
 ``expm1``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L57>`__
+
 
 
 .. code-block:: ocaml
@@ -157,6 +191,8 @@ Basic functions
   val log : float -> float
 
 ``log x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L59>`__
 
 
 
@@ -166,6 +202,8 @@ Basic functions
 
 ``log1p x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L61>`__
+
 
 
 .. code-block:: ocaml
@@ -173,6 +211,8 @@ Basic functions
   val logabs : float -> float
 
 ``logabs x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L69>`__
 
 
 
@@ -182,6 +222,8 @@ Basic functions
 
 ``log2 x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L63>`__
+
 
 
 .. code-block:: ocaml
@@ -189,6 +231,8 @@ Basic functions
   val log10 : float -> float
 
 ``log10 x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L65>`__
 
 
 
@@ -198,6 +242,8 @@ Basic functions
 
 ``logn x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L67>`__
+
 
 
 .. code-block:: ocaml
@@ -205,6 +251,8 @@ Basic functions
   val sigmoid : float -> float
 
 ``sigmod x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L71>`__
 
 
 
@@ -214,6 +262,8 @@ Basic functions
 
 ``signum x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L28>`__
+
 
 
 .. code-block:: ocaml
@@ -221,6 +271,8 @@ Basic functions
   val softsign : float -> float
 
 ``softsign x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L30>`__
 
 
 
@@ -230,6 +282,8 @@ Basic functions
 
 ``softplus x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L32>`__
+
 
 
 .. code-block:: ocaml
@@ -237,6 +291,8 @@ Basic functions
   val relu : float -> float
 
 ``relu x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L34>`__
 
 
 
@@ -246,6 +302,8 @@ Basic functions
 
 ``sin x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L73>`__
+
 
 
 .. code-block:: ocaml
@@ -253,6 +311,8 @@ Basic functions
   val cos : float -> float
 
 ``cos x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L75>`__
 
 
 
@@ -262,6 +322,8 @@ Basic functions
 
 ``tan x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L77>`__
+
 
 
 .. code-block:: ocaml
@@ -269,6 +331,8 @@ Basic functions
   val cot : float -> float
 
 ``cot x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L79>`__
 
 
 
@@ -278,6 +342,8 @@ Basic functions
 
 ``sec x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L81>`__
+
 
 
 .. code-block:: ocaml
@@ -285,6 +351,8 @@ Basic functions
   val csc : float -> float
 
 ``csc x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L83>`__
 
 
 
@@ -294,6 +362,8 @@ Basic functions
 
 ``asin x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L85>`__
+
 
 
 .. code-block:: ocaml
@@ -301,6 +371,8 @@ Basic functions
   val acos : float -> float
 
 ``acos x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L87>`__
 
 
 
@@ -310,6 +382,8 @@ Basic functions
 
 ``atan x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L89>`__
+
 
 
 .. code-block:: ocaml
@@ -317,6 +391,8 @@ Basic functions
   val acot : float -> float
 
 ``acot x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L91>`__
 
 
 
@@ -326,6 +402,8 @@ Basic functions
 
 ``asec x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L93>`__
+
 
 
 .. code-block:: ocaml
@@ -333,6 +411,8 @@ Basic functions
   val acsc : float -> float
 
 ``acsc x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L95>`__
 
 
 
@@ -342,6 +422,8 @@ Basic functions
 
 ``sinh x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L99>`__
+
 
 
 .. code-block:: ocaml
@@ -349,6 +431,8 @@ Basic functions
   val cosh : float -> float
 
 ``cosh x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L101>`__
 
 
 
@@ -358,6 +442,8 @@ Basic functions
 
 ``tanh x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L103>`__
+
 
 
 .. code-block:: ocaml
@@ -365,6 +451,8 @@ Basic functions
   val coth : float -> float
 
 ``coth x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L105>`__
 
 
 
@@ -374,6 +462,8 @@ Basic functions
 
 ``sech x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L107>`__
+
 
 
 .. code-block:: ocaml
@@ -381,6 +471,8 @@ Basic functions
   val csch : float -> float
 
 ``csch x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L109>`__
 
 
 
@@ -390,6 +482,8 @@ Basic functions
 
 ``asinh x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L111>`__
+
 
 
 .. code-block:: ocaml
@@ -397,6 +491,8 @@ Basic functions
   val acosh : float -> float
 
 ``acosh x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L113>`__
 
 
 
@@ -406,6 +502,8 @@ Basic functions
 
 ``atanh x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L115>`__
+
 
 
 .. code-block:: ocaml
@@ -413,6 +511,8 @@ Basic functions
   val acoth : float -> float
 
 ``acoth x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L117>`__
 
 
 
@@ -422,6 +522,8 @@ Basic functions
 
 ``asech x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L119>`__
+
 
 
 .. code-block:: ocaml
@@ -429,6 +531,8 @@ Basic functions
   val acsch : float -> float
 
 ``acsch x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L121>`__
 
 
 
@@ -438,6 +542,8 @@ Basic functions
 
 ``sinc x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L97>`__
+
 
 
 .. code-block:: ocaml
@@ -445,6 +551,8 @@ Basic functions
   val logsinh : float -> float
 
 ``logsinh x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L123>`__
 
 
 
@@ -454,6 +562,8 @@ Basic functions
 
 ``logcosh x``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L125>`__
+
 
 
 .. code-block:: ocaml
@@ -461,6 +571,8 @@ Basic functions
   val sindg : float -> float
 
 Sine of angle given in degrees
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L127>`__
 
 
 
@@ -470,6 +582,8 @@ Sine of angle given in degrees
 
 Cosine of the angle x given in degrees.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L129>`__
+
 
 
 .. code-block:: ocaml
@@ -477,6 +591,8 @@ Cosine of the angle x given in degrees.
   val tandg : float -> float
 
 Tangent of angle x given in degrees.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L131>`__
 
 
 
@@ -486,6 +602,8 @@ Tangent of angle x given in degrees.
 
 Cotangent of the angle x given in degrees.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L133>`__
+
 
 
 .. code-block:: ocaml
@@ -493,6 +611,8 @@ Cotangent of the angle x given in degrees.
   val hypot : float -> float -> float
 
 Calculate the length of the hypotenuse.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L135>`__
 
 
 
@@ -502,6 +622,8 @@ Calculate the length of the hypotenuse.
 
 ``xlogy(x, y) = x*log(y)``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L137>`__
+
 
 
 .. code-block:: ocaml
@@ -509,6 +631,8 @@ Calculate the length of the hypotenuse.
   val xlog1py : float -> float -> float
 
 ``xlog1py(x, y) = x*log1p(y)``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L139>`__
 
 
 
@@ -518,6 +642,8 @@ Calculate the length of the hypotenuse.
 
 ``logit(x) = log(p/(1-p))``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L141>`__
+
 
 
 .. code-block:: ocaml
@@ -525,6 +651,8 @@ Calculate the length of the hypotenuse.
   val expit : float -> float
 
 ``expit(x) = 1/(1+exp(-x))``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L143>`__
 
 
 
@@ -540,6 +668,8 @@ Airy functions
 Airy function ``airy x`` returns ``(Ai, Aip, Bi, Bip)``. ``Aip`` is the
 derivative of ``Ai`` whilst ``Bip`` is the derivative of ``Bi``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L145>`__
+
 
 
 Bessel functions
@@ -553,6 +683,8 @@ Bessel functions
 
 Bessel function of the first kind of order 0.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L172>`__
+
 
 
 .. code-block:: ocaml
@@ -560,6 +692,8 @@ Bessel function of the first kind of order 0.
   val j1 : float -> float
 
 Bessel function of the first kind of order 1.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L174>`__
 
 
 
@@ -569,6 +703,8 @@ Bessel function of the first kind of order 1.
 
 Bessel function of real order.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L176>`__
+
 
 
 .. code-block:: ocaml
@@ -576,6 +712,8 @@ Bessel function of real order.
   val y0 : float -> float
 
 Bessel function of the second kind of order 0.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L178>`__
 
 
 
@@ -585,6 +723,8 @@ Bessel function of the second kind of order 0.
 
 Bessel function of the second kind of order 1.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L180>`__
+
 
 
 .. code-block:: ocaml
@@ -592,6 +732,8 @@ Bessel function of the second kind of order 1.
   val yv : float -> float -> float
 
 Bessel function of the second kind of real order.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L182>`__
 
 
 
@@ -601,6 +743,8 @@ Bessel function of the second kind of real order.
 
 Bessel function of the second kind of integer order.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L184>`__
+
 
 
 .. code-block:: ocaml
@@ -608,6 +752,8 @@ Bessel function of the second kind of integer order.
   val i0 : float -> float
 
 Modified Bessel function of order 0.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L186>`__
 
 
 
@@ -617,6 +763,8 @@ Modified Bessel function of order 0.
 
 Exponentially scaled modified Bessel function of order 0.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L188>`__
+
 
 
 .. code-block:: ocaml
@@ -624,6 +772,8 @@ Exponentially scaled modified Bessel function of order 0.
   val i1 : float -> float
 
 Modified Bessel function of order 1.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L190>`__
 
 
 
@@ -633,6 +783,8 @@ Modified Bessel function of order 1.
 
 Exponentially scaled modified Bessel function of order 1.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L192>`__
+
 
 
 .. code-block:: ocaml
@@ -640,6 +792,8 @@ Exponentially scaled modified Bessel function of order 1.
   val iv : float -> float -> float
 
 Modified Bessel function of the first kind of real order.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L194>`__
 
 
 
@@ -649,6 +803,8 @@ Modified Bessel function of the first kind of real order.
 
 Modified Bessel function of the second kind of order 0, K_0.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L196>`__
+
 
 
 .. code-block:: ocaml
@@ -656,6 +812,8 @@ Modified Bessel function of the second kind of order 0, K_0.
   val k0e : float -> float
 
 Exponentially scaled modified Bessel function K of order 0.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L198>`__
 
 
 
@@ -665,6 +823,8 @@ Exponentially scaled modified Bessel function K of order 0.
 
 Modified Bessel function of the second kind of order 1, K_1(x).
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L200>`__
+
 
 
 .. code-block:: ocaml
@@ -672,6 +832,8 @@ Modified Bessel function of the second kind of order 1, K_1(x).
   val k1e : float -> float
 
 Exponentially scaled modified Bessel function K of order 1.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L202>`__
 
 
 
@@ -686,6 +848,8 @@ Elliptic functions
 
 Jacobian Elliptic function ``ellipj u m`` returns ``(sn, cn, dn, phi)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L154>`__
+
 
 
 .. code-block:: ocaml
@@ -693,6 +857,8 @@ Jacobian Elliptic function ``ellipj u m`` returns ``(sn, cn, dn, phi)``.
   val ellipk : float -> float
 
 Complete elliptic integral of the first kind ``ellipk m``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L162>`__
 
 
 
@@ -702,6 +868,8 @@ Complete elliptic integral of the first kind ``ellipk m``.
 
 Complete elliptic integral of the first kind around ``m = 1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L164>`__
+
 
 
 .. code-block:: ocaml
@@ -709,6 +877,8 @@ Complete elliptic integral of the first kind around ``m = 1``.
   val ellipkinc : float -> float -> float
 
 Incomplete elliptic integral of the first kind ``ellipkinc phi m``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L166>`__
 
 
 
@@ -718,6 +888,8 @@ Incomplete elliptic integral of the first kind ``ellipkinc phi m``.
 
 Complete elliptic integral of the second kind ``ellipe m``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L168>`__
+
 
 
 .. code-block:: ocaml
@@ -725,6 +897,8 @@ Complete elliptic integral of the second kind ``ellipe m``.
   val ellipeinc : float -> float -> float
 
 Incomplete elliptic integral of the second kind ``ellipeinc phi m``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L170>`__
 
 
 
@@ -751,6 +925,8 @@ Parameters:
 Returns:
   * The value of gamma(z).
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L226>`__
+
 
 
 .. code-block:: ocaml
@@ -758,6 +934,8 @@ Returns:
   val rgamma : float -> float
 
 Reciprocal Gamma function.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L228>`__
 
 
 
@@ -767,6 +945,8 @@ Reciprocal Gamma function.
 
 Logarithm of the gamma function.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L230>`__
+
 
 
 .. code-block:: ocaml
@@ -774,6 +954,8 @@ Logarithm of the gamma function.
   val gammainc : float -> float -> float
 
 Incomplete gamma function.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L232>`__
 
 
 
@@ -783,6 +965,8 @@ Incomplete gamma function.
 
 Inverse function of ``gammainc``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L234>`__
+
 
 
 .. code-block:: ocaml
@@ -790,6 +974,8 @@ Inverse function of ``gammainc``
   val gammaincc : float -> float -> float
 
 Complemented incomplete gamma integral
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L236>`__
 
 
 
@@ -799,6 +985,8 @@ Complemented incomplete gamma integral
 
 Inverse function of ``gammaincc``
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L238>`__
+
 
 
 .. code-block:: ocaml
@@ -806,6 +994,8 @@ Inverse function of ``gammaincc``
   val psi : float -> float
 
 The digamma function.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L240>`__
 
 
 
@@ -821,7 +1011,9 @@ Beta functions
 Beta function.
 
 .. math::
-  \mathrm{B}(a, b) =  \frac{\Gamma(a) \Gamma(b)}{\Gamma(a+b)}
+  \Beta(a, b) =  \frac{\Gamma(a) \Gamma(b)}{\Gamma(a+b)}
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L249>`__
 
 
 
@@ -831,6 +1023,8 @@ Beta function.
 
 Incomplete beta integral.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L251>`__
+
 
 
 .. code-block:: ocaml
@@ -838,6 +1032,8 @@ Incomplete beta integral.
   val betaincinv : float -> float -> float -> float
 
 Inverse funciton of beta integral.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L253>`__
 
 
 
@@ -852,6 +1048,8 @@ Factorials
 
 Factorial function ``fact n`` calculates ``n!``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L243>`__
+
 
 
 .. code-block:: ocaml
@@ -859,6 +1057,8 @@ Factorial function ``fact n`` calculates ``n!``.
   val log_fact : int -> float
 
 Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L247>`__
 
 
 
@@ -868,6 +1068,8 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
 
 ``permutation n k`` return the number of permutations of n things taken k at a time.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L261>`__
+
 
 
 .. code-block:: ocaml
@@ -875,6 +1077,8 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
   val combination : int -> int -> int
 
 ``combination n k`` return the combination number of taking k out of n.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L259>`__
 
 
 
@@ -889,6 +1093,8 @@ Error functions
 
 Error function.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L268>`__
+
 
 
 .. code-block:: ocaml
@@ -896,6 +1102,8 @@ Error function.
   val erfc : float -> float
 
 Complementary error function, ``1 - erf(x)``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L270>`__
 
 
 
@@ -905,6 +1113,8 @@ Complementary error function, ``1 - erf(x)``
 
 Scaled complementary error function, ``exp(x**2) * erfc(x)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L272>`__
+
 
 
 .. code-block:: ocaml
@@ -913,6 +1123,8 @@ Scaled complementary error function, ``exp(x**2) * erfc(x)``.
 
 Inverse of ``erf x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L274>`__
+
 
 
 .. code-block:: ocaml
@@ -920,6 +1132,8 @@ Inverse of ``erf x``.
   val erfcinv : float -> float
 
 Inverse of ``erfc x``
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L276>`__
 
 
 
@@ -934,6 +1148,8 @@ Dawson & Fresnel integrals
 
 Dawson’s integral.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L278>`__
+
 
 
 .. code-block:: ocaml
@@ -942,6 +1158,8 @@ Dawson’s integral.
 
 Fresnel sin and cos integrals, ``fresnel x`` returns a tuple consisting of
 ``(Fresnel sin integral, Fresnel cos integral)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L280>`__
 
 
 
@@ -954,20 +1172,9 @@ Struve functions
 
   val struve : float -> float -> float
 
-Struve function ``struve v x`` returns the value of the Struve function of
-order ``v`` at ``x``. The Struve function is defined as,
+Struve function ``struve v x``.
 
-.. math::
-  H_v(x) = (z/2)^{v + 1} \sum_{n=0}^\infty \frac{(-1)^n (z/2)^{2n}}{\Gamma(n + \frac{3}{2}) \Gamma(n + v + \frac{3}{2})},
-
-where :math:`\Gamma` is the gamma function.
-
-Parameters:
-  * ``v``: order of the Struve function (float).
-  * ``x``: Argument of the Struve function (float; must be positive unless v is an integer).
-
-Returns:
-  * Value of the Struve function of order ``v`` at ``x``.
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L286>`__
 
 
 
@@ -982,6 +1189,8 @@ Other special functions
 
 Exponential integral E_n.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L204>`__
+
 
 
 .. code-block:: ocaml
@@ -989,6 +1198,8 @@ Exponential integral E_n.
   val shichi : float -> float * float
 
 Hyperbolic sine and cosine integrals, ``shichi x`` returns ``(shi, chi)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L206>`__
 
 
 
@@ -998,6 +1209,8 @@ Hyperbolic sine and cosine integrals, ``shichi x`` returns ``(shi, chi)``.
 
 Hyperbolic sine integrals.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L212>`__
+
 
 
 .. code-block:: ocaml
@@ -1005,6 +1218,8 @@ Hyperbolic sine integrals.
   val chi : float -> float
 
 Hyperbolic cosine integrals.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L214>`__
 
 
 
@@ -1014,6 +1229,8 @@ Hyperbolic cosine integrals.
 
 Sine and cosine integrals, ``sici x`` returns ``(si, ci)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L216>`__
+
 
 
 .. code-block:: ocaml
@@ -1021,6 +1238,8 @@ Sine and cosine integrals, ``sici x`` returns ``(si, ci)``.
   val si : float -> float
 
 Sine integral.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L207>`__
 
 
 
@@ -1030,6 +1249,8 @@ Sine integral.
 
 Cosine integral.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L208>`__
+
 
 
 .. code-block:: ocaml
@@ -1038,6 +1259,8 @@ Cosine integral.
 
 Riemann or Hurwitz zeta function ``zeta x q``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L255>`__
+
 
 
 .. code-block:: ocaml
@@ -1045,6 +1268,8 @@ Riemann or Hurwitz zeta function ``zeta x q``.
   val zetac : float -> float
 
 Riemann zeta function minus 1.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L257>`__
 
 
 
@@ -1073,6 +1298,8 @@ Parameters:
 Returns:
   * Probability of k or fewer successes in n independent events with success probabilities of p.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L298>`__
+
 
 
 .. code-block:: ocaml
@@ -1087,6 +1314,8 @@ probability density,
 .. math::
   \mathrm{bdtrc}(k, n, p) = \sum_{j=k+1}^n {{n}\choose{j}} p^j (1-p)^{n-j}
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L300>`__
+
 
 
 .. code-block:: ocaml
@@ -1097,6 +1326,8 @@ Inverse function to ``bdtr`` with respect to ``p``.
 
 Finds the event probability ``p`` such that the sum of the terms 0 through k of
 the binomial probability density is equal to the given cumulative probability y.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L302>`__
 
 
 
@@ -1122,6 +1353,8 @@ Parameters:
 Returns:
   * Cumulative density function of the beta distribution with ``a`` and ``b`` at ``x``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L304>`__
+
 
 
 .. code-block:: ocaml
@@ -1146,6 +1379,8 @@ Parameters:
 Returns:
   * The quantile corresponding to ``p``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L306>`__
+
 
 
 Helper functions
@@ -1159,6 +1394,8 @@ Helper functions
 
 ``is_odd x`` returns ``true`` if ``x`` is odd.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L288>`__
+
 
 
 .. code-block:: ocaml
@@ -1167,6 +1404,8 @@ Helper functions
 
 ``is_even x`` returns ``true`` if ``x`` is even.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L290>`__
+
 
 
 .. code-block:: ocaml
@@ -1174,6 +1413,8 @@ Helper functions
   val is_pow2 : int -> bool
 
 ``is_pow2 x`` return ``true`` if ``x`` is integer power of 2, e.g. 32, 64, etc.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L292>`__
 
 
 
@@ -1184,6 +1425,8 @@ Helper functions
 ``nextafter from to`` returns the next representable double precision value
 of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L294>`__
+
 
 
 .. code-block:: ocaml
@@ -1192,6 +1435,8 @@ of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is retu
 
 ``nextafter from to`` returns the next representable single precision value
 of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L296>`__
 
 
 

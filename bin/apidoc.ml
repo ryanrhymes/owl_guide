@@ -15,6 +15,22 @@ let fname_to_github_url fname =
   "https://github.com/ryanrhymes/owl/tree/master/src/" ^ fname
 
 
+(** given a function type string, convert it to github line url *)
+let funloc_to_github_line fname fun_typ loc =
+  let regstr = "^[ ]*val[ ]*(.+?)[ ]" in
+  let regex = Re_pcre.regexp regstr in
+  let l = Re.all regex fun_typ |> Array.of_list in
+  if Array.length l = 0 then None
+  else
+    let fun_name = Re.Group.get l.(0) 1 in
+    if Hashtbl.mem loc fun_name = false then None
+    else (
+      let line_num = Hashtbl.find loc fun_name in
+      Some (Printf.sprintf
+        "https://github.com/ryanrhymes/owl/blob/master/src/%s#L%i"
+      fname line_num)
+    )
+
 (* parse module.txt to get a list of modules to generate api doc *)
 let get_module_files fname =
   Owl.Utils.read_file fname |>
@@ -90,8 +106,24 @@ let parse_one_mli fname =
   )
 
 
+(** Extract function implementation from an ml file, return a hashtbl *)
+let locate_functions src_root impl_file =
+  let regstr = "^[ ]*let[ ]*(.+?)[ ]" in
+  let regex = Re_pcre.regexp regstr in
+  let impl = Hashtbl.create 512 in
+  Array.iteri (fun i s ->
+    Re.all regex s |> List.iter (fun mc ->
+      let _fun = Re.Group.get mc 1 in
+      (** Owl_log.info "%s" _fun; *)
+      if Hashtbl.mem impl _fun = false then
+        Hashtbl.add impl _fun (i + 1)
+    );
+  ) (Owl.Utils.read_file ~trim:false (src_root ^ impl_file));
+  impl
+
+
 (* dump the api doc to a rst file *)
-let write_to_rst apidoc sig_file impl_file rst_file module_name =
+let write_to_rst apidoc sig_file impl_file rst_file module_name funloc =
   let h = open_out rst_file in
   let sig_url = fname_to_github_url sig_file in
   let impl_url = fname_to_github_url impl_file in
@@ -110,7 +142,10 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name =
     | `Function (api, doc)  -> (
         Str.(global_replace (regexp "\n[ ]*") "\n    ") api |>
         Printf.fprintf h ".. code-block:: ocaml\n\n  %s\n\n";
-        Printf.fprintf h "%s\n\n\n\n" doc;
+        Printf.fprintf h "%s\n\n" doc;
+        match funloc_to_github_line impl_file api funloc with
+        | Some url -> Printf.fprintf h "`[ source code ] <%s>`__\n\n\n\n" url
+        | None     -> ()
       )
   ) apidoc;
 
@@ -130,7 +165,8 @@ let parse_modules src_root dst_root modules =
     let iname = src_root ^ sig_file in
     let oname = dst_root ^ bname ^ ".rst" in
     let alldoc = parse_one_mli iname in
-    write_to_rst alldoc sig_file impl_file oname module_name;
+    let funloc = locate_functions src_root impl_file in
+    write_to_rst alldoc sig_file impl_file oname module_name funloc;
 
     Printf.fprintf h "  %s\n\n" bname;
     num_funs := !num_funs + (Array.length alldoc);

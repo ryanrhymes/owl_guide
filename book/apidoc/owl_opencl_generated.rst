@@ -3,7 +3,7 @@ Low-level OpenCL API
 
 This document is auto-generated for Owl's APIs.
 #542 entries have been extracted.
-timestamp:1517969972
+timestamp:1518019723
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_generated.mli>`_ 
@@ -23,16 +23,12 @@ Type definition
 
 Type of cl_platform_id
 
-
-
 .. code-block:: ocaml
 
   type cl_device_id
     
 
 Type of cl_device_id
-
-
 
 .. code-block:: ocaml
 
@@ -41,16 +37,12 @@ Type of cl_device_id
 
 Type of cl_context
 
-
-
 .. code-block:: ocaml
 
   type cl_command_queue
     
 
 Type of cl_command_queue
-
-
 
 .. code-block:: ocaml
 
@@ -59,16 +51,12 @@ Type of cl_command_queue
 
 Type of cl_mem
 
-
-
 .. code-block:: ocaml
 
   type cl_program
     
 
 Type of cl_program
-
-
 
 .. code-block:: ocaml
 
@@ -77,16 +65,12 @@ Type of cl_program
 
 Type of cl_kernel
 
-
-
 .. code-block:: ocaml
 
   type cl_event
     
 
 Type of cl_event
-
-
 
 .. code-block:: ocaml
 
@@ -95,13 +79,13 @@ Type of cl_event
 
 Type of cl_sampler
 
-
-
 .. code-block:: ocaml
 
   val cl_platform_id : cl_platform_id Ctypes.typ
 
 Value of cl_platform_id
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L17>`__
 
 
 
@@ -111,6 +95,8 @@ Value of cl_platform_id
 
 Null value of cl_platform_id
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L18>`__
+
 
 
 .. code-block:: ocaml
@@ -118,6 +104,8 @@ Null value of cl_platform_id
   val cl_platform_id_ptr_null : cl_platform_id Ctypes.ptr
 
 Null pointer of cl_platform_id
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L19>`__
 
 
 
@@ -127,6 +115,8 @@ Null pointer of cl_platform_id
 
 Value of cl_device_id
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L22>`__
+
 
 
 .. code-block:: ocaml
@@ -134,6 +124,8 @@ Value of cl_device_id
   val cl_device_id_null : cl_device_id
 
 Null value of cl_device_id
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L23>`__
 
 
 
@@ -143,6 +135,8 @@ Null value of cl_device_id
 
 Null pointer of cl_device_id
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L24>`__
+
 
 
 .. code-block:: ocaml
@@ -150,6 +144,8 @@ Null pointer of cl_device_id
   val cl_context : cl_context Ctypes.typ
 
 Value of cl_context
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L27>`__
 
 
 
@@ -159,6 +155,8 @@ Value of cl_context
 
 Null value of cl_context
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L28>`__
+
 
 
 .. code-block:: ocaml
@@ -166,6 +164,8 @@ Null value of cl_context
   val cl_context_ptr_null : cl_context Ctypes.ptr
 
 Null pointer of cl_context
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L29>`__
 
 
 
@@ -175,6 +175,8 @@ Null pointer of cl_context
 
 Value of cl_command_queue
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L32>`__
+
 
 
 .. code-block:: ocaml
@@ -182,6 +184,8 @@ Value of cl_command_queue
   val cl_command_queue_null : cl_command_queue
 
 Null value of cl_command_queue
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L33>`__
 
 
 
@@ -191,6 +195,8 @@ Null value of cl_command_queue
 
 Null pointer of cl_command_queue
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L34>`__
+
 
 
 .. code-block:: ocaml
@@ -198,6 +204,8 @@ Null pointer of cl_command_queue
   val cl_mem : cl_mem Ctypes.typ
 
 Value of cl_mem
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L37>`__
 
 
 
@@ -207,6 +215,8 @@ Value of cl_mem
 
 Null value of cl_mem
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L38>`__
+
 
 
 .. code-block:: ocaml
@@ -214,6 +224,8 @@ Null value of cl_mem
   val cl_mem_ptr_null : cl_mem Ctypes.ptr
 
 Null pointer of cl_mem
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L39>`__
 
 
 
@@ -223,6 +235,8 @@ Null pointer of cl_mem
 
 Value of cl_program
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L42>`__
+
 
 
 .. code-block:: ocaml
@@ -230,6 +244,8 @@ Value of cl_program
   val cl_program_null : cl_program
 
 Null value of cl_program
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L43>`__
 
 
 
@@ -239,6 +255,8 @@ Null value of cl_program
 
 Null pointer of cl_program
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L44>`__
+
 
 
 .. code-block:: ocaml
@@ -246,6 +264,8 @@ Null pointer of cl_program
   val cl_kernel : cl_kernel Ctypes.typ
 
 Value of cl_kernel
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L47>`__
 
 
 
@@ -255,6 +275,8 @@ Value of cl_kernel
 
 Null value of cl_kernel
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L48>`__
+
 
 
 .. code-block:: ocaml
@@ -262,6 +284,8 @@ Null value of cl_kernel
   val cl_kernel_ptr_null : cl_kernel Ctypes.ptr
 
 Null pointer of cl_kernel
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L49>`__
 
 
 
@@ -271,6 +295,8 @@ Null pointer of cl_kernel
 
 Value of cl_event
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L52>`__
+
 
 
 .. code-block:: ocaml
@@ -278,6 +304,8 @@ Value of cl_event
   val cl_event_null : cl_event
 
 Null value of cl_event
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L53>`__
 
 
 
@@ -287,6 +315,8 @@ Null value of cl_event
 
 Null pointer of cl_event
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L54>`__
+
 
 
 .. code-block:: ocaml
@@ -294,6 +324,8 @@ Null pointer of cl_event
   val cl_sampler : cl_sampler Ctypes.typ
 
 Value of cl_sampler
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L57>`__
 
 
 
@@ -303,6 +335,8 @@ Value of cl_sampler
 
 Null value of cl_sampler
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L58>`__
+
 
 
 .. code-block:: ocaml
@@ -310,6 +344,8 @@ Null value of cl_sampler
   val cl_sampler_ptr_null : cl_sampler Ctypes.ptr
 
 Null pointer of cl_sampler
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L59>`__
 
 
 
@@ -324,6 +360,8 @@ Function definition
 
 ``cl_check_err`` checks error code of return value.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1489>`__
+
 
 
 .. code-block:: ocaml
@@ -331,6 +369,8 @@ Function definition
   val clGetPlatformIDs : Unsigned.uint32 -> cl_platform_id ptr -> Unsigned.uint32 ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L385>`__
 
 
 
@@ -340,6 +380,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L388>`__
+
 
 
 .. code-block:: ocaml
@@ -347,6 +389,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clGetDeviceIDs : cl_platform_id -> Unsigned.ULong.t -> Unsigned.uint32 -> cl_device_id ptr -> Unsigned.uint32 ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L391>`__
 
 
 
@@ -356,6 +400,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L394>`__
+
 
 
 .. code-block:: ocaml
@@ -363,6 +409,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clCreateSubDevices : cl_device_id -> Intptr.t ptr -> Unsigned.uint32 -> cl_device_id ptr -> Unsigned.uint32 ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L397>`__
 
 
 
@@ -372,6 +420,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L400>`__
+
 
 
 .. code-block:: ocaml
@@ -379,6 +429,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clReleaseDevice : cl_device_id -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L403>`__
 
 
 
@@ -388,6 +440,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L406>`__
+
 
 
 .. code-block:: ocaml
@@ -395,6 +449,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clCreateContextFromType : Intptr.t ptr -> Unsigned.ULong.t -> unit ptr -> unit ptr -> int32 ptr -> cl_context
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L410>`__
 
 
 
@@ -404,6 +460,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L414>`__
+
 
 
 .. code-block:: ocaml
@@ -411,6 +469,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clReleaseContext : cl_context -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L417>`__
 
 
 
@@ -420,6 +480,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L420>`__
+
 
 
 .. code-block:: ocaml
@@ -427,6 +489,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clCreateCommandQueue : cl_context -> cl_device_id -> Unsigned.ULong.t -> int32 ptr -> cl_command_queue
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L423>`__
 
 
 
@@ -436,6 +500,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L427>`__
+
 
 
 .. code-block:: ocaml
@@ -443,6 +509,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clReleaseCommandQueue : cl_command_queue -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L430>`__
 
 
 
@@ -452,6 +520,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L433>`__
+
 
 
 .. code-block:: ocaml
@@ -459,6 +529,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clCreateBuffer : cl_context -> Unsigned.ULong.t -> Unsigned.size_t -> unit ptr -> int32 ptr -> cl_mem
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L436>`__
 
 
 
@@ -468,6 +540,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L440>`__
+
 
 
 .. code-block:: ocaml
@@ -475,6 +549,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clRetainMemObject : cl_mem -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L444>`__
 
 
 
@@ -484,6 +560,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L447>`__
+
 
 
 .. code-block:: ocaml
@@ -491,6 +569,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clGetMemObjectInfo : cl_mem -> Unsigned.uint32 -> Unsigned.size_t -> unit ptr -> Unsigned.size_t ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L450>`__
 
 
 
@@ -500,6 +580,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L453>`__
+
 
 
 .. code-block:: ocaml
@@ -507,6 +589,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clSetMemObjectDestructorCallback : cl_mem -> unit ptr -> unit ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L456>`__
 
 
 
@@ -516,6 +600,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L459>`__
+
 
 
 .. code-block:: ocaml
@@ -523,6 +609,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clRetainSampler : cl_sampler -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L463>`__
 
 
 
@@ -532,6 +620,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L466>`__
+
 
 
 .. code-block:: ocaml
@@ -539,6 +629,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clGetSamplerInfo : cl_sampler -> Unsigned.uint32 -> Unsigned.size_t -> unit ptr -> Unsigned.size_t ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L469>`__
 
 
 
@@ -548,6 +640,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L472>`__
+
 
 
 .. code-block:: ocaml
@@ -555,6 +649,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clCreateProgramWithBinary : cl_context -> Unsigned.uint32 -> cl_device_id ptr -> Unsigned.size_t ptr -> Unsigned.UChar.t ptr ptr -> int32 ptr -> int32 ptr -> cl_program
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L476>`__
 
 
 
@@ -564,6 +660,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L480>`__
+
 
 
 .. code-block:: ocaml
@@ -571,6 +669,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clRetainProgram : cl_program -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L484>`__
 
 
 
@@ -580,6 +680,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L487>`__
+
 
 
 .. code-block:: ocaml
@@ -587,6 +689,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clBuildProgram : cl_program -> Unsigned.uint32 -> cl_device_id ptr -> char ptr -> unit ptr -> unit ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L490>`__
 
 
 
@@ -596,6 +700,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L493>`__
+
 
 
 .. code-block:: ocaml
@@ -603,6 +709,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clLinkProgram : cl_context -> Unsigned.uint32 -> cl_device_id ptr -> char ptr -> Unsigned.uint32 -> cl_program ptr -> unit ptr -> unit ptr -> int32 ptr -> cl_program
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L496>`__
 
 
 
@@ -612,6 +720,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L500>`__
+
 
 
 .. code-block:: ocaml
@@ -619,6 +729,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clGetProgramInfo : cl_program -> Unsigned.uint32 -> Unsigned.size_t -> unit ptr -> Unsigned.size_t ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L503>`__
 
 
 
@@ -628,6 +740,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L506>`__
+
 
 
 .. code-block:: ocaml
@@ -635,6 +749,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clCreateKernel : cl_program -> char ptr -> int32 ptr -> cl_kernel
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L509>`__
 
 
 
@@ -644,6 +760,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L513>`__
+
 
 
 .. code-block:: ocaml
@@ -651,6 +769,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clRetainKernel : cl_kernel -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L516>`__
 
 
 
@@ -660,6 +780,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L519>`__
+
 
 
 .. code-block:: ocaml
@@ -667,6 +789,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clSetKernelArg : cl_kernel -> Unsigned.uint32 -> Unsigned.size_t -> unit ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L522>`__
 
 
 
@@ -676,6 +800,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L525>`__
+
 
 
 .. code-block:: ocaml
@@ -683,6 +809,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clGetKernelArgInfo : cl_kernel -> Unsigned.uint32 -> Unsigned.uint32 -> Unsigned.size_t -> unit ptr -> Unsigned.size_t ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L528>`__
 
 
 
@@ -692,6 +820,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L531>`__
+
 
 
 .. code-block:: ocaml
@@ -699,6 +829,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clWaitForEvents : Unsigned.uint32 -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L534>`__
 
 
 
@@ -708,6 +840,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L537>`__
+
 
 
 .. code-block:: ocaml
@@ -715,6 +849,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clCreateUserEvent : cl_context -> int32 ptr -> cl_event
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L540>`__
 
 
 
@@ -724,6 +860,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L544>`__
+
 
 
 .. code-block:: ocaml
@@ -731,6 +869,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clReleaseEvent : cl_event -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L547>`__
 
 
 
@@ -740,6 +880,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L550>`__
+
 
 
 .. code-block:: ocaml
@@ -747,6 +889,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clSetEventCallback : cl_event -> int32 -> unit ptr -> unit ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L553>`__
 
 
 
@@ -756,6 +900,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L556>`__
+
 
 
 .. code-block:: ocaml
@@ -763,6 +909,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clFlush : cl_command_queue -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L559>`__
 
 
 
@@ -772,6 +920,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L562>`__
+
 
 
 .. code-block:: ocaml
@@ -779,6 +929,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueReadBuffer : cl_command_queue -> cl_mem -> Unsigned.uint32 -> Unsigned.size_t -> Unsigned.size_t -> unit ptr -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L565>`__
 
 
 
@@ -788,6 +940,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L568>`__
+
 
 
 .. code-block:: ocaml
@@ -795,6 +949,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueWriteBuffer : cl_command_queue -> cl_mem -> Unsigned.uint32 -> Unsigned.size_t -> Unsigned.size_t -> unit ptr -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L571>`__
 
 
 
@@ -804,6 +960,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L574>`__
+
 
 
 .. code-block:: ocaml
@@ -811,6 +969,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueFillBuffer : cl_command_queue -> cl_mem -> unit ptr -> Unsigned.size_t -> Unsigned.size_t -> Unsigned.size_t -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L577>`__
 
 
 
@@ -820,6 +980,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L580>`__
+
 
 
 .. code-block:: ocaml
@@ -827,6 +989,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueCopyBufferRect : cl_command_queue -> cl_mem -> cl_mem -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.size_t -> Unsigned.size_t -> Unsigned.size_t -> Unsigned.size_t -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L583>`__
 
 
 
@@ -836,6 +1000,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L586>`__
+
 
 
 .. code-block:: ocaml
@@ -843,6 +1009,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueWriteImage : cl_command_queue -> cl_mem -> Unsigned.uint32 -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.size_t -> Unsigned.size_t -> unit ptr -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L589>`__
 
 
 
@@ -852,6 +1020,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L592>`__
+
 
 
 .. code-block:: ocaml
@@ -859,6 +1029,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueCopyImage : cl_command_queue -> cl_mem -> cl_mem -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L595>`__
 
 
 
@@ -868,6 +1040,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L598>`__
+
 
 
 .. code-block:: ocaml
@@ -875,6 +1049,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueCopyBufferToImage : cl_command_queue -> cl_mem -> cl_mem -> Unsigned.size_t -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L601>`__
 
 
 
@@ -884,6 +1060,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L604>`__
+
 
 
 .. code-block:: ocaml
@@ -891,6 +1069,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueMapImage : cl_command_queue -> cl_mem -> Unsigned.uint32 -> Unsigned.ULong.t -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.size_t ptr -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32 ptr -> unit ptr
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L608>`__
 
 
 
@@ -900,6 +1080,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L612>`__
+
 
 
 .. code-block:: ocaml
@@ -907,6 +1089,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueMigrateMemObjects : cl_command_queue -> Unsigned.uint32 -> cl_mem ptr -> Unsigned.ULong.t -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L615>`__
 
 
 
@@ -916,6 +1100,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L618>`__
+
 
 
 .. code-block:: ocaml
@@ -923,6 +1109,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueTask : cl_command_queue -> cl_kernel -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L621>`__
 
 
 
@@ -932,6 +1120,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L624>`__
+
 
 
 .. code-block:: ocaml
@@ -939,6 +1129,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clEnqueueMarkerWithWaitList : cl_command_queue -> Unsigned.uint32 -> cl_event ptr -> cl_event ptr -> int32
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L627>`__
 
 
 
@@ -948,6 +1140,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L630>`__
+
 
 
 .. code-block:: ocaml
@@ -955,6 +1149,8 @@ Refer to `OpenCL <https://www.khronos.org/opencl/>`_
   val clGetExtensionFunctionAddressForPlatform : cl_platform_id -> char ptr -> unit ptr
 
 Refer to `OpenCL <https://www.khronos.org/opencl/>`_
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L633>`__
 
 
 
@@ -969,6 +1165,8 @@ Constant definition
 
 Constant ``SUCCESS = 0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L641>`__
+
 
 
 .. code-block:: ocaml
@@ -976,6 +1174,8 @@ Constant ``SUCCESS = 0``.
   val cl_DEVICE_NOT_FOUND : int
 
 Constant ``DEVICE_NOT_FOUND = -1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L643>`__
 
 
 
@@ -985,6 +1185,8 @@ Constant ``DEVICE_NOT_FOUND = -1``.
 
 Constant ``DEVICE_NOT_AVAILABLE = -2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L645>`__
+
 
 
 .. code-block:: ocaml
@@ -992,6 +1194,8 @@ Constant ``DEVICE_NOT_AVAILABLE = -2``.
   val cl_COMPILER_NOT_AVAILABLE : int
 
 Constant ``COMPILER_NOT_AVAILABLE = -3``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L647>`__
 
 
 
@@ -1001,6 +1205,8 @@ Constant ``COMPILER_NOT_AVAILABLE = -3``.
 
 Constant ``MEM_OBJECT_ALLOCATION_FAILURE = -4``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L649>`__
+
 
 
 .. code-block:: ocaml
@@ -1008,6 +1214,8 @@ Constant ``MEM_OBJECT_ALLOCATION_FAILURE = -4``.
   val cl_OUT_OF_RESOURCES : int
 
 Constant ``OUT_OF_RESOURCES = -5``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L651>`__
 
 
 
@@ -1017,6 +1225,8 @@ Constant ``OUT_OF_RESOURCES = -5``.
 
 Constant ``OUT_OF_HOST_MEMORY = -6``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L653>`__
+
 
 
 .. code-block:: ocaml
@@ -1024,6 +1234,8 @@ Constant ``OUT_OF_HOST_MEMORY = -6``.
   val cl_PROFILING_INFO_NOT_AVAILABLE : int
 
 Constant ``PROFILING_INFO_NOT_AVAILABLE = -7``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L655>`__
 
 
 
@@ -1033,6 +1245,8 @@ Constant ``PROFILING_INFO_NOT_AVAILABLE = -7``.
 
 Constant ``MEM_COPY_OVERLAP = -8``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L657>`__
+
 
 
 .. code-block:: ocaml
@@ -1040,6 +1254,8 @@ Constant ``MEM_COPY_OVERLAP = -8``.
   val cl_IMAGE_FORMAT_MISMATCH : int
 
 Constant ``IMAGE_FORMAT_MISMATCH = -9``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L659>`__
 
 
 
@@ -1049,6 +1265,8 @@ Constant ``IMAGE_FORMAT_MISMATCH = -9``.
 
 Constant ``IMAGE_FORMAT_NOT_SUPPORTED = -10``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L661>`__
+
 
 
 .. code-block:: ocaml
@@ -1056,6 +1274,8 @@ Constant ``IMAGE_FORMAT_NOT_SUPPORTED = -10``.
   val cl_BUILD_PROGRAM_FAILURE : int
 
 Constant ``BUILD_PROGRAM_FAILURE = -11``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L663>`__
 
 
 
@@ -1065,6 +1285,8 @@ Constant ``BUILD_PROGRAM_FAILURE = -11``.
 
 Constant ``MAP_FAILURE = -12``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L665>`__
+
 
 
 .. code-block:: ocaml
@@ -1072,6 +1294,8 @@ Constant ``MAP_FAILURE = -12``.
   val cl_MISALIGNED_SUB_BUFFER_OFFSET : int
 
 Constant ``MISALIGNED_SUB_BUFFER_OFFSET = -13``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L667>`__
 
 
 
@@ -1081,6 +1305,8 @@ Constant ``MISALIGNED_SUB_BUFFER_OFFSET = -13``.
 
 Constant ``EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST = -14``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L669>`__
+
 
 
 .. code-block:: ocaml
@@ -1088,6 +1314,8 @@ Constant ``EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST = -14``.
   val cl_COMPILE_PROGRAM_FAILURE : int
 
 Constant ``COMPILE_PROGRAM_FAILURE = -15``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L671>`__
 
 
 
@@ -1097,6 +1325,8 @@ Constant ``COMPILE_PROGRAM_FAILURE = -15``.
 
 Constant ``LINKER_NOT_AVAILABLE = -16``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L673>`__
+
 
 
 .. code-block:: ocaml
@@ -1104,6 +1334,8 @@ Constant ``LINKER_NOT_AVAILABLE = -16``.
   val cl_LINK_PROGRAM_FAILURE : int
 
 Constant ``LINK_PROGRAM_FAILURE = -17``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L675>`__
 
 
 
@@ -1113,6 +1345,8 @@ Constant ``LINK_PROGRAM_FAILURE = -17``.
 
 Constant ``DEVICE_PARTITION_FAILED = -18``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L677>`__
+
 
 
 .. code-block:: ocaml
@@ -1120,6 +1354,8 @@ Constant ``DEVICE_PARTITION_FAILED = -18``.
   val cl_KERNEL_ARG_INFO_NOT_AVAILABLE : int
 
 Constant ``KERNEL_ARG_INFO_NOT_AVAILABLE = -19``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L679>`__
 
 
 
@@ -1129,6 +1365,8 @@ Constant ``KERNEL_ARG_INFO_NOT_AVAILABLE = -19``.
 
 Constant ``INVALID_VALUE = -30``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L681>`__
+
 
 
 .. code-block:: ocaml
@@ -1136,6 +1374,8 @@ Constant ``INVALID_VALUE = -30``.
   val cl_INVALID_DEVICE_TYPE : int
 
 Constant ``INVALID_DEVICE_TYPE = -31``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L683>`__
 
 
 
@@ -1145,6 +1385,8 @@ Constant ``INVALID_DEVICE_TYPE = -31``.
 
 Constant ``INVALID_PLATFORM = -32``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L685>`__
+
 
 
 .. code-block:: ocaml
@@ -1152,6 +1394,8 @@ Constant ``INVALID_PLATFORM = -32``.
   val cl_INVALID_DEVICE : int
 
 Constant ``INVALID_DEVICE = -33``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L687>`__
 
 
 
@@ -1161,6 +1405,8 @@ Constant ``INVALID_DEVICE = -33``.
 
 Constant ``INVALID_CONTEXT = -34``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L689>`__
+
 
 
 .. code-block:: ocaml
@@ -1168,6 +1414,8 @@ Constant ``INVALID_CONTEXT = -34``.
   val cl_INVALID_QUEUE_PROPERTIES : int
 
 Constant ``INVALID_QUEUE_PROPERTIES = -35``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L691>`__
 
 
 
@@ -1177,6 +1425,8 @@ Constant ``INVALID_QUEUE_PROPERTIES = -35``.
 
 Constant ``INVALID_COMMAND_QUEUE = -36``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L693>`__
+
 
 
 .. code-block:: ocaml
@@ -1184,6 +1434,8 @@ Constant ``INVALID_COMMAND_QUEUE = -36``.
   val cl_INVALID_HOST_PTR : int
 
 Constant ``INVALID_HOST_PTR = -37``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L695>`__
 
 
 
@@ -1193,6 +1445,8 @@ Constant ``INVALID_HOST_PTR = -37``.
 
 Constant ``INVALID_MEM_OBJECT = -38``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L697>`__
+
 
 
 .. code-block:: ocaml
@@ -1200,6 +1454,8 @@ Constant ``INVALID_MEM_OBJECT = -38``.
   val cl_INVALID_IMAGE_FORMAT_DESCRIPTOR : int
 
 Constant ``INVALID_IMAGE_FORMAT_DESCRIPTOR = -39``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L699>`__
 
 
 
@@ -1209,6 +1465,8 @@ Constant ``INVALID_IMAGE_FORMAT_DESCRIPTOR = -39``.
 
 Constant ``INVALID_IMAGE_SIZE = -40``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L701>`__
+
 
 
 .. code-block:: ocaml
@@ -1216,6 +1474,8 @@ Constant ``INVALID_IMAGE_SIZE = -40``.
   val cl_INVALID_SAMPLER : int
 
 Constant ``INVALID_SAMPLER = -41``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L703>`__
 
 
 
@@ -1225,6 +1485,8 @@ Constant ``INVALID_SAMPLER = -41``.
 
 Constant ``INVALID_BINARY = -42``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L705>`__
+
 
 
 .. code-block:: ocaml
@@ -1232,6 +1494,8 @@ Constant ``INVALID_BINARY = -42``.
   val cl_INVALID_BUILD_OPTIONS : int
 
 Constant ``INVALID_BUILD_OPTIONS = -43``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L707>`__
 
 
 
@@ -1241,6 +1505,8 @@ Constant ``INVALID_BUILD_OPTIONS = -43``.
 
 Constant ``INVALID_PROGRAM = -44``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L709>`__
+
 
 
 .. code-block:: ocaml
@@ -1248,6 +1514,8 @@ Constant ``INVALID_PROGRAM = -44``.
   val cl_INVALID_PROGRAM_EXECUTABLE : int
 
 Constant ``INVALID_PROGRAM_EXECUTABLE = -45``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L711>`__
 
 
 
@@ -1257,6 +1525,8 @@ Constant ``INVALID_PROGRAM_EXECUTABLE = -45``.
 
 Constant ``INVALID_KERNEL_NAME = -46``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L713>`__
+
 
 
 .. code-block:: ocaml
@@ -1264,6 +1534,8 @@ Constant ``INVALID_KERNEL_NAME = -46``.
   val cl_INVALID_KERNEL_DEFINITION : int
 
 Constant ``INVALID_KERNEL_DEFINITION = -47``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L715>`__
 
 
 
@@ -1273,6 +1545,8 @@ Constant ``INVALID_KERNEL_DEFINITION = -47``.
 
 Constant ``INVALID_KERNEL = -48``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L717>`__
+
 
 
 .. code-block:: ocaml
@@ -1280,6 +1554,8 @@ Constant ``INVALID_KERNEL = -48``.
   val cl_INVALID_ARG_INDEX : int
 
 Constant ``INVALID_ARG_INDEX = -49``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L719>`__
 
 
 
@@ -1289,6 +1565,8 @@ Constant ``INVALID_ARG_INDEX = -49``.
 
 Constant ``INVALID_ARG_VALUE = -50``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L721>`__
+
 
 
 .. code-block:: ocaml
@@ -1296,6 +1574,8 @@ Constant ``INVALID_ARG_VALUE = -50``.
   val cl_INVALID_ARG_SIZE : int
 
 Constant ``INVALID_ARG_SIZE = -51``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L723>`__
 
 
 
@@ -1305,6 +1585,8 @@ Constant ``INVALID_ARG_SIZE = -51``.
 
 Constant ``INVALID_KERNEL_ARGS = -52``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L725>`__
+
 
 
 .. code-block:: ocaml
@@ -1312,6 +1594,8 @@ Constant ``INVALID_KERNEL_ARGS = -52``.
   val cl_INVALID_WORK_DIMENSION : int
 
 Constant ``INVALID_WORK_DIMENSION = -53``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L727>`__
 
 
 
@@ -1321,6 +1605,8 @@ Constant ``INVALID_WORK_DIMENSION = -53``.
 
 Constant ``INVALID_WORK_GROUP_SIZE = -54``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L729>`__
+
 
 
 .. code-block:: ocaml
@@ -1328,6 +1614,8 @@ Constant ``INVALID_WORK_GROUP_SIZE = -54``.
   val cl_INVALID_WORK_ITEM_SIZE : int
 
 Constant ``INVALID_WORK_ITEM_SIZE = -55``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L731>`__
 
 
 
@@ -1337,6 +1625,8 @@ Constant ``INVALID_WORK_ITEM_SIZE = -55``.
 
 Constant ``INVALID_GLOBAL_OFFSET = -56``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L733>`__
+
 
 
 .. code-block:: ocaml
@@ -1344,6 +1634,8 @@ Constant ``INVALID_GLOBAL_OFFSET = -56``.
   val cl_INVALID_EVENT_WAIT_LIST : int
 
 Constant ``INVALID_EVENT_WAIT_LIST = -57``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L735>`__
 
 
 
@@ -1353,6 +1645,8 @@ Constant ``INVALID_EVENT_WAIT_LIST = -57``.
 
 Constant ``INVALID_EVENT = -58``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L737>`__
+
 
 
 .. code-block:: ocaml
@@ -1360,6 +1654,8 @@ Constant ``INVALID_EVENT = -58``.
   val cl_INVALID_OPERATION : int
 
 Constant ``INVALID_OPERATION = -59``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L739>`__
 
 
 
@@ -1369,6 +1665,8 @@ Constant ``INVALID_OPERATION = -59``.
 
 Constant ``INVALID_GL_OBJECT = -60``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L741>`__
+
 
 
 .. code-block:: ocaml
@@ -1376,6 +1674,8 @@ Constant ``INVALID_GL_OBJECT = -60``.
   val cl_INVALID_BUFFER_SIZE : int
 
 Constant ``INVALID_BUFFER_SIZE = -61``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L743>`__
 
 
 
@@ -1385,6 +1685,8 @@ Constant ``INVALID_BUFFER_SIZE = -61``.
 
 Constant ``INVALID_MIP_LEVEL = -62``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L745>`__
+
 
 
 .. code-block:: ocaml
@@ -1392,6 +1694,8 @@ Constant ``INVALID_MIP_LEVEL = -62``.
   val cl_INVALID_GLOBAL_WORK_SIZE : int
 
 Constant ``INVALID_GLOBAL_WORK_SIZE = -63``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L747>`__
 
 
 
@@ -1401,6 +1705,8 @@ Constant ``INVALID_GLOBAL_WORK_SIZE = -63``.
 
 Constant ``INVALID_PROPERTY = -64``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L749>`__
+
 
 
 .. code-block:: ocaml
@@ -1408,6 +1714,8 @@ Constant ``INVALID_PROPERTY = -64``.
   val cl_INVALID_IMAGE_DESCRIPTOR : int
 
 Constant ``INVALID_IMAGE_DESCRIPTOR = -65``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L751>`__
 
 
 
@@ -1417,6 +1725,8 @@ Constant ``INVALID_IMAGE_DESCRIPTOR = -65``.
 
 Constant ``INVALID_COMPILER_OPTIONS = -66``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L753>`__
+
 
 
 .. code-block:: ocaml
@@ -1424,6 +1734,8 @@ Constant ``INVALID_COMPILER_OPTIONS = -66``.
   val cl_INVALID_LINKER_OPTIONS : int
 
 Constant ``INVALID_LINKER_OPTIONS = -67``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L755>`__
 
 
 
@@ -1433,6 +1745,8 @@ Constant ``INVALID_LINKER_OPTIONS = -67``.
 
 Constant ``INVALID_DEVICE_PARTITION_COUNT = -68``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L757>`__
+
 
 
 .. code-block:: ocaml
@@ -1440,6 +1754,8 @@ Constant ``INVALID_DEVICE_PARTITION_COUNT = -68``.
   val cl_VERSION_1_0 : int
 
 Constant ``VERSION_1_0 = 1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L759>`__
 
 
 
@@ -1449,6 +1765,8 @@ Constant ``VERSION_1_0 = 1``.
 
 Constant ``VERSION_1_1 = 1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L761>`__
+
 
 
 .. code-block:: ocaml
@@ -1456,6 +1774,8 @@ Constant ``VERSION_1_1 = 1``.
   val cl_VERSION_1_2 : int
 
 Constant ``VERSION_1_2 = 1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L763>`__
 
 
 
@@ -1465,6 +1785,8 @@ Constant ``VERSION_1_2 = 1``.
 
 Constant ``FALSE = 0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L765>`__
+
 
 
 .. code-block:: ocaml
@@ -1472,6 +1794,8 @@ Constant ``FALSE = 0``.
   val cl_TRUE : int
 
 Constant ``TRUE = 1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L767>`__
 
 
 
@@ -1481,6 +1805,8 @@ Constant ``TRUE = 1``.
 
 Constant ``BLOCKING = 1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L769>`__
+
 
 
 .. code-block:: ocaml
@@ -1488,6 +1814,8 @@ Constant ``BLOCKING = 1``.
   val cl_NON_BLOCKING : int
 
 Constant ``NON_BLOCKING = 0``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L771>`__
 
 
 
@@ -1497,6 +1825,8 @@ Constant ``NON_BLOCKING = 0``.
 
 Constant ``PLATFORM_PROFILE = 0x0900``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L773>`__
+
 
 
 .. code-block:: ocaml
@@ -1504,6 +1834,8 @@ Constant ``PLATFORM_PROFILE = 0x0900``.
   val cl_PLATFORM_VERSION : int
 
 Constant ``PLATFORM_VERSION = 0x0901``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L775>`__
 
 
 
@@ -1513,6 +1845,8 @@ Constant ``PLATFORM_VERSION = 0x0901``.
 
 Constant ``PLATFORM_NAME = 0x0902``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L777>`__
+
 
 
 .. code-block:: ocaml
@@ -1520,6 +1854,8 @@ Constant ``PLATFORM_NAME = 0x0902``.
   val cl_PLATFORM_VENDOR : int
 
 Constant ``PLATFORM_VENDOR = 0x0903``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L779>`__
 
 
 
@@ -1529,6 +1865,8 @@ Constant ``PLATFORM_VENDOR = 0x0903``.
 
 Constant ``PLATFORM_EXTENSIONS = 0x0904``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L781>`__
+
 
 
 .. code-block:: ocaml
@@ -1536,6 +1874,8 @@ Constant ``PLATFORM_EXTENSIONS = 0x0904``.
   val cl_DEVICE_TYPE_DEFAULT : int
 
 Constant ``DEVICE_TYPE_DEFAULT = (1 lsl 0)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L783>`__
 
 
 
@@ -1545,6 +1885,8 @@ Constant ``DEVICE_TYPE_DEFAULT = (1 lsl 0)``.
 
 Constant ``DEVICE_TYPE_CPU = (1 lsl 1)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L785>`__
+
 
 
 .. code-block:: ocaml
@@ -1552,6 +1894,8 @@ Constant ``DEVICE_TYPE_CPU = (1 lsl 1)``.
   val cl_DEVICE_TYPE_GPU : int
 
 Constant ``DEVICE_TYPE_GPU = (1 lsl 2)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L787>`__
 
 
 
@@ -1561,6 +1905,8 @@ Constant ``DEVICE_TYPE_GPU = (1 lsl 2)``.
 
 Constant ``DEVICE_TYPE_ACCELERATOR = (1 lsl 3)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L789>`__
+
 
 
 .. code-block:: ocaml
@@ -1568,6 +1914,8 @@ Constant ``DEVICE_TYPE_ACCELERATOR = (1 lsl 3)``.
   val cl_DEVICE_TYPE_CUSTOM : int
 
 Constant ``DEVICE_TYPE_CUSTOM = (1 lsl 4)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L791>`__
 
 
 
@@ -1577,6 +1925,8 @@ Constant ``DEVICE_TYPE_CUSTOM = (1 lsl 4)``.
 
 Constant ``DEVICE_TYPE_ALL = 0xFFFFFFFF``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L793>`__
+
 
 
 .. code-block:: ocaml
@@ -1584,6 +1934,8 @@ Constant ``DEVICE_TYPE_ALL = 0xFFFFFFFF``.
   val cl_DEVICE_TYPE : int
 
 Constant ``DEVICE_TYPE = 0x1000``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L795>`__
 
 
 
@@ -1593,6 +1945,8 @@ Constant ``DEVICE_TYPE = 0x1000``.
 
 Constant ``DEVICE_VENDOR_ID = 0x1001``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L797>`__
+
 
 
 .. code-block:: ocaml
@@ -1600,6 +1954,8 @@ Constant ``DEVICE_VENDOR_ID = 0x1001``.
   val cl_DEVICE_MAX_COMPUTE_UNITS : int
 
 Constant ``DEVICE_MAX_COMPUTE_UNITS = 0x1002``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L799>`__
 
 
 
@@ -1609,6 +1965,8 @@ Constant ``DEVICE_MAX_COMPUTE_UNITS = 0x1002``.
 
 Constant ``DEVICE_MAX_WORK_ITEM_DIMENSIONS = 0x1003``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L801>`__
+
 
 
 .. code-block:: ocaml
@@ -1616,6 +1974,8 @@ Constant ``DEVICE_MAX_WORK_ITEM_DIMENSIONS = 0x1003``.
   val cl_DEVICE_MAX_WORK_GROUP_SIZE : int
 
 Constant ``DEVICE_MAX_WORK_GROUP_SIZE = 0x1004``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L803>`__
 
 
 
@@ -1625,6 +1985,8 @@ Constant ``DEVICE_MAX_WORK_GROUP_SIZE = 0x1004``.
 
 Constant ``DEVICE_MAX_WORK_ITEM_SIZES = 0x1005``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L805>`__
+
 
 
 .. code-block:: ocaml
@@ -1632,6 +1994,8 @@ Constant ``DEVICE_MAX_WORK_ITEM_SIZES = 0x1005``.
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_CHAR : int
 
 Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_CHAR = 0x1006``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L807>`__
 
 
 
@@ -1641,6 +2005,8 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_CHAR = 0x1006``.
 
 Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_SHORT = 0x1007``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L809>`__
+
 
 
 .. code-block:: ocaml
@@ -1648,6 +2014,8 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_SHORT = 0x1007``.
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_INT : int
 
 Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_INT = 0x1008``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L811>`__
 
 
 
@@ -1657,6 +2025,8 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_INT = 0x1008``.
 
 Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_LONG = 0x1009``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L813>`__
+
 
 
 .. code-block:: ocaml
@@ -1664,6 +2034,8 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_LONG = 0x1009``.
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT : int
 
 Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT = 0x100A``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L815>`__
 
 
 
@@ -1673,6 +2045,8 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_FLOAT = 0x100A``.
 
 Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE = 0x100B``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L817>`__
+
 
 
 .. code-block:: ocaml
@@ -1680,6 +2054,8 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_DOUBLE = 0x100B``.
   val cl_DEVICE_MAX_CLOCK_FREQUENCY : int
 
 Constant ``DEVICE_MAX_CLOCK_FREQUENCY = 0x100C``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L819>`__
 
 
 
@@ -1689,6 +2065,8 @@ Constant ``DEVICE_MAX_CLOCK_FREQUENCY = 0x100C``.
 
 Constant ``DEVICE_ADDRESS_BITS = 0x100D``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L821>`__
+
 
 
 .. code-block:: ocaml
@@ -1696,6 +2074,8 @@ Constant ``DEVICE_ADDRESS_BITS = 0x100D``.
   val cl_DEVICE_MAX_READ_IMAGE_ARGS : int
 
 Constant ``DEVICE_MAX_READ_IMAGE_ARGS = 0x100E``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L823>`__
 
 
 
@@ -1705,6 +2085,8 @@ Constant ``DEVICE_MAX_READ_IMAGE_ARGS = 0x100E``.
 
 Constant ``DEVICE_MAX_WRITE_IMAGE_ARGS = 0x100F``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L825>`__
+
 
 
 .. code-block:: ocaml
@@ -1712,6 +2094,8 @@ Constant ``DEVICE_MAX_WRITE_IMAGE_ARGS = 0x100F``.
   val cl_DEVICE_MAX_MEM_ALLOC_SIZE : int
 
 Constant ``DEVICE_MAX_MEM_ALLOC_SIZE = 0x1010``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L827>`__
 
 
 
@@ -1721,6 +2105,8 @@ Constant ``DEVICE_MAX_MEM_ALLOC_SIZE = 0x1010``.
 
 Constant ``DEVICE_IMAGE2D_MAX_WIDTH = 0x1011``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L829>`__
+
 
 
 .. code-block:: ocaml
@@ -1728,6 +2114,8 @@ Constant ``DEVICE_IMAGE2D_MAX_WIDTH = 0x1011``.
   val cl_DEVICE_IMAGE2D_MAX_HEIGHT : int
 
 Constant ``DEVICE_IMAGE2D_MAX_HEIGHT = 0x1012``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L831>`__
 
 
 
@@ -1737,6 +2125,8 @@ Constant ``DEVICE_IMAGE2D_MAX_HEIGHT = 0x1012``.
 
 Constant ``DEVICE_IMAGE3D_MAX_WIDTH = 0x1013``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L833>`__
+
 
 
 .. code-block:: ocaml
@@ -1744,6 +2134,8 @@ Constant ``DEVICE_IMAGE3D_MAX_WIDTH = 0x1013``.
   val cl_DEVICE_IMAGE3D_MAX_HEIGHT : int
 
 Constant ``DEVICE_IMAGE3D_MAX_HEIGHT = 0x1014``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L835>`__
 
 
 
@@ -1753,6 +2145,8 @@ Constant ``DEVICE_IMAGE3D_MAX_HEIGHT = 0x1014``.
 
 Constant ``DEVICE_IMAGE3D_MAX_DEPTH = 0x1015``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L837>`__
+
 
 
 .. code-block:: ocaml
@@ -1760,6 +2154,8 @@ Constant ``DEVICE_IMAGE3D_MAX_DEPTH = 0x1015``.
   val cl_DEVICE_IMAGE_SUPPORT : int
 
 Constant ``DEVICE_IMAGE_SUPPORT = 0x1016``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L839>`__
 
 
 
@@ -1769,6 +2165,8 @@ Constant ``DEVICE_IMAGE_SUPPORT = 0x1016``.
 
 Constant ``DEVICE_MAX_PARAMETER_SIZE = 0x1017``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L841>`__
+
 
 
 .. code-block:: ocaml
@@ -1776,6 +2174,8 @@ Constant ``DEVICE_MAX_PARAMETER_SIZE = 0x1017``.
   val cl_DEVICE_MAX_SAMPLERS : int
 
 Constant ``DEVICE_MAX_SAMPLERS = 0x1018``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L843>`__
 
 
 
@@ -1785,6 +2185,8 @@ Constant ``DEVICE_MAX_SAMPLERS = 0x1018``.
 
 Constant ``DEVICE_MEM_BASE_ADDR_ALIGN = 0x1019``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L845>`__
+
 
 
 .. code-block:: ocaml
@@ -1792,6 +2194,8 @@ Constant ``DEVICE_MEM_BASE_ADDR_ALIGN = 0x1019``.
   val cl_DEVICE_MIN_DATA_TYPE_ALIGN_SIZE : int
 
 Constant ``DEVICE_MIN_DATA_TYPE_ALIGN_SIZE = 0x101A``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L847>`__
 
 
 
@@ -1801,6 +2205,8 @@ Constant ``DEVICE_MIN_DATA_TYPE_ALIGN_SIZE = 0x101A``.
 
 Constant ``DEVICE_SINGLE_FP_CONFIG = 0x101B``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L849>`__
+
 
 
 .. code-block:: ocaml
@@ -1808,6 +2214,8 @@ Constant ``DEVICE_SINGLE_FP_CONFIG = 0x101B``.
   val cl_DEVICE_GLOBAL_MEM_CACHE_TYPE : int
 
 Constant ``DEVICE_GLOBAL_MEM_CACHE_TYPE = 0x101C``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L851>`__
 
 
 
@@ -1817,6 +2225,8 @@ Constant ``DEVICE_GLOBAL_MEM_CACHE_TYPE = 0x101C``.
 
 Constant ``DEVICE_GLOBAL_MEM_CACHELINE_SIZE = 0x101D``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L853>`__
+
 
 
 .. code-block:: ocaml
@@ -1824,6 +2234,8 @@ Constant ``DEVICE_GLOBAL_MEM_CACHELINE_SIZE = 0x101D``.
   val cl_DEVICE_GLOBAL_MEM_CACHE_SIZE : int
 
 Constant ``DEVICE_GLOBAL_MEM_CACHE_SIZE = 0x101E``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L855>`__
 
 
 
@@ -1833,6 +2245,8 @@ Constant ``DEVICE_GLOBAL_MEM_CACHE_SIZE = 0x101E``.
 
 Constant ``DEVICE_GLOBAL_MEM_SIZE = 0x101F``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L857>`__
+
 
 
 .. code-block:: ocaml
@@ -1840,6 +2254,8 @@ Constant ``DEVICE_GLOBAL_MEM_SIZE = 0x101F``.
   val cl_DEVICE_MAX_CONSTANT_BUFFER_SIZE : int
 
 Constant ``DEVICE_MAX_CONSTANT_BUFFER_SIZE = 0x1020``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L859>`__
 
 
 
@@ -1849,6 +2265,8 @@ Constant ``DEVICE_MAX_CONSTANT_BUFFER_SIZE = 0x1020``.
 
 Constant ``DEVICE_MAX_CONSTANT_ARGS = 0x1021``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L861>`__
+
 
 
 .. code-block:: ocaml
@@ -1856,6 +2274,8 @@ Constant ``DEVICE_MAX_CONSTANT_ARGS = 0x1021``.
   val cl_DEVICE_LOCAL_MEM_TYPE : int
 
 Constant ``DEVICE_LOCAL_MEM_TYPE = 0x1022``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L863>`__
 
 
 
@@ -1865,6 +2285,8 @@ Constant ``DEVICE_LOCAL_MEM_TYPE = 0x1022``.
 
 Constant ``DEVICE_LOCAL_MEM_SIZE = 0x1023``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L865>`__
+
 
 
 .. code-block:: ocaml
@@ -1872,6 +2294,8 @@ Constant ``DEVICE_LOCAL_MEM_SIZE = 0x1023``.
   val cl_DEVICE_ERROR_CORRECTION_SUPPORT : int
 
 Constant ``DEVICE_ERROR_CORRECTION_SUPPORT = 0x1024``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L867>`__
 
 
 
@@ -1881,6 +2305,8 @@ Constant ``DEVICE_ERROR_CORRECTION_SUPPORT = 0x1024``.
 
 Constant ``DEVICE_PROFILING_TIMER_RESOLUTION = 0x1025``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L869>`__
+
 
 
 .. code-block:: ocaml
@@ -1888,6 +2314,8 @@ Constant ``DEVICE_PROFILING_TIMER_RESOLUTION = 0x1025``.
   val cl_DEVICE_ENDIAN_LITTLE : int
 
 Constant ``DEVICE_ENDIAN_LITTLE = 0x1026``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L871>`__
 
 
 
@@ -1897,6 +2325,8 @@ Constant ``DEVICE_ENDIAN_LITTLE = 0x1026``.
 
 Constant ``DEVICE_AVAILABLE = 0x1027``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L873>`__
+
 
 
 .. code-block:: ocaml
@@ -1904,6 +2334,8 @@ Constant ``DEVICE_AVAILABLE = 0x1027``.
   val cl_DEVICE_COMPILER_AVAILABLE : int
 
 Constant ``DEVICE_COMPILER_AVAILABLE = 0x1028``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L875>`__
 
 
 
@@ -1913,6 +2345,8 @@ Constant ``DEVICE_COMPILER_AVAILABLE = 0x1028``.
 
 Constant ``DEVICE_EXECUTION_CAPABILITIES = 0x1029``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L877>`__
+
 
 
 .. code-block:: ocaml
@@ -1920,6 +2354,8 @@ Constant ``DEVICE_EXECUTION_CAPABILITIES = 0x1029``.
   val cl_DEVICE_QUEUE_PROPERTIES : int
 
 Constant ``DEVICE_QUEUE_PROPERTIES = 0x102A``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L879>`__
 
 
 
@@ -1929,6 +2365,8 @@ Constant ``DEVICE_QUEUE_PROPERTIES = 0x102A``.
 
 Constant ``DEVICE_NAME = 0x102B``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L881>`__
+
 
 
 .. code-block:: ocaml
@@ -1936,6 +2374,8 @@ Constant ``DEVICE_NAME = 0x102B``.
   val cl_DEVICE_VENDOR : int
 
 Constant ``DEVICE_VENDOR = 0x102C``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L883>`__
 
 
 
@@ -1945,6 +2385,8 @@ Constant ``DEVICE_VENDOR = 0x102C``.
 
 Constant ``DRIVER_VERSION = 0x102D``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L885>`__
+
 
 
 .. code-block:: ocaml
@@ -1952,6 +2394,8 @@ Constant ``DRIVER_VERSION = 0x102D``.
   val cl_DEVICE_PROFILE : int
 
 Constant ``DEVICE_PROFILE = 0x102E``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L887>`__
 
 
 
@@ -1961,6 +2405,8 @@ Constant ``DEVICE_PROFILE = 0x102E``.
 
 Constant ``DEVICE_VERSION = 0x102F``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L889>`__
+
 
 
 .. code-block:: ocaml
@@ -1968,6 +2414,8 @@ Constant ``DEVICE_VERSION = 0x102F``.
   val cl_DEVICE_EXTENSIONS : int
 
 Constant ``DEVICE_EXTENSIONS = 0x1030``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L891>`__
 
 
 
@@ -1977,6 +2425,8 @@ Constant ``DEVICE_EXTENSIONS = 0x1030``.
 
 Constant ``DEVICE_PLATFORM = 0x1031``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L893>`__
+
 
 
 .. code-block:: ocaml
@@ -1984,6 +2434,8 @@ Constant ``DEVICE_PLATFORM = 0x1031``.
   val cl_DEVICE_DOUBLE_FP_CONFIG : int
 
 Constant ``DEVICE_DOUBLE_FP_CONFIG = 0x1032``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L895>`__
 
 
 
@@ -1993,6 +2445,8 @@ Constant ``DEVICE_DOUBLE_FP_CONFIG = 0x1032``.
 
 Constant ``DEVICE_HALF_FP_CONFIG = 0x1033``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L897>`__
+
 
 
 .. code-block:: ocaml
@@ -2000,6 +2454,8 @@ Constant ``DEVICE_HALF_FP_CONFIG = 0x1033``.
   val cl_DEVICE_PREFERRED_VECTOR_WIDTH_HALF : int
 
 Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_HALF = 0x1034``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L899>`__
 
 
 
@@ -2009,6 +2465,8 @@ Constant ``DEVICE_PREFERRED_VECTOR_WIDTH_HALF = 0x1034``.
 
 Constant ``DEVICE_HOST_UNIFIED_MEMORY = 0x1035``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L901>`__
+
 
 
 .. code-block:: ocaml
@@ -2016,6 +2474,8 @@ Constant ``DEVICE_HOST_UNIFIED_MEMORY = 0x1035``.
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_CHAR : int
 
 Constant ``DEVICE_NATIVE_VECTOR_WIDTH_CHAR = 0x1036``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L903>`__
 
 
 
@@ -2025,6 +2485,8 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_CHAR = 0x1036``.
 
 Constant ``DEVICE_NATIVE_VECTOR_WIDTH_SHORT = 0x1037``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L905>`__
+
 
 
 .. code-block:: ocaml
@@ -2032,6 +2494,8 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_SHORT = 0x1037``.
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_INT : int
 
 Constant ``DEVICE_NATIVE_VECTOR_WIDTH_INT = 0x1038``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L907>`__
 
 
 
@@ -2041,6 +2505,8 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_INT = 0x1038``.
 
 Constant ``DEVICE_NATIVE_VECTOR_WIDTH_LONG = 0x1039``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L909>`__
+
 
 
 .. code-block:: ocaml
@@ -2048,6 +2514,8 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_LONG = 0x1039``.
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_FLOAT : int
 
 Constant ``DEVICE_NATIVE_VECTOR_WIDTH_FLOAT = 0x103A``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L911>`__
 
 
 
@@ -2057,6 +2525,8 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_FLOAT = 0x103A``.
 
 Constant ``DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE = 0x103B``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L913>`__
+
 
 
 .. code-block:: ocaml
@@ -2064,6 +2534,8 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_DOUBLE = 0x103B``.
   val cl_DEVICE_NATIVE_VECTOR_WIDTH_HALF : int
 
 Constant ``DEVICE_NATIVE_VECTOR_WIDTH_HALF = 0x103C``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L915>`__
 
 
 
@@ -2073,6 +2545,8 @@ Constant ``DEVICE_NATIVE_VECTOR_WIDTH_HALF = 0x103C``.
 
 Constant ``DEVICE_OPENCL_C_VERSION = 0x103D``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L917>`__
+
 
 
 .. code-block:: ocaml
@@ -2080,6 +2554,8 @@ Constant ``DEVICE_OPENCL_C_VERSION = 0x103D``.
   val cl_DEVICE_LINKER_AVAILABLE : int
 
 Constant ``DEVICE_LINKER_AVAILABLE = 0x103E``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L919>`__
 
 
 
@@ -2089,6 +2565,8 @@ Constant ``DEVICE_LINKER_AVAILABLE = 0x103E``.
 
 Constant ``DEVICE_BUILT_IN_KERNELS = 0x103F``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L921>`__
+
 
 
 .. code-block:: ocaml
@@ -2096,6 +2574,8 @@ Constant ``DEVICE_BUILT_IN_KERNELS = 0x103F``.
   val cl_DEVICE_IMAGE_MAX_BUFFER_SIZE : int
 
 Constant ``DEVICE_IMAGE_MAX_BUFFER_SIZE = 0x1040``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L923>`__
 
 
 
@@ -2105,6 +2585,8 @@ Constant ``DEVICE_IMAGE_MAX_BUFFER_SIZE = 0x1040``.
 
 Constant ``DEVICE_IMAGE_MAX_ARRAY_SIZE = 0x1041``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L925>`__
+
 
 
 .. code-block:: ocaml
@@ -2112,6 +2594,8 @@ Constant ``DEVICE_IMAGE_MAX_ARRAY_SIZE = 0x1041``.
   val cl_DEVICE_PARENT_DEVICE : int
 
 Constant ``DEVICE_PARENT_DEVICE = 0x1042``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L927>`__
 
 
 
@@ -2121,6 +2605,8 @@ Constant ``DEVICE_PARENT_DEVICE = 0x1042``.
 
 Constant ``DEVICE_PARTITION_MAX_SUB_DEVICES = 0x1043``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L929>`__
+
 
 
 .. code-block:: ocaml
@@ -2128,6 +2614,8 @@ Constant ``DEVICE_PARTITION_MAX_SUB_DEVICES = 0x1043``.
   val cl_DEVICE_PARTITION_PROPERTIES : int
 
 Constant ``DEVICE_PARTITION_PROPERTIES = 0x1044``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L931>`__
 
 
 
@@ -2137,6 +2625,8 @@ Constant ``DEVICE_PARTITION_PROPERTIES = 0x1044``.
 
 Constant ``DEVICE_PARTITION_AFFINITY_DOMAIN = 0x1045``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L933>`__
+
 
 
 .. code-block:: ocaml
@@ -2144,6 +2634,8 @@ Constant ``DEVICE_PARTITION_AFFINITY_DOMAIN = 0x1045``.
   val cl_DEVICE_PARTITION_TYPE : int
 
 Constant ``DEVICE_PARTITION_TYPE = 0x1046``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L935>`__
 
 
 
@@ -2153,6 +2645,8 @@ Constant ``DEVICE_PARTITION_TYPE = 0x1046``.
 
 Constant ``DEVICE_REFERENCE_COUNT = 0x1047``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L937>`__
+
 
 
 .. code-block:: ocaml
@@ -2160,6 +2654,8 @@ Constant ``DEVICE_REFERENCE_COUNT = 0x1047``.
   val cl_DEVICE_PREFERRED_INTEROP_USER_SYNC : int
 
 Constant ``DEVICE_PREFERRED_INTEROP_USER_SYNC = 0x1048``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L939>`__
 
 
 
@@ -2169,6 +2665,8 @@ Constant ``DEVICE_PREFERRED_INTEROP_USER_SYNC = 0x1048``.
 
 Constant ``DEVICE_PRINTF_BUFFER_SIZE = 0x1049``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L941>`__
+
 
 
 .. code-block:: ocaml
@@ -2176,6 +2674,8 @@ Constant ``DEVICE_PRINTF_BUFFER_SIZE = 0x1049``.
   val cl_DEVICE_IMAGE_PITCH_ALIGNMENT : int
 
 Constant ``DEVICE_IMAGE_PITCH_ALIGNMENT = 0x104A``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L943>`__
 
 
 
@@ -2185,6 +2685,8 @@ Constant ``DEVICE_IMAGE_PITCH_ALIGNMENT = 0x104A``.
 
 Constant ``DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT = 0x104B``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L945>`__
+
 
 
 .. code-block:: ocaml
@@ -2192,6 +2694,8 @@ Constant ``DEVICE_IMAGE_BASE_ADDRESS_ALIGNMENT = 0x104B``.
   val cl_FP_DENORM : int
 
 Constant ``FP_DENORM = (1 lsl 0)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L947>`__
 
 
 
@@ -2201,6 +2705,8 @@ Constant ``FP_DENORM = (1 lsl 0)``.
 
 Constant ``FP_INF_NAN = (1 lsl 1)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L949>`__
+
 
 
 .. code-block:: ocaml
@@ -2208,6 +2714,8 @@ Constant ``FP_INF_NAN = (1 lsl 1)``.
   val cl_FP_ROUND_TO_NEAREST : int
 
 Constant ``FP_ROUND_TO_NEAREST = (1 lsl 2)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L951>`__
 
 
 
@@ -2217,6 +2725,8 @@ Constant ``FP_ROUND_TO_NEAREST = (1 lsl 2)``.
 
 Constant ``FP_ROUND_TO_ZERO = (1 lsl 3)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L953>`__
+
 
 
 .. code-block:: ocaml
@@ -2224,6 +2734,8 @@ Constant ``FP_ROUND_TO_ZERO = (1 lsl 3)``.
   val cl_FP_ROUND_TO_INF : int
 
 Constant ``FP_ROUND_TO_INF = (1 lsl 4)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L955>`__
 
 
 
@@ -2233,6 +2745,8 @@ Constant ``FP_ROUND_TO_INF = (1 lsl 4)``.
 
 Constant ``FP_FMA = (1 lsl 5)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L957>`__
+
 
 
 .. code-block:: ocaml
@@ -2240,6 +2754,8 @@ Constant ``FP_FMA = (1 lsl 5)``.
   val cl_FP_SOFT_FLOAT : int
 
 Constant ``FP_SOFT_FLOAT = (1 lsl 6)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L959>`__
 
 
 
@@ -2249,6 +2765,8 @@ Constant ``FP_SOFT_FLOAT = (1 lsl 6)``.
 
 Constant ``FP_CORRECTLY_ROUNDED_DIVIDE_SQRT = (1 lsl 7)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L961>`__
+
 
 
 .. code-block:: ocaml
@@ -2256,6 +2774,8 @@ Constant ``FP_CORRECTLY_ROUNDED_DIVIDE_SQRT = (1 lsl 7)``.
   val cl_NONE : int
 
 Constant ``NONE = 0x0``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L963>`__
 
 
 
@@ -2265,6 +2785,8 @@ Constant ``NONE = 0x0``.
 
 Constant ``READ_ONLY_CACHE = 0x1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L965>`__
+
 
 
 .. code-block:: ocaml
@@ -2272,6 +2794,8 @@ Constant ``READ_ONLY_CACHE = 0x1``.
   val cl_READ_WRITE_CACHE : int
 
 Constant ``READ_WRITE_CACHE = 0x2``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L967>`__
 
 
 
@@ -2281,6 +2805,8 @@ Constant ``READ_WRITE_CACHE = 0x2``.
 
 Constant ``LOCAL = 0x1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L969>`__
+
 
 
 .. code-block:: ocaml
@@ -2288,6 +2814,8 @@ Constant ``LOCAL = 0x1``.
   val cl_GLOBAL : int
 
 Constant ``GLOBAL = 0x2``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L971>`__
 
 
 
@@ -2297,6 +2825,8 @@ Constant ``GLOBAL = 0x2``.
 
 Constant ``EXEC_KERNEL = (1 lsl 0)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L973>`__
+
 
 
 .. code-block:: ocaml
@@ -2304,6 +2834,8 @@ Constant ``EXEC_KERNEL = (1 lsl 0)``.
   val cl_EXEC_NATIVE_KERNEL : int
 
 Constant ``EXEC_NATIVE_KERNEL = (1 lsl 1)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L975>`__
 
 
 
@@ -2313,6 +2845,8 @@ Constant ``EXEC_NATIVE_KERNEL = (1 lsl 1)``.
 
 Constant ``QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE = (1 lsl 0)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L977>`__
+
 
 
 .. code-block:: ocaml
@@ -2320,6 +2854,8 @@ Constant ``QUEUE_OUT_OF_ORDER_EXEC_MODE_ENABLE = (1 lsl 0)``.
   val cl_QUEUE_PROFILING_ENABLE : int
 
 Constant ``QUEUE_PROFILING_ENABLE = (1 lsl 1)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L979>`__
 
 
 
@@ -2329,6 +2865,8 @@ Constant ``QUEUE_PROFILING_ENABLE = (1 lsl 1)``.
 
 Constant ``CONTEXT_REFERENCE_COUNT = 0x1080``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L981>`__
+
 
 
 .. code-block:: ocaml
@@ -2336,6 +2874,8 @@ Constant ``CONTEXT_REFERENCE_COUNT = 0x1080``.
   val cl_CONTEXT_DEVICES : int
 
 Constant ``CONTEXT_DEVICES = 0x1081``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L983>`__
 
 
 
@@ -2345,6 +2885,8 @@ Constant ``CONTEXT_DEVICES = 0x1081``.
 
 Constant ``CONTEXT_PROPERTIES = 0x1082``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L985>`__
+
 
 
 .. code-block:: ocaml
@@ -2352,6 +2894,8 @@ Constant ``CONTEXT_PROPERTIES = 0x1082``.
   val cl_CONTEXT_NUM_DEVICES : int
 
 Constant ``CONTEXT_NUM_DEVICES = 0x1083``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L987>`__
 
 
 
@@ -2361,6 +2905,8 @@ Constant ``CONTEXT_NUM_DEVICES = 0x1083``.
 
 Constant ``CONTEXT_PLATFORM = 0x1084``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L989>`__
+
 
 
 .. code-block:: ocaml
@@ -2368,6 +2914,8 @@ Constant ``CONTEXT_PLATFORM = 0x1084``.
   val cl_CONTEXT_INTEROP_USER_SYNC : int
 
 Constant ``CONTEXT_INTEROP_USER_SYNC = 0x1085``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L991>`__
 
 
 
@@ -2377,6 +2925,8 @@ Constant ``CONTEXT_INTEROP_USER_SYNC = 0x1085``.
 
 Constant ``DEVICE_PARTITION_EQUALLY = 0x1086``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L993>`__
+
 
 
 .. code-block:: ocaml
@@ -2384,6 +2934,8 @@ Constant ``DEVICE_PARTITION_EQUALLY = 0x1086``.
   val cl_DEVICE_PARTITION_BY_COUNTS : int
 
 Constant ``DEVICE_PARTITION_BY_COUNTS = 0x1087``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L995>`__
 
 
 
@@ -2393,6 +2945,8 @@ Constant ``DEVICE_PARTITION_BY_COUNTS = 0x1087``.
 
 Constant ``DEVICE_PARTITION_BY_COUNTS_LIST_END = 0x0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L997>`__
+
 
 
 .. code-block:: ocaml
@@ -2400,6 +2954,8 @@ Constant ``DEVICE_PARTITION_BY_COUNTS_LIST_END = 0x0``.
   val cl_DEVICE_PARTITION_BY_AFFINITY_DOMAIN : int
 
 Constant ``DEVICE_PARTITION_BY_AFFINITY_DOMAIN = 0x1088``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L999>`__
 
 
 
@@ -2409,6 +2965,8 @@ Constant ``DEVICE_PARTITION_BY_AFFINITY_DOMAIN = 0x1088``.
 
 Constant ``DEVICE_AFFINITY_DOMAIN_NUMA = (1 lsl 0)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1001>`__
+
 
 
 .. code-block:: ocaml
@@ -2416,6 +2974,8 @@ Constant ``DEVICE_AFFINITY_DOMAIN_NUMA = (1 lsl 0)``.
   val cl_DEVICE_AFFINITY_DOMAIN_L4_CACHE : int
 
 Constant ``DEVICE_AFFINITY_DOMAIN_L4_CACHE = (1 lsl 1)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1003>`__
 
 
 
@@ -2425,6 +2985,8 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L4_CACHE = (1 lsl 1)``.
 
 Constant ``DEVICE_AFFINITY_DOMAIN_L3_CACHE = (1 lsl 2)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1005>`__
+
 
 
 .. code-block:: ocaml
@@ -2432,6 +2994,8 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L3_CACHE = (1 lsl 2)``.
   val cl_DEVICE_AFFINITY_DOMAIN_L2_CACHE : int
 
 Constant ``DEVICE_AFFINITY_DOMAIN_L2_CACHE = (1 lsl 3)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1007>`__
 
 
 
@@ -2441,6 +3005,8 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L2_CACHE = (1 lsl 3)``.
 
 Constant ``DEVICE_AFFINITY_DOMAIN_L1_CACHE = (1 lsl 4)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1009>`__
+
 
 
 .. code-block:: ocaml
@@ -2448,6 +3014,8 @@ Constant ``DEVICE_AFFINITY_DOMAIN_L1_CACHE = (1 lsl 4)``.
   val cl_DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE : int
 
 Constant ``DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE = (1 lsl 5)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1011>`__
 
 
 
@@ -2457,6 +3025,8 @@ Constant ``DEVICE_AFFINITY_DOMAIN_NEXT_PARTITIONABLE = (1 lsl 5)``.
 
 Constant ``QUEUE_CONTEXT = 0x1090``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1013>`__
+
 
 
 .. code-block:: ocaml
@@ -2464,6 +3034,8 @@ Constant ``QUEUE_CONTEXT = 0x1090``.
   val cl_QUEUE_DEVICE : int
 
 Constant ``QUEUE_DEVICE = 0x1091``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1015>`__
 
 
 
@@ -2473,6 +3045,8 @@ Constant ``QUEUE_DEVICE = 0x1091``.
 
 Constant ``QUEUE_REFERENCE_COUNT = 0x1092``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1017>`__
+
 
 
 .. code-block:: ocaml
@@ -2480,6 +3054,8 @@ Constant ``QUEUE_REFERENCE_COUNT = 0x1092``.
   val cl_QUEUE_PROPERTIES : int
 
 Constant ``QUEUE_PROPERTIES = 0x1093``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1019>`__
 
 
 
@@ -2489,6 +3065,8 @@ Constant ``QUEUE_PROPERTIES = 0x1093``.
 
 Constant ``MEM_READ_WRITE = (1 lsl 0)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1021>`__
+
 
 
 .. code-block:: ocaml
@@ -2496,6 +3074,8 @@ Constant ``MEM_READ_WRITE = (1 lsl 0)``.
   val cl_MEM_WRITE_ONLY : int
 
 Constant ``MEM_WRITE_ONLY = (1 lsl 1)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1023>`__
 
 
 
@@ -2505,6 +3085,8 @@ Constant ``MEM_WRITE_ONLY = (1 lsl 1)``.
 
 Constant ``MEM_READ_ONLY = (1 lsl 2)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1025>`__
+
 
 
 .. code-block:: ocaml
@@ -2512,6 +3094,8 @@ Constant ``MEM_READ_ONLY = (1 lsl 2)``.
   val cl_MEM_USE_HOST_PTR : int
 
 Constant ``MEM_USE_HOST_PTR = (1 lsl 3)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1027>`__
 
 
 
@@ -2521,6 +3105,8 @@ Constant ``MEM_USE_HOST_PTR = (1 lsl 3)``.
 
 Constant ``MEM_ALLOC_HOST_PTR = (1 lsl 4)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1029>`__
+
 
 
 .. code-block:: ocaml
@@ -2528,6 +3114,8 @@ Constant ``MEM_ALLOC_HOST_PTR = (1 lsl 4)``.
   val cl_MEM_COPY_HOST_PTR : int
 
 Constant ``MEM_COPY_HOST_PTR = (1 lsl 5)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1031>`__
 
 
 
@@ -2537,6 +3125,8 @@ Constant ``MEM_COPY_HOST_PTR = (1 lsl 5)``.
 
 Constant ``MEM_HOST_WRITE_ONLY = (1 lsl 7)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1033>`__
+
 
 
 .. code-block:: ocaml
@@ -2544,6 +3134,8 @@ Constant ``MEM_HOST_WRITE_ONLY = (1 lsl 7)``.
   val cl_MEM_HOST_READ_ONLY : int
 
 Constant ``MEM_HOST_READ_ONLY = (1 lsl 8)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1035>`__
 
 
 
@@ -2553,6 +3145,8 @@ Constant ``MEM_HOST_READ_ONLY = (1 lsl 8)``.
 
 Constant ``MEM_HOST_NO_ACCESS = (1 lsl 9)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1037>`__
+
 
 
 .. code-block:: ocaml
@@ -2560,6 +3154,8 @@ Constant ``MEM_HOST_NO_ACCESS = (1 lsl 9)``.
   val cl_MIGRATE_MEM_OBJECT_HOST : int
 
 Constant ``MIGRATE_MEM_OBJECT_HOST = (1 lsl 0)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1039>`__
 
 
 
@@ -2569,6 +3165,8 @@ Constant ``MIGRATE_MEM_OBJECT_HOST = (1 lsl 0)``.
 
 Constant ``MIGRATE_MEM_OBJECT_CONTENT_UNDEFINED = (1 lsl 1)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1041>`__
+
 
 
 .. code-block:: ocaml
@@ -2576,6 +3174,8 @@ Constant ``MIGRATE_MEM_OBJECT_CONTENT_UNDEFINED = (1 lsl 1)``.
   val cl_R : int
 
 Constant ``R = 0x10B0``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1043>`__
 
 
 
@@ -2585,6 +3185,8 @@ Constant ``R = 0x10B0``.
 
 Constant ``A = 0x10B1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1045>`__
+
 
 
 .. code-block:: ocaml
@@ -2592,6 +3194,8 @@ Constant ``A = 0x10B1``.
   val cl_RG : int
 
 Constant ``RG = 0x10B2``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1047>`__
 
 
 
@@ -2601,6 +3205,8 @@ Constant ``RG = 0x10B2``.
 
 Constant ``RA = 0x10B3``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1049>`__
+
 
 
 .. code-block:: ocaml
@@ -2608,6 +3214,8 @@ Constant ``RA = 0x10B3``.
   val cl_RGB : int
 
 Constant ``RGB = 0x10B4``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1051>`__
 
 
 
@@ -2617,6 +3225,8 @@ Constant ``RGB = 0x10B4``.
 
 Constant ``RGBA = 0x10B5``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1053>`__
+
 
 
 .. code-block:: ocaml
@@ -2624,6 +3234,8 @@ Constant ``RGBA = 0x10B5``.
   val cl_BGRA : int
 
 Constant ``BGRA = 0x10B6``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1055>`__
 
 
 
@@ -2633,6 +3245,8 @@ Constant ``BGRA = 0x10B6``.
 
 Constant ``ARGB = 0x10B7``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1057>`__
+
 
 
 .. code-block:: ocaml
@@ -2640,6 +3254,8 @@ Constant ``ARGB = 0x10B7``.
   val cl_INTENSITY : int
 
 Constant ``INTENSITY = 0x10B8``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1059>`__
 
 
 
@@ -2649,6 +3265,8 @@ Constant ``INTENSITY = 0x10B8``.
 
 Constant ``LUMINANCE = 0x10B9``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1061>`__
+
 
 
 .. code-block:: ocaml
@@ -2656,6 +3274,8 @@ Constant ``LUMINANCE = 0x10B9``.
   val cl_Rx : int
 
 Constant ``Rx = 0x10BA``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1063>`__
 
 
 
@@ -2665,6 +3285,8 @@ Constant ``Rx = 0x10BA``.
 
 Constant ``RGx = 0x10BB``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1065>`__
+
 
 
 .. code-block:: ocaml
@@ -2672,6 +3294,8 @@ Constant ``RGx = 0x10BB``.
   val cl_RGBx : int
 
 Constant ``RGBx = 0x10BC``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1067>`__
 
 
 
@@ -2681,6 +3305,8 @@ Constant ``RGBx = 0x10BC``.
 
 Constant ``DEPTH = 0x10BD``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1069>`__
+
 
 
 .. code-block:: ocaml
@@ -2688,6 +3314,8 @@ Constant ``DEPTH = 0x10BD``.
   val cl_DEPTH_STENCIL : int
 
 Constant ``DEPTH_STENCIL = 0x10BE``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1071>`__
 
 
 
@@ -2697,6 +3325,8 @@ Constant ``DEPTH_STENCIL = 0x10BE``.
 
 Constant ``SNORM_INT8 = 0x10D0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1073>`__
+
 
 
 .. code-block:: ocaml
@@ -2704,6 +3334,8 @@ Constant ``SNORM_INT8 = 0x10D0``.
   val cl_SNORM_INT16 : int
 
 Constant ``SNORM_INT16 = 0x10D1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1075>`__
 
 
 
@@ -2713,6 +3345,8 @@ Constant ``SNORM_INT16 = 0x10D1``.
 
 Constant ``UNORM_INT8 = 0x10D2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1077>`__
+
 
 
 .. code-block:: ocaml
@@ -2720,6 +3354,8 @@ Constant ``UNORM_INT8 = 0x10D2``.
   val cl_UNORM_INT16 : int
 
 Constant ``UNORM_INT16 = 0x10D3``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1079>`__
 
 
 
@@ -2729,6 +3365,8 @@ Constant ``UNORM_INT16 = 0x10D3``.
 
 Constant ``UNORM_SHORT_565 = 0x10D4``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1081>`__
+
 
 
 .. code-block:: ocaml
@@ -2736,6 +3374,8 @@ Constant ``UNORM_SHORT_565 = 0x10D4``.
   val cl_UNORM_SHORT_555 : int
 
 Constant ``UNORM_SHORT_555 = 0x10D5``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1083>`__
 
 
 
@@ -2745,6 +3385,8 @@ Constant ``UNORM_SHORT_555 = 0x10D5``.
 
 Constant ``UNORM_INT_101010 = 0x10D6``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1085>`__
+
 
 
 .. code-block:: ocaml
@@ -2752,6 +3394,8 @@ Constant ``UNORM_INT_101010 = 0x10D6``.
   val cl_SIGNED_INT8 : int
 
 Constant ``SIGNED_INT8 = 0x10D7``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1087>`__
 
 
 
@@ -2761,6 +3405,8 @@ Constant ``SIGNED_INT8 = 0x10D7``.
 
 Constant ``SIGNED_INT16 = 0x10D8``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1089>`__
+
 
 
 .. code-block:: ocaml
@@ -2768,6 +3414,8 @@ Constant ``SIGNED_INT16 = 0x10D8``.
   val cl_SIGNED_INT32 : int
 
 Constant ``SIGNED_INT32 = 0x10D9``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1091>`__
 
 
 
@@ -2777,6 +3425,8 @@ Constant ``SIGNED_INT32 = 0x10D9``.
 
 Constant ``UNSIGNED_INT8 = 0x10DA``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1093>`__
+
 
 
 .. code-block:: ocaml
@@ -2784,6 +3434,8 @@ Constant ``UNSIGNED_INT8 = 0x10DA``.
   val cl_UNSIGNED_INT16 : int
 
 Constant ``UNSIGNED_INT16 = 0x10DB``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1095>`__
 
 
 
@@ -2793,6 +3445,8 @@ Constant ``UNSIGNED_INT16 = 0x10DB``.
 
 Constant ``UNSIGNED_INT32 = 0x10DC``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1097>`__
+
 
 
 .. code-block:: ocaml
@@ -2800,6 +3454,8 @@ Constant ``UNSIGNED_INT32 = 0x10DC``.
   val cl_HALF_FLOAT : int
 
 Constant ``HALF_FLOAT = 0x10DD``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1099>`__
 
 
 
@@ -2809,6 +3465,8 @@ Constant ``HALF_FLOAT = 0x10DD``.
 
 Constant ``FLOAT = 0x10DE``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1101>`__
+
 
 
 .. code-block:: ocaml
@@ -2816,6 +3474,8 @@ Constant ``FLOAT = 0x10DE``.
   val cl_UNORM_INT24 : int
 
 Constant ``UNORM_INT24 = 0x10DF``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1103>`__
 
 
 
@@ -2825,6 +3485,8 @@ Constant ``UNORM_INT24 = 0x10DF``.
 
 Constant ``MEM_OBJECT_BUFFER = 0x10F0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1105>`__
+
 
 
 .. code-block:: ocaml
@@ -2832,6 +3494,8 @@ Constant ``MEM_OBJECT_BUFFER = 0x10F0``.
   val cl_MEM_OBJECT_IMAGE2D : int
 
 Constant ``MEM_OBJECT_IMAGE2D = 0x10F1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1107>`__
 
 
 
@@ -2841,6 +3505,8 @@ Constant ``MEM_OBJECT_IMAGE2D = 0x10F1``.
 
 Constant ``MEM_OBJECT_IMAGE3D = 0x10F2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1109>`__
+
 
 
 .. code-block:: ocaml
@@ -2848,6 +3514,8 @@ Constant ``MEM_OBJECT_IMAGE3D = 0x10F2``.
   val cl_MEM_OBJECT_IMAGE2D_ARRAY : int
 
 Constant ``MEM_OBJECT_IMAGE2D_ARRAY = 0x10F3``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1111>`__
 
 
 
@@ -2857,6 +3525,8 @@ Constant ``MEM_OBJECT_IMAGE2D_ARRAY = 0x10F3``.
 
 Constant ``MEM_OBJECT_IMAGE1D = 0x10F4``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1113>`__
+
 
 
 .. code-block:: ocaml
@@ -2864,6 +3534,8 @@ Constant ``MEM_OBJECT_IMAGE1D = 0x10F4``.
   val cl_MEM_OBJECT_IMAGE1D_ARRAY : int
 
 Constant ``MEM_OBJECT_IMAGE1D_ARRAY = 0x10F5``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1115>`__
 
 
 
@@ -2873,6 +3545,8 @@ Constant ``MEM_OBJECT_IMAGE1D_ARRAY = 0x10F5``.
 
 Constant ``MEM_OBJECT_IMAGE1D_BUFFER = 0x10F6``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1117>`__
+
 
 
 .. code-block:: ocaml
@@ -2880,6 +3554,8 @@ Constant ``MEM_OBJECT_IMAGE1D_BUFFER = 0x10F6``.
   val cl_MEM_TYPE : int
 
 Constant ``MEM_TYPE = 0x1100``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1119>`__
 
 
 
@@ -2889,6 +3565,8 @@ Constant ``MEM_TYPE = 0x1100``.
 
 Constant ``MEM_FLAGS = 0x1101``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1121>`__
+
 
 
 .. code-block:: ocaml
@@ -2896,6 +3574,8 @@ Constant ``MEM_FLAGS = 0x1101``.
   val cl_MEM_SIZE : int
 
 Constant ``MEM_SIZE = 0x1102``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1123>`__
 
 
 
@@ -2905,6 +3585,8 @@ Constant ``MEM_SIZE = 0x1102``.
 
 Constant ``MEM_HOST_PTR = 0x1103``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1125>`__
+
 
 
 .. code-block:: ocaml
@@ -2912,6 +3594,8 @@ Constant ``MEM_HOST_PTR = 0x1103``.
   val cl_MEM_MAP_COUNT : int
 
 Constant ``MEM_MAP_COUNT = 0x1104``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1127>`__
 
 
 
@@ -2921,6 +3605,8 @@ Constant ``MEM_MAP_COUNT = 0x1104``.
 
 Constant ``MEM_REFERENCE_COUNT = 0x1105``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1129>`__
+
 
 
 .. code-block:: ocaml
@@ -2928,6 +3614,8 @@ Constant ``MEM_REFERENCE_COUNT = 0x1105``.
   val cl_MEM_CONTEXT : int
 
 Constant ``MEM_CONTEXT = 0x1106``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1131>`__
 
 
 
@@ -2937,6 +3625,8 @@ Constant ``MEM_CONTEXT = 0x1106``.
 
 Constant ``MEM_ASSOCIATED_MEMOBJECT = 0x1107``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1133>`__
+
 
 
 .. code-block:: ocaml
@@ -2944,6 +3634,8 @@ Constant ``MEM_ASSOCIATED_MEMOBJECT = 0x1107``.
   val cl_MEM_OFFSET : int
 
 Constant ``MEM_OFFSET = 0x1108``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1135>`__
 
 
 
@@ -2953,6 +3645,8 @@ Constant ``MEM_OFFSET = 0x1108``.
 
 Constant ``IMAGE_FORMAT = 0x1110``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1137>`__
+
 
 
 .. code-block:: ocaml
@@ -2960,6 +3654,8 @@ Constant ``IMAGE_FORMAT = 0x1110``.
   val cl_IMAGE_ELEMENT_SIZE : int
 
 Constant ``IMAGE_ELEMENT_SIZE = 0x1111``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1139>`__
 
 
 
@@ -2969,6 +3665,8 @@ Constant ``IMAGE_ELEMENT_SIZE = 0x1111``.
 
 Constant ``IMAGE_ROW_PITCH = 0x1112``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1141>`__
+
 
 
 .. code-block:: ocaml
@@ -2976,6 +3674,8 @@ Constant ``IMAGE_ROW_PITCH = 0x1112``.
   val cl_IMAGE_SLICE_PITCH : int
 
 Constant ``IMAGE_SLICE_PITCH = 0x1113``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1143>`__
 
 
 
@@ -2985,6 +3685,8 @@ Constant ``IMAGE_SLICE_PITCH = 0x1113``.
 
 Constant ``IMAGE_WIDTH = 0x1114``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1145>`__
+
 
 
 .. code-block:: ocaml
@@ -2992,6 +3694,8 @@ Constant ``IMAGE_WIDTH = 0x1114``.
   val cl_IMAGE_HEIGHT : int
 
 Constant ``IMAGE_HEIGHT = 0x1115``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1147>`__
 
 
 
@@ -3001,6 +3705,8 @@ Constant ``IMAGE_HEIGHT = 0x1115``.
 
 Constant ``IMAGE_DEPTH = 0x1116``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1149>`__
+
 
 
 .. code-block:: ocaml
@@ -3008,6 +3714,8 @@ Constant ``IMAGE_DEPTH = 0x1116``.
   val cl_IMAGE_ARRAY_SIZE : int
 
 Constant ``IMAGE_ARRAY_SIZE = 0x1117``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1151>`__
 
 
 
@@ -3017,6 +3725,8 @@ Constant ``IMAGE_ARRAY_SIZE = 0x1117``.
 
 Constant ``IMAGE_BUFFER = 0x1118``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1153>`__
+
 
 
 .. code-block:: ocaml
@@ -3024,6 +3734,8 @@ Constant ``IMAGE_BUFFER = 0x1118``.
   val cl_IMAGE_NUM_MIP_LEVELS : int
 
 Constant ``IMAGE_NUM_MIP_LEVELS = 0x1119``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1155>`__
 
 
 
@@ -3033,6 +3745,8 @@ Constant ``IMAGE_NUM_MIP_LEVELS = 0x1119``.
 
 Constant ``IMAGE_NUM_SAMPLES = 0x111A``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1157>`__
+
 
 
 .. code-block:: ocaml
@@ -3040,6 +3754,8 @@ Constant ``IMAGE_NUM_SAMPLES = 0x111A``.
   val cl_ADDRESS_NONE : int
 
 Constant ``ADDRESS_NONE = 0x1130``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1159>`__
 
 
 
@@ -3049,6 +3765,8 @@ Constant ``ADDRESS_NONE = 0x1130``.
 
 Constant ``ADDRESS_CLAMP_TO_EDGE = 0x1131``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1161>`__
+
 
 
 .. code-block:: ocaml
@@ -3056,6 +3774,8 @@ Constant ``ADDRESS_CLAMP_TO_EDGE = 0x1131``.
   val cl_ADDRESS_CLAMP : int
 
 Constant ``ADDRESS_CLAMP = 0x1132``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1163>`__
 
 
 
@@ -3065,6 +3785,8 @@ Constant ``ADDRESS_CLAMP = 0x1132``.
 
 Constant ``ADDRESS_REPEAT = 0x1133``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1165>`__
+
 
 
 .. code-block:: ocaml
@@ -3072,6 +3794,8 @@ Constant ``ADDRESS_REPEAT = 0x1133``.
   val cl_ADDRESS_MIRRORED_REPEAT : int
 
 Constant ``ADDRESS_MIRRORED_REPEAT = 0x1134``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1167>`__
 
 
 
@@ -3081,6 +3805,8 @@ Constant ``ADDRESS_MIRRORED_REPEAT = 0x1134``.
 
 Constant ``FILTER_NEAREST = 0x1140``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1169>`__
+
 
 
 .. code-block:: ocaml
@@ -3088,6 +3814,8 @@ Constant ``FILTER_NEAREST = 0x1140``.
   val cl_FILTER_LINEAR : int
 
 Constant ``FILTER_LINEAR = 0x1141``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1171>`__
 
 
 
@@ -3097,6 +3825,8 @@ Constant ``FILTER_LINEAR = 0x1141``.
 
 Constant ``SAMPLER_REFERENCE_COUNT = 0x1150``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1173>`__
+
 
 
 .. code-block:: ocaml
@@ -3104,6 +3834,8 @@ Constant ``SAMPLER_REFERENCE_COUNT = 0x1150``.
   val cl_SAMPLER_CONTEXT : int
 
 Constant ``SAMPLER_CONTEXT = 0x1151``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1175>`__
 
 
 
@@ -3113,6 +3845,8 @@ Constant ``SAMPLER_CONTEXT = 0x1151``.
 
 Constant ``SAMPLER_NORMALIZED_COORDS = 0x1152``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1177>`__
+
 
 
 .. code-block:: ocaml
@@ -3120,6 +3854,8 @@ Constant ``SAMPLER_NORMALIZED_COORDS = 0x1152``.
   val cl_SAMPLER_ADDRESSING_MODE : int
 
 Constant ``SAMPLER_ADDRESSING_MODE = 0x1153``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1179>`__
 
 
 
@@ -3129,6 +3865,8 @@ Constant ``SAMPLER_ADDRESSING_MODE = 0x1153``.
 
 Constant ``SAMPLER_FILTER_MODE = 0x1154``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1181>`__
+
 
 
 .. code-block:: ocaml
@@ -3136,6 +3874,8 @@ Constant ``SAMPLER_FILTER_MODE = 0x1154``.
   val cl_MAP_READ : int
 
 Constant ``MAP_READ = (1 lsl 0)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1183>`__
 
 
 
@@ -3145,6 +3885,8 @@ Constant ``MAP_READ = (1 lsl 0)``.
 
 Constant ``MAP_WRITE = (1 lsl 1)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1185>`__
+
 
 
 .. code-block:: ocaml
@@ -3152,6 +3894,8 @@ Constant ``MAP_WRITE = (1 lsl 1)``.
   val cl_MAP_WRITE_INVALIDATE_REGION : int
 
 Constant ``MAP_WRITE_INVALIDATE_REGION = (1 lsl 2)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1187>`__
 
 
 
@@ -3161,6 +3905,8 @@ Constant ``MAP_WRITE_INVALIDATE_REGION = (1 lsl 2)``.
 
 Constant ``PROGRAM_REFERENCE_COUNT = 0x1160``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1189>`__
+
 
 
 .. code-block:: ocaml
@@ -3168,6 +3914,8 @@ Constant ``PROGRAM_REFERENCE_COUNT = 0x1160``.
   val cl_PROGRAM_CONTEXT : int
 
 Constant ``PROGRAM_CONTEXT = 0x1161``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1191>`__
 
 
 
@@ -3177,6 +3925,8 @@ Constant ``PROGRAM_CONTEXT = 0x1161``.
 
 Constant ``PROGRAM_NUM_DEVICES = 0x1162``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1193>`__
+
 
 
 .. code-block:: ocaml
@@ -3184,6 +3934,8 @@ Constant ``PROGRAM_NUM_DEVICES = 0x1162``.
   val cl_PROGRAM_DEVICES : int
 
 Constant ``PROGRAM_DEVICES = 0x1163``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1195>`__
 
 
 
@@ -3193,6 +3945,8 @@ Constant ``PROGRAM_DEVICES = 0x1163``.
 
 Constant ``PROGRAM_SOURCE = 0x1164``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1197>`__
+
 
 
 .. code-block:: ocaml
@@ -3200,6 +3954,8 @@ Constant ``PROGRAM_SOURCE = 0x1164``.
   val cl_PROGRAM_BINARY_SIZES : int
 
 Constant ``PROGRAM_BINARY_SIZES = 0x1165``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1199>`__
 
 
 
@@ -3209,6 +3965,8 @@ Constant ``PROGRAM_BINARY_SIZES = 0x1165``.
 
 Constant ``PROGRAM_BINARIES = 0x1166``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1201>`__
+
 
 
 .. code-block:: ocaml
@@ -3216,6 +3974,8 @@ Constant ``PROGRAM_BINARIES = 0x1166``.
   val cl_PROGRAM_NUM_KERNELS : int
 
 Constant ``PROGRAM_NUM_KERNELS = 0x1167``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1203>`__
 
 
 
@@ -3225,6 +3985,8 @@ Constant ``PROGRAM_NUM_KERNELS = 0x1167``.
 
 Constant ``PROGRAM_KERNEL_NAMES = 0x1168``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1205>`__
+
 
 
 .. code-block:: ocaml
@@ -3232,6 +3994,8 @@ Constant ``PROGRAM_KERNEL_NAMES = 0x1168``.
   val cl_PROGRAM_BUILD_STATUS : int
 
 Constant ``PROGRAM_BUILD_STATUS = 0x1181``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1207>`__
 
 
 
@@ -3241,6 +4005,8 @@ Constant ``PROGRAM_BUILD_STATUS = 0x1181``.
 
 Constant ``PROGRAM_BUILD_OPTIONS = 0x1182``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1209>`__
+
 
 
 .. code-block:: ocaml
@@ -3248,6 +4014,8 @@ Constant ``PROGRAM_BUILD_OPTIONS = 0x1182``.
   val cl_PROGRAM_BUILD_LOG : int
 
 Constant ``PROGRAM_BUILD_LOG = 0x1183``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1211>`__
 
 
 
@@ -3257,6 +4025,8 @@ Constant ``PROGRAM_BUILD_LOG = 0x1183``.
 
 Constant ``PROGRAM_BINARY_TYPE = 0x1184``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1213>`__
+
 
 
 .. code-block:: ocaml
@@ -3264,6 +4034,8 @@ Constant ``PROGRAM_BINARY_TYPE = 0x1184``.
   val cl_PROGRAM_BINARY_TYPE_NONE : int
 
 Constant ``PROGRAM_BINARY_TYPE_NONE = 0x0``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1215>`__
 
 
 
@@ -3273,6 +4045,8 @@ Constant ``PROGRAM_BINARY_TYPE_NONE = 0x0``.
 
 Constant ``PROGRAM_BINARY_TYPE_COMPILED_OBJECT = 0x1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1217>`__
+
 
 
 .. code-block:: ocaml
@@ -3280,6 +4054,8 @@ Constant ``PROGRAM_BINARY_TYPE_COMPILED_OBJECT = 0x1``.
   val cl_PROGRAM_BINARY_TYPE_LIBRARY : int
 
 Constant ``PROGRAM_BINARY_TYPE_LIBRARY = 0x2``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1219>`__
 
 
 
@@ -3289,6 +4065,8 @@ Constant ``PROGRAM_BINARY_TYPE_LIBRARY = 0x2``.
 
 Constant ``PROGRAM_BINARY_TYPE_EXECUTABLE = 0x4``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1221>`__
+
 
 
 .. code-block:: ocaml
@@ -3296,6 +4074,8 @@ Constant ``PROGRAM_BINARY_TYPE_EXECUTABLE = 0x4``.
   val cl_BUILD_SUCCESS : int
 
 Constant ``BUILD_SUCCESS = 0``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1223>`__
 
 
 
@@ -3305,6 +4085,8 @@ Constant ``BUILD_SUCCESS = 0``.
 
 Constant ``BUILD_NONE = -1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1225>`__
+
 
 
 .. code-block:: ocaml
@@ -3312,6 +4094,8 @@ Constant ``BUILD_NONE = -1``.
   val cl_BUILD_ERROR : int
 
 Constant ``BUILD_ERROR = -2``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1227>`__
 
 
 
@@ -3321,6 +4105,8 @@ Constant ``BUILD_ERROR = -2``.
 
 Constant ``BUILD_IN_PROGRESS = -3``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1229>`__
+
 
 
 .. code-block:: ocaml
@@ -3328,6 +4114,8 @@ Constant ``BUILD_IN_PROGRESS = -3``.
   val cl_KERNEL_FUNCTION_NAME : int
 
 Constant ``KERNEL_FUNCTION_NAME = 0x1190``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1231>`__
 
 
 
@@ -3337,6 +4125,8 @@ Constant ``KERNEL_FUNCTION_NAME = 0x1190``.
 
 Constant ``KERNEL_NUM_ARGS = 0x1191``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1233>`__
+
 
 
 .. code-block:: ocaml
@@ -3344,6 +4134,8 @@ Constant ``KERNEL_NUM_ARGS = 0x1191``.
   val cl_KERNEL_REFERENCE_COUNT : int
 
 Constant ``KERNEL_REFERENCE_COUNT = 0x1192``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1235>`__
 
 
 
@@ -3353,6 +4145,8 @@ Constant ``KERNEL_REFERENCE_COUNT = 0x1192``.
 
 Constant ``KERNEL_CONTEXT = 0x1193``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1237>`__
+
 
 
 .. code-block:: ocaml
@@ -3360,6 +4154,8 @@ Constant ``KERNEL_CONTEXT = 0x1193``.
   val cl_KERNEL_PROGRAM : int
 
 Constant ``KERNEL_PROGRAM = 0x1194``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1239>`__
 
 
 
@@ -3369,6 +4165,8 @@ Constant ``KERNEL_PROGRAM = 0x1194``.
 
 Constant ``KERNEL_ATTRIBUTES = 0x1195``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1241>`__
+
 
 
 .. code-block:: ocaml
@@ -3376,6 +4174,8 @@ Constant ``KERNEL_ATTRIBUTES = 0x1195``.
   val cl_KERNEL_ARG_ADDRESS_QUALIFIER : int
 
 Constant ``KERNEL_ARG_ADDRESS_QUALIFIER = 0x1196``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1243>`__
 
 
 
@@ -3385,6 +4185,8 @@ Constant ``KERNEL_ARG_ADDRESS_QUALIFIER = 0x1196``.
 
 Constant ``KERNEL_ARG_ACCESS_QUALIFIER = 0x1197``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1245>`__
+
 
 
 .. code-block:: ocaml
@@ -3392,6 +4194,8 @@ Constant ``KERNEL_ARG_ACCESS_QUALIFIER = 0x1197``.
   val cl_KERNEL_ARG_TYPE_NAME : int
 
 Constant ``KERNEL_ARG_TYPE_NAME = 0x1198``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1247>`__
 
 
 
@@ -3401,6 +4205,8 @@ Constant ``KERNEL_ARG_TYPE_NAME = 0x1198``.
 
 Constant ``KERNEL_ARG_TYPE_QUALIFIER = 0x1199``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1249>`__
+
 
 
 .. code-block:: ocaml
@@ -3408,6 +4214,8 @@ Constant ``KERNEL_ARG_TYPE_QUALIFIER = 0x1199``.
   val cl_KERNEL_ARG_NAME : int
 
 Constant ``KERNEL_ARG_NAME = 0x119A``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1251>`__
 
 
 
@@ -3417,6 +4225,8 @@ Constant ``KERNEL_ARG_NAME = 0x119A``.
 
 Constant ``KERNEL_ARG_ADDRESS_GLOBAL = 0x119B``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1253>`__
+
 
 
 .. code-block:: ocaml
@@ -3424,6 +4234,8 @@ Constant ``KERNEL_ARG_ADDRESS_GLOBAL = 0x119B``.
   val cl_KERNEL_ARG_ADDRESS_LOCAL : int
 
 Constant ``KERNEL_ARG_ADDRESS_LOCAL = 0x119C``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1255>`__
 
 
 
@@ -3433,6 +4245,8 @@ Constant ``KERNEL_ARG_ADDRESS_LOCAL = 0x119C``.
 
 Constant ``KERNEL_ARG_ADDRESS_CONSTANT = 0x119D``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1257>`__
+
 
 
 .. code-block:: ocaml
@@ -3440,6 +4254,8 @@ Constant ``KERNEL_ARG_ADDRESS_CONSTANT = 0x119D``.
   val cl_KERNEL_ARG_ADDRESS_PRIVATE : int
 
 Constant ``KERNEL_ARG_ADDRESS_PRIVATE = 0x119E``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1259>`__
 
 
 
@@ -3449,6 +4265,8 @@ Constant ``KERNEL_ARG_ADDRESS_PRIVATE = 0x119E``.
 
 Constant ``KERNEL_ARG_ACCESS_READ_ONLY = 0x11A0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1261>`__
+
 
 
 .. code-block:: ocaml
@@ -3456,6 +4274,8 @@ Constant ``KERNEL_ARG_ACCESS_READ_ONLY = 0x11A0``.
   val cl_KERNEL_ARG_ACCESS_WRITE_ONLY : int
 
 Constant ``KERNEL_ARG_ACCESS_WRITE_ONLY = 0x11A1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1263>`__
 
 
 
@@ -3465,6 +4285,8 @@ Constant ``KERNEL_ARG_ACCESS_WRITE_ONLY = 0x11A1``.
 
 Constant ``KERNEL_ARG_ACCESS_READ_WRITE = 0x11A2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1265>`__
+
 
 
 .. code-block:: ocaml
@@ -3472,6 +4294,8 @@ Constant ``KERNEL_ARG_ACCESS_READ_WRITE = 0x11A2``.
   val cl_KERNEL_ARG_ACCESS_NONE : int
 
 Constant ``KERNEL_ARG_ACCESS_NONE = 0x11A3``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1267>`__
 
 
 
@@ -3481,6 +4305,8 @@ Constant ``KERNEL_ARG_ACCESS_NONE = 0x11A3``.
 
 Constant ``KERNEL_ARG_TYPE_NONE = 0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1269>`__
+
 
 
 .. code-block:: ocaml
@@ -3488,6 +4314,8 @@ Constant ``KERNEL_ARG_TYPE_NONE = 0``.
   val cl_KERNEL_ARG_TYPE_CONST : int
 
 Constant ``KERNEL_ARG_TYPE_CONST = (1 lsl 0)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1271>`__
 
 
 
@@ -3497,6 +4325,8 @@ Constant ``KERNEL_ARG_TYPE_CONST = (1 lsl 0)``.
 
 Constant ``KERNEL_ARG_TYPE_RESTRICT = (1 lsl 1)``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1273>`__
+
 
 
 .. code-block:: ocaml
@@ -3504,6 +4334,8 @@ Constant ``KERNEL_ARG_TYPE_RESTRICT = (1 lsl 1)``.
   val cl_KERNEL_ARG_TYPE_VOLATILE : int
 
 Constant ``KERNEL_ARG_TYPE_VOLATILE = (1 lsl 2)``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1275>`__
 
 
 
@@ -3513,6 +4345,8 @@ Constant ``KERNEL_ARG_TYPE_VOLATILE = (1 lsl 2)``.
 
 Constant ``KERNEL_WORK_GROUP_SIZE = 0x11B0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1277>`__
+
 
 
 .. code-block:: ocaml
@@ -3520,6 +4354,8 @@ Constant ``KERNEL_WORK_GROUP_SIZE = 0x11B0``.
   val cl_KERNEL_COMPILE_WORK_GROUP_SIZE : int
 
 Constant ``KERNEL_COMPILE_WORK_GROUP_SIZE = 0x11B1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1279>`__
 
 
 
@@ -3529,6 +4365,8 @@ Constant ``KERNEL_COMPILE_WORK_GROUP_SIZE = 0x11B1``.
 
 Constant ``KERNEL_LOCAL_MEM_SIZE = 0x11B2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1281>`__
+
 
 
 .. code-block:: ocaml
@@ -3536,6 +4374,8 @@ Constant ``KERNEL_LOCAL_MEM_SIZE = 0x11B2``.
   val cl_KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE : int
 
 Constant ``KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE = 0x11B3``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1283>`__
 
 
 
@@ -3545,6 +4385,8 @@ Constant ``KERNEL_PREFERRED_WORK_GROUP_SIZE_MULTIPLE = 0x11B3``.
 
 Constant ``KERNEL_PRIVATE_MEM_SIZE = 0x11B4``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1285>`__
+
 
 
 .. code-block:: ocaml
@@ -3552,6 +4394,8 @@ Constant ``KERNEL_PRIVATE_MEM_SIZE = 0x11B4``.
   val cl_KERNEL_GLOBAL_WORK_SIZE : int
 
 Constant ``KERNEL_GLOBAL_WORK_SIZE = 0x11B5``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1287>`__
 
 
 
@@ -3561,6 +4405,8 @@ Constant ``KERNEL_GLOBAL_WORK_SIZE = 0x11B5``.
 
 Constant ``EVENT_COMMAND_QUEUE = 0x11D0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1289>`__
+
 
 
 .. code-block:: ocaml
@@ -3568,6 +4414,8 @@ Constant ``EVENT_COMMAND_QUEUE = 0x11D0``.
   val cl_EVENT_COMMAND_TYPE : int
 
 Constant ``EVENT_COMMAND_TYPE = 0x11D1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1291>`__
 
 
 
@@ -3577,6 +4425,8 @@ Constant ``EVENT_COMMAND_TYPE = 0x11D1``.
 
 Constant ``EVENT_REFERENCE_COUNT = 0x11D2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1293>`__
+
 
 
 .. code-block:: ocaml
@@ -3584,6 +4434,8 @@ Constant ``EVENT_REFERENCE_COUNT = 0x11D2``.
   val cl_EVENT_COMMAND_EXECUTION_STATUS : int
 
 Constant ``EVENT_COMMAND_EXECUTION_STATUS = 0x11D3``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1295>`__
 
 
 
@@ -3593,6 +4445,8 @@ Constant ``EVENT_COMMAND_EXECUTION_STATUS = 0x11D3``.
 
 Constant ``EVENT_CONTEXT = 0x11D4``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1297>`__
+
 
 
 .. code-block:: ocaml
@@ -3600,6 +4454,8 @@ Constant ``EVENT_CONTEXT = 0x11D4``.
   val cl_COMMAND_NDRANGE_KERNEL : int
 
 Constant ``COMMAND_NDRANGE_KERNEL = 0x11F0``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1299>`__
 
 
 
@@ -3609,6 +4465,8 @@ Constant ``COMMAND_NDRANGE_KERNEL = 0x11F0``.
 
 Constant ``COMMAND_TASK = 0x11F1``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1301>`__
+
 
 
 .. code-block:: ocaml
@@ -3616,6 +4474,8 @@ Constant ``COMMAND_TASK = 0x11F1``.
   val cl_COMMAND_NATIVE_KERNEL : int
 
 Constant ``COMMAND_NATIVE_KERNEL = 0x11F2``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1303>`__
 
 
 
@@ -3625,6 +4485,8 @@ Constant ``COMMAND_NATIVE_KERNEL = 0x11F2``.
 
 Constant ``COMMAND_READ_BUFFER = 0x11F3``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1305>`__
+
 
 
 .. code-block:: ocaml
@@ -3632,6 +4494,8 @@ Constant ``COMMAND_READ_BUFFER = 0x11F3``.
   val cl_COMMAND_WRITE_BUFFER : int
 
 Constant ``COMMAND_WRITE_BUFFER = 0x11F4``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1307>`__
 
 
 
@@ -3641,6 +4505,8 @@ Constant ``COMMAND_WRITE_BUFFER = 0x11F4``.
 
 Constant ``COMMAND_COPY_BUFFER = 0x11F5``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1309>`__
+
 
 
 .. code-block:: ocaml
@@ -3648,6 +4514,8 @@ Constant ``COMMAND_COPY_BUFFER = 0x11F5``.
   val cl_COMMAND_READ_IMAGE : int
 
 Constant ``COMMAND_READ_IMAGE = 0x11F6``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1311>`__
 
 
 
@@ -3657,6 +4525,8 @@ Constant ``COMMAND_READ_IMAGE = 0x11F6``.
 
 Constant ``COMMAND_WRITE_IMAGE = 0x11F7``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1313>`__
+
 
 
 .. code-block:: ocaml
@@ -3664,6 +4534,8 @@ Constant ``COMMAND_WRITE_IMAGE = 0x11F7``.
   val cl_COMMAND_COPY_IMAGE : int
 
 Constant ``COMMAND_COPY_IMAGE = 0x11F8``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1315>`__
 
 
 
@@ -3673,6 +4545,8 @@ Constant ``COMMAND_COPY_IMAGE = 0x11F8``.
 
 Constant ``COMMAND_COPY_IMAGE_TO_BUFFER = 0x11F9``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1317>`__
+
 
 
 .. code-block:: ocaml
@@ -3680,6 +4554,8 @@ Constant ``COMMAND_COPY_IMAGE_TO_BUFFER = 0x11F9``.
   val cl_COMMAND_COPY_BUFFER_TO_IMAGE : int
 
 Constant ``COMMAND_COPY_BUFFER_TO_IMAGE = 0x11FA``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1319>`__
 
 
 
@@ -3689,6 +4565,8 @@ Constant ``COMMAND_COPY_BUFFER_TO_IMAGE = 0x11FA``.
 
 Constant ``COMMAND_MAP_BUFFER = 0x11FB``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1321>`__
+
 
 
 .. code-block:: ocaml
@@ -3696,6 +4574,8 @@ Constant ``COMMAND_MAP_BUFFER = 0x11FB``.
   val cl_COMMAND_MAP_IMAGE : int
 
 Constant ``COMMAND_MAP_IMAGE = 0x11FC``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1323>`__
 
 
 
@@ -3705,6 +4585,8 @@ Constant ``COMMAND_MAP_IMAGE = 0x11FC``.
 
 Constant ``COMMAND_UNMAP_MEM_OBJECT = 0x11FD``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1325>`__
+
 
 
 .. code-block:: ocaml
@@ -3712,6 +4594,8 @@ Constant ``COMMAND_UNMAP_MEM_OBJECT = 0x11FD``.
   val cl_COMMAND_MARKER : int
 
 Constant ``COMMAND_MARKER = 0x11FE``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1327>`__
 
 
 
@@ -3721,6 +4605,8 @@ Constant ``COMMAND_MARKER = 0x11FE``.
 
 Constant ``COMMAND_ACQUIRE_GL_OBJECTS = 0x11FF``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1329>`__
+
 
 
 .. code-block:: ocaml
@@ -3728,6 +4614,8 @@ Constant ``COMMAND_ACQUIRE_GL_OBJECTS = 0x11FF``.
   val cl_COMMAND_RELEASE_GL_OBJECTS : int
 
 Constant ``COMMAND_RELEASE_GL_OBJECTS = 0x1200``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1331>`__
 
 
 
@@ -3737,6 +4625,8 @@ Constant ``COMMAND_RELEASE_GL_OBJECTS = 0x1200``.
 
 Constant ``COMMAND_READ_BUFFER_RECT = 0x1201``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1333>`__
+
 
 
 .. code-block:: ocaml
@@ -3744,6 +4634,8 @@ Constant ``COMMAND_READ_BUFFER_RECT = 0x1201``.
   val cl_COMMAND_WRITE_BUFFER_RECT : int
 
 Constant ``COMMAND_WRITE_BUFFER_RECT = 0x1202``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1335>`__
 
 
 
@@ -3753,6 +4645,8 @@ Constant ``COMMAND_WRITE_BUFFER_RECT = 0x1202``.
 
 Constant ``COMMAND_COPY_BUFFER_RECT = 0x1203``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1337>`__
+
 
 
 .. code-block:: ocaml
@@ -3760,6 +4654,8 @@ Constant ``COMMAND_COPY_BUFFER_RECT = 0x1203``.
   val cl_COMMAND_USER : int
 
 Constant ``COMMAND_USER = 0x1204``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1339>`__
 
 
 
@@ -3769,6 +4665,8 @@ Constant ``COMMAND_USER = 0x1204``.
 
 Constant ``COMMAND_BARRIER = 0x1205``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1341>`__
+
 
 
 .. code-block:: ocaml
@@ -3776,6 +4674,8 @@ Constant ``COMMAND_BARRIER = 0x1205``.
   val cl_COMMAND_MIGRATE_MEM_OBJECTS : int
 
 Constant ``COMMAND_MIGRATE_MEM_OBJECTS = 0x1206``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1343>`__
 
 
 
@@ -3785,6 +4685,8 @@ Constant ``COMMAND_MIGRATE_MEM_OBJECTS = 0x1206``.
 
 Constant ``COMMAND_FILL_BUFFER = 0x1207``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1345>`__
+
 
 
 .. code-block:: ocaml
@@ -3792,6 +4694,8 @@ Constant ``COMMAND_FILL_BUFFER = 0x1207``.
   val cl_COMMAND_FILL_IMAGE : int
 
 Constant ``COMMAND_FILL_IMAGE = 0x1208``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1347>`__
 
 
 
@@ -3801,6 +4705,8 @@ Constant ``COMMAND_FILL_IMAGE = 0x1208``.
 
 Constant ``COMPLETE = 0x0``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1349>`__
+
 
 
 .. code-block:: ocaml
@@ -3808,6 +4714,8 @@ Constant ``COMPLETE = 0x0``.
   val cl_RUNNING : int
 
 Constant ``RUNNING = 0x1``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1351>`__
 
 
 
@@ -3817,6 +4725,8 @@ Constant ``RUNNING = 0x1``.
 
 Constant ``SUBMITTED = 0x2``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1353>`__
+
 
 
 .. code-block:: ocaml
@@ -3824,6 +4734,8 @@ Constant ``SUBMITTED = 0x2``.
   val cl_QUEUED : int
 
 Constant ``QUEUED = 0x3``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1355>`__
 
 
 
@@ -3833,6 +4745,8 @@ Constant ``QUEUED = 0x3``.
 
 Constant ``BUFFER_CREATE_TYPE_REGION = 0x1220``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1357>`__
+
 
 
 .. code-block:: ocaml
@@ -3840,6 +4754,8 @@ Constant ``BUFFER_CREATE_TYPE_REGION = 0x1220``.
   val cl_PROFILING_COMMAND_QUEUED : int
 
 Constant ``PROFILING_COMMAND_QUEUED = 0x1280``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1359>`__
 
 
 
@@ -3849,6 +4765,8 @@ Constant ``PROFILING_COMMAND_QUEUED = 0x1280``.
 
 Constant ``PROFILING_COMMAND_SUBMIT = 0x1281``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1361>`__
+
 
 
 .. code-block:: ocaml
@@ -3857,6 +4775,8 @@ Constant ``PROFILING_COMMAND_SUBMIT = 0x1281``.
 
 Constant ``PROFILING_COMMAND_START = 0x1282``.
 
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1363>`__
+
 
 
 .. code-block:: ocaml
@@ -3864,6 +4784,8 @@ Constant ``PROFILING_COMMAND_START = 0x1282``.
   val cl_PROFILING_COMMAND_END : int
 
 Constant ``PROFILING_COMMAND_END = 0x1283``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_generated.ml#L1365>`__
 
 
 
@@ -3879,16 +4801,12 @@ Exception definition
 
 Exception ``EXN_SUCCESS``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_DEVICE_NOT_FOUND
     
 
 Exception ``EXN_DEVICE_NOT_FOUND``.
-
-
 
 .. code-block:: ocaml
 
@@ -3897,16 +4815,12 @@ Exception ``EXN_DEVICE_NOT_FOUND``.
 
 Exception ``EXN_DEVICE_NOT_AVAILABLE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_COMPILER_NOT_AVAILABLE
     
 
 Exception ``EXN_COMPILER_NOT_AVAILABLE``.
-
-
 
 .. code-block:: ocaml
 
@@ -3915,16 +4829,12 @@ Exception ``EXN_COMPILER_NOT_AVAILABLE``.
 
 Exception ``EXN_MEM_OBJECT_ALLOCATION_FAILURE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_OUT_OF_RESOURCES
     
 
 Exception ``EXN_OUT_OF_RESOURCES``.
-
-
 
 .. code-block:: ocaml
 
@@ -3933,16 +4843,12 @@ Exception ``EXN_OUT_OF_RESOURCES``.
 
 Exception ``EXN_OUT_OF_HOST_MEMORY``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_PROFILING_INFO_NOT_AVAILABLE
     
 
 Exception ``EXN_PROFILING_INFO_NOT_AVAILABLE``.
-
-
 
 .. code-block:: ocaml
 
@@ -3951,16 +4857,12 @@ Exception ``EXN_PROFILING_INFO_NOT_AVAILABLE``.
 
 Exception ``EXN_MEM_COPY_OVERLAP``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_IMAGE_FORMAT_MISMATCH
     
 
 Exception ``EXN_IMAGE_FORMAT_MISMATCH``.
-
-
 
 .. code-block:: ocaml
 
@@ -3969,16 +4871,12 @@ Exception ``EXN_IMAGE_FORMAT_MISMATCH``.
 
 Exception ``EXN_IMAGE_FORMAT_NOT_SUPPORTED``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_BUILD_PROGRAM_FAILURE
     
 
 Exception ``EXN_BUILD_PROGRAM_FAILURE``.
-
-
 
 .. code-block:: ocaml
 
@@ -3987,16 +4885,12 @@ Exception ``EXN_BUILD_PROGRAM_FAILURE``.
 
 Exception ``EXN_MAP_FAILURE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_MISALIGNED_SUB_BUFFER_OFFSET
     
 
 Exception ``EXN_MISALIGNED_SUB_BUFFER_OFFSET``.
-
-
 
 .. code-block:: ocaml
 
@@ -4005,16 +4899,12 @@ Exception ``EXN_MISALIGNED_SUB_BUFFER_OFFSET``.
 
 Exception ``EXN_EXEC_STATUS_ERROR_FOR_EVENTS_IN_WAIT_LIST``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_COMPILE_PROGRAM_FAILURE
     
 
 Exception ``EXN_COMPILE_PROGRAM_FAILURE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4023,16 +4913,12 @@ Exception ``EXN_COMPILE_PROGRAM_FAILURE``.
 
 Exception ``EXN_LINKER_NOT_AVAILABLE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_LINK_PROGRAM_FAILURE
     
 
 Exception ``EXN_LINK_PROGRAM_FAILURE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4041,16 +4927,12 @@ Exception ``EXN_LINK_PROGRAM_FAILURE``.
 
 Exception ``EXN_DEVICE_PARTITION_FAILED``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_KERNEL_ARG_INFO_NOT_AVAILABLE
     
 
 Exception ``EXN_KERNEL_ARG_INFO_NOT_AVAILABLE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4059,16 +4941,12 @@ Exception ``EXN_KERNEL_ARG_INFO_NOT_AVAILABLE``.
 
 Exception ``EXN_INVALID_VALUE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_DEVICE_TYPE
     
 
 Exception ``EXN_INVALID_DEVICE_TYPE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4077,16 +4955,12 @@ Exception ``EXN_INVALID_DEVICE_TYPE``.
 
 Exception ``EXN_INVALID_PLATFORM``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_DEVICE
     
 
 Exception ``EXN_INVALID_DEVICE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4095,16 +4969,12 @@ Exception ``EXN_INVALID_DEVICE``.
 
 Exception ``EXN_INVALID_CONTEXT``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_QUEUE_PROPERTIES
     
 
 Exception ``EXN_INVALID_QUEUE_PROPERTIES``.
-
-
 
 .. code-block:: ocaml
 
@@ -4113,16 +4983,12 @@ Exception ``EXN_INVALID_QUEUE_PROPERTIES``.
 
 Exception ``EXN_INVALID_COMMAND_QUEUE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_HOST_PTR
     
 
 Exception ``EXN_INVALID_HOST_PTR``.
-
-
 
 .. code-block:: ocaml
 
@@ -4131,16 +4997,12 @@ Exception ``EXN_INVALID_HOST_PTR``.
 
 Exception ``EXN_INVALID_MEM_OBJECT``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_IMAGE_FORMAT_DESCRIPTOR
     
 
 Exception ``EXN_INVALID_IMAGE_FORMAT_DESCRIPTOR``.
-
-
 
 .. code-block:: ocaml
 
@@ -4149,16 +5011,12 @@ Exception ``EXN_INVALID_IMAGE_FORMAT_DESCRIPTOR``.
 
 Exception ``EXN_INVALID_IMAGE_SIZE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_SAMPLER
     
 
 Exception ``EXN_INVALID_SAMPLER``.
-
-
 
 .. code-block:: ocaml
 
@@ -4167,16 +5025,12 @@ Exception ``EXN_INVALID_SAMPLER``.
 
 Exception ``EXN_INVALID_BINARY``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_BUILD_OPTIONS
     
 
 Exception ``EXN_INVALID_BUILD_OPTIONS``.
-
-
 
 .. code-block:: ocaml
 
@@ -4185,16 +5039,12 @@ Exception ``EXN_INVALID_BUILD_OPTIONS``.
 
 Exception ``EXN_INVALID_PROGRAM``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_PROGRAM_EXECUTABLE
     
 
 Exception ``EXN_INVALID_PROGRAM_EXECUTABLE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4203,16 +5053,12 @@ Exception ``EXN_INVALID_PROGRAM_EXECUTABLE``.
 
 Exception ``EXN_INVALID_KERNEL_NAME``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_KERNEL_DEFINITION
     
 
 Exception ``EXN_INVALID_KERNEL_DEFINITION``.
-
-
 
 .. code-block:: ocaml
 
@@ -4221,16 +5067,12 @@ Exception ``EXN_INVALID_KERNEL_DEFINITION``.
 
 Exception ``EXN_INVALID_KERNEL``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_ARG_INDEX
     
 
 Exception ``EXN_INVALID_ARG_INDEX``.
-
-
 
 .. code-block:: ocaml
 
@@ -4239,16 +5081,12 @@ Exception ``EXN_INVALID_ARG_INDEX``.
 
 Exception ``EXN_INVALID_ARG_VALUE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_ARG_SIZE
     
 
 Exception ``EXN_INVALID_ARG_SIZE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4257,16 +5095,12 @@ Exception ``EXN_INVALID_ARG_SIZE``.
 
 Exception ``EXN_INVALID_KERNEL_ARGS``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_WORK_DIMENSION
     
 
 Exception ``EXN_INVALID_WORK_DIMENSION``.
-
-
 
 .. code-block:: ocaml
 
@@ -4275,16 +5109,12 @@ Exception ``EXN_INVALID_WORK_DIMENSION``.
 
 Exception ``EXN_INVALID_WORK_GROUP_SIZE``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_WORK_ITEM_SIZE
     
 
 Exception ``EXN_INVALID_WORK_ITEM_SIZE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4293,16 +5123,12 @@ Exception ``EXN_INVALID_WORK_ITEM_SIZE``.
 
 Exception ``EXN_INVALID_GLOBAL_OFFSET``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_EVENT_WAIT_LIST
     
 
 Exception ``EXN_INVALID_EVENT_WAIT_LIST``.
-
-
 
 .. code-block:: ocaml
 
@@ -4311,16 +5137,12 @@ Exception ``EXN_INVALID_EVENT_WAIT_LIST``.
 
 Exception ``EXN_INVALID_EVENT``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_OPERATION
     
 
 Exception ``EXN_INVALID_OPERATION``.
-
-
 
 .. code-block:: ocaml
 
@@ -4329,16 +5151,12 @@ Exception ``EXN_INVALID_OPERATION``.
 
 Exception ``EXN_INVALID_GL_OBJECT``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_BUFFER_SIZE
     
 
 Exception ``EXN_INVALID_BUFFER_SIZE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4347,16 +5165,12 @@ Exception ``EXN_INVALID_BUFFER_SIZE``.
 
 Exception ``EXN_INVALID_MIP_LEVEL``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_GLOBAL_WORK_SIZE
     
 
 Exception ``EXN_INVALID_GLOBAL_WORK_SIZE``.
-
-
 
 .. code-block:: ocaml
 
@@ -4365,16 +5179,12 @@ Exception ``EXN_INVALID_GLOBAL_WORK_SIZE``.
 
 Exception ``EXN_INVALID_PROPERTY``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_IMAGE_DESCRIPTOR
     
 
 Exception ``EXN_INVALID_IMAGE_DESCRIPTOR``.
-
-
 
 .. code-block:: ocaml
 
@@ -4383,8 +5193,6 @@ Exception ``EXN_INVALID_IMAGE_DESCRIPTOR``.
 
 Exception ``EXN_INVALID_COMPILER_OPTIONS``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_LINKER_OPTIONS
@@ -4392,14 +5200,10 @@ Exception ``EXN_INVALID_COMPILER_OPTIONS``.
 
 Exception ``EXN_INVALID_LINKER_OPTIONS``.
 
-
-
 .. code-block:: ocaml
 
   exception EXN_INVALID_DEVICE_PARTITION_COUNT
     
 
 Exception ``EXN_INVALID_DEVICE_PARTITION_COUNT``.
-
-
 
