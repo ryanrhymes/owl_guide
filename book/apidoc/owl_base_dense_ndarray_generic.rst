@@ -2,8 +2,8 @@ Base.Dense.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#137 entries have been extracted.
-timestamp: 2018-02-07 23:33:30
+#183 entries have been extracted.
+timestamp: 2018-02-08 00:56:28
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/dense/owl_base_dense_ndarray_generic.mli>`_ 
@@ -91,7 +91,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L310>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L444>`__
 
 
 
@@ -101,7 +101,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L324>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L458>`__
 
 
 
@@ -111,7 +111,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L288>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L422>`__
 
 
 
@@ -121,7 +121,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L317>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L451>`__
 
 
 
@@ -163,6 +163,26 @@ Refer to :doc:`owl_dense_ndarray_generic`
 Refer to :doc:`owl_dense_ndarray_generic`
 
 `[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L175>`__
+
+
+
+.. code-block:: ocaml
+
+  val strides : ('a, 'b) t -> int array
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L296>`__
+
+
+
+.. code-block:: ocaml
+
+  val slice_size : ('a, 'b) t -> int array
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L299>`__
 
 
 
@@ -267,7 +287,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1876>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2294>`__
 
 
 
@@ -277,7 +297,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L347>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L481>`__
 
 
 
@@ -287,7 +307,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L449>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L583>`__
 
 
 
@@ -297,7 +317,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L402>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L536>`__
 
 
 
@@ -307,7 +327,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L374>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L508>`__
 
 
 
@@ -317,12 +337,42 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L390>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L524>`__
 
 
 
 Iterate array elements
 -------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val iteri : (int -> 'a -> unit) -> ('a, 'b) t -> unit
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L395>`__
+
+
+
+.. code-block:: ocaml
+
+  val iter : ('a -> unit) -> ('a, 'b) t -> unit
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L403>`__
+
+
+
+.. code-block:: ocaml
+
+  val mapi : (int -> 'a -> 'a) -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L287>`__
 
 
 
@@ -336,6 +386,66 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 
 
+.. code-block:: ocaml
+
+  val filteri : (int -> 'a -> bool) -> ('a, 'b) t -> int array
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L411>`__
+
+
+
+.. code-block:: ocaml
+
+  val filter : ('a -> bool) -> ('a, 'b) t -> int array
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L420>`__
+
+
+
+.. code-block:: ocaml
+
+  val foldi : ?axis:int -> (int -> 'a -> 'a -> 'a) -> 'a -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L317>`__
+
+
+
+.. code-block:: ocaml
+
+  val fold : ?axis:int -> ('a -> 'a -> 'a) -> 'a -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L354>`__
+
+
+
+.. code-block:: ocaml
+
+  val scani : ?axis:int -> (int -> 'a -> 'a -> 'a) -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L358>`__
+
+
+
+.. code-block:: ocaml
+
+  val scan : ?axis:int -> ('a -> 'a -> 'a) -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L392>`__
+
+
+
 Examination & Comparison
 -------------------------------------------------------------------------------
 
@@ -343,11 +453,351 @@ Examination & Comparison
 
 .. code-block:: ocaml
 
-  val equal : (float, 'b) t -> (float, 'b) t -> bool
+  val exists : ('a -> bool) -> ('a, 'b) t -> bool
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1989>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1089>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_exists : ('a -> bool) -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1105>`__
+
+
+
+.. code-block:: ocaml
+
+  val for_all : ('a -> bool) -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1108>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_zero : ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1113>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_positive : ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1120>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_negative : ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1127>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_nonpositive : ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1134>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_nonnegative : ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1141>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_normal : (float, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1148>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_nan : (float, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1159>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_inf : (float, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1168>`__
+
+
+
+.. code-block:: ocaml
+
+  val equal : ('a, 'b) t -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L922>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_equal : ('a, 'b) t -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L926>`__
+
+
+
+.. code-block:: ocaml
+
+  val greater : ('a, 'b) t -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L934>`__
+
+
+
+.. code-block:: ocaml
+
+  val less : ('a, 'b) t -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L930>`__
+
+
+
+.. code-block:: ocaml
+
+  val greater_equal : ('a, 'b) t -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L942>`__
+
+
+
+.. code-block:: ocaml
+
+  val less_equal : ('a, 'b) t -> ('a, 'b) t -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L938>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1007>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_not_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1020>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_less : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1024>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_greater : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1028>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_less_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1032>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_greater_equal : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1036>`__
+
+
+
+.. code-block:: ocaml
+
+  val equal_scalar : ('a, 'b) t -> 'a -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L973>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_equal_scalar : ('a, 'b) t -> 'a -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L977>`__
+
+
+
+.. code-block:: ocaml
+
+  val less_scalar : ('a, 'b) t -> 'a -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L981>`__
+
+
+
+.. code-block:: ocaml
+
+  val greater_scalar : ('a, 'b) t -> 'a -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L985>`__
+
+
+
+.. code-block:: ocaml
+
+  val less_equal_scalar : ('a, 'b) t -> 'a -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L989>`__
+
+
+
+.. code-block:: ocaml
+
+  val greater_equal_scalar : ('a, 'b) t -> 'a -> bool
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L993>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1050>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_not_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1064>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_less_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1069>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_greater_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1074>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_less_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1079>`__
+
+
+
+.. code-block:: ocaml
+
+  val elt_greater_equal_scalar : ('a, 'b) t -> 'a -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1084>`__
 
 
 
@@ -357,27 +807,37 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1969>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L913>`__
 
 
 
 .. code-block:: ocaml
 
-  val elt_equal : (float, 'b) t -> (float, 'b) t -> (float, 'b) t
+  val approx_equal_scalar : ?eps:float -> (float, 'b) t -> float -> bool
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1992>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L964>`__
 
 
 
 .. code-block:: ocaml
 
-  val elt_greater_equal_scalar : (float, 'b) t -> float -> (float, 'b) t
+  val approx_elt_equal : ?eps:float -> (float, 'b) t -> (float, 'b) t -> (float, 'b) t
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L746>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1011>`__
+
+
+
+.. code-block:: ocaml
+
+  val approx_elt_equal_scalar : ?eps:float -> (float, 'b) t -> float -> (float, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1055>`__
 
 
 
@@ -392,7 +852,7 @@ Input/Output functions
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L298>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L432>`__
 
 
 
@@ -402,7 +862,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L331>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L465>`__
 
 
 
@@ -412,7 +872,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1962>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2380>`__
 
 
 
@@ -433,7 +893,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L620>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L754>`__
 
 
 
@@ -443,7 +903,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L612>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L746>`__
 
 
 
@@ -453,7 +913,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L616>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L750>`__
 
 
 
@@ -463,7 +923,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L457>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L591>`__
 
 
 
@@ -473,7 +933,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L460>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L594>`__
 
 
 
@@ -483,7 +943,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L589>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L723>`__
 
 
 
@@ -493,7 +953,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L472>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L606>`__
 
 
 
@@ -503,7 +963,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L475>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L609>`__
 
 
 
@@ -513,7 +973,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L487>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L621>`__
 
 
 
@@ -523,7 +983,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L478>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L612>`__
 
 
 
@@ -533,7 +993,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L484>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L618>`__
 
 
 
@@ -543,7 +1003,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L481>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L615>`__
 
 
 
@@ -553,7 +1013,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L490>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L624>`__
 
 
 
@@ -563,7 +1023,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L493>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L627>`__
 
 
 
@@ -579,7 +1039,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L511>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L645>`__
 
 
 
@@ -589,7 +1049,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L514>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L648>`__
 
 
 
@@ -599,7 +1059,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L517>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L651>`__
 
 
 
@@ -609,7 +1069,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L502>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L636>`__
 
 
 
@@ -619,7 +1079,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L505>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L639>`__
 
 
 
@@ -629,7 +1089,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L508>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L642>`__
 
 
 
@@ -639,7 +1099,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L520>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L654>`__
 
 
 
@@ -649,7 +1109,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L523>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L657>`__
 
 
 
@@ -659,7 +1119,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L526>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L660>`__
 
 
 
@@ -669,7 +1129,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L463>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L597>`__
 
 
 
@@ -679,7 +1139,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L466>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L600>`__
 
 
 
@@ -689,7 +1149,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L469>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L603>`__
 
 
 
@@ -699,7 +1159,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L596>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L730>`__
 
 
 
@@ -709,7 +1169,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L593>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L727>`__
 
 
 
@@ -719,7 +1179,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L623>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L757>`__
 
 
 
@@ -729,7 +1189,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L635>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L769>`__
 
 
 
@@ -739,7 +1199,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L629>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L763>`__
 
 
 
@@ -754,7 +1214,7 @@ Binary math operators
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L685>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L819>`__
 
 
 
@@ -764,7 +1224,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L688>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L822>`__
 
 
 
@@ -774,7 +1234,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L691>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L825>`__
 
 
 
@@ -784,7 +1244,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L694>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L828>`__
 
 
 
@@ -794,7 +1254,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L703>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L837>`__
 
 
 
@@ -804,7 +1264,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L708>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L842>`__
 
 
 
@@ -814,7 +1274,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L713>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L847>`__
 
 
 
@@ -824,7 +1284,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L718>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L852>`__
 
 
 
@@ -834,7 +1294,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L729>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L863>`__
 
 
 
@@ -844,7 +1304,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L732>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L866>`__
 
 
 
@@ -854,7 +1314,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L738>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L872>`__
 
 
 
@@ -864,7 +1324,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L741>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L875>`__
 
 
 
@@ -874,7 +1334,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L700>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L834>`__
 
 
 
@@ -884,7 +1344,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L641>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L775>`__
 
 
 
@@ -894,7 +1354,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L647>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L781>`__
 
 
 
@@ -904,7 +1364,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L697>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L831>`__
 
 
 
@@ -914,7 +1374,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L652>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L786>`__
 
 
 
@@ -924,7 +1384,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L657>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L791>`__
 
 
 
@@ -934,7 +1394,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L723>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L857>`__
 
 
 
@@ -944,7 +1404,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L752>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L880>`__
 
 
 
@@ -959,7 +1419,7 @@ Neural network related
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L837>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1255>`__
 
 
 
@@ -969,7 +1429,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L768>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1186>`__
 
 
 
@@ -979,7 +1439,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L870>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1288>`__
 
 
 
@@ -989,7 +1449,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1096>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1514>`__
 
 
 
@@ -999,7 +1459,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1080>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1498>`__
 
 
 
@@ -1009,7 +1469,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1126>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1544>`__
 
 
 
@@ -1019,7 +1479,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1151>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1569>`__
 
 
 
@@ -1029,7 +1489,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1138>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1556>`__
 
 
 
@@ -1039,7 +1499,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1176>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1594>`__
 
 
 
@@ -1049,7 +1509,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1324>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1742>`__
 
 
 
@@ -1059,7 +1519,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1360>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1778>`__
 
 
 
@@ -1069,7 +1529,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1190>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1608>`__
 
 
 
@@ -1079,7 +1539,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1259>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1677>`__
 
 
 
@@ -1089,7 +1549,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1397>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1815>`__
 
 
 
@@ -1099,7 +1559,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1480>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1898>`__
 
 
 
@@ -1109,7 +1569,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1663>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2081>`__
 
 
 
@@ -1119,7 +1579,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1629>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2047>`__
 
 
 
@@ -1129,7 +1589,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1694>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2112>`__
 
 
 
@@ -1139,7 +1599,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1646>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2064>`__
 
 
 
@@ -1154,7 +1614,7 @@ Helper functions
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L563>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L697>`__
 
 
 
@@ -1169,7 +1629,7 @@ Matrix functions
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1741>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2159>`__
 
 
 
@@ -1179,7 +1639,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1746>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2164>`__
 
 
 
@@ -1189,7 +1649,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1752>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2170>`__
 
 
 
@@ -1199,7 +1659,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1757>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2175>`__
 
 
 
@@ -1209,7 +1669,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1773>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2191>`__
 
 
 
@@ -1219,7 +1679,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1779>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2197>`__
 
 
 
@@ -1229,7 +1689,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1800>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2218>`__
 
 
 
@@ -1239,7 +1699,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1916>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2334>`__
 
 
 
@@ -1249,7 +1709,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1825>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2243>`__
 
 
 
@@ -1259,7 +1719,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1842>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2260>`__
 
 
 
@@ -1269,7 +1729,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1849>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2267>`__
 
 
 
@@ -1279,7 +1739,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1862>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2280>`__
 
 
 
@@ -1289,7 +1749,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1898>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2316>`__
 
 
 
@@ -1299,7 +1759,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L1905>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/dense/owl_base_dense_ndarray_generic.ml#L2323>`__
 
 
 
