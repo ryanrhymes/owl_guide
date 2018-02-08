@@ -94,8 +94,11 @@ Project 9. Dynamic Graph Optimisation
 
 This project aims to optimise the dynamic graph generated from ``Algodiff`` and ``Lazy`` module. The optimised graph can lead to superior performance in deep neural network and other advanced numerical applications. This is a non-trivial task and requires good understanding of dataflow programming, graph optimisation techniques, and so on.
 
-Refer to `Theano <http://deeplearning.net/software/theano/extending/graphstructures.html#optimizations>`_
+Refer to
 
+* `Theano AD <http://deeplearning.net/software/theano/extending/graphstructures.html#optimizations>`_
+* `Graph optimization <http://deeplearning.net/software/theano/extending/optimization.html#optimization>`_
+* `Optimizations <http://deeplearning.net/software/theano/optimizations.html#optimizations>`_
 
 
 Project 10. GPU Computing

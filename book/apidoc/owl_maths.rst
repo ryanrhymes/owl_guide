@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #142 entries have been extracted.
-timestamp: 2018-02-08 01:38:26
+timestamp: 2018-02-08 23:33:10
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
