@@ -2,8 +2,8 @@ Maths
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#142 entries have been extracted.
-timestamp: 2018-02-08 23:33:10
+#144 entries have been extracted.
+timestamp: 2018-02-09 12:51:18
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -1068,7 +1068,18 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
 
 ``permutation n k`` return the number of permutations of n things taken k at a time.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L261>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L270>`__
+
+
+
+.. code-block:: ocaml
+
+  val permutation_float : int -> int -> float
+
+``permutation_float n k`` return the number of permutations of n things taken
+k at a time. This function can deal with larger range than ``permutation``.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L263>`__
 
 
 
@@ -1077,6 +1088,17 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
   val combination : int -> int -> int
 
 ``combination n k`` return the combination number of taking k out of n.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L261>`__
+
+
+
+.. code-block:: ocaml
+
+  val combination_float : int -> int -> float
+
+``combination_float n k`` return the combination number of taking k out of n.
+This function can deal with larger range than ``combination``.
 
 `[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L259>`__
 
@@ -1093,7 +1115,7 @@ Error functions
 
 Error function.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L268>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L272>`__
 
 
 
@@ -1103,7 +1125,7 @@ Error function.
 
 Complementary error function, ``1 - erf(x)``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L270>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L274>`__
 
 
 
@@ -1113,7 +1135,7 @@ Complementary error function, ``1 - erf(x)``
 
 Scaled complementary error function, ``exp(x**2) * erfc(x)``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L272>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L276>`__
 
 
 
@@ -1123,7 +1145,7 @@ Scaled complementary error function, ``exp(x**2) * erfc(x)``.
 
 Inverse of ``erf x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L274>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L278>`__
 
 
 
@@ -1133,7 +1155,7 @@ Inverse of ``erf x``.
 
 Inverse of ``erfc x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L276>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L280>`__
 
 
 
@@ -1148,7 +1170,7 @@ Dawson & Fresnel integrals
 
 Dawson’s integral.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L278>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L282>`__
 
 
 
@@ -1159,7 +1181,7 @@ Dawson’s integral.
 Fresnel sin and cos integrals, ``fresnel x`` returns a tuple consisting of
 ``(Fresnel sin integral, Fresnel cos integral)``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L280>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L284>`__
 
 
 
@@ -1187,7 +1209,7 @@ Parameters:
 Returns:
   * Value of the Struve function of order ``v`` at ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L286>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L290>`__
 
 
 
@@ -1303,7 +1325,7 @@ Parameters:
 Returns:
   * Probability of k or fewer successes in n independent events with success probabilities of p.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L298>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L302>`__
 
 
 
@@ -1319,7 +1341,7 @@ probability density,
 .. math::
   \mathrm{bdtrc}(k, n, p) = \sum_{j=k+1}^n {{n}\choose{j}} p^j (1-p)^{n-j}
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L300>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L304>`__
 
 
 
@@ -1332,7 +1354,7 @@ Inverse function to ``bdtr`` with respect to ``p``.
 Finds the event probability ``p`` such that the sum of the terms 0 through k of
 the binomial probability density is equal to the given cumulative probability y.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L302>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L306>`__
 
 
 
@@ -1358,7 +1380,7 @@ Parameters:
 Returns:
   * Cumulative density function of the beta distribution with ``a`` and ``b`` at ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L304>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L308>`__
 
 
 
@@ -1384,7 +1406,7 @@ Parameters:
 Returns:
   * The quantile corresponding to ``p``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L306>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L310>`__
 
 
 
@@ -1399,7 +1421,7 @@ Helper functions
 
 ``is_odd x`` returns ``true`` if ``x`` is odd.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L288>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L292>`__
 
 
 
@@ -1409,7 +1431,7 @@ Helper functions
 
 ``is_even x`` returns ``true`` if ``x`` is even.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L290>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L294>`__
 
 
 
@@ -1419,7 +1441,7 @@ Helper functions
 
 ``is_pow2 x`` return ``true`` if ``x`` is integer power of 2, e.g. 32, 64, etc.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L292>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L296>`__
 
 
 
@@ -1430,7 +1452,7 @@ Helper functions
 ``nextafter from to`` returns the next representable double precision value
 of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L294>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L298>`__
 
 
 
@@ -1441,7 +1463,7 @@ of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is retu
 ``nextafter from to`` returns the next representable single precision value
 of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L296>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L300>`__
 
 
 
