@@ -3,7 +3,7 @@ Lazy Functor
 
 This document is auto-generated for Owl's APIs.
 #152 entries have been extracted.
-timestamp: 2018-02-10 15:17:25
+timestamp: 2018-02-10 17:42:51
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ 

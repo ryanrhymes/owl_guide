@@ -2,8 +2,8 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#396 entries have been extracted.
-timestamp: 2018-02-10 15:17:22
+#398 entries have been extracted.
+timestamp: 2018-02-10 17:42:48
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -2177,6 +2177,18 @@ the elements in ``x``.
 ``l2norm_sqr x`` calculates the square of l2-norm (or l2norm, Euclidean norm)
 of all elements in ``x``. The function uses conjugate transpose in the product,
 hence it always returns a float number.
+
+.. code-block:: ocaml
+
+  val vecnorm : ?axis:int -> ?p:float -> ('a, 'b) t -> ('a, 'b) t
+
+Refer to :doc:`owl_dense_ndarray_generic`.
+
+.. code-block:: ocaml
+
+  val vecnorm' : ?p:float -> ('a, 'b) t -> 'a
+
+Refer to :doc:`owl_dense_ndarray_generic`.
 
 .. code-block:: ocaml
 

@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #42 entries have been extracted.
-timestamp: 2018-02-10 15:17:22
+timestamp: 2018-02-10 17:42:49
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -113,7 +113,9 @@ Returns:
   val vecnorm : ?p:float -> ('a, 'b) t -> float
 
 ``vecnorm ~p x`` calculates the generalised vector p-norm, defined as below. If
-``x`` is a martrix, it will be flatten to a vector first.
+``x`` is a martrix, it will be flatten to a vector first. Different from the
+function of the same name in :doc:`owl_dense_ndarray_generic`, this function
+assumes the input is either 1d vector or 2d matrix.
 
 .. math::
   ||v||_p = \Big[ \sum_{k=0}^{N-1} |v_k|^p \Big]^{1/p}

@@ -3,7 +3,7 @@ Base.Stats
 
 This document is auto-generated for Owl's APIs.
 #4 entries have been extracted.
-timestamp: 2018-02-10 15:17:27
+timestamp: 2018-02-10 17:42:53
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/stats/owl_base_stats.mli>`_ 
