@@ -2,8 +2,8 @@ Linalg.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#41 entries have been extracted.
-timestamp: 2018-02-09 18:51:47
+#42 entries have been extracted.
+timestamp: 2018-02-10 15:10:28
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -48,7 +48,7 @@ is singular, ``inv`` will return a useless result.)
 the tolerance, the absolute value of the elements smaller than ``tol`` will be
 set to zeros.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L624>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L645>`__
 
 
 
@@ -90,13 +90,43 @@ where ``eps = 1e-10``.
 
   val norm : ?p:float -> ('a, 'b) t -> float
 
-``nomr ~p x`` computes the p-norm of the passed in matrix ``x``.
+``norm ~p x`` computes the p-norm of the passed in matrix ``x``.
 
-If ``p = 1``, then ``n`` is the maximum absolute column sum of the matrix.
+Parameters:
+  * ``p`` is order of norm
+  * ``x`` is the input matrix
 
-If ``p = 2``, then ``n`` is approximately ``max (svd x)``. This is equivalent to norm(X).
+Returns:
+  * If ``p = 1``, then returns the maximum absolute column sum of the matrix.
+  * If ``p = 2``, then returns approximately ``max (svd x)``.
+  * If ``p = infinity``, then returns the maximum absolute row sum of the matrix.
+  * If ``p = -1``, then returns the minimum absolute column sum of the matrix.
+  * If ``p = -2``, then returns approximately ``min (svd x)``.
+  * If ``p = -infinity``, then returns the minimum absolute row sum of the matrix.
 
-If ``p = infinity``, then ``n`` is the maximum absolute row sum of the matrix.
+.. code-block:: ocaml
+
+  val vecnorm : ?p:float -> ('a, 'b) t -> float
+
+``vecnorm ~p x`` calculates the generalised vector p-norm, defined as below. If
+``x`` is a martrix, it will be flatten to a vector first.
+
+.. math::
+  ||v||_p = \Big[ \sum_{k=0}^{N-1} |v_k|^p \Big]^{1/p}
+
+Parameters:
+  * ``p`` is order of norm
+  * ``x`` is the input vector
+
+Returns:
+  * If ``p = infinity``, then returns :math:`||v||_{\infty} = \max_i(|v(i)|)`.
+  * If ``p = -infinity``, then returns :math:`||v||_{-\infty} = \min_i(|v(i)|)`.
+  * If ``p = 2`` and ``x`` is a matrix, then returns Frobenius norm of ``x``.
+  * Otherwise returns generalised vector p-norm defined above.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L534>`__
+
+
 
 .. code-block:: ocaml
 
@@ -112,7 +142,7 @@ If ``p = infinity``, then ``n`` is the maximum absolute row sum of the matrix.
 
 The default value of ``p`` is ``2.``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L531>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L552>`__
 
 
 
@@ -386,7 +416,7 @@ obtained from the singular value decomposition. Namely, ``a *@ x`` has
 negligible elements, ``M.col_num x`` is the nullity of ``a``, and
 ``transpose x *@ x = I``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L555>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L576>`__
 
 
 
@@ -403,7 +433,7 @@ By default, ``trans = false`` indicates no transpose. If ``trans = true``, then
 function will solve ``A^T * x = b`` for real matrices; ``A^H * x = b`` for
 complex matrices.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L583>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L604>`__
 
 
 
@@ -413,7 +443,7 @@ complex matrices.
 
 ``linreg x y -> (a, b)`` solves ``y = a + b*x`` using Ordinary Least Squares.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L607>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L628>`__
 
 
 
@@ -480,7 +510,7 @@ Helper functions
 ``Owl_cblas.dgemm`` function. The default matrix size is ``2000 x 2000``, but you
 can change this by setting ``n`` to other numbers as you like.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L645>`__
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L666>`__
 
 
 
