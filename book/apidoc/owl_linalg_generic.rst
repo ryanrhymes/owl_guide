@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #42 entries have been extracted.
-timestamp: 2018-02-10 15:10:28
+timestamp: 2018-02-10 15:17:22
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -103,6 +103,10 @@ Returns:
   * If ``p = -1``, then returns the minimum absolute column sum of the matrix.
   * If ``p = -2``, then returns approximately ``min (svd x)``.
   * If ``p = -infinity``, then returns the minimum absolute row sum of the matrix.
+
+`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L523>`__
+
+
 
 .. code-block:: ocaml
 
