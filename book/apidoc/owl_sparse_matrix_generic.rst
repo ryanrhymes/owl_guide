@@ -3,7 +3,7 @@ Sparse.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #133 entries have been extracted.
-timestamp: 2018-02-10 17:42:49
+timestamp: 2018-02-11 01:10:43
 
 Github:
 `[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_matrix_generic.mli>`_ 
