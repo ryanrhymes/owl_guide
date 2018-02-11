@@ -3,11 +3,11 @@ Utils.Stack
 
 This document is auto-generated for Owl's APIs.
 #11 entries have been extracted.
-timestamp: 2018-02-11 01:10:46
+timestamp: 2018-02-11 16:15:31
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_utils_stack.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_utils_stack.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_utils_stack.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_utils_stack.ml>`_
 
 
 
@@ -38,7 +38,7 @@ Basic functions
 
 ``make ()`` creates an empty stack.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L17>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L17>`__
 
 
 
@@ -48,7 +48,7 @@ Basic functions
 
 ``push stack x`` pushes ``x`` into ``stack``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L23>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L23>`__
 
 
 
@@ -59,7 +59,7 @@ Basic functions
 ``pop stack`` pops the top element in ``stack``. It returns ``None`` if the
 ``stack`` is empty.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L32>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L32>`__
 
 
 
@@ -70,7 +70,7 @@ Basic functions
 ``peek stack`` returns the value of top element in ``stack`` but it does not
 remove the element from the stack. ``None`` is returned if the stack is empty.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L36>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L36>`__
 
 
 
@@ -80,7 +80,7 @@ remove the element from the stack. ``None`` is returned if the stack is empty.
 
 Returns ``true`` if the stack is empty, otherwise ``false``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L40>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L40>`__
 
 
 
@@ -91,7 +91,7 @@ Returns ``true`` if the stack is empty, otherwise ``false``.
 ``mem stack x`` checks whether ``x`` exist in ``stack``. The complexity is
 ``O(n)`` where ``n`` is the size of the ``stack``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L42>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L42>`__
 
 
 
@@ -101,7 +101,7 @@ Returns ``true`` if the stack is empty, otherwise ``false``.
 
 Similar to ``mem`` but physical equality is used for comparing values.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L44>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L44>`__
 
 
 
@@ -111,7 +111,7 @@ Similar to ``mem`` but physical equality is used for comparing values.
 
 ``to_array stack`` converts the elements in ``stack`` into an array.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L46>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_utils_stack.ml#L46>`__
 
 
 

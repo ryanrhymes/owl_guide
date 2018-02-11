@@ -144,7 +144,7 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name funloc =
   Printf.fprintf h "This document is auto-generated for Owl's APIs.\n";
   Printf.fprintf h "#%i entries have been extracted.\n" (Array.length apidoc);
   Printf.fprintf h "timestamp: %s\n\n" (make_timestamp ());
-  Printf.fprintf h "Github:\n`[Signature] <%s>`_ \n`[Implementation] <%s>`_\n\n\n\n" sig_url impl_url;
+  Printf.fprintf h "Github:\n`{Signature} <%s>`_ \n`{Implementation} <%s>`_\n\n\n\n" sig_url impl_url;
 
   Array.iter (function
     | `Section section_head -> (
@@ -157,7 +157,7 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name funloc =
         Printf.fprintf h ".. code-block:: ocaml\n\n  %s\n\n";
         Printf.fprintf h "%s\n\n" doc;
         match funloc_to_github_line impl_file api funloc with
-        | Some url -> Printf.fprintf h "`[ source code ] <%s>`__\n\n\n\n" url
+        | Some url -> Printf.fprintf h "`source code <%s>`__\n\n\n\n" url
         | None     -> ()
       )
   ) apidoc;

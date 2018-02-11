@@ -3,11 +3,11 @@ Regression.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #12 entries have been extracted.
-timestamp: 2018-02-11 01:10:45
+timestamp: 2018-02-11 16:15:30
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/optimise/owl_regression_generic.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/optimise/owl_regression_generic.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/optimise/owl_regression_generic.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/optimise/owl_regression_generic.ml>`_
 
 
 
@@ -41,7 +41,7 @@ Regression models
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L40>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L40>`__
 
 
 
@@ -51,7 +51,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L49>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L49>`__
 
 
 
@@ -61,7 +61,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L58>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L58>`__
 
 
 
@@ -71,7 +71,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L67>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L67>`__
 
 
 
@@ -81,7 +81,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L78>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L78>`__
 
 
 
@@ -91,7 +91,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L87>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L87>`__
 
 
 
@@ -101,7 +101,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L96>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L96>`__
 
 
 
@@ -111,7 +111,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L119>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/optimise/owl_regression_generic.ml#L119>`__
 
 
 

@@ -3,11 +3,11 @@ Sparse.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #133 entries have been extracted.
-timestamp: 2018-02-11 01:10:43
+timestamp: 2018-02-11 16:15:28
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_matrix_generic.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_matrix_generic.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_matrix_generic.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_matrix_generic.ml>`_
 
 
 
@@ -43,7 +43,7 @@ Create sparse matrices
 This operation is very fast since it only allocates a small amount of memory.
 The memory will grow automatically as more elements are inserted.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L18>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L18>`__
 
 
 
@@ -55,7 +55,7 @@ The memory will grow automatically as more elements are inserted.
 This operation can be very slow if matrix size is big. You might consider to
 use dense matrix for better performance in this case.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L535>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L535>`__
 
 
 
@@ -65,7 +65,7 @@ use dense matrix for better performance in this case.
 
 ``eye m`` creates an ``m`` by ``m`` identity matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L25>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L25>`__
 
 
 
@@ -75,7 +75,7 @@ use dense matrix for better performance in this case.
 
 ``binary m n`` creates an ``m`` by ``n`` random matrix where 10% ~ 15% elements are 1.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L561>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L561>`__
 
 
 
@@ -87,7 +87,7 @@ use dense matrix for better performance in this case.
 follow a uniform distribution in ``(0,1)`` interval. ``uniform ~scale:a m n``
 adjusts the interval to ``(0,a)``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L565>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L565>`__
 
 
 
@@ -97,7 +97,7 @@ adjusts the interval to ``(0,a)``.
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L537>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L537>`__
 
 
 
@@ -113,7 +113,7 @@ Obtain the basic properties
 If ``x`` is an ``m`` by ``n`` matrix, ``shape x`` returns ``(m,n)``, i.e., the size
 of two dimensions of ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L32>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L32>`__
 
 
 
@@ -123,7 +123,7 @@ of two dimensions of ``x``.
 
 ``row_num x`` returns the number of rows in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L34>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L34>`__
 
 
 
@@ -133,7 +133,7 @@ of two dimensions of ``x``.
 
 ``col_num x`` returns the number of columns in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L36>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L36>`__
 
 
 
@@ -143,7 +143,7 @@ of two dimensions of ``x``.
 
 ``row_num_nz x`` returns the number of non-zero rows in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L517>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L517>`__
 
 
 
@@ -153,7 +153,7 @@ of two dimensions of ``x``.
 
 ``col_num_nz x`` returns the number of non-zero columns in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L519>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L519>`__
 
 
 
@@ -164,7 +164,7 @@ of two dimensions of ``x``.
 ``numel x`` returns the number of elements in matrix ``x``. It is equivalent
 to ``(row_num x) * (col_num x)``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L38>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L38>`__
 
 
 
@@ -174,7 +174,7 @@ to ``(row_num x) * (col_num x)``.
 
 ``nnz x`` returns the number of non-zero elements in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L40>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L40>`__
 
 
 
@@ -185,7 +185,7 @@ to ``(row_num x) * (col_num x)``.
 ``nnz_rows x`` returns the number of non-zero rows in matrix ``x``. A non-zero
 row means there is at least one non-zero element in that row.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L507>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L507>`__
 
 
 
@@ -195,7 +195,7 @@ row means there is at least one non-zero element in that row.
 
 ``nnz_cols x`` returns the number of non-zero cols in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L512>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L512>`__
 
 
 
@@ -206,7 +206,7 @@ row means there is at least one non-zero element in that row.
 ``density x`` returns the density of non-zero element. This operation is
 equivalent to ``nnz x`` divided by ``numel x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L42>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L42>`__
 
 
 
@@ -221,7 +221,7 @@ Manipulate a matrix
 
 ``set x i j a`` sets the element ``(i,j)`` of ``x`` to value ``a``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L52>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L52>`__
 
 
 
@@ -231,7 +231,7 @@ Manipulate a matrix
 
 ``get x i j`` returns the value of element ``(i,j)`` of ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L50>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L50>`__
 
 
 
@@ -241,7 +241,7 @@ Manipulate a matrix
 
 ``reset x`` resets all the elements in ``x`` to ``0``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L54>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L54>`__
 
 
 
@@ -251,7 +251,7 @@ Manipulate a matrix
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L542>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L542>`__
 
 
 
@@ -263,7 +263,7 @@ TODO
 mutable no matter ``w`` is mutable or not. This is expecially useful if you
 want to modify certain elements in an immutable matrix from math operations.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L58>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L58>`__
 
 
 
@@ -273,7 +273,7 @@ want to modify certain elements in an immutable matrix from math operations.
 
 ``transpose x`` transposes an ``m`` by ``n`` matrix to ``n`` by ``m`` one.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L65>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L65>`__
 
 
 
@@ -283,7 +283,7 @@ want to modify certain elements in an immutable matrix from math operations.
 
 ``diag x`` returns the diagonal elements of ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L72>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L72>`__
 
 
 
@@ -293,7 +293,7 @@ want to modify certain elements in an immutable matrix from math operations.
 
 ``row x i`` returns the row ``i`` of ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L81>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L81>`__
 
 
 
@@ -303,7 +303,7 @@ want to modify certain elements in an immutable matrix from math operations.
 
 ``col x j`` returns the column ``j`` of ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L88>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L88>`__
 
 
 
@@ -315,7 +315,7 @@ want to modify certain elements in an immutable matrix from math operations.
 returned rows will be combined into a new sparse matrix. The order of rows in
 the new matrix is the same as that in the array ``a``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L586>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L586>`__
 
 
 
@@ -326,7 +326,7 @@ the new matrix is the same as that in the array ``a``.
 Similar to ``rows``, ``cols x a`` returns the columns (specified in array ``a``)
 of x in a new sparse matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L593>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L593>`__
 
 
 
@@ -336,7 +336,7 @@ of x in a new sparse matrix.
 
 ``prune x ...``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L56>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L56>`__
 
 
 
@@ -346,7 +346,7 @@ of x in a new sparse matrix.
 
 ``concat_vertical x y`` not implemented yet
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L600>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L600>`__
 
 
 
@@ -356,7 +356,7 @@ of x in a new sparse matrix.
 
 ``concat_horizontal x y`` not implemented yet
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L603>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L603>`__
 
 
 
@@ -373,7 +373,7 @@ Iterate elements, columns, and rows
 function ``f : int -> int -> float -> 'a``. ``f i j v`` takes three parameters,
 ``i`` and ``j`` are the coordinates of current element, and ``v`` is its value.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L95>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L95>`__
 
 
 
@@ -384,7 +384,7 @@ function ``f : int -> int -> float -> 'a``. ``f i j v`` takes three parameters,
 ``iter f x`` is the same as as ``iteri f x`` except the coordinates of the
 current element is not passed to the function ``f : float -> 'a``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L102>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L102>`__
 
 
 
@@ -396,7 +396,7 @@ current element is not passed to the function ``f : float -> 'a``
 ``f : int -> int -> float -> float``. The first two parameters are the
 coordinates of the element, and the third parameter is the value.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L109>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L109>`__
 
 
 
@@ -407,7 +407,7 @@ coordinates of the element, and the third parameter is the value.
 ``map f x`` is similar to ``mapi f x`` except the coordinates of the
 current element is not passed to the function ``f : float -> float``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L115>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L115>`__
 
 
 
@@ -419,7 +419,7 @@ current element is not passed to the function ``f : float -> float``
 ``f : 'a -> float -> 'a``. For an ``m`` by ``n`` matrix ``x``, the order of folding
 is from ``(0,0)`` to ``(m-1,n-1)``, row by row.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L125>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L125>`__
 
 
 
@@ -431,7 +431,7 @@ is from ``(0,0)`` to ``(m-1,n-1)``, row by row.
 elements in ``x``. An element will be included if ``f`` returns ``true``. The
 returned result is a list of coordinates of the selected elements.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L132>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L132>`__
 
 
 
@@ -442,7 +442,7 @@ returned result is a list of coordinates of the selected elements.
 Similar to ``filteri``, but the coordinates of the elements are not passed to
 the function ``f : float -> bool``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L139>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L139>`__
 
 
 
@@ -453,7 +453,7 @@ the function ``f : float -> bool``.
 ``iteri_rows f x`` iterates every row in ``x`` and applies function
 ``f : int -> mat -> unit`` to each of them.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L216>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L216>`__
 
 
 
@@ -463,7 +463,7 @@ the function ``f : float -> bool``.
 
 Similar to ``iteri_rows`` except row number is not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L218>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L218>`__
 
 
 
@@ -475,7 +475,7 @@ Similar to ``iteri_rows`` except row number is not passed to ``f``.
 ``f : int -> mat -> unit`` to each of them. Column number is passed to ``f`` as
 the first parameter.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L220>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L220>`__
 
 
 
@@ -485,7 +485,7 @@ the first parameter.
 
 Similar to ``iteri_cols`` except col number is not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L222>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L222>`__
 
 
 
@@ -497,7 +497,7 @@ Similar to ``iteri_cols`` except col number is not passed to ``f``.
 function ``f : int -> mat -> 'a`` to each of them. The results is an array of
 all the returned values.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L224>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L224>`__
 
 
 
@@ -507,7 +507,7 @@ all the returned values.
 
 Similar to ``mapi_rows`` except row number is not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L228>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L228>`__
 
 
 
@@ -518,7 +518,7 @@ Similar to ``mapi_rows`` except row number is not passed to ``f``.
 ``mapi_cols f x`` maps every column in ``x`` to a type ``'a`` value by applying
 function ``f : int -> mat -> 'a``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L230>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L230>`__
 
 
 
@@ -528,7 +528,7 @@ function ``f : int -> mat -> 'a``.
 
 Similar to ``mapi_cols`` except column number is not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L234>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L234>`__
 
 
 
@@ -539,7 +539,7 @@ Similar to ``mapi_cols`` except column number is not passed to ``f``.
 ``fold_rows f a x`` folds all the rows in ``x`` using function ``f``. The order
 of folding is from the first row to the last one.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L236>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L236>`__
 
 
 
@@ -550,7 +550,7 @@ of folding is from the first row to the last one.
 ``fold_cols f a x`` folds all the columns in ``x`` using function ``f``. The
 order of folding is from the first column to the last one.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L238>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L238>`__
 
 
 
@@ -561,7 +561,7 @@ order of folding is from the first column to the last one.
 ``iteri_nz f x`` iterates all the non-zero elements in ``x`` by applying the
 function ``f : int -> int -> float -> 'a``. It is much faster than ``iteri``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L141>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L141>`__
 
 
 
@@ -571,7 +571,7 @@ function ``f : int -> int -> float -> 'a``. It is much faster than ``iteri``.
 
 Similar to ``iter_nz`` except the coordinates of elements are not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L153>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L153>`__
 
 
 
@@ -582,7 +582,7 @@ Similar to ``iter_nz`` except the coordinates of elements are not passed to ``f`
 ``mapi_nz f x`` is similar to ``mapi f x`` but only applies ``f`` to non-zero
 elements in ``x``. The zeros in ``x`` will remain the same in the new matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L160>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L160>`__
 
 
 
@@ -592,7 +592,7 @@ elements in ``x``. The zeros in ``x`` will remain the same in the new matrix.
 
 Similar to ``mapi_nz`` except the coordinates of elements are not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L175>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L175>`__
 
 
 
@@ -603,7 +603,7 @@ Similar to ``mapi_nz`` except the coordinates of elements are not passed to ``f`
 ``fold_nz f a x`` is similar to ``fold f a x`` but only applies to non-zero
 rows in ``x``. zero rows will be simply skipped in folding.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L190>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L190>`__
 
 
 
@@ -614,7 +614,7 @@ rows in ``x``. zero rows will be simply skipped in folding.
 ``filteri_nz f x`` is similar to ``filter f x`` but only applies ``f`` to
 non-zero elements in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L192>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L192>`__
 
 
 
@@ -625,7 +625,7 @@ non-zero elements in ``x``.
 ``filter_nz f x`` is similar to ``filteri_nz`` except that the coordinates of
 matrix elements are not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L199>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L199>`__
 
 
 
@@ -636,7 +636,7 @@ matrix elements are not passed to ``f``.
 ``iteri_rows_nz f x`` is similar to ``iteri_rows`` but only applies ``f`` to
 non-zero rows in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L240>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L240>`__
 
 
 
@@ -646,7 +646,7 @@ non-zero rows in ``x``.
 
 Similar to ``iteri_rows_nz`` except that row numbers are not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L242>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L242>`__
 
 
 
@@ -657,7 +657,7 @@ Similar to ``iteri_rows_nz`` except that row numbers are not passed to ``f``.
 ``iteri_cols_nz f x`` is similar to ``iteri_cols`` but only applies ``f`` to
 non-zero columns in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L244>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L244>`__
 
 
 
@@ -667,7 +667,7 @@ non-zero columns in ``x``.
 
 Similar to ``iteri_cols_nz`` except that column numbers are not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L246>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L246>`__
 
 
 
@@ -677,7 +677,7 @@ Similar to ``iteri_cols_nz`` except that column numbers are not passed to ``f``.
 
 ``mapi_rows_nz f x`` applies ``f`` only to the non-zero rows in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L248>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L248>`__
 
 
 
@@ -687,7 +687,7 @@ Similar to ``iteri_cols_nz`` except that column numbers are not passed to ``f``.
 
 Similar to ``mapi_rows_nz``, but row numbers are not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L256>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L256>`__
 
 
 
@@ -697,7 +697,7 @@ Similar to ``mapi_rows_nz``, but row numbers are not passed to ``f``.
 
 ``mapi_cols_nz f x`` applies ``f`` only to the non-zero columns in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L258>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L258>`__
 
 
 
@@ -707,7 +707,7 @@ Similar to ``mapi_rows_nz``, but row numbers are not passed to ``f``.
 
 Similar to ``mapi_cols_nz``, but columns numbers are not passed to ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L266>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L266>`__
 
 
 
@@ -718,7 +718,7 @@ Similar to ``mapi_cols_nz``, but columns numbers are not passed to ``f``.
 ``fold_rows_nz f a x`` is similar to ``fold_rows`` but only folds non-zero
 rows in ``x`` using function ``f``. Zero rows will be dropped in iterating ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L268>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L268>`__
 
 
 
@@ -729,7 +729,7 @@ rows in ``x`` using function ``f``. Zero rows will be dropped in iterating ``x``
 ``fold_cols_nz f a x`` is similar to ``fold_cols`` but only folds non-zero
 columns in ``x`` using function ``f``. Zero columns will be dropped in iterating ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L270>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L270>`__
 
 
 
@@ -745,7 +745,7 @@ Examin elements and compare two matrices
 ``exists f x`` checks all the elements in ``x`` using ``f``. If at least one
 element satisfies ``f`` then the function returns ``true`` otherwise ``false``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L278>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L278>`__
 
 
 
@@ -756,7 +756,7 @@ element satisfies ``f`` then the function returns ``true`` otherwise ``false``.
 ``not_exists f x`` checks all the elements in ``x``, the function returns
 ``true`` only if all the elements fail to satisfy ``f : float -> bool``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L280>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L280>`__
 
 
 
@@ -767,7 +767,7 @@ element satisfies ``f`` then the function returns ``true`` otherwise ``false``.
 ``for_all f x`` checks all the elements in ``x``, the function returns ``true``
 if and only if all the elements pass the check of function ``f``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L282>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L282>`__
 
 
 
@@ -777,7 +777,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``exists_nz f x`` is similar to ``exists`` but only checks non-zero elements.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L284>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L284>`__
 
 
 
@@ -787,7 +787,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``not_exists_nz f x`` is similar to ``not_exists`` but only checks non-zero elements.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L286>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L286>`__
 
 
 
@@ -797,7 +797,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``for_all_nz f x`` is similar to ``for_all_nz`` but only checks non-zero elements.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L288>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L288>`__
 
 
 
@@ -807,7 +807,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``is_zero x`` returns ``true`` if all the elements in ``x`` are zeros.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L290>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L290>`__
 
 
 
@@ -817,7 +817,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``is_positive x`` returns ``true`` if all the elements in ``x`` are positive.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L292>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L292>`__
 
 
 
@@ -827,7 +827,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``is_negative x`` returns ``true`` if all the elements in ``x`` are negative.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L294>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L294>`__
 
 
 
@@ -837,7 +837,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``is_nonpositive`` returns ``true`` if all the elements in ``x`` are non-positive.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L296>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L296>`__
 
 
 
@@ -847,7 +847,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``is_nonnegative`` returns ``true`` if all the elements in ``x`` are non-negative.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L298>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L298>`__
 
 
 
@@ -857,7 +857,7 @@ if and only if all the elements pass the check of function ``f``.
 
 ``equal x y`` returns ``true`` if two matrices ``x`` and ``y`` are equal.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L300>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L300>`__
 
 
 
@@ -868,7 +868,7 @@ if and only if all the elements pass the check of function ``f``.
 ``not_equal x y`` returns ``true`` if there is at least one element in ``x`` is
 not equal to that in ``y``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L302>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L302>`__
 
 
 
@@ -879,7 +879,7 @@ not equal to that in ``y``.
 ``greater x y`` returns ``true`` if all the elements in ``x`` are greater than
 the corresponding elements in ``y``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L304>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L304>`__
 
 
 
@@ -890,7 +890,7 @@ the corresponding elements in ``y``.
 ``less x y`` returns ``true`` if all the elements in ``x`` are smaller than
 the corresponding elements in ``y``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L306>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L306>`__
 
 
 
@@ -901,7 +901,7 @@ the corresponding elements in ``y``.
 ``greater_equal x y`` returns ``true`` if all the elements in ``x`` are not
 smaller than the corresponding elements in ``y``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L308>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L308>`__
 
 
 
@@ -912,7 +912,7 @@ smaller than the corresponding elements in ``y``.
 ``less_equal x y`` returns ``true`` if all the elements in ``x`` are not
 greater than the corresponding elements in ``y``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L310>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L310>`__
 
 
 
@@ -927,7 +927,7 @@ Randomisation functions
 
 ``permutation_matrix m`` returns an ``m`` by ``m`` permutation matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L428>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L428>`__
 
 
 
@@ -939,7 +939,7 @@ Randomisation functions
 returned in an int array along with the selected rows. The parameter
 ``replacement`` indicates whether the drawing is by replacement or not.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L435>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L435>`__
 
 
 
@@ -951,7 +951,7 @@ returned in an int array along with the selected rows. The parameter
 also returned in an int array along with the selected columns. The parameter
 ``replacement`` indicates whether the drawing is by replacement or not.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L447>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L447>`__
 
 
 
@@ -961,7 +961,7 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle_rows x`` shuffles all the rows in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L459>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L459>`__
 
 
 
@@ -971,7 +971,7 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle_cols x`` shuffles all the columns in matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L463>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L463>`__
 
 
 
@@ -982,7 +982,7 @@ also returned in an int array along with the selected columns. The parameter
 ``shuffle x`` shuffles all the elements in ``x`` by first shuffling along the
 rows then shuffling along columns. It is equivalent to ``shuffle_cols (shuffle_rows x)``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L467>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L467>`__
 
 
 
@@ -997,7 +997,7 @@ Input/Output and helper functions
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L521>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L521>`__
 
 
 
@@ -1007,7 +1007,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L530>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L530>`__
 
 
 
@@ -1017,7 +1017,7 @@ TODO
 
 ``to_dense x`` converts ``x`` into a dense matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L469>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L469>`__
 
 
 
@@ -1027,7 +1027,7 @@ TODO
 
 ``of_dense x`` returns a sparse matrix from the dense matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L474>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L474>`__
 
 
 
@@ -1037,7 +1037,7 @@ TODO
 
 ``print x`` pretty prints matrix ``x`` without headings.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L569>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L569>`__
 
 
 
@@ -1048,7 +1048,7 @@ TODO
 ``pp_spmat x`` pretty prints matrix ``x`` with headings. Toplevel uses this
 function to print out the matrices.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L572>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L572>`__
 
 
 
@@ -1059,7 +1059,7 @@ function to print out the matrices.
 ``save x f`` saves the matrix ``x`` to a file with the name ``f``. The format
 is binary by using ``Marshal`` module to serialise the matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L581>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L581>`__
 
 
 
@@ -1070,7 +1070,7 @@ is binary by using ``Marshal`` module to serialise the matrix.
 ``load k f`` loads a sparse matrix from file ``f``. The file must be previously
 saved by using ``save`` function.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L583>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L583>`__
 
 
 
@@ -1085,7 +1085,7 @@ Unary mathematical operations
 
 ``min x`` returns the minimum value of all elements in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L375>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L375>`__
 
 
 
@@ -1095,7 +1095,7 @@ Unary mathematical operations
 
 ``max x`` returns the maximum value of all elements in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L377>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L377>`__
 
 
 
@@ -1105,7 +1105,7 @@ Unary mathematical operations
 
 ``minmax x`` returns both the minimum and minimum values in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L380>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L380>`__
 
 
 
@@ -1115,7 +1115,7 @@ Unary mathematical operations
 
 ``trace x`` returns the sum of diagonal elements in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L79>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L79>`__
 
 
 
@@ -1125,7 +1125,7 @@ Unary mathematical operations
 
 ``sum x`` returns the summation of all the elements in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L386>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L386>`__
 
 
 
@@ -1136,7 +1136,7 @@ Unary mathematical operations
 ``mean x`` returns the mean value of all the elements in ``x``. It is
 equivalent to calculate ``sum x`` divided by ``numel x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L388>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L388>`__
 
 
 
@@ -1146,7 +1146,7 @@ equivalent to calculate ``sum x`` divided by ``numel x``
 
 ``sum_rows x`` returns the summation of all the row vectors in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L485>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L485>`__
 
 
 
@@ -1156,7 +1156,7 @@ equivalent to calculate ``sum x`` divided by ``numel x``
 
 ``sum_cols`` returns the summation of all the column vectors in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L489>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L489>`__
 
 
 
@@ -1167,7 +1167,7 @@ equivalent to calculate ``sum x`` divided by ``numel x``
 ``mean_rows x`` returns the mean value of all row vectors in ``x``. It is
 equivalent to ``div_scalar (sum_rows x) (float_of_int (row_num x))``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L493>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L493>`__
 
 
 
@@ -1178,7 +1178,7 @@ equivalent to ``div_scalar (sum_rows x) (float_of_int (row_num x))``.
 ``mean_cols x`` returns the mean value of all column vectors in ``x``.
 It is equivalent to ``div_scalar (sum_cols x) (float_of_int (col_num x))``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L500>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L500>`__
 
 
 
@@ -1189,7 +1189,7 @@ It is equivalent to ``div_scalar (sum_cols x) (float_of_int (col_num x))``.
 ``abs x`` returns a new matrix where each element has the absolute value of
 that in the original matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L390>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L390>`__
 
 
 
@@ -1200,7 +1200,7 @@ that in the original matrix ``x``.
 ``neg x`` returns a new matrix where each element has the negative value of
 that in the original matrix ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L397>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L397>`__
 
 
 
@@ -1210,7 +1210,7 @@ that in the original matrix ``x``.
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L413>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L413>`__
 
 
 
@@ -1220,7 +1220,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L415>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L415>`__
 
 
 
@@ -1235,7 +1235,7 @@ Binary mathematical operations
 
 ``add x y`` adds two matrices ``x`` and ``y``. Both must have the same dimensions.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L312>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L312>`__
 
 
 
@@ -1245,7 +1245,7 @@ Binary mathematical operations
 
 ``sub x y`` subtracts the matrix ``x`` from ``y``. Both must have the same dimensions.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L319>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L319>`__
 
 
 
@@ -1256,7 +1256,7 @@ Binary mathematical operations
 ``mul x y`` performs an element-wise multiplication, so both ``x`` and ``y``
 must have the same dimensions.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L326>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L326>`__
 
 
 
@@ -1267,7 +1267,7 @@ must have the same dimensions.
 ``div x y`` performs an element-wise division, so both ``x`` and ``y``
 must have the same dimensions.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L333>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L333>`__
 
 
 
@@ -1278,7 +1278,7 @@ must have the same dimensions.
 ``dot x y`` calculates the dot product of an ``m`` by ``n`` matrix ``x`` and
 another ``n`` by ``p`` matrix ``y``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L340>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L340>`__
 
 
 
@@ -1288,7 +1288,7 @@ another ``n`` by ``p`` matrix ``y``.
 
 ``mul_scalar x a`` multiplies every element in ``x`` by a constant factor ``a``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L361>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L361>`__
 
 
 
@@ -1298,7 +1298,7 @@ another ``n`` by ``p`` matrix ``y``.
 
 ``div_scalar x a`` divides every element in ``x`` by a constant factor ``a``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L368>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L368>`__
 
 
 
@@ -1308,7 +1308,7 @@ another ``n`` by ``p`` matrix ``y``.
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L417>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L417>`__
 
 
 
@@ -1318,7 +1318,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L419>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L419>`__
 
 
 
@@ -1328,7 +1328,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L421>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L421>`__
 
 
 
@@ -1338,7 +1338,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L423>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L423>`__
 
 
 
@@ -1348,7 +1348,7 @@ TODO
 
 ``power x a`` calculates the power of ``a`` of each element in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L409>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L409>`__
 
 
 

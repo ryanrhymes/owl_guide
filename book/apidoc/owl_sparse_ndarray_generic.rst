@@ -3,11 +3,11 @@ Sparse.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #85 entries have been extracted.
-timestamp: 2018-02-11 01:10:43
+timestamp: 2018-02-11 16:15:28
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_ndarray_generic.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_ndarray_generic.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_ndarray_generic.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_ndarray_generic.ml>`_
 
 
 
@@ -41,7 +41,7 @@ Create sparse ndarray
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L62>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L62>`__
 
 
 
@@ -51,7 +51,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L555>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L555>`__
 
 
 
@@ -61,7 +61,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L559>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L559>`__
 
 
 
@@ -76,7 +76,7 @@ Obtain basic properties
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L71>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L71>`__
 
 
 
@@ -86,7 +86,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L73>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L73>`__
 
 
 
@@ -96,7 +96,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L75>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L75>`__
 
 
 
@@ -106,7 +106,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L77>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L77>`__
 
 
 
@@ -116,7 +116,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L17>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L17>`__
 
 
 
@@ -126,7 +126,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L79>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L79>`__
 
 
 
@@ -136,7 +136,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L86>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L86>`__
 
 
 
@@ -146,7 +146,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L84>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L84>`__
 
 
 
@@ -161,7 +161,7 @@ Manipulate a N-dimensional array
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L108>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L108>`__
 
 
 
@@ -171,7 +171,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L113>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L113>`__
 
 
 
@@ -181,7 +181,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L321>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L321>`__
 
 
 
@@ -191,7 +191,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L102>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L102>`__
 
 
 
@@ -201,7 +201,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L132>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L132>`__
 
 
 
@@ -211,7 +211,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L143>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L143>`__
 
 
 
@@ -221,7 +221,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L255>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L255>`__
 
 
 
@@ -231,7 +231,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L273>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L273>`__
 
 
 
@@ -246,7 +246,7 @@ Iterate array elements
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L183>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L183>`__
 
 
 
@@ -256,7 +256,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L188>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L188>`__
 
 
 
@@ -266,7 +266,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L190>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L190>`__
 
 
 
@@ -276,7 +276,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L195>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L195>`__
 
 
 
@@ -286,7 +286,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L281>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L281>`__
 
 
 
@@ -296,7 +296,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L290>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L290>`__
 
 
 
@@ -306,7 +306,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L311>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L311>`__
 
 
 
@@ -316,7 +316,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L307>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L307>`__
 
 
 
@@ -326,7 +326,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L212>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L212>`__
 
 
 
@@ -336,7 +336,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L217>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L217>`__
 
 
 
@@ -346,7 +346,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L222>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L222>`__
 
 
 
@@ -356,7 +356,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L232>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L232>`__
 
 
 
@@ -366,7 +366,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L292>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L292>`__
 
 
 
@@ -376,7 +376,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L301>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L301>`__
 
 
 
@@ -386,7 +386,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L316>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L316>`__
 
 
 
@@ -396,7 +396,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L309>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L309>`__
 
 
 
@@ -411,7 +411,7 @@ Examine array elements or compare two arrays
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L349>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L349>`__
 
 
 
@@ -421,7 +421,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L351>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L351>`__
 
 
 
@@ -431,7 +431,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L353>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L353>`__
 
 
 
@@ -441,7 +441,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L361>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L361>`__
 
 
 
@@ -451,7 +451,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L363>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L363>`__
 
 
 
@@ -461,7 +461,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L368>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L368>`__
 
 
 
@@ -471,7 +471,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L373>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L373>`__
 
 
 
@@ -481,7 +481,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L377>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L377>`__
 
 
 
@@ -491,7 +491,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L461>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L461>`__
 
 
 
@@ -501,7 +501,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L466>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L466>`__
 
 
 
@@ -511,7 +511,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L468>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L468>`__
 
 
 
@@ -521,7 +521,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L472>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L472>`__
 
 
 
@@ -531,7 +531,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L474>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L474>`__
 
 
 
@@ -541,7 +541,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L478>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L478>`__
 
 
 
@@ -556,7 +556,7 @@ Input/Output and helper functions
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L563>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L563>`__
 
 
 
@@ -566,7 +566,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L572>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L572>`__
 
 
 
@@ -576,7 +576,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L509>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L509>`__
 
 
 
@@ -586,7 +586,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L516>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L516>`__
 
 
 
@@ -596,7 +596,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L538>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L538>`__
 
 
 
@@ -606,7 +606,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L540>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L540>`__
 
 
 
@@ -621,7 +621,7 @@ Unary mathematical operations
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L493>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L493>`__
 
 
 
@@ -631,7 +631,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L495>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L495>`__
 
 
 
@@ -641,7 +641,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L480>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L480>`__
 
 
 
@@ -651,7 +651,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L451>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L451>`__
 
 
 
@@ -661,7 +661,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L424>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L424>`__
 
 
 
@@ -671,7 +671,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L455>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L455>`__
 
 
 
@@ -681,7 +681,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L459>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L459>`__
 
 
 
@@ -696,7 +696,7 @@ Binary mathematical operations
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L409>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L409>`__
 
 
 
@@ -706,7 +706,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L426>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L426>`__
 
 
 
@@ -716,7 +716,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L428>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L428>`__
 
 
 
@@ -726,7 +726,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L439>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L439>`__
 
 
 
@@ -736,7 +736,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L381>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L381>`__
 
 
 
@@ -746,7 +746,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L385>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L385>`__
 
 
 
@@ -756,7 +756,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L387>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L387>`__
 
 
 
@@ -766,7 +766,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L391>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L391>`__
 
 
 
@@ -776,7 +776,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L393>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L393>`__
 
 
 
@@ -786,7 +786,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L397>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L397>`__
 
 
 
@@ -796,7 +796,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L401>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L401>`__
 
 
 
@@ -806,7 +806,7 @@ TODO
 
 TODO
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L405>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_ndarray_generic.ml#L405>`__
 
 
 

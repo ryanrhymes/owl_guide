@@ -3,11 +3,11 @@ Low-level LAPACKE API
 
 This document is auto-generated for Owl's APIs.
 #1034 entries have been extracted.
-timestamp: 2018-02-11 01:10:44
+timestamp: 2018-02-11 16:15:29
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/lapacke/owl_lapacke_generated.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/lapacke/owl_lapacke_generated.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/lapacke/owl_lapacke_generated.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/lapacke/owl_lapacke_generated.ml>`_
 
 
 
@@ -17,7 +17,7 @@ Github:
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4148>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4148>`__
 
 
 
@@ -27,7 +27,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4151>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4151>`__
 
 
 
@@ -37,7 +37,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4154>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4154>`__
 
 
 
@@ -47,7 +47,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4157>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4157>`__
 
 
 
@@ -57,7 +57,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4160>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4160>`__
 
 
 
@@ -67,7 +67,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4163>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4163>`__
 
 
 
@@ -77,7 +77,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4166>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4166>`__
 
 
 
@@ -87,7 +87,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4169>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4169>`__
 
 
 
@@ -97,7 +97,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4172>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4172>`__
 
 
 
@@ -107,7 +107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4175>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4175>`__
 
 
 
@@ -117,7 +117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4178>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4178>`__
 
 
 
@@ -127,7 +127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4181>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4181>`__
 
 
 
@@ -137,7 +137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4184>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4184>`__
 
 
 
@@ -147,7 +147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4187>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4187>`__
 
 
 
@@ -157,7 +157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4190>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4190>`__
 
 
 
@@ -167,7 +167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4193>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4193>`__
 
 
 
@@ -177,7 +177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4196>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4196>`__
 
 
 
@@ -187,7 +187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4199>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4199>`__
 
 
 
@@ -197,7 +197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4202>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4202>`__
 
 
 
@@ -207,7 +207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4205>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4205>`__
 
 
 
@@ -217,7 +217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4208>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4208>`__
 
 
 
@@ -227,7 +227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4211>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4211>`__
 
 
 
@@ -237,7 +237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4214>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4214>`__
 
 
 
@@ -247,7 +247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4217>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4217>`__
 
 
 
@@ -257,7 +257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4220>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4220>`__
 
 
 
@@ -267,7 +267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4223>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4223>`__
 
 
 
@@ -277,7 +277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4226>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4226>`__
 
 
 
@@ -287,7 +287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4229>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4229>`__
 
 
 
@@ -297,7 +297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4232>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4232>`__
 
 
 
@@ -307,7 +307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4235>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4235>`__
 
 
 
@@ -317,7 +317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4238>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4238>`__
 
 
 
@@ -327,7 +327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4241>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4241>`__
 
 
 
@@ -337,7 +337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4244>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4244>`__
 
 
 
@@ -347,7 +347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4247>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4247>`__
 
 
 
@@ -357,7 +357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4250>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4250>`__
 
 
 
@@ -367,7 +367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4253>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4253>`__
 
 
 
@@ -377,7 +377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4256>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4256>`__
 
 
 
@@ -387,7 +387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4259>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4259>`__
 
 
 
@@ -397,7 +397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4262>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4262>`__
 
 
 
@@ -407,7 +407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4265>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4265>`__
 
 
 
@@ -417,7 +417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4268>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4268>`__
 
 
 
@@ -427,7 +427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4271>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4271>`__
 
 
 
@@ -437,7 +437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4274>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4274>`__
 
 
 
@@ -447,7 +447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4277>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4277>`__
 
 
 
@@ -457,7 +457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4280>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4280>`__
 
 
 
@@ -467,7 +467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4283>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4283>`__
 
 
 
@@ -477,7 +477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4286>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4286>`__
 
 
 
@@ -487,7 +487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4289>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4289>`__
 
 
 
@@ -497,7 +497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4292>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4292>`__
 
 
 
@@ -507,7 +507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4295>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4295>`__
 
 
 
@@ -517,7 +517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4298>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4298>`__
 
 
 
@@ -527,7 +527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4301>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4301>`__
 
 
 
@@ -537,7 +537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4304>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4304>`__
 
 
 
@@ -547,7 +547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4307>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4307>`__
 
 
 
@@ -557,7 +557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4310>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4310>`__
 
 
 
@@ -567,7 +567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4313>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4313>`__
 
 
 
@@ -577,7 +577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4316>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4316>`__
 
 
 
@@ -587,7 +587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4319>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4319>`__
 
 
 
@@ -597,7 +597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4322>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4322>`__
 
 
 
@@ -607,7 +607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4325>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4325>`__
 
 
 
@@ -617,7 +617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4328>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4328>`__
 
 
 
@@ -627,7 +627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4331>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4331>`__
 
 
 
@@ -637,7 +637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4334>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4334>`__
 
 
 
@@ -647,7 +647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4337>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4337>`__
 
 
 
@@ -657,7 +657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4340>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4340>`__
 
 
 
@@ -667,7 +667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4343>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4343>`__
 
 
 
@@ -677,7 +677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4346>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4346>`__
 
 
 
@@ -687,7 +687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4349>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4349>`__
 
 
 
@@ -697,7 +697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4352>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4352>`__
 
 
 
@@ -707,7 +707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4355>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4355>`__
 
 
 
@@ -717,7 +717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4358>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4358>`__
 
 
 
@@ -727,7 +727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4361>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4361>`__
 
 
 
@@ -737,7 +737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4364>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4364>`__
 
 
 
@@ -747,7 +747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4367>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4367>`__
 
 
 
@@ -757,7 +757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4370>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4370>`__
 
 
 
@@ -767,7 +767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4373>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4373>`__
 
 
 
@@ -777,7 +777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4376>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4376>`__
 
 
 
@@ -787,7 +787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4379>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4379>`__
 
 
 
@@ -797,7 +797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4382>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4382>`__
 
 
 
@@ -807,7 +807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4385>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4385>`__
 
 
 
@@ -817,7 +817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4388>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4388>`__
 
 
 
@@ -827,7 +827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4391>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4391>`__
 
 
 
@@ -837,7 +837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4394>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4394>`__
 
 
 
@@ -847,7 +847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4397>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4397>`__
 
 
 
@@ -857,7 +857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4400>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4400>`__
 
 
 
@@ -867,7 +867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4403>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4403>`__
 
 
 
@@ -877,7 +877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4406>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4406>`__
 
 
 
@@ -887,7 +887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4409>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4409>`__
 
 
 
@@ -897,7 +897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4412>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4412>`__
 
 
 
@@ -907,7 +907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4415>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4415>`__
 
 
 
@@ -917,7 +917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4418>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4418>`__
 
 
 
@@ -927,7 +927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4421>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4421>`__
 
 
 
@@ -937,7 +937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4424>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4424>`__
 
 
 
@@ -947,7 +947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4427>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4427>`__
 
 
 
@@ -957,7 +957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4430>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4430>`__
 
 
 
@@ -967,7 +967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4433>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4433>`__
 
 
 
@@ -977,7 +977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4436>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4436>`__
 
 
 
@@ -987,7 +987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4439>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4439>`__
 
 
 
@@ -997,7 +997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4442>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4442>`__
 
 
 
@@ -1007,7 +1007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4445>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4445>`__
 
 
 
@@ -1017,7 +1017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4448>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4448>`__
 
 
 
@@ -1027,7 +1027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4451>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4451>`__
 
 
 
@@ -1037,7 +1037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4454>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4454>`__
 
 
 
@@ -1047,7 +1047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4457>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4457>`__
 
 
 
@@ -1057,7 +1057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4460>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4460>`__
 
 
 
@@ -1067,7 +1067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4463>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4463>`__
 
 
 
@@ -1077,7 +1077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4466>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4466>`__
 
 
 
@@ -1087,7 +1087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4469>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4469>`__
 
 
 
@@ -1097,7 +1097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4472>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4472>`__
 
 
 
@@ -1107,7 +1107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4475>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4475>`__
 
 
 
@@ -1117,7 +1117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4478>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4478>`__
 
 
 
@@ -1127,7 +1127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4481>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4481>`__
 
 
 
@@ -1137,7 +1137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4484>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4484>`__
 
 
 
@@ -1147,7 +1147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4487>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4487>`__
 
 
 
@@ -1157,7 +1157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4490>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4490>`__
 
 
 
@@ -1167,7 +1167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4493>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4493>`__
 
 
 
@@ -1177,7 +1177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4496>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4496>`__
 
 
 
@@ -1187,7 +1187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4499>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4499>`__
 
 
 
@@ -1197,7 +1197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4502>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4502>`__
 
 
 
@@ -1207,7 +1207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4505>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4505>`__
 
 
 
@@ -1217,7 +1217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4508>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4508>`__
 
 
 
@@ -1227,7 +1227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4511>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4511>`__
 
 
 
@@ -1237,7 +1237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4514>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4514>`__
 
 
 
@@ -1247,7 +1247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4517>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4517>`__
 
 
 
@@ -1257,7 +1257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4520>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4520>`__
 
 
 
@@ -1267,7 +1267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4523>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4523>`__
 
 
 
@@ -1277,7 +1277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4526>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4526>`__
 
 
 
@@ -1287,7 +1287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4529>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4529>`__
 
 
 
@@ -1297,7 +1297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4532>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4532>`__
 
 
 
@@ -1307,7 +1307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4535>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4535>`__
 
 
 
@@ -1317,7 +1317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4538>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4538>`__
 
 
 
@@ -1327,7 +1327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4541>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4541>`__
 
 
 
@@ -1337,7 +1337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4544>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4544>`__
 
 
 
@@ -1347,7 +1347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4547>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4547>`__
 
 
 
@@ -1357,7 +1357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4550>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4550>`__
 
 
 
@@ -1367,7 +1367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4553>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4553>`__
 
 
 
@@ -1377,7 +1377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4556>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4556>`__
 
 
 
@@ -1387,7 +1387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4559>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4559>`__
 
 
 
@@ -1397,7 +1397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4562>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4562>`__
 
 
 
@@ -1407,7 +1407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4565>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4565>`__
 
 
 
@@ -1417,7 +1417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4568>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4568>`__
 
 
 
@@ -1427,7 +1427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4571>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4571>`__
 
 
 
@@ -1437,7 +1437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4574>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4574>`__
 
 
 
@@ -1447,7 +1447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4577>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4577>`__
 
 
 
@@ -1457,7 +1457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4580>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4580>`__
 
 
 
@@ -1467,7 +1467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4583>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4583>`__
 
 
 
@@ -1477,7 +1477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4586>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4586>`__
 
 
 
@@ -1487,7 +1487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4589>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4589>`__
 
 
 
@@ -1497,7 +1497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4592>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4592>`__
 
 
 
@@ -1507,7 +1507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4595>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4595>`__
 
 
 
@@ -1517,7 +1517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4598>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4598>`__
 
 
 
@@ -1527,7 +1527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4601>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4601>`__
 
 
 
@@ -1537,7 +1537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4604>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4604>`__
 
 
 
@@ -1547,7 +1547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4607>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4607>`__
 
 
 
@@ -1557,7 +1557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4610>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4610>`__
 
 
 
@@ -1567,7 +1567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4613>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4613>`__
 
 
 
@@ -1577,7 +1577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4616>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4616>`__
 
 
 
@@ -1587,7 +1587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4619>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4619>`__
 
 
 
@@ -1597,7 +1597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4622>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4622>`__
 
 
 
@@ -1607,7 +1607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4625>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4625>`__
 
 
 
@@ -1617,7 +1617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4628>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4628>`__
 
 
 
@@ -1627,7 +1627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4631>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4631>`__
 
 
 
@@ -1637,7 +1637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4634>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4634>`__
 
 
 
@@ -1647,7 +1647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4637>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4637>`__
 
 
 
@@ -1657,7 +1657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4640>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4640>`__
 
 
 
@@ -1667,7 +1667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4643>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4643>`__
 
 
 
@@ -1677,7 +1677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4646>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4646>`__
 
 
 
@@ -1687,7 +1687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4649>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4649>`__
 
 
 
@@ -1697,7 +1697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4652>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4652>`__
 
 
 
@@ -1707,7 +1707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4655>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4655>`__
 
 
 
@@ -1717,7 +1717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4658>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4658>`__
 
 
 
@@ -1727,7 +1727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4661>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4661>`__
 
 
 
@@ -1737,7 +1737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4664>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4664>`__
 
 
 
@@ -1747,7 +1747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4667>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4667>`__
 
 
 
@@ -1757,7 +1757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4670>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4670>`__
 
 
 
@@ -1767,7 +1767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4673>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4673>`__
 
 
 
@@ -1777,7 +1777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4676>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4676>`__
 
 
 
@@ -1787,7 +1787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4679>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4679>`__
 
 
 
@@ -1797,7 +1797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4682>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4682>`__
 
 
 
@@ -1807,7 +1807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4685>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4685>`__
 
 
 
@@ -1817,7 +1817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4688>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4688>`__
 
 
 
@@ -1827,7 +1827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4691>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4691>`__
 
 
 
@@ -1837,7 +1837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4694>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4694>`__
 
 
 
@@ -1847,7 +1847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4697>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4697>`__
 
 
 
@@ -1857,7 +1857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4700>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4700>`__
 
 
 
@@ -1867,7 +1867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4703>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4703>`__
 
 
 
@@ -1877,7 +1877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4706>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4706>`__
 
 
 
@@ -1887,7 +1887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4709>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4709>`__
 
 
 
@@ -1897,7 +1897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4712>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4712>`__
 
 
 
@@ -1907,7 +1907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4715>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4715>`__
 
 
 
@@ -1917,7 +1917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4718>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4718>`__
 
 
 
@@ -1927,7 +1927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4721>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4721>`__
 
 
 
@@ -1937,7 +1937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4724>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4724>`__
 
 
 
@@ -1947,7 +1947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4727>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4727>`__
 
 
 
@@ -1957,7 +1957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4730>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4730>`__
 
 
 
@@ -1967,7 +1967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4733>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4733>`__
 
 
 
@@ -1977,7 +1977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4736>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4736>`__
 
 
 
@@ -1987,7 +1987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4739>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4739>`__
 
 
 
@@ -1997,7 +1997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4742>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4742>`__
 
 
 
@@ -2007,7 +2007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4745>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4745>`__
 
 
 
@@ -2017,7 +2017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4748>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4748>`__
 
 
 
@@ -2027,7 +2027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4751>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4751>`__
 
 
 
@@ -2037,7 +2037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4754>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4754>`__
 
 
 
@@ -2047,7 +2047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4757>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4757>`__
 
 
 
@@ -2057,7 +2057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4760>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4760>`__
 
 
 
@@ -2067,7 +2067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4763>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4763>`__
 
 
 
@@ -2077,7 +2077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4766>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4766>`__
 
 
 
@@ -2087,7 +2087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4769>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4769>`__
 
 
 
@@ -2097,7 +2097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4772>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4772>`__
 
 
 
@@ -2107,7 +2107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4775>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4775>`__
 
 
 
@@ -2117,7 +2117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4778>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4778>`__
 
 
 
@@ -2127,7 +2127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4781>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4781>`__
 
 
 
@@ -2137,7 +2137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4784>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4784>`__
 
 
 
@@ -2147,7 +2147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4787>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4787>`__
 
 
 
@@ -2157,7 +2157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4790>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4790>`__
 
 
 
@@ -2167,7 +2167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4793>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4793>`__
 
 
 
@@ -2177,7 +2177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4796>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4796>`__
 
 
 
@@ -2187,7 +2187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4799>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4799>`__
 
 
 
@@ -2197,7 +2197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4802>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4802>`__
 
 
 
@@ -2207,7 +2207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4805>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4805>`__
 
 
 
@@ -2217,7 +2217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4808>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4808>`__
 
 
 
@@ -2227,7 +2227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4811>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4811>`__
 
 
 
@@ -2237,7 +2237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4814>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4814>`__
 
 
 
@@ -2247,7 +2247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4817>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4817>`__
 
 
 
@@ -2257,7 +2257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4820>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4820>`__
 
 
 
@@ -2267,7 +2267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4823>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4823>`__
 
 
 
@@ -2277,7 +2277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4826>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4826>`__
 
 
 
@@ -2287,7 +2287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4829>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4829>`__
 
 
 
@@ -2297,7 +2297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4832>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4832>`__
 
 
 
@@ -2307,7 +2307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4835>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4835>`__
 
 
 
@@ -2317,7 +2317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4838>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4838>`__
 
 
 
@@ -2327,7 +2327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4841>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4841>`__
 
 
 
@@ -2337,7 +2337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4844>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4844>`__
 
 
 
@@ -2347,7 +2347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4847>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4847>`__
 
 
 
@@ -2357,7 +2357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4850>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4850>`__
 
 
 
@@ -2367,7 +2367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4853>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4853>`__
 
 
 
@@ -2377,7 +2377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4856>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4856>`__
 
 
 
@@ -2387,7 +2387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4859>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4859>`__
 
 
 
@@ -2397,7 +2397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4862>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4862>`__
 
 
 
@@ -2407,7 +2407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4865>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4865>`__
 
 
 
@@ -2417,7 +2417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4868>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4868>`__
 
 
 
@@ -2427,7 +2427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4871>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4871>`__
 
 
 
@@ -2437,7 +2437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4874>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4874>`__
 
 
 
@@ -2447,7 +2447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4877>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4877>`__
 
 
 
@@ -2457,7 +2457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4880>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4880>`__
 
 
 
@@ -2467,7 +2467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4883>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4883>`__
 
 
 
@@ -2477,7 +2477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4886>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4886>`__
 
 
 
@@ -2487,7 +2487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4889>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4889>`__
 
 
 
@@ -2497,7 +2497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4892>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4892>`__
 
 
 
@@ -2507,7 +2507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4895>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4895>`__
 
 
 
@@ -2517,7 +2517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4898>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4898>`__
 
 
 
@@ -2527,7 +2527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4901>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4901>`__
 
 
 
@@ -2537,7 +2537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4904>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4904>`__
 
 
 
@@ -2547,7 +2547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4907>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4907>`__
 
 
 
@@ -2557,7 +2557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4910>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4910>`__
 
 
 
@@ -2567,7 +2567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4913>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4913>`__
 
 
 
@@ -2577,7 +2577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4916>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4916>`__
 
 
 
@@ -2587,7 +2587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4919>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4919>`__
 
 
 
@@ -2597,7 +2597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4922>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4922>`__
 
 
 
@@ -2607,7 +2607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4925>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4925>`__
 
 
 
@@ -2617,7 +2617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4928>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4928>`__
 
 
 
@@ -2627,7 +2627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4931>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4931>`__
 
 
 
@@ -2637,7 +2637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4934>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4934>`__
 
 
 
@@ -2647,7 +2647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4937>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4937>`__
 
 
 
@@ -2657,7 +2657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4940>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4940>`__
 
 
 
@@ -2667,7 +2667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4943>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4943>`__
 
 
 
@@ -2677,7 +2677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4946>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4946>`__
 
 
 
@@ -2687,7 +2687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4949>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4949>`__
 
 
 
@@ -2697,7 +2697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4952>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4952>`__
 
 
 
@@ -2707,7 +2707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4955>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4955>`__
 
 
 
@@ -2717,7 +2717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4958>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4958>`__
 
 
 
@@ -2727,7 +2727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4961>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4961>`__
 
 
 
@@ -2737,7 +2737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4964>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4964>`__
 
 
 
@@ -2747,7 +2747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4967>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4967>`__
 
 
 
@@ -2757,7 +2757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4970>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4970>`__
 
 
 
@@ -2767,7 +2767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4973>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4973>`__
 
 
 
@@ -2777,7 +2777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4976>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4976>`__
 
 
 
@@ -2787,7 +2787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4979>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4979>`__
 
 
 
@@ -2797,7 +2797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4982>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4982>`__
 
 
 
@@ -2807,7 +2807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4985>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4985>`__
 
 
 
@@ -2817,7 +2817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4988>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4988>`__
 
 
 
@@ -2827,7 +2827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4991>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4991>`__
 
 
 
@@ -2837,7 +2837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4994>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4994>`__
 
 
 
@@ -2847,7 +2847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4997>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L4997>`__
 
 
 
@@ -2857,7 +2857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5000>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5000>`__
 
 
 
@@ -2867,7 +2867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5003>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5003>`__
 
 
 
@@ -2877,7 +2877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5006>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5006>`__
 
 
 
@@ -2887,7 +2887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5009>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5009>`__
 
 
 
@@ -2897,7 +2897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5012>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5012>`__
 
 
 
@@ -2907,7 +2907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5015>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5015>`__
 
 
 
@@ -2917,7 +2917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5018>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5018>`__
 
 
 
@@ -2927,7 +2927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5021>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5021>`__
 
 
 
@@ -2937,7 +2937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5024>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5024>`__
 
 
 
@@ -2947,7 +2947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5027>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5027>`__
 
 
 
@@ -2957,7 +2957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5030>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5030>`__
 
 
 
@@ -2967,7 +2967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5033>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5033>`__
 
 
 
@@ -2977,7 +2977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5036>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5036>`__
 
 
 
@@ -2987,7 +2987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5039>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5039>`__
 
 
 
@@ -2997,7 +2997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5042>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5042>`__
 
 
 
@@ -3007,7 +3007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5045>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5045>`__
 
 
 
@@ -3017,7 +3017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5048>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5048>`__
 
 
 
@@ -3027,7 +3027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5051>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5051>`__
 
 
 
@@ -3037,7 +3037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5054>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5054>`__
 
 
 
@@ -3047,7 +3047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5057>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5057>`__
 
 
 
@@ -3057,7 +3057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5060>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5060>`__
 
 
 
@@ -3067,7 +3067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5063>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5063>`__
 
 
 
@@ -3077,7 +3077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5066>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5066>`__
 
 
 
@@ -3087,7 +3087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5069>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5069>`__
 
 
 
@@ -3097,7 +3097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5072>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5072>`__
 
 
 
@@ -3107,7 +3107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5075>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5075>`__
 
 
 
@@ -3117,7 +3117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5078>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5078>`__
 
 
 
@@ -3127,7 +3127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5081>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5081>`__
 
 
 
@@ -3137,7 +3137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5084>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5084>`__
 
 
 
@@ -3147,7 +3147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5087>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5087>`__
 
 
 
@@ -3157,7 +3157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5090>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5090>`__
 
 
 
@@ -3167,7 +3167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5093>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5093>`__
 
 
 
@@ -3177,7 +3177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5096>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5096>`__
 
 
 
@@ -3187,7 +3187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5099>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5099>`__
 
 
 
@@ -3197,7 +3197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5102>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5102>`__
 
 
 
@@ -3207,7 +3207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5105>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5105>`__
 
 
 
@@ -3217,7 +3217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5108>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5108>`__
 
 
 
@@ -3227,7 +3227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5111>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5111>`__
 
 
 
@@ -3237,7 +3237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5114>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5114>`__
 
 
 
@@ -3247,7 +3247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5117>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5117>`__
 
 
 
@@ -3257,7 +3257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5120>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5120>`__
 
 
 
@@ -3267,7 +3267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5123>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5123>`__
 
 
 
@@ -3277,7 +3277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5126>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5126>`__
 
 
 
@@ -3287,7 +3287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5129>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5129>`__
 
 
 
@@ -3297,7 +3297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5132>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5132>`__
 
 
 
@@ -3307,7 +3307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5135>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5135>`__
 
 
 
@@ -3317,7 +3317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5138>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5138>`__
 
 
 
@@ -3327,7 +3327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5141>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5141>`__
 
 
 
@@ -3337,7 +3337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5144>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5144>`__
 
 
 
@@ -3347,7 +3347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5147>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5147>`__
 
 
 
@@ -3357,7 +3357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5150>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5150>`__
 
 
 
@@ -3367,7 +3367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5153>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5153>`__
 
 
 
@@ -3377,7 +3377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5156>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5156>`__
 
 
 
@@ -3387,7 +3387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5159>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5159>`__
 
 
 
@@ -3397,7 +3397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5162>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5162>`__
 
 
 
@@ -3407,7 +3407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5165>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5165>`__
 
 
 
@@ -3417,7 +3417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5168>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5168>`__
 
 
 
@@ -3427,7 +3427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5171>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5171>`__
 
 
 
@@ -3437,7 +3437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5174>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5174>`__
 
 
 
@@ -3447,7 +3447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5177>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5177>`__
 
 
 
@@ -3457,7 +3457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5180>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5180>`__
 
 
 
@@ -3467,7 +3467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5183>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5183>`__
 
 
 
@@ -3477,7 +3477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5186>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5186>`__
 
 
 
@@ -3487,7 +3487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5189>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5189>`__
 
 
 
@@ -3497,7 +3497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5192>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5192>`__
 
 
 
@@ -3507,7 +3507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5195>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5195>`__
 
 
 
@@ -3517,7 +3517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5198>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5198>`__
 
 
 
@@ -3527,7 +3527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5201>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5201>`__
 
 
 
@@ -3537,7 +3537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5204>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5204>`__
 
 
 
@@ -3547,7 +3547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5207>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5207>`__
 
 
 
@@ -3557,7 +3557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5210>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5210>`__
 
 
 
@@ -3567,7 +3567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5213>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5213>`__
 
 
 
@@ -3577,7 +3577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5216>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5216>`__
 
 
 
@@ -3587,7 +3587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5219>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5219>`__
 
 
 
@@ -3597,7 +3597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5222>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5222>`__
 
 
 
@@ -3607,7 +3607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5225>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5225>`__
 
 
 
@@ -3617,7 +3617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5228>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5228>`__
 
 
 
@@ -3627,7 +3627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5231>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5231>`__
 
 
 
@@ -3637,7 +3637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5234>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5234>`__
 
 
 
@@ -3647,7 +3647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5237>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5237>`__
 
 
 
@@ -3657,7 +3657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5240>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5240>`__
 
 
 
@@ -3667,7 +3667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5243>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5243>`__
 
 
 
@@ -3677,7 +3677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5246>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5246>`__
 
 
 
@@ -3687,7 +3687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5249>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5249>`__
 
 
 
@@ -3697,7 +3697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5252>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5252>`__
 
 
 
@@ -3707,7 +3707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5255>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5255>`__
 
 
 
@@ -3717,7 +3717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5258>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5258>`__
 
 
 
@@ -3727,7 +3727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5261>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5261>`__
 
 
 
@@ -3737,7 +3737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5264>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5264>`__
 
 
 
@@ -3747,7 +3747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5267>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5267>`__
 
 
 
@@ -3757,7 +3757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5270>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5270>`__
 
 
 
@@ -3767,7 +3767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5273>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5273>`__
 
 
 
@@ -3777,7 +3777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5276>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5276>`__
 
 
 
@@ -3787,7 +3787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5279>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5279>`__
 
 
 
@@ -3797,7 +3797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5282>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5282>`__
 
 
 
@@ -3807,7 +3807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5285>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5285>`__
 
 
 
@@ -3817,7 +3817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5288>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5288>`__
 
 
 
@@ -3827,7 +3827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5291>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5291>`__
 
 
 
@@ -3837,7 +3837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5294>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5294>`__
 
 
 
@@ -3847,7 +3847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5297>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5297>`__
 
 
 
@@ -3857,7 +3857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5300>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5300>`__
 
 
 
@@ -3867,7 +3867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5303>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5303>`__
 
 
 
@@ -3877,7 +3877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5306>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5306>`__
 
 
 
@@ -3887,7 +3887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5309>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5309>`__
 
 
 
@@ -3897,7 +3897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5312>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5312>`__
 
 
 
@@ -3907,7 +3907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5315>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5315>`__
 
 
 
@@ -3917,7 +3917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5318>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5318>`__
 
 
 
@@ -3927,7 +3927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5321>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5321>`__
 
 
 
@@ -3937,7 +3937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5324>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5324>`__
 
 
 
@@ -3947,7 +3947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5327>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5327>`__
 
 
 
@@ -3957,7 +3957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5330>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5330>`__
 
 
 
@@ -3967,7 +3967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5333>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5333>`__
 
 
 
@@ -3977,7 +3977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5336>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5336>`__
 
 
 
@@ -3987,7 +3987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5339>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5339>`__
 
 
 
@@ -3997,7 +3997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5342>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5342>`__
 
 
 
@@ -4007,7 +4007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5345>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5345>`__
 
 
 
@@ -4017,7 +4017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5348>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5348>`__
 
 
 
@@ -4027,7 +4027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5351>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5351>`__
 
 
 
@@ -4037,7 +4037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5354>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5354>`__
 
 
 
@@ -4047,7 +4047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5357>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5357>`__
 
 
 
@@ -4057,7 +4057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5360>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5360>`__
 
 
 
@@ -4067,7 +4067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5363>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5363>`__
 
 
 
@@ -4077,7 +4077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5366>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5366>`__
 
 
 
@@ -4087,7 +4087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5369>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5369>`__
 
 
 
@@ -4097,7 +4097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5372>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5372>`__
 
 
 
@@ -4107,7 +4107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5375>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5375>`__
 
 
 
@@ -4117,7 +4117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5378>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5378>`__
 
 
 
@@ -4127,7 +4127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5381>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5381>`__
 
 
 
@@ -4137,7 +4137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5384>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5384>`__
 
 
 
@@ -4147,7 +4147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5387>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5387>`__
 
 
 
@@ -4157,7 +4157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5390>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5390>`__
 
 
 
@@ -4167,7 +4167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5393>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5393>`__
 
 
 
@@ -4177,7 +4177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5396>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5396>`__
 
 
 
@@ -4187,7 +4187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5399>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5399>`__
 
 
 
@@ -4197,7 +4197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5402>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5402>`__
 
 
 
@@ -4207,7 +4207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5405>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5405>`__
 
 
 
@@ -4217,7 +4217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5408>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5408>`__
 
 
 
@@ -4227,7 +4227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5411>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5411>`__
 
 
 
@@ -4237,7 +4237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5414>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5414>`__
 
 
 
@@ -4247,7 +4247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5417>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5417>`__
 
 
 
@@ -4257,7 +4257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5420>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5420>`__
 
 
 
@@ -4267,7 +4267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5423>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5423>`__
 
 
 
@@ -4277,7 +4277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5426>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5426>`__
 
 
 
@@ -4287,7 +4287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5429>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5429>`__
 
 
 
@@ -4297,7 +4297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5432>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5432>`__
 
 
 
@@ -4307,7 +4307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5435>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5435>`__
 
 
 
@@ -4317,7 +4317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5438>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5438>`__
 
 
 
@@ -4327,7 +4327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5441>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5441>`__
 
 
 
@@ -4337,7 +4337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5444>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5444>`__
 
 
 
@@ -4347,7 +4347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5447>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5447>`__
 
 
 
@@ -4357,7 +4357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5450>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5450>`__
 
 
 
@@ -4367,7 +4367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5453>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5453>`__
 
 
 
@@ -4377,7 +4377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5456>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5456>`__
 
 
 
@@ -4387,7 +4387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5459>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5459>`__
 
 
 
@@ -4397,7 +4397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5462>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5462>`__
 
 
 
@@ -4407,7 +4407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5465>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5465>`__
 
 
 
@@ -4417,7 +4417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5468>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5468>`__
 
 
 
@@ -4427,7 +4427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5471>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5471>`__
 
 
 
@@ -4437,7 +4437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5474>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5474>`__
 
 
 
@@ -4447,7 +4447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5477>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5477>`__
 
 
 
@@ -4457,7 +4457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5480>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5480>`__
 
 
 
@@ -4467,7 +4467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5483>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5483>`__
 
 
 
@@ -4477,7 +4477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5486>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5486>`__
 
 
 
@@ -4487,7 +4487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5489>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5489>`__
 
 
 
@@ -4497,7 +4497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5492>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5492>`__
 
 
 
@@ -4507,7 +4507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5495>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5495>`__
 
 
 
@@ -4517,7 +4517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5498>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5498>`__
 
 
 
@@ -4527,7 +4527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5501>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5501>`__
 
 
 
@@ -4537,7 +4537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5504>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5504>`__
 
 
 
@@ -4547,7 +4547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5507>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5507>`__
 
 
 
@@ -4557,7 +4557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5510>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5510>`__
 
 
 
@@ -4567,7 +4567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5513>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5513>`__
 
 
 
@@ -4577,7 +4577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5516>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5516>`__
 
 
 
@@ -4587,7 +4587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5519>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5519>`__
 
 
 
@@ -4597,7 +4597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5522>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5522>`__
 
 
 
@@ -4607,7 +4607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5525>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5525>`__
 
 
 
@@ -4617,7 +4617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5528>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5528>`__
 
 
 
@@ -4627,7 +4627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5531>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5531>`__
 
 
 
@@ -4637,7 +4637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5534>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5534>`__
 
 
 
@@ -4647,7 +4647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5537>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5537>`__
 
 
 
@@ -4657,7 +4657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5540>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5540>`__
 
 
 
@@ -4667,7 +4667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5543>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5543>`__
 
 
 
@@ -4677,7 +4677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5546>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5546>`__
 
 
 
@@ -4687,7 +4687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5549>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5549>`__
 
 
 
@@ -4697,7 +4697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5552>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5552>`__
 
 
 
@@ -4707,7 +4707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5555>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5555>`__
 
 
 
@@ -4717,7 +4717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5558>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5558>`__
 
 
 
@@ -4727,7 +4727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5561>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5561>`__
 
 
 
@@ -4737,7 +4737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5564>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5564>`__
 
 
 
@@ -4747,7 +4747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5567>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5567>`__
 
 
 
@@ -4757,7 +4757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5570>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5570>`__
 
 
 
@@ -4767,7 +4767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5573>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5573>`__
 
 
 
@@ -4777,7 +4777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5576>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5576>`__
 
 
 
@@ -4787,7 +4787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5579>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5579>`__
 
 
 
@@ -4797,7 +4797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5582>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5582>`__
 
 
 
@@ -4807,7 +4807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5585>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5585>`__
 
 
 
@@ -4817,7 +4817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5588>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5588>`__
 
 
 
@@ -4827,7 +4827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5591>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5591>`__
 
 
 
@@ -4837,7 +4837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5594>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5594>`__
 
 
 
@@ -4847,7 +4847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5597>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5597>`__
 
 
 
@@ -4857,7 +4857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5600>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5600>`__
 
 
 
@@ -4867,7 +4867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5603>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5603>`__
 
 
 
@@ -4877,7 +4877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5606>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5606>`__
 
 
 
@@ -4887,7 +4887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5609>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5609>`__
 
 
 
@@ -4897,7 +4897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5612>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5612>`__
 
 
 
@@ -4907,7 +4907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5615>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5615>`__
 
 
 
@@ -4917,7 +4917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5618>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5618>`__
 
 
 
@@ -4927,7 +4927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5621>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5621>`__
 
 
 
@@ -4937,7 +4937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5624>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5624>`__
 
 
 
@@ -4947,7 +4947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5627>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5627>`__
 
 
 
@@ -4957,7 +4957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5630>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5630>`__
 
 
 
@@ -4967,7 +4967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5633>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5633>`__
 
 
 
@@ -4977,7 +4977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5636>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5636>`__
 
 
 
@@ -4987,7 +4987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5639>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5639>`__
 
 
 
@@ -4997,7 +4997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5642>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5642>`__
 
 
 
@@ -5007,7 +5007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5645>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5645>`__
 
 
 
@@ -5017,7 +5017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5648>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5648>`__
 
 
 
@@ -5027,7 +5027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5651>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5651>`__
 
 
 
@@ -5037,7 +5037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5654>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5654>`__
 
 
 
@@ -5047,7 +5047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5657>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5657>`__
 
 
 
@@ -5057,7 +5057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5660>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5660>`__
 
 
 
@@ -5067,7 +5067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5663>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5663>`__
 
 
 
@@ -5077,7 +5077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5666>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5666>`__
 
 
 
@@ -5087,7 +5087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5669>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5669>`__
 
 
 
@@ -5097,7 +5097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5672>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5672>`__
 
 
 
@@ -5107,7 +5107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5675>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5675>`__
 
 
 
@@ -5117,7 +5117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5678>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5678>`__
 
 
 
@@ -5127,7 +5127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5681>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5681>`__
 
 
 
@@ -5137,7 +5137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5684>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5684>`__
 
 
 
@@ -5147,7 +5147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5687>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5687>`__
 
 
 
@@ -5157,7 +5157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5690>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5690>`__
 
 
 
@@ -5167,7 +5167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5693>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5693>`__
 
 
 
@@ -5177,7 +5177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5696>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5696>`__
 
 
 
@@ -5187,7 +5187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5699>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5699>`__
 
 
 
@@ -5197,7 +5197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5702>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5702>`__
 
 
 
@@ -5207,7 +5207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5705>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5705>`__
 
 
 
@@ -5217,7 +5217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5708>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5708>`__
 
 
 
@@ -5227,7 +5227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5711>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5711>`__
 
 
 
@@ -5237,7 +5237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5714>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5714>`__
 
 
 
@@ -5247,7 +5247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5717>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5717>`__
 
 
 
@@ -5257,7 +5257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5720>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5720>`__
 
 
 
@@ -5267,7 +5267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5723>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5723>`__
 
 
 
@@ -5277,7 +5277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5726>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5726>`__
 
 
 
@@ -5287,7 +5287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5729>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5729>`__
 
 
 
@@ -5297,7 +5297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5732>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5732>`__
 
 
 
@@ -5307,7 +5307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5735>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5735>`__
 
 
 
@@ -5317,7 +5317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5738>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5738>`__
 
 
 
@@ -5327,7 +5327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5741>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5741>`__
 
 
 
@@ -5337,7 +5337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5744>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5744>`__
 
 
 
@@ -5347,7 +5347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5747>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5747>`__
 
 
 
@@ -5357,7 +5357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5750>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5750>`__
 
 
 
@@ -5367,7 +5367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5753>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5753>`__
 
 
 
@@ -5377,7 +5377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5756>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5756>`__
 
 
 
@@ -5387,7 +5387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5759>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5759>`__
 
 
 
@@ -5397,7 +5397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5762>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5762>`__
 
 
 
@@ -5407,7 +5407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5765>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5765>`__
 
 
 
@@ -5417,7 +5417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5768>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5768>`__
 
 
 
@@ -5427,7 +5427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5771>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5771>`__
 
 
 
@@ -5437,7 +5437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5774>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5774>`__
 
 
 
@@ -5447,7 +5447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5777>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5777>`__
 
 
 
@@ -5457,7 +5457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5780>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5780>`__
 
 
 
@@ -5467,7 +5467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5783>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5783>`__
 
 
 
@@ -5477,7 +5477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5786>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5786>`__
 
 
 
@@ -5487,7 +5487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5789>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5789>`__
 
 
 
@@ -5497,7 +5497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5792>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5792>`__
 
 
 
@@ -5507,7 +5507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5795>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5795>`__
 
 
 
@@ -5517,7 +5517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5798>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5798>`__
 
 
 
@@ -5527,7 +5527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5801>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5801>`__
 
 
 
@@ -5537,7 +5537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5804>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5804>`__
 
 
 
@@ -5547,7 +5547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5807>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5807>`__
 
 
 
@@ -5557,7 +5557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5810>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5810>`__
 
 
 
@@ -5567,7 +5567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5813>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5813>`__
 
 
 
@@ -5577,7 +5577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5816>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5816>`__
 
 
 
@@ -5587,7 +5587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5819>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5819>`__
 
 
 
@@ -5597,7 +5597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5822>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5822>`__
 
 
 
@@ -5607,7 +5607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5825>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5825>`__
 
 
 
@@ -5617,7 +5617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5828>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5828>`__
 
 
 
@@ -5627,7 +5627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5831>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5831>`__
 
 
 
@@ -5637,7 +5637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5834>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5834>`__
 
 
 
@@ -5647,7 +5647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5837>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5837>`__
 
 
 
@@ -5657,7 +5657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5840>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5840>`__
 
 
 
@@ -5667,7 +5667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5843>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5843>`__
 
 
 
@@ -5677,7 +5677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5846>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5846>`__
 
 
 
@@ -5687,7 +5687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5849>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5849>`__
 
 
 
@@ -5697,7 +5697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5852>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5852>`__
 
 
 
@@ -5707,7 +5707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5855>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5855>`__
 
 
 
@@ -5717,7 +5717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5858>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5858>`__
 
 
 
@@ -5727,7 +5727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5861>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5861>`__
 
 
 
@@ -5737,7 +5737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5864>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5864>`__
 
 
 
@@ -5747,7 +5747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5867>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5867>`__
 
 
 
@@ -5757,7 +5757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5870>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5870>`__
 
 
 
@@ -5767,7 +5767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5873>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5873>`__
 
 
 
@@ -5777,7 +5777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5876>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5876>`__
 
 
 
@@ -5787,7 +5787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5879>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5879>`__
 
 
 
@@ -5797,7 +5797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5882>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5882>`__
 
 
 
@@ -5807,7 +5807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5885>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5885>`__
 
 
 
@@ -5817,7 +5817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5888>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5888>`__
 
 
 
@@ -5827,7 +5827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5891>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5891>`__
 
 
 
@@ -5837,7 +5837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5894>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5894>`__
 
 
 
@@ -5847,7 +5847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5897>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5897>`__
 
 
 
@@ -5857,7 +5857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5900>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5900>`__
 
 
 
@@ -5867,7 +5867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5903>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5903>`__
 
 
 
@@ -5877,7 +5877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5906>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5906>`__
 
 
 
@@ -5887,7 +5887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5909>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5909>`__
 
 
 
@@ -5897,7 +5897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5912>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5912>`__
 
 
 
@@ -5907,7 +5907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5915>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5915>`__
 
 
 
@@ -5917,7 +5917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5918>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5918>`__
 
 
 
@@ -5927,7 +5927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5921>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5921>`__
 
 
 
@@ -5937,7 +5937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5924>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5924>`__
 
 
 
@@ -5947,7 +5947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5927>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5927>`__
 
 
 
@@ -5957,7 +5957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5930>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5930>`__
 
 
 
@@ -5967,7 +5967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5933>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5933>`__
 
 
 
@@ -5977,7 +5977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5936>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5936>`__
 
 
 
@@ -5987,7 +5987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5939>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5939>`__
 
 
 
@@ -5997,7 +5997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5942>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5942>`__
 
 
 
@@ -6007,7 +6007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5945>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5945>`__
 
 
 
@@ -6017,7 +6017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5948>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5948>`__
 
 
 
@@ -6027,7 +6027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5951>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5951>`__
 
 
 
@@ -6037,7 +6037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5954>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5954>`__
 
 
 
@@ -6047,7 +6047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5957>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5957>`__
 
 
 
@@ -6057,7 +6057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5960>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5960>`__
 
 
 
@@ -6067,7 +6067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5963>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5963>`__
 
 
 
@@ -6077,7 +6077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5966>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5966>`__
 
 
 
@@ -6087,7 +6087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5969>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5969>`__
 
 
 
@@ -6097,7 +6097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5972>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5972>`__
 
 
 
@@ -6107,7 +6107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5975>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5975>`__
 
 
 
@@ -6117,7 +6117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5978>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5978>`__
 
 
 
@@ -6127,7 +6127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5981>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5981>`__
 
 
 
@@ -6137,7 +6137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5984>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5984>`__
 
 
 
@@ -6147,7 +6147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5987>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5987>`__
 
 
 
@@ -6157,7 +6157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5990>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5990>`__
 
 
 
@@ -6167,7 +6167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5993>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5993>`__
 
 
 
@@ -6177,7 +6177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5996>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5996>`__
 
 
 
@@ -6187,7 +6187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5999>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L5999>`__
 
 
 
@@ -6197,7 +6197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6002>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6002>`__
 
 
 
@@ -6207,7 +6207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6005>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6005>`__
 
 
 
@@ -6217,7 +6217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6008>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6008>`__
 
 
 
@@ -6227,7 +6227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6011>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6011>`__
 
 
 
@@ -6237,7 +6237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6014>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6014>`__
 
 
 
@@ -6247,7 +6247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6017>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6017>`__
 
 
 
@@ -6257,7 +6257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6020>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6020>`__
 
 
 
@@ -6267,7 +6267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6023>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6023>`__
 
 
 
@@ -6277,7 +6277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6026>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6026>`__
 
 
 
@@ -6287,7 +6287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6029>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6029>`__
 
 
 
@@ -6297,7 +6297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6032>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6032>`__
 
 
 
@@ -6307,7 +6307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6035>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6035>`__
 
 
 
@@ -6317,7 +6317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6038>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6038>`__
 
 
 
@@ -6327,7 +6327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6041>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6041>`__
 
 
 
@@ -6337,7 +6337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6044>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6044>`__
 
 
 
@@ -6347,7 +6347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6047>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6047>`__
 
 
 
@@ -6357,7 +6357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6050>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6050>`__
 
 
 
@@ -6367,7 +6367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6053>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6053>`__
 
 
 
@@ -6377,7 +6377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6056>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6056>`__
 
 
 
@@ -6387,7 +6387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6059>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6059>`__
 
 
 
@@ -6397,7 +6397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6062>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6062>`__
 
 
 
@@ -6407,7 +6407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6065>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6065>`__
 
 
 
@@ -6417,7 +6417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6068>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6068>`__
 
 
 
@@ -6427,7 +6427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6071>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6071>`__
 
 
 
@@ -6437,7 +6437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6074>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6074>`__
 
 
 
@@ -6447,7 +6447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6077>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6077>`__
 
 
 
@@ -6457,7 +6457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6080>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6080>`__
 
 
 
@@ -6467,7 +6467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6083>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6083>`__
 
 
 
@@ -6477,7 +6477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6086>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6086>`__
 
 
 
@@ -6487,7 +6487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6089>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6089>`__
 
 
 
@@ -6497,7 +6497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6092>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6092>`__
 
 
 
@@ -6507,7 +6507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6095>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6095>`__
 
 
 
@@ -6517,7 +6517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6098>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6098>`__
 
 
 
@@ -6527,7 +6527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6101>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6101>`__
 
 
 
@@ -6537,7 +6537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6104>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6104>`__
 
 
 
@@ -6547,7 +6547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6107>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6107>`__
 
 
 
@@ -6557,7 +6557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6110>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6110>`__
 
 
 
@@ -6567,7 +6567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6113>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6113>`__
 
 
 
@@ -6577,7 +6577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6116>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6116>`__
 
 
 
@@ -6587,7 +6587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6119>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6119>`__
 
 
 
@@ -6597,7 +6597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6122>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6122>`__
 
 
 
@@ -6607,7 +6607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6125>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6125>`__
 
 
 
@@ -6617,7 +6617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6128>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6128>`__
 
 
 
@@ -6627,7 +6627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6131>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6131>`__
 
 
 
@@ -6637,7 +6637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6134>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6134>`__
 
 
 
@@ -6647,7 +6647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6137>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6137>`__
 
 
 
@@ -6657,7 +6657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6140>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6140>`__
 
 
 
@@ -6667,7 +6667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6143>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6143>`__
 
 
 
@@ -6677,7 +6677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6146>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6146>`__
 
 
 
@@ -6687,7 +6687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6149>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6149>`__
 
 
 
@@ -6697,7 +6697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6152>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6152>`__
 
 
 
@@ -6707,7 +6707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6155>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6155>`__
 
 
 
@@ -6717,7 +6717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6158>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6158>`__
 
 
 
@@ -6727,7 +6727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6161>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6161>`__
 
 
 
@@ -6737,7 +6737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6164>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6164>`__
 
 
 
@@ -6747,7 +6747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6167>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6167>`__
 
 
 
@@ -6757,7 +6757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6170>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6170>`__
 
 
 
@@ -6767,7 +6767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6173>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6173>`__
 
 
 
@@ -6777,7 +6777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6176>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6176>`__
 
 
 
@@ -6787,7 +6787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6179>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6179>`__
 
 
 
@@ -6797,7 +6797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6182>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6182>`__
 
 
 
@@ -6807,7 +6807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6185>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6185>`__
 
 
 
@@ -6817,7 +6817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6188>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6188>`__
 
 
 
@@ -6827,7 +6827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6191>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6191>`__
 
 
 
@@ -6837,7 +6837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6194>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6194>`__
 
 
 
@@ -6847,7 +6847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6197>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6197>`__
 
 
 
@@ -6857,7 +6857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6200>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6200>`__
 
 
 
@@ -6867,7 +6867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6203>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6203>`__
 
 
 
@@ -6877,7 +6877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6206>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6206>`__
 
 
 
@@ -6887,7 +6887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6209>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6209>`__
 
 
 
@@ -6897,7 +6897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6212>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6212>`__
 
 
 
@@ -6907,7 +6907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6215>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6215>`__
 
 
 
@@ -6917,7 +6917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6218>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6218>`__
 
 
 
@@ -6927,7 +6927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6221>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6221>`__
 
 
 
@@ -6937,7 +6937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6224>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6224>`__
 
 
 
@@ -6947,7 +6947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6227>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6227>`__
 
 
 
@@ -6957,7 +6957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6230>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6230>`__
 
 
 
@@ -6967,7 +6967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6233>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6233>`__
 
 
 
@@ -6977,7 +6977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6236>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6236>`__
 
 
 
@@ -6987,7 +6987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6239>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6239>`__
 
 
 
@@ -6997,7 +6997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6242>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6242>`__
 
 
 
@@ -7007,7 +7007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6245>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6245>`__
 
 
 
@@ -7017,7 +7017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6248>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6248>`__
 
 
 
@@ -7027,7 +7027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6251>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6251>`__
 
 
 
@@ -7037,7 +7037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6254>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6254>`__
 
 
 
@@ -7047,7 +7047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6257>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6257>`__
 
 
 
@@ -7057,7 +7057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6260>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6260>`__
 
 
 
@@ -7067,7 +7067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6263>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6263>`__
 
 
 
@@ -7077,7 +7077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6266>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6266>`__
 
 
 
@@ -7087,7 +7087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6269>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6269>`__
 
 
 
@@ -7097,7 +7097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6272>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6272>`__
 
 
 
@@ -7107,7 +7107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6275>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6275>`__
 
 
 
@@ -7117,7 +7117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6278>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6278>`__
 
 
 
@@ -7127,7 +7127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6281>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6281>`__
 
 
 
@@ -7137,7 +7137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6284>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6284>`__
 
 
 
@@ -7147,7 +7147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6287>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6287>`__
 
 
 
@@ -7157,7 +7157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6290>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6290>`__
 
 
 
@@ -7167,7 +7167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6293>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6293>`__
 
 
 
@@ -7177,7 +7177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6296>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6296>`__
 
 
 
@@ -7187,7 +7187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6299>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6299>`__
 
 
 
@@ -7197,7 +7197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6302>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6302>`__
 
 
 
@@ -7207,7 +7207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6305>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6305>`__
 
 
 
@@ -7217,7 +7217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6308>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6308>`__
 
 
 
@@ -7227,7 +7227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6311>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6311>`__
 
 
 
@@ -7237,7 +7237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6314>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6314>`__
 
 
 
@@ -7247,7 +7247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6317>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6317>`__
 
 
 
@@ -7257,7 +7257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6320>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6320>`__
 
 
 
@@ -7267,7 +7267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6323>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6323>`__
 
 
 
@@ -7277,7 +7277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6326>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6326>`__
 
 
 
@@ -7287,7 +7287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6329>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6329>`__
 
 
 
@@ -7297,7 +7297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6332>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6332>`__
 
 
 
@@ -7307,7 +7307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6335>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6335>`__
 
 
 
@@ -7317,7 +7317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6338>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6338>`__
 
 
 
@@ -7327,7 +7327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6341>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6341>`__
 
 
 
@@ -7337,7 +7337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6344>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6344>`__
 
 
 
@@ -7347,7 +7347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6347>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6347>`__
 
 
 
@@ -7357,7 +7357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6350>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6350>`__
 
 
 
@@ -7367,7 +7367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6353>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6353>`__
 
 
 
@@ -7377,7 +7377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6356>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6356>`__
 
 
 
@@ -7387,7 +7387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6359>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6359>`__
 
 
 
@@ -7397,7 +7397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6362>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6362>`__
 
 
 
@@ -7407,7 +7407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6365>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6365>`__
 
 
 
@@ -7417,7 +7417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6368>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6368>`__
 
 
 
@@ -7427,7 +7427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6371>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6371>`__
 
 
 
@@ -7437,7 +7437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6374>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6374>`__
 
 
 
@@ -7447,7 +7447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6377>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6377>`__
 
 
 
@@ -7457,7 +7457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6380>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6380>`__
 
 
 
@@ -7467,7 +7467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6383>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6383>`__
 
 
 
@@ -7477,7 +7477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6386>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6386>`__
 
 
 
@@ -7487,7 +7487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6389>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6389>`__
 
 
 
@@ -7497,7 +7497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6392>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6392>`__
 
 
 
@@ -7507,7 +7507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6395>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6395>`__
 
 
 
@@ -7517,7 +7517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6398>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6398>`__
 
 
 
@@ -7527,7 +7527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6401>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6401>`__
 
 
 
@@ -7537,7 +7537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6404>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6404>`__
 
 
 
@@ -7547,7 +7547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6407>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6407>`__
 
 
 
@@ -7557,7 +7557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6410>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6410>`__
 
 
 
@@ -7567,7 +7567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6413>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6413>`__
 
 
 
@@ -7577,7 +7577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6416>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6416>`__
 
 
 
@@ -7587,7 +7587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6419>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6419>`__
 
 
 
@@ -7597,7 +7597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6422>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6422>`__
 
 
 
@@ -7607,7 +7607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6425>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6425>`__
 
 
 
@@ -7617,7 +7617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6428>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6428>`__
 
 
 
@@ -7627,7 +7627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6431>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6431>`__
 
 
 
@@ -7637,7 +7637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6434>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6434>`__
 
 
 
@@ -7647,7 +7647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6437>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6437>`__
 
 
 
@@ -7657,7 +7657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6440>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6440>`__
 
 
 
@@ -7667,7 +7667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6443>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6443>`__
 
 
 
@@ -7677,7 +7677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6446>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6446>`__
 
 
 
@@ -7687,7 +7687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6449>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6449>`__
 
 
 
@@ -7697,7 +7697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6452>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6452>`__
 
 
 
@@ -7707,7 +7707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6455>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6455>`__
 
 
 
@@ -7717,7 +7717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6458>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6458>`__
 
 
 
@@ -7727,7 +7727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6461>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6461>`__
 
 
 
@@ -7737,7 +7737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6464>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6464>`__
 
 
 
@@ -7747,7 +7747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6467>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6467>`__
 
 
 
@@ -7757,7 +7757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6470>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6470>`__
 
 
 
@@ -7767,7 +7767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6473>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6473>`__
 
 
 
@@ -7777,7 +7777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6476>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6476>`__
 
 
 
@@ -7787,7 +7787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6479>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6479>`__
 
 
 
@@ -7797,7 +7797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6482>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6482>`__
 
 
 
@@ -7807,7 +7807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6485>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6485>`__
 
 
 
@@ -7817,7 +7817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6488>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6488>`__
 
 
 
@@ -7827,7 +7827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6491>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6491>`__
 
 
 
@@ -7837,7 +7837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6494>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6494>`__
 
 
 
@@ -7847,7 +7847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6497>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6497>`__
 
 
 
@@ -7857,7 +7857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6500>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6500>`__
 
 
 
@@ -7867,7 +7867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6503>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6503>`__
 
 
 
@@ -7877,7 +7877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6506>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6506>`__
 
 
 
@@ -7887,7 +7887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6509>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6509>`__
 
 
 
@@ -7897,7 +7897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6512>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6512>`__
 
 
 
@@ -7907,7 +7907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6515>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6515>`__
 
 
 
@@ -7917,7 +7917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6518>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6518>`__
 
 
 
@@ -7927,7 +7927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6521>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6521>`__
 
 
 
@@ -7937,7 +7937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6524>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6524>`__
 
 
 
@@ -7947,7 +7947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6527>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6527>`__
 
 
 
@@ -7957,7 +7957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6530>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6530>`__
 
 
 
@@ -7967,7 +7967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6533>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6533>`__
 
 
 
@@ -7977,7 +7977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6536>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6536>`__
 
 
 
@@ -7987,7 +7987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6539>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6539>`__
 
 
 
@@ -7997,7 +7997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6542>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6542>`__
 
 
 
@@ -8007,7 +8007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6545>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6545>`__
 
 
 
@@ -8017,7 +8017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6548>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6548>`__
 
 
 
@@ -8027,7 +8027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6551>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6551>`__
 
 
 
@@ -8037,7 +8037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6554>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6554>`__
 
 
 
@@ -8047,7 +8047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6557>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6557>`__
 
 
 
@@ -8057,7 +8057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6560>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6560>`__
 
 
 
@@ -8067,7 +8067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6563>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6563>`__
 
 
 
@@ -8077,7 +8077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6566>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6566>`__
 
 
 
@@ -8087,7 +8087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6569>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6569>`__
 
 
 
@@ -8097,7 +8097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6572>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6572>`__
 
 
 
@@ -8107,7 +8107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6575>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6575>`__
 
 
 
@@ -8117,7 +8117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6578>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6578>`__
 
 
 
@@ -8127,7 +8127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6581>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6581>`__
 
 
 
@@ -8137,7 +8137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6584>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6584>`__
 
 
 
@@ -8147,7 +8147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6587>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6587>`__
 
 
 
@@ -8157,7 +8157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6590>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6590>`__
 
 
 
@@ -8167,7 +8167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6593>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6593>`__
 
 
 
@@ -8177,7 +8177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6596>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6596>`__
 
 
 
@@ -8187,7 +8187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6599>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6599>`__
 
 
 
@@ -8197,7 +8197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6602>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6602>`__
 
 
 
@@ -8207,7 +8207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6605>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6605>`__
 
 
 
@@ -8217,7 +8217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6608>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6608>`__
 
 
 
@@ -8227,7 +8227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6611>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6611>`__
 
 
 
@@ -8237,7 +8237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6614>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6614>`__
 
 
 
@@ -8247,7 +8247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6617>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6617>`__
 
 
 
@@ -8257,7 +8257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6620>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6620>`__
 
 
 
@@ -8267,7 +8267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6623>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6623>`__
 
 
 
@@ -8277,7 +8277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6626>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6626>`__
 
 
 
@@ -8287,7 +8287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6629>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6629>`__
 
 
 
@@ -8297,7 +8297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6632>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6632>`__
 
 
 
@@ -8307,7 +8307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6635>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6635>`__
 
 
 
@@ -8317,7 +8317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6638>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6638>`__
 
 
 
@@ -8327,7 +8327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6641>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6641>`__
 
 
 
@@ -8337,7 +8337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6644>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6644>`__
 
 
 
@@ -8347,7 +8347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6647>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6647>`__
 
 
 
@@ -8357,7 +8357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6650>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6650>`__
 
 
 
@@ -8367,7 +8367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6653>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6653>`__
 
 
 
@@ -8377,7 +8377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6656>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6656>`__
 
 
 
@@ -8387,7 +8387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6659>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6659>`__
 
 
 
@@ -8397,7 +8397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6662>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6662>`__
 
 
 
@@ -8407,7 +8407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6665>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6665>`__
 
 
 
@@ -8417,7 +8417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6668>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6668>`__
 
 
 
@@ -8427,7 +8427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6671>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6671>`__
 
 
 
@@ -8437,7 +8437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6674>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6674>`__
 
 
 
@@ -8447,7 +8447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6677>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6677>`__
 
 
 
@@ -8457,7 +8457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6680>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6680>`__
 
 
 
@@ -8467,7 +8467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6683>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6683>`__
 
 
 
@@ -8477,7 +8477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6686>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6686>`__
 
 
 
@@ -8487,7 +8487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6689>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6689>`__
 
 
 
@@ -8497,7 +8497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6692>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6692>`__
 
 
 
@@ -8507,7 +8507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6695>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6695>`__
 
 
 
@@ -8517,7 +8517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6698>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6698>`__
 
 
 
@@ -8527,7 +8527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6701>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6701>`__
 
 
 
@@ -8537,7 +8537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6704>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6704>`__
 
 
 
@@ -8547,7 +8547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6707>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6707>`__
 
 
 
@@ -8557,7 +8557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6710>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6710>`__
 
 
 
@@ -8567,7 +8567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6713>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6713>`__
 
 
 
@@ -8577,7 +8577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6716>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6716>`__
 
 
 
@@ -8587,7 +8587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6719>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6719>`__
 
 
 
@@ -8597,7 +8597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6722>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6722>`__
 
 
 
@@ -8607,7 +8607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6725>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6725>`__
 
 
 
@@ -8617,7 +8617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6728>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6728>`__
 
 
 
@@ -8627,7 +8627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6731>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6731>`__
 
 
 
@@ -8637,7 +8637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6734>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6734>`__
 
 
 
@@ -8647,7 +8647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6737>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6737>`__
 
 
 
@@ -8657,7 +8657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6740>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6740>`__
 
 
 
@@ -8667,7 +8667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6743>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6743>`__
 
 
 
@@ -8677,7 +8677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6746>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6746>`__
 
 
 
@@ -8687,7 +8687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6749>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6749>`__
 
 
 
@@ -8697,7 +8697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6752>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6752>`__
 
 
 
@@ -8707,7 +8707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6755>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6755>`__
 
 
 
@@ -8717,7 +8717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6758>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6758>`__
 
 
 
@@ -8727,7 +8727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6761>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6761>`__
 
 
 
@@ -8737,7 +8737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6764>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6764>`__
 
 
 
@@ -8747,7 +8747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6767>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6767>`__
 
 
 
@@ -8757,7 +8757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6770>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6770>`__
 
 
 
@@ -8767,7 +8767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6773>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6773>`__
 
 
 
@@ -8777,7 +8777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6776>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6776>`__
 
 
 
@@ -8787,7 +8787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6779>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6779>`__
 
 
 
@@ -8797,7 +8797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6782>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6782>`__
 
 
 
@@ -8807,7 +8807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6785>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6785>`__
 
 
 
@@ -8817,7 +8817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6788>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6788>`__
 
 
 
@@ -8827,7 +8827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6791>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6791>`__
 
 
 
@@ -8837,7 +8837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6794>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6794>`__
 
 
 
@@ -8847,7 +8847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6797>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6797>`__
 
 
 
@@ -8857,7 +8857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6800>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6800>`__
 
 
 
@@ -8867,7 +8867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6803>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6803>`__
 
 
 
@@ -8877,7 +8877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6806>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6806>`__
 
 
 
@@ -8887,7 +8887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6809>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6809>`__
 
 
 
@@ -8897,7 +8897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6812>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6812>`__
 
 
 
@@ -8907,7 +8907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6815>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6815>`__
 
 
 
@@ -8917,7 +8917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6818>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6818>`__
 
 
 
@@ -8927,7 +8927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6821>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6821>`__
 
 
 
@@ -8937,7 +8937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6824>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6824>`__
 
 
 
@@ -8947,7 +8947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6827>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6827>`__
 
 
 
@@ -8957,7 +8957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6830>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6830>`__
 
 
 
@@ -8967,7 +8967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6833>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6833>`__
 
 
 
@@ -8977,7 +8977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6836>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6836>`__
 
 
 
@@ -8987,7 +8987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6839>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6839>`__
 
 
 
@@ -8997,7 +8997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6842>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6842>`__
 
 
 
@@ -9007,7 +9007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6845>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6845>`__
 
 
 
@@ -9017,7 +9017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6848>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6848>`__
 
 
 
@@ -9027,7 +9027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6851>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6851>`__
 
 
 
@@ -9037,7 +9037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6854>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6854>`__
 
 
 
@@ -9047,7 +9047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6857>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6857>`__
 
 
 
@@ -9057,7 +9057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6860>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6860>`__
 
 
 
@@ -9067,7 +9067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6863>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6863>`__
 
 
 
@@ -9077,7 +9077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6866>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6866>`__
 
 
 
@@ -9087,7 +9087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6869>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6869>`__
 
 
 
@@ -9097,7 +9097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6872>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6872>`__
 
 
 
@@ -9107,7 +9107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6875>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6875>`__
 
 
 
@@ -9117,7 +9117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6878>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6878>`__
 
 
 
@@ -9127,7 +9127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6881>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6881>`__
 
 
 
@@ -9137,7 +9137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6884>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6884>`__
 
 
 
@@ -9147,7 +9147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6887>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6887>`__
 
 
 
@@ -9157,7 +9157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6890>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6890>`__
 
 
 
@@ -9167,7 +9167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6893>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6893>`__
 
 
 
@@ -9177,7 +9177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6896>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6896>`__
 
 
 
@@ -9187,7 +9187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6899>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6899>`__
 
 
 
@@ -9197,7 +9197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6902>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6902>`__
 
 
 
@@ -9207,7 +9207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6905>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6905>`__
 
 
 
@@ -9217,7 +9217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6908>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6908>`__
 
 
 
@@ -9227,7 +9227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6911>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6911>`__
 
 
 
@@ -9237,7 +9237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6914>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6914>`__
 
 
 
@@ -9247,7 +9247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6917>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6917>`__
 
 
 
@@ -9257,7 +9257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6920>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6920>`__
 
 
 
@@ -9267,7 +9267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6923>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6923>`__
 
 
 
@@ -9277,7 +9277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6926>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6926>`__
 
 
 
@@ -9287,7 +9287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6929>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6929>`__
 
 
 
@@ -9297,7 +9297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6932>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6932>`__
 
 
 
@@ -9307,7 +9307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6935>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6935>`__
 
 
 
@@ -9317,7 +9317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6938>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6938>`__
 
 
 
@@ -9327,7 +9327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6941>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6941>`__
 
 
 
@@ -9337,7 +9337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6944>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6944>`__
 
 
 
@@ -9347,7 +9347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6947>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6947>`__
 
 
 
@@ -9357,7 +9357,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6950>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6950>`__
 
 
 
@@ -9367,7 +9367,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6953>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6953>`__
 
 
 
@@ -9377,7 +9377,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6956>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6956>`__
 
 
 
@@ -9387,7 +9387,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6959>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6959>`__
 
 
 
@@ -9397,7 +9397,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6962>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6962>`__
 
 
 
@@ -9407,7 +9407,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6965>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6965>`__
 
 
 
@@ -9417,7 +9417,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6968>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6968>`__
 
 
 
@@ -9427,7 +9427,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6971>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6971>`__
 
 
 
@@ -9437,7 +9437,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6974>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6974>`__
 
 
 
@@ -9447,7 +9447,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6977>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6977>`__
 
 
 
@@ -9457,7 +9457,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6980>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6980>`__
 
 
 
@@ -9467,7 +9467,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6983>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6983>`__
 
 
 
@@ -9477,7 +9477,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6986>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6986>`__
 
 
 
@@ -9487,7 +9487,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6989>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6989>`__
 
 
 
@@ -9497,7 +9497,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6992>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6992>`__
 
 
 
@@ -9507,7 +9507,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6995>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6995>`__
 
 
 
@@ -9517,7 +9517,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6998>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L6998>`__
 
 
 
@@ -9527,7 +9527,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7001>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7001>`__
 
 
 
@@ -9537,7 +9537,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7004>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7004>`__
 
 
 
@@ -9547,7 +9547,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7007>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7007>`__
 
 
 
@@ -9557,7 +9557,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7010>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7010>`__
 
 
 
@@ -9567,7 +9567,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7013>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7013>`__
 
 
 
@@ -9577,7 +9577,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7016>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7016>`__
 
 
 
@@ -9587,7 +9587,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7019>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7019>`__
 
 
 
@@ -9597,7 +9597,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7022>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7022>`__
 
 
 
@@ -9607,7 +9607,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7025>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7025>`__
 
 
 
@@ -9617,7 +9617,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7028>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7028>`__
 
 
 
@@ -9627,7 +9627,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7031>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7031>`__
 
 
 
@@ -9637,7 +9637,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7034>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7034>`__
 
 
 
@@ -9647,7 +9647,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7037>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7037>`__
 
 
 
@@ -9657,7 +9657,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7040>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7040>`__
 
 
 
@@ -9667,7 +9667,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7043>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7043>`__
 
 
 
@@ -9677,7 +9677,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7046>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7046>`__
 
 
 
@@ -9687,7 +9687,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7049>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7049>`__
 
 
 
@@ -9697,7 +9697,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7052>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7052>`__
 
 
 
@@ -9707,7 +9707,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7055>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7055>`__
 
 
 
@@ -9717,7 +9717,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7058>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7058>`__
 
 
 
@@ -9727,7 +9727,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7061>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7061>`__
 
 
 
@@ -9737,7 +9737,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7064>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7064>`__
 
 
 
@@ -9747,7 +9747,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7067>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7067>`__
 
 
 
@@ -9757,7 +9757,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7070>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7070>`__
 
 
 
@@ -9767,7 +9767,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7073>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7073>`__
 
 
 
@@ -9777,7 +9777,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7076>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7076>`__
 
 
 
@@ -9787,7 +9787,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7079>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7079>`__
 
 
 
@@ -9797,7 +9797,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7082>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7082>`__
 
 
 
@@ -9807,7 +9807,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7085>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7085>`__
 
 
 
@@ -9817,7 +9817,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7088>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7088>`__
 
 
 
@@ -9827,7 +9827,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7091>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7091>`__
 
 
 
@@ -9837,7 +9837,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7094>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7094>`__
 
 
 
@@ -9847,7 +9847,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7097>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7097>`__
 
 
 
@@ -9857,7 +9857,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7100>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7100>`__
 
 
 
@@ -9867,7 +9867,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7103>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7103>`__
 
 
 
@@ -9877,7 +9877,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7106>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7106>`__
 
 
 
@@ -9887,7 +9887,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7109>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7109>`__
 
 
 
@@ -9897,7 +9897,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7112>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7112>`__
 
 
 
@@ -9907,7 +9907,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7115>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7115>`__
 
 
 
@@ -9917,7 +9917,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7118>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7118>`__
 
 
 
@@ -9927,7 +9927,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7121>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7121>`__
 
 
 
@@ -9937,7 +9937,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7124>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7124>`__
 
 
 
@@ -9947,7 +9947,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7127>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7127>`__
 
 
 
@@ -9957,7 +9957,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7130>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7130>`__
 
 
 
@@ -9967,7 +9967,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7133>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7133>`__
 
 
 
@@ -9977,7 +9977,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7136>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7136>`__
 
 
 
@@ -9987,7 +9987,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7139>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7139>`__
 
 
 
@@ -9997,7 +9997,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7142>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7142>`__
 
 
 
@@ -10007,7 +10007,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7145>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7145>`__
 
 
 
@@ -10017,7 +10017,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7148>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7148>`__
 
 
 
@@ -10027,7 +10027,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7151>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7151>`__
 
 
 
@@ -10037,7 +10037,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7154>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7154>`__
 
 
 
@@ -10047,7 +10047,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7157>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7157>`__
 
 
 
@@ -10057,7 +10057,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7160>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7160>`__
 
 
 
@@ -10067,7 +10067,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7163>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7163>`__
 
 
 
@@ -10077,7 +10077,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7166>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7166>`__
 
 
 
@@ -10087,7 +10087,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7169>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7169>`__
 
 
 
@@ -10097,7 +10097,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7172>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7172>`__
 
 
 
@@ -10107,7 +10107,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7175>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7175>`__
 
 
 
@@ -10117,7 +10117,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7178>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7178>`__
 
 
 
@@ -10127,7 +10127,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7181>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7181>`__
 
 
 
@@ -10137,7 +10137,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7184>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7184>`__
 
 
 
@@ -10147,7 +10147,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7187>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7187>`__
 
 
 
@@ -10157,7 +10157,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7190>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7190>`__
 
 
 
@@ -10167,7 +10167,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7193>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7193>`__
 
 
 
@@ -10177,7 +10177,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7196>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7196>`__
 
 
 
@@ -10187,7 +10187,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7199>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7199>`__
 
 
 
@@ -10197,7 +10197,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7202>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7202>`__
 
 
 
@@ -10207,7 +10207,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7205>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7205>`__
 
 
 
@@ -10217,7 +10217,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7208>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7208>`__
 
 
 
@@ -10227,7 +10227,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7211>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7211>`__
 
 
 
@@ -10237,7 +10237,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7214>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7214>`__
 
 
 
@@ -10247,7 +10247,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7217>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7217>`__
 
 
 
@@ -10257,7 +10257,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7220>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7220>`__
 
 
 
@@ -10267,7 +10267,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7223>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7223>`__
 
 
 
@@ -10277,7 +10277,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7226>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7226>`__
 
 
 
@@ -10287,7 +10287,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7229>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7229>`__
 
 
 
@@ -10297,7 +10297,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7232>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7232>`__
 
 
 
@@ -10307,7 +10307,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7235>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7235>`__
 
 
 
@@ -10317,7 +10317,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7238>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7238>`__
 
 
 
@@ -10327,7 +10327,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7241>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7241>`__
 
 
 
@@ -10337,7 +10337,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7244>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7244>`__
 
 
 
@@ -10347,7 +10347,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7247>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke_generated.ml#L7247>`__
 
 
 

@@ -3,11 +3,11 @@ Neural.Neuron Functor
 
 This document is auto-generated for Owl's APIs.
 #377 entries have been extracted.
-timestamp: 2018-02-11 01:10:45
+timestamp: 2018-02-11 16:15:30
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_neuron_sig.ml>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_neuron.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_neuron_sig.ml>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_neuron.ml>`_
 
 
 
@@ -37,7 +37,7 @@ Initialisation types
 
 Calculate fan-in and fan-out of weights.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L33>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L33>`__
 
 
 
@@ -2434,7 +2434,7 @@ Types of neuron.
 
 Get both input and output shapes of a neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2333>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2333>`__
 
 
 
@@ -2444,7 +2444,7 @@ Get both input and output shapes of a neuron.
 
 Get the input shape of a neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2370>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2370>`__
 
 
 
@@ -2454,7 +2454,7 @@ Get the input shape of a neuron.
 
 Get the output shape of a neuron.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2373>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/neural/owl_neural_neuron.ml#L2373>`__
 
 
 

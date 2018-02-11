@@ -3,11 +3,11 @@ Operator Functor
 
 This document is auto-generated for Owl's APIs.
 #72 entries have been extracted.
-timestamp: 2018-02-11 01:10:45
+timestamp: 2018-02-11 16:15:30
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.ml>`_
 
 
 

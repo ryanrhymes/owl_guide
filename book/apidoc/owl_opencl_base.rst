@@ -3,11 +3,11 @@ High-level OpenCL API
 
 This document is auto-generated for Owl's APIs.
 #67 entries have been extracted.
-timestamp: 2018-02-11 01:10:46
+timestamp: 2018-02-11 16:15:31
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_base.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_base.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_base.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_base.ml>`_
 
 
 
@@ -47,7 +47,7 @@ Get the string representation of a given object, often contains the object's bas
 
 Get an array of all the available platforms.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L27>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L27>`__
 
 
 
@@ -106,7 +106,7 @@ Get the string representation of a given object, often contains the object's bas
 
 Get an array of all the available devices on a given platform.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L101>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L101>`__
 
 
 
@@ -150,7 +150,7 @@ Create an object with the passed in parameters.
 
 Create a context from a given type.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L231>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L231>`__
 
 
 
@@ -206,7 +206,7 @@ Get the string representation of a given object, often contains the object's bas
 
 Create a program from its source string.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L294>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L294>`__
 
 
 
@@ -216,7 +216,7 @@ Create a program from its source string.
 
 Build a program with the given parameters.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L311>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L311>`__
 
 
 
@@ -276,7 +276,7 @@ Create an object with the passed in parameters.
 
 Set the arguments of a given kernel.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L412>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L412>`__
 
 
 
@@ -286,7 +286,7 @@ Set the arguments of a given kernel.
 
 Enqueue a task into the associate command queue of a given kernel.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L419>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L419>`__
 
 
 
@@ -296,7 +296,7 @@ Enqueue a task into the associate command queue of a given kernel.
 
 Enqueue a ndrange task into the associate command queue of a given kernel.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L431>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L431>`__
 
 
 
@@ -353,7 +353,7 @@ Create an object with the passed in parameters.
 
 Barrier function of the given command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L526>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L526>`__
 
 
 
@@ -363,7 +363,7 @@ Barrier function of the given command queue.
 
 Marker function of the given command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L538>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L538>`__
 
 
 
@@ -373,7 +373,7 @@ Marker function of the given command queue.
 
 Flush the given command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L520>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L520>`__
 
 
 
@@ -383,7 +383,7 @@ Flush the given command queue.
 
 Finish the given command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L523>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L523>`__
 
 
 
@@ -441,7 +441,7 @@ Create an object with the passed in parameters.
 
 Set the status of a given event.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L611>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L611>`__
 
 
 
@@ -451,7 +451,7 @@ Set the status of a given event.
 
 Wait for a list of events to finish.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L617>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L617>`__
 
 
 
@@ -507,7 +507,7 @@ Create an object with the passed in parameters.
 
 Enqueue a read operation on the given memory object to a command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L687>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L687>`__
 
 
 
@@ -517,7 +517,7 @@ Enqueue a read operation on the given memory object to a command queue.
 
 Enqueue a write operation on the given memory object to a command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L707>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L707>`__
 
 
 
@@ -527,7 +527,7 @@ Enqueue a write operation on the given memory object to a command queue.
 
 Enqueue a map operation on the given memory object to a command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L727>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L727>`__
 
 
 
@@ -537,7 +537,7 @@ Enqueue a map operation on the given memory object to a command queue.
 
 Enqueue a unmap operation on the given memory object to a command queue.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L750>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L750>`__
 
 
 

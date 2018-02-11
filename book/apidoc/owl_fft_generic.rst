@@ -3,11 +3,11 @@ FFT
 
 This document is auto-generated for Owl's APIs.
 #5 entries have been extracted.
-timestamp: 2018-02-11 01:10:43
+timestamp: 2018-02-11 16:15:28
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/fftpack/owl_fft_generic.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/fftpack/owl_fft_generic.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/fftpack/owl_fft_generic.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/fftpack/owl_fft_generic.ml>`_
 
 
 
@@ -23,7 +23,7 @@ Basic functions
 ``fft ~axis x`` performs 1-dimensional FFT on a complex input. ``axis`` is the
 highest dimension if not specified. The return is not scaled.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L9>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L9>`__
 
 
 
@@ -34,7 +34,7 @@ highest dimension if not specified. The return is not scaled.
 ``ifft ~axis x`` performs inverse 1-dimensional FFT on a complex input. ``axis``
 is the highest dimension by default.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L20>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L20>`__
 
 
 
@@ -47,7 +47,7 @@ is the highest dimension by default.
 precision with input ``x``. You can skip this parameter by using a submodule
 with specific precision such as ``Owl.Fft.S`` or ``Owl.Fft.D``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L33>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L33>`__
 
 
 
@@ -58,7 +58,7 @@ with specific precision such as ``Owl.Fft.S`` or ``Owl.Fft.D``.
 ``irfft ~axis ~n x`` is the inverse function of ``rfft``. Note the ``n`` parameter
 is used to specified the size of output.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L47>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/fftpack/owl_fft_generic.ml#L47>`__
 
 
 

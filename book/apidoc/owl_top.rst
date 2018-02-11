@@ -3,11 +3,11 @@ Toplevel
 
 This document is auto-generated for Owl's APIs.
 #3 entries have been extracted.
-timestamp: 2018-02-11 01:10:46
+timestamp: 2018-02-11 16:15:31
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.ml>`_
 
 
 
@@ -22,7 +22,7 @@ Core functions
 
 List of registered pretty printers for Owl.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/top/owl_top.ml#L7>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/top/owl_top.ml#L7>`__
 
 
 
@@ -32,7 +32,7 @@ List of registered pretty printers for Owl.
 
 Install all the registered pretty printers.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/top/owl_top.ml#L19>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/top/owl_top.ml#L19>`__
 
 
 

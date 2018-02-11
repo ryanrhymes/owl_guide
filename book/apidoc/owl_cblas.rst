@@ -3,11 +3,11 @@ Low-level CBLAS API
 
 This document is auto-generated for Owl's APIs.
 #57 entries have been extracted.
-timestamp: 2018-02-11 01:10:43
+timestamp: 2018-02-11 16:15:28
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/cblas/owl_cblas.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/cblas/owl_cblas.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/cblas/owl_cblas.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/cblas/owl_cblas.ml>`_
 
 
 
@@ -69,7 +69,7 @@ Level-1 BLAS: vector-vector operations
 
 Computes the parameters for a Givens rotation.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L38>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L38>`__
 
 
 
@@ -79,7 +79,7 @@ Computes the parameters for a Givens rotation.
 
 Computes the parameters for a modified Givens rotation.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L49>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L49>`__
 
 
 
@@ -89,7 +89,7 @@ Computes the parameters for a modified Givens rotation.
 
 Performs rotation of points in the plane.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L91>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L91>`__
 
 
 
@@ -99,7 +99,7 @@ Performs rotation of points in the plane.
 
 Performs modified Givens rotation of points in the plane
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L76>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L76>`__
 
 
 
@@ -109,7 +109,7 @@ Performs modified Givens rotation of points in the plane
 
 Swaps a vector with another vector.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L105>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L105>`__
 
 
 
@@ -119,7 +119,7 @@ Swaps a vector with another vector.
 
 Computes the product of a vector and a scalar.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L121>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L121>`__
 
 
 
@@ -129,7 +129,7 @@ Computes the product of a vector and a scalar.
 
 Computes the product of a complex vector and a float number.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L133>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L133>`__
 
 
 
@@ -139,7 +139,7 @@ Computes the product of a complex vector and a float number.
 
 Copies vector to another vector.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L145>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L145>`__
 
 
 
@@ -149,7 +149,7 @@ Copies vector to another vector.
 
 Computes a vector-scalar product and adds the result to a vector.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L161>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L161>`__
 
 
 
@@ -160,7 +160,7 @@ Computes a vector-scalar product and adds the result to a vector.
 Computes a vector-vector dot product. [conj] is for complex numbers, [true]
   indicates conjugated, [false] indicates unconjugated.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L177>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L177>`__
 
 
 
@@ -170,7 +170,7 @@ Computes a vector-vector dot product. [conj] is for complex numbers, [true]
 
 Computes a vector-vector dot product extended precision accumulation.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L202>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L202>`__
 
 
 
@@ -180,7 +180,7 @@ Computes a vector-vector dot product extended precision accumulation.
 
 Computes a vector-vector dot product extended precision accumulation.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L207>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L207>`__
 
 
 
@@ -190,7 +190,7 @@ Computes a vector-vector dot product extended precision accumulation.
 
 Computes the Euclidean norm of a vector.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L215>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L215>`__
 
 
 
@@ -200,7 +200,7 @@ Computes the Euclidean norm of a vector.
 
 Computes the sum of magnitudes of the vector elements.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L229>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L229>`__
 
 
 
@@ -210,7 +210,7 @@ Computes the sum of magnitudes of the vector elements.
 
 Finds the index of the element with maximum absolute value.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L243>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L243>`__
 
 
 
@@ -225,7 +225,7 @@ Level-2 BLAS: matrix-vector operations
 
 Computes a matrix-vector product using a general matrix
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L262>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L262>`__
 
 
 
@@ -235,7 +235,7 @@ Computes a matrix-vector product using a general matrix
 
 Computes a matrix-vector product using a general band matrix
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L280>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L280>`__
 
 
 
@@ -245,7 +245,7 @@ Computes a matrix-vector product using a general band matrix
 
 Computes a matrix-vector product using a triangular matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L298>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L298>`__
 
 
 
@@ -255,7 +255,7 @@ Computes a matrix-vector product using a triangular matrix.
 
 Computes a matrix-vector product using a triangular band matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L317>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L317>`__
 
 
 
@@ -265,7 +265,7 @@ Computes a matrix-vector product using a triangular band matrix.
 
 Computes a matrix-vector product using a triangular packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L336>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L336>`__
 
 
 
@@ -275,7 +275,7 @@ Computes a matrix-vector product using a triangular packed matrix.
 
 Solves a system of linear equations whose coefficients are in a triangular matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L355>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L355>`__
 
 
 
@@ -285,7 +285,7 @@ Solves a system of linear equations whose coefficients are in a triangular matri
 
 Solves a system of linear equations whose coefficients are in a triangular band matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L374>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L374>`__
 
 
 
@@ -295,7 +295,7 @@ Solves a system of linear equations whose coefficients are in a triangular band 
 
 Solves a system of linear equations whose coefficients are in a triangular packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L393>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L393>`__
 
 
 
@@ -305,7 +305,7 @@ Solves a system of linear equations whose coefficients are in a triangular packe
 
 Computes a matrix-vector product for a symmetric matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L412>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L412>`__
 
 
 
@@ -315,7 +315,7 @@ Computes a matrix-vector product for a symmetric matrix.
 
 Computes a matrix-vector product using a symmetric band matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L427>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L427>`__
 
 
 
@@ -325,7 +325,7 @@ Computes a matrix-vector product using a symmetric band matrix.
 
 Computes a matrix-vector product using a symmetric packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L442>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L442>`__
 
 
 
@@ -336,7 +336,7 @@ Computes a matrix-vector product using a symmetric packed matrix.
 Performs a rank-1 update of a general matrix. [conj] is for complex numbers,
 [true] indicates conjugated, [false] indicates unconjugated.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L457>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L457>`__
 
 
 
@@ -346,7 +346,7 @@ Performs a rank-1 update of a general matrix. [conj] is for complex numbers,
 
 Performs a rank-1 update of a symmetric matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L478>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L478>`__
 
 
 
@@ -356,7 +356,7 @@ Performs a rank-1 update of a symmetric matrix.
 
 Performs a rank-1 update of a symmetric packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L492>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L492>`__
 
 
 
@@ -366,7 +366,7 @@ Performs a rank-1 update of a symmetric packed matrix.
 
 Performs a rank-2 update of symmetric matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L506>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L506>`__
 
 
 
@@ -376,7 +376,7 @@ Performs a rank-2 update of symmetric matrix.
 
 Performs a rank-2 update of a symmetric packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L521>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L521>`__
 
 
 
@@ -386,7 +386,7 @@ Performs a rank-2 update of a symmetric packed matrix.
 
 Computes a matrix-vector product using a Hermitian matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L536>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L536>`__
 
 
 
@@ -396,7 +396,7 @@ Computes a matrix-vector product using a Hermitian matrix.
 
 Computes a matrix-vector product using a Hermitian band matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L553>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L553>`__
 
 
 
@@ -406,7 +406,7 @@ Computes a matrix-vector product using a Hermitian band matrix.
 
 Computes a matrix-vector product using a Hermitian packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L570>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L570>`__
 
 
 
@@ -416,7 +416,7 @@ Computes a matrix-vector product using a Hermitian packed matrix.
 
 Performs a rank-1 update of a Hermitian matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L587>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L587>`__
 
 
 
@@ -426,7 +426,7 @@ Performs a rank-1 update of a Hermitian matrix.
 
 Performs a rank-1 update of a Hermitian packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L601>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L601>`__
 
 
 
@@ -436,7 +436,7 @@ Performs a rank-1 update of a Hermitian packed matrix.
 
 Performs a rank-2 update of a Hermitian matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L615>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L615>`__
 
 
 
@@ -446,7 +446,7 @@ Performs a rank-2 update of a Hermitian matrix.
 
 Performs a rank-2 update of a Hermitian packed matrix.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L631>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L631>`__
 
 
 
@@ -461,7 +461,7 @@ Level-3 BLAS: matrix-matrix operations
 
 Computes a matrix-matrix product with general matrices.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L650>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L650>`__
 
 
 
@@ -471,7 +471,7 @@ Computes a matrix-matrix product with general matrices.
 
 Computes a matrix-matrix product where one input matrix is symmetric.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L669>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L669>`__
 
 
 
@@ -481,7 +481,7 @@ Computes a matrix-matrix product where one input matrix is symmetric.
 
 Performs a symmetric rank-k update.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L688>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L688>`__
 
 
 
@@ -491,7 +491,7 @@ Performs a symmetric rank-k update.
 
 Performs a symmetric rank-2k update.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L706>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L706>`__
 
 
 
@@ -501,7 +501,7 @@ Performs a symmetric rank-2k update.
 
 Computes a matrix-matrix product where one input matrix is triangular.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L725>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L725>`__
 
 
 
@@ -511,7 +511,7 @@ Computes a matrix-matrix product where one input matrix is triangular.
 
 Solves a triangular matrix equation.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L745>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L745>`__
 
 
 
@@ -521,7 +521,7 @@ Solves a triangular matrix equation.
 
 Computes a matrix-matrix product where one input matrix is Hermitian.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L765>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L765>`__
 
 
 
@@ -531,7 +531,7 @@ Computes a matrix-matrix product where one input matrix is Hermitian.
 
 Performs a Hermitian rank-k update.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L781>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L781>`__
 
 
 
@@ -541,7 +541,7 @@ Performs a Hermitian rank-k update.
 
 Performs a Hermitian rank-2k update.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L796>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/cblas/owl_cblas.ml#L796>`__
 
 
 

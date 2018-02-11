@@ -3,11 +3,11 @@ Lazy Functor
 
 This document is auto-generated for Owl's APIs.
 #152 entries have been extracted.
-timestamp: 2018-02-11 01:10:46
+timestamp: 2018-02-11 16:15:30
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.ml>`_
 
 
 
@@ -35,7 +35,7 @@ Core functions
 
 ``variable ()`` creates a placeholder for the variable in the graph.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L76>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L76>`__
 
 
 
@@ -47,7 +47,7 @@ Core functions
 ``variable ()`` function before. Note that assignment will invalidate all the
 nodes in the subgraph depending on ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L84>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L84>`__
 
 
 
@@ -57,7 +57,7 @@ nodes in the subgraph depending on ``x``.
 
 ``assign_elt x a`` assigns value ``a`` to ``x``, simiar to ``assign_arr``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L86>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L86>`__
 
 
 
@@ -67,7 +67,7 @@ nodes in the subgraph depending on ``x``.
 
 ``to_arr x`` unpacks an ndarray from ``x`` of type ``t``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L88>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L88>`__
 
 
 
@@ -77,7 +77,7 @@ nodes in the subgraph depending on ``x``.
 
 ``to_elt x`` unpacks an element from ``x`` of type ``t``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L90>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L90>`__
 
 
 
@@ -88,7 +88,7 @@ nodes in the subgraph depending on ``x``.
 ``of_arr x`` creates a constant value from ``x`` in the computation graph. The
 constant value cannot be re-assigned by ``assign_arr`` or ``assign_elt`` later.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L92>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L92>`__
 
 
 
@@ -98,7 +98,7 @@ constant value cannot be re-assigned by ``assign_arr`` or ``assign_elt`` later.
 
 ``of_elt x`` is similar to ``of_arr`` but used for the value of type ``elt``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L94>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L94>`__
 
 
 
@@ -109,7 +109,7 @@ constant value cannot be re-assigned by ``assign_arr`` or ``assign_elt`` later.
 ``eval x`` evaluates the experssion represented by ``x``. Note only the
 subgraph that ``x`` depends on will be evaluated rather than the whole graph.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L304>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L304>`__
 
 
 
@@ -124,7 +124,7 @@ Printing functions
 
 ``pp_lazy x`` pretty prints ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L128>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L128>`__
 
 
 
@@ -135,7 +135,7 @@ Printing functions
 ``to_trace x`` returns the trace string that can be printed on the terminal
 for a list of given expressions. The trace shows the structure of the graph.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L133>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L133>`__
 
 
 
@@ -147,7 +147,7 @@ for a list of given expressions. The trace shows the structure of the graph.
 string. The returned string can be used for visualising the computation
 graph with third-party tool such as graphviz.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L138>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L138>`__
 
 
 
@@ -157,7 +157,7 @@ graph with third-party tool such as graphviz.
 
 ``copy x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L146>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L146>`__
 
 
 
@@ -172,7 +172,7 @@ Properties and manipulations
 
 ``is_var x`` returns ``true`` if ``x`` is a variable created by ``variable``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L59>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L59>`__
 
 
 
@@ -182,7 +182,7 @@ Properties and manipulations
 
 ``is_const x`` returns ``true`` if ``x`` is a const created by ``of_arr`` or ``of_elt``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L61>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L61>`__
 
 
 
@@ -192,7 +192,7 @@ Properties and manipulations
 
 ``refnum x`` returns the number of ``x``'s parents in the computation graph.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L49>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L49>`__
 
 
 
@@ -211,7 +211,7 @@ operations (almost).
 value of ``t``. This means the output must be wrapped up using either ``of_arr``
 or ``of_elt`` function before returning the result.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L315>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L315>`__
 
 
 
@@ -221,7 +221,7 @@ or ``of_elt`` function before returning the result.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L317>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L317>`__
 
 
 
@@ -231,7 +231,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L319>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L319>`__
 
 
 
@@ -241,7 +241,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L321>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L321>`__
 
 
 
@@ -256,7 +256,7 @@ Unary operators
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L376>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L376>`__
 
 
 
@@ -266,7 +266,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L378>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L378>`__
 
 
 
@@ -276,7 +276,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L380>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L380>`__
 
 
 
@@ -286,7 +286,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L382>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L382>`__
 
 
 
@@ -296,7 +296,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L384>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L384>`__
 
 
 
@@ -306,7 +306,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L386>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L386>`__
 
 
 
@@ -316,7 +316,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L388>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L388>`__
 
 
 
@@ -326,7 +326,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L390>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L390>`__
 
 
 
@@ -336,7 +336,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L392>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L392>`__
 
 
 
@@ -346,7 +346,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L394>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L394>`__
 
 
 
@@ -356,7 +356,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L396>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L396>`__
 
 
 
@@ -366,7 +366,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L398>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L398>`__
 
 
 
@@ -376,7 +376,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L400>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L400>`__
 
 
 
@@ -386,7 +386,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L402>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L402>`__
 
 
 
@@ -396,7 +396,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L404>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L404>`__
 
 
 
@@ -406,7 +406,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L406>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L406>`__
 
 
 
@@ -416,7 +416,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L408>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L408>`__
 
 
 
@@ -426,7 +426,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L410>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L410>`__
 
 
 
@@ -436,7 +436,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L412>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L412>`__
 
 
 
@@ -446,7 +446,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L414>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L414>`__
 
 
 
@@ -456,7 +456,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L416>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L416>`__
 
 
 
@@ -466,7 +466,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L418>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L418>`__
 
 
 
@@ -476,7 +476,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L420>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L420>`__
 
 
 
@@ -486,7 +486,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L422>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L422>`__
 
 
 
@@ -496,7 +496,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L424>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L424>`__
 
 
 
@@ -506,7 +506,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L426>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L426>`__
 
 
 
@@ -516,7 +516,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L428>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L428>`__
 
 
 
@@ -526,7 +526,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L430>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L430>`__
 
 
 
@@ -536,7 +536,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L432>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L432>`__
 
 
 
@@ -546,7 +546,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L434>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L434>`__
 
 
 
@@ -556,7 +556,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L436>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L436>`__
 
 
 
@@ -566,7 +566,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L438>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L438>`__
 
 
 
@@ -576,7 +576,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L440>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L440>`__
 
 
 
@@ -586,7 +586,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L442>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L442>`__
 
 
 
@@ -596,7 +596,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L444>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L444>`__
 
 
 
@@ -606,7 +606,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L446>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L446>`__
 
 
 
@@ -616,7 +616,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L448>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L448>`__
 
 
 
@@ -626,7 +626,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L450>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L450>`__
 
 
 
@@ -636,7 +636,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L452>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L452>`__
 
 
 
@@ -646,7 +646,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L454>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L454>`__
 
 
 
@@ -656,7 +656,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L456>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L456>`__
 
 
 
@@ -666,7 +666,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L458>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L458>`__
 
 
 
@@ -676,7 +676,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L460>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L460>`__
 
 
 
@@ -686,7 +686,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L462>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L462>`__
 
 
 
@@ -696,7 +696,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L464>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L464>`__
 
 
 
@@ -706,7 +706,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L466>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L466>`__
 
 
 
@@ -716,7 +716,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L468>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L468>`__
 
 
 
@@ -726,7 +726,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L470>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L470>`__
 
 
 
@@ -736,7 +736,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L472>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L472>`__
 
 
 
@@ -746,7 +746,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L474>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L474>`__
 
 
 
@@ -756,7 +756,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L476>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L476>`__
 
 
 
@@ -766,7 +766,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L478>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L478>`__
 
 
 
@@ -776,7 +776,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L480>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L480>`__
 
 
 
@@ -786,7 +786,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L523>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L523>`__
 
 
 
@@ -796,7 +796,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L525>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L525>`__
 
 
 
@@ -806,7 +806,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L527>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L527>`__
 
 
 
@@ -816,7 +816,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L529>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L529>`__
 
 
 
@@ -826,7 +826,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L531>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L531>`__
 
 
 
@@ -836,7 +836,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L533>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L533>`__
 
 
 
@@ -846,7 +846,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L535>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L535>`__
 
 
 
@@ -856,7 +856,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L537>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L537>`__
 
 
 
@@ -866,7 +866,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L539>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L539>`__
 
 
 
@@ -876,7 +876,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L541>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L541>`__
 
 
 
@@ -891,7 +891,7 @@ Binary operators
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L326>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L326>`__
 
 
 
@@ -901,7 +901,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L328>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L328>`__
 
 
 
@@ -911,7 +911,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L330>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L330>`__
 
 
 
@@ -921,7 +921,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L332>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L332>`__
 
 
 
@@ -931,7 +931,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L334>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L334>`__
 
 
 
@@ -941,7 +941,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L346>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L346>`__
 
 
 
@@ -951,7 +951,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L336>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L336>`__
 
 
 
@@ -961,7 +961,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L338>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L338>`__
 
 
 
@@ -971,7 +971,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L340>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L340>`__
 
 
 
@@ -981,7 +981,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L342>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L342>`__
 
 
 
@@ -991,7 +991,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L344>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L344>`__
 
 
 
@@ -1001,7 +1001,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L348>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L348>`__
 
 
 
@@ -1011,7 +1011,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L350>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L350>`__
 
 
 
@@ -1021,7 +1021,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L352>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L352>`__
 
 
 
@@ -1031,7 +1031,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L354>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L354>`__
 
 
 
@@ -1041,7 +1041,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L356>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L356>`__
 
 
 
@@ -1051,7 +1051,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L358>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L358>`__
 
 
 
@@ -1061,7 +1061,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L360>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L360>`__
 
 
 
@@ -1071,7 +1071,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L362>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L362>`__
 
 
 
@@ -1081,7 +1081,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L364>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L364>`__
 
 
 
@@ -1091,7 +1091,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L366>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L366>`__
 
 
 
@@ -1101,7 +1101,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L368>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L368>`__
 
 
 
@@ -1111,7 +1111,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L370>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L370>`__
 
 
 
@@ -1121,7 +1121,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L372>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L372>`__
 
 
 
@@ -1131,7 +1131,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L374>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L374>`__
 
 
 
@@ -1141,7 +1141,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L482>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L482>`__
 
 
 
@@ -1151,7 +1151,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L484>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L484>`__
 
 
 
@@ -1161,7 +1161,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L486>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L486>`__
 
 
 
@@ -1171,7 +1171,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L488>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L488>`__
 
 
 
@@ -1181,7 +1181,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L490>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L490>`__
 
 
 
@@ -1191,7 +1191,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L492>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L492>`__
 
 
 
@@ -1201,7 +1201,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L494>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L494>`__
 
 
 
@@ -1211,7 +1211,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L496>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L496>`__
 
 
 
@@ -1221,7 +1221,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L498>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L498>`__
 
 
 
@@ -1231,7 +1231,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L500>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L500>`__
 
 
 
@@ -1241,7 +1241,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L502>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L502>`__
 
 
 
@@ -1251,7 +1251,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L504>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L504>`__
 
 
 
@@ -1261,7 +1261,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L506>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L506>`__
 
 
 
@@ -1271,7 +1271,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L508>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L508>`__
 
 
 
@@ -1281,7 +1281,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L510>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L510>`__
 
 
 
@@ -1291,7 +1291,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L512>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L512>`__
 
 
 
@@ -1301,7 +1301,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L514>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L514>`__
 
 
 
@@ -1311,7 +1311,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L516>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L516>`__
 
 
 
@@ -1321,7 +1321,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L518>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L518>`__
 
 
 
@@ -1336,7 +1336,7 @@ Comparion functions
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L546>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L546>`__
 
 
 
@@ -1346,7 +1346,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L548>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L548>`__
 
 
 
@@ -1356,7 +1356,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L550>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L550>`__
 
 
 
@@ -1366,7 +1366,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L552>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L552>`__
 
 
 
@@ -1376,7 +1376,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L554>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L554>`__
 
 
 
@@ -1386,7 +1386,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L556>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L556>`__
 
 
 
@@ -1396,7 +1396,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L558>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L558>`__
 
 
 
@@ -1406,7 +1406,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L560>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L560>`__
 
 
 
@@ -1416,7 +1416,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L562>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L562>`__
 
 
 
@@ -1426,7 +1426,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L564>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L564>`__
 
 
 
@@ -1436,7 +1436,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L566>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L566>`__
 
 
 
@@ -1446,7 +1446,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 Refer to :doc:`owl_dense_ndarray_generic`.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L568>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L568>`__
 
 
 
@@ -1462,7 +1462,7 @@ Advanced operations
 ``invalidate x`` set the status of ``x`` to ``Invalid``. Therefore the value of
 ``x`` will be re-computed when in the future evaluation.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L69>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L69>`__
 
 
 
@@ -1478,7 +1478,7 @@ Advanced operations
 
 ``name x`` retrieves the name of ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L98>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L98>`__
 
 
 
@@ -1489,7 +1489,7 @@ Advanced operations
 ``get_by_id x id`` retrieves the node with the given ``id`` in the subgraph of
 ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L100>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L100>`__
 
 
 
@@ -1500,7 +1500,7 @@ Advanced operations
 ``get_by_name x name`` retrieves the node with the given ``name`` in the
 subgraph of ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L102>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_lazy.ml#L102>`__
 
 
 

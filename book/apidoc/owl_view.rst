@@ -3,11 +3,11 @@ View Functor
 
 This document is auto-generated for Owl's APIs.
 #21 entries have been extracted.
-timestamp: 2018-02-11 01:10:46
+timestamp: 2018-02-11 16:15:30
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.ml>`_
 
 
 
@@ -34,7 +34,7 @@ Conversion functions
 
 ``of_arr x`` creates a view from ndarray ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L77>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L77>`__
 
 
 
@@ -44,7 +44,7 @@ Conversion functions
 
 ``to_arr x`` creates an new ndarray based on the view ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L86>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L86>`__
 
 
 
@@ -59,7 +59,7 @@ Manipulation functions
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L103>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L103>`__
 
 
 
@@ -69,7 +69,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L108>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L108>`__
 
 
 
@@ -79,7 +79,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L113>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L113>`__
 
 
 
@@ -89,7 +89,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L215>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L215>`__
 
 
 
@@ -105,7 +105,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L96>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L96>`__
 
 
 
@@ -115,7 +115,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L98>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L98>`__
 
 
 
@@ -125,7 +125,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L100>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L100>`__
 
 
 
@@ -142,7 +142,7 @@ Iteration functions
 ``f : int array -> elt -> unit``, the first paramater is index. The function
 is much slower than ``iter``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L184>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L184>`__
 
 
 
@@ -152,7 +152,7 @@ is much slower than ``iter``.
 
 Similar to ``iteri``, the index is not passed in.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L187>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L187>`__
 
 
 
@@ -163,7 +163,7 @@ Similar to ``iteri``, the index is not passed in.
 ``mapi f x`` applies ``f : int array -> elt -> elt`` to every element in ``x``,
 then save the result in place. This function is much slower than ``map``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L190>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L190>`__
 
 
 
@@ -174,7 +174,7 @@ then save the result in place. This function is much slower than ``map``.
 ``map f x`` applies ``f : elt -> elt`` to every element in ``x``, then save the
 the result in place in ``x``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L193>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L193>`__
 
 
 
@@ -185,7 +185,7 @@ the result in place in ``x``.
 ``iter2 f x y`` applies ``f : elt -> elt -> elt`` every pair of elements in
 ``x`` and ``y``. The indices are not passed in the user function.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L199>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L199>`__
 
 
 
@@ -197,7 +197,7 @@ the result in place in ``x``.
 and ``y``, then saves the result in ``y``. So be careful with the order, it
 matters, the data reflected by view ``y`` will be modified.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L207>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L207>`__
 
 
 

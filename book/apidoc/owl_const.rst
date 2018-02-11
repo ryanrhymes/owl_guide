@@ -3,11 +3,11 @@ Constants
 
 This document is auto-generated for Owl's APIs.
 #440 entries have been extracted.
-timestamp: 2018-02-11 01:10:41
+timestamp: 2018-02-11 16:15:26
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_const.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_const.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_const.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_const.ml>`_
 
 
 
@@ -22,7 +22,7 @@ Maths constants
 
 e = 2.718281828459045235360287471352662498
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L11>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L11>`__
 
 
 
@@ -32,7 +32,7 @@ e = 2.718281828459045235360287471352662498
 
 euler = 0.577215664901532860606512090082402431
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L13>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L13>`__
 
 
 
@@ -42,7 +42,7 @@ euler = 0.577215664901532860606512090082402431
 
 log2e = 1.442695040888963407359924681001892137
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L15>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L15>`__
 
 
 
@@ -52,7 +52,7 @@ log2e = 1.442695040888963407359924681001892137
 
 log10e = 0.434294481903251827651128918916605082
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L17>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L17>`__
 
 
 
@@ -62,7 +62,7 @@ log10e = 0.434294481903251827651128918916605082
 
 loge2 = 0.693147180559945309417232121458176568
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L19>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L19>`__
 
 
 
@@ -72,7 +72,7 @@ loge2 = 0.693147180559945309417232121458176568
 
 loge10 = 2.302585092994045684017991454684364208
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L21>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L21>`__
 
 
 
@@ -82,7 +82,7 @@ loge10 = 2.302585092994045684017991454684364208
 
 logepi = 1.144729885849400174143427351353058711
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L23>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L23>`__
 
 
 
@@ -92,7 +92,7 @@ logepi = 1.144729885849400174143427351353058711
 
 sqrt1_2 = 0.707106781186547524400844362104849039
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L25>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L25>`__
 
 
 
@@ -102,7 +102,7 @@ sqrt1_2 = 0.707106781186547524400844362104849039
 
 sqrt2 = 1.414213562373095048801688724209698079
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L27>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L27>`__
 
 
 
@@ -112,7 +112,7 @@ sqrt2 = 1.414213562373095048801688724209698079
 
 sqrt3 = 1.732050807568877293527446341505872366
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L29>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L29>`__
 
 
 
@@ -122,7 +122,7 @@ sqrt3 = 1.732050807568877293527446341505872366
 
 sqrtpi = 1.772453850905516027298167483341145182
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L31>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L31>`__
 
 
 
@@ -132,7 +132,7 @@ sqrtpi = 1.772453850905516027298167483341145182
 
 pi = 3.141592653589793238462643383279502884
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L33>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L33>`__
 
 
 
@@ -142,7 +142,7 @@ pi = 3.141592653589793238462643383279502884
 
 pi2 = 6.283185307179586476925286766559005768
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L35>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L35>`__
 
 
 
@@ -152,7 +152,7 @@ pi2 = 6.283185307179586476925286766559005768
 
 pi4 = 12.56637061435917295385057353311801153
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L37>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L37>`__
 
 
 
@@ -162,7 +162,7 @@ pi4 = 12.56637061435917295385057353311801153
 
 pi_2 = 1.570796326794896619231321691639751442
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L39>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L39>`__
 
 
 
@@ -172,7 +172,7 @@ pi_2 = 1.570796326794896619231321691639751442
 
 pi_4 = 0.785398163397448309615660845819875721
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L41>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L41>`__
 
 
 
@@ -187,7 +187,7 @@ Constants depending on Bigarray kind
 
 ``zero kind`` returns value zero of the given number type ``kind``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L46>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L46>`__
 
 
 
@@ -197,7 +197,7 @@ Constants depending on Bigarray kind
 
 ``one kind`` returns value one of the given number type ``kind``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L62>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L62>`__
 
 
 
@@ -207,7 +207,7 @@ Constants depending on Bigarray kind
 
 ``neg_one kind`` returns negative one of the given number type ``kind``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L78>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L78>`__
 
 
 
@@ -217,7 +217,7 @@ Constants depending on Bigarray kind
 
 ``pos_inf kind`` returns positive infinity of the given number type ``kind``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L94>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L94>`__
 
 
 
@@ -227,7 +227,7 @@ Constants depending on Bigarray kind
 
 ``neg_inf kind`` returns negative infinity of the given number type ``kind``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L102>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L102>`__
 
 
 
@@ -242,7 +242,7 @@ Unit prefixes
 
 fine_structure = 7.297352533e-3
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L114>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L114>`__
 
 
 
@@ -252,7 +252,7 @@ fine_structure = 7.297352533e-3
 
 avogadro = 6.02214199e23
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L116>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L116>`__
 
 
 
@@ -262,7 +262,7 @@ avogadro = 6.02214199e23
 
 yotta = 1e24
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L118>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L118>`__
 
 
 
@@ -272,7 +272,7 @@ yotta = 1e24
 
 zetta = 1e21
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L120>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L120>`__
 
 
 
@@ -282,7 +282,7 @@ zetta = 1e21
 
 exa = 1e18
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L122>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L122>`__
 
 
 
@@ -292,7 +292,7 @@ exa = 1e18
 
 peta = 1e15
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L124>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L124>`__
 
 
 
@@ -302,7 +302,7 @@ peta = 1e15
 
 tera = 1e12
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L126>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L126>`__
 
 
 
@@ -312,7 +312,7 @@ tera = 1e12
 
 giga = 1e9
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L128>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L128>`__
 
 
 
@@ -322,7 +322,7 @@ giga = 1e9
 
 mega = 1e6
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L130>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L130>`__
 
 
 
@@ -332,7 +332,7 @@ mega = 1e6
 
 kilo = 1e3
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L132>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L132>`__
 
 
 
@@ -342,7 +342,7 @@ kilo = 1e3
 
 hecto = 1e2
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L134>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L134>`__
 
 
 
@@ -352,7 +352,7 @@ hecto = 1e2
 
 deca = 1e1
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L136>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L136>`__
 
 
 
@@ -362,7 +362,7 @@ deca = 1e1
 
 deci = 1e-1
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L138>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L138>`__
 
 
 
@@ -372,7 +372,7 @@ deci = 1e-1
 
 centi = 1e-2
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L140>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L140>`__
 
 
 
@@ -382,7 +382,7 @@ centi = 1e-2
 
 milli = 1e-3
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L142>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L142>`__
 
 
 
@@ -392,7 +392,7 @@ milli = 1e-3
 
 micro = 1e-6
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L144>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L144>`__
 
 
 
@@ -402,7 +402,7 @@ micro = 1e-6
 
 nano = 1e-9
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L146>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L146>`__
 
 
 
@@ -412,7 +412,7 @@ nano = 1e-9
 
 pico = 1e-12
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L148>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L148>`__
 
 
 
@@ -422,7 +422,7 @@ pico = 1e-12
 
 femto = 1e-15
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L150>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L150>`__
 
 
 
@@ -432,7 +432,7 @@ femto = 1e-15
 
 atto = 1e-18
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L152>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L152>`__
 
 
 
@@ -442,7 +442,7 @@ atto = 1e-18
 
 zepto = 1e-21
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L154>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L154>`__
 
 
 
@@ -452,7 +452,7 @@ zepto = 1e-21
 
 yocto = 1e-24
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L156>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_const.ml#L156>`__
 
 
 

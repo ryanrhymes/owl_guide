@@ -3,11 +3,11 @@ Plot
 
 This document is auto-generated for Owl's APIs.
 #63 entries have been extracted.
-timestamp: 2018-02-11 01:10:46
+timestamp: 2018-02-11 16:15:30
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.ml>`_
 
 
 
@@ -62,7 +62,7 @@ Config functions
 
 ``create``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L296>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L296>`__
 
 
 
@@ -72,7 +72,7 @@ Config functions
 
 ``subplot``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L728>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L728>`__
 
 
 
@@ -82,7 +82,7 @@ Config functions
 
 ``output``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L490>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L490>`__
 
 
 
@@ -92,7 +92,7 @@ Config functions
 
 ``set_output``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L501>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L501>`__
 
 
 
@@ -102,7 +102,7 @@ Config functions
 
 ``set_title``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L508>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L508>`__
 
 
 
@@ -112,7 +112,7 @@ Config functions
 
 ``set_xlabel``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L511>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L511>`__
 
 
 
@@ -122,7 +122,7 @@ Config functions
 
 ``set_ylabel``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L514>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L514>`__
 
 
 
@@ -132,7 +132,7 @@ Config functions
 
 ``set_zlabel``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L517>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L517>`__
 
 
 
@@ -142,7 +142,7 @@ Config functions
 
 ``set_xrange``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L520>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L520>`__
 
 
 
@@ -152,7 +152,7 @@ Config functions
 
 ``set_yrange``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L525>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L525>`__
 
 
 
@@ -162,7 +162,7 @@ Config functions
 
 ``set_zrange``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L530>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L530>`__
 
 
 
@@ -172,7 +172,7 @@ Config functions
 
 ``set_xticklabels``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L535>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L535>`__
 
 
 
@@ -182,7 +182,7 @@ Config functions
 
 ``set_yticklabels``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L538>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L538>`__
 
 
 
@@ -192,7 +192,7 @@ Config functions
 
 ``set_zticklabels``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L541>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L541>`__
 
 
 
@@ -202,7 +202,7 @@ Config functions
 
 ``set_foreground_color``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L544>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L544>`__
 
 
 
@@ -212,7 +212,7 @@ Config functions
 
 ``set_background_color``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L547>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L547>`__
 
 
 
@@ -222,7 +222,7 @@ Config functions
 
 ``set_font_size``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L550>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L550>`__
 
 
 
@@ -232,7 +232,7 @@ Config functions
 
 ``set_pen_size``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L553>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L553>`__
 
 
 
@@ -242,7 +242,7 @@ Config functions
 
 ``set_page_size``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L556>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L556>`__
 
 
 
@@ -252,7 +252,7 @@ Config functions
 
 ``legend_on``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L559>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L559>`__
 
 
 
@@ -262,7 +262,7 @@ Config functions
 
 ``legend_off``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L565>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L565>`__
 
 
 
@@ -279,7 +279,7 @@ Basic plot functions
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L619>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L619>`__
 
 
 
@@ -292,7 +292,7 @@ in the interval ``[a, b]``.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L661>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L661>`__
 
 
 
@@ -304,7 +304,7 @@ Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L667>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L667>`__
 
 
 
@@ -316,7 +316,7 @@ Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
 Parameters: ``RGB``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L700>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L700>`__
 
 
 
@@ -328,7 +328,7 @@ Parameters: ``RGB``.
 
 Parameters: ``RGB``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1097>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1097>`__
 
 
 
@@ -340,7 +340,7 @@ Parameters: ``RGB``, ``LineStyle``, ``LineWidth``.
 
 Parameters: ``RGB``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1108>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1108>`__
 
 
 
@@ -352,7 +352,7 @@ Parameters: ``RGB``, ``LineStyle``, ``LineWidth``.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L733>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L733>`__
 
 
 
@@ -364,7 +364,7 @@ Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L775>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L775>`__
 
 
 
@@ -393,7 +393,7 @@ and bottom-right point at ``(x1,y1)``.
 
 Parameters: ``RGB``, ``LineStyle``, ``FillPattern``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L949>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L949>`__
 
 
 
@@ -405,7 +405,7 @@ Parameters: ``RGB``, ``LineStyle``, ``FillPattern``.
 
 Parameters: ``RGB``, ``LineStyle``, ``LineWidth``, ``FillPattern``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1121>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1121>`__
 
 
 
@@ -417,7 +417,7 @@ Parameters: ``RGB``, ``LineStyle``, ``LineWidth``, ``FillPattern``.
 
 Parameters: ``RGB``, ``LineStyle``, ``FillPattern``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L980>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L980>`__
 
 
 
@@ -429,7 +429,7 @@ Parameters: ``RGB``, ``LineStyle``, ``FillPattern``.
 
 Parameters: ``RGB``, ``LineStyle``, ``FillPattern``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1015>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1015>`__
 
 
 
@@ -443,7 +443,7 @@ will be connected to the first point.
 
 Parameters: ``RGB``, ``LineStyle``, ``FillPattern``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1052>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1052>`__
 
 
 
@@ -455,7 +455,7 @@ Parameters: ``RGB``, ``LineStyle``, ``FillPattern``.
 
 Parameters: ``RGB``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L852>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L852>`__
 
 
 
@@ -467,7 +467,7 @@ Parameters: ``RGB``, ``LineStyle``, ``LineWidth``.
 
 Parameters: ``RGB``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L909>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L909>`__
 
 
 
@@ -479,7 +479,7 @@ Parameters: ``RGB``.
 
 Parameters: ``RGB``, ``Fill``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1189>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1189>`__
 
 
 
@@ -494,7 +494,7 @@ respectively.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``, ``Axis``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1221>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1221>`__
 
 
 
@@ -507,7 +507,7 @@ x-axis.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1281>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1281>`__
 
 
 
@@ -520,7 +520,7 @@ y-axis.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``, ``LineStyle``, ``LineWidth``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1288>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1288>`__
 
 
 
@@ -533,7 +533,7 @@ non-zero elements are plotted as dots, and zeros are ignored.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1669>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1669>`__
 
 
 
@@ -548,7 +548,7 @@ Plot 3D figures
 
 TODO: ``plot3d`` is just an alias of ``surf`` function.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1334>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1334>`__
 
 
 
@@ -563,7 +563,7 @@ Parameters: ``Altitude``, ``Azimuth``, ``Contour``, ``NoMagColor``, ``Curtain``.
 Please refer to ``plotsurf3d`` functions in the PLplot library for more
 information.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1295>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1295>`__
 
 
 
@@ -579,7 +579,7 @@ Parameters: ``RGB``, ``Altitude``, ``Azimuth``, ``Contour``, ``NoMagColor``, ``Z
 Please refer to ``plmesh`` and ``plmeshc`` functions in the PLplot library for
 more information.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1337>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1337>`__
 
 
 
@@ -595,7 +595,7 @@ more information.
 
 ``heatmap x y z`` generates a heatmap defined by ``x``, ``y``, and ``z``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1386>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1386>`__
 
 
 
@@ -624,7 +624,7 @@ The same definition also applies to normplot and wblplot.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1454>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1454>`__
 
 
 
@@ -637,7 +637,7 @@ specify the ``sigma`` of distribution or the default value 1 will be used.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1504>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1504>`__
 
 
 
@@ -652,7 +652,7 @@ on x-axis.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1510>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1510>`__
 
 
 
@@ -672,7 +672,7 @@ longer one as x, and the shorter one y.
 
 Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1570>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1570>`__
 
 
 
@@ -682,7 +682,7 @@ Parameters: ``RGB``, ``Marker``, ``MarkerSize``.
 
 ``image mat`` display a m * n matrix as image. Each element in the matrix is of range 0 ~ 255.
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1632>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1632>`__
 
 
 

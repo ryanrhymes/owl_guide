@@ -3,11 +3,11 @@ Base.Maths
 
 This document is auto-generated for Owl's APIs.
 #34 entries have been extracted.
-timestamp: 2018-02-11 01:10:46
+timestamp: 2018-02-11 16:15:31
 
 Github:
-`[Signature] <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_maths.mli>`_ 
-`[Implementation] <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_maths.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_maths.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_maths.ml>`_
 
 
 
@@ -22,7 +22,7 @@ Basic functions
 
 ``add x y``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L3>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L3>`__
 
 
 
@@ -32,7 +32,7 @@ Basic functions
 
 ``sub x y``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L5>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L5>`__
 
 
 
@@ -42,7 +42,7 @@ Basic functions
 
 ``mul x y``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L7>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L7>`__
 
 
 
@@ -52,7 +52,7 @@ Basic functions
 
 ``div x y``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L9>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L9>`__
 
 
 
@@ -62,7 +62,7 @@ Basic functions
 
 ``atan2 x y``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L13>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L13>`__
 
 
 
@@ -72,7 +72,7 @@ Basic functions
 
 ``abs x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L15>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L15>`__
 
 
 
@@ -82,7 +82,7 @@ Basic functions
 
 ``neg x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L17>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L17>`__
 
 
 
@@ -92,7 +92,7 @@ Basic functions
 
 ``floor x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L40>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L40>`__
 
 
 
@@ -102,7 +102,7 @@ Basic functions
 
 ``ceil x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L42>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L42>`__
 
 
 
@@ -112,7 +112,7 @@ Basic functions
 
 ``round x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L44>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L44>`__
 
 
 
@@ -122,7 +122,7 @@ Basic functions
 
 ``trunc x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L46>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L46>`__
 
 
 
@@ -132,7 +132,7 @@ Basic functions
 
 ``sqr x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L19>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L19>`__
 
 
 
@@ -142,7 +142,7 @@ Basic functions
 
 ``sqrt x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L21>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L21>`__
 
 
 
@@ -152,7 +152,7 @@ Basic functions
 
 ``pow x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L11>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L11>`__
 
 
 
@@ -162,7 +162,7 @@ Basic functions
 
 ``exp x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L23>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L23>`__
 
 
 
@@ -172,7 +172,7 @@ Basic functions
 
 ``log x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L25>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L25>`__
 
 
 
@@ -182,7 +182,7 @@ Basic functions
 
 ``log2 x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L27>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L27>`__
 
 
 
@@ -192,7 +192,7 @@ Basic functions
 
 ``log10 x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L29>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L29>`__
 
 
 
@@ -202,7 +202,7 @@ Basic functions
 
 ``sigmod x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L77>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L77>`__
 
 
 
@@ -212,7 +212,7 @@ Basic functions
 
 ``signum x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L31>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L31>`__
 
 
 
@@ -222,7 +222,7 @@ Basic functions
 
 ``relu x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L75>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L75>`__
 
 
 
@@ -232,7 +232,7 @@ Basic functions
 
 ``sin x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L48>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L48>`__
 
 
 
@@ -242,7 +242,7 @@ Basic functions
 
 ``cos x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L50>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L50>`__
 
 
 
@@ -252,7 +252,7 @@ Basic functions
 
 ``tan x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L52>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L52>`__
 
 
 
@@ -262,7 +262,7 @@ Basic functions
 
 ``asin x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L60>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L60>`__
 
 
 
@@ -272,7 +272,7 @@ Basic functions
 
 ``acos x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L62>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L62>`__
 
 
 
@@ -282,7 +282,7 @@ Basic functions
 
 ``atan x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L64>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L64>`__
 
 
 
@@ -292,7 +292,7 @@ Basic functions
 
 ``sinh x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L54>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L54>`__
 
 
 
@@ -302,7 +302,7 @@ Basic functions
 
 ``cosh x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L56>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L56>`__
 
 
 
@@ -312,7 +312,7 @@ Basic functions
 
 ``tanh x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L58>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L58>`__
 
 
 
@@ -322,7 +322,7 @@ Basic functions
 
 ``asinh x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L67>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L67>`__
 
 
 
@@ -332,7 +332,7 @@ Basic functions
 
 ``acosh x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L70>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L70>`__
 
 
 
@@ -342,7 +342,7 @@ Basic functions
 
 ``atanh x``
 
-`[ source code ] <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L73>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L73>`__
 
 
 
