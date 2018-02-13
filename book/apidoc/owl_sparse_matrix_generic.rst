@@ -2,8 +2,8 @@ Sparse.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#133 entries have been extracted.
-timestamp: 2018-02-13 00:00:03
+#135 entries have been extracted.
+timestamp: 2018-02-13 22:16:18
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/sparse/owl_sparse_matrix_generic.mli>`_ 
@@ -593,6 +593,16 @@ elements in ``x``. The zeros in ``x`` will remain the same in the new matrix.
 Similar to ``mapi_nz`` except the coordinates of elements are not passed to ``f``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L175>`__
+
+
+
+.. code-block:: ocaml
+
+  val foldi_nz : (int -> int -> 'c -> 'a -> 'c) -> 'c -> ('a, 'b) t -> 'c
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L185>`__
 
 
 
@@ -1349,6 +1359,16 @@ TODO
 ``power x a`` calculates the power of ``a`` of each element in ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L409>`__
+
+
+
+.. code-block:: ocaml
+
+  val mpow : ('a, 'b) t -> float -> ('a, 'b) t
+
+TODO: not implemented, just a place holder.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/sparse/owl_sparse_matrix_generic.ml#L606>`__
 
 
 

@@ -2,8 +2,8 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#409 entries have been extracted.
-timestamp: 2018-02-13 00:00:03
+#414 entries have been extracted.
+timestamp: 2018-02-13 22:16:18
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -752,9 +752,11 @@ one to the greatest one.
 
 .. code-block:: ocaml
 
-  val sort : ('a, 'b) t -> unit
+  val sort : ('a, 'b) t -> ('a, 'b) t
 
-``sort x`` performs in-place quicksort of the elelments in ``x``.
+``sort x`` performs quicksort of the elelments in ``x``. A new copy is returned
+as result, the original ``x`` remains intact. If you want to perform in-place
+sorting, please use `sort_` instead.
 
 Iteration functions
 -------------------------------------------------------------------------------
@@ -2676,6 +2678,12 @@ In-place modification
 
 .. code-block:: ocaml
 
+  val sort_ : ('a, 'b) t -> unit
+
+``sort_ x`` performs in-place quicksort of the elelments in ``x``.
+
+.. code-block:: ocaml
+
   val add_ : ('a, 'b) t -> ('a, 'b) t -> unit
 
 ``add_ x y`` is simiar to ``add`` function but the output is written to ``x``.
@@ -2798,6 +2806,13 @@ written to ``x``.
 
 .. code-block:: ocaml
 
+  val fmod_scalar_ : ('a, 'b) t -> 'a -> unit
+
+``fmod_scalar_ x y`` is simiar to ``fmod_scalar`` function but the output is
+written to ``x``.
+
+.. code-block:: ocaml
+
   val scalar_add_ : 'a -> ('a, 'b) t -> unit
 
 ``scalar_add_ a x`` is simiar to ``scalar_add`` function but the output is
@@ -2840,9 +2855,22 @@ written to ``x``.
 
 .. code-block:: ocaml
 
+  val scalar_fmod_ : 'a -> ('a, 'b) t -> unit
+
+``scalar_fmod_ a x`` is simiar to ``scalar_fmod`` function but the output is
+written to ``x``.
+
+.. code-block:: ocaml
+
   val conj_ : ('a, 'b) t -> unit
 
 ``conj_ x`` is similar to ``conj`` but output is written to ``x``
+
+.. code-block:: ocaml
+
+  val abs_ : ('a, 'b) t -> unit
+
+``abs_ x`` is similar to ``abs`` but output is written to ``x``
 
 .. code-block:: ocaml
 
@@ -3092,9 +3120,15 @@ written to ``x``.
 
 .. code-block:: ocaml
 
-  val cumprod_ : ?axis:int -> ('a, 'b) t -> unit
+  val cummax_ : ?axis:int -> ('a, 'b) t -> unit
 
-``cumprod_ x`` is similar to ``cumprod`` but output is written to ``x``
+``cummax_ x`` is similar to ``cummax`` but output is written to ``x``
+
+.. code-block:: ocaml
+
+  val dropout_ : ?rate:float -> ('a, 'b) t -> unit
+
+``dropout_ x`` is similar to ``dropout`` but output is written to ``x``
 
 .. code-block:: ocaml
 

@@ -2,8 +2,8 @@ Operator Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#74 entries have been extracted.
-timestamp: 2018-02-13 00:00:06
+#75 entries have been extracted.
+timestamp: 2018-02-13 22:16:20
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ 
@@ -409,6 +409,12 @@ Matrix-specific operators
   val ( *@ ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
 Operator of ``dot a b``, i.e. matrix multiplication ``a * b``.
+
+.. code-block:: ocaml
+
+  val ( **@ ) :  ('a, 'b) M.t -> float -> ('a, 'b) M.t
+
+Operator of ``mpow``, i.e. matrix power.
 
 .. code-block:: ocaml
 
