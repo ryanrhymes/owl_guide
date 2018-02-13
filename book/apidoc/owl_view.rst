@@ -3,7 +3,7 @@ View Functor
 
 This document is auto-generated for Owl's APIs.
 #21 entries have been extracted.
-timestamp: 2018-02-13 22:16:20
+timestamp: 2018-02-13 22:30:57
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.mli>`_ 

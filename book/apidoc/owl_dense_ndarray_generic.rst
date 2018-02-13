@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #405 entries have been extracted.
-timestamp: 2018-02-13 22:16:17
+timestamp: 2018-02-13 22:30:54
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -819,7 +819,7 @@ of both samples and the indices of the selected samples.
 
 
 
-Iterate array elements
+Iteration functions
 -------------------------------------------------------------------------------
 
 
