@@ -64,6 +64,7 @@ Operator      Example       Operation                 Dense/Sparse  Ndarray/Matr
 ``**``        ``x ** y``    power function            Dense         both
 ``*@``        ``x *@ y``    matrix multiply           both          Matrix
 ``/@``        ``x /@ y``    solve linear system       both          Matrix
+``**@``       ``x **@ a``   matrix power              both          Matrix
 ``min2``      ``min2 x y``  element-wise min          both          both
 ``max2``      ``max2 x y``  element-wise max          both          both
 ``@=``        ``x @= y``    concatenate vertically    Dense         both
@@ -106,7 +107,7 @@ Extending indexing and slicing operators are not included in the table above, bu
 Extension Module
 -------------------------------------------------
 
-As you can see, the operators above do not allow interoperation on different number types (which may not be bad thing in many cases actually). E.g., you cannot add a ``float32`` matrix to ``float64`` matrix unless you explicitly call the ``cast`` functions in ``Generic`` module :doc:`[read this] <basics>`.
+As you can see, the operators above do not allow interoperation on different number types (which may not be bad thing in many cases actually). E.g., you cannot add a ``float32`` matrix to ``float64`` matrix unless you explicitly call the ``cast`` functions in ``Generic`` module :doc:`{read this} <basics>`.
 
 ``Owl.Ext`` module is specifically designed for this purpose, to make prototyping faster and easier. Once you open the module, ``Ext`` immediately provides a set of operators to allow you to interoperate on different number types, as below. It automatically casts types for you if necessary.
 
