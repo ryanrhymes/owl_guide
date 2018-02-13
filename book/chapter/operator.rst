@@ -63,8 +63,11 @@ Operator      Example       Operation                 Dense/Sparse  Ndarray/Matr
 ``%$``        ``x %$ a``    mod divide scalar         Dense         both
 ``**``        ``x ** y``    power function            Dense         both
 ``*@``        ``x *@ y``    matrix multiply           both          Matrix
+``/@``        ``x /@ y``    solve linear system       both          Matrix
 ``min2``      ``min2 x y``  element-wise min          both          both
 ``max2``      ``max2 x y``  element-wise max          both          both
+``@=``        ``x @= y``    concatenate vertically    Dense         both
+``@||``       ``x @|| y``   concatenate horizontally  Dense         both
 ============  ============  ========================  ============  =================
 
 There are a list of things worth your attention as below.

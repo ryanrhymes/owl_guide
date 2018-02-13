@@ -2,8 +2,8 @@ Operator Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#72 entries have been extracted.
-timestamp: 2018-02-11 16:15:30
+#74 entries have been extracted.
+timestamp: 2018-02-13 00:00:06
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ 
@@ -365,6 +365,18 @@ Operator of ``div_scalar_``
 
 .. code-block:: ocaml
 
+  val ( @= ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
+
+Operator of ``concat_vertical``
+
+.. code-block:: ocaml
+
+  val ( @|| ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
+
+Operator of ``concat_horizontal``
+
+.. code-block:: ocaml
+
   val ( .!{} ) : ('a, 'b) M.t -> Owl_types.index list -> ('a, 'b) M.t
 
 Operator of ``get_fancy``
@@ -396,19 +408,7 @@ Matrix-specific operators
 
   val ( *@ ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
 
-Operator of ``dot``
-
-.. code-block:: ocaml
-
-  val ( @= ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
-
-Operator of ``concat_vertical``
-
-.. code-block:: ocaml
-
-  val ( @|| ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
-
-Operator of ``concat_horizontal``
+Operator of ``dot a b``, i.e. matrix multiplication ``a * b``.
 
 .. code-block:: ocaml
 
@@ -438,4 +438,15 @@ Operator of ``get``
   val ( .%{}<- ) : ('a, 'b) M.t -> int array -> 'a -> unit
 
 Operator of ``set``
+
+Linalg-specific operators
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val ( /@ ) : ('a, 'b) M.t -> ('a, 'b) M.t -> ('a, 'b) M.t
+
+Operator of ``linsolve a b``, i.e. for solving a linear system ``a * x = b``.
 
