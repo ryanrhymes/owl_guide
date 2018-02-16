@@ -3,7 +3,7 @@ Optimise.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #60 entries have been extracted.
-timestamp: 2018-02-13 22:35:00
+timestamp: 2018-02-16 00:04:53
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_optimise_generic_sig.ml>`_ 
@@ -62,6 +62,7 @@ Learning_Rate module
     | Decay of float * float
     | Exp_decay of float * float
     | RMSprop of float * float
+    | Adam of float * float * float
     | Schedule of float array
     
 
@@ -69,7 +70,7 @@ types of learning rate
 
 .. code-block:: ocaml
 
-  val run : typ -> int -> 'a -> t -> t
+  val run : typ -> int -> t -> t array -> t
 
 Execute the computations defined in module ``typ``.
 
@@ -81,11 +82,11 @@ Create module ``typ`` with default values.
 
 .. code-block:: ocaml
 
-  val update_ch : typ -> t -> t -> t
+  val update_ch : typ -> t -> t array -> t array
 
 Update the cache of gradients.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L86>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L93>`__
 
 
 
@@ -315,7 +316,7 @@ Checkpoint module
     mutable gs : t array array;
     mutable ps : t array array;
     mutable us : t array array;
-    mutable ch : t array array;
+    mutable ch : t array array array;
     }
     
 
@@ -339,7 +340,7 @@ Batch type.
 ``init_state batches_per_epoch epochs`` initialises a state by specifying the
 number of batches per epoch and the number of epochs in total.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L334>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L346>`__
 
 
 
@@ -349,7 +350,7 @@ number of batches per epoch and the number of epochs in total.
 
 This function is used for saving intermediate files during optimisation.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L350>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L362>`__
 
 
 
@@ -359,7 +360,7 @@ This function is used for saving intermediate files during optimisation.
 
 Print out the detail information of current ``state``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L357>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L369>`__
 
 
 
@@ -369,7 +370,7 @@ Print out the detail information of current ``state``.
 
 Print out the summary of current ``state``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L370>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L382>`__
 
 
 
@@ -421,7 +422,7 @@ Create module ``typ`` with default values.
 
 This function creates a parameter object with many configurations.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L429>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L441>`__
 
 
 
@@ -445,7 +446,7 @@ This function minimises the weight ``w`` of passed-in function ``f``.
 * ``f`` is a function ``f : w -> x -> y``.
 * ``w`` is a row vector but ``y`` can have any shape.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L470>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L482>`__
 
 
 
@@ -457,7 +458,7 @@ This function is specifically designed for minimising the weights in a neural
 network of graph structure. In Owl's earlier versions, the functions in the
 regression module were actually implemented using this function.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L556>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L568>`__
 
 
 
@@ -469,7 +470,7 @@ This function minimises ``f : x -> y`` w.r.t ``x``.
 
 ``x`` is an ndarray; and ``y`` is an scalar value.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L653>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/optimise/owl_optimise_generic.ml#L665>`__
 
 
 

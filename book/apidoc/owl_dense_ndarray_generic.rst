@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #405 entries have been extracted.
-timestamp: 2018-02-13 22:34:58
+timestamp: 2018-02-16 00:04:51
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -120,7 +120,7 @@ one can be ``1.`` or ``Complex.one``.
 
 ``eye m`` creates an ``m`` by ``m`` identity matrix.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3254>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3255>`__
 
 
 
@@ -202,7 +202,7 @@ Note that both ``re`` and ``im`` can be complex but must have same type. The rea
 part of ``re`` will be the real part of ``x`` and the imaginary part of ``im`` will
 be the imaginary part of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1394>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1395>`__
 
 
 
@@ -215,7 +215,7 @@ coordinates ``rho`` and ``theta``. ``rho`` contains the magnitudes and ``theta``
 contains phase angles. Note that the behaviour is undefined if ``rho`` has
 negative elelments or ``theta`` has infinity elelments.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1402>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1403>`__
 
 
 
@@ -713,7 +713,7 @@ lowest dimension of a matrix/ndarray.
 
 ``split ~axis parts x`` ... TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2465>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2466>`__
 
 
 
@@ -746,7 +746,7 @@ along the low dimension (by setting ``false``). The default value is ``false``.
 
 ``pad ~v:0. [[1;1]] x`` ... TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1560>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1561>`__
 
 
 
@@ -769,7 +769,7 @@ by setting their values to zeros.
 are arranged according to the corresponding elelment values, from the greatest
 one to the smallest one.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2810>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2811>`__
 
 
 
@@ -781,7 +781,7 @@ one to the smallest one.
 indices are arranged according to the corresponding elelment values, from the
 smallest one to the greatest one.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2812>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2813>`__
 
 
 
@@ -805,7 +805,7 @@ sorting, please use `sort_` instead.
 with replacement. ``axis`` is set to zero by default. The return is a tuple
 of both samples and the indices of the selected samples.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3430>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3431>`__
 
 
 
@@ -874,7 +874,7 @@ the specified ``axis`` using passed in function ``f``. ``a`` is the initial elem
 and in ``f i acc b`` ``acc`` is the accumulater and ``b`` is one of the elemets in
 ``x`` along the same axis. Note that ``i`` is 1d index of ``b``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2506>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2507>`__
 
 
 
@@ -884,7 +884,7 @@ and in ``f i acc b`` ``acc`` is the accumulater and ``b`` is one of the elemets 
 
 Similar to ``foldi``, except that the index of an element is not passed to ``f``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2543>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2544>`__
 
 
 
@@ -898,7 +898,7 @@ the next call to ``f i acc a``. This function can be used to implement
 accumulative operations such as ``sum`` and ``prod`` functions. Note that the ``i``
 is 1d index of ``a`` in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2551>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2552>`__
 
 
 
@@ -908,7 +908,7 @@ is 1d index of ``a`` in ``x``.
 
 Similar to ``scani``, except that the index of an element is not passed to ``f``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2585>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2586>`__
 
 
 
@@ -1003,7 +1003,7 @@ Similar to `mapi` but n-d indices are passed to the user function.
 
 Similar to `foldi` but n-d indices are passed to the user function.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2546>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2547>`__
 
 
 
@@ -1013,7 +1013,7 @@ Similar to `foldi` but n-d indices are passed to the user function.
 
 Similar to `scani` but n-d indices are passed to the user function.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2588>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2589>`__
 
 
 
@@ -1155,7 +1155,7 @@ element in ``x``. Otherwise, the function returns ``true``.
 
   val equal : ('a, 'b) t -> ('a, 'b) t -> bool
 
-``equal x y`` returns ``true`` if two ('a, 'b) trices ``x`` and ``y`` are equal.
+``equal x y`` returns ``true`` if two matrices ``x`` and ``y`` are equal.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1262>`__
 
@@ -1519,7 +1519,7 @@ Input/Output functions
 ``of_array k x d`` takes an array ``x`` and converts it into an ndarray of type
 ``k`` and shape ``d``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1383>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1384>`__
 
 
 
@@ -1530,7 +1530,7 @@ Input/Output functions
 ``to_array x`` converts an ndarray ``x`` to OCaml's array type. Note that the
 ndarray ``x`` is flattened before convertion.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1389>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1390>`__
 
 
 
@@ -1543,7 +1543,7 @@ and ``max_col`` specify the maximum number of rows and columns to display.
 ``header`` specifies whether or not to print out the headers. ``fmt`` is the
 function to format every element into string.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1365>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1366>`__
 
 
 
@@ -1554,7 +1554,7 @@ function to format every element into string.
 ``pp_dsnda x`` prints ``x`` in OCaml toplevel. If the ndarray is too long,
 ``pp_dsnda`` only prints out parts of the ndarray.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1377>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1378>`__
 
 
 
@@ -1564,7 +1564,7 @@ function to format every element into string.
 
 ``save x s`` serialises a ndarray ``x`` to a file of name ``s``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1379>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1380>`__
 
 
 
@@ -1575,7 +1575,7 @@ function to format every element into string.
 ``load k s`` loads previously serialised ndarray from file ``s`` into memory.
 It is necesssary to specify the type of the ndarray with paramater ``k``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1381>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1382>`__
 
 
 
@@ -1590,7 +1590,7 @@ Unary math operators
 
 ``re_c2s x`` returns all the real components of ``x`` in a new ndarray of same shape.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1413>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1414>`__
 
 
 
@@ -1600,7 +1600,7 @@ Unary math operators
 
 ``re_d2z x`` returns all the real components of ``x`` in a new ndarray of same shape.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1418>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1419>`__
 
 
 
@@ -1610,7 +1610,7 @@ Unary math operators
 
 ``im_c2s x`` returns all the imaginary components of ``x`` in a new ndarray of same shape.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1423>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1424>`__
 
 
 
@@ -1620,7 +1620,7 @@ Unary math operators
 
 ``im_d2z x`` returns all the imaginary components of ``x`` in a new ndarray of same shape.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1428>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1429>`__
 
 
 
@@ -1630,7 +1630,7 @@ Unary math operators
 
 ``sum ~axis x`` sums the elements in ``x`` along specified ``axis``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2592>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2593>`__
 
 
 
@@ -1640,7 +1640,7 @@ Unary math operators
 
 ``sum' x`` returns the sumtion of all elements in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2483>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2484>`__
 
 
 
@@ -1650,7 +1650,7 @@ Unary math operators
 
 ``prod ~axis x`` multiples the elements in ``x`` along specified ``axis``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2604>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2605>`__
 
 
 
@@ -1660,7 +1660,7 @@ Unary math operators
 
 ``prod x`` returns the product of all elements in ``x`` along passed in axises.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2486>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2487>`__
 
 
 
@@ -1670,7 +1670,7 @@ Unary math operators
 
 ``mean ~axis x`` calculates the mean along specified ``axis``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2650>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2651>`__
 
 
 
@@ -1680,7 +1680,7 @@ Unary math operators
 
 ``mean' x`` calculates the mean of all the elements in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2643>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2644>`__
 
 
 
@@ -1690,7 +1690,7 @@ Unary math operators
 
 ``var ~axis x`` calculates the variance along specified ``axis``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2672>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2673>`__
 
 
 
@@ -1700,7 +1700,7 @@ Unary math operators
 
 ``var' x`` calculates the variance of all the elements in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2662>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2663>`__
 
 
 
@@ -1710,7 +1710,7 @@ Unary math operators
 
 ``std ~axis`` calculates the standard deviation along specified ``axis``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2697>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2698>`__
 
 
 
@@ -1720,7 +1720,7 @@ Unary math operators
 
 ``std' x`` calculates the standard deviation of all the elements in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2687>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2688>`__
 
 
 
@@ -1734,7 +1734,7 @@ elements will be returned.  For two complex numbers, the one with the smaller
 magnitude will be selected. If two magnitudes are the same, the one with the
 smaller phase will be selected.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2616>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2617>`__
 
 
 
@@ -1759,7 +1759,7 @@ elements will be returned.  For two complex numbers, the one with the greater
 magnitude will be selected. If two magnitudes are the same, the one with the
 greater phase will be selected.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2628>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2629>`__
 
 
 
@@ -1781,7 +1781,7 @@ in scalar value.
 ``minmax' x`` returns ``(min_v, max_v)``, ``min_v`` is the minimum value in ``x``
 while ``max_v`` is the maximum.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2640>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2641>`__
 
 
 
@@ -1844,7 +1844,7 @@ maximum value along its index.
 
 ``abs_c2s x`` is similar to ``abs`` but takes ``complex32`` as input.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1433>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1434>`__
 
 
 
@@ -1854,7 +1854,7 @@ maximum value along its index.
 
 ``abs_z2d x`` is similar to ``abs`` but takes ``complex64`` as input.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1435>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1436>`__
 
 
 
@@ -1874,7 +1874,7 @@ maximum value along its index.
 
 ``abs2_c2s x`` is similar to ``abs2`` but takes ``complex32`` as input.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1437>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1438>`__
 
 
 
@@ -1884,7 +1884,7 @@ maximum value along its index.
 
 ``abs2_z2d x`` is similar to ``abs2`` but takes ``complex64`` as input.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1439>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1440>`__
 
 
 
@@ -2259,7 +2259,7 @@ the behavior is the same as ``ceil``.
 saved in the first element of the returned tuple whereas the integer part is
 saved in the second element.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2456>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2457>`__
 
 
 
@@ -2360,7 +2360,7 @@ elements in ``x`` and returns the result in a new ndarray.
 ``softmax x`` computes the softmax functions ``(exp x) / (sum (exp x))`` of
 all the elements in ``x`` and returns the result in a new array.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3096>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3097>`__
 
 
 
@@ -2392,7 +2392,7 @@ the elements in ``x``.
 
 ``l1norm x`` calculates the l1-norm of of ``x`` along specified axis.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2713>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2714>`__
 
 
 
@@ -2412,7 +2412,7 @@ the elements in ``x``.
 
 ``l2norm x`` calculates the l2-norm of of ``x`` along specified axis.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2737>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2738>`__
 
 
 
@@ -2432,7 +2432,7 @@ the elements in ``x``.
 
 ``l2norm_sqr x`` calculates the square l2-norm of of ``x`` along specified axis.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2725>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2726>`__
 
 
 
@@ -2468,7 +2468,7 @@ Returns:
   * If ``p = -infinity``, then returns :math:`||v||_{-\infty} = \min_i(|v(i)|)`.
   * Otherwise returns generalised vector p-norm defined above.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2750>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2751>`__
 
 
 
@@ -2479,7 +2479,7 @@ Returns:
 ``vecnorm'`` flattens the input into 1-d vector first, then calcuates the
 generalised p-norm the same as ``venorm``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2766>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2767>`__
 
 
 
@@ -2491,7 +2491,7 @@ generalised p-norm the same as ``venorm``.
 axis ``~axis``. If ``~axis`` is ``None``, then the ``cumsum`` is performed along the
 lowest dimension. The returned result however always remains the same shape.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2428>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2429>`__
 
 
 
@@ -2502,7 +2502,7 @@ lowest dimension. The returned result however always remains the same shape.
 ``cumprod ~axis x`` : similar to ``cumsum`` but performs cumulative product of
 the elements along the given ``~axis``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2435>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2436>`__
 
 
 
@@ -2512,7 +2512,7 @@ the elements along the given ``~axis``.
 
 ``cummin ~axis x`` : performs cumulative ``min`` along ``axis`` dimension.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2442>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2443>`__
 
 
 
@@ -2522,7 +2522,7 @@ the elements along the given ``~axis``.
 
 ``cummax ~axis x`` : performs cumulative ``max`` along ``axis`` dimension.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2449>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2450>`__
 
 
 
@@ -2731,7 +2731,7 @@ it can be be negative, zero, or positive. Non-integer exponents
 are not yet implemented. (If ``r`` is negative, ``mpow`` calls ``inv``,
 and warnings in documentation for ``inv`` apply.)
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3264>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3265>`__
 
 
 
@@ -2858,7 +2858,7 @@ rather than the conjugate transpose as {!l2norm_sqr} does.
 
 ``cross_entropy x y`` calculates the cross entropy between ``x`` and ``y`` using base ``e``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3126>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3127>`__
 
 
 
@@ -2870,7 +2870,7 @@ rather than the conjugate transpose as {!l2norm_sqr} does.
 ``amax``. The elements smaller than ``amin`` will be set to ``amin``, and the
 elements greater than ``amax`` will be set to ``amax``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1484>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1485>`__
 
 
 
@@ -2880,7 +2880,7 @@ elements greater than ``amax`` will be set to ``amax``.
 
 ``clip_by_l2norm t x`` clips the ``x`` according to the threshold set by ``t``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1498>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1499>`__
 
 
 
@@ -2897,7 +2897,7 @@ Cast functions
 specify by the passed in ``kind`` parameter. This function is a generalisation
 of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1444>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1445>`__
 
 
 
@@ -2907,7 +2907,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_s2d x`` casts ``x`` from ``float32`` to ``float64``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1465>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1466>`__
 
 
 
@@ -2917,7 +2917,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_d2s x`` casts ``x`` from ``float64`` to ``float32``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1467>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1468>`__
 
 
 
@@ -2927,7 +2927,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_c2z x`` casts ``x`` from ``complex32`` to ``complex64``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1469>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1470>`__
 
 
 
@@ -2937,7 +2937,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_z2c x`` casts ``x`` from ``complex64`` to ``complex32``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1471>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1472>`__
 
 
 
@@ -2947,7 +2947,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_s2c x`` casts ``x`` from ``float32`` to ``complex32``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1473>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1474>`__
 
 
 
@@ -2957,7 +2957,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_d2z x`` casts ``x`` from ``float64`` to ``complex64``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1475>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1476>`__
 
 
 
@@ -2967,7 +2967,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_s2z x`` casts ``x`` from ``float32`` to ``complex64``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1477>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1478>`__
 
 
 
@@ -2977,7 +2977,7 @@ of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 ``cast_d2c x`` casts ``x`` from ``float64`` to ``complex32``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1479>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1480>`__
 
 
 
@@ -2992,7 +2992,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1854>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1855>`__
 
 
 
@@ -3002,7 +3002,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1597>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1598>`__
 
 
 
@@ -3012,7 +3012,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1720>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1721>`__
 
 
 
@@ -3022,7 +3022,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1999>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2000>`__
 
 
 
@@ -3032,7 +3032,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1959>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1960>`__
 
 
 
@@ -3042,7 +3042,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2089>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2090>`__
 
 
 
@@ -3052,7 +3052,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2059>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2060>`__
 
 
 
@@ -3062,7 +3062,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2024>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2025>`__
 
 
 
@@ -3072,7 +3072,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2127>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2128>`__
 
 
 
@@ -3082,7 +3082,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2165>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2166>`__
 
 
 
@@ -3092,7 +3092,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1882>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1883>`__
 
 
 
@@ -3102,7 +3102,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1918>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1919>`__
 
 
 
@@ -3112,7 +3112,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1635>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1636>`__
 
 
 
@@ -3122,7 +3122,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1675>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1676>`__
 
 
 
@@ -3132,7 +3132,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1761>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1762>`__
 
 
 
@@ -3142,7 +3142,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1805>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1806>`__
 
 
 
@@ -3152,7 +3152,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2273>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2274>`__
 
 
 
@@ -3162,7 +3162,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2238>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2239>`__
 
 
 
@@ -3172,7 +3172,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2201>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2202>`__
 
 
 
@@ -3182,7 +3182,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2375>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2376>`__
 
 
 
@@ -3192,7 +3192,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2340>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2341>`__
 
 
 
@@ -3202,7 +3202,7 @@ Neural network related
 
 []
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2303>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2304>`__
 
 
 
@@ -3217,7 +3217,7 @@ Helper functions
 
 ``print_element kind a`` prints the value of a single element.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1361>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1362>`__
 
 
 
@@ -3227,7 +3227,7 @@ Helper functions
 
 ``print_index i`` prints out the index of an element.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1356>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1357>`__
 
 
 
@@ -3272,7 +3272,7 @@ In-place modification
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2818>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2819>`__
 
 
 
@@ -3284,7 +3284,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2828>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2829>`__
 
 
 
@@ -3296,7 +3296,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2838>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2839>`__
 
 
 
@@ -3308,7 +3308,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2848>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2849>`__
 
 
 
@@ -3320,7 +3320,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2858>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2859>`__
 
 
 
@@ -3332,7 +3332,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2868>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2869>`__
 
 
 
@@ -3344,7 +3344,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2878>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2879>`__
 
 
 
@@ -3356,7 +3356,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2888>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2889>`__
 
 
 
@@ -3368,7 +3368,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2898>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2899>`__
 
 
 
@@ -3380,7 +3380,7 @@ make sure ``x`` is big enough to hold the output result.
 The broadcast operation only allows broadcasting ``y`` over ``x``, so you need to
 make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2908>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2909>`__
 
 
 
@@ -3391,7 +3391,7 @@ make sure ``x`` is big enough to hold the output result.
 ``add_scalar_ x y`` is simiar to ``add_scalar`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2990>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2991>`__
 
 
 
@@ -3402,7 +3402,7 @@ written to ``x``.
 ``sub_scalar_ x y`` is simiar to ``sub_scalar`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2992>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2993>`__
 
 
 
@@ -3413,7 +3413,7 @@ written to ``x``.
 ``mul_scalar_ x y`` is simiar to ``mul_scalar`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2994>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2995>`__
 
 
 
@@ -3424,7 +3424,7 @@ written to ``x``.
 ``div_scalar_ x y`` is simiar to ``div_scalar`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2996>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2997>`__
 
 
 
@@ -3435,7 +3435,7 @@ written to ``x``.
 ``pow_scalar_ x y`` is simiar to ``pow_scalar`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2998>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2999>`__
 
 
 
@@ -3446,7 +3446,7 @@ written to ``x``.
 ``atan2_scalar_ x y`` is simiar to ``atan2_scalar`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3000>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3001>`__
 
 
 
@@ -3457,7 +3457,7 @@ written to ``x``.
 ``fmod_scalar_ x y`` is simiar to ``fmod_scalar`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3002>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3003>`__
 
 
 
@@ -3468,7 +3468,7 @@ written to ``x``.
 ``scalar_add_ a x`` is simiar to ``scalar_add`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3004>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3005>`__
 
 
 
@@ -3479,7 +3479,7 @@ written to ``x``.
 ``scalar_sub_ a x`` is simiar to ``scalar_sub`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3006>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3007>`__
 
 
 
@@ -3490,7 +3490,7 @@ written to ``x``.
 ``scalar_mul_ a x`` is simiar to ``scalar_mul`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3008>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3009>`__
 
 
 
@@ -3501,7 +3501,7 @@ written to ``x``.
 ``scalar_div_ a x`` is simiar to ``scalar_div`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3010>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3011>`__
 
 
 
@@ -3512,7 +3512,7 @@ written to ``x``.
 ``scalar_pow_ a x`` is simiar to ``scalar_pow`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3012>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3013>`__
 
 
 
@@ -3523,7 +3523,7 @@ written to ``x``.
 ``scalar_atan2_ a x`` is simiar to ``scalar_atan2`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3014>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3015>`__
 
 
 
@@ -3534,7 +3534,7 @@ written to ``x``.
 ``scalar_fmod_ a x`` is simiar to ``scalar_fmod`` function but the output is
 written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3016>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3017>`__
 
 
 
@@ -3544,7 +3544,7 @@ written to ``x``.
 
 ``conj_ x`` is similar to ``conj`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3018>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3019>`__
 
 
 
@@ -3554,7 +3554,7 @@ written to ``x``.
 
 ``abs_ x`` is similar to ``abs`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3020>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3021>`__
 
 
 
@@ -3564,7 +3564,7 @@ written to ``x``.
 
 ``neg_ x`` is similar to ``neg`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3022>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3023>`__
 
 
 
@@ -3574,7 +3574,7 @@ written to ``x``.
 
 ``reci_ x`` is similar to ``reci`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3024>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3025>`__
 
 
 
@@ -3584,7 +3584,7 @@ written to ``x``.
 
 ``signum_ x`` is similar to ``signum`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3026>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3027>`__
 
 
 
@@ -3594,7 +3594,7 @@ written to ``x``.
 
 ``sqr_ x`` is similar to ``sqr`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3028>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3029>`__
 
 
 
@@ -3604,7 +3604,7 @@ written to ``x``.
 
 ``sqrt_ x`` is similar to ``sqrt`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3030>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3031>`__
 
 
 
@@ -3614,7 +3614,7 @@ written to ``x``.
 
 ``cbrt_ x`` is similar to ``cbrt`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3032>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3033>`__
 
 
 
@@ -3624,7 +3624,7 @@ written to ``x``.
 
 ``exp_ x`` is similar to ``exp_`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3034>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3035>`__
 
 
 
@@ -3634,7 +3634,7 @@ written to ``x``.
 
 ``exp2_ x`` is similar to ``exp2`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3036>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3037>`__
 
 
 
@@ -3644,7 +3644,7 @@ written to ``x``.
 
 ``exp2_ x`` is similar to ``exp2`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3038>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3039>`__
 
 
 
@@ -3654,7 +3654,7 @@ written to ``x``.
 
 ``expm1_ x`` is similar to ``expm1`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3040>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3041>`__
 
 
 
@@ -3664,7 +3664,7 @@ written to ``x``.
 
 ``log_ x`` is similar to ``log`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3042>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3043>`__
 
 
 
@@ -3674,7 +3674,7 @@ written to ``x``.
 
 ``log2_ x`` is similar to ``log2`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3044>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3045>`__
 
 
 
@@ -3684,7 +3684,7 @@ written to ``x``.
 
 ``log10_ x`` is similar to ``log10`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3046>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3047>`__
 
 
 
@@ -3694,7 +3694,7 @@ written to ``x``.
 
 ``log1p_ x`` is similar to ``log1p`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3048>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3049>`__
 
 
 
@@ -3704,7 +3704,7 @@ written to ``x``.
 
 ``sin_ x`` is similar to ``sin`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3050>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3051>`__
 
 
 
@@ -3714,7 +3714,7 @@ written to ``x``.
 
 ``cos_ x`` is similar to ``cos`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3052>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3053>`__
 
 
 
@@ -3724,7 +3724,7 @@ written to ``x``.
 
 ``tan_ x`` is similar to ``tan`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3054>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3055>`__
 
 
 
@@ -3734,7 +3734,7 @@ written to ``x``.
 
 ``asin_ x`` is similar to ``asin`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3056>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3057>`__
 
 
 
@@ -3744,7 +3744,7 @@ written to ``x``.
 
 ``acos_ x`` is similar to ``acos`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3058>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3059>`__
 
 
 
@@ -3754,7 +3754,7 @@ written to ``x``.
 
 ``atan_ x`` is similar to ``atan`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3060>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3061>`__
 
 
 
@@ -3764,7 +3764,7 @@ written to ``x``.
 
 ``sinh_ x`` is similar to ``sinh`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3062>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3063>`__
 
 
 
@@ -3774,7 +3774,7 @@ written to ``x``.
 
 ``cosh_ x`` is similar to ``cosh`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3064>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3065>`__
 
 
 
@@ -3784,7 +3784,7 @@ written to ``x``.
 
 ``tanh_ x`` is similar to ``tanh`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3066>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3067>`__
 
 
 
@@ -3794,7 +3794,7 @@ written to ``x``.
 
 ``asinh_ x`` is similar to ``asinh`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3068>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3069>`__
 
 
 
@@ -3804,7 +3804,7 @@ written to ``x``.
 
 ``acosh_ x`` is similar to ``acosh`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3070>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3071>`__
 
 
 
@@ -3814,7 +3814,7 @@ written to ``x``.
 
 ``atanh_ x`` is similar to ``atanh`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3072>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3073>`__
 
 
 
@@ -3824,7 +3824,7 @@ written to ``x``.
 
 ``floor_ x`` is similar to ``floor`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3074>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3075>`__
 
 
 
@@ -3834,7 +3834,7 @@ written to ``x``.
 
 ``ceil_ x`` is similar to ``ceil`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3076>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3077>`__
 
 
 
@@ -3844,7 +3844,7 @@ written to ``x``.
 
 ``round_ x`` is similar to ``round`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3078>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3079>`__
 
 
 
@@ -3854,7 +3854,7 @@ written to ``x``.
 
 ``trunc_ x`` is similar to ``trunc`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3080>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3081>`__
 
 
 
@@ -3864,7 +3864,7 @@ written to ``x``.
 
 ``fix_ x`` is similar to ``fix`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3082>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3083>`__
 
 
 
@@ -3874,7 +3874,7 @@ written to ``x``.
 
 ``erf_ x`` is similar to ``erf`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3084>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3085>`__
 
 
 
@@ -3884,7 +3884,7 @@ written to ``x``.
 
 ``erfc_ x`` is similar to ``erfc`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3086>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3087>`__
 
 
 
@@ -3894,7 +3894,7 @@ written to ``x``.
 
 ``relu_ x`` is similar to ``relu`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3088>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3089>`__
 
 
 
@@ -3904,7 +3904,7 @@ written to ``x``.
 
 ``softplus_ x`` is similar to ``softplus`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3090>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3091>`__
 
 
 
@@ -3914,7 +3914,7 @@ written to ``x``.
 
 ``softsign_ x`` is similar to ``softsign`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3092>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3093>`__
 
 
 
@@ -3924,7 +3924,7 @@ written to ``x``.
 
 ``sigmoid_ x`` is similar to ``sigmoid`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3094>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3095>`__
 
 
 
@@ -3934,7 +3934,7 @@ written to ``x``.
 
 ``softmax_ x`` is similar to ``softmax`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3104>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3105>`__
 
 
 
@@ -3944,7 +3944,7 @@ written to ``x``.
 
 ``cumsum_ x`` is similar to ``cumsum`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3110>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3111>`__
 
 
 
@@ -3954,7 +3954,7 @@ written to ``x``.
 
 ``cumprod_ x`` is similar to ``cumprod`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3114>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3115>`__
 
 
 
@@ -3964,7 +3964,7 @@ written to ``x``.
 
 ``cummin_ x`` is similar to ``cummin`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3118>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3119>`__
 
 
 
@@ -3974,7 +3974,7 @@ written to ``x``.
 
 ``cummax_ x`` is similar to ``cummax`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3122>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3123>`__
 
 
 
@@ -3984,7 +3984,7 @@ written to ``x``.
 
 ``dropout_ x`` is similar to ``dropout`` but output is written to ``x``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3132>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3133>`__
 
 
 
@@ -3996,7 +3996,7 @@ written to ``x``.
 to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``, so you
 need to make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2918>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2919>`__
 
 
 
@@ -4008,7 +4008,7 @@ need to make sure ``x`` is big enough to hold the output result.
 written to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``,
 so you need to make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2928>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2929>`__
 
 
 
@@ -4020,7 +4020,7 @@ so you need to make sure ``x`` is big enough to hold the output result.
 to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``, so you
 need to make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2938>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2939>`__
 
 
 
@@ -4032,7 +4032,7 @@ need to make sure ``x`` is big enough to hold the output result.
 written to ``x``. The broadcast operation only allows broadcasting ``y`` over ``x``,
 so you need to make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2948>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2949>`__
 
 
 
@@ -4044,7 +4044,7 @@ so you need to make sure ``x`` is big enough to hold the output result.
 is written to ``x``. The broadcast operation only allows broadcasting ``y`` over
 ``x``, so you need to make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2958>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2959>`__
 
 
 
@@ -4056,7 +4056,7 @@ is written to ``x``. The broadcast operation only allows broadcasting ``y`` over
 output is written to ``x``. The broadcast operation only allows broadcasting ``y``
 over ``x``, so you need to make sure ``x`` is big enough to hold the output result.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2968>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2969>`__
 
 
 
@@ -4067,7 +4067,7 @@ over ``x``, so you need to make sure ``x`` is big enough to hold the output resu
 ``elt_equal_scalar_ x a`` is simiar to ``elt_equal_scalar`` function but the
 output is written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2978>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2979>`__
 
 
 
@@ -4078,7 +4078,7 @@ output is written to ``x``.
 ``elt_not_equal_scalar_ x a`` is simiar to ``elt_not_equal_scalar`` function but
 the output is written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2980>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2981>`__
 
 
 
@@ -4089,7 +4089,7 @@ the output is written to ``x``.
 ``elt_less_scalar_ x a`` is simiar to ``elt_less_scalar`` function but the
 output is written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2982>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2983>`__
 
 
 
@@ -4100,7 +4100,7 @@ output is written to ``x``.
 ``elt_greater_scalar_ x a`` is simiar to ``elt_greater_scalar`` function but the
 output is written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2984>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2985>`__
 
 
 
@@ -4111,7 +4111,7 @@ output is written to ``x``.
 ``elt_less_equal_scalar_ x a`` is simiar to ``elt_less_equal_scalar`` function
 but the output is written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2986>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2987>`__
 
 
 
@@ -4122,7 +4122,7 @@ but the output is written to ``x``.
 ``elt_greater_equal_scalar_ x a`` is simiar to ``elt_greater_equal_scalar``
 function but the output is written to ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2988>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L2989>`__
 
 
 
@@ -4144,7 +4144,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3142>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3143>`__
 
 
 
@@ -4154,7 +4154,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3168>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3169>`__
 
 
 
@@ -4164,7 +4164,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3189>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3190>`__
 
 
 
@@ -4174,7 +4174,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3194>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3195>`__
 
 
 
@@ -4184,7 +4184,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3199>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3200>`__
 
 
 
@@ -4194,7 +4194,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3206>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3207>`__
 
 
 
@@ -4204,7 +4204,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3339>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3340>`__
 
 
 
@@ -4214,7 +4214,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3348>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3349>`__
 
 
 
@@ -4224,7 +4224,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3215>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3216>`__
 
 
 
@@ -4234,7 +4234,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3220>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3221>`__
 
 
 
@@ -4244,7 +4244,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3226>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3227>`__
 
 
 
@@ -4254,7 +4254,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3246>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3247>`__
 
 
 
@@ -4264,7 +4264,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3283>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3284>`__
 
 
 
@@ -4274,7 +4274,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3300>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3301>`__
 
 
 
@@ -4284,7 +4284,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3303>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3304>`__
 
 
 
@@ -4294,7 +4294,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3309>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3310>`__
 
 
 
@@ -4304,7 +4304,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3306>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3307>`__
 
 
 
@@ -4314,7 +4314,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3315>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3316>`__
 
 
 
@@ -4324,7 +4324,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3324>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3325>`__
 
 
 
@@ -4334,7 +4334,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3321>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3322>`__
 
 
 
@@ -4344,7 +4344,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3360>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3361>`__
 
 
 
@@ -4354,7 +4354,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3368>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3369>`__
 
 
 
@@ -4364,7 +4364,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3376>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3377>`__
 
 
 
@@ -4374,7 +4374,7 @@ Refer to :doc:`owl_dense_matrix_generic`
 
 Refer to :doc:`owl_dense_matrix_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3381>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3382>`__
 
 
 

@@ -2,8 +2,8 @@ View Functor
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#21 entries have been extracted.
-timestamp: 2018-02-13 22:35:00
+#29 entries have been extracted.
+timestamp: 2018-02-16 00:04:54
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_view.mli>`_ 
@@ -89,7 +89,7 @@ Refer to :doc:`owl_dense_ndarray_generic`
 
 Refer to :doc:`owl_dense_ndarray_generic`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L215>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L241>`__
 
 
 
@@ -136,13 +136,13 @@ Iteration functions
 
 .. code-block:: ocaml
 
-  val iteri : (int array -> A.elt -> unit) -> t -> unit
+  val iteri : (int -> A.elt -> unit) -> t -> unit
 
 ``iteri f x`` iterates and applies ``f`` to every element in ``x``. ``f`` has type
-``f : int array -> elt -> unit``, the first paramater is index. The function
-is much slower than ``iter``.
+``f : int array -> elt -> unit``, the first paramater is index. 1d indices are
+passed to the user function.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L184>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L207>`__
 
 
 
@@ -152,18 +152,18 @@ is much slower than ``iter``.
 
 Similar to ``iteri``, the index is not passed in.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L187>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L204>`__
 
 
 
 .. code-block:: ocaml
 
-  val mapi : (int array -> A.elt -> A.elt) -> t -> unit
+  val mapi : (int -> A.elt -> A.elt) -> t -> unit
 
 ``mapi f x`` applies ``f : int array -> elt -> elt`` to every element in ``x``,
-then save the result in place. This function is much slower than ``map``.
+then save the result in place. 1d indices are passed to the user function.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L190>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L216>`__
 
 
 
@@ -174,7 +174,7 @@ then save the result in place. This function is much slower than ``map``.
 ``map f x`` applies ``f : elt -> elt`` to every element in ``x``, then save the
 the result in place in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L193>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L213>`__
 
 
 
@@ -185,7 +185,7 @@ the result in place in ``x``.
 ``iter2 f x y`` applies ``f : elt -> elt -> elt`` every pair of elements in
 ``x`` and ``y``. The indices are not passed in the user function.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L199>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L225>`__
 
 
 
@@ -197,7 +197,87 @@ the result in place in ``x``.
 and ``y``, then saves the result in ``y``. So be careful with the order, it
 matters, the data reflected by view ``y`` will be modified.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L207>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L233>`__
+
+
+
+.. code-block:: ocaml
+
+  val iteri_nd : (int array -> A.elt -> unit) -> t -> unit
+
+Similar to `iteri` but n-d indices are passed in. This function is much slower
+than `iteri`.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L210>`__
+
+
+
+.. code-block:: ocaml
+
+  val mapi_nd : (int array -> A.elt -> A.elt) -> t -> unit
+
+Similar to `mapi` but n-d indices are passed in. This function is much slower
+than `mapi`.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L219>`__
+
+
+
+Examination & Comparison
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val exists : (A.elt -> bool) -> t -> bool
+
+``exists f x`` checks all the elements in ``x`` using ``f``. If at least one
+element satisfies ``f`` then the function returns ``true`` otherwise ``false``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L260>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_exists : (A.elt -> bool) -> t -> bool
+
+``not_exists f x`` checks all the elements in ``x``, the function returns
+  ``true`` only if all the elements fail to satisfy ``f : float -> bool``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L271>`__
+
+
+
+.. code-block:: ocaml
+
+  val for_all : (A.elt -> bool) -> t -> bool
+
+``for_all f x`` checks all the elements in ``x``, the function returns ``true``
+  if and only if all the elements pass the check of function ``f``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L274>`__
+
+
+
+.. code-block:: ocaml
+
+  val equal : t -> t -> bool
+
+``equal x y`` returns ``true`` if ``x`` and ``y`` are elementwise equal.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L248>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_equal : t -> t -> bool
+
+``not_equal x y`` returns ``true`` if ``x`` and ``y`` are not elementwise equal.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/misc/owl_view.ml#L257>`__
 
 
 
