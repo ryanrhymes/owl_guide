@@ -3,7 +3,7 @@ Owl's API Reference
 
 .. toctree::
   :maxdepth: 2
-  :caption: Modules: #5037 entries extracted at 2018-02-17 00:26:31
+  :caption: Modules: #5076 entries extracted at 2018-02-17 00:38:24
 
   owl_const
 
@@ -74,4 +74,6 @@ Owl's API Reference
   owl_nlp_vocabulary
 
   owl_nlp_corpus
+
+  owl_nlp_tfidf
 

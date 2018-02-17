@@ -33,3 +33,4 @@ base/maths/owl_base_maths.mli | base/maths/owl_base_maths.ml | Base.Maths
 base/stats/owl_base_stats.mli | base/stats/owl_base_stats.ml | Base.Stats
 owl/nlp/owl_nlp_vocabulary.mli | owl/nlp/owl_nlp_vocabulary.ml | NLP.Vocabulary
 owl/nlp/owl_nlp_corpus.mli | owl/nlp/owl_nlp_corpus.ml | NLP.Corpus
+owl/nlp/owl_nlp_tfidf.mli | owl/nlp/owl_nlp_tfidf.ml | NLP.Tfidf
