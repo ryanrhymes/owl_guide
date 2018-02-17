@@ -3,7 +3,7 @@ NLP.Corpus
 
 This document is auto-generated for Owl's APIs.
 #40 entries have been extracted.
-timestamp: 2018-02-17 00:38:24
+timestamp: 2018-02-17 13:31:58
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/nlp/owl_nlp_corpus.mli>`_ 
@@ -138,7 +138,7 @@ Return a list of document ids which are mapped back to the original file where t
 
 
 
-Iterate functions
+Iteration functions
 -------------------------------------------------------------------------------
 
 
