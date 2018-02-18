@@ -2,8 +2,8 @@ Stats
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#224 entries have been extracted.
-timestamp: 2018-02-17 13:52:55
+#231 entries have been extracted.
+timestamp: 2018-02-18 00:51:37
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/stats/owl_stats.mli>`_ 
@@ -636,6 +636,48 @@ Discrete random variables
   val uniform_int_rvs : a:int -> b:int -> int
 
 TODO
+
+.. code-block:: ocaml
+
+  val binomial_rvs : p:float -> n:int -> int
+
+``binomial_rvs p n``
+
+.. code-block:: ocaml
+
+  val binomial_pdf : int -> p:float -> n:int -> float
+
+``binomial_pdf k ~p ~n``
+
+.. code-block:: ocaml
+
+  val binomial_logpdf : int -> p:float -> n:int -> float
+
+``binomial_pdf k ~p ~n``
+
+.. code-block:: ocaml
+
+  val binomial_cdf : int -> p:float -> n:int -> float
+
+``binomial_logpdf k ~p ~n``
+
+.. code-block:: ocaml
+
+  val binomial_logcdf : int -> p:float -> n:int -> float
+
+``binomial_logcdf k ~p ~n``
+
+.. code-block:: ocaml
+
+  val binomial_sf : int -> p:float -> n:int -> float
+
+``binomial_sf k ~p ~n``
+
+.. code-block:: ocaml
+
+  val binomial_logsf : int -> p:float -> n:int -> float
+
+``binomial_logsf k ~p ~n``
 
 .. code-block:: ocaml
 

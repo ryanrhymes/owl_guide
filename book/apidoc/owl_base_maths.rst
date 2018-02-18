@@ -3,7 +3,7 @@ Base.Maths
 
 This document is auto-generated for Owl's APIs.
 #34 entries have been extracted.
-timestamp: 2018-02-17 13:53:11
+timestamp: 2018-02-18 00:51:43
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_maths.mli>`_ 
