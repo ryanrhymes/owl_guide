@@ -3,7 +3,7 @@ Stats
 
 This document is auto-generated for Owl's APIs.
 #231 entries have been extracted.
-timestamp: 2018-02-18 00:51:37
+timestamp: 2018-02-18 21:36:27
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/stats/owl_stats.mli>`_ 
@@ -653,13 +653,13 @@ TODO
 
   val binomial_logpdf : int -> p:float -> n:int -> float
 
-``binomial_pdf k ~p ~n``
+``binomial_logpdf k ~p ~n``
 
 .. code-block:: ocaml
 
   val binomial_cdf : int -> p:float -> n:int -> float
 
-``binomial_logpdf k ~p ~n``
+``binomial_cdf k ~p ~n``
 
 .. code-block:: ocaml
 
