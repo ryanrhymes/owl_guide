@@ -3,7 +3,7 @@ Regression.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #12 entries have been extracted.
-timestamp: 2018-02-18 21:36:36
+timestamp: 2018-02-19 17:54:07
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/optimise/owl_regression_generic.mli>`_ 
