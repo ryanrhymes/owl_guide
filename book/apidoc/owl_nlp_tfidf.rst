@@ -3,7 +3,7 @@ NLP.Tfidf
 
 This document is auto-generated for Owl's APIs.
 #39 entries have been extracted.
-timestamp: 2018-02-20 22:59:41
+timestamp: 2018-02-20 23:06:01
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/nlp/owl_nlp_tfidf.mli>`_ 
