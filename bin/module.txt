@@ -1,6 +1,7 @@
 base/misc/owl_const.mli | base/misc/owl_const.ml | Constants
 owl/maths/owl_maths.mli | owl/maths/owl_maths.ml | Maths
 owl/stats/owl_stats.mli | owl/stats/owl_stats.ml | Stats
+owl/maths/owl_maths_root.mli | owl/maths/owl_maths_root.ml | Maths_root
 owl/dense/owl_dense_ndarray_generic.mli | owl/dense/owl_dense_ndarray_generic.ml | Dense.Ndarray.Generic
 owl/dense/owl_dense_matrix_generic.mli | owl/dense/owl_dense_matrix_generic.ml | Dense.Matrix.Generic
 owl/sparse/owl_sparse_ndarray_generic.mli | owl/sparse/owl_sparse_ndarray_generic.ml | Sparse.Ndarray.Generic

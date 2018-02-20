@@ -3,7 +3,7 @@ Lazy Functor
 
 This document is auto-generated for Owl's APIs.
 #152 entries have been extracted.
-timestamp: 2018-02-19 17:54:08
+timestamp: 2018-02-20 22:59:40
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_lazy.mli>`_ 
@@ -21,7 +21,7 @@ Type definition
   type t
     
 
-``t`` is an abstract type to represent an experssion, it is also an alias
+``t`` is an abstract type to represent an expression, it is also an alias
 for type ``node``. Type ``node`` is only for internal use in the module.
 
 Core functions

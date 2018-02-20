@@ -3,7 +3,7 @@ Stats
 
 This document is auto-generated for Owl's APIs.
 #231 entries have been extracted.
-timestamp: 2018-02-19 17:54:02
+timestamp: 2018-02-20 22:59:36
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/stats/owl_stats.mli>`_ 
@@ -133,7 +133,7 @@ standardized moment of ``x``.
 
   val central_moment : int -> float array -> float
 
-TODO
+``central_moment n x`` calcuates the ``n`` th central moment of ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L70>`__
 
@@ -165,7 +165,7 @@ and ``x1`` can be specified by ``m0`` and ``m1`` respectively.
 
   val kendall_tau : float array -> float array -> float
 
-TODO
+``kendall_tau x y`` calcuates the Kendall Tau correlation between ``x`` and ``y``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L188>`__
 
@@ -175,7 +175,7 @@ TODO
 
   val spearman_rho : float array -> float array -> float
 
-TODO
+``spearman_rho x y`` calcuates the Spearman Rho correlation between ``x`` and ``y``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L194>`__
 
@@ -185,7 +185,7 @@ TODO
 
   val autocorrelation : ?lag:int -> float array -> float
 
-TODO
+``autocorrelation ~lag x`` calcuates the autocorrelation of ``x`` with the given ``lag``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L123>`__
 
@@ -273,7 +273,7 @@ TODO
 
   val min_i : float array -> int
 
-TODO
+``min_i x`` returns the index of the minimum in ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L219>`__
 
@@ -283,7 +283,7 @@ TODO
 
   val max_i : float array -> int
 
-TODO
+``max_i x`` returns the index of the maximum in ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L221>`__
 
@@ -293,7 +293,7 @@ TODO
 
   val minmax_i : float array -> int * int
 
-TODO
+``minmax_i x`` returns the indices of both minimum and maximum in ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L201>`__
 
@@ -303,7 +303,9 @@ TODO
 
   val sort : ?inc:bool -> float array -> float array
 
-TODO
+``sort x`` sorts the elements in the ``x`` in increasing order if
+``inc = true``, otherwise in decreasing order if ``inc=false``. By default,
+``inc`` is ``true``. Note a copy is returned, the original data is not modified.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L82>`__
 
@@ -313,7 +315,11 @@ TODO
 
   val argsort : ?inc:bool -> float array -> int array
 
-TODO
+``argsort x`` sorts the elements in ``x`` and returns the indices mapping of
+the elements in the current array to their original position in ``x``.
+
+The sorting is in increasing order if ``inc = true``, otherwise in decreasing
+order if ``inc=false``. By default, ``inc`` is ``true``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L91>`__
 
@@ -344,7 +350,7 @@ Note that the ranking starts with one!
 
   val histogram : float array -> int -> int array
 
-TODO
+``histogram x n`` creates a histogram of ``n`` buckets for ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L236>`__
 
@@ -366,7 +372,7 @@ order with duplicates removed.
 
   val z_score : mu:float -> sigma:float -> float array -> float array
 
-TODO
+``z_score x`` calcuates the z score of a given array ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L281>`__
 
@@ -376,7 +382,7 @@ TODO
 
   val t_score : float array -> float array
 
-TODO
+``t_score x`` calcuates the t score of a given array ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L283>`__
 

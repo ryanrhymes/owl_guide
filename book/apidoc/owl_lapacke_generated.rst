@@ -3,7 +3,7 @@ Low-level LAPACKE API
 
 This document is auto-generated for Owl's APIs.
 #1034 entries have been extracted.
-timestamp: 2018-02-19 17:54:05
+timestamp: 2018-02-20 22:59:38
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/lapacke/owl_lapacke_generated.mli>`_ 
