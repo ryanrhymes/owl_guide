@@ -2,8 +2,8 @@ Maths_root
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#9 entries have been extracted.
-timestamp: 2018-02-20 23:05:56
+#11 entries have been extracted.
+timestamp: 2018-02-21 21:56:04
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_root.mli>`_ 
@@ -129,6 +129,29 @@ Parameters:
 Refer to :cite:`brent2013algorithms`
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L134>`__
+
+
+
+Helper functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val bracket_expand : ?rate:float -> ?max_iter:int -> (float -> float) -> float -> float -> (float * float) option
+
+``bracket_expand f a b`` expands the bracket ``[a, b]`` for a given function
+``f`` until it finds ``f a`` and ``f b`` have different signs.
+
+Parameters:
+  * ``max_iter``: maximum number of iterations, the default is 100
+  * ``rate``: rate of growth, the default is 1.6
+  * ``f``: the univariate scalar function to find root.
+  * ``a``: initial boundary of bracket.
+  * ``b``: initial boundary of bracket.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L233>`__
 
 
 
