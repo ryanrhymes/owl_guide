@@ -3,7 +3,7 @@ High-level OpenCL API
 
 This document is auto-generated for Owl's APIs.
 #67 entries have been extracted.
-timestamp: 2018-02-21 21:56:08
+timestamp: 2018-02-22 22:46:02
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_base.mli>`_ 
@@ -214,7 +214,7 @@ Create a program from its source string.
 
   val build : ?options:string -> cl_program -> cl_device_id array -> unit
 
-Build a program with the given parameters.
+Build a program for the passed-in devices with the given parameters.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_base.ml#L311>`__
 
