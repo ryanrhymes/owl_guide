@@ -1,8 +1,8 @@
 How-To?
 =================================================
 
-`#0` How to quickly try out the latest build?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#0` **How to quickly try out the latest build?**
+
 
 This can be achieved by simply pulling Owl's docker image.
 
@@ -14,12 +14,13 @@ This can be achieved by simply pulling Owl's docker image.
 If you want to run Owl on different platforms such as ARM, please refer [here](https://github.com/ryanrhymes/owl#run-owl-on-different-platforms) for more details.
 
 
-`#1` How to make toplevel automatically load Owl when it starts?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#1` **How to make toplevel automatically load Owl when it starts?**
+
 
 You can edit the ``.ocamlinit`` file in your home directory by adding the following lines.
 
 .. code-block:: ocaml
+
   #use "topfind"
   #require "owl"
   open Owl
@@ -28,14 +29,14 @@ You can edit the ``.ocamlinit`` file in your home directory by adding the follow
 If you don't want to open Owl module, please remove the ``open Owl``. If you use ``utop`` rather than OCaml's default toplevel, remove the redundant ``#use "topfind"``.
 
 
-`#2` How to check the performance of Linalg module?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#2` **How to check the performance of Linalg module?**
+
 
 Calling the ``Linalg.Generic.peakflops ()`` function will return you the number of float operations per second (flops). This number is derived by calculating the amount of time spent in multiplying two ``2000 x 2000`` matrices. Julia provides the same function and you can use this to compare two.
 
 
-`#3` How to measure the time spent in an operation?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#3` **How to measure the time spent in an operation?**
+
 
 ``Owl.Utils.time`` function can be used to measure the time spent in one operation. It takes a function of type ``(unit -> 'a)`` as input and returns a float number represent the time in ``ms``. Here is an example.
 
@@ -46,8 +47,8 @@ Calling the ``Linalg.Generic.peakflops ()`` function will return you the number 
   Owl.Utils.time f;;
 
 
-`#4` How to concatenate a list of ndarrays?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#4` **How to concatenate a list of ndarrays?**
+
 
 .. code-block:: ocaml
 
@@ -55,8 +56,8 @@ Calling the ``Linalg.Generic.peakflops ()`` function will return you the number 
 
 
 
-`#5` How to split an ndarray?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#5` **How to split an ndarray?**
+
 
 .. code-block:: ocaml
 
@@ -64,8 +65,8 @@ Calling the ``Linalg.Generic.peakflops ()`` function will return you the number 
 
 
 
-`#6` How to make one-hot vectors?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#6` **How to make one-hot vectors?**
+
 
 .. code-block:: ocaml
 
@@ -74,8 +75,8 @@ Calling the ``Linalg.Generic.peakflops ()`` function will return you the number 
 
 
 
-`#7` How to circular shift the columns/rows of a matrix?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#7` **How to circular shift the columns/rows of a matrix?**
+
 
 .. code-block:: ocaml
 
@@ -83,8 +84,8 @@ Calling the ``Linalg.Generic.peakflops ()`` function will return you the number 
 
 
 
-`#8` Save & Load Matrices
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+`#8` **Save & Load Matrices**
+
 
 All matrices can be serialised to storage by using ``save``. Later, you can load a matrix using ``load`` function.
 

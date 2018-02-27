@@ -3,7 +3,7 @@ NLP.Vocabulary
 
 This document is auto-generated for Owl's APIs.
 #28 entries have been extracted.
-timestamp: 2018-02-25 22:03:20
+timestamp: 2018-02-27 11:13:31
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/nlp/owl_nlp_vocabulary.mli>`_ 

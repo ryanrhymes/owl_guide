@@ -34,4 +34,5 @@ Owl's Tutorial Book
    case_nst
    community
    project
+   howto
    reference
