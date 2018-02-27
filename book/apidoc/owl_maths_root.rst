@@ -3,7 +3,7 @@ Maths_root
 
 This document is auto-generated for Owl's APIs.
 #11 entries have been extracted.
-timestamp: 2018-02-27 11:13:27
+timestamp: 2018-02-27 11:15:49
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_root.mli>`_ 

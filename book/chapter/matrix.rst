@@ -3,14 +3,14 @@ Matrix Manipulation
 
 Owl supports eight kinds of matrices as below, all the elements in a matrix are (real/complex) numbers.
 
-* ``Dense.Matrix.S`` : Dense matrices of single precision float numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_dense_matrix_s.mli)
-* ``Dense.Matrix.D`` : Dense matrices of double precision float numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_dense_matrix_d.mli)
-* ``Dense.Matrix.C`` : Dense matrices of single precision complex numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_dense_matrix_c.mli)
-* ``Dense.Matrix.Z`` : Dense matrices of double precision complex numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_dense_matrix_z.mli)
-* ``Sparse.Matrix.S`` : Sparse matrices of single precision float numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_sparse_matrix_s.ml)
-* ``Sparse.Matrix.D`` : Sparse matrices of double precision float numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_sparse_matrix_d.ml)
-* ``Sparse.Matrix.C`` : Sparse matrices of single precision complex numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_sparse_matrix_c.ml)
-* ``Sparse.Matrix.Z`` : Sparse matrices of double precision complex numbers. [``api doc``](https://github.com/ryanrhymes/owl/blob/master/src/owl/owl_sparse_matrix_z.ml)
+* ``Dense.Matrix.S`` : Dense matrices of single precision float numbers.
+* ``Dense.Matrix.D`` : Dense matrices of double precision float numbers.
+* ``Dense.Matrix.C`` : Dense matrices of single precision complex numbers.
+* ``Dense.Matrix.Z`` : Dense matrices of double precision complex numbers.
+* ``Sparse.Matrix.S`` : Sparse matrices of single precision float numbers.
+* ``Sparse.Matrix.D`` : Sparse matrices of double precision float numbers.
+* ``Sparse.Matrix.C`` : Sparse matrices of single precision complex numbers.
+* ``Sparse.Matrix.Z`` : Sparse matrices of double precision complex numbers.
 
 There are many common functions shared by these eight modules, therefore I will use ``Mat`` module (which is an alias of ``Dense.Matrix.D`` module) in the following examples. These examples should be able to applied to other modules without too much changes, but note some modules do have its own specific functions such as ``Dense.Matrix.Z.re``.
 
