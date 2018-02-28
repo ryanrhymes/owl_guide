@@ -1,0 +1,108 @@
+Maths_quadrature
+===============================================================================
+
+This document is auto-generated for Owl's APIs.
+#6 entries have been extracted.
+timestamp: 2018-02-28 16:35:37
+
+Github:
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_quadrature.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_quadrature.ml>`_
+
+
+
+Integration functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val trapz : ?n:int -> ?eps:float -> (float -> float) -> float -> float -> float
+
+``trapz f a b`` computes the integral of ``f`` on the interval ``[a,b]`` using
+the trapezoidal rule, i.e. :math:`\int_a^b f(x) dx`.
+
+Parameters:
+  * ``f``: function to be integrated.
+  * ``n``: the maximum allowed number of steps. The default value is ``20``.
+  * ``eps``: the desired fractional accuracy. The default value is ``1e-6``.
+  * ``a``: lower bound of the integrated interval.
+  * ``b``: upper bound of the integrated interval.
+
+Returns:
+  * ``y``: the integral of ``f`` on ``[a, b]``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L30>`__
+
+
+
+.. code-block:: ocaml
+
+  val simpson : ?n:int -> ?eps:float -> (float -> float) -> float -> float -> float
+
+``trapz f a b`` computes the integral of ``f`` on the interval ``[a,b]`` using
+the Simpson's rule, i.e. :math:`\int_a^b f(x) dx`.
+
+Parameters:
+  * ``f``: function to be integrated.
+  * ``n``: the maximum allowed number of steps. The default value is ``20``.
+  * ``eps``: the desired fractional accuracy. The default value is ``1e-6``.
+  * ``a``: lower bound of the integrated interval.
+  * ``b``: upper bound of the integrated interval.
+
+Returns:
+  * ``y``: the integral of ``f`` on ``[a, b]``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L49>`__
+
+
+
+.. code-block:: ocaml
+
+  val romberg : ?n:int -> ?eps:float -> (float -> float) -> float -> float -> float
+
+``trapz f a b`` computes the integral of ``f`` on the interval ``[a,b]`` using
+the Romberg method, i.e. :math:`\int_a^b f(x) dx`. Note that this algorithm is
+much faster than ``trapz`` and ``simpson``.
+
+Parameters:
+  * ``f``: function to be integrated.
+  * ``n``: the maximum allowed number of steps. The default value is ``20``.
+  * ``eps``: the desired fractional accuracy. The default value is ``1e-6``.
+  * ``a``: lower bound of the integrated interval.
+  * ``b``: upper bound of the integrated interval.
+
+Returns:
+  * ``y``: the integral of ``f`` on ``[a, b]``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L72>`__
+
+
+
+Helper functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val trapzd : (float -> float) -> float -> float -> int -> float
+
+The function computes the nth stage of refinement of an extended trapezoidal
+rule. It is the workhorse of several integration functions including ``trapz``,
+``simpson``, and ``romberg``.
+
+Parameters:
+  * ``f``: function to be integrated.
+  * ``a``: lower bound of the integrated interval.
+  * ``b``: upper bound of the integrated interval.
+  * ``n``: the nth stage.
+
+Returns:
+  * ``y``: the integral of ``f`` on ``[a, b]``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L9>`__
+
+
+
