@@ -3,7 +3,7 @@ Maths_quadrature
 
 This document is auto-generated for Owl's APIs.
 #6 entries have been extracted.
-timestamp: 2018-02-28 16:35:37
+timestamp: 2018-02-28 16:50:17
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_quadrature.mli>`_ 
@@ -41,7 +41,7 @@ Returns:
 
   val simpson : ?n:int -> ?eps:float -> (float -> float) -> float -> float -> float
 
-``trapz f a b`` computes the integral of ``f`` on the interval ``[a,b]`` using
+``simpson f a b`` computes the integral of ``f`` on the interval ``[a,b]`` using
 the Simpson's rule, i.e. :math:`\int_a^b f(x) dx`.
 
 Parameters:
@@ -62,7 +62,7 @@ Returns:
 
   val romberg : ?n:int -> ?eps:float -> (float -> float) -> float -> float -> float
 
-``trapz f a b`` computes the integral of ``f`` on the interval ``[a,b]`` using
+``romberg f a b`` computes the integral of ``f`` on the interval ``[a,b]`` using
 the Romberg method, i.e. :math:`\int_a^b f(x) dx`. Note that this algorithm is
 much faster than ``trapz`` and ``simpson``.
 

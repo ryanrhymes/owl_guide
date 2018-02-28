@@ -3,7 +3,7 @@ Maths_interpolate
 
 This document is auto-generated for Owl's APIs.
 #1 entries have been extracted.
-timestamp: 2018-02-28 16:35:37
+timestamp: 2018-02-28 16:50:17
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_interpolate.mli>`_ 
