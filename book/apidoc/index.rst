@@ -3,7 +3,7 @@ Owl's API Reference
 
 .. toctree::
   :maxdepth: 2
-  :caption: Modules: #5331 entries extracted at 2018-02-27 11:15:54
+  :caption: Modules: #5338 entries extracted at 2018-02-28 16:35:43
 
   owl_const
 
@@ -12,6 +12,10 @@ Owl's API Reference
   owl_stats
 
   owl_maths_root
+
+  owl_maths_quadrature
+
+  owl_maths_interpolate
 
   owl_dense_ndarray_generic
 
