@@ -2,8 +2,8 @@ Maths_quadrature
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#6 entries have been extracted.
-timestamp: 2018-03-01 01:30:52
+#7 entries have been extracted.
+timestamp: 2018-03-01 14:23:22
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_quadrature.mli>`_ 
@@ -103,6 +103,16 @@ Returns:
   * ``y``: the integral of ``f`` on ``[a, b]``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L9>`__
+
+
+
+.. code-block:: ocaml
+
+  val gauss_legendre : ?eps:float -> float -> float -> int -> float array * float array
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L97>`__
 
 
 
