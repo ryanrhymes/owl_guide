@@ -2,8 +2,8 @@ Maths_quadrature
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#7 entries have been extracted.
-timestamp: 2018-03-02 17:13:08
+#9 entries have been extracted.
+timestamp: 2018-03-03 23:11:20
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_quadrature.mli>`_ 
@@ -80,6 +80,48 @@ Returns:
 
 
 
+.. code-block:: ocaml
+
+  val gaussian_fixed : ?n:int -> (float -> float) -> float -> float -> float
+
+``gaussian_fixed f a b`` computes the integral of ``f`` on the interval
+``[a,b]`` using the Gaussian quadrature of fixed order. Note that this
+algorithm is much faster than others due to cached weights.
+
+Parameters:
+  * ``f``: function to be integrated.
+  * ``n``: the order of polynomial. The default value is ``10``.
+  * ``a``: lower bound of the integrated interval.
+  * ``b``: upper bound of the integrated interval.
+
+Returns:
+  * ``y``: the integral of ``f`` on ``[a, b]``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L146>`__
+
+
+
+.. code-block:: ocaml
+
+  val gaussian : ?n:int -> ?eps:float -> (float -> float) -> float -> float -> float
+
+``gaussian f a b`` computes the integral of ``f`` on the interval  ``[a,b]``
+using adaptive Gaussian quadrature of fixed tolerance.
+
+Parameters:
+  * ``f``: function to be integrated.
+  * ``n``: the maximum order. The default value is ``50``.
+  * ``eps``: the desired fractional accuracy. The default value is ``1e-6``.
+  * ``a``: lower bound of the integrated interval.
+  * ``b``: upper bound of the integrated interval.
+
+Returns:
+  * ``y``: the integral of ``f`` on ``[a, b]``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L162>`__
+
+
+
 Helper functions
 -------------------------------------------------------------------------------
 
@@ -108,9 +150,11 @@ Returns:
 
 .. code-block:: ocaml
 
-  val gauss_legendre : ?eps:float -> float -> float -> int -> float array * float array
+  val gauss_legendre : ?eps:float -> ?a:float -> ?b:float -> int -> float array * float array
 
-TODO
+Given the lower and upper limits of integration ``a`` and ``b``, and order
+``n``, the function computes the abscissas and weights of the Gauss-Legendre
+n-point quadrature formula.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L97>`__
 
