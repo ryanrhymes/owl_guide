@@ -3,7 +3,7 @@ Pretty
 
 This document is auto-generated for Owl's APIs.
 #3 entries have been extracted.
-timestamp: 2018-03-04 23:25:17
+timestamp: 2018-03-05 21:24:09
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_pretty.mli>`_ 
