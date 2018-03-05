@@ -2,8 +2,8 @@ Stats
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#231 entries have been extracted.
-timestamp: 2018-03-03 23:11:20
+#230 entries have been extracted.
+timestamp: 2018-03-04 23:25:14
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/stats/owl_stats.mli>`_ 
@@ -410,7 +410,7 @@ MCMC: Markov Chain Monte Carlo
 TODO: ``metropolis_hastings f p n`` is Metropolis-Hastings MCMC algorithm.
 f is pdf of the p
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L772>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L770>`__
 
 
 
@@ -421,7 +421,7 @@ f is pdf of the p
 TODO: ``gibbs_sampling f p n`` is Gibbs sampler. f is a sampler based on the full
 conditional function of all variables
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L788>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L786>`__
 
 
 
@@ -523,7 +523,7 @@ hypothesis at the ``alpha`` significance level, and ``false``
 otherwise. ``p`` is the p-value and ``d`` is the Kolmogorov-Smirnov
 test statistic.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L475>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L473>`__
 
 
 
@@ -542,7 +542,7 @@ hypothesis at the ``alpha`` significance level, and ``false``
 otherwise. ``p`` is the p-value and ``d`` is the Kolmogorov-Smirnov
 test statistic.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L525>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L523>`__
 
 
 
@@ -555,7 +555,7 @@ hypothesis that the data in ``x`` comes from a normal distribution with input
 ``variance``, using the chi-square variance test. The alternative hypothesis
 is that ``x`` comes from a normal distribution with a different variance.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L564>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L562>`__
 
 
 
@@ -567,7 +567,7 @@ is that ``x`` comes from a normal distribution with a different variance.
 data ``x`` comes from a normal distribution with an unknown mean and variance,
 using the Jarque-Bera test.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L553>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L551>`__
 
 
 
@@ -583,7 +583,7 @@ The result ``(h,p,z)`` : ``h`` is ``true`` if the test rejects the null hypothes
 the ``alpha`` significance level, and ``false`` otherwise. ``p`` is the p-value and
 ``z`` is prior odds ratio.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L579>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L577>`__
 
 
 
@@ -597,7 +597,7 @@ by runnign Wald–Wolfowitz runs test. The test is based on the number of runs
 of consecutive values above or below the mean of ``x``. ``~v`` is the reference
 value, the default value is the median of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L732>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L730>`__
 
 
 
@@ -611,7 +611,7 @@ using exact test (see paper Ying Kuen Cheung and Jerome H. Klotz (1997)
 The Mann Whitney Wilcoxon distribution using linked list
 Statistica Sinica 7 805-813), else usning asymptotic normal distribution.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L623>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L621>`__
 
 
 
@@ -621,16 +621,9 @@ Statistica Sinica 7 805-813), else usning asymptotic normal distribution.
 
 TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L675>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/stats/owl_stats.ml#L673>`__
 
 
-
-.. code-block:: ocaml
-
-  exception EXN_EMPTY_ARRAY
-    
-
-Exception for empty array
 
 Discrete random variables
 -------------------------------------------------------------------------------
