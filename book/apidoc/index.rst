@@ -3,7 +3,7 @@ Owl's API Reference
 
 .. toctree::
   :maxdepth: 2
-  :caption: Modules: #5340 entries extracted at 2018-03-05 21:24:11
+  :caption: Modules: #5350 entries extracted at 2018-03-06 15:54:43
 
   owl_const
 
@@ -78,6 +78,8 @@ Owl's API Reference
   owl_base_maths
 
   owl_base_stats
+
+  owl_exception
 
   owl_distribution
 
