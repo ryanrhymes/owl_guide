@@ -3,7 +3,7 @@ Utils.Stack
 
 This document is auto-generated for Owl's APIs.
 #11 entries have been extracted.
-timestamp: 2018-03-06 15:54:42
+timestamp: 2018-03-07 22:26:28
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_utils_stack.mli>`_ 

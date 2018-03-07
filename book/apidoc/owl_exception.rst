@@ -2,8 +2,8 @@ Exception
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#10 entries have been extracted.
-timestamp: 2018-03-06 15:54:43
+#12 entries have been extracted.
+timestamp: 2018-03-07 22:26:29
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/core/owl_exception.mli>`_ 
@@ -87,4 +87,18 @@ Fail if two ndarrays have different shape.
     
 
 Fail if the shapes of multiple ndarrays are not broadcastable.
+
+.. code-block:: ocaml
+
+  exception NOT_CONVERGE
+    
+
+Fail to converge.
+
+.. code-block:: ocaml
+
+  exception MAX_ITERATION
+    
+
+Number of iteration exceeds the threshold.
 
