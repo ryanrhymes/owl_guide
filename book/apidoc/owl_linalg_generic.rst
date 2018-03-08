@@ -2,8 +2,8 @@ Linalg.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#54 entries have been extracted.
-timestamp: 2018-03-07 22:26:26
+#57 entries have been extracted.
+timestamp: 2018-03-08 20:45:18
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -381,6 +381,16 @@ you do not need to worry about ``otyp``.
 
 .. code-block:: ocaml
 
+  val schur_tz : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
+
+``schur_tz x`` is similar to ``schur`` but only returns ``(t, z)``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L296>`__
+
+
+
+.. code-block:: ocaml
+
   val hess : ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
 
 ``hess x -> (h, q)`` calculates the Hessenberg form of a given matrix ``x``.
@@ -471,6 +481,49 @@ the linear equation system to get ``x``. Please refer to :doc:`owl_operator`.
 
 
 
+.. code-block:: ocaml
+
+  val sylvester : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+``sylvester a b c`` solves a Sylvester equation in the following form. The
+function calls LAPACKE function ``trsyl`` solve the system.
+
+.. math::
+  AX + XB = C
+
+Parameters:
+  * ``a`` : ``m x m`` matrix A.
+  * ``b`` : ``n x n`` matrix B.
+  * ``c`` : ``m x n`` matrix C.
+
+Returns:
+  * ``x`` : ``m x n`` matrix X.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L636>`__
+
+
+
+.. code-block:: ocaml
+
+  val lyapunov : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+``lyapunov a q`` solves a continuous Lyapunov equation in the following form.
+The function calls LAPACKE function ``trsyl`` solve the system.
+
+.. math::
+  AX + XA^H = Q
+
+Parameters:
+  * ``a`` : ``m x m`` matrix A.
+  * ``q`` : ``n x n`` matrix Q.
+
+Returns:
+  * ``x`` : ``m x n`` matrix X.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L646>`__
+
+
+
 Low-level factorisation functions
 -------------------------------------------------------------------------------
 
@@ -538,7 +591,7 @@ Matrix functions
 The function implements the scaling and squaring algorithm which uses Padé
 approximation to compute the matrix exponential :cite:`al2009new`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L667>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L687>`__
 
 
 
@@ -549,7 +602,7 @@ approximation to compute the matrix exponential :cite:`al2009new`.
 ``sinm x`` computes the matrix sine of input ``x``. The function uses ``expm``
 to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L779>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L799>`__
 
 
 
@@ -560,7 +613,7 @@ to compute the matrix exponentials.
 ``cosm x`` computes the matrix cosine of input ``x``. The function uses ``expm``
 to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L811>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L831>`__
 
 
 
@@ -571,7 +624,7 @@ to compute the matrix exponentials.
 ``tanm x`` computes the matrix tangent of input ``x``. The function uses
 ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L854>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L874>`__
 
 
 
@@ -581,7 +634,7 @@ to compute the matrix exponentials.
 
 ``sincosm x`` returns both matrix sine and cosine of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L851>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L871>`__
 
 
 
@@ -592,7 +645,7 @@ to compute the matrix exponentials.
 ``sinhm x`` computes the hyperbolic matrix sine of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L860>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L880>`__
 
 
 
@@ -603,7 +656,7 @@ uses ``expm`` to compute the matrix exponentials.
 ``coshm x`` computes the hyperbolic matrix cosine of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L865>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L885>`__
 
 
 
@@ -614,7 +667,7 @@ uses ``expm`` to compute the matrix exponentials.
 ``tanhm x`` computes the hyperbolic matrix tangent of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L877>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L897>`__
 
 
 
@@ -624,7 +677,7 @@ uses ``expm`` to compute the matrix exponentials.
 
 ``sinhcoshm x`` returns both hyperbolic matrix sine and cosine of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L870>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L890>`__
 
 
 
@@ -641,7 +694,7 @@ Helper functions
 ``Owl_cblas.dgemm`` function. The default matrix size is ``2000 x 2000``, but you
 can change this by setting ``n`` to other numbers as you like.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L639>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L659>`__
 
 
 

@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #405 entries have been extracted.
-timestamp: 2018-03-07 22:26:25
+timestamp: 2018-03-08 20:45:17
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -2243,7 +2243,7 @@ result in a new ndarray.
 
   val fix : ('a, 'b) t -> ('a, 'b) t
 
-``fix x``  rounds each element of ``x`` to the nearest integer toward zero.
+``fix x`` rounds each element of ``x`` to the nearest integer toward zero.
 For positive elements, the behavior is the same as ``floor``. For negative ones,
 the behavior is the same as ``ceil``.
 

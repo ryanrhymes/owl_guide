@@ -2,8 +2,8 @@ Exception
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#12 entries have been extracted.
-timestamp: 2018-03-07 22:26:29
+#13 entries have been extracted.
+timestamp: 2018-03-08 20:45:21
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/core/owl_exception.mli>`_ 
@@ -38,6 +38,13 @@ Exception definition
 -------------------------------------------------------------------------------
 
 
+
+.. code-block:: ocaml
+
+  exception NOT_IMPLEMENTED
+    
+
+Exception of not implemented yet.
 
 .. code-block:: ocaml
 
