@@ -3,7 +3,7 @@ Low-level OpenCL API
 
 This document is auto-generated for Owl's APIs.
 #542 entries have been extracted.
-timestamp: 2018-03-08 20:45:21
+timestamp: 2018-03-08 23:34:39
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_generated.mli>`_ 

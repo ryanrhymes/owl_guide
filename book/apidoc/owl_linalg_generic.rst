@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #57 entries have been extracted.
-timestamp: 2018-03-08 20:45:18
+timestamp: 2018-03-08 23:34:36
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -397,6 +397,9 @@ you do not need to worry about ``otyp``.
 Both Hessenberg matrix ``h`` and unitary matrix ``q`` is returned, such that
 ``x = q *@ h *@ (transpose q)``.
 
+.. math::
+  X = Q H Q^T
+
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L410>`__
 
 
@@ -445,7 +448,10 @@ Linear system of equations
 ``null a -> x`` computes an orthonormal basis ``x`` for the null space of ``a``
 obtained from the singular value decomposition. Namely, ``a *@ x`` has
 negligible elements, ``M.col_num x`` is the nullity of ``a``, and
-``transpose x *@ x = I``.
+``transpose x *@ x = I``. Namely,
+
+.. math::
+  X^T X = I
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L549>`__
 
@@ -455,14 +461,20 @@ negligible elements, ``M.col_num x`` is the nullity of ``a``, and
 
   val linsolve : ?trans:bool -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
-``linsolve a b -> x`` solves a linear system of equations ``a * x = b``. The
-function uses LU factorisation with partial pivoting when ``a`` is square and
-QR factorisation with column pivoting otherwise. The number of rows of ``a``
-must equal the number of rows of ``b``.
+``linsolve a b -> x`` solves a linear system of equations ``a * x = b`` in the
+following form. The function uses LU factorisation with partial pivoting when
+``a`` is square and QR factorisation with column pivoting otherwise. The number
+of rows of ``a`` must equal the number of rows of ``b``.
+
+.. math::
+  AX = B
 
 By default, ``trans = false`` indicates no transpose. If ``trans = true``, then
 function will solve ``A^T * x = b`` for real matrices; ``A^H * x = b`` for
 complex matrices.
+
+.. math::
+  A^H X = B
 
 The associated operator is ``/@``, so you can simply use ``a /@ b`` to solve
 the linear equation system to get ``x``. Please refer to :doc:`owl_operator`.
@@ -476,6 +488,9 @@ the linear equation system to get ``x``. Please refer to :doc:`owl_operator`.
   val linreg : ('a, 'b) t -> ('a, 'b) t -> 'a * 'a
 
 ``linreg x y -> (a, b)`` solves ``y = a + b*x`` using Ordinary Least Squares.
+
+.. math::
+  Y = A + BX
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L601>`__
 
@@ -508,7 +523,8 @@ Returns:
   val lyapunov : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
 
 ``lyapunov a q`` solves a continuous Lyapunov equation in the following form.
-The function calls LAPACKE function ``trsyl`` solve the system.
+The function calls LAPACKE function ``trsyl`` solve the system. In Matlab, the
+same function is called ``lyap``.
 
 .. math::
   AX + XA^H = Q
