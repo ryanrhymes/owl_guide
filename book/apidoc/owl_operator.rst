@@ -3,7 +3,7 @@ Operator Functor
 
 This document is auto-generated for Owl's APIs.
 #75 entries have been extracted.
-timestamp: 2018-03-10 17:27:56
+timestamp: 2018-03-10 21:21:55
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_operator.mli>`_ 
@@ -412,12 +412,6 @@ Operator of ``dot a b``, i.e. matrix multiplication ``a * b``.
 
 .. code-block:: ocaml
 
-  val ( **@ ) :  ('a, 'b) M.t -> float -> ('a, 'b) M.t
-
-Operator of ``mpow``, i.e. matrix power.
-
-.. code-block:: ocaml
-
   val ( .%{} ) : ('a, 'b) M.t -> int array -> 'a
 
 Operator of ``get``
@@ -449,6 +443,12 @@ Linalg-specific operators
 -------------------------------------------------------------------------------
 
 
+
+.. code-block:: ocaml
+
+  val ( **@ ) :  ('a, 'b) M.t -> float -> ('a, 'b) M.t
+
+Operator of ``mpow``, i.e. matrix power.
 
 .. code-block:: ocaml
 
