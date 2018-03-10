@@ -3,7 +3,7 @@ Dense.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #414 entries have been extracted.
-timestamp: 2018-03-08 23:34:36
+timestamp: 2018-03-10 01:54:16
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 

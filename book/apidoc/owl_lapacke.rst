@@ -3,7 +3,7 @@ High-level LAPACKE API
 
 This document is auto-generated for Owl's APIs.
 #93 entries have been extracted.
-timestamp: 2018-03-08 23:34:38
+timestamp: 2018-03-10 01:54:18
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/lapacke/owl_lapacke.mli>`_ 
@@ -899,7 +899,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke.ml#L3594>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke.ml#L3588>`__
 
 
 
@@ -909,7 +909,7 @@ Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-
 
 Refer to `Intel MKL C Reference <https://software.intel.com/en-us/mkl-developer-reference-c-lapack-routines>`_
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke.ml#L3706>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/lapacke/owl_lapacke.ml#L3700>`__
 
 
 

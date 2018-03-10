@@ -2,8 +2,8 @@ Exception
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#13 entries have been extracted.
-timestamp: 2018-03-08 23:34:40
+#14 entries have been extracted.
+timestamp: 2018-03-10 01:54:19
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/core/owl_exception.mli>`_ 
@@ -108,4 +108,11 @@ Fail to converge.
     
 
 Number of iteration exceeds the threshold.
+
+.. code-block:: ocaml
+
+  exception SINGULAR
+    
+
+Exception of singular matrix.
 
