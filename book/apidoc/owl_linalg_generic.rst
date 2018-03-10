@@ -2,8 +2,8 @@ Linalg.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#59 entries have been extracted.
-timestamp: 2018-03-10 13:47:55
+#60 entries have been extracted.
+timestamp: 2018-03-10 17:13:12
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -552,7 +552,7 @@ Returns:
 
 .. code-block:: ocaml
 
-  val care : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+  val care : (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t
 
 ``care a b q r`` solves the continuous-time algebraic Riccati equation system
 in the following form.
@@ -564,12 +564,35 @@ Parameters:
   * ``a`` : real cofficient matrix A.
   * ``b`` : real cofficient matrix B.
   * ``q`` : real cofficient matrix Q.
-  * ``r`` : real cofficient matrix R. R is non-sigular.
+  * ``r`` : real cofficient matrix R. R must be non-singular.
 
 Returns:
   * ``x`` : a symmetric solution matrix X.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L664>`__
+
+
+
+.. code-block:: ocaml
+
+  val dare : (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t
+
+``dare a b q r`` solves the discrete-time algebraic Riccati equation system
+in the following form.
+
+.. math::
+  A^T X A - X - (A^T X B) (B^T X B + R)^{-1} (B^T X A) + Q = 0
+
+Parameters:
+  * ``a`` : real cofficient matrix A. A must be non-singular.
+  * ``b`` : real cofficient matrix B.
+  * ``q`` : real cofficient matrix Q.
+  * ``r`` : real cofficient matrix R. R must be non-singular.
+
+Returns:
+  * ``x`` : a symmetric solution matrix X.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L680>`__
 
 
 
@@ -640,7 +663,7 @@ Matrix functions
 The function implements the scaling and squaring algorithm which uses Padé
 approximation to compute the matrix exponential :cite:`al2009new`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L711>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L730>`__
 
 
 
@@ -651,7 +674,7 @@ approximation to compute the matrix exponential :cite:`al2009new`.
 ``sinm x`` computes the matrix sine of input ``x``. The function uses ``expm``
 to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L823>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L842>`__
 
 
 
@@ -662,7 +685,7 @@ to compute the matrix exponentials.
 ``cosm x`` computes the matrix cosine of input ``x``. The function uses ``expm``
 to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L855>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L874>`__
 
 
 
@@ -673,7 +696,7 @@ to compute the matrix exponentials.
 ``tanm x`` computes the matrix tangent of input ``x``. The function uses
 ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L898>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L917>`__
 
 
 
@@ -683,7 +706,7 @@ to compute the matrix exponentials.
 
 ``sincosm x`` returns both matrix sine and cosine of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L895>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L914>`__
 
 
 
@@ -694,7 +717,7 @@ to compute the matrix exponentials.
 ``sinhm x`` computes the hyperbolic matrix sine of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L904>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L923>`__
 
 
 
@@ -705,7 +728,7 @@ uses ``expm`` to compute the matrix exponentials.
 ``coshm x`` computes the hyperbolic matrix cosine of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L909>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L928>`__
 
 
 
@@ -716,7 +739,7 @@ uses ``expm`` to compute the matrix exponentials.
 ``tanhm x`` computes the hyperbolic matrix tangent of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L921>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L940>`__
 
 
 
@@ -726,7 +749,7 @@ uses ``expm`` to compute the matrix exponentials.
 
 ``sinhcoshm x`` returns both hyperbolic matrix sine and cosine of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L914>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L933>`__
 
 
 
@@ -743,7 +766,7 @@ Helper functions
 ``Owl_cblas.dgemm`` function. The default matrix size is ``2000 x 2000``, but you
 can change this by setting ``n`` to other numbers as you like.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L683>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L702>`__
 
 
 

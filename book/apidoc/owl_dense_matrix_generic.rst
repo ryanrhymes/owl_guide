@@ -2,8 +2,8 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#415 entries have been extracted.
-timestamp: 2018-03-10 13:47:55
+#417 entries have been extracted.
+timestamp: 2018-03-10 17:13:12
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -168,7 +168,7 @@ follow a Gaussian distribution with specified sigma. By default ``sigma = 1``.
 
 `` semidef n `` returns an random ``n`` by ``n`` positive semi-definite matrix.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L562>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L592>`__
 
 
 
@@ -203,7 +203,7 @@ Matlab. It returns two matrices ``x`` and ``y`` where the row vectors in ``x`` a
 linearly spaced between ``[a1,b1]`` by ``n1`` whilst the column vectors in ``y``
 are linearly spaced between ``(a2,b2)`` by ``n2``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L586>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L616>`__
 
 
 
@@ -213,7 +213,7 @@ are linearly spaced between ``(a2,b2)`` by ``n2``.
 
 ``meshup x y`` creates mesh grids by using two row vectors ``x`` and ``y``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L593>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L623>`__
 
 
 
@@ -347,7 +347,7 @@ length, the return will be an rectangular matrix.
 we have ``H'*H = n*I``. Currrently, this function handles only the cases where
 ``n``, ``n/12``, or ``n/20`` is a power of 2.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L646>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L676>`__
 
 
 
@@ -361,7 +361,7 @@ we have ``H'*H = n*I``. Currrently, this function handles only the cases where
 There are three different algorithms to deal with ``n`` is odd, singly even,
 and doubly even respectively.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L708>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L738>`__
 
 
 
@@ -896,6 +896,26 @@ Similar to `scani` but 2d indices ``(i,j)`` are passed to the user function.
 Similar to `filteri` but 2d indices ``(i,j)`` are returned.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L448>`__
+
+
+
+.. code-block:: ocaml
+
+  val iter2i_2d : (int -> int -> 'a -> 'c -> unit) -> ('a, 'b) t -> ('c, 'd) t -> unit
+
+Similar to `iter2i` but 2d indices ``(i,j)`` are passed to the user function.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L476>`__
+
+
+
+.. code-block:: ocaml
+
+  val map2i_2d : (int -> int -> 'a -> 'a -> 'a) -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+Similar to `map2i` but 2d indices ``(i,j)`` are passed to the user function.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L490>`__
 
 
 
@@ -1536,7 +1556,7 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle_rows x`` shuffles all the rows in matrix ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L567>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L597>`__
 
 
 
@@ -1546,7 +1566,7 @@ also returned in an int array along with the selected columns. The parameter
 
 ``shuffle_cols x`` shuffles all the columns in matrix ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L575>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L605>`__
 
 
 
@@ -1576,7 +1596,7 @@ float array of length ``(numel x)``.
 ``of_array x m n`` converts a float array ``x`` into an ``m`` by ``n`` matrix. Note the
 length of ``x`` must be equal to ``(m * n)``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L526>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L556>`__
 
 
 
@@ -1622,7 +1642,7 @@ by using ``save`` function.
 delimited by the specified string ``sep``. Note that the operation can be very
 time consuming.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L532>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L562>`__
 
 
 
@@ -1633,7 +1653,7 @@ time consuming.
 ``load_txt ~sep k f`` load a text file ``f`` into a matrix of type ``k``. The
 delimitor is specified by ``sep`` which can be a regular expression.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L542>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L572>`__
 
 
 
@@ -1784,7 +1804,7 @@ maximum value along its index.
 
 ``mean' x`` calculates the mean of all the elements in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L509>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L539>`__
 
 
 
@@ -1818,7 +1838,7 @@ maximum value along its index.
 
 ``sum_rows x`` returns the summation of all the row vectors in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L479>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L509>`__
 
 
 
@@ -1828,7 +1848,7 @@ maximum value along its index.
 
 ``sum_cols`` returns the summation of all the column vectors in ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L476>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L506>`__
 
 
 
@@ -1839,7 +1859,7 @@ maximum value along its index.
 ``mean_rows x`` returns the mean value of all row vectors in ``x``. It is
  equivalent to ``div_scalar (sum_rows x) (float_of_int (row_num x))``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L485>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L515>`__
 
 
 
@@ -1850,7 +1870,7 @@ maximum value along its index.
 ``mean_cols x`` returns the mean value of all column vectors in ``x``.
  It is equivalent to ``div_scalar (sum_cols x) (float_of_int (col_num x))``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L482>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L512>`__
 
 
 
@@ -1860,7 +1880,7 @@ maximum value along its index.
 
 ``min_rows x`` returns the minimum value in each row along with their coordinates.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L493>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L523>`__
 
 
 
@@ -1870,7 +1890,7 @@ maximum value along its index.
 
 ``min_cols x`` returns the minimum value in each column along with their coordinates.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L488>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L518>`__
 
 
 
@@ -1880,7 +1900,7 @@ maximum value along its index.
 
 ``max_rows x`` returns the maximum value in each row along with their coordinates.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L503>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L533>`__
 
 
 
@@ -1890,7 +1910,7 @@ maximum value along its index.
 
 ``max_cols x`` returns the maximum value in each column along with their coordinates.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L498>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L528>`__
 
 
 
@@ -2302,7 +2322,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
 TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L804>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L834>`__
 
 
 
@@ -2312,7 +2332,7 @@ TODO
 
 TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L813>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L843>`__
 
 
 
@@ -2360,7 +2380,7 @@ TODO
 The elements in ``x`` are clipped by ``amin`` and ``amax``, and they will be between
 ``0.`` and ``1.`` after conversion to represents the intensity.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L849>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L879>`__
 
 
 
@@ -2595,7 +2615,7 @@ it is normalised by ``1``.
 first then returns a ``2 x 2`` matrix, so two must have the same number of
 elements.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L822>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L852>`__
 
 
 
