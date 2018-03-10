@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #60 entries have been extracted.
-timestamp: 2018-03-10 17:13:12
+timestamp: 2018-03-10 17:27:54
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -486,7 +486,7 @@ complex matrices.
 .. math::
   A^H X = B
 
-The associated operator is ``/@``, so you can simply use ``b /@ a`` to solve
+The associated operator is ``/@``, so you can simply use ``a /@ b`` to solve
 the linear equation system to get ``x``. Please refer to :doc:`owl_operator`.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L585>`__
@@ -555,7 +555,7 @@ Returns:
   val care : (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t
 
 ``care a b q r`` solves the continuous-time algebraic Riccati equation system
-in the following form.
+in the following form. The algorithm is based on :cite:`laub1979schur`.
 
 .. math::
   A^T X + X A − X B R^{-1} B^T X + Q = 0
@@ -567,7 +567,7 @@ Parameters:
   * ``r`` : real cofficient matrix R. R must be non-singular.
 
 Returns:
-  * ``x`` : a symmetric solution matrix X.
+  * ``x`` : a solution matrix X.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L664>`__
 
@@ -578,7 +578,7 @@ Returns:
   val dare : (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t -> (float, 'a) t
 
 ``dare a b q r`` solves the discrete-time algebraic Riccati equation system
-in the following form.
+in the following form. The algorithm is based on :cite:`laub1979schur`.
 
 .. math::
   A^T X A - X - (A^T X B) (B^T X B + R)^{-1} (B^T X A) + Q = 0
