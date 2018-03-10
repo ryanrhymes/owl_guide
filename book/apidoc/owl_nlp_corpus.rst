@@ -3,7 +3,7 @@ NLP.Corpus
 
 This document is auto-generated for Owl's APIs.
 #40 entries have been extracted.
-timestamp: 2018-03-10 01:54:19
+timestamp: 2018-03-10 13:47:58
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/nlp/owl_nlp_corpus.mli>`_ 

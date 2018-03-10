@@ -2,8 +2,8 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#414 entries have been extracted.
-timestamp: 2018-03-10 01:54:16
+#415 entries have been extracted.
+timestamp: 2018-03-10 13:47:55
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -645,6 +645,16 @@ The associated operator is ``@=``, please refer to :doc:`owl_operator`.
 therefore their row numbers must be the same.
 
 The associated operator is ``@||``, please refer to :doc:`owl_operator`.
+
+.. code-block:: ocaml
+
+  val concat_vh : ('a, 'b) t array array -> ('a, 'b) t
+
+``concat_vh`` is used to assemble small parts of matrices into a bigger one.
+E.g. ``[| [|a; b; c|]; [|d; e; f|]; [|g; h; i|] |]`` will be concatenated into
+a big matrix as follows.
+
+Please refer to :doc:`owl_dense_ndarray_generic`. for details.
 
 .. code-block:: ocaml
 
