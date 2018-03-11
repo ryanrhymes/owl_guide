@@ -2,8 +2,8 @@ Linalg.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#61 entries have been extracted.
-timestamp: 2018-03-10 21:21:53
+#62 entries have been extracted.
+timestamp: 2018-03-11 01:22:50
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
@@ -48,7 +48,7 @@ is singular, ``inv`` will return a useless result.)
 the tolerance, the absolute value of the elements smaller than ``tol`` will be
 set to zeros.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L626>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L634>`__
 
 
 
@@ -104,7 +104,7 @@ Returns:
   * If ``p = -2``, then returns approximately ``min (svd x)``.
   * If ``p = -infinity``, then returns the minimum absolute row sum of the matrix.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L502>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L510>`__
 
 
 
@@ -130,7 +130,7 @@ Returns:
   * If ``p = 2`` and ``x`` is a matrix, then returns Frobenius norm of ``x``.
   * Otherwise returns generalised vector p-norm defined above.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L513>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L521>`__
 
 
 
@@ -148,7 +148,7 @@ Returns:
 
 The default value of ``p`` is ``2.``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L533>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L541>`__
 
 
 
@@ -171,7 +171,7 @@ Check matrix types
 
 ``is_square x`` returns ``true`` if ``x`` is a square matrix otherwise ``false``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L455>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L463>`__
 
 
 
@@ -181,7 +181,7 @@ Check matrix types
 
 ``is_triu x`` returns ``true`` if ``x`` is upper triangular otherwise ``false``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L460>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L468>`__
 
 
 
@@ -191,7 +191,7 @@ Check matrix types
 
 ``is_tril x`` returns ``true`` if ``x`` is lower triangular otherwise ``false``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L463>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L471>`__
 
 
 
@@ -201,7 +201,7 @@ Check matrix types
 
 ``is_symmetric x`` returns ``true`` if ``x`` is symmetric otherwise ``false``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L466>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L474>`__
 
 
 
@@ -211,7 +211,7 @@ Check matrix types
 
 ``is_hermitian x`` returns ``true`` if ``x`` is hermitian otherwise ``false``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L469>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L477>`__
 
 
 
@@ -221,7 +221,7 @@ Check matrix types
 
 ``is_diag x`` returns ``true`` if ``x`` is diagonal otherwise ``false``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L472>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L480>`__
 
 
 
@@ -231,7 +231,7 @@ Check matrix types
 
 ``is_posdef x`` checks whether ``x`` is a positive semi-definite matrix.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L475>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L483>`__
 
 
 
@@ -365,15 +365,20 @@ values of the generalised singular value decomposition of ``x`` and ``y``.
 
   val schur : otyp:('c, 'd) kind -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('c, 'd) t
 
-``schur x -> (t, z, w)`` calculates Schur factorisation of ``x``. ``t`` is
-(quasi) triangular Schur factor, ``z`` is orthogonal/unitary Schur vectors. The
-eigen values are not sorted, they have the same order as that they appear on
-the diagonal of the output of Schur form ``t``.
+``schur x -> (t, z, w)`` calculates Schur factorisation of ``x`` in the
+following form.
 
-``w`` contains the eigen values. ``otyp`` is used to specify the type of ``w``. It
-needs to be consistent with input type. E.g., if the input ``x`` is ``float32``
-then ``otyp`` must be ``complex32``. However, if you use S, D, C, Z module, then
-you do not need to worry about ``otyp``.
+.. math::
+  X = Z T Z^H
+
+``t`` is (quasi) triangular Schur factor, ``z`` is orthogonal/unitary Schur
+vectors. The eigen values are not sorted, they have the same order as that they
+appear on the diagonal of the output of Schur form ``t``.
+
+``w`` contains the eigen values of ``x``. ``otyp`` is used to specify the type
+of ``w``. It needs to be consistent with input type. E.g., if the input ``x`` is
+``float32`` then ``otyp`` must be ``complex32``. However, if you use S, D, C, Z
+module, then you do not need to worry about ``otyp``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L280>`__
 
@@ -393,9 +398,28 @@ you do not need to worry about ``otyp``.
 
   val ordschur : select:(int32, int32_elt) t -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t
 
-Reorder eigenvalues in Schur factorization.
+`ordschur ~select t z -> (p, r)` reorders ``t`` and ``z`` in Schur
+factorization ``schur x -> (t, z)`` such that
+
+.. math::
+  X = P R P^H
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L302>`__
+
+
+
+.. code-block:: ocaml
+
+  val qz : ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t * ('a, 'b) t * ('a, 'b) t * ('a, 'b) t
+
+``qz x -> (s, t, q, z)`` calculates generalised Schur factorisation of ``x`` in
+the following form. It is also known as QZ decomposition.
+
+.. math::
+  X = Q S Z^H
+  Y = Z T Z^H
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L310>`__
 
 
 
@@ -410,7 +434,7 @@ Both Hessenberg matrix ``h`` and unitary matrix ``q`` is returned, such that
 .. math::
   X = Q H Q^T
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L418>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L426>`__
 
 
 
@@ -431,7 +455,7 @@ of an arbitrary square matrix ``x``. The eigenvectors are column vectors in
 Note that ``otyp`` specifies the complex type of the output, but you do not
 need worry about this parameter if you use S, D, C, Z modules in Linalg.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L313>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L321>`__
 
 
 
@@ -442,7 +466,7 @@ need worry about this parameter if you use S, D, C, Z modules in Linalg.
 ``eigvals x -> w`` is similar to ``eig`` but only computes the eigenvalues of
 an arbitrary square matrix ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L381>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L389>`__
 
 
 
@@ -463,7 +487,7 @@ negligible elements, ``M.col_num x`` is the nullity of ``a``, and
 .. math::
   X^T X = I
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L557>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L565>`__
 
 
 
@@ -489,7 +513,7 @@ complex matrices.
 The associated operator is ``/@``, so you can simply use ``a /@ b`` to solve
 the linear equation system to get ``x``. Please refer to :doc:`owl_operator`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L585>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L593>`__
 
 
 
@@ -502,7 +526,7 @@ the linear equation system to get ``x``. Please refer to :doc:`owl_operator`.
 .. math::
   Y = A + BX
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L609>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L617>`__
 
 
 
@@ -524,7 +548,7 @@ Parameters:
 Returns:
   * ``x`` : ``m x n`` matrix X.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L644>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L652>`__
 
 
 
@@ -546,7 +570,7 @@ Parameters:
 Returns:
   * ``x`` : ``m x n`` matrix X.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L654>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L662>`__
 
 
 
@@ -569,7 +593,7 @@ Parameters:
 Returns:
   * ``x`` : a solution matrix X.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L664>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L672>`__
 
 
 
@@ -592,7 +616,7 @@ Parameters:
 Returns:
   * ``x`` : a symmetric solution matrix X.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L680>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L688>`__
 
 
 
@@ -642,7 +666,7 @@ For ``ipiv``, it indicates the details of the interchanges and the block
 structure of ``d``. Please refer to the function ``sytrf``, ``hetrf`` in MKL
 documentation for more details.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L431>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L439>`__
 
 
 
@@ -662,7 +686,7 @@ it can be be negative, zero, or positive. Non-integer exponents
 are not yet implemented. (If ``r`` is negative, ``mpow`` calls ``inv``,
 and warnings in documentation for ``inv`` apply.)
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L722>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L730>`__
 
 
 
@@ -678,7 +702,7 @@ and warnings in documentation for ``inv`` apply.)
 The function implements the scaling and squaring algorithm which uses Padé
 approximation to compute the matrix exponential :cite:`al2009new`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L752>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L760>`__
 
 
 
@@ -689,7 +713,7 @@ approximation to compute the matrix exponential :cite:`al2009new`.
 ``sinm x`` computes the matrix sine of input ``x``. The function uses ``expm``
 to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L864>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L872>`__
 
 
 
@@ -700,7 +724,7 @@ to compute the matrix exponentials.
 ``cosm x`` computes the matrix cosine of input ``x``. The function uses ``expm``
 to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L896>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L904>`__
 
 
 
@@ -711,7 +735,7 @@ to compute the matrix exponentials.
 ``tanm x`` computes the matrix tangent of input ``x``. The function uses
 ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L939>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L947>`__
 
 
 
@@ -721,7 +745,7 @@ to compute the matrix exponentials.
 
 ``sincosm x`` returns both matrix sine and cosine of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L936>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L944>`__
 
 
 
@@ -732,7 +756,7 @@ to compute the matrix exponentials.
 ``sinhm x`` computes the hyperbolic matrix sine of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L945>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L953>`__
 
 
 
@@ -743,7 +767,7 @@ uses ``expm`` to compute the matrix exponentials.
 ``coshm x`` computes the hyperbolic matrix cosine of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L950>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L958>`__
 
 
 
@@ -754,7 +778,7 @@ uses ``expm`` to compute the matrix exponentials.
 ``tanhm x`` computes the hyperbolic matrix tangent of input ``x``. The function
 uses ``expm`` to compute the matrix exponentials.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L962>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L970>`__
 
 
 
@@ -764,7 +788,7 @@ uses ``expm`` to compute the matrix exponentials.
 
 ``sinhcoshm x`` returns both hyperbolic matrix sine and cosine of ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L955>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L963>`__
 
 
 
@@ -781,7 +805,7 @@ Helper functions
 ``Owl_cblas.dgemm`` function. The default matrix size is ``2000 x 2000``, but you
 can change this by setting ``n`` to other numbers as you like.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L702>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/linalg/owl_linalg_generic.ml#L710>`__
 
 
 

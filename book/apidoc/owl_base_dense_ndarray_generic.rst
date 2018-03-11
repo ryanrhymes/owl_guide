@@ -3,7 +3,7 @@ Base.Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #185 entries have been extracted.
-timestamp: 2018-03-10 21:21:56
+timestamp: 2018-03-11 01:22:54
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/dense/owl_base_dense_ndarray_generic.mli>`_ 

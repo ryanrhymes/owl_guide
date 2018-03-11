@@ -3,7 +3,7 @@ Plot
 
 This document is auto-generated for Owl's APIs.
 #63 entries have been extracted.
-timestamp: 2018-03-10 21:21:55
+timestamp: 2018-03-11 01:22:54
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.mli>`_ 
