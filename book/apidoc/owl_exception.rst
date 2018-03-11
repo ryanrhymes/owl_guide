@@ -3,7 +3,7 @@ Exception
 
 This document is auto-generated for Owl's APIs.
 #14 entries have been extracted.
-timestamp: 2018-03-11 01:22:54
+timestamp: 2018-03-11 16:39:29
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/core/owl_exception.mli>`_ 
