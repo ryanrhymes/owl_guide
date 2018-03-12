@@ -2,8 +2,8 @@ Exception
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#14 entries have been extracted.
-timestamp: 2018-03-11 16:39:29
+#15 entries have been extracted.
+timestamp: 2018-03-12 00:31:09
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/core/owl_exception.mli>`_ 
@@ -115,4 +115,11 @@ Number of iteration exceeds the threshold.
     
 
 Exception of singular matrix.
+
+.. code-block:: ocaml
+
+  exception INDEX_OUT_OF_BOUND
+    
+
+Exception of index out of boundary.
 
