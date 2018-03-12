@@ -2,8 +2,8 @@ OpenCL Dense Ndarray
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#63 entries have been extracted.
-timestamp: 2018-03-12 02:24:40
+#65 entries have been extracted.
+timestamp: 2018-03-12 02:30:28
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_dense_ndarray.mli>`_ 
@@ -13,6 +13,26 @@ Github:
 
 Core functions
 -------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val of_ndarray : ('a, 'b) Owl_dense_ndarray_generic.t -> t
+
+``of_ndarray x``
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_dense_ndarray.ml#L145>`__
+
+
+
+.. code-block:: ocaml
+
+  val to_ndarray : ('a, 'b) Bigarray.kind -> t -> ('a, 'b) Owl_dense_ndarray_generic.t
+
+``to_ndarray otyp x``
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/opencl/owl_opencl_dense_ndarray.ml#L137>`__
 
 
 

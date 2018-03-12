@@ -3,7 +3,7 @@ Toplevel
 
 This document is auto-generated for Owl's APIs.
 #3 entries have been extracted.
-timestamp: 2018-03-12 02:24:40
+timestamp: 2018-03-12 02:30:28
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/top/owl_top.mli>`_ 
