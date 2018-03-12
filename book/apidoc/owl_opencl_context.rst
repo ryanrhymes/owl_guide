@@ -3,7 +3,7 @@ OpenCL Context
 
 This document is auto-generated for Owl's APIs.
 #23 entries have been extracted.
-timestamp: 2018-03-12 00:31:09
+timestamp: 2018-03-12 02:19:30
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_context.mli>`_ 
@@ -199,7 +199,7 @@ with the passed in ones.
 
 .. code-block:: ocaml
 
-  val ba_kernel : ('a, 'b) Owl_sparse_ndarray_generic.kind -> string -> cl_program -> cl_kernel
+  val ba_kernel : ('a, 'b) kind -> string -> cl_program -> cl_kernel
 
 This function is similar to ``make_kernel`` but specifically for making Bigarray function.
 
