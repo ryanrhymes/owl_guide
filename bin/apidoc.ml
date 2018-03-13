@@ -7,7 +7,7 @@
 
 
 (* simple function to read in the content of a file *)
-let get_content fname = Owl.Utils.read_file_string ~trim:false fname
+let get_content fname = Owl.Utils.read_file_string fname
 
 
 (** given a file name, return its url on github *)

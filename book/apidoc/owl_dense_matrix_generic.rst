@@ -2,8 +2,8 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#416 entries have been extracted.
-timestamp: 2018-03-12 20:53:06
+#417 entries have been extracted.
+timestamp: 2018-03-13 17:31:11
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -2359,6 +2359,22 @@ TODO
   val cummax : ?axis:int -> ('a, 'b) t -> ('a, 'b) t
 
 ``cummax ~axis x`` : performs cumulative ``max`` along ``axis`` dimension.
+
+.. code-block:: ocaml
+
+  val diff : ?axis:int -> ?n:int -> ('a, 'b) t -> ('a, 'b) t
+
+``diff ~axis ~n x`` calculates the ``n``-th difference of ``x`` along the
+specified ``axis``.
+
+Parameters:
+  * ``axis``: axis to calculate the difference. The default value is the
+    highest dimension.
+  * ``n``: how many times to calculate the difference. The default value is 1.
+
+Return:
+  * The difference ndarray y. Note the shape of ``y`` 1 less than that of ``x``
+    along specified axis.
 
 .. code-block:: ocaml
 

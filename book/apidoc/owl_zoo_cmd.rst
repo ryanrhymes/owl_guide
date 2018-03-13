@@ -3,7 +3,7 @@ Zoo System
 
 This document is auto-generated for Owl's APIs.
 #16 entries have been extracted.
-timestamp: 2018-03-12 20:53:13
+timestamp: 2018-03-13 17:31:13
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/zoo/owl_zoo_cmd.mli>`_ 
@@ -28,9 +28,9 @@ Remove a local gist of given id.
 
 .. code-block:: ocaml
 
-  val upload_gist : string -> unit
+  val upload_gist : string -> string
 
-Upload a zoo bundle of given path to the gist server.
+Upload a zoo bundle of given path to the gist server and return a gist id.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L38>`__
 
@@ -42,7 +42,7 @@ Upload a zoo bundle of given path to the gist server.
 
 Download the gist of given id.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L44>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L46>`__
 
 
 
@@ -52,7 +52,7 @@ Download the gist of given id.
 
 List all the local gists.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L50>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L52>`__
 
 
 
@@ -62,7 +62,7 @@ List all the local gists.
 
 Update the zoo gist bundles of an array of gist ids.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L57>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L59>`__
 
 
 
@@ -72,7 +72,7 @@ Update the zoo gist bundles of an array of gist ids.
 
 Show the gist's detail information of given gist id.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L70>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L72>`__
 
 
 
@@ -87,7 +87,7 @@ Execute gists
 
 Load a zoo file with the given file name, the file path is relative to the default zoo folder.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L94>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L96>`__
 
 
 
@@ -117,7 +117,7 @@ Preprocess the zoo scripts, inject the necessary directives, functions, and modu
 
 ``run args script`` executes the zoo script with the given arguments.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L102>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L104>`__
 
 
 
@@ -127,7 +127,7 @@ Preprocess the zoo scripts, inject the necessary directives, functions, and modu
 
 ``run_gist gist`` runs a zoo gist with the given ``id``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L109>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L111>`__
 
 
 
@@ -142,7 +142,7 @@ Helper functions
 
 Print out help information of ``owl`` command line.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L116>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L118>`__
 
 
 
@@ -152,7 +152,7 @@ Print out help information of ``owl`` command line.
 
 Start the toplevel system tailored for Owl's zoo system.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L133>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/zoo/owl_zoo_cmd.ml#L135>`__
 
 
 
