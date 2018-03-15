@@ -3,7 +3,7 @@ OpenCL Dense Ndarray
 
 This document is auto-generated for Owl's APIs.
 #65 entries have been extracted.
-timestamp: 2018-03-15 01:28:16
+timestamp: 2018-03-15 01:30:14
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_dense_ndarray.mli>`_ 

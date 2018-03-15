@@ -3,7 +3,7 @@ Graph
 
 This document is auto-generated for Owl's APIs.
 #33 entries have been extracted.
-timestamp: 2018-03-15 01:28:16
+timestamp: 2018-03-15 01:30:13
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_graph.mli>`_ 
