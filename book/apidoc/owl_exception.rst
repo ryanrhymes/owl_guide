@@ -2,8 +2,8 @@ Exception
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#15 entries have been extracted.
-timestamp: 2018-03-13 23:23:54
+#16 entries have been extracted.
+timestamp: 2018-03-15 01:28:17
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/core/owl_exception.mli>`_ 
@@ -122,4 +122,11 @@ Exception of singular matrix.
     
 
 Exception of index out of boundary.
+
+.. code-block:: ocaml
+
+  exception ZOO_ILLEGAL_GIST_NAME
+    
+
+Exception of illegal gist name.
 

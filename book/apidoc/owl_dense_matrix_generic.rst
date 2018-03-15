@@ -2,8 +2,8 @@ Dense.Matrix.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#417 entries have been extracted.
-timestamp: 2018-03-13 23:23:51
+#418 entries have been extracted.
+timestamp: 2018-03-15 01:28:14
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -677,7 +677,15 @@ lowest dimension on a marix, i.e., rows.
 
   val split : ?axis:int -> int array -> ('a, 'b) t -> ('a, 'b) t array
 
-``split ~axis parts x``
+``split ~axis parts x`` splits an ndarray ``x`` into parts along the specified
+``axis``. This function is the inverse operation of ``concatenate``. The
+elements in ``x`` must sum up to the dimension in the specified axis.
+
+.. code-block:: ocaml
+
+  val split_vh : (int * int) array array -> ('a, 'b) t -> ('a, 'b) t array array
+
+Please refer to :doc:`owl_dense_ndarray_generic`. for details.
 
 .. code-block:: ocaml
 
