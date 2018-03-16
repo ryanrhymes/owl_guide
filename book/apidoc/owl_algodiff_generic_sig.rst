@@ -3,7 +3,7 @@ Algodiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #116 entries have been extracted.
-timestamp: 2018-03-15 01:30:12
+timestamp: 2018-03-16 18:14:45
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_algodiff_generic_sig.ml>`_ 
