@@ -2,8 +2,8 @@ Dense.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#417 entries have been extracted.
-timestamp: 2018-03-16 18:14:44
+#419 entries have been extracted.
+timestamp: 2018-03-17 21:41:39
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -3083,6 +3083,21 @@ elements greater than ``amax`` will be set to ``amax``.
 
 
 
+Tensor Calculus
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val contract_one : (int * int) array -> ('a, 'b) t -> ('a, 'b) t
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3577>`__
+
+
+
 Cast functions
 -------------------------------------------------------------------------------
 
@@ -3094,7 +3109,7 @@ Cast functions
 
 ``cast kind x`` casts ``x`` of type ``('c, 'd) t`` to type ``('a, 'b) t``
 specify by the passed in ``kind`` parameter. This function is a generalisation
-of the other type casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
+of the other casting functions such as ``cast_s2d``, ``cast_c2z``, and etc.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L1520>`__
 

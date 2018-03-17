@@ -3,7 +3,7 @@ Neural.Neuron Functor
 
 This document is auto-generated for Owl's APIs.
 #377 entries have been extracted.
-timestamp: 2018-03-16 18:14:45
+timestamp: 2018-03-17 21:41:41
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/neural/owl_neural_neuron_sig.ml>`_ 
