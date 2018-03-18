@@ -3,7 +3,7 @@ Constants
 
 This document is auto-generated for Owl's APIs.
 #440 entries have been extracted.
-timestamp: 2018-03-17 21:41:39
+timestamp: 2018-03-18 23:19:03
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_const.mli>`_ 
