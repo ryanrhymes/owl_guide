@@ -3,7 +3,7 @@ Dense.Matrix.Generic
 
 This document is auto-generated for Owl's APIs.
 #418 entries have been extracted.
-timestamp: 2018-03-18 23:19:05
+timestamp: 2018-03-19 14:59:56
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_matrix_generic.mli>`_ 
@@ -2328,7 +2328,7 @@ Refer to :doc:`owl_dense_ndarray_generic`.
 
   val max_pool : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
 
-TODO
+Refer to :doc:`owl_dense_ndarray_generic`.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L833>`__
 
@@ -2338,7 +2338,7 @@ TODO
 
   val avg_pool : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
 
-TODO
+Refer to :doc:`owl_dense_ndarray_generic`.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L842>`__
 
@@ -2507,7 +2507,8 @@ and returns the result in a new matrix.
 
   val add_diag : ('a, 'b) t -> 'a -> ('a, 'b) t
 
-TODO
+``add_diag x a`` adds ``a`` to the diagonal elements in ``x``. A new copy
+of the data is returned.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_matrix_generic.ml#L541>`__
 

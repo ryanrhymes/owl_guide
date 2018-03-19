@@ -3,7 +3,7 @@ NLP.Lda
 
 This document is auto-generated for Owl's APIs.
 #10 entries have been extracted.
-timestamp: 2018-03-18 23:19:09
+timestamp: 2018-03-19 14:59:59
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/nlp/owl_nlp_lda.mli>`_ 
