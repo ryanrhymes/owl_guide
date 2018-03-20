@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #419 entries have been extracted.
-timestamp: 2018-03-19 14:59:56
+timestamp: 2018-03-20 22:37:11
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -3097,7 +3097,7 @@ Tensor Calculus
 
 TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3586>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3559>`__
 
 
 

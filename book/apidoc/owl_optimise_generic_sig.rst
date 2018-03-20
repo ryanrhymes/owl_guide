@@ -3,7 +3,7 @@ Optimise.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #60 entries have been extracted.
-timestamp: 2018-03-19 14:59:57
+timestamp: 2018-03-20 22:37:13
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_optimise_generic_sig.ml>`_ 
