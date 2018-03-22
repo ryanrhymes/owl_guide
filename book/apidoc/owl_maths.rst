@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #148 entries have been extracted.
-timestamp: 2018-03-22 12:14:36
+timestamp: 2018-03-22 12:20:12
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -71,7 +71,7 @@ Basic functions
 
   val abs : float -> float
 
-``abs x`` gives |x|.
+``abs x`` gives ``|x|``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L22>`__
 
@@ -552,7 +552,7 @@ Basic functions
 
   val logsinh : float -> float
 
-``logsinh x`` gives log(sinh(x)) but handles large |x|.
+``logsinh x`` gives log(sinh(x)) but handles large ``|x|``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L128>`__
 
@@ -562,7 +562,7 @@ Basic functions
 
   val logcosh : float -> float
 
-``logcosh x`` gives log(cosh(x)) but handles large |x|.
+``logcosh x`` gives log(cosh(x)) but handles large ``|x|``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L130>`__
 
@@ -632,7 +632,7 @@ Calculate the length of the hypotenuse.
 
   val xlog1py : float -> float -> float
 
-``xlog1py(x, y)``gives x*log(y+1).
+``xlog1py(x, y)`` gives x*log(y+1).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L144>`__
 
@@ -1494,7 +1494,7 @@ and always returns ``true``.
 
 ``nextafter from to`` returns the next representable double precision value
 of ``from`` in the direction of ``to``. If ``from`` equals ``to``, this value
-   is returned.
+is returned.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L314>`__
 
@@ -1506,7 +1506,7 @@ of ``from`` in the direction of ``to``. If ``from`` equals ``to``, this value
 
 ``nextafter from to`` returns the next representable single precision value
 of ``from`` in the direction of ``to``. If ``from`` equals ``to``, this value
-   is returned.
+is returned.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L316>`__
 
