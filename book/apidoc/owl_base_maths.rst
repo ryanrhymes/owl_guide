@@ -2,8 +2,8 @@ Base.Maths
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#34 entries have been extracted.
-timestamp: 2018-03-22 12:20:15
+#39 entries have been extracted.
+timestamp: 2018-03-22 23:03:13
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_maths.mli>`_ 
@@ -343,6 +343,53 @@ Basic functions
 ``atanh x``
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L73>`__
+
+
+
+Helper functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val is_odd : int -> bool
+
+``is_odd x`` returns ``true`` if ``x`` is odd.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L82>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_even : int -> bool
+
+``is_even x`` returns ``true`` if ``x`` is even.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L84>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_pow2 : int -> bool
+
+``is_pow2 x`` return ``true`` if ``x`` is integer power of 2, e.g. 32, 64, etc.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L86>`__
+
+
+
+.. code-block:: ocaml
+
+  val same_sign : float -> float -> bool
+
+``same_sign x y`` returns ``true`` if ``x`` and ``y`` have the same sign,
+otherwise it returns ``false``. Positive and negative zeros are special cases
+and always returns ``true``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L88>`__
 
 
 

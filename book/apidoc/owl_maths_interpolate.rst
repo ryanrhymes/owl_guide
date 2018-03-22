@@ -3,11 +3,11 @@ Maths_interpolate
 
 This document is auto-generated for Owl's APIs.
 #1 entries have been extracted.
-timestamp: 2018-03-22 12:20:12
+timestamp: 2018-03-22 23:03:10
 
 Github:
-`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_interpolate.mli>`_ 
-`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_interpolate.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_interpolate.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_interpolate.ml>`_
 
 
 
@@ -29,7 +29,7 @@ Parameters:
 Returns:
   * ``(y, dy)`` wherein ``y`` is the returned value ``y = P(x)``, and ``dy`` is the estimated error.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_interpolate.ml#L9>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_interpolate.ml#L9>`__
 
 
 

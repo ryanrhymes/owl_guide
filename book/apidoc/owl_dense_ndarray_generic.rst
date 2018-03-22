@@ -2,8 +2,8 @@ Dense.Ndarray.Generic
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#419 entries have been extracted.
-timestamp: 2018-03-22 12:20:12
+#420 entries have been extracted.
+timestamp: 2018-03-22 23:03:10
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -3093,11 +3093,29 @@ Tensor Calculus
 
 .. code-block:: ocaml
 
-  val contract_one : (int * int) array -> ('a, 'b) t -> ('a, 'b) t
+  val contract1 : (int * int) array -> ('a, 'b) t -> ('a, 'b) t
 
-TODO
+``contract1 index_pairs x`` performs indices contraction (a.k.a tensor
+contraction) on ``x``. ``index_pairs`` is an array of contracted indices.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3586>`__
+Caveat: Not well tested yet, use with care!
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3560>`__
+
+
+
+.. code-block:: ocaml
+
+  val contract2 : (int * int) array -> ('a, 'b) t -> ('a, 'b) t -> ('a, 'b) t
+
+``contract2 index_pairs x y`` performs indices contraction (a.k.a tensor
+contraction) on two ndarrays ``x`` and ``y``. ``index_pairs`` is an array of
+contracted indices, the first element is the index of ``x``, the second is that
+of ``y``.
+
+Caveat: Not well tested yet, use with care!
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3600>`__
 
 
 

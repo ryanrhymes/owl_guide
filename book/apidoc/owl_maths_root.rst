@@ -3,11 +3,11 @@ Maths_root
 
 This document is auto-generated for Owl's APIs.
 #11 entries have been extracted.
-timestamp: 2018-03-22 12:20:12
+timestamp: 2018-03-22 23:03:10
 
 Github:
-`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_root.mli>`_ 
-`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_root.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_root.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_root.ml>`_
 
 
 
@@ -49,7 +49,7 @@ Parameters:
   * ``a``: boundary of bracket.
   * ``b``: boundary of bracket.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L225>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_root.ml#L225>`__
 
 
 
@@ -72,7 +72,7 @@ Parameters:
   * ``a``: boundary of bracket.
   * ``b``: boundary of bracket.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L20>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_root.ml#L20>`__
 
 
 
@@ -90,7 +90,7 @@ Parameters:
   * ``a``: boundary of bracket.
   * ``b``: boundary of bracket.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L47>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_root.ml#L47>`__
 
 
 
@@ -108,7 +108,7 @@ Parameters:
   * ``a``: boundary of bracket.
   * ``b``: boundary of bracket.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L85>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_root.ml#L85>`__
 
 
 
@@ -128,7 +128,7 @@ Parameters:
 
 Refer to :cite:`brent2013algorithms`
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L134>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_root.ml#L134>`__
 
 
 
@@ -151,7 +151,7 @@ Parameters:
   * ``a``: initial boundary of bracket.
   * ``b``: initial boundary of bracket.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_root.ml#L233>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_root.ml#L233>`__
 
 
 

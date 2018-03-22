@@ -3,11 +3,11 @@ Maths_quadrature
 
 This document is auto-generated for Owl's APIs.
 #9 entries have been extracted.
-timestamp: 2018-03-22 12:20:12
+timestamp: 2018-03-22 23:03:10
 
 Github:
-`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_quadrature.mli>`_ 
-`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths_quadrature.ml>`_
+`{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_quadrature.mli>`_ 
+`{Implementation} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_quadrature.ml>`_
 
 
 
@@ -33,7 +33,7 @@ Parameters:
 Returns:
   * ``y``: the integral of ``f`` on ``[a, b]``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L30>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_quadrature.ml#L30>`__
 
 
 
@@ -54,7 +54,7 @@ Parameters:
 Returns:
   * ``y``: the integral of ``f`` on ``[a, b]``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L49>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_quadrature.ml#L49>`__
 
 
 
@@ -76,7 +76,7 @@ Parameters:
 Returns:
   * ``y``: the integral of ``f`` on ``[a, b]``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L72>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_quadrature.ml#L72>`__
 
 
 
@@ -97,7 +97,7 @@ Parameters:
 Returns:
   * ``y``: the integral of ``f`` on ``[a, b]``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L146>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_quadrature.ml#L146>`__
 
 
 
@@ -118,7 +118,7 @@ Parameters:
 Returns:
   * ``y``: the integral of ``f`` on ``[a, b]``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L162>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_quadrature.ml#L162>`__
 
 
 
@@ -144,7 +144,7 @@ Parameters:
 Returns:
   * ``y``: the integral of ``f`` on ``[a, b]``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L9>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_quadrature.ml#L9>`__
 
 
 
@@ -156,7 +156,7 @@ Given the lower and upper limits of integration ``a`` and ``b``, and order
 ``n``, the function computes the abscissas and weights of the Gauss-Legendre
 n-point quadrature formula.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths_quadrature.ml#L97>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_quadrature.ml#L97>`__
 
 
 
