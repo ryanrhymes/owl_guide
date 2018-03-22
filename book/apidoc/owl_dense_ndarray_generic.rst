@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #419 entries have been extracted.
-timestamp: 2018-03-21 23:32:03
+timestamp: 2018-03-22 12:14:36
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -3097,7 +3097,7 @@ Tensor Calculus
 
 TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3559>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3586>`__
 
 
 
@@ -3205,7 +3205,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv1d : ?padding:padding -> (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t
+  val conv1d : ?padding:padding -> ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t
 
 []
 
@@ -3215,7 +3215,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv2d : ?padding:padding -> (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t
+  val conv2d : ?padding:padding -> ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t
 
 []
 
@@ -3225,7 +3225,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv3d : ?padding:padding -> (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t
+  val conv3d : ?padding:padding -> ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t
 
 []
 
@@ -3235,7 +3235,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val max_pool1d : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
+  val max_pool1d : ?padding:padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t
 
 []
 
@@ -3245,7 +3245,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val max_pool2d : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
+  val max_pool2d : ?padding:padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t
 
 []
 
@@ -3255,7 +3255,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val max_pool3d : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
+  val max_pool3d : ?padding:padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t
 
 []
 
@@ -3265,7 +3265,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val avg_pool1d : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
+  val avg_pool1d : ?padding:padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t
 
 []
 
@@ -3275,7 +3275,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val avg_pool2d : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
+  val avg_pool2d : ?padding:padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t
 
 []
 
@@ -3285,7 +3285,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val avg_pool3d : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t
+  val avg_pool3d : ?padding:padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t
 
 []
 
@@ -3295,7 +3295,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val max_pool2d_argmax : ?padding:padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t * (int64, int64_elt) t
+  val max_pool2d_argmax : ?padding:padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t * (int64, int64_elt) t
 
 []
 
@@ -3305,7 +3305,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv1d_backward_input : (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t -> (float, 'a) t
+  val conv1d_backward_input : ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3315,7 +3315,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv1d_backward_kernel : (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t -> (float, 'a) t
+  val conv1d_backward_kernel : ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3325,7 +3325,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv2d_backward_input : (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t -> (float, 'a) t
+  val conv2d_backward_input : ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3335,7 +3335,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv2d_backward_kernel : (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t -> (float, 'a) t
+  val conv2d_backward_kernel : ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3345,7 +3345,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv3d_backward_input : (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t -> (float, 'a) t
+  val conv3d_backward_input : ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3355,7 +3355,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val conv3d_backward_kernel : (float, 'a) t -> (float, 'a) t -> int array -> (float, 'a) t -> (float, 'a) t
+  val conv3d_backward_kernel : ('a, 'b) t -> ('a, 'b) t -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3365,7 +3365,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val max_pool1d_backward : padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t -> (float, 'a) t
+  val max_pool1d_backward : padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3375,7 +3375,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val max_pool2d_backward : padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t -> (float, 'a) t
+  val max_pool2d_backward : padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3385,7 +3385,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val max_pool3d_backward : padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t -> (float, 'a) t
+  val max_pool3d_backward : padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3395,7 +3395,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val avg_pool1d_backward : padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t -> (float, 'a) t
+  val avg_pool1d_backward : padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3405,7 +3405,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val avg_pool2d_backward : padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t -> (float, 'a) t
+  val avg_pool2d_backward : padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 
@@ -3415,7 +3415,7 @@ Neural network related
 
 .. code-block:: ocaml
 
-  val avg_pool3d_backward : padding -> (float, 'a) t -> int array -> int array -> (float, 'a) t -> (float, 'a) t
+  val avg_pool3d_backward : padding -> ('a, 'b) t -> int array -> int array -> ('a, 'b) t -> ('a, 'b) t
 
 []
 

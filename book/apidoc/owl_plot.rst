@@ -3,7 +3,7 @@ Plot
 
 This document is auto-generated for Owl's APIs.
 #63 entries have been extracted.
-timestamp: 2018-03-21 23:32:05
+timestamp: 2018-03-22 12:14:39
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/misc/owl_plot.mli>`_ 
@@ -546,7 +546,7 @@ Plot 3D figures
 
   val plot3d : ?h:handle -> ?spec:spec list -> dsmat -> dsmat -> dsmat -> unit
 
-Note ``plot3d`` is just an alias of ``surf`` function.
+TODO: ``plot3d`` is just an alias of ``surf`` function.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/misc/owl_plot.ml#L1334>`__
 

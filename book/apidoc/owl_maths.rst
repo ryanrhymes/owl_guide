@@ -3,7 +3,7 @@ Maths
 
 This document is auto-generated for Owl's APIs.
 #148 entries have been extracted.
-timestamp: 2018-03-21 23:32:03
+timestamp: 2018-03-22 12:14:36
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -20,7 +20,7 @@ Basic functions
 
   val add : float -> float -> float
 
-``add x y``
+``add x y`` gives x + y.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L11>`__
 
@@ -30,7 +30,7 @@ Basic functions
 
   val sub : float -> float -> float
 
-``sub x y``
+``sub x y`` gives x - y.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L13>`__
 
@@ -40,7 +40,7 @@ Basic functions
 
   val mul : float -> float -> float
 
-``mul x y``
+``mul x y`` gives x * y.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L15>`__
 
@@ -50,7 +50,7 @@ Basic functions
 
   val div : float -> float -> float
 
-``div x y``
+``div x y`` gives x / y.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L17>`__
 
@@ -60,7 +60,8 @@ Basic functions
 
   val atan2 : float -> float -> float
 
-``atan2 x y``
+``atan2 y x`` gives arctan(y/x), accounting for the sign of the arguments;
+    this is the angle to the vector (x, y) counting from the x-axis.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L19>`__
 
@@ -70,7 +71,7 @@ Basic functions
 
   val abs : float -> float
 
-``abs x``
+``abs x`` gives |x|.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L22>`__
 
@@ -80,7 +81,7 @@ Basic functions
 
   val neg : float -> float
 
-``neg x``
+``neg x`` gives -x.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L24>`__
 
@@ -90,7 +91,7 @@ Basic functions
 
   val reci : float -> float
 
-``reci x``
+``reci x`` gives 1/x.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L26>`__
 
@@ -100,7 +101,7 @@ Basic functions
 
   val floor : float -> float
 
-``floor x``
+``floor x`` gives the largest integer <= x.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L41>`__
 
@@ -110,7 +111,7 @@ Basic functions
 
   val ceil : float -> float
 
-``ceil x``
+``ceil x`` gives the smallest integer >= x.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L43>`__
 
@@ -120,7 +121,7 @@ Basic functions
 
   val round : float -> float
 
-``round x``
+``round x`` rounds, towards the bigger integer when on the fence.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L47>`__
 
@@ -130,7 +131,7 @@ Basic functions
 
   val trunc : float -> float
 
-``trunc x``
+``trunc x`` integer part.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L52>`__
 
@@ -140,7 +141,7 @@ Basic functions
 
   val sqr : float -> float
 
-``sqr x``
+``sqr x`` square.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L54>`__
 
@@ -150,7 +151,7 @@ Basic functions
 
   val sqrt : float -> float
 
-``sqrt x``
+``sqrt x`` square root.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L56>`__
 
@@ -160,7 +161,7 @@ Basic functions
 
   val pow : float -> float -> float
 
-``pow x``
+``pow x y`` gives x^y.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L58>`__
 
@@ -170,7 +171,7 @@ Basic functions
 
   val exp : float -> float
 
-``exp x``
+``exp x`` exponential.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L60>`__
 
@@ -180,7 +181,7 @@ Basic functions
 
   val expm1 : float -> float
 
-``expm1``
+``expm1 x`` gives exp(x) - 1 but more accurate for x ~ 0.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L62>`__
 
@@ -190,7 +191,7 @@ Basic functions
 
   val log : float -> float
 
-``log x``
+``log x`` natural logarithm
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L64>`__
 
@@ -200,7 +201,8 @@ Basic functions
 
   val log1p : float -> float
 
-``log1p x``
+``log1p x`` gives log (x + 1) but more accurate for x ~ 0. Inverse of
+    ``expm1``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L66>`__
 
@@ -210,7 +212,7 @@ Basic functions
 
   val logabs : float -> float
 
-``logabs x``
+``logabs x`` gives log(abs(x)).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L74>`__
 
@@ -220,7 +222,7 @@ Basic functions
 
   val log2 : float -> float
 
-``log2 x``
+``log2 x`` gives the base-2 logarithm of x.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L68>`__
 
@@ -230,7 +232,7 @@ Basic functions
 
   val log10 : float -> float
 
-``log10 x``
+``log10 x`` gives the base-10 logarithm of x.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L70>`__
 
@@ -240,7 +242,7 @@ Basic functions
 
   val logn : float -> float -> float
 
-``logn x``
+``logn x`` gives the base-n logarithm of x.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L72>`__
 
@@ -250,7 +252,7 @@ Basic functions
 
   val sigmoid : float -> float
 
-``sigmod x``
+``sigmoid x`` gives the logistic sigmoid function 1 / (1 + exp(-x)).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L76>`__
 
@@ -260,7 +262,7 @@ Basic functions
 
   val signum : float -> float
 
-``signum x``
+``signum x`` gives the sign of x: -1, 0 or 1.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L28>`__
 
@@ -270,7 +272,7 @@ Basic functions
 
   val softsign : float -> float
 
-``softsign x``
+``softsign x`` smoothed sign function.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L35>`__
 
@@ -280,7 +282,7 @@ Basic functions
 
   val softplus : float -> float
 
-``softplus x``
+``softplus x`` gives log(1+exp(x)).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L37>`__
 
@@ -290,7 +292,7 @@ Basic functions
 
   val relu : float -> float
 
-``relu x``
+``relu x`` gives max(0, x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L39>`__
 
@@ -300,7 +302,7 @@ Basic functions
 
   val sin : float -> float
 
-``sin x``
+``sin x`` gives sin(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L78>`__
 
@@ -310,7 +312,7 @@ Basic functions
 
   val cos : float -> float
 
-``cos x``
+``cos x`` gives cos(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L80>`__
 
@@ -320,7 +322,7 @@ Basic functions
 
   val tan : float -> float
 
-``tan x``
+``tan x`` gives tan(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L82>`__
 
@@ -330,7 +332,7 @@ Basic functions
 
   val cot : float -> float
 
-``cot x``
+``cot x`` gives 1/tan(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L84>`__
 
@@ -340,7 +342,7 @@ Basic functions
 
   val sec : float -> float
 
-``sec x``
+``sec x`` gives 1/cos(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L86>`__
 
@@ -350,7 +352,7 @@ Basic functions
 
   val csc : float -> float
 
-``csc x``
+``csc x`` gives 1/sin(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L88>`__
 
@@ -360,7 +362,7 @@ Basic functions
 
   val asin : float -> float
 
-``asin x``
+``asin x`` gives arcsin(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L90>`__
 
@@ -370,7 +372,7 @@ Basic functions
 
   val acos : float -> float
 
-``acos x``
+``acos x`` gives arccos(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L92>`__
 
@@ -380,7 +382,7 @@ Basic functions
 
   val atan : float -> float
 
-``atan x``
+``atan x`` gives arctan(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L94>`__
 
@@ -390,7 +392,7 @@ Basic functions
 
   val acot : float -> float
 
-``acot x``
+``acot x`` gives arccotan(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L96>`__
 
@@ -400,7 +402,7 @@ Basic functions
 
   val asec : float -> float
 
-``asec x``
+``asec x`` gives arcsec(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L98>`__
 
@@ -410,7 +412,7 @@ Basic functions
 
   val acsc : float -> float
 
-``acsc x``
+``acsc x`` gives arccosec(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L100>`__
 
@@ -420,7 +422,7 @@ Basic functions
 
   val sinh : float -> float
 
-``sinh x``
+``sinh x`` gives sinh(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L104>`__
 
@@ -430,7 +432,7 @@ Basic functions
 
   val cosh : float -> float
 
-``cosh x``
+``cosh x`` gives cosh(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L106>`__
 
@@ -440,7 +442,7 @@ Basic functions
 
   val tanh : float -> float
 
-``tanh x``
+``tanh x`` gives tanh(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L108>`__
 
@@ -450,7 +452,7 @@ Basic functions
 
   val coth : float -> float
 
-``coth x``
+``coth x`` gives coth(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L110>`__
 
@@ -460,7 +462,7 @@ Basic functions
 
   val sech : float -> float
 
-``sech x``
+``sech x`` gives sech(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L112>`__
 
@@ -470,7 +472,7 @@ Basic functions
 
   val csch : float -> float
 
-``csch x``
+``csch x`` gives cosech(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L114>`__
 
@@ -480,7 +482,7 @@ Basic functions
 
   val asinh : float -> float
 
-``asinh x``
+``asinh x`` gives arcsinh(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L116>`__
 
@@ -490,7 +492,7 @@ Basic functions
 
   val acosh : float -> float
 
-``acosh x``
+``acosh x`` gives arccosh(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L118>`__
 
@@ -500,7 +502,7 @@ Basic functions
 
   val atanh : float -> float
 
-``atanh x``
+``atanh x`` gives arctanh(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L120>`__
 
@@ -510,7 +512,7 @@ Basic functions
 
   val acoth : float -> float
 
-``acoth x``
+``acoth x`` gives arccoth(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L122>`__
 
@@ -520,7 +522,7 @@ Basic functions
 
   val asech : float -> float
 
-``asech x``
+``asech x`` gives arcsech(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L124>`__
 
@@ -530,7 +532,7 @@ Basic functions
 
   val acsch : float -> float
 
-``acsch x``
+``acsch x`` gives arccosech(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L126>`__
 
@@ -540,7 +542,7 @@ Basic functions
 
   val sinc : float -> float
 
-``sinc x``
+``sinc x`` gives sin(x)/x and 1 for x=0.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L102>`__
 
@@ -550,7 +552,7 @@ Basic functions
 
   val logsinh : float -> float
 
-``logsinh x``
+``logsinh x`` gives log(sinh(x)) but handles large |x|.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L128>`__
 
@@ -560,7 +562,7 @@ Basic functions
 
   val logcosh : float -> float
 
-``logcosh x``
+``logcosh x`` gives log(cosh(x)) but handles large |x|.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L130>`__
 
@@ -570,7 +572,7 @@ Basic functions
 
   val sindg : float -> float
 
-Sine of angle given in degrees
+Sine of angle given in degrees.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L132>`__
 
@@ -620,7 +622,7 @@ Calculate the length of the hypotenuse.
 
   val xlogy : float -> float -> float
 
-``xlogy(x, y) = x*log(y)``
+``xlogy(x, y)`` gives x*log(y).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L142>`__
 
@@ -630,7 +632,7 @@ Calculate the length of the hypotenuse.
 
   val xlog1py : float -> float -> float
 
-``xlog1py(x, y) = x*log1p(y)``
+``xlog1py(x, y)``gives x*log(y+1).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L144>`__
 
@@ -640,7 +642,7 @@ Calculate the length of the hypotenuse.
 
   val logit : float -> float
 
-``logit(x) = log(p/(1-p))``
+``logit(x)`` gives log(p/(1-p)).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L146>`__
 
@@ -650,7 +652,7 @@ Calculate the length of the hypotenuse.
 
   val expit : float -> float
 
-``expit(x) = 1/(1+exp(-x))``
+``expit(x)`` gives 1/(1+exp(-x)).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L148>`__
 
@@ -963,7 +965,7 @@ Incomplete gamma function.
 
   val gammaincinv : float -> float -> float
 
-Inverse function of ``gammainc``
+Inverse function of ``gammainc``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L239>`__
 
@@ -973,7 +975,7 @@ Inverse function of ``gammainc``
 
   val gammaincc : float -> float -> float
 
-Complemented incomplete gamma integral
+Complemented incomplete gamma integral.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L241>`__
 
@@ -983,7 +985,7 @@ Complemented incomplete gamma integral
 
   val gammainccinv : float -> float -> float
 
-Inverse function of ``gammaincc``
+Inverse function of ``gammaincc``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L243>`__
 
@@ -1066,7 +1068,7 @@ Logarithm of factorial function ``log_fact n`` calculates ``log n!``.
 
   val doublefact : int -> float
 
-Double factorial function ``doublefact n`` calculates ... TODO
+Double factorial function ``doublefact n`` calculates n!! = n(n-2)(n-4)...
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L255>`__
 
@@ -1076,7 +1078,8 @@ Double factorial function ``doublefact n`` calculates ... TODO
 
   val log_doublefact : int -> float
 
-Logarithm of double factorial function ``log_doublefact n`` calculates ... TODO
+Logarithm of double factorial function. ``log_doublefact n`` calculates
+    log(n!!)
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L259>`__
 
@@ -1086,7 +1089,8 @@ Logarithm of double factorial function ``log_doublefact n`` calculates ... TODO
 
   val permutation : int -> int -> int
 
-``permutation n k`` return the number of permutations of n things taken k at a time.
+``permutation n k`` gives the number n!/(n-k)! of ordered subsets of length k, taken
+    from a set of n elements.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L286>`__
 
@@ -1096,8 +1100,7 @@ Logarithm of double factorial function ``log_doublefact n`` calculates ... TODO
 
   val permutation_float : int -> int -> float
 
-``permutation_float n k`` return the number of permutations of n things taken
-k at a time. This function can deal with larger range than ``permutation``.
+``permutation_float`` is like ``permutation`` but deal with larger range.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L279>`__
 
@@ -1107,7 +1110,8 @@ k at a time. This function can deal with larger range than ``permutation``.
 
   val combination : int -> int -> int
 
-``combination n k`` return the combination number of taking ``k`` out of ``n``.
+``combination n k`` gives the number n!/(k!(n-k)!) of subsets of k elements
+    of a set of n elements. This is the binomial coefficient 'n choose k'
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L275>`__
 
@@ -1117,8 +1121,7 @@ k at a time. This function can deal with larger range than ``permutation``.
 
   val combination_float : int -> int -> float
 
-``combination_float n k`` return the combination number of taking ``k`` out of
-``n``. This function can deal with larger range than ``combination``.
+``combination_float`` is like ``combination`` but can deal with a larger range.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L273>`__
 
@@ -1128,7 +1131,7 @@ k at a time. This function can deal with larger range than ``permutation``.
 
   val log_combination : int -> int -> float
 
-``log_combination n k`` return the logarithm of combination number of taking ``k`` out of ``n``.
+``log_combination n k`` gives the logarithm of 'n choose k'.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L277>`__
 
@@ -1143,7 +1146,7 @@ Error functions
 
   val erf : float -> float
 
-Error function.
+Error function. :math:`\int_{-\infty}^x \frac{1}{\sqrt(2\pi)} exp(-1/2 y^2) dy`
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L288>`__
 
@@ -1153,7 +1156,7 @@ Error function.
 
   val erfc : float -> float
 
-Complementary error function, ``1 - erf(x)``
+Complementary error function, 1 - erf(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L290>`__
 
@@ -1163,7 +1166,7 @@ Complementary error function, ``1 - erf(x)``
 
   val erfcx : float -> float
 
-Scaled complementary error function, ``exp(x**2) * erfc(x)``.
+Scaled complementary error function, exp(x^2) * erfc(x).
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L292>`__
 
@@ -1173,7 +1176,7 @@ Scaled complementary error function, ``exp(x**2) * erfc(x)``.
 
   val erfinv : float -> float
 
-Inverse of ``erf x``.
+Inverse of erf.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L294>`__
 
@@ -1183,7 +1186,7 @@ Inverse of ``erf x``.
 
   val erfcinv : float -> float
 
-Inverse of ``erfc x``
+Inverse of erfc.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L296>`__
 
@@ -1208,7 +1211,7 @@ Dawson’s integral.
 
   val fresnel : float -> float * float
 
-Fresnel sin and cos integrals, ``fresnel x`` returns a tuple consisting of
+Fresnel sin and cos integrals. ``fresnel x`` returns a tuple consisting of
 ``(Fresnel sin integral, Fresnel cos integral)``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L300>`__
@@ -1224,7 +1227,7 @@ Struve functions
 
   val struve : float -> float -> float
 
-Struve function ``struve v x`` returns the value of the Struve function of
+``struve v x`` returns the value of the Struve function of
 order ``v`` at ``x``. The Struve function is defined as,
 
 .. math::
@@ -1235,9 +1238,6 @@ where :math:`\Gamma` is the gamma function.
 Parameters:
   * ``v``: order of the Struve function (float).
   * ``x``: Argument of the Struve function (float; must be positive unless v is an integer).
-
-Returns:
-  * Value of the Struve function of order ``v`` at ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L306>`__
 
@@ -1272,7 +1272,7 @@ Hyperbolic sine and cosine integrals, ``shichi x`` returns ``(shi, chi)``.
 
   val shi : float -> float
 
-Hyperbolic sine integrals.
+Hyperbolic sine integral.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L217>`__
 
@@ -1282,7 +1282,7 @@ Hyperbolic sine integrals.
 
   val chi : float -> float
 
-Hyperbolic cosine integrals.
+Hyperbolic cosine integral.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L219>`__
 
@@ -1314,7 +1314,8 @@ Cosine integral.
 
   val zeta : float -> float -> float
 
-Riemann or Hurwitz zeta function ``zeta x q``.
+``zeta x q`` gives the Hurwitz zeta function :math:`\zeta(x, q)`, which
+    reduces to the Riemann zeta function :math:`\zeta(x)` when q=1.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L269>`__
 
@@ -1492,7 +1493,8 @@ and always returns ``true``.
   val nextafter : float -> float -> float
 
 ``nextafter from to`` returns the next representable double precision value
-of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
+of ``from`` in the direction of ``to``. If ``from`` equals ``to``, this value
+   is returned.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L314>`__
 
@@ -1503,7 +1505,8 @@ of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is retu
   val nextafterf : float -> float -> float
 
 ``nextafter from to`` returns the next representable single precision value
-of ``from`` in the direction of ``to``. If from equals to ``to``, ``to`` is returned.
+of ``from`` in the direction of ``to``. If ``from`` equals ``to``, this value
+   is returned.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L316>`__
 
