@@ -27,6 +27,7 @@ Owl's Tutorial Book
    plot
    zoo
    sparse
+   javascript
    metric
    test
    nlp
