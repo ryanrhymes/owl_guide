@@ -2,8 +2,8 @@ Base.Complex
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#60 entries have been extracted.
-timestamp: 2018-03-24 02:19:45
+#62 entries have been extracted.
+timestamp: 2018-03-24 02:32:29
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_complex.mli>`_ 
@@ -362,6 +362,16 @@ TODO
 
 
 
+.. code-block:: ocaml
+
+  val phase : t -> float
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L275>`__
+
+
+
 Binary functions
 -------------------------------------------------------------------------------
 
@@ -490,11 +500,21 @@ Helper functions
 
 .. code-block:: ocaml
 
+  val complex : float -> float -> t
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L289>`__
+
+
+
+.. code-block:: ocaml
+
   val of_tuple : float * float -> t
 
 TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L277>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L292>`__
 
 
 
@@ -504,7 +524,7 @@ TODO
 
 TODO
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L282>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L297>`__
 
 
 
@@ -514,7 +534,7 @@ TODO
 
 ``is_nan x`` returns ``true`` if ``x.re`` is ``nan`` or ``x.im`` is ``nan``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L285>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L300>`__
 
 
 
@@ -524,7 +544,7 @@ TODO
 
 ``is_inf x`` returns ``true`` if either ``x.re`` or ``x.im`` is ``infinity`` or ``neg_infinity``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L288>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L303>`__
 
 
 
