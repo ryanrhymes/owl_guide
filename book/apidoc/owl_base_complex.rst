@@ -2,8 +2,8 @@ Base.Complex
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#55 entries have been extracted.
-timestamp: 2018-03-24 01:52:07
+#60 entries have been extracted.
+timestamp: 2018-03-24 02:19:45
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_complex.mli>`_ 
@@ -482,4 +482,49 @@ TODO
   val pow : t -> t -> t
 
 TODO
+
+Helper functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val of_tuple : float * float -> t
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L277>`__
+
+
+
+.. code-block:: ocaml
+
+  val to_tuple : t -> float * float
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L282>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_nan : t -> bool
+
+``is_nan x`` returns ``true`` if ``x.re`` is ``nan`` or ``x.im`` is ``nan``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L285>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_inf : t -> bool
+
+``is_inf x`` returns ``true`` if either ``x.re`` or ``x.im`` is ``infinity`` or ``neg_infinity``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L288>`__
+
+
 

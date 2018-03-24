@@ -2,8 +2,8 @@ Maths
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#148 entries have been extracted.
-timestamp: 2018-03-24 01:52:03
+#150 entries have been extracted.
+timestamp: 2018-03-24 02:19:40
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/maths/owl_maths.mli>`_ 
@@ -1356,7 +1356,7 @@ Parameters:
 Returns:
   * Probability of k or fewer successes in n independent events with success probabilities of p.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L315>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L319>`__
 
 
 
@@ -1372,7 +1372,7 @@ probability density,
 .. math::
   \mathrm{bdtrc}(k, n, p) = \sum_{j=k+1}^n {{n}\choose{j}} p^j (1-p)^{n-j}
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L317>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L321>`__
 
 
 
@@ -1385,7 +1385,7 @@ Inverse function to ``bdtr`` with respect to ``p``.
 Finds the event probability ``p`` such that the sum of the terms 0 through k of
 the binomial probability density is equal to the given cumulative probability y.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L319>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L323>`__
 
 
 
@@ -1411,7 +1411,7 @@ Parameters:
 Returns:
   * Cumulative density function of the beta distribution with ``a`` and ``b`` at ``x``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L321>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L325>`__
 
 
 
@@ -1437,7 +1437,7 @@ Parameters:
 Returns:
   * The quantile corresponding to ``p``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L323>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L327>`__
 
 
 
@@ -1448,11 +1448,31 @@ Helper functions
 
 .. code-block:: ocaml
 
+  val is_nan : float -> bool
+
+``is_nan x`` returns ``true`` if ``x`` is ``nan``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L305>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_inf : float -> bool
+
+``is_inf x`` returns ``true`` if ``x`` is ``infinity`` or ``neg_infinity``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L307>`__
+
+
+
+.. code-block:: ocaml
+
   val is_odd : int -> bool
 
 ``is_odd x`` returns ``true`` if ``x`` is odd.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L305>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L309>`__
 
 
 
@@ -1462,7 +1482,7 @@ Helper functions
 
 ``is_even x`` returns ``true`` if ``x`` is even.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L307>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L311>`__
 
 
 
@@ -1472,7 +1492,7 @@ Helper functions
 
 ``is_pow2 x`` return ``true`` if ``x`` is integer power of 2, e.g. 32, 64, etc.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L309>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L313>`__
 
 
 
@@ -1496,7 +1516,7 @@ and always returns ``true``.
 of ``from`` in the direction of ``to``. If ``from`` equals ``to``, this value
 is returned.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L311>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L315>`__
 
 
 
@@ -1508,7 +1528,7 @@ is returned.
 of ``from`` in the direction of ``to``. If ``from`` equals ``to``, this value
 is returned.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L313>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/maths/owl_maths.ml#L317>`__
 
 
 

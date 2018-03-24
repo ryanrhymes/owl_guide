@@ -2,8 +2,8 @@ Base.Maths
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#39 entries have been extracted.
-timestamp: 2018-03-24 01:52:07
+#41 entries have been extracted.
+timestamp: 2018-03-24 02:19:45
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_maths.mli>`_ 
@@ -353,11 +353,31 @@ Helper functions
 
 .. code-block:: ocaml
 
+  val is_nan : float -> bool
+
+``is_nan x`` returns ``true`` if ``x`` is ``nan``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L86>`__
+
+
+
+.. code-block:: ocaml
+
+  val is_inf : float -> bool
+
+``is_inf x`` returns ``true`` if ``x`` is ``infinity`` or ``neg_infinity``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L88>`__
+
+
+
+.. code-block:: ocaml
+
   val is_odd : int -> bool
 
 ``is_odd x`` returns ``true`` if ``x`` is odd.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L86>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L90>`__
 
 
 
@@ -367,7 +387,7 @@ Helper functions
 
 ``is_even x`` returns ``true`` if ``x`` is even.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L88>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L92>`__
 
 
 
@@ -377,7 +397,7 @@ Helper functions
 
 ``is_pow2 x`` return ``true`` if ``x`` is integer power of 2, e.g. 32, 64, etc.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L90>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L94>`__
 
 
 
@@ -389,7 +409,7 @@ Helper functions
 otherwise it returns ``false``. Positive and negative zeros are special cases
 and always returns ``true``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L92>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_maths.ml#L96>`__
 
 
 

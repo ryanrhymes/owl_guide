@@ -3,7 +3,7 @@ Linalg.Generic
 
 This document is auto-generated for Owl's APIs.
 #66 entries have been extracted.
-timestamp: 2018-03-24 01:52:04
+timestamp: 2018-03-24 02:19:42
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/linalg/owl_linalg_generic.mli>`_ 
