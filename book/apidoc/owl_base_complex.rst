@@ -2,8 +2,8 @@ Base.Complex
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#62 entries have been extracted.
-timestamp: 2018-03-24 02:32:29
+#70 entries have been extracted.
+timestamp: 2018-03-24 14:53:03
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_base_complex.mli>`_ 
@@ -101,12 +101,6 @@ TODO
 .. code-block:: ocaml
 
   val sqrt : t -> t
-
-TODO
-
-.. code-block:: ocaml
-
-  val arg : t -> float
 
 TODO
 
@@ -364,9 +358,15 @@ TODO
 
 .. code-block:: ocaml
 
+  val arg : t -> float
+
+``arg x`` returns the angle of a complex number ``x``.
+
+.. code-block:: ocaml
+
   val phase : t -> float
 
-TODO
+``phase x`` returns the phase of a complex number ``x``.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L275>`__
 
@@ -483,15 +483,90 @@ TODO
 
 .. code-block:: ocaml
 
+  val pow : t -> t -> t
+
+TODO
+
+.. code-block:: ocaml
+
   val polar : float -> float -> t
 
 TODO
 
 .. code-block:: ocaml
 
-  val pow : t -> t -> t
+  val rect : float -> float -> t
+
+``rect r phi`` return a complex number with polar coordinates ``r`` and ``phi``.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L278>`__
+
+
+
+Comparison functions
+-------------------------------------------------------------------------------
+
+
+
+.. code-block:: ocaml
+
+  val equal : t -> t -> bool
 
 TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L286>`__
+
+
+
+.. code-block:: ocaml
+
+  val not_equal : t -> t -> bool
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L289>`__
+
+
+
+.. code-block:: ocaml
+
+  val less : t -> t -> bool
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L292>`__
+
+
+
+.. code-block:: ocaml
+
+  val greater : t -> t -> bool
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L300>`__
+
+
+
+.. code-block:: ocaml
+
+  val less_equal : t -> t -> bool
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L308>`__
+
+
+
+.. code-block:: ocaml
+
+  val greater_equal : t -> t -> bool
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L311>`__
+
+
 
 Helper functions
 -------------------------------------------------------------------------------
@@ -502,9 +577,9 @@ Helper functions
 
   val complex : float -> float -> t
 
-TODO
+``complex re im`` returns a complex number ``{re; im}``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L289>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L316>`__
 
 
 
@@ -512,9 +587,9 @@ TODO
 
   val of_tuple : float * float -> t
 
-TODO
+``of_tuple (re, im)`` returns a complex number ``{re; im}``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L292>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L319>`__
 
 
 
@@ -522,9 +597,9 @@ TODO
 
   val to_tuple : t -> float * float
 
-TODO
+``to_tuple x`` converts a complex number to tuple ``(x.re; x.im)``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L297>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L324>`__
 
 
 
@@ -534,7 +609,7 @@ TODO
 
 ``is_nan x`` returns ``true`` if ``x.re`` is ``nan`` or ``x.im`` is ``nan``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L300>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L327>`__
 
 
 
@@ -544,7 +619,7 @@ TODO
 
 ``is_inf x`` returns ``true`` if either ``x.re`` or ``x.im`` is ``infinity`` or ``neg_infinity``.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L303>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_base_complex.ml#L330>`__
 
 
 

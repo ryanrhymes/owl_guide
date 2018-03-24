@@ -3,7 +3,7 @@ Maths_quadrature
 
 This document is auto-generated for Owl's APIs.
 #9 entries have been extracted.
-timestamp: 2018-03-24 02:32:25
+timestamp: 2018-03-24 14:53:00
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_quadrature.mli>`_ 
