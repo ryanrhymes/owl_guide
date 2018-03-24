@@ -3,7 +3,7 @@ OpenCL Context
 
 This document is auto-generated for Owl's APIs.
 #23 entries have been extracted.
-timestamp: 2018-03-22 23:04:22
+timestamp: 2018-03-24 01:52:06
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/opencl/owl_opencl_context.mli>`_ 

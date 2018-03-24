@@ -3,7 +3,7 @@ Dense.Ndarray.Generic
 
 This document is auto-generated for Owl's APIs.
 #420 entries have been extracted.
-timestamp: 2018-03-22 23:04:20
+timestamp: 2018-03-24 01:52:03
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/dense/owl_dense_ndarray_generic.mli>`_ 
@@ -3098,7 +3098,8 @@ Tensor Calculus
 ``contract1 index_pairs x`` performs indices contraction (a.k.a tensor
 contraction) on ``x``. ``index_pairs`` is an array of contracted indices.
 
-Caveat: Not well tested yet, use with care!
+Caveat: Not well tested yet, use with care! Also, consider to use TTGT in
+future for better perfomance.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3560>`__
 
@@ -3113,7 +3114,8 @@ contraction) on two ndarrays ``x`` and ``y``. ``index_pairs`` is an array of
 contracted indices, the first element is the index of ``x``, the second is that
 of ``y``.
 
-Caveat: Not well tested yet, use with care!
+Caveat: Not well tested yet, use with care! Also, consider to use TTGT in
+future for better perfomance.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/owl/dense/owl_dense_ndarray_generic.ml#L3600>`__
 

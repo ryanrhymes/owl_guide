@@ -3,7 +3,7 @@ Base.Stats
 
 This document is auto-generated for Owl's APIs.
 #4 entries have been extracted.
-timestamp: 2018-03-22 23:04:22
+timestamp: 2018-03-24 01:52:07
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/stats/owl_base_stats.mli>`_ 
@@ -22,7 +22,7 @@ Random variables
 
 ``uniform a b`` returns a continuous RV uniformly distributed within [``a``, ``b``].
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L5>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L9>`__
 
 
 
@@ -32,7 +32,7 @@ Random variables
 
 ``bernoulli p`` returns a continuous RV equal to ``1.`` with probability ``p``, ``0.`` otherwise
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L8>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L12>`__
 
 
 
@@ -42,7 +42,7 @@ Random variables
 
 ``gaussian mu sigma`` returns a continous RV normally distributed with mean ``mu`` and stddev ``sigma``
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L21>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L25>`__
 
 
 
