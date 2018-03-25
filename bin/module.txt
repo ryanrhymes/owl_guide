@@ -30,7 +30,6 @@ opencl/owl_opencl_generated.mli | opencl/owl_opencl_generated.ml | Low-level Ope
 opencl/owl_opencl_base.mli | opencl/owl_opencl_base.ml | High-level OpenCL API
 opencl/owl_opencl_context.mli | opencl/owl_opencl_context.ml | OpenCL Context
 opencl/owl_opencl_dense_ndarray.mli | opencl/owl_opencl_dense_ndarray.ml | OpenCL Dense Ndarray
-base/misc/owl_utils_stack.mli | base/misc/owl_utils_stack.ml | Utils.Stack
 zoo/owl_zoo_cmd.mli | zoo/owl_zoo_cmd.ml | Zoo System
 top/owl_top.mli | top/owl_top.ml | Toplevel
 base/dense/owl_base_dense_ndarray_generic.mli | base/dense/owl_base_dense_ndarray_generic.ml | Base.Dense.Ndarray.Generic
@@ -38,6 +37,8 @@ base/maths/owl_base_maths.mli | base/maths/owl_base_maths.ml | Base.Maths
 base/stats/owl_base_stats.mli | base/stats/owl_base_stats.ml | Base.Stats
 base/maths/owl_base_complex.mli | base/maths/owl_base_complex.ml | Base.Complex
 base/core/owl_exception.mli | base/core/owl_exception.ml | Exception
+base/misc/owl_utils_stack.mli | base/misc/owl_utils_stack.ml | Utils.Stack
+base/misc/owl_utils_array.mli | base/misc/owl_utils_array.ml | Utils.Array
 owl/ppl/owl_distribution.mli | owl/ppl/owl_distribution.ml | Distribution Functor
 owl/nlp/owl_nlp_vocabulary.mli | owl/nlp/owl_nlp_vocabulary.ml | NLP.Vocabulary
 owl/nlp/owl_nlp_corpus.mli | owl/nlp/owl_nlp_corpus.ml | NLP.Corpus
