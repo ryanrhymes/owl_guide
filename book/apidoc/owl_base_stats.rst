@@ -2,8 +2,8 @@ Base.Stats
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#32 entries have been extracted.
-timestamp: 2018-03-25 18:44:35
+#34 entries have been extracted.
+timestamp: 2018-03-25 21:36:50
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/stats/owl_base_stats.mli>`_ 
@@ -22,7 +22,7 @@ Randomisation functions
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L26>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L32>`__
 
 
 
@@ -32,7 +32,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L39>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L45>`__
 
 
 
@@ -42,7 +42,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L59>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L65>`__
 
 
 
@@ -57,7 +57,7 @@ Basic statistical functions
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L73>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L79>`__
 
 
 
@@ -67,7 +67,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L76>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L82>`__
 
 
 
@@ -77,7 +77,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L87>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L93>`__
 
 
 
@@ -87,7 +87,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L101>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L107>`__
 
 
 
@@ -97,7 +97,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L104>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L110>`__
 
 
 
@@ -107,7 +107,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L110>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L116>`__
 
 
 
@@ -117,7 +117,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L123>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L129>`__
 
 
 
@@ -127,7 +127,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L140>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L146>`__
 
 
 
@@ -137,7 +137,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L158>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L164>`__
 
 
 
@@ -147,7 +147,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L166>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L172>`__
 
 
 
@@ -157,7 +157,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L184>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L190>`__
 
 
 
@@ -167,7 +167,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L197>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L203>`__
 
 
 
@@ -177,7 +177,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L210>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L216>`__
 
 
 
@@ -187,7 +187,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L288>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L294>`__
 
 
 
@@ -197,7 +197,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L291>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L297>`__
 
 
 
@@ -207,7 +207,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L294>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L300>`__
 
 
 
@@ -217,7 +217,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L282>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L288>`__
 
 
 
@@ -227,7 +227,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L285>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L291>`__
 
 
 
@@ -237,7 +237,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L263>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L269>`__
 
 
 
@@ -247,7 +247,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L217>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L223>`__
 
 
 
@@ -257,7 +257,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L228>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L234>`__
 
 
 
@@ -267,7 +267,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L243>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L249>`__
 
 
 
@@ -277,7 +277,7 @@ Refer to :doc:`owl_stats`.
 
 Refer to :doc:`owl_stats`.
 
-`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L304>`__
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L310>`__
 
 
 
@@ -288,7 +288,7 @@ Random variables
 
 .. code-block:: ocaml
 
-  val uniform_rvs : float -> float -> float
+  val uniform_rvs : a:float -> b:float -> float
 
 Refer to :doc:`owl_stats`.
 
@@ -298,7 +298,7 @@ Refer to :doc:`owl_stats`.
 
 .. code-block:: ocaml
 
-  val bernoulli_rvs : float -> float
+  val bernoulli_rvs : p:float -> float
 
 Refer to :doc:`owl_stats`.
 
@@ -308,11 +308,31 @@ Refer to :doc:`owl_stats`.
 
 .. code-block:: ocaml
 
-  val gaussian_rvs : float -> float -> float
+  val gaussian_rvs : mu:float -> sigma:float -> float
 
 Refer to :doc:`owl_stats`.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L21>`__
+
+
+
+.. code-block:: ocaml
+
+  val exponential_rvs : lambda:float -> float
+
+Refer to :doc:`owl_stats`.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L24>`__
+
+
+
+.. code-block:: ocaml
+
+  val cauchy_rvs : loc:float -> scale:float -> float
+
+Refer to :doc:`owl_stats`.
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/stats/owl_base_stats.ml#L27>`__
 
 
 
