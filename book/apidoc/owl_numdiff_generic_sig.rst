@@ -3,7 +3,7 @@ Numdiff.Generic Functor
 
 This document is auto-generated for Owl's APIs.
 #14 entries have been extracted.
-timestamp: 2018-03-27 19:12:28
+timestamp: 2018-03-30 14:31:14
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/optimise/owl_numdiff_generic_sig.ml>`_ 
