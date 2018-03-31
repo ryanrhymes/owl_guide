@@ -122,7 +122,7 @@ The key concept of subplot is: you need to successively call ``Plot.subplot`` to
   Plot.output h;;
 
 
-The code will generate the following plot. You can control the configuration of each individual subplot once you have "focused" on it by calling ``Plot.subplot``. Besides teh figure handle ``h``, ``Plot.subplot`` uses the two-dimensional index you pass in to locate the subplot.
+The code will generate the following plot. You can control the configuration of each individual subplot once you have "focused" on it by calling ``Plot.subplot``. Besides the figure handle ``h``, ``Plot.subplot`` uses the two-dimensional index you pass in to locate the subplot.
 
 .. figure:: ../figure/plot_004.png
    :width: 100%

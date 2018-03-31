@@ -3,7 +3,7 @@ Utils.Array
 
 This document is auto-generated for Owl's APIs.
 #52 entries have been extracted.
-timestamp: 2018-03-30 14:31:16
+timestamp: 2018-03-31 21:31:59
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/misc/owl_utils_array.mli>`_ 
