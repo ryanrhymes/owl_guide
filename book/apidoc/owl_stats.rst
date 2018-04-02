@@ -3,7 +3,7 @@ Stats
 
 This document is auto-generated for Owl's APIs.
 #232 entries have been extracted.
-timestamp: 2018-03-31 21:31:56
+timestamp: 2018-04-02 20:23:21
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/owl/stats/owl_stats.mli>`_ 
