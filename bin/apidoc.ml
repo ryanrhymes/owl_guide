@@ -27,7 +27,7 @@ let make_timestamp () =
 (** given a function type string, convert it to github line url *)
 let funloc_to_github_line fname fun_typ loc =
   let regstr = "^[ ]*val[ ]*(.+?)[\s]+" in
-  let regex = Re_pcre.regexp regstr in
+  let regex = Re.Pcre.regexp regstr in
   let l = Re.all regex fun_typ |> Array.of_list in
   if Array.length l = 0 then None
   else
@@ -58,7 +58,7 @@ let get_module_files fname =
 (* extract sections for source file *)
 let extract_sections s =
   let regstr = "\(\*\*[ ]*\{[ \d]*(.+?)\}[ ]*\*\)[ \n]*" in
-  let regex = Re_pcre.regexp ~flags:[`MULTILINE] regstr in
+  let regex = Re.Pcre.regexp ~flags:[`MULTILINE] regstr in
   let sec_head = Owl.Utils.Stack.make () in
   let sec_body = Owl.Utils.Stack.make () in
 
@@ -81,7 +81,7 @@ let extract_sections s =
 (* given a section, parse to retrieve api/type and save to a hashtbl *)
 let parse_one_section regstr s =
   let apidoc = Owl.Utils.Stack.make () in
-  let regex = Re_pcre.regexp ~flags:[`MULTILINE] regstr in
+  let regex = Re.Pcre.regexp ~flags:[`MULTILINE] regstr in
   Re.all regex s |> List.iter (fun mc ->
     let _fun_typ = Re.Group.get mc 1 in
     let _fun_doc = Re.Group.get mc 2 in
@@ -122,8 +122,8 @@ let parse_one_mli fname =
 let locate_functions src_root impl_file =
   let regs1 = "^[ ]*let[ ]*(.+?)[\s]+" in
   let regs2 = "^[ ]*let[ ]*(.+?)[\s]*$" in
-  let regex1 = Re_pcre.regexp regs1 in
-  let regex2 = Re_pcre.regexp regs2 in
+  let regex1 = Re.Pcre.regexp regs1 in
+  let regex2 = Re.Pcre.regexp regs2 in
   let impl = Hashtbl.create 512 in
   Array.iteri (fun i s ->
     Re.(all regex1 s) @ Re.(all regex2 s) |>
