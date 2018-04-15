@@ -14,4 +14,6 @@ all:
 install:
 	scp -r -i ~/.ssh/id_cam book/_build/html/* lw525@slogin.cl.cam.ac.uk:~/public_html/owl/
 clean:
+	rm -rf ./book/_build
+	rm -rf ./book/apidoc/*.rst
 	rm -rf *.html *.css
