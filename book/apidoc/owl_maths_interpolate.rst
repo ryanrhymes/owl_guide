@@ -2,8 +2,8 @@ Maths_interpolate
 ===============================================================================
 
 This document is auto-generated for Owl's APIs.
-#1 entries have been extracted.
-timestamp: 2018-04-02 20:23:21
+#2 entries have been extracted.
+timestamp: 2018-04-15 10:41:48
 
 Github:
 `{Signature} <https://github.com/ryanrhymes/owl/tree/master/src/base/maths/owl_maths_interpolate.mli>`_ 
@@ -30,6 +30,16 @@ Returns:
   * ``(y, dy)`` wherein ``y`` is the returned value ``y = P(x)``, and ``dy`` is the estimated error.
 
 `source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_interpolate.ml#L9>`__
+
+
+
+.. code-block:: ocaml
+
+  val ratint : float array -> float array -> float -> float * float
+
+TODO
+
+`source code <https://github.com/ryanrhymes/owl/blob/master/src/base/maths/owl_maths_interpolate.ml#L54>`__
 
 
 
