@@ -1,52 +1,23 @@
-# Owl Guide - Introduction to An OCaml Numerical Library
+# Owl Guide - Introduction to An OCaml Scientific Computing Library
 
-This repository contains a comprehensive guide of [Owl](https://github.com/ryanrhymes/owl).
+This repository contains the parser and tools to automatically build up the API Reference and Tutorial book for [Owl](https://github.com/ryanrhymes/owl).
 
-## Table of Content
-
-- Installation
-
-- Basic Number Types
-  - Module structure
-  - Dense and sparse data structures
-  - Float and complex numbers
-  - Different precisions
-  - Conversion between different types
-
-- N-Dimensional Arrays
-  - Generic module
-  - S/D/C/Z modules
-  - Creation functions
-  - Obtaining properties
-  - Manipulating arrays
-  - Iteration functions
-  - Examine elements
-  - Vectorised functions
-  - Comparison
-
-- Matrices
-  - Module structures
-  - Linear algebra
+The built documentation is hosted on [my Lab page](http://www.cl.cam.ac.uk/~lw525/owl/). If you want to build a local copy of the whole documentation, please refer to the following instructions.
 
 
-- Operators & Ext Module
-  - Operator functors
-  - Interoperation of different number types
-  - Making right choice
+## Instructions
 
-- Maths & Stats
+*Step 1*: You need to clone Owl's code repository from the Github, because the source files are needed to build up the documentation. The parser needs to parse both `ml` and `mli` files.
 
-- Algorithmic Differentiation
+```bash
+git clone https://github.com/owlbarn/owl.git
+```
 
-- Neural Network
+*Step 2*: Install Owl library. The parser needs to call a couple of functions from Owl library so you need to install Owl locally. Please refer to Owl's documentation to see how to install.
 
-- Natural Language Processing
 
-- Parallel & Distributed Computing
-  - Computation engines
-  - Interface to high-level data structure
-  - Synchronisation and barrier control
+*Step 3*: Install Sphinx. You can use for example `pip` to install it. Python 2.7 should work fine.
 
-- Plotting
-
-- Modules & APIs
+```bash
+pip install sphinx
+```
