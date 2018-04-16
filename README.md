@@ -49,6 +49,12 @@ open book/_build/html/index.html
 
 When you are happy with your edits and how they look on the local copy, it is ready to go for a pull-request. Before you submit the pull-request, you need to first fork [owlbarn.github.io](https://github.com/owlbarn/owlbarn.github.io) to your own github account.
 
+Then you need to install `hub` tool which is an extension of `git`. On Mac OSX, you can use brew to install it.
+
+```bash
+brew install hub
+```
+
 Then you can simply enter the following command in the `owl_guide` root directory.
 
 ```bash
