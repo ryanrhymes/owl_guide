@@ -111,10 +111,10 @@ OK, that's all. Please make sure you understand it well before you start, but it
 
 
 
-Extending Operators
+Extended Operators
 -------------------------------------------------
 
-The operators for indexing and slicing are built atop of the extending indexing operators introduced in OCaml 4.06. Three are used in Owl as follows. All of them are defined in the functors in  `Owl_operator` module.
+The operators for indexing and slicing are built atop of the extended indexing operators introduced in OCaml 4.06. Three are used in Owl as follows. All of them are defined in the functors in  `Owl_operator` module.
 
 * ``.%{ }``   : `get`
 * ``.%{ }<-`` : `set`
