@@ -2,7 +2,7 @@
 
 Owl is a scientific computing library developed in the OCaml language. This repository contains the parser and tools to automatically build up the API Reference and Tutorial book for [Owl](https://github.com/ryanrhymes/owl).
 
-The built documentation is hosted on [my Lab page](http://www.cl.cam.ac.uk/~lw525/owl/). If you want to build a local copy of the whole documentation, please refer to the following instructions.
+The built documentation is hosted on [owlbarn.github.io](https://owlbarn.github.io/) and [my lab page](http://www.cl.cam.ac.uk/~lw525/owl/). If you want to build a local copy of the whole documentation, please refer to the following instructions.
 
 
 ## Instructions
@@ -43,6 +43,19 @@ make
 ```bash
 open book/_build/html/index.html
 ```
+
+
+## Submit Pull-Request
+
+When you are happy with your edits and how they look on the local copy, it is ready to go for a pull-request. Before you submit the pull-request, you need to first fork [owlbarn.github.io](https://github.com/owlbarn/owlbarn.github.io) to your own github account.
+
+Then you can simply enter the following command in the `owl_guide` root directory.
+
+```bash
+make pull-request
+```
+
+It might take a while but you can soon see your pull-request on [this page](https://github.com/owlbarn/owlbarn.github.io/pulls). After I merge these requests, you can immediately see your edits appeared on [owlbarn.github.io](https://owlbarn.github.io/). Hurray!
 
 
 ## Other Formats
