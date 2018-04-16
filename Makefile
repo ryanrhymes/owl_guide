@@ -15,9 +15,9 @@ DOC_DIR="${ROOT}_tmp/owlbarn.github.io"
 all:
 	${PARSER} ${API_SRC} ${API_DST} ${API_LST}
 	cd ${ROOT}book && make html && cd -
-install:
+cambridge:
 	# scp -r -i ~/.ssh/id_cam book/_build/html/* lw525@slogin.cl.cam.ac.uk:~/public_html/owl/
-	# kinit lw525@AD.CL.CAM.AC.UK
+	# kinit lw525@ad.cl.cam.ac.uk
 	scp -o GSSAPIAuthentication=yes -r book/_build/html/* lw525@slogin-serv.cl.cam.ac.uk:~/public_html/owl/
 github:
 	@if test ! -d ${DOC_DIR}; then mkdir -p ${DOC_DIR} && git clone ${DOC_URL} ${DOC_DIR}; else cd ${DOC_DIR} && git pull origin master; fi
