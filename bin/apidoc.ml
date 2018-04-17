@@ -142,8 +142,9 @@ let write_to_rst apidoc sig_file impl_file rst_file module_name funloc =
   let impl_url = fname_to_github_url impl_file in
   Printf.fprintf h "%s\n%s\n\n" module_name (String.make 79 '=');
   Printf.fprintf h "This document is auto-generated for Owl's APIs.\n";
-  Printf.fprintf h "#%i entries have been extracted.\n" (Array.length apidoc);
-  Printf.fprintf h "timestamp: %s\n\n" (make_timestamp ());
+  Printf.fprintf h "#%i entries have been extracted.\n\n" (Array.length apidoc);
+  (* NOTE: I comment this out to avoid sync a lot of files every time PR. *)
+  (* Printf.fprintf h "timestamp: %s\n\n" (make_timestamp ()); *)
   Printf.fprintf h "Github:\n`{Signature} <%s>`_ \n`{Implementation} <%s>`_\n\n\n\n" sig_url impl_url;
 
   Array.iter (function
