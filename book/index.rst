@@ -6,7 +6,7 @@
 Owl Numerical Library
 =================================================
 
-Owl is a dedicated library for engineering and scientific computing. It is designed in the functional programming language OCaml, and aims to provide programmers a powerful numerical framework to write concise, high-performance and type-safe applications.
+Owl is a dedicated library for scientific and engineering computing. It is designed in the functional programming language OCaml, and aims to provide programmers a powerful numerical framework to write concise, high-performance and type-safe applications.
 
 The project is my on-going research in the `Computer Lab <http://www.cl.cam.ac.uk/>`_, University of Cambridge. You can fork my project code on the `Github Repository <https://github.com/ryanrhymes/owl>`_.
 
