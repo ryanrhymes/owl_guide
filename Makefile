@@ -19,7 +19,7 @@ all:
 	cd ${ROOT}book && make html && cd -
 cambridge:
 	# scp -r -i ~/.ssh/id_cam book/_build/html/* lw525@slogin.cl.cam.ac.uk:~/public_html/owl/
-	# kinit lw525@ad.cl.cam.ac.uk
+	# kinit lw525@AD.CL.CAM.AC.UK
 	scp -o GSSAPIAuthentication=yes -r book/_build/html/* lw525@slogin-serv.cl.cam.ac.uk:~/public_html/owl/
 publish:
 	@if test ! -d ${BARN_DIR}; then mkdir -p ${BARN_DIR} && git clone ${BARN_URL} ${BARN_DIR}; else cd ${BARN_DIR} && git pull origin master; fi
