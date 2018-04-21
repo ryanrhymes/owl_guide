@@ -3,7 +3,7 @@
 (** Liang Wang, Computer Lab, University of Cambridge, 2018.02.01. *)
 
 #require "re.pcre"
-#require "owl_top"
+#require "owl-top"
 
 
 (* simple function to read in the content of a file *)
