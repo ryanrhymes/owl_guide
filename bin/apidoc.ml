@@ -7,7 +7,7 @@
 
 
 (* simple function to read in the content of a file *)
-let get_content fname = Owl.Utils.read_file_string fname
+let get_content fname = Owl_io.read_file_string fname
 
 
 (** given a file name, return its url on github *)
@@ -45,7 +45,7 @@ let funloc_to_github_line fname fun_typ loc =
 
 (* parse module.txt to get a list of modules to generate api doc *)
 let get_module_files fname =
-  Owl.Utils.read_file fname |>
+  Owl_io.read_file fname |>
   Array.map (fun s ->
     let l = String.split_on_char '|' s in
     let sig_file = List.nth l 0 |> String.trim in
@@ -131,7 +131,7 @@ let locate_functions src_root impl_file =
       let _fun = Re.Group.get mc 1 in
       Hashtbl.add impl _fun (i + 1)
     );
-  ) (Owl.Utils.read_file ~trim:false (src_root ^ impl_file));
+  ) (Owl_io.read_file ~trim:false (src_root ^ impl_file));
   impl
 
 
