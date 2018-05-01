@@ -26,6 +26,8 @@ base/misc/owl_log.mli | base/misc/owl_log.ml | Log
 base/misc/owl_pretty.mli | base/misc/owl_pretty.ml | Pretty
 base/core/owl_graph.mli | base/core/owl_graph.ml | Graph
 owl/misc/owl_plot.mli | owl/misc/owl_plot.ml | Plot
+base/misc/owl_io.mli | base/misc/owl_io.ml | IO
+base/misc/owl_dataframe.mli | base/misc/owl_dataframe.ml | Dataframe
 opencl/owl_opencl_generated.mli | opencl/owl_opencl_generated.ml | Low-level OpenCL API
 opencl/owl_opencl_base.mli | opencl/owl_opencl_base.ml | High-level OpenCL API
 opencl/owl_opencl_context.mli | opencl/owl_opencl_context.ml | OpenCL Context
