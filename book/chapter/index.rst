@@ -27,6 +27,7 @@ Owl's Tutorial Book
    plot
    zoo
    sparse
+   dataframe
    javascript
    metric
    test
