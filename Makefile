@@ -14,8 +14,6 @@ BARN_URL="https://github.com/owlbarn/owlbarn.github.io.git"
 BARN_DIR="${ROOT}_barn/owlbarn.github.io"
 
 
-sphinx:
-	pip install sphinx sphinxcontrib-bibtex
 all:
 	${PARSER} ${API_SRC} ${API_DST} ${API_LST}
 	cd ${ROOT}book && make html && cd -
@@ -41,3 +39,5 @@ clean:
 	rm -rf ${ROOT}book/apidoc/*.rst
 	rm -rf ${ROOT}_barn ${ROOT}_fork
 	rm -rf *.html *.css
+sphinx:
+	pip install sphinx sphinxcontrib-bibtex
