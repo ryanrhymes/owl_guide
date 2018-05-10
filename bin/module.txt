@@ -10,7 +10,8 @@ owl/sparse/owl_sparse_ndarray_generic.mli | owl/sparse/owl_sparse_ndarray_generi
 owl/sparse/owl_sparse_matrix_generic.mli | owl/sparse/owl_sparse_matrix_generic.ml | Sparse.Matrix.Generic
 owl/linalg/owl_linalg_generic.mli | owl/linalg/owl_linalg_generic.ml | Linalg.Generic
 owl/fftpack/owl_fft_generic.mli | owl/fftpack/owl_fft_generic.ml | FFT
-owl/cblas/owl_cblas.mli | owl/cblas/owl_cblas.ml | Low-level CBLAS API
+owl/cblas/owl_cblas_basic.mli | owl/cblas/owl_cblas_basic.ml | Low-level CBLAS API
+owl/cblas/owl_cblas.mli | owl/cblas/owl_cblas.ml | High-level CBLAS API
 owl/lapacke/owl_lapacke_generated.mli | owl/lapacke/owl_lapacke_generated.ml | Low-level LAPACKE API
 owl/lapacke/owl_lapacke.mli | owl/lapacke/owl_lapacke.ml | High-level LAPACKE API
 base/optimise/owl_numdiff_generic_sig.ml | base/optimise/owl_numdiff_generic.ml | Numdiff.Generic Functor
