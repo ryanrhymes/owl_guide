@@ -15,7 +15,7 @@ The project is my on-going research in the `Computer Lab <http://www.cl.cam.ac.u
 Tutorial Book
 -------------------------------------------------
 
-The full documentation consists of two parts. You can access both parts from the current page. The first part is a `Tutorial Book` which gives you a brief tour of the overall system with many examples and explanations. This part is mostly written by hand.
+The full documentation consists of two parts. You can access both parts from the current page. The first part is a `Tutorial Book` which starts with a brief introductory of the OCaml language followed by a comprehensive tour of the overall system with many examples and explanations. This part is mostly written by hand.
 
 .. toctree::
    :maxdepth: 1
