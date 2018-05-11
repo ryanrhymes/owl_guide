@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Owl Numerical Library
+Owl - OCaml Scientific Computing
 =================================================
 
 Owl is a dedicated library for scientific and engineering computing. It is designed in the functional programming language OCaml, and aims to provide programmers a powerful numerical framework to write concise, high-performance and type-safe applications.
@@ -16,6 +16,12 @@ Tutorial Book
 -------------------------------------------------
 
 The full documentation consists of two parts. You can access both parts from the current page. The first part is a `Tutorial Book` which gives you a brief tour of the overall system with many examples and explanations. This part is mostly written by hand.
+
+.. toctree::
+   :maxdepth: 1
+
+   basics/index
+
 
 .. toctree::
    :maxdepth: 1
@@ -49,7 +55,7 @@ Contact Me
 
 You can reach me in the following ways, looking forward to hearing from you!
 
-* `Email Me <mailto:liang.wang@cl.cam.ac.uk>`_
+* `Email Me <mailto:liang@ocaml.xyz>`_
 * `Slack Channel <https://join.slack.com/t/owl-dev-team/shared_invite/enQtMjQ3OTM1MDY4MDIwLTA3MmMyMmQ5Y2U0NjJiNjI0NzFhZDAwNGFhODBmMTk4N2ZmNDExYjZiMzI2N2M1MGNiMTUyYTQ5MTAzZjliZDI>`_
 * `Issue Tracker <https://github.com/ryanrhymes/owl/issues>`_
 

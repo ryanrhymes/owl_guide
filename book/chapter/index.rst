@@ -1,4 +1,4 @@
-Owl's Tutorial Book
+Part II: Owl Numerical System
 =================================================
 
 .. toctree::
