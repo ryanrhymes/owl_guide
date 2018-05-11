@@ -3,7 +3,7 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Owl - OCaml Scientific Computing
+OCaml Scientific Computing
 =================================================
 
 Owl is a dedicated library for scientific and engineering computing. It is designed in the functional programming language OCaml, and aims to provide programmers a powerful numerical framework to write concise, high-performance and type-safe applications.
