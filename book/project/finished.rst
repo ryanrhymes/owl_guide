@@ -8,7 +8,7 @@ This page maintains a list of finished projects including a brief description an
 Probabilistic Synchronous Parallel
 -------------------------------------------------
 
-By **Benjamin P. W. Catterall** | Part III | June 2017 | :download:`{Thesis} <../papers/catterall.pdf>`  `{ArXiv} <https://arxiv.org/abs/1709.07772>`_
+By **Benjamin P. W. Catterall** | Part III | June 2017 | :download:`{Thesis} <../papers/catterall.pdf>`  `{ArXiv 1709} <https://arxiv.org/abs/1709.07772>`_
 
 The synchronisation scheme used to manage parallel updates of a distributed machine learning model can dramatically impact performance. System and algorithm designers need methods which allow them to make trade-offs between fully asynchronous and fully deterministic schemes. Barrier control methods represent one possible solution. In this report, I present Probabilistic Synchronous Parallel (PSP), a barrier control method for distributed machine learning. I provide analytical proofs of convergence and carry out an experimental verification of the method using a bespoke simulator. I find that PSP improves the convergence speed and iteration throughput of more traditional barrier control methods. Furthermore, I demonstrate that PSP provides stronger convergence guarantees than a fully asynchronous design whilst maintaining the general characteristics of stronger methods.
 
@@ -44,3 +44,12 @@ By **Dhruv C. Makwana** | Part III | June 2018 | :download:`{Thesis} <../papers/
 In this thesis, I argue that linear types are an appropriate, type-based formalism for expressing aliasing, read/write permissions, memory allocation, re-use and deallocation, first, in the context of the APIs of linear algebra libraries and then in the context of matrix expression compilation. I show that framing the problem using linear types can reduce bugs by making precise and explicit, the informal, ad-hoc practices typically employed by experts and matrix expression compilers and automate checking them.
 
 As evidence for this argument, I show non-trivial, yet readable, linear algebra programs, that are safe and explicit (with respect to aliasing, read/write permissions, memory allocation, re-use and deallocation) which (1) are more memory-efficient than equivalent programs written using high- level linear algebra libraries and (2) perform just as predictably as equivalent programs written using low-level linear algebra libraries. I also argue the experience of writing such programs with linear types is qualitatively better in key respects. In addition to all of this, I show that it is possible to provide such features as a library on top of existing programming languages and linear algebra libraries.
+
+
+
+Data Analytics Service Composition and Deployment
+-------------------------------------------------
+
+By **Jianxin Zhao** | PhD | June 2018 | `{ArXiv 1805} <https://arxiv.org/abs/1805.05995>`_
+
+Data analytics on the cloud is known to have issues such as increased response latency, communication cost, single point failure, and data privacy concerns. While moving analytics from cloud to edge devices has recently gained rapid growth in both academia and industry, this topic still faces many challenges such as limited computation resource on the edge. In this report, we further identify two main challenges: the composition and deployment of data analytics services on edge devices. Initially, the Zoo system is designed to make it convenient for developers to share and execute their OCaml code snippets, with fine-grained version control mechanism. We then extend it to address those two challenges. On one hand, Zoo provides simple domain-specific language and high-level types to enable easy and type-safe composition of different data analytics services. On the other hand, it utilises multiple deployment backends, including Docker container, JavaScript, and MirageOS, to accommodate the heterogeneous edge deployment environment. We demonstrate the expressiveness of Zoo with a use case, and thoroughly compare the performance of different deployment backends in evaluation.
