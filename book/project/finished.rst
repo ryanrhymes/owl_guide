@@ -1,4 +1,4 @@
-Finished Projects
+Finished Sub-Projects
 =================================================
 
 This page maintains a list of finished projects including a brief description and its outcome. If you think your project is relevant to Owl and want to be included in this page, please contact me directly.
@@ -7,3 +7,40 @@ This page maintains a list of finished projects including a brief description an
 
 Probabilistic Synchronous Parallel
 -------------------------------------------------
+
+By **Benjamin P. W. Catterall** | Part III | June 2017 | :download:`{Thesis} <../papers/catterall.pdf>`  `{ArXiv} <https://arxiv.org/abs/1709.07772>`_
+
+The synchronisation scheme used to manage parallel updates of a distributed machine learning model can dramatically impact performance. System and algorithm designers need methods which allow them to make trade-offs between fully asynchronous and fully deterministic schemes. Barrier control methods represent one possible solution. In this report, I present Probabilistic Synchronous Parallel (PSP), a barrier control method for distributed machine learning. I provide analytical proofs of convergence and carry out an experimental verification of the method using a bespoke simulator. I find that PSP improves the convergence speed and iteration throughput of more traditional barrier control methods. Furthermore, I demonstrate that PSP provides stronger convergence guarantees than a fully asynchronous design whilst maintaining the general characteristics of stronger methods.
+
+
+
+Supporting Browser-based Machine Learning
+-------------------------------------------------
+
+By **Tudor Petru Tiplea** | Part III | June 2018 | :download:`{Thesis} <../papers/tiplea.pdf>`
+
+Because it can tell so much about nature and people, digital data is collected and analysed in immeasurable quantities. Processing this data often requires collections of resources typically organised in massive data centres, a paradigm known as cloud computing. However, this paradigm has certain limitations. Apart from the often prohibitive costs, cloud computing requires data centralisation, which could slow down real-time applications, or require exorbitant storage. Edge computing—a solution aiming to move computation to the network’s edge — is regarded as a promising alternative, especially when tailored for Internet-of-Things deployment.
+
+Aiming for more large-scale adoption, this project provides a proof of concept for edge computing support on an ubiquitous platform—the web-browser. This work is framed within an emerging OCaml ecosystem for data processing and machine learning applications. We explored options for OCaml-to-JavaScript compilation, and extended Owl, the main library in the ecosystem, guided by those findings. Next, we researched solutions for efficient data transmissions between browsers, then based on that, implemented a browser-compatible communication system analogous to TCP/IP network sockets. This system was later used to modify Actor, Owl’s distributed computing engine, making it deployable in the browser.
+
+We demonstrated our work on Owl was successful, exemplifying the browser-deployed localised computing capabilities. The performance limitations of this part were analysed, and we suggest directions for optimisations based on empirical results. We also illustrated the accomplishment of browser-based distributed computing, again identifying limitations that must be overcome in the future for a complete solution.
+
+
+
+Adaptable Asynchrony in Distributed Learning
+-------------------------------------------------
+
+By **De Sheng Royson Lee** | M.Phil | June 2018 | :download:`{Thesis} <../papers/royson.pdf>`
+
+Distributed training of deep learning models is typically trained using stochastic optimisation in an asynchronous or synchronous environment. Increasing asynchrony is known to add noise introduced from stale gradient updates, whereas relying on synchrony may be inefficient due to stragglers. Although there has been a wide range of approaches to mitigate or even negate these weaknesses, little has been done to improve asynchronous adaptive stochastic gradient descent (SGD) optimisation. In this report, I survey these approaches and propose a technique to better train these models. In addition, I empirically show that the technique works well with delay-tolerance adaptive SGD optimisation algorithms, improving the rate of convergence, stability, and test accuracy. I also demonstrate that my approach performs consistently well in a dynamic environment in which the number of workers changes uniformly at random.
+
+
+
+Applications of Linear Types
+-------------------------------------------------
+
+By **Dhruv C. Makwana** | Part III | June 2018 | :download:`{Thesis} <../papers/dhruv.pdf>`  `{Github} <https://github.com/dc-mak/lt4la/>`_
+
+In this thesis, I argue that linear types are an appropriate, type-based formalism for expressing aliasing, read/write permissions, memory allocation, re-use and deallocation, first, in the context of the APIs of linear algebra libraries and then in the context of matrix expression compilation. I show that framing the problem using linear types can reduce bugs by making precise and explicit, the informal, ad-hoc practices typically employed by experts and matrix expression compilers and automate checking them.
+
+As evidence for this argument, I show non-trivial, yet readable, linear algebra programs, that are safe and explicit (with respect to aliasing, read/write permissions, memory allocation, re-use and deallocation) which (1) are more memory-efficient than equivalent programs written using high- level linear algebra libraries and (2) perform just as predictably as equivalent programs written using low-level linear algebra libraries. I also argue the experience of writing such programs with linear types is qualitatively better in key respects. In addition to all of this, I show that it is possible to provide such features as a library on top of existing programming languages and linear algebra libraries.
