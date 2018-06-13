@@ -41,11 +41,13 @@ The second part is the `API Reference` built automatically from Owl's repository
 
 
 
-Showcases
+Projects & Showcases
 -------------------------------------------------
 
-Here are some examples to showcase Owl's capability.
+Here is a list of ongoing and finished Owl-related projects, as well as some examples to showcase Owl's capability.
 
+* :doc:`chapter/project`
+* :doc:`project/finished`
 * `Google Inception Demo <http://138.68.155.178/index.html>`_
 * `Neural Style Transfer Demo <http://138.68.155.178/neuraltrans.html>`_
 

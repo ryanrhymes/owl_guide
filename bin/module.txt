@@ -21,7 +21,7 @@ owl/optimise/owl_regression_generic.mli | owl/optimise/owl_regression_generic.ml
 base/neural/owl_neural_neuron_sig.ml | base/neural/owl_neural_neuron.ml | Neural.Neuron Functor
 base/neural/owl_neural_graph_sig.ml | base/neural/owl_neural_graph.ml | Neural.Graph Functor
 base/core/owl_operator.mli | base/core/owl_operator.ml | Operator Functor
-base/misc/owl_lazy.mli | base/misc/owl_lazy.ml | Lazy Functor
+base/core/owl_lazy.mli | base/core/owl_lazy.ml | Lazy Functor
 base/misc/owl_view.mli | base/misc/owl_view.ml | View Functor
 base/misc/owl_log.mli | base/misc/owl_log.ml | Log
 base/misc/owl_pretty.mli | base/misc/owl_pretty.ml | Pretty

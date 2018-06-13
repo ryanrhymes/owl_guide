@@ -1,4 +1,4 @@
-Related Sub-Projects
+Proposed Sub-Projects
 =================================================
 
 Owl is a very focused system but it indeed covers a wide range of topics from numerical analysis to system programming and optimisation. This page maintains an active list of potential topics which are relevant to Owl. Many of these topics are tightly connected to the cutting-edge research carried by the researchers in the Computer Lab.
