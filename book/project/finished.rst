@@ -47,7 +47,7 @@ As evidence for this argument, I show non-trivial, yet readable, linear algebra 
 
 
 
-Data Analytics Service Composition and Deployment
+Composing Data Analytical Services
 -------------------------------------------------
 
 By **Jianxin Zhao** | PhD | June 2018 | `{ArXiv 1805} <https://arxiv.org/abs/1805.05995>`_
