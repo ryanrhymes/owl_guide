@@ -17,7 +17,7 @@ owl/lapacke/owl_lapacke.mli | owl/lapacke/owl_lapacke.ml | High-level LAPACKE AP
 base/optimise/owl_numdiff_generic_sig.ml | base/optimise/owl_numdiff_generic.ml | Numdiff.Generic Functor
 base/optimise/owl_algodiff_generic_sig.ml | base/optimise/owl_algodiff_generic.ml | Algodiff.Generic Functor
 base/optimise/owl_optimise_generic_sig.ml | base/optimise/owl_optimise_generic.ml | Optimise.Generic Functor
-owl/optimise/owl_regression_generic.mli | owl/optimise/owl_regression_generic.ml | Regression.Generic Functor
+owl/optimise/owl_regression_generic_sig.ml | owl/optimise/owl_regression_generic.ml | Regression.Generic Functor
 base/neural/owl_neural_neuron_sig.ml | base/neural/owl_neural_neuron.ml | Neural.Neuron Functor
 base/neural/owl_neural_graph_sig.ml | base/neural/owl_neural_graph.ml | Neural.Graph Functor
 base/core/owl_operator.mli | base/core/owl_operator.ml | Operator Functor
@@ -47,3 +47,9 @@ owl/nlp/owl_nlp_vocabulary.mli | owl/nlp/owl_nlp_vocabulary.ml | NLP.Vocabulary
 owl/nlp/owl_nlp_corpus.mli | owl/nlp/owl_nlp_corpus.ml | NLP.Corpus
 owl/nlp/owl_nlp_tfidf.mli | owl/nlp/owl_nlp_tfidf.ml | NLP.Tfidf
 owl/nlp/owl_nlp_lda.mli | owl/nlp/owl_nlp_lda.ml | NLP.Lda
+base/compute/owl_computation_type_sig.ml | base/compute/owl_computation_type.ml | Computation.Type
+base/compute/owl_computation_shape_sig.ml | base/compute/owl_computation_shape.ml | Computation.Shape
+base/compute/owl_computation_symbol_sig.ml | base/compute/owl_computation_symbol.ml | Computation.Symbol
+base/compute/owl_computation_operator_sig.ml | base/compute/owl_computation_operator.ml | Computation.Operator
+base/compute/owl_computation_optimiser_sig.ml | base/compute/owl_computation_optimiser.ml | Computation.Optimiser
+base/compute/owl_computation_graph_sig.ml | base/compute/owl_computation_graph.ml | Computation.Graph
