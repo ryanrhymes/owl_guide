@@ -20,6 +20,7 @@ Part II: Owl Numerical System
    stats
    linalg
    fft
+   cgraph_intro
    lazy
    algodiff
    optimise
