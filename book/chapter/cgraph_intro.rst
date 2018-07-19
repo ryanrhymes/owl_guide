@@ -3,7 +3,7 @@ Computation Graph
 
 This is not a tutorial on how to use the computation graph in Owl. Instead, what I will present is a bird's-eye view on how the computation graph is fitted into Owl's functor stack, and its implications on Owl's architecture design.
 
-To motivate you to continue reading this article, you can try to run both `mnist_cnn.ml <https://github.com/owlbarn/owl/blob/master/examples/mnist_cnn.ml>`_ and `lazy_mnist.ml <https://github.com/owlbarn/owl/blob/master/examples/lazy_mnist.ml>`_ then compare their performance. Both Zoo scripts train the same convolutional neural network to recognise the handwritten digits in MNIST datasets in 60 iterations. On my laptop, ``mnist_cnn.ml`` takes about 30s to finish and consumes approximate 4GB memory, whilst ``lazy_mnist.ml`` only takes 5s and consume about 0.75GB to finish the same job. ``lazy_mnist.ml`` achieves the state-of-the-art performance which you can obtain from TensorFlow (with its recent XLA optimisation), actually Owl runs even faster on 3 out of 4 machines we have tested.
+To motivate you to continue reading this article, you can try to run both `mnist_cnn.ml <https://github.com/owlbarn/owl/blob/master/examples/mnist_cnn.ml>`_ and `lazy_mnist.ml <https://github.com/owlbarn/owl/blob/master/examples/lazy_mnist.ml>`_ then compare their performance. Both Zoo scripts train the same convolutional neural network to recognise the handwritten digits in MNIST datasets in 60 iterations. On my laptop, ``mnist_cnn.ml`` takes about 30s to finish and consumes approximate 4GB memory, whilst ``lazy_mnist.ml`` only takes 5s and consumes about 0.75GB to finish the same job. ``lazy_mnist.ml`` achieves the state-of-the-art performance which you can obtain from TensorFlow (with its recent XLA optimisation), actually Owl runs even faster on 3 out of 4 machines we have tested.
 
 OK, if these numbers arouse your interest in knowing how the magic happens, let me unveil the underlying mechanism of Owl's computation graph in the following sections.
 
@@ -44,16 +44,25 @@ Now that you know what is a computation graph, you may ask why it matters? Well,
 - Reduce memory management overhead by pre-allocating the space;
 - Reduce memory footprint by reusing allocated memory space;
 - Natural support for parallel and distributed computing;
+- Natural support for heterogeneous computing;
 - Natural support for symbolic math;
 
 Some of the benefits are very obvious. Memory usage can certainly be optimised if the graph structure is fixed and the input shape is known. One optimisation is reusing previously allocated memory, which is especially useful for those applications involving large ndarray calculations. In fact, this optimisation can also be performed by a compiler by tracking the reference number of allocated memory, a technique referred to as linear types.
 
 Some may appear less obvious at the first glance. For example, we can decompose a computation graph into multiple independent subgraphs and each can be evaluated in parallel on different cores or even computers. Maintaining the graph structure also improves fault-tolerance, by providing natural support for rollback mechanisms.
 
+The computation graph provides a way to abstract the flow of computations, therefore it is able to bridge the high-level applications and low-level machinery of various hardware devices. This is why I say it has natural support for heterogeneous computing.
+
+
 
 How Is It Implemented?
 -------------------------------------------------
 
+
+.. figure:: ../figure/owl_computation_graph_functor_stack.png
+   :scale: 50 %
+   :align: center
+   :alt: computation graph functor stack
 
 
 .. code-block:: ocaml
