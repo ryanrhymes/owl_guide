@@ -59,7 +59,7 @@ How Is It Implemented?
 -------------------------------------------------
 
 
-.. figure:: ../figure/owl_computation_graph_functor_stack.png
+.. figure:: ../figure/owl_cgraph_functor_stack.png
    :scale: 50 %
    :align: center
    :alt: computation graph functor stack
