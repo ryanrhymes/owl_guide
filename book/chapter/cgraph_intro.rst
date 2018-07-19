@@ -36,8 +36,19 @@ As we can see, the flexibility of a dynamic graph comes with the price of lower 
 Why Does It Matter?
 -------------------------------------------------
 
-Now that you know what is a computation graph, you may ask why it matters? Well, the computation graph makes many things a lot easier.
+Now that you know what is a computation graph, you may ask why it matters? Well, the computation graph makes many things a lot easier. Here is an incomplete list of potential benefits.
 
+- Simulate lazy evaluation in a language with eager evaluation;
+- Incremental computation (a.k.a Self-Adjusted Computation);
+- Reduce computation complexity by optimising the structure of a graph;
+- Reduce memory management overhead by pre-allocating the space;
+- Reduce memory footprint by reusing allocated memory space;
+- Natural support for parallel and distributed computing;
+- Natural support for symbolic math;
+
+Some of the benefits are very obvious. Memory usage can certainly be optimised if the graph structure is fixed and the input shape is known. One optimisation is reusing previously allocated memory, which is especially useful for those applications involving large ndarray calculations. In fact, this optimisation can also be performed by a compiler by tracking the reference number of allocated memory, a technique referred to as linear types.
+
+Some may appear less obvious at the first glance. For example, we can decompose a computation graph into multiple independent subgraphs and each can be evaluated in parallel on different cores or even computers. Maintaining the graph structure also improves fault-tolerance, by providing natural support for rollback mechanisms.
 
 
 How Is It Implemented?
@@ -87,4 +98,12 @@ What to Do with GPU?
 
 
 What Does It Implicate?
+-------------------------------------------------
+
+
+JIT - From Dynamic to Static
+-------------------------------------------------
+
+
+What Is Next?
 -------------------------------------------------
