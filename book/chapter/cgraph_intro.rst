@@ -104,9 +104,10 @@ Why the magic can happen? Simply put, the injected computation graph stack provi
 
 The shape inference functionality allows Owl to calculate how much memory is required to evaluate the graph and pre-allocate the space. Owl can also track the reference number of each node and reuse the allocated memory as much as possible, this reduces both memory footprint but GC overhead, significantly improves the computation speed.
 
-The Optimiser functor searches for various structural patterns in a graph, remove unnecessary computations and fusing nodes.
+The Optimiser functor searches for various structural patterns in a graph, removes unnecessary computations and fusing nodes if possible. All the patterns are defined in `owl_computation_optimiser.ml <https://github.com/owlbarn/owl/blob/master/src/base/compute/owl_computation_optimiser.ml>`_, and it is very straightforward to plug in more patterns to extend. Here are some example patterns.
 
-constant folding ...
+*Constant folding* is a very basic pattern. Because the inputs which nodes `#241` depends on are all constants, so the value of `#241` is already decided. We can fold all the constants to node `#241` before evaluating the computation graph.
+
 
 .. figure:: ../figure/owl_cgraph_opt_0.png
    :scale: 50 %
@@ -114,7 +115,8 @@ constant folding ...
    :alt: computation graph optimiser
 
 
-fusing node ... talk about gemm ...
+*Fusing operations* can effectively reduce the round trips to the memory, which saves a lot of time on operating large ndarrys. In the figure below, nodes `#421`, `#463`, and `#464` are fused into ``fma`` (i.e. fused-multiply-add operation), this also improves numerical accuracy. Owl can also recognise quite complicated patterns, e.g. pattern formed by nodes `#511` -- `#515` appears a lot in DNN training that uses Adagrad, the Optimiser is able to fuse all these operations into one-pass calculation.
+
 
 .. figure:: ../figure/owl_cgraph_opt_1.png
    :scale: 50 %
@@ -122,7 +124,7 @@ fusing node ... talk about gemm ...
    :alt: computation graph optimiser
 
 
-remove redundant nodes ...
+In the next example, *Add Zero* pattern is firstly detected hence `#164` and `#166` are removed. Moreover, nodes `#255` for ``repeat`` operation is also removed because ``add`` operation already supports broadcasting operation. Removing `#255` can save us some memory in the evaluation.
 
 .. figure:: ../figure/owl_cgraph_opt_2.png
    :scale: 50 %
