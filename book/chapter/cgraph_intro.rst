@@ -53,10 +53,23 @@ Some may appear less obvious at the first glance. For example, we can decompose 
 
 The computation graph provides a way to abstract the flow of computations, therefore it is able to bridge the high-level applications and low-level machinery of various hardware devices. This is why I say it has natural support for heterogeneous computing.
 
+Talk something about its impact on Algodiff module ... now it is mutable ...
+
 
 
 How Is It Implemented?
 -------------------------------------------------
+
+How is the computation graph is implemented? In the older versions, Algodiff module has partial support of computation graph in order to perform reverse mode algorithmic differentiation (AD). The full support was only introduced in Owl 0.4.0.
+
+Owl implements the computation graph in a very unique and interesting way. There are several principles I wrote down to follow before I started tackling the design challenges.
+
+- Non-intrusive, the original functor stack should work as it was.
+- Transparent to the programmers as much as possible.
+- Support both eager and lazy evaluation.
+- Flexible enough for future extension on other devices.
+
+In the end, I designed the computation graph in a very much self-contained stack, then devised a good way to "inject" it into Owl's original functor stack. If it sounds too abstract, please have a look at the final product in the following figure.
 
 
 .. figure:: ../figure/owl_cgraph_functor_stack.png
@@ -64,6 +77,60 @@ How Is It Implemented?
    :align: center
    :alt: computation graph functor stack
 
+
+The left figure shows part of Owl's original functor stack, and the right one shows how the current one looks like after the computation graph is injected. We know the functor stack plays a central role in Owl's architecture. In the old design, Ndarray implements a set of fundamental n-dimensional array operations, then Algodiff defines abstract mathematical operations for differentiation, finally Optimise engine glues low-level math with high-level deep neural network.
+
+
+- ``Ndarray``: provides number type abstraction and implements the fundamental numerical operations.
+- ``Algodiff``: implements algorithmic differentiation.
+- ``Optimise``: exploits the derivative information using AD to build an optimisation engine.
+- ``Neural_Neuron``: implements many kinds neuron function which can be optimised.
+- ``Neural_Graph``: connects neurons together to form a network so that we can train a useful model.
+
+
+The functor stack of computation graph is injected between ``Ndarray`` and ``Algodiff``. The list below summarises the functionality of each functor. The order and naming of these functors can already give you a rough understand about how it is designed.
+
+- ``Device``: device abstraction contains device-dependent types and functions.
+- ``Type``: type definition of various (mathematical) operations.
+- ``Shape``: provides the shape inference function in the graph.
+- ``Symbol``: provides various functions to access and manipulate symbols.
+- ``Operator``: implements math operators (+,-*,/, and etc.), decides how the symbols should connect each other to form a graph.
+- ``Optimiser``: optimises the structure of a given graph, remove redundant computation, fuse computation nodes, and etc.
+- ``Graph``: implements high-level graph functions, e.g. visualisation, connecting inputs and outputs.
+- ``Engine``: evaluates a computation graph on a specific device.
+
+
+Why the magic can happen? Simply put, the injected computation graph stack provides an layer of abstraction similar to symbolic maths. The original eager evaluation becomes symbolic operation (or graph construction) therefore they can be easily evaluated.
+
+The shape inference functionality allows Owl to calculate how much memory is required to evaluate the graph and pre-allocate the space. Owl can also track the reference number of each node and reuse the allocated memory as much as possible, this reduces both memory footprint but GC overhead, significantly improves the computation speed.
+
+The Optimiser functor searches for various structural patterns in a graph, remove unnecessary computations and fusing nodes.
+
+constant folding ...
+
+.. figure:: ../figure/owl_cgraph_opt_0.png
+   :scale: 50 %
+   :align: center
+   :alt: computation graph optimiser
+
+
+fusing node ... talk about gemm ...
+
+.. figure:: ../figure/owl_cgraph_opt_1.png
+   :scale: 50 %
+   :align: center
+   :alt: computation graph optimiser
+
+
+remove redundant nodes ...
+
+.. figure:: ../figure/owl_cgraph_opt_2.png
+   :scale: 50 %
+   :align: center
+   :alt: computation graph optimiser
+
+
+Make functor code ...
 
 .. code-block:: ocaml
 
