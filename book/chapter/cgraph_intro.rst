@@ -132,7 +132,9 @@ In the next example, *Add Zero* pattern is firstly detected hence `#164` and `#1
    :alt: computation graph optimiser
 
 
-Make functor code ...
+Engine functor sits on top of the stack, this is where a computation graph finally gets executed. Engine functor contains two sub modules, one for initialising the graph and the other for evaluating graph.
+
+Before we finish this section, you can try the following snippet in ``utop``. Both snippets generate a module for DNN applications. The difference is that the first one uses the old stack whereas the second one uses the new stack with computation graph.
 
 .. code-block:: ocaml
 
@@ -145,7 +147,7 @@ Make functor code ...
               Dense.Ndarray.S)))));;
 
 
-Now ...
+For the new stack, we can see it is much deeper.
 
 
 .. code-block:: ocaml
