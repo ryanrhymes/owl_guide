@@ -53,7 +53,7 @@ Some may appear less obvious at the first glance. For example, we can decompose 
 
 The computation graph provides a way to abstract the flow of computations, therefore it is able to bridge the high-level applications and low-level machinery of various hardware devices. This is why I say it has natural support for heterogeneous computing.
 
-Talk something about its impact on Algodiff module ... now it is mutable ...
+The computation graph has more profound implications. Because the memory allocated for each node is mutable, Algodiff becomes more scalable to handle large and complex graphs. At the same time, mutable transformation is handled by Owl so programmers can still write safe functional code.
 
 
 
@@ -94,7 +94,7 @@ The functor stack of computation graph is injected between ``Ndarray`` and ``Alg
 - ``Type``: type definition of various (mathematical) operations.
 - ``Shape``: provides the shape inference function in the graph.
 - ``Symbol``: provides various functions to access and manipulate symbols.
-- ``Operator``: implements math operators (+,-*,/, and etc.), decides how the symbols should connect each other to form a graph.
+- ``Operator``: implements math operators (``+``, ``-``, ``*``, ``/``, and etc.), decides how the symbols should connect each other to form a graph.
 - ``Optimiser``: optimises the structure of a given graph, remove redundant computation, fuse computation nodes, and etc.
 - ``Graph``: implements high-level graph functions, e.g. visualisation, connecting inputs and outputs.
 - ``Engine``: evaluates a computation graph on a specific device.
@@ -171,7 +171,6 @@ For the new stack, we can see it is much deeper.
 
 
 
-
 What to Do with GPU?
 -------------------------------------------------
 
@@ -183,12 +182,17 @@ From development perspective, we only need to implement a new engine functor for
 
 
 
-What Does It Implicate?
--------------------------------------------------
-
-
 JIT - From Dynamic to Static
 -------------------------------------------------
+
+Remember the tradeoff between dynamic and static graph I mentioned before, i.e. flexibility vs efficiency. Many need to make a decision between Google's TensorFlow and Facebook's Pytorch. Many programmers' common practice is -- "using Pytorch at home and using TensorFlow in the company". But can't we really get the best part of both worlds?
+
+It turns out, give a specific type of application like DNN, we can! Owl achieves this by converting a dynamic graph into static one in the runtime. The motivation is based on a very important observation -- in many cases, a computation graph is continuously re-evaluated after its construction. This is especially true for those iterative optimisation algorithms.
+
+If we know the structure of the graph remains the same in every iteration, rather than re-constructing it all the time, we can convert it into a static graph before evaluation. This is exactly what Owl does. By so doing, the programmer can enjoy the flexibility offered by the dynamic graph construction with operator overloading, but still achieve the best performance from static graph.
+
+Comparing to TensorFlow, the overhead in compilation shift into the runtime. You may worry about the overhead, is it going to slow down my DNN application? The fact is, even for large and complex graphs, this Just-in-Time compilation (JIT) and optimisation are often quite cheap. For example ...
+
 
 
 What Is Next?
