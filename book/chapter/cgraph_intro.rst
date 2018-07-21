@@ -124,7 +124,7 @@ The Optimiser functor searches for various structural patterns in a graph, remov
    :alt: computation graph optimiser
 
 
-In the next example, *Add Zero* pattern is firstly detected hence `#164` and `#166` are removed. Moreover, nodes `#255` for ``repeat`` operation is also removed because ``add`` operation already supports broadcasting operation. Removing `#255` can save us some memory in the evaluation.
+In the next example, *Adding zero* pattern is firstly detected hence `#164` and `#166` are removed. Moreover, nodes `#255` for ``repeat`` operation is also removed because ``add`` operation already supports broadcasting operation. Removing `#255` can save us some memory in the evaluation.
 
 .. figure:: ../figure/owl_cgraph_opt_2.png
    :scale: 50 %
@@ -174,6 +174,12 @@ For the new stack, we can see it is much deeper.
 
 What to Do with GPU?
 -------------------------------------------------
+
+Programming a GPU is very much like programming a computer cluster. The gains of parallel computing come with inevitable synchronisation and communication overhead. Therefore GPU computing only makes sense when the computation complexity is high enough to dwarf other overhead.
+
+When offloading the computation to a GPU, we should avoid transmitting data back and forth between the host and the device, so eager evaluation is not ideal in this context. Computation graph essentially fills the gap between Owl and GPU computing simply because the laziness can be simulated now.
+
+From development perspective, we only need to implement a new engine functor for GPU to evaluate graph, all others remain the same. I am currently working on the OpenCL engine. The amount of code for implementing OpenCL engine is very small (around 700 ~ 900 LOC). Comparing to the CPU engine, the OpenCL engine maintains the memory allocated on both host and device for each node, copying only happens whenever it is necessary and the allocated memory on the device is reused as much as possible.
 
 
 
