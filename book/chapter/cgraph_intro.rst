@@ -187,7 +187,7 @@ JIT - From Dynamic to Static
 
 Remember the tradeoff between dynamic and static graph I mentioned before, i.e. flexibility vs efficiency. Many need to make a decision between Google's TensorFlow and Facebook's Pytorch. Many programmers' common practice is -- "using Pytorch at home and using TensorFlow in the company". But can't we really get the best part of both worlds?
 
-It turns out, give a specific type of application like DNN, we can! Owl achieves this by converting a dynamic graph into static one in the runtime. The motivation is based on a very important observation -- in many cases, a computation graph is continuously re-evaluated after its construction. This is especially true for those iterative optimisation algorithms.
+It turns out, for a specific type of application like DNN, we can! Owl achieves this by converting a dynamic graph into static one in the runtime. The motivation is based on a very important observation -- in many cases, a computation graph is continuously re-evaluated after its construction. This is especially true for those iterative optimisation algorithms.
 
 If we know the structure of the graph remains the same in every iteration, rather than re-constructing it all the time, we can convert it into a static graph before evaluation. This is exactly what Owl does. By so doing, the programmer can enjoy the flexibility offered by the dynamic graph construction with operator overloading, but still achieve the best performance from static graph.
 
@@ -199,3 +199,5 @@ Technically, this is straightforward to implement. Given a deep neural network, 
 
 What Is Next?
 -------------------------------------------------
+
+The `complete functor stack <https://github.com/owlbarn/owl/tree/master/src/base/compute>`_ of the computation graph is already implemented, and it has been used in Owl internally to speed up many operations. However, to let other programmers take advantage of this power, I still need to do a lot of engineering work to wrap up a set of easy-to-use APIs.
