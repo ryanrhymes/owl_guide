@@ -134,6 +134,9 @@ In the next example, *Adding zero* pattern is firstly detected hence `#164` and 
    :alt: computation graph optimiser
 
 
+To understand how effective the Optimiser works, I present both the `original computation graph <../_images/owl_cgraph_mnist_raw.png>`_ and the `optimised graph <../_images/owl_cgraph_mnist_opt.png>`_ taken from `lazy_mnist.ml <https://github.com/owlbarn/owl/blob/master/examples/lazy_mnist.ml>`_. Comparing to the original network which has 201 nodes, 239 edges, the optimised one contains only 103 nodes, 140 edges.
+
+
 Engine functor sits on top of the stack, this is where a computation graph finally gets executed. Engine functor contains two sub modules, one for initialising the graph and the other for evaluating graph.
 
 Before we finish this section, we can try the following snippet in ``utop``. Both snippets generate a module for DNN applications, the difference is that the first one uses the old stack whereas the second one uses the new stack with computation graph.

@@ -52,6 +52,14 @@ Here is a list of ongoing and finished Owl-related projects, as well as some exa
 * `Neural Style Transfer Demo <http://138.68.155.178/neuraltrans.html>`_
 
 
+
+Funding
+-------------------------------------------------
+
+Seek for funding at the moment ...
+
+
+
 Contact Me
 -------------------------------------------------
 
