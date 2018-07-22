@@ -6,13 +6,24 @@
 OCaml Scientific Computing
 =================================================
 
-Owl is a dedicated library for scientific and engineering computing. It is designed in the functional programming language OCaml, and aims to provide programmers a powerful numerical framework to write concise, high-performance and type-safe applications.
+Owl is a dedicated library for scientific and engineering computing. It is designed in the functional programming language OCaml.
 
-The project is my on-going research in the `Computer Lab <http://www.cl.cam.ac.uk/>`_, University of Cambridge. You can fork my project code on the `Github Repository <https://github.com/ryanrhymes/owl>`_.
+The project is based on the on-going research led by Liang Wang in the `Computer Lab <http://www.cl.cam.ac.uk/>`_. The source code is `{licensed under MIT} <https://github.com/owlbarn/owl/blob/master/LICENSE.md>`_ and hosted on the `{Github Repository} <https://github.com/ryanrhymes/owl>`_.
 
 
 
-Tutorial Book
+Mission
+-------------------------------------------------
+
+Our mission is to impact how we develop future analytical applications by building a high-performance and robust numerical system in functional programming language. The system aims to serve as the de-facto tool for scientific and engineering computing in OCaml.
+
+Owl should fully implement advanced numerical methods, with inherent support for parallel and distributed computing, as well as a complete set of tooling from designing, prototyping, and deploying modern numerical applications. The project provides both researchers and industry programmers a powerful framework to write concise, fast and safe analytical code.
+
+The project should also produce comprehensive learning materials to promote OCaml learning. We hope the project can help more people in learning OCaml by offering them a "numerical path" to functional programming world.
+
+
+
+Learning
 -------------------------------------------------
 
 The full documentation consists of two parts. You can access both parts from the current page. The first part is a `Tutorial Book` which starts with a brief introductory of the OCaml language followed by a comprehensive tour of the overall system with many examples and explanations. This part is mostly written by hand.
@@ -29,9 +40,6 @@ The full documentation consists of two parts. You can access both parts from the
    chapter/index
 
 
-API Reference
--------------------------------------------------
-
 The second part is the `API Reference` built automatically from Owl's repository by the `parser` I wrote. The API Reference cover the important functions and provides links to the source code form many functions in the library.
 
 .. toctree::
@@ -41,10 +49,10 @@ The second part is the `API Reference` built automatically from Owl's repository
 
 
 
-Projects & Showcases
+Projects
 -------------------------------------------------
 
-Here is a list of ongoing and finished Owl-related projects, as well as some examples to showcase Owl's capability.
+Here is a list of on-going and finished Owl-related projects, as well as some examples to showcase Owl's capability.
 
 * :doc:`chapter/project`
 * :doc:`project/finished`
@@ -56,14 +64,14 @@ Here is a list of ongoing and finished Owl-related projects, as well as some exa
 Funding
 -------------------------------------------------
 
-Seek for funding at the moment ...
+We are actively seeking for funding opportunities to support our research and development. If you find our work useful and valuable, please consider either donation or funding us directly. This will help us in focusing on building most powerful system for modern scientific computing in OCaml.
 
 
 
 Contact Me
 -------------------------------------------------
 
-You can reach me in the following ways, looking forward to hearing from you!
+You can reach me in the following ways. With regards to funding and collaboration, email is preferred. I am looking forward to hearing from you!
 
 * `Email Me <mailto:liang@ocaml.xyz>`_
 * `Slack Channel <https://join.slack.com/t/owl-dev-team/shared_invite/enQtMjQ3OTM1MDY4MDIwLTA3MmMyMmQ5Y2U0NjJiNjI0NzFhZDAwNGFhODBmMTk4N2ZmNDExYjZiMzI2N2M1MGNiMTUyYTQ5MTAzZjliZDI>`_
