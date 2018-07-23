@@ -138,7 +138,7 @@ There are also functions allow you to retrieve the properties.
 
 .. code-block:: ocaml
 
-  val copy : t -> t          (* copy the dataframe. *)
+  val copy : t -> t          (* return the copy of a dataframe. *)
   val row_num : t -> int     (* return the number of rows. *)
   val col_num : t -> int     (* return the number of columns. *)
   val shape : t -> int * int (* return the shape. *)
@@ -162,7 +162,9 @@ We can use various functions in the module to retrieve the information from a da
   (* return Carol's age, i.e. 30 *)
 
 
-Because each column has a name, we can also use head to retries information. However, we still need to pass in the row index because rows are not associated with names.
+``get_row`` and ``get_col`` (also ``get_col_by_name``) are used to obtain a complete row or column. For multiple rows and columns, there are also corresponding ``get_rows`` and ``get_cols_by_name``.
+
+Because each column has a name, we can also use head to retrieves information. However, we still need to pass in the row index because rows are not associated with names.
 
 
 .. code-block:: ocaml
@@ -178,6 +180,13 @@ We can use ``head`` and ``tail`` functions to retrieve only the beginning or end
 
   Dataframe.get_slice_by_name ([1;2], ["name"; "age"]) frame;;
   (* return Bob's and Carol's name and age *)
+
+
+
+Iterate, Map, and Filter
+-------------------------------------------------
+
+How can we miss the classic iteration functions in the functional programming? Dataframe module implements ...
 
 
 
