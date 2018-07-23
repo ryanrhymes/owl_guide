@@ -26,7 +26,7 @@ Our mission is to impact how we develop future analytical applications by buildi
 
 Owl should fully implement advanced numerical methods, with inherent support for parallel and distributed computing, as well as a complete set of tooling from designing, prototyping, and deploying modern numerical applications. The project provides both researchers and industry programmers a powerful framework to write concise, fast and safe analytical code.
 
-The project should also produce comprehensive learning materials to promote OCaml learning. We hope the project can help more people in learning OCaml by offering them a "numerical path" to functional programming world.
+The project should also produce comprehensive learning materials to promote OCaml learning. We hope the project can help more people in learning OCaml by offering them a "numerical path" to the functional programming world.
 
 
 
