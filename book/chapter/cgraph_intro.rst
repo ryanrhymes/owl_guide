@@ -29,7 +29,7 @@ The computation graph can be either implicitly constructed or explicitly declare
 
 Dynamic graph is constructed during the runtime. Due to operator overloading, its construction can be naturally blended with a language's native constructs such as ``if ... else ...`` and ``for`` loops. This renders greatest flexibility and expressiveness. On the other hand, a static graph needs to be declared using a specific DSL (which has a steeper learning curve). Because the structure of a graph is already known during the compilation phase, there is a great space for optimisation. However, static graphs sometimes make it difficult to express conditions and loops when using with native code together.
 
-As we can see, the flexibility of a dynamic graph comes with the price of lower performance. Facebook's Pytorch and Google's TensorFlow are the typical examples of dynamic and static graph respectively. Interestingly, Owl does something slightly different these two in order to get the best parts of both world, we will detail this in the following.
+As we can see, the flexibility of a dynamic graph comes with the price of lower performance. Facebook's Pytorch and Google's TensorFlow are the typical examples of dynamic and static graph respectively. Interestingly, Owl does something slightly different from these two in order to get the best parts of both world, we will detail this in the following.
 
 
 
@@ -104,7 +104,7 @@ The list below summarises the functionality of each functor. The order and namin
 
 Why the magic can happen? Simply put, the injected computation graph stack provides an abstraction layer similar to symbolic maths. The original eager evaluation becomes symbolic operation (or graph construction) therefore they can be lazily evaluated.
 
-The shape inference functionality is able to infer the data shape of every node in a graph from its input. This allows Owl to calculate how much memory is required to evaluate the graph and pre-allocate this space. Owl can further track the reference number of each function node and reuse the allocated memory as much as possible, which reduces both memory footprint but Garbage Collector (GC) overhead, significantly improves the computation speed.
+The shape inference functionality is able to infer the data shape of every node in a graph from its input. This allows Owl to calculate how much memory is required to evaluate the graph and pre-allocate this space. Owl can further track the reference number of each function node and reuse the allocated memory as much as possible, which reduces both memory footprint and Garbage Collector (GC) overhead, significantly improves the computation speed.
 
 The Optimiser functor searches for various structural patterns in a graph, removes unnecessary computations and fusing computation nodes if possible. All the patterns are defined in `owl_computation_optimiser.ml <https://github.com/owlbarn/owl/blob/master/src/base/compute/owl_computation_optimiser.ml>`_, and it is very straightforward to plug in more patterns to extend Optimiser's capability. Here are some example patterns.
 
@@ -191,7 +191,7 @@ From implementation perspective, we only need to write a new engine functor for 
 JIT - From Dynamic to Static
 -------------------------------------------------
 
-Recall the tradeoff between dynamic and static graph I mentioned before, i.e. flexibility vs efficiency. Many programmers need to make a decision between Google's TensorFlow and Facebook's Pytorch. A common practice is -- "using Pytorch at home and using TensorFlow in the company", In other words, Pytorch is preferred for prototyping and TensorFlow is ideal for production use. Can we get the best part of both worlds?
+Recall the tradeoff between dynamic and static graph I mentioned before, i.e. flexibility vs efficiency. Many programmers need to make a decision between Google's TensorFlow and Facebook's Pytorch. A common practice is -- "using Pytorch at home and using TensorFlow in the company", In other words, Pytorch is preferred for prototyping and TensorFlow is ideal for production use. Can we get the best parts of both worlds?
 
 It turns out, for a specific type of applications like DNN, we can! Owl achieves this by converting a dynamic graph into static one in the runtime. The motivation is based on a very important observation -- in many cases, a computation graph is continuously re-evaluated after its construction. This is especially true for those iterative optimisation algorithms, we only update some inputs of the graph in each iteration.
 
