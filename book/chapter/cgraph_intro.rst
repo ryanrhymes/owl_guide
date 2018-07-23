@@ -23,7 +23,7 @@ Here is an example graph for calculating function ``sin (x * y)``.
    :alt: computation graph
 
 
-The generated computation graph contains several pieces of information which are essential for debugging the applications. These information includes node index, operation type, reference counter, and shapes of data. In the figure above, we can see the row vector ``x`` of shape [1; 4] is broadcasted on the matrix ``y`` of shape [8; 4] in ``Add`` operation.
+The generated computation graph contains several pieces of information which are essential for debugging the applications. These information includes node index, operation type, reference counter, and shapes of data. In the figure above, we can see the row vector ``y`` of shape [1; 4] is broadcasted on the matrix ``x`` of shape [8; 4] in ``Mul`` operation.
 
 The computation graph can be either implicitly constructed or explicitly declared in the code. Often, implicit construction is done by operator overloading while explicit declaration uses domain specific languages (DSL). The two methods lead to two different kinds of computation graphs -- *dynamic* and *static graph*, each has its own pros and cons.
 
@@ -184,7 +184,7 @@ Programming a GPU is very much like programming a computer cluster. The gain of 
 
 When offloading the computation to a GPU, we should avoid transmitting data back and forth between the host and the device memory, so eager evaluation is not ideal in this context because the performance will be throttled by copying. This is the gap between CPU computing and a language with eager evaluation. Computation graph essentially fills the gap between Owl and GPU computing simply because the laziness can be simulated now.
 
-From implementation perspective, we only need to write a new engine functor for GPU devices to evaluate graph, all the others remain the same. I am currently working on the `OpenCL engine <https://github.com/owlbarn/owl/blob/master/src/opencl/compute/owl_computation_opencl_engine.ml>`_. The amount of code for implementing OpenCL engine is surprisingly small, only around 700 ~ 900 LOC. Comparing to the `CPU engine <https://github.com/owlbarn/owl/blob/master/src/base/compute/owl_computation_cpu_engine.ml>`_, the OpenCL engine maintains the memory allocated on both host and device for each node, copying only happens whenever it is necessary, the allocated memory on the device is reused as much as possible.
+From implementation perspective, we only need to write a new engine functor for GPU devices to evaluate a graph, all the others remain the same. I am currently working on the `OpenCL engine <https://github.com/owlbarn/owl/blob/master/src/opencl/compute/owl_computation_opencl_engine.ml>`_. The amount of code for implementing OpenCL engine is surprisingly small, only around 700 ~ 900 LOC. Comparing to the `CPU engine <https://github.com/owlbarn/owl/blob/master/src/base/compute/owl_computation_cpu_engine.ml>`_, the OpenCL engine maintains the memory allocated on both host and device for each node, copying only happens whenever it is necessary, the allocated memory on the device is reused as much as possible.
 
 
 
