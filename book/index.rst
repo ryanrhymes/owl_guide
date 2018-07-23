@@ -6,7 +6,7 @@
 OCaml Scientific Computing
 =================================================
 
-Owl is a dedicated library for scientific and engineering computing. It is designed in the functional programming language OCaml.
+Owl is a dedicated system for scientific and engineering computing. It is designed in the functional programming language OCaml. The project goal is to build a state-of-the-art platform for developing modern data analytical applications.
 
 The project is based on the on-going research led by Liang Wang in the `Computer Lab <http://www.cl.cam.ac.uk/>`_. The source code is `{licensed under MIT} <https://github.com/owlbarn/owl/blob/master/LICENSE.md>`_ and hosted on the `{Github Repository} <https://github.com/ryanrhymes/owl>`_.
 
