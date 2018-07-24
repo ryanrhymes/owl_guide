@@ -139,10 +139,15 @@ There are also functions allow you to retrieve the properties.
 .. code-block:: ocaml
 
   val copy : t -> t          (* return the copy of a dataframe. *)
+
   val row_num : t -> int     (* return the number of rows. *)
+
   val col_num : t -> int     (* return the number of columns. *)
+
   val shape : t -> int * int (* return the shape of a dataframe. *)
+
   val numel : t -> int       (* return the number of elements. *)
+  
   ...
 
 
