@@ -36,7 +36,7 @@ Part II: Owl Numerical System
    case_inception
    case_nst
    community
-   project
+   ../project/proposal
    ../project/finished
    howto
    reference
