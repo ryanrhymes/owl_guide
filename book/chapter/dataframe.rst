@@ -141,7 +141,7 @@ There are also functions allow you to retrieve the properties.
   val copy : t -> t          (* return the copy of a dataframe. *)
   val row_num : t -> int     (* return the number of rows. *)
   val col_num : t -> int     (* return the number of columns. *)
-  val shape : t -> int * int (* return the shape. *)
+  val shape : t -> int * int (* return the shape of a dataframe. *)
   val numel : t -> int       (* return the number of elements. *)
   ...
 
@@ -186,7 +186,137 @@ We can use ``head`` and ``tail`` functions to retrieve only the beginning or end
 Iterate, Map, and Filter
 -------------------------------------------------
 
-How can we miss the classic iteration functions in the functional programming? Dataframe module implements ...
+How can we miss the classic iteration functions in the functional programming? Dataframe includes the following methods to traverse the rows in a dataframe. I did not include any method to traverse columns because they can be simply extracted out as series then processed separately.
+
+.. code-block:: ocaml
+
+  val iteri_row : (int -> elt array -> unit) -> t -> unit
+
+  val iter_row :  (elt array -> unit) -> t -> unit
+
+  val mapi_row : (int -> elt array -> elt array) -> t -> t
+
+  val map_row : (elt array -> elt array) -> t -> t
+
+  val filteri_row : (int -> elt array -> bool) -> t -> t
+
+  val filter_row : (elt array -> bool) -> t -> t
+
+  val filter_mapi_row : (int -> elt array -> elt array option) -> t -> t
+
+  val filter_map_row : (elt array -> elt array option) -> t -> t
+
+
+Applying these functions to a dataframe is rather straightforward. All the elements in a row are packed into ``elt`` type, it is a programmer's responsibility to unpack them properly in the passed in function.
+
+The interesting thing worth mentioning here is that there are several functions are associated with extended indexing operators. This allows us to write quite concise code in our application.
+
+
+.. code-block:: ocaml
+
+  val ( .%( ) ) : t -> int * string -> elt
+  (* associated with ``get_by_name`` *)
+
+  val ( .%( )<- ) : t -> int * string -> elt -> unit
+  (* associated with ``set_by_name`` *)
+
+  val ( .?( ) ) : t -> (elt array -> bool) -> t
+  (* associated with ``filter_row`` *)
+
+  val ( .?( )<- ) : t -> (elt array -> bool) -> (elt array -> elt array) -> t
+  (* associated with ``filter_map_row`` *)
+
+  val ( .$( ) ) : t -> int list * string list -> t
+  (* associated with ``get_slice_by_name`` *)
+
+
+Let me present several examples to demonstrate how to use them. We can first pass in row index and head name tuple in ``%()`` to access cells.
+
+
+.. code-block:: ocaml
+
+  frame.%(1,"age");;
+  (* return Bob's age. *)
+
+  frame.%(2,"salary") <- pack_float 3000.;;
+  (* change Carol's salary to 3000. *)
+
+
+``.?()`` provides a shortcut to filter out the rows satisfying the passed-in predicate and returns the results in a new dataframe. For example, the following code filters out the people who are younger than 30.
+
+
+.. code-block:: ocaml
+
+  frame.?(fun r -> unpack_int r.(1) < 30);;
+
+
+The output should look like this.
+
+
+.. code-block:: text
+
+  val frame : Owl_dataframe.t =
+
+    +-----+---+------
+      name age salary
+    +-----+---+------
+  R0 Alice  20  2200.
+  R1   Bob  25  2100.
+  R2  Erin  22  2300.
+  R3  Erin  22  2300.
+
+
+It is also possible to filter out some rows then make some modifications. For example, we want to filter out those people older than 25, then raise their salary by 5%. We can achieve this in two ways. First, we can use ``filter_map_row`` functions.
+
+
+.. code-block:: ocaml
+
+  let predicate x =
+    let age = unpack_int x.(1) in
+    if age > 25 then (
+      let old_salary = unpack_float x.(2) in
+      let new_salary = pack_float (old_salary *. 1.1) in
+      x.(2) <- new_salary;
+      Some x
+    )
+    else
+      None
+  ;;
+
+  filter_map_row predicate frame;;
+
+
+Alternatively, we can use ``.?( )<-`` indexing operator. The difference is that we now need to define two functions - one for checking the predicate and one for modifying the row.
+
+
+.. code-block:: ocaml
+
+  let check x = unpack_int x.(1) > 25;;
+
+  let modify x =
+    let old_salary = unpack_float x.(2) in
+    let new_salary = pack_float (old_salary *. 1.1) in
+    x.(2) <- new_salary;
+    x;;
+
+  frame.?(check) <- modify;;
+
+
+Running the code will give you the same result as that of calling ``filter_map_row`` function, but the way of structuring code becomes slightly different.
+
+Finally, you can also use ``$.()`` operator to replace ``get_slice_by_name`` function to retrieve a slice of dataframe.
+
+
+.. code-block:: ocaml
+
+  frame.$([0;2], ["name"; "salary"]);;
+
+
+
+Read/Write CSV Files
+-------------------------------------------------
+
+The module provides several simple functions to process CSV files.
 
 
 
