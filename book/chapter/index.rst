@@ -33,6 +33,7 @@ Part II: Owl Numerical System
    metric
    test
    nlp
+   perfcmp
    case_inception
    case_nst
    community
