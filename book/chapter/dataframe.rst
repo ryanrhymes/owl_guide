@@ -147,7 +147,7 @@ There are also functions allow you to retrieve the properties.
   val shape : t -> int * int (* return the shape of a dataframe. *)
 
   val numel : t -> int       (* return the number of elements. *)
-  
+
   ...
 
 
@@ -271,6 +271,15 @@ The output should look like this.
   R3  Erin  22  2300.
 
 
+The cool thing about ``.?()`` is that you can chain the filters up like below. The code first filters out the people younger than 30, then further filter out whose salary is higher than 2100.
+
+
+.. code-block:: ocaml
+
+  frame.?(fun r -> unpack_int r.(1) < 30)
+       .?(fun r -> unpack_float r.(2) > 2100.);;
+
+
 It is also possible to filter out some rows then make some modifications. For example, we want to filter out those people older than 25, then raise their salary by 5%. We can achieve this in two ways. First, we can use ``filter_map_row`` functions.
 
 
@@ -291,7 +300,7 @@ It is also possible to filter out some rows then make some modifications. For ex
   filter_map_row predicate frame;;
 
 
-Alternatively, we can use ``.?( )<-`` indexing operator. The difference is that we now need to define two functions - one for checking the predicate and one for modifying the row.
+Alternatively, we can use ``.?( )<-`` indexing operator. The difference is that we now need to define two functions - one (i.e. ``check`` function) for checking the predicate and one (i.e. ``modify`` function) for modifying the passed-in rows.
 
 
 .. code-block:: ocaml
@@ -321,11 +330,85 @@ Finally, you can also use ``$.()`` operator to replace ``get_slice_by_name`` fun
 Read/Write CSV Files
 -------------------------------------------------
 
-The module provides several simple functions to process CSV files.
+CSV (Comma-Separated Values) is a common format to store tabular data. The module provides simple support to process CSV files. The two core functions are as follows.
+
+
+.. code-block:: ocaml
+
+  val of_csv : ?sep:char -> ?head:string array -> ?types:string array -> string -> t
+
+  val to_csv : ?sep:char -> t -> string -> unit
+
+
+``of_csv`` function loads a CSV file into in-memory dataframe while ``to_csv`` writes a dataframe into CSV file on the disk. In both functions, we can use ``sep`` to specify the separator, the default separator is `tab` in Owl.
+
+For ``of_csv`` function, you can pass in the head names using ``head`` argument, otherwise the first row of the CSV file will be used as head. ``types`` argument is used to specify the type of each column in a CSV file. If ``types`` is dropped, all the column will be treated as string series by default. Note the length of both ``head`` and ``types`` must match the actual number of columns in the CSV file.
+
+The mapping between ``types`` string and actual OCaml type is below.
+
+- ``b``: boolean values;
+- ``i``: integer values;
+- ``f``: float values;
+- ``s``: string values;
+
+
+In the following examples, we will use Zoo system to load `a gist <http://gist.github.com/3de010940ab340e3d2bfb564ecd7d6ba>`_ which contains several example CSV files. Please make sure you have Zoo system properly installed on your machine.
+
+
+The first example simply loads the `funding.csv` file into a dataframe, then pretty prints out the table.
+
+
+.. code-block:: ocaml
+
+  let example_01 gist_path =
+    let fname = gist_path ^ "funding.csv" in
+    let types =  [|"s";"s";"f";"s";"s";"s";"s";"f";"s";"s"|] in
+    let df = Dataframe.of_csv ~sep:',' ~types fname in
+    Owl_pretty.pp_dataframe Format.std_formatter df
+
+
+The result should look like this. I have truncated out some rows to save space here.
+
+
+.. code-block:: text
+
+       +-----------------+-----------------+-------+---------+-------------+-----+----------+----------+--------------+------------
+                permalink           company numEmps  category          city state fundedDate  raisedAmt raisedCurrency        round
+       +-----------------+-----------------+-------+---------+-------------+-----+----------+----------+--------------+------------
+     R0          lifelock          LifeLock     nan       web         Tempe    AZ   1-May-07   6850000.            USD            b
+     R1          lifelock          LifeLock     nan       web         Tempe    AZ   1-Oct-06   6000000.            USD            a
+     R2          lifelock          LifeLock     nan       web         Tempe    AZ   1-Jan-08  25000000.            USD            c
+     R3       mycityfaces       MyCityFaces      7.       web    Scottsdale    AZ   1-Jan-08     50000.            USD         seed
+     R4          flypaper          Flypaper     nan       web       Phoenix    AZ   1-Feb-08   3000000.            USD            a
+     R5      infusionsoft      Infusionsoft    105.  software       Gilbert    AZ   1-Oct-07   9000000.            USD            a
+                      ...               ...     ...       ...           ...   ...        ...        ...            ...          ...
+  R1450              cozi              Cozi     26.  software       Seattle    WA   1-Jun-08   8000000.            USD            c
+  R1451           trusera           Trusera     15.       web       Seattle    WA   1-Jun-07   2000000.            USD        angel
+  R1452        alerts-com        Alerts.com     nan       web      Bellevue    WA   8-Jul-08   1200000.            USD            a
+  R1453             myrio             Myrio     75.  software       Bothell    WA   1-Jan-01  20500000.            USD unattributed
+  R1454     grid-networks     Grid Networks     nan       web       Seattle    WA  30-Oct-07   9500000.            USD            a
+  R1455     grid-networks     Grid Networks     nan       web       Seattle    WA  20-May-08  10500000.            USD            b
+
+
+The second example is slightly more complicated. It loads `estate.csv` file then filters out the some rows with two predicates. You can see how the two predicates are chained up with ``.?()`` indexing operator.
+
+
+.. code-block:: ocaml
+
+  let example_05 gist_path =
+    let fname = gist_path ^ "estate.csv" in
+    let d = (of_csv ~sep:',' fname)
+      .?(fun row -> (unpack_string row.(7)) = "Condo"
+      .?(fun row -> (unpack_string row.(4)) = "2")
+    in
+    Owl_pretty.pp_dataframe Format.std_formatter d2
+
+
+For the other examples, please refer to this Zoo gist `dataframe.ml <https://github.com/owlbarn/owl/blob/master/examples/dataframe.ml>`_.
 
 
 
 What Is Next
 -------------------------------------------------
 
-Discuss about future development ...
+Comparing to those very mature libraries like Pandas, the Dataframe module in Owl is very young. I also try to keep its functionality minimal in the beginning to reserve enough space for future adjustment. From my point of view, dataframe should only offer a minimal set of table manipulation functions, its analytical capability should come from the combination with other modules (e.g. `Stats`) in Owl.
