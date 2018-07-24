@@ -37,5 +37,6 @@ Part II: Owl Numerical System
    case_nst
    community
    project
+   ../project/finished
    howto
    reference
