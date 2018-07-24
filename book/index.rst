@@ -61,7 +61,7 @@ Projects
 
 Here is a list of on-going and finished Owl-related projects, as well as some examples to showcase Owl's capability.
 
-* :doc:`chapter/project`
+* :doc:`project/proposal`
 * :doc:`project/finished`
 * `Google Inception Demo <http://138.68.155.178/index.html>`_
 * `Neural Style Transfer Demo <http://138.68.155.178/neuraltrans.html>`_
