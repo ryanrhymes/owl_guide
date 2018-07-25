@@ -3,9 +3,9 @@ Interacting with Owl
 
 There are several ways to interact with Owl system. The most classic one is to write an OCaml application, compile the code, then run it natively on a computer. You can also skip the compilation step, and use Zoo system to run the code as a script.
 
-However, the easiest way for a beginner to try out Owl is REPL (Read–Eval–Print Loop), or an interactive toplevel. The toplevel offers a convenient way to play with small code snippets. The code run in the toplevel is compiled into bytecode rather than native code. Bytecode runs slower than native code. However, this has very little impact on Owl's performance because its performance-critical code are all implemented in C functions.
+However, the easiest way for a beginner to try out Owl is REPL (Read–Eval–Print Loop), or an interactive toplevel. The toplevel offers a convenient way to play with small code snippets. The code run in the toplevel is compiled into bytecode rather than native code. Bytecode often runs much slower than native code. However, this has very little impact on Owl's performance because all its performance-critical functions are implemented in C language.
 
-In the following, I will introduce two options to set up a toplevel environment for Owl.
+In the following, I will introduce two options to set up an interactive environment for Owl.
 
 
 
