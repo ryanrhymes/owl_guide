@@ -8,6 +8,7 @@ Part II: Owl Numerical System
 
    intro
    install
+   interact
    arch
    basics
    ndarray
