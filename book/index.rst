@@ -22,7 +22,7 @@ We are actively seeking for funding opportunities to support our research and de
 Mission
 -------------------------------------------------
 
-Our mission is to impact how we develop future analytical applications by building a high-performance and robust numerical system in functional programming language. The system aims to serve as the de-facto tool for scientific and engineering computing in OCaml.
+Our mission is to push the frontier of high-performance scientific computing, and impact how we develop future analytical applications by building a robust numerical system in the functional programming language. The system aims to serve as the de-facto tool for computation intensive tasks in OCaml.
 
 Owl should fully implement advanced numerical methods, with inherent support for parallel and distributed computing, as well as a complete set of tooling from designing, prototyping, and deploying modern numerical applications. The project provides both researchers and industry programmers a powerful framework to write concise, fast and safe analytical code.
 
