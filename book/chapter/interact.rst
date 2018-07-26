@@ -102,7 +102,7 @@ You can simply copy & paste the whole `lazy_mnist.ml <https://github.com/owlbarn
   make_network [|28;28;1|];;
 
 
-Jupyter notebook should be nicely print out the structure of the neural network.
+Jupyter notebook should nicely print out the structure of the neural network.
 
 
 .. figure:: ../figure/jupyter_example_01.png
