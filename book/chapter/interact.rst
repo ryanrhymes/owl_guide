@@ -70,12 +70,7 @@ When everything is up and running, you can start a new notebook in the web inter
 
 At this point, a complete Owl environment is set up in the Jupyter Notebook, and you are free to go with any experiments you like.
 
-
-
-Notebook Examples
--------------------------------------------------
-
-You can simply copy & paste the whole `lazy_mnist.ml <https://github.com/owlbarn/owl/blob/master/examples/lazy_mnist.ml>`_ to train a convolutional neural network in the notebook. But here, let us just use the following code.
+For example, you can simply copy & paste the whole `lazy_mnist.ml <https://github.com/owlbarn/owl/blob/master/examples/lazy_mnist.ml>`_ to train a convolutional neural network in the notebook. But here, let us just use the following code.
 
 
 .. code-block:: ocaml
@@ -113,7 +108,7 @@ Jupyter notebook should nicely print out the structure of the neural network.
    :alt: jupyter example 01
 
 
-Second example demonstrates how to plot figures in notebook. Because Owl's Plot module does not support in-memory plotting, the figure needs to be written into a file first then read back as a string. In-memory plotting is not difficult to implement at all so I will certainly add this in future, at the moment we can just use ``Owl_io.read_file_string``.
+Second example demonstrates how to plot figures in notebook. Because Owl's Plot module does not support in-memory plotting, the figure needs to be written into a file first then passed to ``Jupyter_notebook.display_file`` to render.
 
 
 .. code-block:: ocaml
@@ -138,8 +133,7 @@ Second example demonstrates how to plot figures in notebook. Because Owl's Plot 
 
   (* Load into memory and display in Jupyter *)
 
-  let data = Owl_io.read_file_string "plot_003.png" in
-  Jupyter_notebook.display ~base64:true "image/png" data
+  Jupyter_notebook.display_file ~base64:true "image/png" "plot_003.png"
 
 
 Then we can see the plot is correctly rendered in the notebook running in your browser. Plotting capability greatly enriches the content of an interactive presentation.
@@ -149,3 +143,38 @@ Then we can see the plot is correctly rendered in the notebook running in your b
    :scale: 50 %
    :align: center
    :alt: jupyter example 02
+
+
+
+Using owl-jupyter
+-------------------------------------------------
+
+There is a convenient library `owl-jupyter` specifically for running Owl in a notebook. The library is a thin wrapper of ``owl-top``. The biggest difference is that it overwrites ``Plot.output`` function so the figure is automatically rendered in the notebook without calling ``Jupyter_notebook.display_file``.
+
+This means that all the plotting code can be directly used in the notebook without any modifications. Please check the following example and compare it with the previous plotting example, we can see ``display_file`` call is saved.
+
+
+.. code-block:: ocaml
+
+  #use "topfind";;
+  #require "owl-jupyter";;
+  open Owl_jupyter;;
+
+  let f x = Maths.sin x /. x in
+  let g x = Maths.cos x /. x in
+  let h = Plot.create "" in
+  Plot.set_foreground_color h 0 0 0;
+  Plot.set_background_color h 255 255 255;
+  Plot.set_pen_size h 3.;
+  Plot.plot_fun ~h f 1. 15.;
+  Plot.plot_fun ~h g 1. 15.;
+  Plot.output h;;
+
+
+One thing worth noting is that, if you pass in empty string in ``Plot.create`` function, the figure is only rendered in the browser. If you pass in non-empty string, then the figure is both rendered in the browser and saved into the file you specified. This is to guarantee ``output`` function has the consistent behaviour when used in or out of a notebook.
+
+
+.. figure:: ../figure/jupyter_example_03.png
+   :scale: 50 %
+   :align: center
+   :alt: jupyter example 03
