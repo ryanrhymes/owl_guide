@@ -57,7 +57,7 @@ To start a Jupyter notebook, you can run this command. The command starts a loca
   jupyter notebook
 
 
-If you want to run a notebook server remotely, please refer to `{Running a notebook server} <http://jupyter-notebook.readthedocs.io/en/stable/public_server.html>`_. If you want to set up a server for multiple users, please refer to `{JupyterHub} <https://jupyterhub.readthedocs.io/en/latest/>`_ system.
+If you want to run a notebook server remotely, please refer to `"Running a notebook server" <http://jupyter-notebook.readthedocs.io/en/stable/public_server.html>`_. If you want to set up a server for multiple users, please refer to `JupyterHub <https://jupyterhub.readthedocs.io/en/latest/>`_ system.
 
 When everything is up and running, you can start a new notebook in the web interface. In the new notebook, you must run the following OCaml code in the first input field to load Owl environment.
 
