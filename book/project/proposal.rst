@@ -118,3 +118,15 @@ For most data analysts and scientists, their daily job deals with data processin
 This project uses Owl as its underlying numerical platform and focusses on developing practical algorithms to handle various data sets. The goal is to provide an efficient and elegant data abstraction layer to other components in Owl.
 
 Another focus is to further develop data visualisation component in Owl. The algorithms of interest range from the basic plots used in classic statistical analysis such as qqplot to the state-of-the-art visualisation techniques such as t-SNE to visualise high-dimensional data. If you are interested in data processing and visualisation, please contact me.
+
+
+Project 12. A Parliament of Owls on Cloud
+-------------------------------------------------------------------------------
+
+TODO: Add description .... design and implement the cloud version of Owl.
+
+
+Project 13. Web GUI of Owl
+-------------------------------------------------------------------------------
+
+TODO: Add description .... design and implement the web GUI for Owl.
