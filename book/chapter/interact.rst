@@ -57,7 +57,7 @@ To start a Jupyter notebook, you can run this command. The command starts a loca
   jupyter notebook
 
 
-When the everything is up and running, you can start a new notebook in the web interface. In the new notebook, you must run the following OCaml code in the first input field to load Owl environment.
+When everything is up and running, you can start a new notebook in the web interface. In the new notebook, you must run the following OCaml code in the first input field to load Owl environment.
 
 
 .. code-block:: bash
