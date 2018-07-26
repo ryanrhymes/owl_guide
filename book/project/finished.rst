@@ -53,3 +53,21 @@ Composing Data Analytical Services
 By **Jianxin Zhao** | PhD | June 2018 | `{ArXiv 1805} <https://arxiv.org/abs/1805.05995>`_
 
 Data analytics on the cloud is known to have issues such as increased response latency, communication cost, single point failure, and data privacy concerns. While moving analytics from cloud to edge devices has recently gained rapid growth in both academia and industry, this topic still faces many challenges such as limited computation resource on the edge. In this report, we further identify two main challenges: the composition and deployment of data analytics services on edge devices. Initially, the Zoo system is designed to make it convenient for developers to share and execute their OCaml code snippets, with fine-grained version control mechanism. We then extend it to address those two challenges. On one hand, Zoo provides simple domain-specific language and high-level types to enable easy and type-safe composition of different data analytics services. On the other hand, it utilises multiple deployment backends, including Docker container, JavaScript, and MirageOS, to accommodate the heterogeneous edge deployment environment. We demonstrate the expressiveness of Zoo with a use case, and thoroughly compare the performance of different deployment backends in evaluation.
+
+
+
+The Design and Optimiation of Computation Graph
+-------------------------------------------------
+
+By **Liang Wang** | PhD | June 2018 | `{Techreport 01} <https://ocaml.xyz>`_
+
+TODO: Add description
+
+
+
+The Design of Dataframe for Tabluar Data
+-------------------------------------------------
+
+By **Liang Wang** | PhD | June 2018 | `{Techreport 02} <https://ocaml.xyz>`_
+
+TODO: Add description
