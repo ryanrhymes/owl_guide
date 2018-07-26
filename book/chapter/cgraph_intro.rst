@@ -90,7 +90,7 @@ The left figure shows part of Owl's original functor stack, and the right one sh
 
 The functor stack of computation graph is injected between ``Ndarray`` and ``Algodiff``. **The design principle is that the functor stack of a numerical system should be parameterised by both number type and device type.** Number type provides data representation (real or complex, single or double, row-based or column-based layout, etc.) which decides how a maths construct should be built and operated. Device type provides hardware representation (CPU, GPU, FPGA, etc.) which decides how the computation should be performed on a specific device.
 
-The list below summarises the functionality of each functor. The order and naming of these functors can already give you a rough understand about how it is designed.
+The list below summarises the functionality of each functor. The order and naming of these functors can already give you a rough understanding about how it is designed.
 
 - ``Device``: device abstraction contains device-dependent types and functions.
 - ``Type``: type definition of various (mathematical) operations.
