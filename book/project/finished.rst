@@ -56,7 +56,7 @@ Data analytics on the cloud is known to have issues such as increased response l
 
 
 
-The Design and Optimiation of Computation Graph
+The Optimisation of Computation Graph
 -------------------------------------------------
 
 By **Liang Wang** | PhD | June 2018 | `{Techreport 01} <https://ocaml.xyz>`_
