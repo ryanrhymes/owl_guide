@@ -408,6 +408,34 @@ For the other examples, please refer to this Zoo gist `dataframe.ml <https://git
 
 
 
+Infer Type and Separator
+-------------------------------------------------
+
+I want to devote a bit more text on CSV files. In the previous section, when we use `of_csv` function to load a CSV file, we explicitly pass in the separator and the types of all columns to the function. However, both parameters are optional and can be skipped.
+
+Dataframe is able to automatically detect the correct separator and the type of each column. Of course, it is possible that the detection may fail but such probability is fairly low in many cases. Technically, Dataframe first tries a set of predefined separator to see which one can correctly separate the columns, then it tries a sequence of types to find out which one is able to correctly unpack the elements of a column.
+
+There are several technical things worth mentioning here.
+
+- To be efficient, Dataframe only takes maximum the first 100 lines in the CSV file for inference.
+- If there are missing values in a column of integer type, it falls back to float value because we can use ``nan`` to represent missing values.
+- If the types have been decided based on the first 100 lines, any following lines containing the data of inconsistent type will be dropped.
+
+With this capability, it is much easier to load a CSV to quickly investigate what is inside.
+
+
+.. code-block:: ocaml
+
+  let example_06 gist_path =
+    let fname = gist_path ^ "estate.csv" in
+    let df = Dataframe.of_csv fname in
+    Owl_pretty.pp_dataframe Format.std_formatter df
+
+
+You can use ``Dataframe.types`` function to retrieve the types of all columns in a dataframe.
+
+
+
 What Is Next
 -------------------------------------------------
 
