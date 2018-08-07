@@ -411,9 +411,9 @@ For the other examples, please refer to this Zoo gist `dataframe.ml <https://git
 Infer Type and Separator
 -------------------------------------------------
 
-I want to devote a bit more text on CSV files. In the previous section, when we use `of_csv` function to load a CSV file, we explicitly pass in the separator and the types of all columns to the function. However, both parameters are optional and can be skipped.
+I want to devote a bit more text to CSV files. In the previous section, when we use ``of_csv`` function to load a CSV file, we explicitly pass in the separator and the types of all columns. However, both parameters are optional and can be skipped.
 
-Dataframe is able to automatically detect the correct separator and the type of each column. Of course, it is possible that the detection may fail but such probability is fairly low in many cases. Technically, Dataframe first tries a set of predefined separator to see which one can correctly separate the columns, then it tries a sequence of types to find out which one is able to correctly unpack the elements of a column.
+Dataframe is able to automatically detect the correct separator and the type of each column. Of course, it is possible that the detection mechanism fails but such probability is fairly low in many cases. Technically, Dataframe first tries a set of predefined separators to see which one can correctly separate the columns, then it tries a sequence of types to find out which one is able to correctly unpack the elements of a column.
 
 There are several technical things worth mentioning here.
 
