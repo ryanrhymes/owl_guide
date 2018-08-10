@@ -94,7 +94,7 @@ Vectorised Math Operations
    :align: center
    :alt: abs
 
-.. figure:: ../figure/perf/op_eval8.png
+.. figure:: ../figure/perf/op_eval18.png
    :width: 100%
    :align: center
    :alt: copy
@@ -119,7 +119,7 @@ Vectorised Math Operations
    :align: center
    :alt: pow
 
-.. figure:: ../figure/perf/op_eval7.png
+.. figure:: ../figure/perf/op_eval17.png
    :width: 100%
    :align: center
    :alt: min2
@@ -129,10 +129,11 @@ Vectorised Math Operations
    :align: center
    :alt: hypot
 
-.. figure:: ../figure/perf/op_eval9.png
+.. figure:: ../figure/perf/op_eval19.png
    :width: 100%
    :align: center
    :alt: fmod
+
 
 We can see that in this group Owl outperforms or achieves similar performance as the other two in most cases, especially for complex computation such as ``log`` and ``sin``.
 
