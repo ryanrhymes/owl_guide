@@ -137,6 +137,8 @@ Vectorised Math Operations
 
 We can see that in this group Owl outperforms or achieves similar performance as the other two in most cases, especially for complex computation such as ``log`` and ``sin``.
 
+One thing is noteworthy is that Owl's ``copy`` function is slower than the other two, this explains why ``add`` operation is slower because the memory operation overhead dominates and the actual computation complexity is low. Owl's ``copy`` operation is implemented with a simple ``for`` loop whereas the other two are heavily optimised with AVX/SSE. Currently, we are working on the same AVX optimisation which is expected to boost the performance of ``copy`` to the same level. We will conduct another separate evaluation with AVX enabled soon.
+
 
 
 Fold and Scan Operations
