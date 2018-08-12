@@ -101,7 +101,7 @@ Alice has modified and uploaded her scripts several times. Each version of her c
 
 The only thing he needs to add is a version id using the parameter ``vid``. The naming scheme of Zoo is designed to be similar with the field-value pair in a RESTful query. Version id can be obtained from a gist's `[revisions page] <https://gist.github.com/9f0892ab2b96f81baacd7322d73a4b08/revisions>`_.
 
-Besides specifying a version, it is also quite possible that Bob prefers to use the newest version Alice provides, whatever its id may be. The problem here is that, how often does Bob need to contact the Gist server to retreat the version information? Every time he runs his code? Well, that might not be a good idea in many cases. Zoo caches gists locally and tends to use the cached code and data instead of keeping downloading them from Gist server.
+Besides specifying a version, it is also quite possible that Bob prefers to use the newest version Alice provides, whatever its id may be. The problem here is that, how often does Bob need to contact the Gist server to retreat the version information? Every time he runs his code? Well, that may not be a good idea in many cases considering the communication overhead and response time. Zoo caches gists locally and tends to use the cached code and data rather than downloading them all the time.
 
 To solve this problem, Zoo provides another parameter in the naming scheme: ``tol``. It is a threshold value that indicates a gist's *tolerance* of the time it exists on the local cache. Any gist that exists on a user's local cache for longer than ``tol`` seconds is deemed outdated and thus requires updating the latest ``vid`` information from the Gist server before being used. For example:
 
