@@ -103,7 +103,7 @@ The only thing he needs to add is a version id using the parameter ``vid``. The 
 
 Besides specifying a version, it is also quite possible that Bob prefers to use the newest version Alice provides, whatever its id may be. The problem here is that, how often does Bob need to contact the Gist server to retreat the version information? Every time he runs his code? Well, that may not be a good idea in many cases considering the communication overhead and response time. Zoo caches gists locally and tends to use the cached code and data rather than downloading them all the time.
 
-To solve this problem, Zoo provides another parameter in the naming scheme: ``tol``. It is a threshold value that indicates a gist's *tolerance* of the time it exists on the local cache. Any gist that exists on a user's local cache for longer than ``tol`` seconds is deemed outdated and thus requires updating the latest ``vid`` information from the Gist server before being used. For example:
+To solve this problem, Zoo provides another parameter in the naming scheme: ``tol``. It is the threshold of a gist's *tolerance* of the time it exists on the local cache. Any gist that exists on a user's local cache for longer than ``tol`` seconds is deemed outdated and thus requires updating the latest ``vid`` information from the Gist server before being used. For example:
 
 .. code-block:: ocaml
 
@@ -113,7 +113,7 @@ To solve this problem, Zoo provides another parameter in the naming scheme: ``to
   let _ = Coolmodule.sqr_magic 4 |> Owl.Mat.print
 
 
-By using the ``tol`` parameter here, Bob indicates that, if Zoo has already fetched the version information of this gist from remote server within the past 300 seconds, then keep using its local cache; otherwise contact the Gist server to check if a newer version is pushed. If so, the newest version is downloaded to local cache before being used. In the case where Bob don't want to miss every single update of Alice's gist code, he can simply set ``tol`` to 0, which means fetching the version information every time he executes his code.
+By setting the ``tol`` parameter to 300, Bob indicates that, if Zoo has already fetched the version information of this gist from remote server within the past 300 seconds, then keep using its local cache; otherwise contact the Gist server to check if a newer version is pushed. If so, the newest version is downloaded to local cache before being used. In the case where Bob don't want to miss every single update of Alice's gist code, he can simply set ``tol`` to 0, which means fetching the version information every time he executes his code.
 
 ``vid`` and ``tol`` parameters enable users to have fine-grained version control of Zoo gists. Of course, these two parameters should not be used together. When ``vid`` is set in a name, the ``tol`` parameter will be ignored. If both are not set, as shown in the previous code snippet, Zoo will use the latest locally cached version if it exists.
 
