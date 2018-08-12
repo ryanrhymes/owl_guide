@@ -48,7 +48,7 @@ Share via Gist
 
 Second, Alice needs to distribute the files in ``myscript`` folder. But how?
 
-The distribution is done via `gist.github.com <https://gist.github.com/>`_, so you must have ``gist`` installed on your computer. E.g., if you use Mac, you can install ``gist`` with ``brew install gist``. Owl provides a simple command line tool to upload the Zoo code snippets. Note that you need to log into your github account for ``gist`` and ``git``.
+The distribution is done via `gist.github.com <https://gist.github.com/>`_, so you must have ``gist`` installed on your computer. E.g., if you use Mac, you can install ``gist`` with ``brew install gist``. Owl provides a simple command line tool to upload the Zoo code snippets. Note that you need to log into your Github account for ``gist`` and ``git``.
 
 .. code-block:: bash
 
@@ -81,7 +81,7 @@ Bob's script is very simple, but there are a couple of things worth pointing out
 3) You may also want to use ``chmod +x bob.ml`` to make the script executable. This is obvious if you are a heavy terminal user.
 
 
-Note that to use ``#zoo`` directive in ``utop`` you need to manually load the ``owl_zoo`` library with ``#require "owl_zoo";;``. Alternatively, you can also load ``owl_top`` using ``#require "owl_top";;`` which is an OCaml toplevel wrapper of Owl.
+Note that to use ``#zoo`` directive in ``utop`` you need to manually load the ``owl-zoo`` library with ``#require "owl-zoo";;``. Alternatively, you can also load ``owl-top`` using ``#require "owl-top";;`` which is an OCaml toplevel wrapper of Owl.
 
 If you want to make ``utop`` load the library automatically by adding this line to ``~/.ocamlinit``.
 
@@ -94,12 +94,28 @@ Alice has modified and uploaded her scripts several times. Each version of her c
 .. code-block:: ocaml
 
   #!/usr/bin/env owl
-  #zoo "9f0892ab2b96f81baacd7322d73a4b08/71261b317cd730a4dbfb0ffeded02b10fcaa5948"
+  #zoo "9f0892ab2b96f81baacd7322d73a4b08?vid=71261b317cd730a4dbfb0ffeded02b10fcaa5948"
 
   let _ = Coolmodule.sqr_magic 4 |> Owl.Mat.print
 
 
-The only thing he needs to add is a version id after the gist bundle id and a slash. Version id can be obtained from the gist's `[revisions page] <https://gist.github.com/9f0892ab2b96f81baacd7322d73a4b08/revisions>`_. If the version id is not specified, as shown in the previous code snippet, the latest version on the Gist server will be used by default.
+The only thing he needs to add is a version id using the parameter ``vid``. The naming scheme of Zoo is designed to be similar with the field-value pair in a RESTful query. Version id can be obtained from a gist's `[revisions page] <https://gist.github.com/9f0892ab2b96f81baacd7322d73a4b08/revisions>`_.
+
+Besides specifying a version, it is also quite possible that Bob prefers to use the newest version Alice provides, whatever its id may be. The problem here is that, how often does Bob need to contact the Gist server to retreat the version information? Every time he runs his code? Well, that may not be a good idea in many cases considering the communication overhead and response time. Zoo caches gists locally and tends to use the cached code and data rather than downloading them all the time.
+
+To solve this problem, Zoo provides another parameter in the naming scheme: ``tol``. It is the threshold of a gist's *tolerance* of the time it exists on the local cache. Any gist that exists on a user's local cache for longer than ``tol`` seconds is deemed outdated and thus requires updating the latest ``vid`` information from the Gist server before being used. For example:
+
+.. code-block:: ocaml
+
+  #!/usr/bin/env owl
+  #zoo "9f0892ab2b96f81baacd7322d73a4b08?tol=300"
+
+  let _ = Coolmodule.sqr_magic 4 |> Owl.Mat.print
+
+
+By setting the ``tol`` parameter to 300, Bob indicates that, if Zoo has already fetched the version information of this gist from remote server within the past 300 seconds, then keep using its local cache; otherwise contact the Gist server to check if a newer version is pushed. If so, the newest version is downloaded to local cache before being used. In the case where Bob don't want to miss every single update of Alice's gist code, he can simply set ``tol`` to 0, which means fetching the version information every time he executes his code.
+
+``vid`` and ``tol`` parameters enable users to have fine-grained version control of Zoo gists. Of course, these two parameters should not be used together. When ``vid`` is set in a name, the ``tol`` parameter will be ignored. If both are not set, as shown in the previous code snippet, Zoo will use the latest locally cached version if it exists.
 
 
 Command Line Tool
@@ -124,7 +140,7 @@ That's all. Zoo system is not complicated at all. There will be more features to
     owl -help                         print out help information
 
 
-Note that both ``run`` and ``info`` commands accept a full gist name in the format of ``gist-id/version-id``. If the version id is not specified, the latest version on the Gist server will be used by default.
+Note that both ``run`` and ``info`` commands accept a full gist name that can contain extra parameters, instead of only a gist id.
 
 
 Examples
@@ -137,3 +153,20 @@ Moreover, many interesting examples are also built atop of Zoo system.
 * `Google Inception V3 for Image Classification <https://gist.github.com/jzstark/9428a62a31dbea75511882ab8218076f>`_
 
 * `Neural Style Transfer <https://gist.github.com/jzstark/6f28d54e69d1a19c1819f52c5b16c1a1>`_
+
+* `Fast Neural Style Transfer <https://gist.github.com/jzstark/f937ce439c8adcaea23d42753f487299>`_
+
+For example, you can use Zoo to perform DNN-based image classification in only 6 lines of code:
+
+.. code-block:: ocaml
+
+  #!/usr/bin/env owl
+  #zoo "9428a62a31dbea75511882ab8218076f"
+
+  let _ =
+    let image  = "/path/to/your/image.png" in
+    let labels = InceptionV3.infer image in
+    InceptionV3.to_json ~top:5 labels
+
+
+Please refer to the gist pages listed above and the `zoo demo website <http://138.68.155.178/index.html>`_ for more information.
