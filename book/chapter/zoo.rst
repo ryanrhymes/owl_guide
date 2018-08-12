@@ -55,7 +55,7 @@ The distribution is done via `gist.github.com <https://gist.github.com/>`_, so y
   owl -upload myscript
 
 
-The ``owl -upload`` command simply uploads all the files in ``myscript`` as a bundle to your `gist.github.com <https://gist.github.com/>`_ page. The command also prints out the url after a successful upload. In our case, you can check the updated bundle on `[this page] <https://gist.github.com/9f0892ab2b96f81baacd7322d73a4b08>`_.
+The ``owl -upload`` command simply uploads all the files in ``myscript`` as a bundle to your `gist.github.com <https://gist.github.com/>`_ page. The command also prints out the url after a successful upload. In our case, you can check the updated bundle on `this page <https://gist.github.com/9f0892ab2b96f81baacd7322d73a4b08>`_.
 
 
 
@@ -99,7 +99,7 @@ Alice has modified and uploaded her scripts several times. Each version of her c
   let _ = Coolmodule.sqr_magic 4 |> Owl.Mat.print
 
 
-The only thing he needs to add is a version id using the parameter ``vid``. The naming scheme of Zoo is designed to be similar with the field-value pair in a RESTful query. Version id can be obtained from a gist's `[revisions page] <https://gist.github.com/9f0892ab2b96f81baacd7322d73a4b08/revisions>`_.
+The only thing he needs to add is a version id using the parameter ``vid``. The naming scheme of Zoo is designed to be similar with the field-value pair in a RESTful query. Version id can be obtained from a gist's `revisions page <https://gist.github.com/9f0892ab2b96f81baacd7322d73a4b08/revisions>`_.
 
 Besides specifying a version, it is also quite possible that Bob prefers to use the newest version Alice provides, whatever its id may be. The problem here is that, how often does Bob need to contact the Gist server to retreat the version information? Every time he runs his code? Well, that may not be a good idea in many cases considering the communication overhead and response time. Zoo caches gists locally and tends to use the cached code and data rather than downloading them all the time.
 
