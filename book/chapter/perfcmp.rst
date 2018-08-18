@@ -159,7 +159,7 @@ Fold and scan operations share the similar interface. They both have an axis par
 
 A fold function, or "reduction" function as is called in some other numerical libraries, reduces one dimension of a ndarray to one, and accumulates the value along that dimension according to the applied calculation. Scan functions are similar, only that they do not change the shape of input. 
 
-In this part we choose the widely used maximum, summation, and multiplication calculations for both.
+In this part we choose the widely used maximum, summation, and multiplication calculations for both. Besides folding along one axis, we also include the ``sum_reduce`` operation for summation along multiple axes.
 
 .. figure:: ../figure/perf/op_eval23.png
    :width: 100%
@@ -185,6 +185,11 @@ In this part we choose the widely used maximum, summation, and multiplication ca
    :width: 100%
    :align: center
    :alt: cumprod
+
+.. figure:: ../figure/perf/op_eval36.png
+   :width: 100%
+   :align: center
+   :alt: sum_reduce
 
 For fold and scan operations, except for ``max``, Owl operations are not the fastest. The performance varies for different computations.
 Similar to vectorised math operations, the fold functions of Numpy and Julia also utilise AVX/SSE to boost the performance, while in Owl they are implemented as simple ``for`` loops with varied strides. This explains the performance gap for ``sum`` and ``prod``.
