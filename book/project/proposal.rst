@@ -121,10 +121,10 @@ Another focus is to further develop data visualisation component in Owl. The alg
 
 
 
-Project 12. NNEF Converter of Neural Networks
+Project 12. Neural Network Exchange Format
 -------------------------------------------------------------------------------
 
-This project aims to develop the functionality which can converts Owl's neural network definition into NNEF format. NNEF is the open standard for defining the graph structure of neural networks, independent from different deeplearning frameworks. OpenVX and NNEF together reduce the hassles of deploying DNN-based services on various inference engines.
+This project aims to develop the functionality which can converts Owl's neural network definition into NNEF format. NNEF is a newly proposed open standard in industry for defining the graph structure of neural networks, independent from different deep learning frameworks. OpenVX and NNEF together reduce the hassles of deploying DNN-based services on various inference engines.
 
 Refer to
 
