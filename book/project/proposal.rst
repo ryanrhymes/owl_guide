@@ -120,13 +120,26 @@ This project uses Owl as its underlying numerical platform and focusses on devel
 Another focus is to further develop data visualisation component in Owl. The algorithms of interest range from the basic plots used in classic statistical analysis such as qqplot to the state-of-the-art visualisation techniques such as t-SNE to visualise high-dimensional data. If you are interested in data processing and visualisation, please contact me.
 
 
+
 Project 12. A Parliament of Owls on Cloud
+-------------------------------------------------------------------------------
+
+This project aims to develop the functionality which can converts Owl's neural network definition into NNEF format. NNEF is the open standard for defining the graph structure of neural networks, independent from different deeplearning frameworks. OpenVX and NNEF together reduce the hassles of deploying DNN-based services on various inference engines.
+
+Refer to
+
+* `Khronos OpenVX <https://www.khronos.org/openvx/>`_
+* `Khronos NNEF <https://www.khronos.org/nnef/>`_
+
+
+
+Project 13. A Parliament of Owls on Cloud
 -------------------------------------------------------------------------------
 
 TODO: Add description .... design and implement the cloud version of Owl.
 
 
-Project 13. Web GUI of Owl
+Project 14. Web GUI of Owl
 -------------------------------------------------------------------------------
 
 TODO: Add description .... design and implement the web GUI for Owl.
