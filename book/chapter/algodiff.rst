@@ -3,7 +3,9 @@ Algorithmic Differentiation
 
 Algorithmic differentiation (AD) is also known as automatic differentiation. It is a powerful tool in many fields, especially useful for fast prototyping in machine learning research. Comparing to numerical differentiation which can only provides approximate results, AD can calculates the exact derivative of a given function.
 
-Owl provides both numerical differentiation (in `Numdiff.Generic <https://github.com/ryanrhymes/owl/blob/ppl/src/base/optimise/owl_numdiff_generic.mli>`_ module) and algorithmic differentiation (in `Algodiff.Generic <https://github.com/ryanrhymes/owl/blob/ppl/src/base/optimise/owl_algodiff_generic.mli>`_ module). In this chapter, I will only go through AD module since ``Numerical`` module is trivial to use.
+Owl provides both numerical differentiation (in `Numdiff.Generic <https://github.com/ryanrhymes/owl/blob/ppl/src/base/optimise/owl_numdiff_generic.mli>`_ module) and algorithmic differentiation (in `Algodiff.Generic <https://github.com/ryanrhymes/owl/blob/ppl/src/base/optimise/owl_algodiff_generic.mli>`_ module). The core nested automatic differentiation algorithm and the differentiation API have been ported to Owl from `DiffSharp <http://diffsharp.github.io/DiffSharp/>`_. Some of the examples below are also adapted from the DiffSharp website.
+
+In this chapter, I will only go through AD module since ``Numerical`` module is trivial to use.
 
 
 
