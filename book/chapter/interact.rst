@@ -190,7 +190,7 @@ The usage is straightforward, you simply visit `Sketch.sh <https://sketch.sh/>`_
 
 
 .. figure:: ../figure/sketch_example_01.png
-   :scale: 50 %
+   :scale: 70 %
    :align: center
    :alt: sketch example 01
 
