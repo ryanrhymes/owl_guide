@@ -43,6 +43,7 @@ base/core/owl_exception.mli | base/core/owl_exception.ml | Exception
 base/misc/owl_utils_heap.mli | base/misc/owl_utils_heap.ml | Utils.Heap
 base/misc/owl_utils_stack.mli | base/misc/owl_utils_stack.ml | Utils.Stack
 base/misc/owl_utils_array.mli | base/misc/owl_utils_array.ml | Utils.Array
+base/misc/owl_utils_multimap.mli | base/misc/owl_utils_multimap.ml | Utils.Multimap
 owl/ppl/owl_distribution.mli | owl/ppl/owl_distribution.ml | Distribution Functor
 owl/nlp/owl_nlp_vocabulary.mli | owl/nlp/owl_nlp_vocabulary.ml | NLP.Vocabulary
 owl/nlp/owl_nlp_corpus.mli | owl/nlp/owl_nlp_corpus.ml | NLP.Corpus
