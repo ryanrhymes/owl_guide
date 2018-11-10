@@ -22,7 +22,7 @@ cambridge:
 	# kinit lw525@AD.CL.CAM.AC.UK
 	scp -o GSSAPIAuthentication=yes -r book/_build/html/* lw525@slogin-serv.cl.cam.ac.uk:~/public_html/owl/
 publish:
-	git commit -am "edit ..." && git push origin master || true
+	-git commit -am "edit ..." && git push origin master
 	@if test ! -d ${BARN_DIR}; then mkdir -p ${BARN_DIR} && git clone ${BARN_URL} ${BARN_DIR}; else cd ${BARN_DIR} && git pull origin master; fi
 	cp -r ${ROOT}book/_build/html/* ${BARN_DIR}
 	-cd ${BARN_DIR} && git commit -am "update doc by script ..." && git push origin master
