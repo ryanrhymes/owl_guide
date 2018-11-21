@@ -58,7 +58,7 @@ Data analytics on the cloud is known to have issues such as increased response l
 
 Computer Vision & Performance Optimisation of Computation Graph
 ---------------------------------------------------------------
-By **Pierre Vandenhove** | MSc | October 2018 | `{Github} <https://github.com/pvdhove/owl-mask-rcnn>`_
+By **Pierre Vandenhove** | MSc | October 2018 | `{MRCNN Github} <https://github.com/owlbarn/owl-mask-rcnn>`_
 
 [Work in Progress] Computer vision tasks are known to be highly computationally-heavy, both performance-wise and memory-wise. They are thus especially relevant to put a numerical framework such as Owl to the test. The first part of this project focuses on the implementation of several computer vision applications using Owl's neural network library. The first such application is Microsoft's 'ResNet' network to perform simple image classification (`paper 1512.03385 <https://arxiv.org/abs/1512.03385>`_, `Resnet implementation in Owl <https://github.com/pvdhove/owl-resnet>`_). The second, more extensive one, is 'Mask R-CNN', which is one of the leading networks to perform object detection, segmentation and classification (`paper 1703.06870 <https://arxiv.org/abs/1703.06870>`_, `MRCNN implementation <https://github.com/pvdhove/owl-mask-rcnn>`_). This allowed exemplifying some use cases to improve Owl's flexibility and ease of use, as well as add some necessary operations.
 
@@ -66,9 +66,9 @@ These applications are valuable benchmarking tools to identify bottlenecks and g
 
 
 
-The Design of Dataframe for Tabluar Data
+Automatic Parameter Tuning for OpenMP
 -------------------------------------------------
 
-By **Liang Wang** | PhD | June 2018 | `{Techreport 02} <https://ocaml.xyz>`_
+By **Jianxin Zhao** | PhD | November 2018 | `{AEOS Github} <https://github.com/owlbarn/owl/tree/master/src/aeos>`_ | `{Thesis} <http://ocaml.xyz>`_
 
-TODO: Add description
+Automatic Empirical Optimisation of Software (AEOS) is crucial for high performance computing software. It is a methodology to generate optimised software using empirically tuned parameters. As an initial attempt to improve the performance of Owl with it, we build the AEOS module to tune the OpenMP parameters in Owl. OpenMP is an application programming interface that supports multi-platform shared memory multiprocessing programming. It is used in Owl to boost performance of basic operations. However, using OpenMP brings certain overhead, so that when the size of input data is small, or the operation is simple, the non-OpenMP version operation might be faster. Thus an optimal threshold varies for different operations and machines. In the AEOS module, each operation is abstracted as a stand-alone module, and uses linear regression to find this optimal threshold. Compared with the previous practice of set a single threshold for all OpenMP operations, using AEOS module further improves their performance. The AEOS module is designed in such way that extending it to accommodate more parameters or operations should be easy.
