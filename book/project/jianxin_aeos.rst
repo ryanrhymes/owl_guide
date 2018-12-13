@@ -16,7 +16,7 @@ That is, a library choose the best method and parameter to use on a given archit
 For example, for linear algebra routines, highly optimised code runs magnitude faster than a naively coded routine.
 Naturally, optimised code are usually platform- and hardware-specific. An optimised routine on one machine usually performs bad on the other.
 
-Though `Owl <http://ocaml.xyz/>`_  currently does not plan to improve the performance of the low-level libraries it depends on, as an initial endeavour to apply such paradigm in Owl, one good target is the parameters of *OpenMP*.
+Though `Owl <http://ocaml.xyz/>`_  currently does not plan to improve the performance of the low-level libraries it depends on, as an initial endeavour to apply such paradigm in Owl, one suitable tuning target is the parameters of *OpenMP* used in Owl.
 
 Many current generic computers contains shared memory multiprocessors.
 OpenMP is an application programming interface that supports multi-platform shared memory multiprocessing programming in C or Fortran, supported on a plethora of hardware and software platforms.
@@ -52,10 +52,10 @@ Note that the effect of using the tuned parameters depends on the input sizes, a
 Therefore, one metric to measure the difference of two thresholds can be calculated in such way: we generate a series of ndarray, whose sizes grow by certain steps until they reach a given maximum number; for each size that falls between these two thresholds, we calculate the performance improvement ratio of the OpenMP version function over the non-OpenMP version. The ratios are added up, and then amortised by the total number of generated ndarrays.
 Hereafter we use this averaged ratio as performance metric.
 
-Here is the evaluation of a selective operations on a MacBook with a 1.1Ghz Intel Core m3 CPU.
+The figure belows shows the evaluation of a selective operations on a MacBook with a 1.1Ghz Intel Core m3 CPU.
 We compare each generated parameter with 30 random generated thresholds. These measured average ratios are then presented as a box plot.
 It can be observed that in general more than 20\% average performance improvement can be expected.
-Besides, the tuned threshold values vary greatly across different operations and different machines, depending on their computation complexity. 
+Besides, the tuned threshold values vary greatly across different operations and different machines, depending on their computation complexity.
 
 
 .. figure:: ../figure/owl_aeos_perf_mac.png
