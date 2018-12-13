@@ -21,7 +21,15 @@ Though `Owl <http://ocaml.xyz/>`_  currently does not plan to improve the perfor
 Many current generic computers contains shared memory multiprocessors.
 OpenMP is an application programming interface that supports multi-platform shared memory multiprocessing programming in C or Fortran, supported on a plethora of hardware and software platforms.
 Owl has already utilized OpenMP on many key math operations to boost their performance by threading calculation.
-For example, when we apply the :math:`sin` function on a N-Dimensional Array (ndarray) in Owl, on my MacBook the OpenMP version only takes about a third of that of the non-OpenMP version in executing time.
+
+For example, the figure below shows that when we apply the :math:`sin` function on a N-Dimensional Array (ndarray) in Owl, on my 4-core CPU MacBook, the OpenMP version only takes about a third of the execution time compared with the non-OpenMP version.
+
+
+.. figure:: ../figure/owl_aeos_sin_perf_mac.png
+   :width: 80%
+   :align: center
+   :alt: omp_sin
+
 
 However, as is often the case, performance improvement does not come for free.
 Overhead of using OpenMP comes from time spent on scheduling chunks of work to each thread, managing locks on critical sections, and startup time that creates threads, etc.
