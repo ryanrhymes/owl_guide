@@ -38,7 +38,7 @@ Therefore, when the input ndarray is small enough, or the calculation is simple 
 The question is thus to choose whether to use.
 
 
-Why simple solution does not work
+Why hard-coded threshold value won't work
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Simply setting a fixed value for all the operations are inefficient, since the `complexity of math operations <https://en.wikipedia.org/wiki/Computational_complexity_of_mathematical_operations>`_ varies greatly, and the difference is even starker when compare their performance on different machines.
