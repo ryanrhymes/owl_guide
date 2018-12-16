@@ -107,8 +107,10 @@ Evaluation
 
 To evaluate the performance of tuned OpenMP thresholds parameters, we need a metric to compare two thresholds.
 Note that the effect of using the tuned parameters depends on the input sizes, and given two thresholds, any input ndarray of size that smaller than the smaller threshold or larger than the larger threshold can be considered not affected.
+
 Therefore, one metric to measure the difference of two thresholds can be calculated in such way: we generate a series of ndarray, whose sizes grow by certain steps until they reach a given maximum number; for each size that falls between these two thresholds, we calculate the performance improvement ratio of the OpenMP version function over the non-OpenMP version. The ratios are added up, and then amortised by the total number of generated ndarrays.
 Hereafter we use this averaged ratio as performance metric.
+
 
 +------------------+---------------------+------------------------------------------+------------------------+---------------------+
 | Platform     | :math:`tan` | :math:`sqrt` | :math:`sin` | :math:`exp` | :math:`sigmoid`|
@@ -117,6 +119,7 @@ Hereafter we use this averaged ratio as performance metric.
 +------------------+---------------------+------------------------------------------+------------------------+---------------------+
 | Raspberry Pi | 1189        | 209          | 41          | 0           | 0              |
 +------------------+---------------------+------------------------------------------+------------------------+---------------------+
+
 
 The above table shows the parameters that are tuned and used in the evaluation. We can see that they vary greatly across different operations and different machines, depending on their computation complexity.
 
