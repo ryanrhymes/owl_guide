@@ -44,9 +44,6 @@ Why simple solution does not work
 Simply setting a fixed value for all the operations are inefficient, since the `complexity of math operations <https://en.wikipedia.org/wiki/Computational_complexity_of_mathematical_operations>`_ varies greatly, and the difference is even starker when compare their performance on different machines.
 (The previous practice of using a fixed value for all operations leads to performance deterioration.)
 
-The figure below shows one example.
-(Eval graphs crosspoint)
-
 This issue becomes more complex when considered in real applications.
 We know that even the most advanced neural network application can be disassembled into basic math operations.
 `This example <https://gist.github.com/jzstark/17af84423b15b53704ecdc53b48f34b9>`_  shows a simplified function to compute cost and perform backward propagations in a two-layer neural network which can be trained to recognise hand-written digits.
@@ -113,10 +110,15 @@ Note that the effect of using the tuned parameters depends on the input sizes, a
 Therefore, one metric to measure the difference of two thresholds can be calculated in such way: we generate a series of ndarray, whose sizes grow by certain steps until they reach a given maximum number; for each size that falls between these two thresholds, we calculate the performance improvement ratio of the OpenMP version function over the non-OpenMP version. The ratios are added up, and then amortised by the total number of generated ndarrays.
 Hereafter we use this averaged ratio as performance metric.
 
-The figure belows shows the evaluation of a selective operations on a MacBook with a 1.1Ghz Intel Core m3 CPU and a Raspberry Pi 3B.
-We compare each generated parameter with 30 random generated thresholds. These measured average ratios are then presented as a box plot.
-It can be observed that in general more than 20\% average performance improvement can be expected on the Mac.
-The result on Raspberry Pi shows a larger deviation but also a slightly higher performance gain (about 30\%).
++------------------+---------------------+------------------------------------------+------------------------+---------------------+
+| Platform     | :math:`tan` | :math:`sqrt` | :math:`sin` | :math:`exp` | :math:`sigmoid`|
++------------------+---------------------+------------------------------------------+------------------------+---------------------+
+| MacBook      | 1632        | max_int      | 1294        | 123         | 1880           |
++------------------+---------------------+------------------------------------------+------------------------+---------------------+
+| Raspberry Pi | 1189        | 209          | 41          | 0           | 0              |
++------------------+---------------------+------------------------------------------+------------------------+---------------------+
+
+The above table shows the parameters that are tuned and used in the evaluation. We can see that they vary greatly across different operations and different machines, depending on their computation complexity.
 
 
 .. figure:: ../figure/owl_aeos_perf.png
@@ -124,9 +126,11 @@ The result on Raspberry Pi shows a larger deviation but also a slightly higher p
    :align: center
    :alt: aeos mac
 
-The tuned threshold values vary greatly across different operations and different machines, depending on their computation complexity.
 
-(table)
+The figure above shows the evaluation of a selective operations on a MacBook with a 1.1Ghz Intel Core m3 CPU and a Raspberry Pi 3B.
+We compare each generated parameter with 30 random generated thresholds. These measured average ratios are then presented as a box plot.
+It can be observed that in general more than 20\% average performance improvement can be expected on the Mac.
+The result on Raspberry Pi shows a larger deviation but also a slightly higher performance gain (about 30\%).
 
 
 What’s next?
