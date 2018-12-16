@@ -20,7 +20,7 @@ Use OpenMP to boost computation
 -----------------------------------------------------
 
 Many current generic computers contains shared memory multiprocessors.
-`OpenMP<https://www.openmp.org/>`_ is an application programming interface that supports multi-platform shared memory multiprocessing programming in C or Fortran, supported on a plethora of hardware and software platforms.
+`OpenMP <https://www.openmp.org/>`_ is an application programming interface that supports multi-platform shared memory multiprocessing programming in C or Fortran, supported on a plethora of hardware and software platforms.
 Owl has already utilized OpenMP on many key math operations to boost their performance by threading calculation.
 
 For example, the figure below shows that when we apply the :math:`sin` function on a N-Dimensional Array (ndarray) in Owl, on my 4-core CPU MacBook, the OpenMP version only takes about a third of the execution time compared with the non-OpenMP version.
@@ -38,7 +38,7 @@ Therefore, when the input ndarray is small enough, or the calculation is simple 
 The question is thus to choose whether to use.
 
 
-Why normal solutions does not work
+Why simple solution does not work
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Simply setting a fixed value for all the operations are inefficient, since the `complexity of math operations <https://en.wikipedia.org/wiki/Computational_complexity_of_mathematical_operations>`_ varies greatly, and the difference is even starker when compare their performance on different machines.
@@ -49,11 +49,9 @@ The figure below shows one example.
 
 This issue becomes more complex when considered in real applications.
 We know that even the most advanced neural network application can be disassembled into basic math operations.
-`This example<https://gist.github.com/jzstark/17af84423b15b53704ecdc53b48f34b9>`_  shows a simplified function to compute cost and perform backward propagations in a two-layer neural network which can be trained to recognise hand-written digits.
+`This example <https://gist.github.com/jzstark/17af84423b15b53704ecdc53b48f34b9>`_  shows a simplified function to compute cost and perform backward propagations in a two-layer neural network which can be trained to recognise hand-written digits.
 No fancy functions used, only basic ones such as :math:`add`, :math:`mul`, :math:`sigmoid`, :math:`slice`, etc., and thus are affected by OpenMP.
 In such a moderately complex application, one operation may need to deal with different sizes of input dynamically.
-
-( Table here to support: on Mac. on rPi. Simple eval. )
 
 Considering these factors, we need a operation-level fine-tuned solution.
 
@@ -70,36 +68,34 @@ The design of this module focuses on keeping tuning simple, effective, and flexi
 First, the tuning phase should be executed before compiling Owl.
 Therefore, the AEOS module should be made independent of Owl, and all the necessary implementation, including math function, regression, utilities etc. are implemented separately to ensure that future changes of Owl do not affect the AEOS module.
 
-Why do I need single module (with example)
-
 Second, each operation is implemented as a single OCaml module, so that support for new operations can be easily added. The interface of a module is shown as below:
 
 
 .. code-block:: ocaml
 
-module Sin = struct
-  type t = {
-    mutable name  : string;
-    mutable param : string;
-    mutable value : int;
-    mutable input : int array array;
-    mutable y     : float array
-  }
-  (** Tuner type definition. *)
+  module Sin = struct
+    type t = {
+      mutable name  : string;
+      mutable param : string;
+      mutable value : int;
+      mutable input : int array array;
+      mutable y     : float array
+    }
+    (** Tuner type definition. *)
 
-  val make : unit -> t
-  (** Create the tuner. *)
+    val make : unit -> t
+    (** Create the tuner. *)
 
-  let tune : t -> unit
-  (** Tuning process. *)
+    let tune : t -> unit
+    (** Tuning process. *)
 
-  let save_data : t -> unit
-  (** Save tuned data to csv file for later analysis. *)
+    let save_data : t -> unit
+    (** Save tuned data to csv file for later analysis. *)
 
-  let to_string t -> string
-  (** Convert the tuned paramter(s) to string to be written on file *)
+    let to_string t -> string
+    (** Convert the tuned paramter(s) to string to be written on file *)
 
-end
+  end
 
 
 We expect that tuning does not have to be only about OpenMP parameters, and that different regression methods could be used in the future.
