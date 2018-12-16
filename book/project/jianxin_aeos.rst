@@ -112,13 +112,13 @@ Therefore, one metric to measure the difference of two thresholds can be calcula
 Hereafter we use this averaged ratio as performance metric.
 
 
-+--------------+-------------+--------------+-------------+-------------+----------------------+
++--------------+-------------+--------------+-------------+-------------+-----------------+
 | Platform     | :math:`tan` | :math:`sqrt` | :math:`sin` | :math:`exp` | :math:`sigmoid`|
-+--------------+-------------+--------------+-------------+-------------+----------------------+
++--------------+-------------+--------------+-------------+-------------+-----------------+
 | MacBook      | 1632        | max_int      | 1294        | 123         | 1880           |
-+--------------+-------------+--------------+-------------+-------------+----------------------+
++--------------+-------------+--------------+-------------+-------------+-----------------+
 | Raspberry Pi | 1189        | 209          | 41          | 0           | 0              |
-+--------------+-------------+--------------+-------------+-------------+----------------------+
++--------------+-------------+--------------+-------------+-------------+-----------------+
 
 
 The above table shows the parameters that are tuned and used in the evaluation. We can see that they vary greatly across different operations and different machines, depending on their computation complexity.
@@ -133,7 +133,7 @@ The above table shows the parameters that are tuned and used in the evaluation. 
 The figure above shows the evaluation of a selective operations on a MacBook with a 1.1Ghz Intel Core m3 CPU and a Raspberry Pi 3B.
 We compare each generated parameter with 30 random generated thresholds. These measured average ratios are then presented as a box plot.
 It can be observed that in general more than 20\% average performance improvement can be expected on the Mac.
-The result on Raspberry Pi shows a larger deviation but also a slightly higher performance gain (about 30\%). 
+The result on Raspberry Pi shows a larger deviation but also a slightly higher performance gain (about 30\%).
 
 
 What’s next?
