@@ -4,7 +4,7 @@ Automated Empirical Optimisation of Parameters in Owl
 by Jianxin Zhao
 
 
-Recent research on *parameter tuning* mostly focus on hyper-parameter tuning, such as optimising the parameters of stochastic gradient in machine learning applications.
+For numerical software, its parameters siginifcantly affet the performance. Recent research on *parameter tuning* mostly focus on hyper-parameter tuning, such as optimising the parameters of stochastic gradient in machine learning applications.
 However, tuning code and parameters in low-level numerical libraries is of the same importance.
 `ATLAS <http://math-atlas.sourceforge.net/>`_ and the recent `Intel Math Kernel Library <https://software.intel.com/mkl>`_ are both software libraries of optimised math routines for science and engineering computation.
 They are widely used in many popular high-level platforms such as Matlab and  TensorFlow.
